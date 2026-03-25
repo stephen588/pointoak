@@ -4,7 +4,6 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import PageHero from "@/components/PageHero";
 import CTASection from "@/components/CTASection";
-import Footer from "@/components/Footer";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
 
 export const metadata: Metadata = {
@@ -510,7 +509,6 @@ export default function AboutPage() {
 
       {/* CTA */}
       <CTASection />
-      <Footer />
     </>
   );
 }
