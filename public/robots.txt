@@ -1,0 +1,13 @@
+# robots.txt for pointoak.com
+# https://www.pointoak.com/robots.txt
+
+User-agent: *
+Allow: /
+
+# Disallow admin and API routes
+Disallow: /admin
+Disallow: /admin/
+Disallow: /api/
+
+# Sitemap location
+Sitemap: https://www.pointoak.com/sitemap.xml
