@@ -1,0 +1,77 @@
+/** @import must precede all other statements */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 199 100% 16.5%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 199 100% 16.5%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 199 100% 16.5%;
+
+    --primary: 199 100% 16.5%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 201 98% 32%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 210 20% 96%;
+    --muted-foreground: 0 0% 44%;
+
+    --accent: 201 98% 32%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214 20% 88%;
+    --input: 214 20% 88%;
+    --ring: 199 100% 16.5%;
+
+    --radius: 0.5rem;
+
+    /* Brand colors */
+    --navy: 199 100% 16.5%;
+    --blue-accent: 201 98% 32%;
+    --text-gray: 0 0% 44%;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Outfit', -apple-system, Roboto, Helvetica, sans-serif;
+  }
+
+  :where(p, span, li, h1, h2, h3, h4, h5, h6, a, button, label, td, th) {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    font-family: 'Outfit', -apple-system, Roboto, Helvetica, sans-serif;
+  }
+
+  pre,
+  code {
+    overflow-x: auto;
+    white-space: pre;
+  }
+}

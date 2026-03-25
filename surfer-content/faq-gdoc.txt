@@ -1,0 +1,82 @@
+FAQ
+=== TECHNICAL SEO SETTINGS ===
+URL: /faq/
+Meta title: Retirement Plan FAQs for Plan Sponsors | PointOak Advisors
+Meta description: Get answers to common retirement plan questions about fiduciary compliance, investment management, fee benchmarking, and plan design. Speak with a specialist.
+Schema markup needed: FAQPage + Organization + BreadcrumbList
+Frequently Asked Questions
+About PointOak Retirement Advisors
+What makes PointOak different from other retirement plan advisors?
+PointOak is a retirement plan specialist, not a generalist. We've been wholly focused on the retirement plan industry since day one, and we generate over 90% of our revenue from working with corporate retirement plans. That level of dedication means you're getting advisors who live and breathe this work every day, not a team that treats retirement plans as a side business.
+We're also independently owned and operated, so our advice isn't driven by any outside considerations or pressure to push proprietary products from a parent company. Every recommendation we make is based solely on what's best for you and your employees. Learn more about our team on our About Us page.
+Where is PointOak located, and what areas do you serve?
+Our office is located at 1751 Pinnacle Drive, Suite 600, in McLean, Virginia. While we're based in the Washington, D.C. metro area, we serve plan sponsors nationwide across the United States.
+What types of companies does PointOak work with?
+We work with mid-sized to large organizations that sponsor corporate retirement plans, including 401(k) programs. Our clients range across all industries, and we serve plan sponsors, CFOs, HR directors, benefits administrators, and Investment Committee members who want specialized guidance for their retirement plans.
+________________
+
+
+Fiduciary Services
+What is a fiduciary, and why does it matter for my retirement plan?
+A fiduciary is someone who is legally obligated to act in the best interests of your plan's participants. Under ERISA, plan sponsors have fiduciary duties that carry personal liability. If you're not meeting those obligations, you and your organization could face penalties, lawsuits, or DOL enforcement actions.
+That's where we come in. PointOak's advisors are registered and act as named fiduciaries under ERISA, helping to protect you from liability while making sure your plan stays compliant. You can explore our full approach on our Fiduciary Support page.
+What is the difference between a 3(21) and 3(38) fiduciary?
+These are two distinct fiduciary roles defined under ERISA:
+         * 3(21) Co-Fiduciary: We provide recommendations and guidance on investment decisions, but you (the plan sponsor) retain final decision-making authority.
+         * 3(38) Investment Manager: We take on discretionary authority for selecting and monitoring your plan's investments, assuming direct responsibility for those decisions.
+Both roles provide meaningful liability protection. The right fit depends on how much involvement you want in the investment decision-making process. We work with you to determine which structure best suits your plan's needs.
+What is a Virtual 401(k) Fiduciary File?
+It's a digital documentation system we maintain for every client. We document all processes, procedures, meetings, and decisions related to your retirement plan. If you're ever audited by the DOL, this file serves as your paper trail, showing that you followed a prudent, well-documented process in managing your plan.
+________________
+
+
+Investment Management
+How does PointOak evaluate investments?
+We use a proprietary 10-point pass/fail scoring system that evaluates investment managers across multiple factors, including fund style, risk-adjusted returns, peer group rankings, fund manager tenure, and expense ratios. Our methodology is used to evaluate over $120 billion in retirement plan assets every quarter.
+We conduct quarterly investment monitoring and provide clear, actionable reports so you and your Investment Committee can make informed decisions. Visit our Investment Analysis page for a closer look at how this process works.
+What is an Investment Policy Statement (IPS)?
+An IPS is a written document that outlines your plan's investment objectives, guidelines, and the criteria used to select and monitor investments. Think of it as the rulebook for your plan's investment decisions. It helps your Investment Committee stay disciplined and provides documentation that supports your fiduciary obligations.
+We help draft and maintain your IPS as part of our investment analysis services.
+What are target date funds, and how do you evaluate them?
+Target date funds (TDFs) are investment options that automatically adjust their asset allocation as participants approach retirement age. They've become the most common default investment option in retirement plans, but not all TDFs are built the same.
+Our TDF consulting process includes a multi-step suitability and selection analysis. We evaluate participant demographics, compare glide path strategies ("to" retirement vs. "through" retirement), review fund fees and share classes, and assess historical performance. The goal is to make sure your TDF selection is truly aligned with your participants' characteristics. Learn more on our Target Date Fund Consulting page.
+________________
+
+
+Fees and Benchmarking
+How often should we benchmark our retirement plan?
+The DOL requires that plans be benchmarked at least every three years to determine reasonableness of fees. However, we recommend annual benchmarking to stay ahead of market changes and maintain leverage with your current provider.
+What is PointOak's benchmarking process?
+We conduct custom "Live Bid" benchmarking studies that use your actual plan information rather than average plan demographics. Each study reviews over 450 data points per bidder across three key areas: fees, investments, and services. This approach gives you a far more accurate picture of how your plan stacks up than standard industry benchmarks.
+The results give you the ammunition to renegotiate better fees or services with your current provider, or to make a well-informed provider switch if needed. Visit our Provider & Fee Benchmarking page for details.
+How do I know if my plan's fees are reasonable?
+That's a question more plan sponsors should be asking. The truth is, it's hard to know without a proper benchmark. Fees can be buried across multiple layers (recordkeeper fees, investment expenses, advisory fees, and more), and what looks competitive on the surface may not hold up under scrutiny.
+We help you uncover inefficiencies and compare your total plan costs against similar-sized plans in your market. Our goal is that you never pay more than you should.
+________________
+
+
+Plan Design and Employee Education
+Can PointOak help us redesign our retirement plan?
+Absolutely. Many organizations are running cookie-cutter plans that don't reflect their company's unique culture or goals. We review your current plan structure and recommend design changes that can drive better outcomes, such as automatic enrollment, auto-escalation, and simplified investing options.
+We also benchmark your plan design against similar organizations and industry standards so you can see where you stand. Explore our Plan Design services for more.
+What kind of employee education does PointOak provide?
+We offer a range of education and communication programs designed to create a financially savvy workforce. Our licensed securities advisors lead interactive sessions covering topics like debt management, budgeting, and retirement savings strategies. Formats include:
+         * Customized group education sessions (in-person or virtual)
+         * One-on-one consultation sessions for individual retirement account reviews
+         * Live website demonstrations to help employees navigate their plan
+         * Monthly financial newsletters for ongoing engagement
+The goal is to help your employees reach their full retirement savings potential. Learn more about our Education & Communications Programs.
+________________
+
+
+Working with PointOak
+What does the engagement process look like?
+Our approach follows three phases: Analyze, Optimize, and Implement. First, we analyze your current plan structure, fees, investments, and processes to identify areas for improvement. Next, we optimize through strategic recommendations on design, investments, and provider relationships. Then we implement changes and provide ongoing monitoring and support to ensure continued success.
+Every step is documented meticulously to help protect you from liability.
+How do we get started?
+The first step is a conversation. We'll discuss your plan's current situation, your goals, and any concerns you have about fiduciary compliance, fees, investments, or plan design. From there, we'll outline a clear path forward.
+Get In Touch to schedule a consultation, or call us at (703) 595-4444.
+________________
+
+
+Investment advisory services offered through PointOak Retirement Advisors, LLC. This site is published for residents of the United States only. Not all of the products and services referenced on this site are available in every state and through every representative or advisor listed. PointOak Retirement Advisors, LLC does not provide tax or legal advice.
