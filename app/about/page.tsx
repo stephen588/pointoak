@@ -9,11 +9,11 @@ import AnimateOnScroll from "@/components/AnimateOnScroll";
 export const metadata: Metadata = {
   title: "About PointOak Retirement Advisors | Wealth Management & Retirement Planning",
   description:
-    "PointOak Retirement Advisors is a full-service wealth advisory firm specializing in retirement planning and wealth management. Fee-only, independent, Full-Scope Fiduciary since 2013. $1.08B AUM.",
+    "PointOak Retirement Advisors is a full-service wealth advisory firm specializing in retirement planning and wealth management. Fee-only, independent, Fiduciary since 2017. $1.08B AUM.",
   openGraph: {
     title: "About PointOak Retirement Advisors | Wealth Management & Retirement Planning",
     description:
-      "PointOak Retirement Advisors is a full-service wealth advisory firm specializing in retirement planning and wealth management. Fee-only, independent, Full-Scope Fiduciary since 2013. $1.08B AUM.",
+      "PointOak Retirement Advisors is a full-service wealth advisory firm specializing in retirement planning and wealth management. Fee-only, independent, Fiduciary since 2017. $1.08B AUM.",
     url: "https://www.pointoak.com/about/",
     type: "website",
   },
@@ -74,7 +74,7 @@ export default function AboutPage() {
       <PageHero
         breadcrumbs={[{ label: "About Us" }]}
         title="About PointOak Retirement Advisors"
-        subtitle="You've worked hard to build your wealth. You deserve an advisor who works just as hard to protect it, grow it, and make sure it lasts. At PointOak, we serve as your personal financial advocate — cutting through the noise so you can make confident decisions about your financial future."
+        subtitle="You've worked hard to build your wealth. You deserve an advisor who works just as hard to protect it, grow it, and make sure it lasts. At PointOak, we've been a fiduciary since the day we opened our doors, legally obligated to act in your best interest at all times. As an SEC-registered investment advisor, we hold ourselves to the highest standard in the industry so you can make confident decisions about your financial future."
       />
 
       {/* Intro Section */}
@@ -94,11 +94,8 @@ export default function AboutPage() {
               </p>
             </div>
             <div>
-              <p className="font-outfit text-base md:text-lg leading-relaxed text-text-gray mb-6">
-                What makes PointOak different? We bring a dual expertise that few firms can match. Our deep background in corporate retirement plan consulting means we&apos;ve seen thousands of real-world retirement scenarios across every industry. That experience translates directly into smarter retirement income planning, better investment strategies, and a level of insight that generalist advisors simply don&apos;t have.
-              </p>
               <p className="font-outfit text-base md:text-lg leading-relaxed text-text-gray">
-                With three partners, a practice dating back to 2005, and a commitment to serving fewer than 100 clients per advisor, we deliver the kind of high-touch, white-glove service that turns clients into lifelong relationships.
+                What makes PointOak different? We bring a dual expertise that few firms can match. Our deep background in corporate retirement plan consulting means we&apos;ve seen thousands of real-world retirement scenarios across every industry. And our private wealth management practice takes that same institutional-level rigor and applies it directly to your personal financial plan. That experience translates into smarter retirement income planning, better investment strategies, and a level of insight that generalist advisors simply don&apos;t have.
               </p>
             </div>
           </div>
@@ -110,26 +107,22 @@ export default function AboutPage() {
       <AnimateOnScroll>
       <section className="bg-cloud-blue py-10">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-8 text-center">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
               <div className="font-outfit text-3xl md:text-4xl font-bold text-dark-navy">$1.08B</div>
               <div className="font-outfit text-sm text-text-gray mt-1">Assets Under Management</div>
-            </div>
-            <div>
-              <div className="font-outfit text-3xl md:text-4xl font-bold text-dark-navy">3</div>
-              <div className="font-outfit text-sm text-text-gray mt-1">Partners</div>
             </div>
             <div>
               <div className="font-outfit text-3xl md:text-4xl font-bold text-dark-navy">50+</div>
               <div className="font-outfit text-sm text-text-gray mt-1">Years Collective Experience</div>
             </div>
             <div>
-              <div className="font-outfit text-3xl md:text-4xl font-bold text-dark-navy">2005</div>
-              <div className="font-outfit text-sm text-text-gray mt-1">Darsh&apos;s Practice Since</div>
+              <div className="font-outfit text-3xl md:text-4xl font-bold text-dark-navy">100%</div>
+              <div className="font-outfit text-sm text-text-gray mt-1">Fiduciary</div>
             </div>
             <div>
-              <div className="font-outfit text-3xl md:text-4xl font-bold text-dark-navy">100%</div>
-              <div className="font-outfit text-sm text-text-gray mt-1">Full-Scope Fiduciary</div>
+              <div className="font-outfit text-3xl md:text-4xl font-bold text-dark-navy">SEC-Registered</div>
+              <div className="font-outfit text-sm text-text-gray mt-1">Investment Advisor</div>
             </div>
           </div>
         </div>
@@ -143,11 +136,8 @@ export default function AboutPage() {
           <h2 className="font-outfit text-4xl sm:text-5xl lg:text-[68px] font-light leading-tight text-dark-navy mb-8">
             Our Mission
           </h2>
-          <p className="font-outfit text-lg md:text-xl lg:text-2xl leading-relaxed text-text-gray max-w-4xl mb-6">
-            To serve as our clients&apos; personal financial advocate — helping individuals and families build, protect, and maximize their wealth through every stage of life, while guiding businesses toward retirement plan outcomes that truly serve their people.
-          </p>
-          <p className="font-outfit text-base md:text-lg leading-relaxed text-text-gray max-w-4xl">
-            Whether you&apos;re planning for retirement, navigating a life transition, or managing a corporate benefit plan, we believe you deserve independent, fiduciary-level guidance delivered with clarity, accountability, and genuine care.
+          <p className="font-outfit text-lg md:text-xl lg:text-2xl leading-relaxed text-text-gray max-w-4xl">
+            To serve as your personal financial advocate, helping you build, protect, and maximize your wealth through every stage of life. Whether you&apos;re planning for retirement, navigating a financial transition, or overseeing a corporate benefit plan, we believe you deserve independent, fiduciary-level guidance delivered with clarity, accountability, and genuine care.
           </p>
         </div>
       </section>
@@ -229,7 +219,7 @@ export default function AboutPage() {
           </div>
 
           <p className="font-outfit text-base leading-relaxed text-text-gray mt-10 max-w-3xl">
-            At every step, you work directly with a partner — not a call center, not a junior associate. That&apos;s the kind of direct accountability that makes all the difference.
+            At every step, you work with a senior-level advisor who knows you personally. Not an 800 number. Not a call center. That&apos;s the kind of direct accountability that makes all the difference.
           </p>
         </div>
       </section>
@@ -252,19 +242,19 @@ export default function AboutPage() {
               </p>
             </div>
 
-            {/* Full-Scope Fiduciary */}
+            {/* Fiduciary Since Day One */}
             <div className="bg-white rounded-lg p-8 shadow-sm">
-              <h3 className="font-outfit text-xl font-medium text-dark-navy mb-4">Full-Scope Fiduciary Since Day One</h3>
+              <h3 className="font-outfit text-xl font-medium text-dark-navy mb-4">Fiduciary Since Day One</h3>
               <p className="font-outfit text-base leading-relaxed text-text-gray">
-                We&apos;ve been a Full-Scope Fiduciary since inception. That means we&apos;re legally obligated to act in your best interest — not just held to a &ldquo;suitability&rdquo; standard. It&apos;s a higher bar, and it&apos;s how we&apos;ve operated from the very beginning.
+                We&apos;ve been a fiduciary since inception. That means we&apos;re legally obligated to act in your best interest, not just held to a &ldquo;suitability&rdquo; standard. It&apos;s a higher bar, and it&apos;s how we&apos;ve operated from the very beginning.
               </p>
             </div>
 
             {/* White-Glove Service */}
             <div className="bg-white rounded-lg p-8 shadow-sm">
-              <h3 className="font-outfit text-xl font-medium text-dark-navy mb-4">White-Glove, Partner-Level Service</h3>
+              <h3 className="font-outfit text-xl font-medium text-dark-navy mb-4">White-Glove Service</h3>
               <p className="font-outfit text-base leading-relaxed text-text-gray">
-                Three partners managing $1.08 billion in assets, with fewer than 100 clients per advisor. You won&apos;t get handed off to a junior associate. You work directly with experienced partners who know your name, your family, and your goals.
+                We intentionally limit the number of clients we serve so that every relationship gets the attention it deserves. You won&apos;t get handed off to a junior associate. You work directly with experienced advisors who know your name, your family, and your goals.
               </p>
             </div>
 
@@ -280,7 +270,7 @@ export default function AboutPage() {
             <div className="bg-white rounded-lg p-8 shadow-sm md:col-span-2">
               <h3 className="font-outfit text-xl font-medium text-dark-navy mb-4">Dual Expertise That Sets Us Apart</h3>
               <p className="font-outfit text-base leading-relaxed text-text-gray">
-                Our deep background in corporate 401(k) consulting gives us an edge that most private wealth advisors simply don&apos;t have. We&apos;ve analyzed thousands of retirement plans across every industry — which means we understand real-world retirement scenarios at a level of detail that directly benefits your personal retirement income planning and investment strategy.
+                Our deep background in corporate 401(k) consulting gives us an edge that most private wealth advisors simply don&apos;t have. And our private wealth practice brings a level of personalized attention that institutional firms can&apos;t match. We&apos;ve analyzed thousands of retirement plans across every industry, which means we understand real-world retirement scenarios at a level of detail that directly benefits your personal retirement income planning and investment strategy.
               </p>
             </div>
           </div>
@@ -309,12 +299,12 @@ export default function AboutPage() {
               </thead>
               <tbody>
                 {[
-                  ["Fiduciary Standard", "Full-Scope Fiduciary — legally obligated to act in your best interest", "Suitability standard — only needs to be \"suitable,\" not best"],
+                  ["Fiduciary Standard", "Fiduciary since inception: legally obligated to act in your best interest", "Suitability standard — only needs to be \"suitable,\" not best"],
                   ["Compensation", "Fee-only — no commissions, no hidden incentives", "Commissions and proprietary product sales incentives"],
                   ["Product Selection", "Open architecture — access to the entire marketplace", "Limited to firm-approved or proprietary products"],
-                  ["Independence", "100% independent — no parent company, no conflicts", "Employed by a large corporation with its own revenue goals"],
-                  ["Who You Work With", "Directly with partners — fewer than 100 clients per advisor", "Branch employees who may manage 300+ households"],
-                  ["Accountability", "Your advisor is an owner with direct accountability to you", "Advisors answer to corporate management first"],
+                  ["Independence", "100% independent — no parent company, no conflicts", "Employed by a large corporation or uses a broker/dealer for back-office firm operations"],
+                  ["Who Do Our Clients Work With", "Directly with senior advisors who know your name, your goals, and your financial picture", "Branch employees who may manage hundreds of households. You're a number, not a relationship."],
+                  ["Accountability", "Your advisor has direct accountability to you", "Advisors answer to corporate management first"],
                 ].map(([feature, pointoak, wirehouse], idx) => (
                   <tr key={idx} className={idx % 2 === 0 ? "bg-white" : "bg-cloud-blue/50"}>
                     <td className="font-outfit font-medium text-dark-navy px-6 py-4 text-base">{feature}</td>
@@ -341,24 +331,24 @@ export default function AboutPage() {
               <div className="relative w-full h-[400px] lg:h-[480px] rounded-lg overflow-hidden">
                 <Image
                   src="/images/darsh-makim.jpg"
-                  alt="Darsh Makim, CRPC, AIF — Founder and Principal of PointOak Retirement Advisors"
+                  alt="Darsh Makim, CRPC — Founder and Principal of PointOak Retirement Advisors"
                   fill
-                  className="object-cover object-[center_25%]"
+                  className="object-cover object-[center_15%]"
                   sizes="(max-width: 768px) 100vw, 40vw"
                 />
               </div>
             </div>
             <div className="lg:col-span-3">
-              <h3 className="font-outfit text-2xl font-medium text-dark-navy mb-2">Darsh Makim, CRPC, AIF</h3>
+              <h3 className="font-outfit text-2xl font-medium text-dark-navy mb-2">Darsh Makim, CRPC</h3>
               <p className="font-outfit text-sm text-text-gray/70 mb-6">Founder &amp; Principal</p>
               <p className="font-outfit text-base md:text-lg leading-relaxed text-text-gray mb-6">
-                Darsh Makim has been advising clients on their financial futures since 2005. He founded PointOak Retirement Advisors in 2013 with a clear vision: build a firm where every client gets the caliber of advice and attention usually reserved for the ultra-wealthy — delivered with genuine care and zero conflicts of interest.
+                Darsh Makim has been advising clients on their financial futures since 2005. He founded PointOak Retirement Advisors in 2017 with a clear vision: build a firm where every client gets the caliber of advice and attention usually reserved for the ultra-wealthy — delivered with genuine care and zero conflicts of interest.
               </p>
               <p className="font-outfit text-base md:text-lg leading-relaxed text-text-gray mb-6">
-                As a Chartered Retirement Planning Counselor (CRPC) and Accredited Investment Fiduciary (AIF), Darsh brings deep expertise across wealth management, retirement income planning, and corporate retirement plan consulting. His unique background spanning both private wealth and institutional retirement plans gives clients a perspective that few advisors can offer.
+                As a Chartered Retirement Planning Counselor (CRPC), Darsh brings deep expertise across wealth management, retirement income planning, and corporate retirement plan consulting. His unique background spanning both private wealth and institutional retirement plans gives clients a perspective that few advisors can offer.
               </p>
               <p className="font-outfit text-base md:text-lg leading-relaxed text-text-gray">
-                At PointOak, you won&apos;t get handed off after the first meeting. You work directly with Darsh and his partners — experienced professionals who are personally accountable to you, who know your goals, and who treat your financial well-being as their own responsibility.
+                At PointOak, you won&apos;t get handed off after the first meeting. You work directly with Darsh and his team, experienced professionals who are at every meeting from the start, who know your goals, and who treat your financial well-being as their own responsibility.
               </p>
             </div>
           </div>
