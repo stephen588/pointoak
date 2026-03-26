@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import PageHero from "@/components/PageHero";
 import CTASection from "@/components/CTASection";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "About PointOak Retirement Advisors | Wealth Management & Retirement Planning",
@@ -499,6 +500,7 @@ export default function AboutPage() {
 
       {/* CTA */}
       <CTASection />
+      <Footer />
     </>
   );
 }
