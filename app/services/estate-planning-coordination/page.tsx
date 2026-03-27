@@ -294,32 +294,29 @@ export default function EstatePlanningCoordinationPage() {
       </AnimateOnScroll>
 
       {/* Image Break */}
-      <AnimateOnScroll variant="fade">
-      <section className="bg-white py-4">
-        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
-          <div className="relative w-full rounded-lg overflow-hidden">
-            <Image
-              src="/images/services/estate-planning.png"
-              alt="Financial advisor consulting with clients about estate planning coordination"
-              width={2936}
-              height={1638}
-              className="w-full h-auto"
-            />
-          </div>
-        </div>
-      </section>
-      </AnimateOnScroll>
-
       {/* Who Needs Estate Planning Coordination */}
       <AnimateOnScroll>
       <section className="bg-white py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
-          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
-            Who Needs Estate Planning Coordination
-          </h2>
-          <p className="text-text-gray font-outfit text-base leading-relaxed mb-10">
-            Not every family needs formal coordination. Complexity, not wealth alone, determines whether your current circumstances call for it.
-          </p>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center mb-12">
+            <div className="relative rounded-lg overflow-hidden">
+              <Image
+                src="/images/services/estate-planning.png"
+                alt="Financial advisor consulting with clients about estate planning coordination"
+                width={2936}
+                height={1638}
+                className="w-full h-auto"
+              />
+            </div>
+            <div>
+              <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
+                Who Needs Estate Planning Coordination
+              </h2>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                Not every family needs formal coordination. Complexity, not wealth alone, determines whether your current circumstances call for it.
+              </p>
+            </div>
+          </div>
 
           <div className="space-y-8">
             {whoNeedsData.map((item, idx) => (
