@@ -3,8 +3,6 @@ builder-exports
 screenshots
 screenshots-r1
 surfer-content
-images
 pointoak-site
-*.png
 *.md
 !README.md
