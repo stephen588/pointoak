@@ -482,7 +482,7 @@ export default function TaxEfficientWealthStrategiesPage() {
       </section>
       </AnimateOnScroll>
 
-      <ServiceDetailFAQ faqs={faqs} sectionTitle="Tax-Efficient Wealth Strategies FAQ" />
+      <ServiceDetailFAQ faqs={faqs} />
 
       <CTASection />
       <Footer />
