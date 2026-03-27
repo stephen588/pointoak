@@ -220,13 +220,13 @@ export default function SocialSecurityPensionOptimizationPage() {
       <AnimateOnScroll variant="fade">
       <section className="bg-white py-4">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
-          <div className="relative w-full h-[300px] md:h-[400px] rounded-lg overflow-hidden">
+          <div className="relative w-full rounded-lg overflow-hidden">
             <Image
               src="/images/services/social-security-pension.png"
               alt="Couple planning Social Security claiming strategy and pension decisions"
-              fill
-              className="object-cover object-[center_25%]"
-              sizes="(max-width: 1170px) 100vw, 1170px"
+              width={2936}
+              height={1638}
+              className="w-full h-auto"
             />
           </div>
         </div>
