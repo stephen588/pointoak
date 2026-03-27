@@ -222,7 +222,7 @@ export default function SocialSecurityPensionOptimizationPage() {
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <div className="relative w-full h-[300px] md:h-[400px] rounded-lg overflow-hidden">
             <Image
-              src="/images/asset-couples-02.png"
+              src="/images/services/social-security-pension.png"
               alt="Couple planning Social Security claiming strategy and pension decisions"
               fill
               className="object-cover object-[center_25%]"

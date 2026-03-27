@@ -193,7 +193,7 @@ export default function CorporateExecutiveBenefitsPage() {
           <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
             <div className="relative w-full h-[300px] md:h-[400px] rounded-lg overflow-hidden">
               <Image
-                src="/images/asset-corporate-01.png"
+                src="/images/services/executive-benefits.png"
                 alt="Corporate executive benefits planning meeting"
                 fill
                 className="object-cover object-[center_25%]"

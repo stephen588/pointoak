@@ -210,7 +210,7 @@ export default function RetirementIncomePlanningPage() {
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <div className="relative w-full h-[300px] md:h-[400px] rounded-lg overflow-hidden">
             <Image
-              src="/images/asset-advisor-01.png"
+              src="/images/services/retirement-income-planning.png"
               alt="A friendly financial advisor gestures gently while explaining a retirement income concept to a relaxed couple"
               fill
               className="object-cover object-[center_25%]"
