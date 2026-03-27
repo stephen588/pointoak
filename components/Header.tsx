@@ -79,31 +79,30 @@ function DesktopDropdown({ item }: { item: typeof navItems[number] }) {
   }
 
   return (
-    <div className="relative" onMouseEnter={handleEnter} onMouseLeave={handleLeave}>
+    <div className="relative group" onMouseEnter={handleEnter} onMouseLeave={handleLeave}>
       <Link
         href={item.href}
         className="flex items-center gap-1 text-white text-[15px] font-normal hover:text-white/80 transition-colors"
       >
         {item.label}
-        <ChevronDown className={`w-3.5 h-3.5 transition-transform ${open ? "rotate-180" : ""}`} />
+        <ChevronDown className={`w-3.5 h-3.5 transition-transform ${open ? "rotate-180" : ""} group-hover:rotate-180`} />
       </Link>
 
-      {open && (
-        <div className="absolute top-full left-1/2 -translate-x-1/2 pt-2 z-50">
-          <div className="bg-white rounded-lg shadow-xl border border-gray-100 py-2 min-w-[260px]">
-            {item.children.map((child) => (
-              <Link
-                key={child.href}
-                href={child.href}
-                className="block px-4 py-2.5 text-[14px] font-outfit text-text-gray hover:bg-cloud-blue hover:text-navy transition-colors"
-                onClick={() => setOpen(false)}
-              >
-                {child.label}
-              </Link>
-            ))}
-          </div>
+      {/* Always render dropdown HTML (for SSR/SEO/proxy), control visibility with CSS + JS */}
+      <div className={`absolute top-full left-1/2 -translate-x-1/2 pt-2 z-50 ${open ? "block" : "hidden"} group-hover:block`}>
+        <div className="bg-white rounded-lg shadow-xl border border-gray-100 py-2 min-w-[260px]">
+          {item.children.map((child) => (
+            <Link
+              key={child.href}
+              href={child.href}
+              className="block px-4 py-2.5 text-[14px] font-outfit text-text-gray hover:bg-cloud-blue hover:text-navy transition-colors"
+              onClick={() => setOpen(false)}
+            >
+              {child.label}
+            </Link>
+          ))}
         </div>
-      )}
+      </div>
     </div>
   );
 }

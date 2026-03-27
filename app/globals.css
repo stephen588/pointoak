@@ -61,3 +61,13 @@
     transition: none;
   }
 }
+
+/* Fallback when JS is disabled (e.g. proxied/review contexts) —
+   IntersectionObserver won't fire, so show everything immediately */
+noscript + style,
+.no-js .animate-on-scroll,
+.no-js .animate-fade {
+  opacity: 1;
+  transform: none;
+  transition: none;
+}
