@@ -375,7 +375,7 @@ export default function InvestmentManagementPage() {
           </div>
 
           <p className="text-text-gray font-outfit text-base leading-relaxed mt-6">
-            Fee-only fiduciary advice is strongest when retirement income timing, tax-bracket management, and estate coordination are in play. Commission-based services may suit buyers seeking insurance or annuity products who accept the compensation trade-offs. <Link href="/about" className="text-medium-blue hover:text-navy underline">PointOak's independence</Link> as a fee-only firm eliminates those conflicts entirely.
+            Fee-only fiduciary advice is strongest when retirement income timing, tax-bracket management, and estate coordination are in play. Commission-based services may suit buyers seeking insurance or annuity products who accept the compensation trade-offs. <Link href="/about" className="text-medium-blue hover:text-navy underline">PointOak&apos;s independence</Link> as a fee-only firm eliminates those conflicts entirely.
           </p>
         </div>
       </section>

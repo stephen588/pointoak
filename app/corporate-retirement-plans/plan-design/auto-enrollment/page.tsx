@@ -139,7 +139,7 @@ export default function AutoEnrollmentPage() {
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Alignment with Current Industry Standards</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                By year-end 2024, 61% of defined contribution plans had adopted automatic enrollment, according to <a href="https://workplace.vanguard.com/content/dam/inst/iig-transformation/insights/pdf/2025/has/2025_How_America_Saves.pdf" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Vanguard's How America Saves 2025</a>. Plan sponsors without it are the exception, not the norm. Staying with voluntary-only enrollment signals a plan design that has not kept pace with market practice, participant expectations, or regulatory direction under the SECURE Act.
+                By year-end 2024, 61% of defined contribution plans had adopted automatic enrollment, according to <a href="https://workplace.vanguard.com/content/dam/inst/iig-transformation/insights/pdf/2025/has/2025_How_America_Saves.pdf" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Vanguard&apos;s How America Saves 2025</a>. Plan sponsors without it are the exception, not the norm. Staying with voluntary-only enrollment signals a plan design that has not kept pace with market practice, participant expectations, or regulatory direction under the SECURE Act.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
@@ -162,15 +162,15 @@ export default function AutoEnrollmentPage() {
           </h2>
           <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
             <p>
-              Eligible employees are enrolled at a default contribution rate, with automatic contributions deducted from each employee's wages unless they elect a different percentage or opt out. Automatic enrollment contributions made without an investment direction go into qualified default investment alternatives per <a href="https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-automatic-enrollment" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">IRS automatic enrollment guidance</a>. Plan sponsors must deliver an <Link href="/corporate-retirement-plans/investment-analysis" className="text-medium-blue hover:underline">investment analysis</Link>-compliant notice 30 to 90 days before eligibility, covering default investment selections and available investment options.
+              Eligible employees are enrolled at a default contribution rate, with automatic contributions deducted from each employee&apos;s wages unless they elect a different percentage or opt out. Automatic enrollment contributions made without an investment direction go into qualified default investment alternatives per <a href="https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-automatic-enrollment" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">IRS automatic enrollment guidance</a>. Plan sponsors must deliver an <Link href="/corporate-retirement-plans/investment-analysis" className="text-medium-blue hover:underline">investment analysis</Link>-compliant notice 30 to 90 days before eligibility, covering default investment selections and available investment options.
             </p>
             <p>
-              Two-thirds of automatic enrollment plans now include automatic annual deferral increases, raising each participant's contribution level each plan year toward a higher target. This escalation design compounds the initial participation effect. Participants move from minimum defaults toward retirement-adequate savings as plan investments and contribution amounts grow without requiring active decisions.
+              Two-thirds of automatic enrollment plans now include automatic annual deferral increases, raising each participant&apos;s contribution level each plan year toward a higher target. This escalation design compounds the initial participation effect. Participants move from minimum defaults toward retirement-adequate savings as plan investments and contribution amounts grow without requiring active decisions.
             </p>
           </div>
           <div className="mt-8 bg-navy text-white rounded-lg p-6 md:p-8">
             <p className="font-outfit text-base leading-relaxed">
-              <a href="https://www.pointoak.com/contact/" target="_blank" rel="noopener noreferrer" className="text-warm-gold hover:underline font-semibold">Schedule a consultation</a> to discuss your plan's automatic enrollment design and compliance requirements.
+              <a href="https://www.pointoak.com/contact/" target="_blank" rel="noopener noreferrer" className="text-warm-gold hover:underline font-semibold">Schedule a consultation</a> to discuss your plan&apos;s automatic enrollment design and compliance requirements.
             </p>
           </div>
         </div>
@@ -197,13 +197,13 @@ export default function AutoEnrollmentPage() {
             <div className="bg-cloud-blue rounded-lg p-6 md:p-8">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Your Current Plan Uses Voluntary Enrollment Only</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Participation in voluntary-only plans trails auto-enrollment plans significantly. Adding automatic enrollment closes that gap without requiring HR to chase every employee individually for your employer's plan. If employees eligible for the plan are not joining, the enrollment method is the first design variable to revisit.
+                Participation in voluntary-only plans trails auto-enrollment plans significantly. Adding automatic enrollment closes that gap without requiring HR to chase every employee individually for your employer&apos;s plan. If employees eligible for the plan are not joining, the enrollment method is the first design variable to revisit.
               </p>
             </div>
             <div className="bg-cloud-blue rounded-lg p-6 md:p-8">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Your Default Rate Has Not Changed in Years</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                A 3% default set years ago no longer reflects current market practice. Reviewing your default contribution rate and escalation schedule against current benchmarks may reveal gaps in participant savings trajectory and your committee's fiduciary documentation. Most Americans now expect higher defaults aligned with retirement adequacy research.
+                A 3% default set years ago no longer reflects current market practice. Reviewing your default contribution rate and escalation schedule against current benchmarks may reveal gaps in participant savings trajectory and your committee&apos;s fiduciary documentation. Most Americans now expect higher defaults aligned with retirement adequacy research.
               </p>
             </div>
             <div className="bg-cloud-blue rounded-lg p-6 md:p-8">
@@ -291,7 +291,7 @@ export default function AutoEnrollmentPage() {
             Sources: Vanguard How America Saves 2025; <a href="https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/publications/automatic-enrollment-401k-plans-for-small-businesses" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">DOL automatic enrollment guidance</a>
           </p>
           <p className="text-text-gray font-outfit text-base leading-relaxed mt-6">
-            Voluntary enrollment works for plans with consistently high organic engagement. When participants are auto enrolled by default, plans show stronger outcomes across participation, savings adequacy, and fiduciary documentation. <Link href="/corporate-retirement-plans/provider-and-fee-benchmarking" className="text-medium-blue hover:underline">Provider and fee benchmarking</Link> ensures your plan's contribution structure and costs remain competitive regardless of enrollment approach.
+            Voluntary enrollment works for plans with consistently high organic engagement. When participants are auto enrolled by default, plans show stronger outcomes across participation, savings adequacy, and fiduciary documentation. <Link href="/corporate-retirement-plans/provider-and-fee-benchmarking" className="text-medium-blue hover:underline">Provider and fee benchmarking</Link> ensures your plan&apos;s contribution structure and costs remain competitive regardless of enrollment approach.
           </p>
         </div>
       </section>
@@ -335,10 +335,10 @@ export default function AutoEnrollmentPage() {
           </h2>
           <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
             <p>
-              Plan sponsors sometimes treat auto-enrollment as a simple plan setting. Correct implementation requires plan-document amendments, notice timing, QDIA selection, escalation design, and employer contribution decisions that interact with one another. PointOak operates as a named 3(21) or 3(38) fiduciary under ERISA, taking documented responsibility for your business's retirement plan design rather than providing general commentary.
+              Plan sponsors sometimes treat auto-enrollment as a simple plan setting. Correct implementation requires plan-document amendments, notice timing, QDIA selection, escalation design, and employer contribution decisions that interact with one another. PointOak operates as a named 3(21) or 3(38) fiduciary under ERISA, taking documented responsibility for your business&apos;s retirement plan design rather than providing general commentary.
             </p>
             <p>
-              Our fee-only model eliminates conflicts from commissions or proprietary products. PointOak's Live Bid benchmarking process reviews 450+ data points per bidder using actual plan data, giving plan sponsors independent evaluation rather than recordkeeper-driven recommendations. Learn more <Link href="/about" className="text-medium-blue hover:underline">about PointOak</Link> and our approach to retirement plan consulting.
+              Our fee-only model eliminates conflicts from commissions or proprietary products. PointOak&apos;s Live Bid benchmarking process reviews 450+ data points per bidder using actual plan data, giving plan sponsors independent evaluation rather than recordkeeper-driven recommendations. Learn more <Link href="/about" className="text-medium-blue hover:underline">about PointOak</Link> and our approach to retirement plan consulting.
             </p>
           </div>
         </div>
@@ -364,7 +364,7 @@ export default function AutoEnrollmentPage() {
       <section className="bg-white py-8">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <p className="text-text-gray font-outfit text-sm leading-relaxed italic text-center">
-            <a href="https://www.pointoak.com/contact/" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Book a consultation</a> to review your plan's automatic enrollment design and next steps.
+            <a href="https://www.pointoak.com/contact/" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Book a consultation</a> to review your plan&apos;s automatic enrollment design and next steps.
           </p>
         </div>
       </section>

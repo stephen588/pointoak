@@ -99,12 +99,12 @@ export default function IndependentRIAvsWirehousePage() {
     {
       "@context": "https://schema.org",
       "@type": "HowTo",
-      name: "How to Verify an Advisor's Claims Before You Hire",
+      name: "How to Verify an Advisor&apos;s Claims Before You Hire",
       step: [
         {
           "@type": "HowToStep",
           name: "Check registration on Investor.gov",
-          text: "Start with Investor.gov's free background check tool. Enter the advisor's name or firm name. The tool routes you to IAPD for registered investment advisers and BrokerCheck for broker-dealers."
+          text: "Start with Investor.gov&apos;s free background check tool. Enter the advisor&apos;s name or firm name. The tool routes you to IAPD for registered investment advisers and BrokerCheck for broker-dealers."
         },
         {
           "@type": "HowToStep",
@@ -119,7 +119,7 @@ export default function IndependentRIAvsWirehousePage() {
         {
           "@type": "HowToStep",
           name: "Review Form ADV brochure supplements",
-          text: "For registered investment advisers, Form ADV Part 2B discloses each advisor's education, business experience, disciplinary history, other business activities, professional designations, and compensation incentives."
+          text: "For registered investment advisers, Form ADV Part 2B discloses each advisor&apos;s education, business experience, disciplinary history, other business activities, professional designations, and compensation incentives."
         }
       ]
     }
@@ -163,14 +163,14 @@ export default function IndependentRIAvsWirehousePage() {
                   <ul className="list-disc pl-5 text-dark-gray space-y-2">
                     <li>The CFP Board treats "fee-based" as equivalent to "fee and commission," not fee-only</li>
                     <li>Independent RIAs are projected to grow 4% annually through 2028 (Cerulli, 2025)</li>
-                    <li>Free tools on Investor.gov, BrokerCheck, and IAPD let you verify any advisor's registration, complaints, and compensation before hiring</li>
+                    <li>Free tools on Investor.gov, BrokerCheck, and IAPD let you verify any advisor&apos;s registration, complaints, and compensation before hiring</li>
                     <li>A fiduciary duty is not always "on"; dual-registered advisors may operate under different standards depending on the transaction</li>
                   </ul>
                 </div>
               </div>
 
               <div id="what-it-means" className="mb-10">
-                <h2 className="font-outfit text-navy text-2xl font-light mb-4">What "Financial Advisor" Actually Means (and What It Doesn't)</h2>
+                <h2 className="font-outfit text-navy text-2xl font-light mb-4">What "Financial Advisor" Actually Means (and What It Doesn&apos;t)</h2>
                 <p className="font-outfit text-dark-gray text-base leading-relaxed mb-4">
                   "Financial advisor" is a marketing term, not a regulated title. No single federal law restricts who can use it. The regulatory framework sorts financial professionals into three categories based on registration and legal obligation.
                 </p>
@@ -200,10 +200,10 @@ export default function IndependentRIAvsWirehousePage() {
                   Under the <a href="https://www.cfp.net/ethics/code-of-ethics-and-standards-of-conduct" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">CFP Board Code of Ethics</a>, fee-only requires that neither the advisor, the firm, nor any related party receives sales-related compensation. NAPFA further specifies that fee-only advisors may be compensated through hourly fees, retainers, percentage-of-assets charges, or a flat fee. The money comes from you, period.
                 </p>
                 <p className="font-outfit text-dark-gray text-base leading-relaxed mb-4">
-                  Fee-based advisors (fee and commission) collect your advisory fee and may also earn commissions when selling specific financial products like mutual funds or alternative investments. That dual compensation creates potential conflicts because the advisor's income can increase based on which investment products they recommend. Fee-based advisors operate under different fee structures than fee-only practitioners, and those differences affect your financial well being over time.
+                  Fee-based advisors (fee and commission) collect your advisory fee and may also earn commissions when selling specific financial products like mutual funds or alternative investments. That dual compensation creates potential conflicts because the advisor&apos;s income can increase based on which investment products they recommend. Fee-based advisors operate under different fee structures than fee-only practitioners, and those differences affect your financial well being over time.
                 </p>
                 <p className="font-outfit text-dark-gray text-base leading-relaxed mb-4">
-                  Commission-only advisors earn nothing unless you buy. Every recommendation carries the question of whether it serves your client interests or their income. Selling financial products under a commission model means the advisor's compensation depends entirely on transactions rather than ongoing guidance.
+                  Commission-only advisors earn nothing unless you buy. Every recommendation carries the question of whether it serves your client interests or their income. Selling financial products under a commission model means the advisor&apos;s compensation depends entirely on transactions rather than ongoing guidance.
                 </p>
                 <div className="overflow-x-auto mb-6">
                   <table className="w-full border-collapse">
@@ -286,7 +286,7 @@ export default function IndependentRIAvsWirehousePage() {
                   </table>
                 </div>
                 <p className="font-outfit text-dark-gray text-base leading-relaxed mb-4">
-                  The structural differences between an independent RIA (a registered investment advisor RIA) and wirehouse firms go beyond philosophy. They shape what you're offered, what it costs, and whose interests the business model prioritizes.
+                  The structural differences between an independent RIA (a registered investment advisor RIA) and wirehouse firms go beyond philosophy. They shape what you&apos;re offered, what it costs, and whose interests the business model prioritizes.
                 </p>
                 <p className="font-outfit text-dark-gray text-base leading-relaxed mb-4">
                   Wirehouse advisors operate within a structured environment where the parent firm controls product shelves, sets revenue targets, and owns client relationships. If your advisor leaves, your account stays. Wirehouse firms offer broad platforms and name recognition, but investment strategies may favor proprietary funds that generate revenue for the firm rather than reflect your investment philosophy. Wirehouse advisors typically work under fee-based or commission models that introduce potential conflicts between their compensation and your outcomes.
@@ -295,7 +295,7 @@ export default function IndependentRIAvsWirehousePage() {
                   Independent RIAs own their practices, choose from the entire marketplace to recommend investments, and build direct client relationships. That independence means personalized guidance is driven by your goals rather than a corporate product menu. Many financial advisors in the independent channel structure their advisory business around fee-only compensation to eliminate product sales conflicts entirely. Wealth management at an independent RIA often includes integrated financial planning and coordinated tax strategies that wirehouse platforms may not prioritize.
                 </p>
                 <p className="font-outfit text-dark-gray text-base leading-relaxed">
-                  The market data shows this shift accelerating. According to <a href="https://www.wealthmanagement.com/ria-news/cerulli-independent-rias-to-outpace-all-other-channels-by-2028" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Cerulli's 2025 outlook</a>, independent RIAs are projected to grow 4% annually through 2028, reaching 56,103 advisors. Fee-based assets grew 169% from roughly $6.5 trillion in 2014 to more than $17 trillion in 2023. Wirehouses are projected to cede 6.5 percentage points of asset market share by year-end 2025.
+                  The market data shows this shift accelerating. According to <a href="https://www.wealthmanagement.com/ria-news/cerulli-independent-rias-to-outpace-all-other-channels-by-2028" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Cerulli&apos;s 2025 outlook</a>, independent RIAs are projected to grow 4% annually through 2028, reaching 56,103 advisors. Fee-based assets grew 169% from roughly $6.5 trillion in 2014 to more than $17 trillion in 2023. Wirehouses are projected to cede 6.5 percentage points of asset market share by year-end 2025.
                 </p>
                 <p className="font-outfit text-dark-gray text-base leading-relaxed">
                   These numbers reflect a structural shift in wealth management, not a passing trend. More investors are choosing firms that serve clients under a fiduciary model through <Link href="/" className="text-medium-blue hover:underline">fee-only fiduciary wealth advisory</Link> relationships.
@@ -303,18 +303,18 @@ export default function IndependentRIAvsWirehousePage() {
               </div>
 
               <div id="verify" className="mb-10">
-                <h2 className="font-outfit text-navy text-2xl font-light mb-4">How to Verify an Advisor's Claims Before You Hire</h2>
+                <h2 className="font-outfit text-navy text-2xl font-light mb-4">How to Verify an Advisor&apos;s Claims Before You Hire</h2>
                 <blockquote className="border-l-4 border-medium-blue pl-4 text-gray-600 italic mb-4">
                   Unlicensed, unregistered persons commit much of the investment fraud in the United States, according to Investor.gov.
                 </blockquote>
                 <p className="font-outfit text-dark-gray text-base leading-relaxed mb-4">
-                  Verification takes less than ten minutes and costs nothing. Four steps confirm whether a financial advisor's claims about registration, compensation, and disciplinary history hold up. Finding the right financial advisor starts with evidence, not marketing campaigns.
+                  Verification takes less than ten minutes and costs nothing. Four steps confirm whether a financial advisor&apos;s claims about registration, compensation, and disciplinary history hold up. Finding the right financial advisor starts with evidence, not marketing campaigns.
                 </p>
                 <div className="space-y-6">
                   <div>
                     <h3 className="font-outfit text-navy text-xl font-semibold mb-3">Step 1: Check registration on Investor.gov</h3>
                     <p className="font-outfit text-dark-gray text-base leading-relaxed">
-                      Start with <a href="https://www.investor.gov/research-you-invest/free-investment-professional-background-check" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Investor.gov's free background check tool</a>. Enter the advisor's name or firm name. The tool routes you to IAPD (Investment Adviser Public Disclosure) for registered investment advisers and BrokerCheck for broker-dealers. If the financial advisor does not appear in either database, that is a serious red flag. Legitimate financial advisors are registered in at least one.
+                      Start with <a href="https://www.investor.gov/research-you-invest/free-investment-professional-background-check" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Investor.gov&apos;s free background check tool</a>. Enter the advisor&apos;s name or firm name. The tool routes you to IAPD (Investment Adviser Public Disclosure) for registered investment advisers and BrokerCheck for broker-dealers. If the financial advisor does not appear in either database, that is a serious red flag. Legitimate financial advisors are registered in at least one.
                     </p>
                   </div>
                   <div>
@@ -332,12 +332,12 @@ export default function IndependentRIAvsWirehousePage() {
                   <div>
                     <h3 className="font-outfit text-navy text-xl font-semibold mb-3">Step 4: Review Form ADV brochure supplements</h3>
                     <p className="font-outfit text-dark-gray text-base leading-relaxed">
-                      For registered investment advisers, Form ADV Part 2B discloses each advisor's education, business experience, disciplinary history, other business activities, professional designations, and compensation incentives. This is where you find out whether your financial advisor has outside relationships that could influence their recommendations. Cross-reference what the advisor told you verbally with what the form discloses.
+                      For registered investment advisers, Form ADV Part 2B discloses each advisor&apos;s education, business experience, disciplinary history, other business activities, professional designations, and compensation incentives. This is where you find out whether your financial advisor has outside relationships that could influence their recommendations. Cross-reference what the advisor told you verbally with what the form discloses.
                     </p>
                   </div>
                 </div>
                 <p className="font-outfit text-dark-gray text-base leading-relaxed mt-6">
-                  These four steps give you the specialized knowledge and evidence to make an informed decision rather than relying on marketing language. You're reading the same documents regulators review. The right financial advisor will welcome this scrutiny. Pay attention to communication style during the process: transparency about registration and compensation signals transparency about your money.
+                  These four steps give you the specialized knowledge and evidence to make an informed decision rather than relying on marketing language. You&apos;re reading the same documents regulators review. The right financial advisor will welcome this scrutiny. Pay attention to communication style during the process: transparency about registration and compensation signals transparency about your money.
                 </p>
               </div>
 
@@ -349,12 +349,12 @@ export default function IndependentRIAvsWirehousePage() {
                       <strong>Approaching retirement with a 401(k) rollover decision?</strong>
                     </p>
                     <p className="font-outfit text-dark-gray text-base leading-relaxed">
-                      You're facing tax planning, distribution sequencing, and Social Security timing decisions that interact with each other. These complex financial decisions benefit from a long term relationship with financial planners who operate under fiduciary duty and fee-only compensation, where your financial goals drive every recommendation.
+                      You&apos;re facing tax planning, distribution sequencing, and Social Security timing decisions that interact with each other. These complex financial decisions benefit from a long term relationship with financial planners who operate under fiduciary duty and fee-only compensation, where your financial goals drive every recommendation.
                     </p>
                   </div>
                   <div>
                     <p className="font-outfit text-dark-gray text-base leading-relaxed mb-2">
-                      <strong>Primarily executing trades with a strategy you've built yourself?</strong>
+                      <strong>Primarily executing trades with a strategy you&apos;ve built yourself?</strong>
                     </p>
                     <p className="font-outfit text-dark-gray text-base leading-relaxed">
                       A brokerage relationship may suffice for managing investments on your terms. Verify that Reg BI obligations apply to any recommendations you receive, and confirm the fee structures match a transaction-based model.

@@ -216,7 +216,7 @@ export default function EducationCommunicationsPage() {
             </p>
             <div className="mt-6 pt-6 border-t border-gray-300">
               <p>
-                <Link href="/contact/" className="text-navy underline hover:text-medium-blue transition-colors font-medium">Schedule a Consultation</Link> to discuss how advisor-led education can strengthen your plan's participant outcomes.
+                <Link href="/contact/" className="text-navy underline hover:text-medium-blue transition-colors font-medium">Schedule a Consultation</Link> to discuss how advisor-led education can strengthen your plan&apos;s participant outcomes.
               </p>
             </div>
           </div>
@@ -353,10 +353,10 @@ export default function EducationCommunicationsPage() {
           </h2>
           <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
             <p>
-              80% of workers with a personalized plan report being on track or ahead of schedule, compared with 39% without one (<a href="https://www.goldmansachs.com/what-we-do/ayco/insights/2024-retirement-survey-insights-report" target="_blank" rel="noopener noreferrer" className="text-navy underline hover:text-medium-blue transition-colors">Goldman Sachs 2024 Retirement Survey</a>). PointOak's 401 k participant education programs draw on direct experience consulting across the industry with plan sponsors and participants since 2005. <Link href="/about/" className="text-navy underline hover:text-medium-blue transition-colors">Our approach to retirement plan consulting</Link> translates complexity into insights companies and their participants can act on.
+              80% of workers with a personalized plan report being on track or ahead of schedule, compared with 39% without one (<a href="https://www.goldmansachs.com/what-we-do/ayco/insights/2024-retirement-survey-insights-report" target="_blank" rel="noopener noreferrer" className="text-navy underline hover:text-medium-blue transition-colors">Goldman Sachs 2024 Retirement Survey</a>). PointOak&apos;s 401 k participant education programs draw on direct experience consulting across the industry with plan sponsors and participants since 2005. <Link href="/about/" className="text-navy underline hover:text-medium-blue transition-colors">Our approach to retirement plan consulting</Link> translates complexity into insights companies and their participants can act on.
             </p>
             <p>
-              Your recordkeeper provides communication. <Link href="/our-consulting-team/" className="text-navy underline hover:text-medium-blue transition-colors">Darsh and his team</Link> design education around your specific plan design, workforce demographics, and fiduciary goals. We build every program around what your participants need to understand, not around a platform's standard campaign library.
+              Your recordkeeper provides communication. <Link href="/our-consulting-team/" className="text-navy underline hover:text-medium-blue transition-colors">Darsh and his team</Link> design education around your specific plan design, workforce demographics, and fiduciary goals. We build every program around what your participants need to understand, not around a platform&apos;s standard campaign library.
             </p>
           </div>
         </div>

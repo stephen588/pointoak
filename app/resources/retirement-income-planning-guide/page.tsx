@@ -145,7 +145,7 @@ export default function RetirementIncomePlanningGuidePage() {
               <div id="key-takeaways" className="mb-10">
                 <h2 className="font-outfit text-navy text-2xl font-light mb-4">Key Takeaways</h2>
                 <ul className="list-disc pl-5 text-dark-gray space-y-2">
-                  <li>Morningstar's 2025 research sets the baseline safe starting withdrawal rate at 3.7%, not 4%</li>
+                  <li>Morningstar&apos;s 2025 research sets the baseline safe starting withdrawal rate at 3.7%, not 4%</li>
                   <li>The average retired worker receives $2,071 per month from Social Security as of January 2026 (SSA)</li>
                   <li>Flexible spending rules can push sustainable withdrawal rates as high as 5.7% (Morningstar)</li>
                   <li>DC, Maryland, and Virginia each tax Social Security and pension income differently at the state level</li>
@@ -176,13 +176,13 @@ export default function RetirementIncomePlanningGuidePage() {
               <div id="withdrawal-rate" className="mb-10">
                 <h2 className="font-outfit text-navy text-2xl font-light mb-4">The 4% Rule in 2026: What Current Research Actually Says</h2>
                 <blockquote className="border-l-4 border-medium-blue pl-4 text-gray-600 italic mb-4">
-                  Morningstar's 2025 research estimates a 3.7% baseline safe starting withdrawal rate for inflation-adjusted spending over a 30-year retirement, down from the widely cited 4% rule.
+                  Morningstar&apos;s 2025 research estimates a 3.7% baseline safe starting withdrawal rate for inflation-adjusted spending over a 30-year retirement, down from the widely cited 4% rule.
                 </blockquote>
                 <p className="font-outfit text-dark-gray text-base leading-relaxed mb-4">
-                  The full methodology behind <a href="https://marketing.morningstar.com/business/insights/research/the-state-of-retirement-income" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Morningstar's 2025 retirement income research</a> accounts for three shifts since the original study was published in 1994. Equity valuations are elevated and interest rate expectations remain uncertain, both compressing expected future returns for retirees entering the market today. Life expectancy estimates have lengthened the planning horizon, meaning many retirees now need their withdrawal strategy to hold up for 30 years or longer.
+                  The full methodology behind <a href="https://marketing.morningstar.com/business/insights/research/the-state-of-retirement-income" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Morningstar&apos;s 2025 retirement income research</a> accounts for three shifts since the original study was published in 1994. Equity valuations are elevated and interest rate expectations remain uncertain, both compressing expected future returns for retirees entering the market today. Life expectancy estimates have lengthened the planning horizon, meaning many retirees now need their withdrawal strategy to hold up for 30 years or longer.
                 </p>
                 <p className="font-outfit text-dark-gray text-base leading-relaxed mb-4">
-                  Among common withdrawal strategies, the fixed-rate approach carries a specific risk that online calculators tend to understate: sequence-of-returns risk. Poor market conditions in the first three to five years of retirement can permanently damage a portfolio, even when long-term average returns eventually recover. J.P. Morgan's modeling demonstrates that two retirees with identical 30-year average returns can have dramatically different outcomes depending on when the losses occur.
+                  Among common withdrawal strategies, the fixed-rate approach carries a specific risk that online calculators tend to understate: sequence-of-returns risk. Poor market conditions in the first three to five years of retirement can permanently damage a portfolio, even when long-term average returns eventually recover. J.P. Morgan&apos;s modeling demonstrates that two retirees with identical 30-year average returns can have dramatically different outcomes depending on when the losses occur.
                 </p>
                 <p className="font-outfit text-dark-gray text-base leading-relaxed mb-4">
                   Early losses force withdrawals from a shrinking base, leaving less capital to benefit from the eventual recovery. Investment decisions made during those early years determine whether your portfolio survives or depletes prematurely. Proper asset allocation and withdrawal timing make the difference, and modeling these scenarios across different market conditions shows exactly how much.
@@ -241,7 +241,7 @@ export default function RetirementIncomePlanningGuidePage() {
                   <div>
                     <h3 className="font-outfit text-navy text-xl font-semibold mb-3">Flexible Spending</h3>
                     <p className="font-outfit text-dark-gray text-base leading-relaxed">
-                      <a href="https://www.morningstar.com/content/cs-assets/v3/assets/blt9415ea4cc4157833/bltb73b87c5d0c70ead/692f43f57737a31596684522/working_file_11.19_FINAL_REVISE.pdf" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Morningstar's December 2025 update</a> shows that flexible spending rules can push sustainable withdrawal rates from a 3.9% base case to as high as 5.7%. The mechanism is straightforward: cut spending by 10% during poor markets and increase it during strong ones. This approach works for retirees whose essential expenses are already covered by guaranteed income like Social Security, freeing portfolio withdrawals for discretionary spending. Proportional withdrawals tied to current portfolio value reduce the risk of depleting savings during extended downturns. You preserve capital during market declines while maintaining purchasing power during growth periods.
+                      <a href="https://www.morningstar.com/content/cs-assets/v3/assets/blt9415ea4cc4157833/bltb73b87c5d0c70ead/692f43f57737a31596684522/working_file_11.19_FINAL_REVISE.pdf" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Morningstar&apos;s December 2025 update</a> shows that flexible spending rules can push sustainable withdrawal rates from a 3.9% base case to as high as 5.7%. The mechanism is straightforward: cut spending by 10% during poor markets and increase it during strong ones. This approach works for retirees whose essential expenses are already covered by guaranteed income like Social Security, freeing portfolio withdrawals for discretionary spending. Proportional withdrawals tied to current portfolio value reduce the risk of depleting savings during extended downturns. You preserve capital during market declines while maintaining purchasing power during growth periods.
                     </p>
                   </div>
                   <div>
@@ -250,7 +250,7 @@ export default function RetirementIncomePlanningGuidePage() {
                       The conventional advice of "withdraw from taxable accounts first, Roth last" oversimplifies a critical decision. Up to 85% of Social Security benefits may be taxable federally, meaning your withdrawal order directly affects how much of your monthly benefit you keep.
                     </p>
                     <p className="font-outfit text-dark-gray text-base leading-relaxed">
-                      Tax-bracket-managed sequencing coordinates retirement withdrawals across taxable accounts, tax-deferred accounts, and Roth IRA balances year by year using multi-year tax projections. Roth IRA balances, which grow tax-free and carry no RMDs during the owner's lifetime, are often most valuable when preserved for later years. Required minimum distributions add another layer. The IRS allows RMD installments (monthly or quarterly), not just a single annual withdrawal, giving retirees more control over bracket management within each tax year. Coordinating when you pay taxes on these distributions with your other income sources can reduce your lifetime tax burden significantly.
+                      Tax-bracket-managed sequencing coordinates retirement withdrawals across taxable accounts, tax-deferred accounts, and Roth IRA balances year by year using multi-year tax projections. Roth IRA balances, which grow tax-free and carry no RMDs during the owner&apos;s lifetime, are often most valuable when preserved for later years. Required minimum distributions add another layer. The IRS allows RMD installments (monthly or quarterly), not just a single annual withdrawal, giving retirees more control over bracket management within each tax year. Coordinating when you pay taxes on these distributions with your other income sources can reduce your lifetime tax burden significantly.
                     </p>
                   </div>
                   <div>
@@ -259,7 +259,7 @@ export default function RetirementIncomePlanningGuidePage() {
                       J.P. Morgan recommends covering essential expenses with guaranteed income before building an investment strategy for discretionary spending. Social Security provides the foundation. For retirees whose living expenses exceed their Social Security income, a pension or annuity may fill the gap.
                     </p>
                     <p className="font-outfit text-dark-gray text-base leading-relaxed">
-                      When evaluating annuities, compare the claims-paying ability ratings from AM Best or Moody's to assess the insurer's financial strength. Remaining assets can then follow a growth-oriented investment strategy designed to fund travel, gifts, and legacy goals. Some retirees combine elements: a bucket strategy that separates near-term spending reserves from long-term growth investments, paired with tax-bracket-managed withdrawals from different retirement accounts. The right approach depends on your spending flexibility, account mix, tax situation across DC, Maryland, or Virginia, and longevity assumptions. <Link href="/our-services/" className="text-medium-blue hover:underline">Retirement plan consulting</Link> that accounts for all four dimensions produces a different outcome than picking one approach in isolation.
+                      When evaluating annuities, compare the claims-paying ability ratings from AM Best or Moody&apos;s to assess the insurer&apos;s financial strength. Remaining assets can then follow a growth-oriented investment strategy designed to fund travel, gifts, and legacy goals. Some retirees combine elements: a bucket strategy that separates near-term spending reserves from long-term growth investments, paired with tax-bracket-managed withdrawals from different retirement accounts. The right approach depends on your spending flexibility, account mix, tax situation across DC, Maryland, or Virginia, and longevity assumptions. <Link href="/our-services/" className="text-medium-blue hover:underline">Retirement plan consulting</Link> that accounts for all four dimensions produces a different outcome than picking one approach in isolation.
                     </p>
                   </div>
                 </div>
@@ -292,7 +292,7 @@ export default function RetirementIncomePlanningGuidePage() {
                       <tr className="border-b border-gray-100 even:bg-gray-50">
                         <td className="px-4 py-3 text-gray-700">Virginia</td>
                         <td className="px-4 py-3 text-gray-700">Fully exempt from state tax</td>
-                        <td className="px-4 py-3 text-gray-700"><a href="https://www.tax.virginia.gov/news/virginia-taxes-and-your-retirement" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Virginia's retirement income tax treatment</a>: age deduction up to $12,000 for 65+</td>
+                        <td className="px-4 py-3 text-gray-700"><a href="https://www.tax.virginia.gov/news/virginia-taxes-and-your-retirement" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Virginia&apos;s retirement income tax treatment</a>: age deduction up to $12,000 for 65+</td>
                         <td className="px-4 py-3 text-gray-700">Age deduction (income limits apply)</td>
                       </tr>
                       <tr className="border-b border-gray-100 even:bg-gray-50">
@@ -308,19 +308,36 @@ export default function RetirementIncomePlanningGuidePage() {
                   These differences matter for tax-savvy withdrawals during retirement. A retiree in Virginia who has reached full retirement age pays no state taxes on Social Security, which changes the calculus on when to claim and how aggressively to draw from tax-deferred accounts in each tax bracket. A DC resident faces different ordinary income tax rates on pension distributions than a Maryland resident does.
                 </p>
                 <p className="font-outfit text-dark-gray text-base leading-relaxed">
-                  Estate taxes add another layer with different thresholds in each jurisdiction, though that falls outside the scope of income planning. To minimize taxes across your retirement, coordinate withdrawal order with your state's rules rather than comparing tax rates in isolation. State rules change, and you may owe taxes differently than you expect. Consult a tax professional for guidance specific to your situation. Understanding these jurisdictional differences before you retire lets you structure your income plan to keep more of what you've saved.
+                  Estate taxes add another layer with different thresholds in each jurisdiction, though that falls outside the scope of income planning. To minimize taxes across your retirement, coordinate withdrawal order with your state&apos;s rules rather than comparing tax rates in isolation. State rules change, and you may owe taxes differently than you expect. Consult a tax professional for guidance specific to your situation. Understanding these jurisdictional differences before you retire lets you structure your income plan to keep more of what you&apos;ve saved.
                 </p>
               </div>
               <div id="need-a-plan" className="mb-10">
                 <h2 className="font-outfit text-navy text-2xl font-light mb-4">When a Retirement Income Plan Needs More Than a Calculator</h2>
                 <blockquote className="border-l-4 border-medium-blue pl-4 text-gray-600 italic mb-4">
-                  Only 35% of non-retirees in 2024 said their retirement savings were on track, according to the Federal Reserve's 2025 economic well-being survey.
+                  Only 35% of non-retirees in 2024 said their retirement savings were on track, according to the Federal Reserve&apos;s 2025 economic well-being survey.
                 </blockquote>
                 <p className="font-outfit text-dark-gray text-base leading-relaxed mb-4">
-                  Most people who feel behind are not lacking money. Their financial situation involves variables that interact in ways a calculator cannot model: which account to draw from this year, when to trigger Social Security, how a Roth conversion affects Medicare premiums, and which state's rules apply. Professional money managers who specialize in retirement income coordinate these moving parts rather than optimizing one variable at a time.
+                  Most people who feel behind are not lacking money. Their financial situation involves variables that interact in ways a calculator cannot model: which account to draw from this year, when to trigger Social Security, how a Roth conversion affects Medicare premiums, and which state&apos;s rules apply. Professional money managers who specialize in retirement income coordinate these moving parts rather than optimizing one variable at a time.
                 </p>
                 <p className="font-outfit text-dark-gray text-base leading-relaxed mb-4">
-                  That complexity is why <Link href="/about/" className="text-medium-blue hover:underline">PointOak's approach to retirement planning</Link> starts with understanding your full picture before recommending a withdrawal. As a fee-only fiduciary since 2017 with over $1.08 billion in assets under management, we bring more than 50 years of collective experience. Darsh and <Link href="/our-consulting-team/" className="text-medium-blue hover:underline">our senior advisors</Link> have worked with plan sponsors and participants since 2005, giving them thousands of real withdrawal scenarios across every market condition.
+                  That complexity is why <Link href="/about/" className="text-medium-blue hover:underline">PointOak&apos;s approach to retirement planning</Link> starts with understanding your full picture before recommending a withdrawal. As a fee-only fiduciary since 2017 with over $1.08 billion in assets under management, we bring more than 50 years of collective experience. Darsh and <Link href="/our-consulting-team/" className="text-medium-blue hover:underline">our senior advisors</Link> have worked with plan sponsors and participants since 2005, giving them thousands of real withdrawal scenarios across every market condition.
                 </p>
                 <p className="font-outfit text-dark-gray text-base leading-relaxed">
-                  The <a href="https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-savings-and-investments.htm" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Federal Reserve's 2025 economic well-being
+                  The <a href="https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-savings-and-investments.htm" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underlink">Federal Reserve&apos;s 2025 economic well-being survey</a> found that even though confidence varies, the mechanics of turning retirement savings into income remain consistent: coordinate withdrawals, manage tax brackets, and preserve purchasing power over decades. That coordination requires expertise.
+                </p>
+              </div>
+              <div id="faq" className="mb-10">
+                <h2 className="font-outfit text-navy text-2xl font-light mb-4">Frequently Asked Questions</h2>
+                <ServiceDetailFAQ faqs={faqs} />
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      </AnimateOnScroll>
+
+      <CTASection />
+      <Footer />
+    </>
+  );
+}

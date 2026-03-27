@@ -130,13 +130,13 @@ export default function CustomTDFPage() {
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Glide Path Aligned to Your Workforce</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                A packaged glide path assumes a generic investor profile. Custom target date fund design starts with your actual workforce: age distribution, salary bands, and retirement behavior. The resulting asset allocation is tailored to your plan's financial goals and risk tolerance.
+                A packaged glide path assumes a generic investor profile. Custom target date fund design starts with your actual workforce: age distribution, salary bands, and retirement behavior. The resulting asset allocation is tailored to your plan&apos;s financial goals and risk tolerance.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Open-Architecture Manager Selection</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Custom design gives your committee more control over manager selection across a wider variety of investments. <a href="https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/fact-sheets/target-date-retirement-funds-tips-for-erisa-plan-fiduciaries" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">DOL fiduciary guidance</a> notes that non-proprietary options diversify portfolio exposure beyond a single provider. PointOak's <Link href="/corporate-retirement-plans/investment-analysis" className="text-medium-blue hover:underline">investment analysis</Link> supports this open-architecture approach with flexibility to offer conservative and growth-oriented funds.
+                Custom design gives your committee more control over manager selection across a wider variety of investments. <a href="https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/fact-sheets/target-date-retirement-funds-tips-for-erisa-plan-fiduciaries" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">DOL fiduciary guidance</a> notes that non-proprietary options diversify portfolio exposure beyond a single provider. PointOak&apos;s <Link href="/corporate-retirement-plans/investment-analysis" className="text-medium-blue hover:underline">investment analysis</Link> supports this open-architecture approach with flexibility to offer conservative and growth-oriented funds.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
@@ -148,13 +148,13 @@ export default function CustomTDFPage() {
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Reduced Single-Provider Concentration</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Around 80% of total target-date assets sit with the five largest managers, per Morningstar. Most plans inherit that concentration by default. Custom target date solutions allow diversification across providers and reduce reliance on any single firm's proprietary lineup.
+                Around 80% of total target-date assets sit with the five largest managers, per Morningstar. Most plans inherit that concentration by default. Custom target date solutions allow diversification across providers and reduce reliance on any single firm&apos;s proprietary lineup.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Participant Communication Matched to Plan Design</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Off-the-shelf TDF marketing rarely explains the actual allocation strategy your participants hold. Customization extends to participant communications that describe the real glide path, not generic fund fact sheets. Accurate participant education reinforces confidence in the plan's default.
+                Off-the-shelf TDF marketing rarely explains the actual allocation strategy your participants hold. Customization extends to participant communications that describe the real glide path, not generic fund fact sheets. Accurate participant education reinforces confidence in the plan&apos;s default.
               </p>
             </div>
           </div>
@@ -171,7 +171,7 @@ export default function CustomTDFPage() {
           </h2>
           <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
             <p>
-              Custom target date fund design requires four committee-level decisions: glide path shape, asset class mix and manager selection, implementation vehicle (CIT vs. mutual fund), and rebalancing governance. PointOak's <Link href="/corporate-retirement-plans/tdf-consulting" className="text-medium-blue hover:underline">target date fund consulting</Link> structures each decision around the plan's invested allocations across multiple asset classes.
+              Custom target date fund design requires four committee-level decisions: glide path shape, asset class mix and manager selection, implementation vehicle (CIT vs. mutual fund), and rebalancing governance. PointOak&apos;s <Link href="/corporate-retirement-plans/tdf-consulting" className="text-medium-blue hover:underline">target date fund consulting</Link> structures each decision around the plan&apos;s invested allocations across multiple asset classes.
             </p>
             <p>
               Vehicle choice carries material cost implications. <a href="https://www.morningstar.com/business/insights/research/tdf-landscape" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Morningstar</a> reported that collective investment trusts captured 52% of total target-date assets by mid-2024, a structural shift toward institutional pricing. For plans with sufficient scale, CITs reduce expense ratios on underlying holdings below what mutual fund share classes offer. This is a fiduciary consideration, not a detail to defer.
@@ -200,13 +200,13 @@ export default function CustomTDFPage() {
             <div className="bg-cloud-blue rounded-lg p-6 md:p-8">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Your Current Default Has Never Been Benchmarked</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                If your plan's TDF was selected years ago without a documented comparison, the DOL's periodic review expectation may be unmet. <Link href="/corporate-retirement-plans/provider-and-fee-benchmarking" className="text-medium-blue hover:underline">Provider and fee benchmarking</Link> establishes the baseline.
+                If your plan&apos;s TDF was selected years ago without a documented comparison, the DOL&apos;s periodic review expectation may be unmet. <Link href="/corporate-retirement-plans/provider-and-fee-benchmarking" className="text-medium-blue hover:underline">Provider and fee benchmarking</Link> establishes the baseline.
               </p>
             </div>
             <div className="bg-cloud-blue rounded-lg p-6 md:p-8">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Your Workforce Demographics Do Not Match Provider Assumptions</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Wide age distribution, unusual salary bands, or high turnover create participant profiles that generic glide paths miss. A custom target date approach accounts for your plan's actual demographic experience rather than a provider's broad assumptions.
+                Wide age distribution, unusual salary bands, or high turnover create participant profiles that generic glide paths miss. A custom target date approach accounts for your plan&apos;s actual demographic experience rather than a provider&apos;s broad assumptions.
               </p>
             </div>
             <div className="bg-cloud-blue rounded-lg p-6 md:p-8">
@@ -218,7 +218,7 @@ export default function CustomTDFPage() {
             <div className="bg-cloud-blue rounded-lg p-6 md:p-8">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Your Committee Wants Open-Architecture Manager Selection</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Your committee seeks hands-on control over manager selection rather than accepting a single firm's lineup. This requires governance capacity for ongoing oversight and documented selection criteria.
+                Your committee seeks hands-on control over manager selection rather than accepting a single firm&apos;s lineup. This requires governance capacity for ongoing oversight and documented selection criteria.
               </p>
             </div>
             <div className="bg-cloud-blue rounded-lg p-6 md:p-8">
@@ -230,7 +230,7 @@ export default function CustomTDFPage() {
             <div className="bg-white border-2 border-navy rounded-lg p-6 md:p-8">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">When Custom Might NOT Be the Right Fit</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Smaller plans with limited committee bandwidth often benefit from a packaged suite's simplicity and lower governance burden. Custom adds value only when the plan's scale and complexity justify it.
+                Smaller plans with limited committee bandwidth often benefit from a packaged suite&apos;s simplicity and lower governance burden. Custom adds value only when the plan&apos;s scale and complexity justify it.
               </p>
             </div>
           </div>
@@ -266,7 +266,7 @@ export default function CustomTDFPage() {
                 <tr className="border-b border-gray-100 even:bg-gray-50">
                   <td className="px-4 py-3 text-gray-700 font-medium">Manager selection</td>
                   <td className="px-4 py-3 text-gray-700">Open-architecture, committee-selected</td>
-                  <td className="px-4 py-3 text-gray-700">Provider's proprietary or curated lineup</td>
+                  <td className="px-4 py-3 text-gray-700">Provider&apos;s proprietary or curated lineup</td>
                 </tr>
                 <tr className="border-b border-gray-100 even:bg-gray-50">
                   <td className="px-4 py-3 text-gray-700 font-medium">Fee structure</td>
@@ -332,7 +332,7 @@ export default function CustomTDFPage() {
             </table>
           </div>
           <p className="text-text-gray font-outfit text-sm italic mt-6">
-            Sources: Vanguard's How America Saves 2025; industry consulting research
+            Sources: Vanguard&apos;s How America Saves 2025; industry consulting research
           </p>
           <p className="text-text-gray font-outfit text-base leading-relaxed mt-6">
             Custom fits plans with the assets, economic rationale, and committee bandwidth to justify ongoing oversight. Packaged suites deliver value through simplicity. An independent evaluation through <Link href="/corporate-retirement-plans/fiduciary-support" className="text-medium-blue hover:underline">fiduciary support</Link> helps your committee document its decision regardless of which structure fits.
@@ -379,7 +379,7 @@ export default function CustomTDFPage() {
           </h2>
           <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
             <p>
-              According to <a href="https://www.pimco.com/us/en/about-us/press-release/2025/401k-plan-sponsors-expected-to-favor-blend-target-date-funds-according-to-pimco-consultant-survey" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">PIMCO's 2025 DC Consulting Study</a>, 80% of aggregators expect plan sponsors to increase blend target-date fund implementation. PointOak evaluates these shifts through independent research, not product inventory. Our clients receive insight on participant communications alongside the structural recommendation, ensuring your workforce understands how their invested assets are managed.
+              According to <a href="https://www.pimco.com/us/en/about-us/press-release/2025/401k-plan-sponsors-expected-to-favor-blend-target-date-funds-according-to-pimco-consultant-survey" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">PIMCO&apos;s 2025 DC Consulting Study</a>, 80% of aggregators expect plan sponsors to increase blend target-date fund implementation. PointOak evaluates these shifts through independent research, not product inventory. Our clients receive insight on participant communications alongside the structural recommendation, ensuring your workforce understands how their invested assets are managed.
             </p>
             <p>
               The concern that custom is vendor-driven is valid when the advisor earns commissions. As an <Link href="/about" className="text-medium-blue hover:underline">independent, fee-only firm</Link> and named 3(21) and 3(38) ERISA fiduciary, PointOak treats no evaluation as a solicitation. We sell no proprietary funds and start every analysis with whether custom fits.
@@ -397,7 +397,7 @@ export default function CustomTDFPage() {
             About PointOak Retirement Advisors
           </h2>
           <p className="text-text-gray font-outfit text-base leading-relaxed">
-            PointOak Retirement Advisors is an independent, fee-only wealth advisory firm founded in 2017 and headquartered in McLean, Virginia. SEC-registered investment advisor serving clients nationwide with over $1.08 billion in assets under management. Darsh Makim's practice dates to 2005, backed by 50+ years of collective team experience. Named 3(21) and 3(38) ERISA fiduciary. <a href="https://www.pointoak.com/contact/" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Schedule a complimentary consultation</a>.
+            PointOak Retirement Advisors is an independent, fee-only wealth advisory firm founded in 2017 and headquartered in McLean, Virginia. SEC-registered investment advisor serving clients nationwide with over $1.08 billion in assets under management. Darsh Makim&apos;s practice dates to 2005, backed by 50+ years of collective team experience. Named 3(21) and 3(38) ERISA fiduciary. <a href="https://www.pointoak.com/contact/" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Schedule a complimentary consultation</a>.
           </p>
         </div>
       </section>
@@ -408,4 +408,13 @@ export default function CustomTDFPage() {
       <section className="bg-white py-8">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <p className="text-text-gray font-outfit text-sm leading-relaxed italic text-center">
-            Contact PointOak at (703) 595-4444 or <a href="https://www.pointoak.com/contact/" target="_blank"
+            Contact PointOak at (703) 595-4444 or <a href="https://www.pointoak.com/contact/" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">book a consultation</a> to review your plan&apos;s custom TDF options.
+          </p>
+        </div>
+      </section>
+
+      <CTASection />
+      <Footer />
+    </main>
+  );
+}

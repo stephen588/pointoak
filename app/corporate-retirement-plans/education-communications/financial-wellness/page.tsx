@@ -143,7 +143,7 @@ export default function FinancialWellnessPage() {
             <div className="bg-white rounded-lg p-6 md:p-8 shadow-sm border border-gray-100">
               <h3 className="font-outfit text-navy text-xl font-semibold mb-3">Reduced Productivity Loss</h3>
               <p className="text-gray-600 leading-relaxed">
-                PwC's 2023 survey found one in three full-time employees said money worries negatively affected their productivity. Reduced financial stress translates directly to recaptured work hours. Programs targeting the causes of financial distraction deliver measurable gains in focus and output.
+                PwC&apos;s 2023 survey found one in three full-time employees said money worries negatively affected their productivity. Reduced financial stress translates directly to recaptured work hours. Programs targeting the causes of financial distraction deliver measurable gains in focus and output.
               </p>
             </div>
             <div className="bg-white rounded-lg p-6 md:p-8 shadow-sm border border-gray-100">
@@ -301,7 +301,7 @@ export default function FinancialWellnessPage() {
             </table>
           </div>
           <p className="text-text-gray font-outfit text-base leading-relaxed mt-6">
-            EBRI's 2024 employer survey found 53% of employers offer planning education but only 44% provide personalized counseling or coaching. Financial wellness solutions limited to education fall short. Integrated financial wellness initiatives succeed when your committee ties retirement readiness metrics to <Link href="/fiduciary-support" className="text-medium-blue hover:underline">fiduciary support</Link>.
+            EBRI&apos;s 2024 employer survey found 53% of employers offer planning education but only 44% provide personalized counseling or coaching. Financial wellness solutions limited to education fall short. Integrated financial wellness initiatives succeed when your committee ties retirement readiness metrics to <Link href="/fiduciary-support" className="text-medium-blue hover:underline">fiduciary support</Link>.
           </p>
         </div>
       </section>
@@ -344,7 +344,7 @@ export default function FinancialWellnessPage() {
             Why Choose PointOak for Financial Wellness Programs
           </h2>
           <p className="text-text-gray font-outfit text-base leading-relaxed mb-6">
-            PwC reported 68% of employees who said their employer offered financial wellness services had used them. The engagement concern plan sponsors raise most often has a clear answer: programs designed around participants' financial lives drive usage. Our approach connects financial support directly to retirement-plan outcomes because we understand the plan side, not just the wellness side.
+            PwC reported 68% of employees who said their employer offered financial wellness services had used them. The engagement concern plan sponsors raise most often has a clear answer: programs designed around participants&apos; financial lives drive usage. Our approach connects financial support directly to retirement-plan outcomes because we understand the plan side, not just the wellness side.
           </p>
           <p className="text-text-gray font-outfit text-base leading-relaxed">
             Recordkeeper education covers retirement basics. It does not assist employees with debt, emergency savings, or daily cash-flow decisions that keep them from saving more. Learn <Link href="/about" className="text-medium-blue hover:underline">about PointOak</Link> and how <Link href="/our-consulting-team" className="text-medium-blue hover:underline">our consulting team</Link> builds programs where employees feel financially secure.

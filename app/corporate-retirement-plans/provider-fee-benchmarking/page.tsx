@@ -214,14 +214,14 @@ export default function ProviderFeeBenchmarkingPage() {
           </h2>
           <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
             <p>
-              A rigorous 401(k) cost analysis evaluates five categories: investment product fees, recordkeeping and administration fees, transaction costs, indirect compensation including revenue sharing, and float income treatment. The <a href="https://www.dol.gov/agencies/ebsa/employers-and-advisers/plan-administration-and-compliance/fiduciary-responsibilities/401k-plan-fee-disclosure-tool" target="_blank" rel="noopener noreferrer" className="text-navy underline hover:text-medium-blue transition-colors">DOL's fee disclosure framework</a> adds start-up, conversion, and termination fees to the scope. Each category requires its own data source and comparison methodology to benchmark fees accurately.
+              A rigorous 401(k) cost analysis evaluates five categories: investment product fees, recordkeeping and administration fees, transaction costs, indirect compensation including revenue sharing, and float income treatment. The <a href="https://www.dol.gov/agencies/ebsa/employers-and-advisers/plan-administration-and-compliance/fiduciary-responsibilities/401k-plan-fee-disclosure-tool" target="_blank" rel="noopener noreferrer" className="text-navy underline hover:text-medium-blue transition-colors">DOL&apos;s fee disclosure framework</a> adds start-up, conversion, and termination fees to the scope. Each category requires its own data source and comparison methodology to benchmark fees accurately.
             </p>
             <p>
               ICI and BrightScope data shows the asset-weighted average expense ratio for domestic equity mutual funds in 401(k) plans was 0.36%, compared to 0.06% for index funds. That sixfold spread demonstrates why expense ratios alone are an incomplete proxy for total investment costs. Regular benchmarking captures the full fee picture, including the administrative and indirect costs that fund-level metrics never reflect.
             </p>
             <div className="mt-6 pt-6 border-t border-gray-300">
               <p>
-                <Link href="/contact/" className="text-navy underline hover:text-medium-blue transition-colors font-medium">Schedule a consultation</Link> to find out how your plan's fees compare against the current market.
+                <Link href="/contact/" className="text-navy underline hover:text-medium-blue transition-colors font-medium">Schedule a consultation</Link> to find out how your plan&apos;s fees compare against the current market.
               </p>
             </div>
           </div>
@@ -249,7 +249,7 @@ export default function ProviderFeeBenchmarkingPage() {
             <div className="bg-[#F5F3EF] rounded-lg p-6 md:p-8 border-l-4 border-warm-gold">
               <h3 className="font-outfit text-navy text-lg md:text-xl font-semibold mb-3">When Benchmarking Might Not Be the Right Fit</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Plans under 12 months old with straightforward investment menus and a recently completed provider selection typically don't need a formal benchmarking engagement yet. Revisit once the plan's first full year of operational data is available.
+                Plans under 12 months old with straightforward investment menus and a recently completed provider selection typically don&apos;t need a formal benchmarking engagement yet. Revisit once the plan&apos;s first full year of operational data is available.
               </p>
             </div>
           </div>
@@ -265,7 +265,7 @@ export default function ProviderFeeBenchmarkingPage() {
             401(k) Fee Benchmarking vs. Full Retirement Plan RFP
           </h2>
           <p className="text-text-gray font-outfit text-base leading-relaxed mb-10">
-            Both a fee study and a full retirement plan RFP serve fiduciary objectives. The right choice depends on your plan's specific data rather than industry averages, and whether service gaps exist beyond pricing.
+            Both a fee study and a full retirement plan RFP serve fiduciary objectives. The right choice depends on your plan&apos;s specific data rather than industry averages, and whether service gaps exist beyond pricing.
           </p>
           <div className="overflow-x-auto">
             <table className="w-full border-collapse">
@@ -309,7 +309,7 @@ export default function ProviderFeeBenchmarkingPage() {
             Sources: Industry benchmarking standards, SGR Law
           </p>
           <p className="text-text-gray font-outfit text-base leading-relaxed mt-6">
-            In one documented case, an RFP produced a $49/participant proposal with expanded service versus the incumbent's $63/participant (SGR Law). An RFP is warranted when the benchmark reveals gaps no revised proposal can resolve.
+            In one documented case, an RFP produced a $49/participant proposal with expanded service versus the incumbent&apos;s $63/participant (SGR Law). An RFP is warranted when the benchmark reveals gaps no revised proposal can resolve.
           </p>
         </div>
       </section>
@@ -353,7 +353,7 @@ export default function ProviderFeeBenchmarkingPage() {
           </h2>
           <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
             <p>
-              A 2025 ERISA complaint alleged per-participant costs of $295.10 versus an Encore benchmark average of $41 for comparable plans (PSCA). That gap is what inadequate benchmarking produces. We operate as a named 3(21) or 3(38) fiduciary with a legal obligation to act in your plan's best interest, with no recordkeeper affiliations and no advisor fees tied to provider selection.
+              A 2025 ERISA complaint alleged per-participant costs of $295.10 versus an Encore benchmark average of $41 for comparable plans (PSCA). That gap is what inadequate benchmarking produces. We operate as a named 3(21) or 3(38) fiduciary with a legal obligation to act in your plan&apos;s best interest, with no recordkeeper affiliations and no advisor fees tied to provider selection.
             </p>
             <p>
               Plan sponsors sometimes suspect benchmarking is a pretext for a provider switch. Our fee-only model eliminates that conflict: no commissions from recordkeepers, no proprietary funds in our recommendations, no incentive to recommend a change unless actual plan data supports it. Our <Link href="/our-services/" className="text-navy underline hover:text-medium-blue transition-colors">retirement plan consulting services</Link> are structured around this independence.

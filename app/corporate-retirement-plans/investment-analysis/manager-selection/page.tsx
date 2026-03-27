@@ -145,13 +145,13 @@ export default function ManagerSelectionPage() {
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Better Manager-Goal Alignment</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Cerulli Associates data shows experience with similar clients (55%) and specialization (53%) rank among the top factors in institutional investment manager selection. Evaluating fit against your investment objectives ensures the manager's expertise matches the complexity of your specific situation and investment strategy.
+                Cerulli Associates data shows experience with similar clients (55%) and specialization (53%) rank among the top factors in institutional investment manager selection. Evaluating fit against your investment objectives ensures the manager&apos;s expertise matches the complexity of your specific situation and investment strategy.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Defensible Fiduciary Documentation</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                A documented evaluation process creates a fiduciary record of prudent selection criteria, not just favorable returns. Through disciplined <Link href="/corporate-retirement-plans/investment-analysis" className="text-medium-blue hover:underline">investment analysis</Link> and ongoing due diligence, every decision demonstrates it was made in the client's best interest with a deeper understanding of each manager's approach.
+                A documented evaluation process creates a fiduciary record of prudent selection criteria, not just favorable returns. Through disciplined <Link href="/corporate-retirement-plans/investment-analysis" className="text-medium-blue hover:underline">investment analysis</Link> and ongoing due diligence, every decision demonstrates it was made in the client&apos;s best interest with a deeper understanding of each manager&apos;s approach.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
@@ -174,7 +174,7 @@ export default function ManagerSelectionPage() {
           </h2>
           <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
             <p>
-              The CFA Institute's three-part framework defines the manager universe, applies quantitative analysis of track records across full market cycles, and follows with qualitative analysis of the manager's investment process and philosophy. A manager's investment philosophy forms the foundation every assessment builds upon, revealing unknown risks that performance data alone cannot surface.
+              The CFA Institute&apos;s three-part framework defines the manager universe, applies quantitative analysis of track records across full market cycles, and follows with qualitative analysis of the manager&apos;s investment process and philosophy. A manager&apos;s investment philosophy forms the foundation every assessment builds upon, revealing unknown risks that performance data alone cannot surface.
             </p>
             <p>
               GIPS compliance, per the CFA Institute, is the most reliable method for verifying reported performance is presented fairly and accurately. Combining qualitative and quantitative factors in operational due diligence and portfolio construction produces stronger decisions than either approach alone. <Link href="/corporate-retirement-plans/provider-and-fee-benchmarking" className="text-medium-blue hover:underline">Provider and fee benchmarking</Link> adds a verification layer for active management mandates across asset classes.
@@ -219,7 +219,7 @@ export default function ManagerSelectionPage() {
               </p>
             </div>
             <div className="bg-cloud-blue rounded-lg p-6 md:p-8">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">You Question Your Current Advisor's Fees or Conflicts</h3>
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">You Question Your Current Advisor&apos;s Fees or Conflicts</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
                 Cerulli found 38% of affluent investors seek new advice for diversification and 25% for performance. Structured evaluation clarifies whether concerns about a portfolio manager justify changing course or your arrangement remains sound.
               </p>
@@ -298,10 +298,10 @@ export default function ManagerSelectionPage() {
             Sources: CFA Institute; Investor.gov
           </p>
           <p className="text-text-gray font-outfit text-base leading-relaxed mt-6">
-            See <a href="https://www.investor.gov/introduction-investing/getting-started/working-investment-professional" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Investor.gov's guide to working with investment professionals</a> for additional verification steps.
+            See <a href="https://www.investor.gov/introduction-investing/getting-started/working-investment-professional" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Investor.gov&apos;s guide to working with investment professionals</a> for additional verification steps.
           </p>
           <p className="text-text-gray font-outfit text-base leading-relaxed mt-4">
-            For example, a large cap growth manager may lag during value-oriented cycles without any change in discipline. A performance screen is still a reasonable first filter for narrowing strong candidates among active managers. For fiduciary hiring or retention decisions, a full evaluation examines the manager's approach, thought process, and risk exposures. <Link href="/corporate-retirement-plans/fiduciary-support" className="text-medium-blue hover:underline">Fiduciary advisory services</Link> formalize this discipline.
+            For example, a large cap growth manager may lag during value-oriented cycles without any change in discipline. A performance screen is still a reasonable first filter for narrowing strong candidates among active managers. For fiduciary hiring or retention decisions, a full evaluation examines the manager&apos;s approach, thought process, and risk exposures. <Link href="/corporate-retirement-plans/fiduciary-support" className="text-medium-blue hover:underline">Fiduciary advisory services</Link> formalize this discipline.
           </p>
         </div>
       </section>
@@ -345,7 +345,7 @@ export default function ManagerSelectionPage() {
           </h2>
           <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
             <p>
-              Cerulli Associates found that 35% of high-net-worth individuals began their advisory relationship because of services or client experience. PointOak's fee-only independence means evaluation recommendations carry no product-sales incentive. Clients work directly with Darsh and his team, and that same leadership team stays involved throughout the manager selection process.
+              Cerulli Associates found that 35% of high-net-worth individuals began their advisory relationship because of services or client experience. PointOak&apos;s fee-only independence means evaluation recommendations carry no product-sales incentive. Clients work directly with Darsh and his team, and that same leadership team stays involved throughout the manager selection process.
             </p>
             <p>
               Every advisor claims fiduciary status. PointOak has been fee-only and fiduciary since 2017 with no commissions and no proprietary products. Open-architecture selection means your portfolio and investment advice are never influenced by corporate affiliations. Learn more <Link href="/about" className="text-medium-blue hover:underline">about PointOak</Link>.

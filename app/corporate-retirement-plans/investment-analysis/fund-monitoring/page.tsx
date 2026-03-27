@@ -133,7 +133,7 @@ export default function FundMonitoringPage() {
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Reduced Fiduciary Liability Exposure</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                <a href="https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/publications/meeting-your-fiduciary-responsibilities" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">DOL fiduciary guidance</a> defines prudence by the process used to make decisions, not by outcomes alone. A documented monitoring framework with IPS-based criteria and watchlist triggers is a plan sponsor's primary defense under applicable DOL rules. PointOak's <Link href="/corporate-retirement-plans/fiduciary-support" className="text-medium-blue hover:underline">fiduciary support</Link> builds that framework before it's needed.
+                <a href="https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/publications/meeting-your-fiduciary-responsibilities" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">DOL fiduciary guidance</a> defines prudence by the process used to make decisions, not by outcomes alone. A documented monitoring framework with IPS-based criteria and watchlist triggers is a plan sponsor&apos;s primary defense under applicable DOL rules. PointOak&apos;s <Link href="/corporate-retirement-plans/fiduciary-support" className="text-medium-blue hover:underline">fiduciary support</Link> builds that framework before it&apos;s needed.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
@@ -151,13 +151,13 @@ export default function FundMonitoringPage() {
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Lower Plan Costs Through Ongoing Fee Oversight</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                DOL fee disclosure rules require transparency, but disclosure alone doesn't lower fees. Ongoing <Link href="/corporate-retirement-plans/provider-and-fee-benchmarking" className="text-medium-blue hover:underline">fee benchmarking</Link> against share-class alternatives catches expense drift that erodes returns on employee contributions over time. This review cycle converts static fee data into actionable decisions that keep plan costs competitive.
+                DOL fee disclosure rules require transparency, but disclosure alone doesn&apos;t lower fees. Ongoing <Link href="/corporate-retirement-plans/provider-and-fee-benchmarking" className="text-medium-blue hover:underline">fee benchmarking</Link> against share-class alternatives catches expense drift that erodes returns on employee contributions over time. This review cycle converts static fee data into actionable decisions that keep plan costs competitive.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Clear Accountability Across Plan Service Providers</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Retaining a 3(21) or 3(38) advisor doesn't eliminate a sponsor's oversight duty. Monitoring defines each provider's role, documents who is responsible for fund selection versus administration, and closes compliance gaps between service providers. Clear accountability reduces the risk of undocumented handoffs that leave fiduciary responsibility undefined.
+                Retaining a 3(21) or 3(38) advisor doesn&apos;t eliminate a sponsor&apos;s oversight duty. Monitoring defines each provider&apos;s role, documents who is responsible for fund selection versus administration, and closes compliance gaps between service providers. Clear accountability reduces the risk of undocumented handoffs that leave fiduciary responsibility undefined.
               </p>
             </div>
           </div>
@@ -182,7 +182,7 @@ export default function FundMonitoringPage() {
           </div>
           <div className="mt-8 bg-navy text-white rounded-lg p-6 md:p-8">
             <p className="font-outfit text-base leading-relaxed">
-              Talk to a named fiduciary about your plan's fund monitoring process. <a href="https://www.pointoak.com/contact/" target="_blank" rel="noopener noreferrer" className="text-warm-gold hover:underline font-semibold">Schedule a consultation</a>.
+              Talk to a named fiduciary about your plan&apos;s fund monitoring process. <a href="https://www.pointoak.com/contact/" target="_blank" rel="noopener noreferrer" className="text-warm-gold hover:underline font-semibold">Schedule a consultation</a>.
             </p>
           </div>
         </div>
@@ -203,7 +203,7 @@ export default function FundMonitoringPage() {
             <div className="bg-cloud-blue rounded-lg p-6 md:p-8">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Your Committee Reviews Funds Without Documented Criteria</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Informal reviews based on recent returns lack the structure regulators expect. Without IPS-based criteria, there's no documented basis for keeping or removing a fund. Structured monitoring replaces guesswork with defensible, recorded decisions.
+                Informal reviews based on recent returns lack the structure regulators expect. Without IPS-based criteria, there&apos;s no documented basis for keeping or removing a fund. Structured monitoring replaces guesswork with defensible, recorded decisions.
               </p>
             </div>
             <div className="bg-cloud-blue rounded-lg p-6 md:p-8">
@@ -215,7 +215,7 @@ export default function FundMonitoringPage() {
             <div className="bg-cloud-blue rounded-lg p-6 md:p-8">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">You Have No Named Fiduciary Advisor for Investments</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Your recordkeeper handles administration, but no one holds named fiduciary responsibility for fund selection. That gap leaves the investment menu without an independent evaluator. PointOak's <Link href="/corporate-retirement-plans" className="text-medium-blue hover:underline">retirement plan consulting services</Link> fill that role.
+                Your recordkeeper handles administration, but no one holds named fiduciary responsibility for fund selection. That gap leaves the investment menu without an independent evaluator. PointOak&apos;s <Link href="/corporate-retirement-plans" className="text-medium-blue hover:underline">retirement plan consulting services</Link> fill that role.
               </p>
             </div>
             <div className="bg-cloud-blue rounded-lg p-6 md:p-8">
@@ -249,7 +249,7 @@ export default function FundMonitoringPage() {
             3(21) Advisor vs. 3(38) Investment Manager
           </h2>
           <p className="text-text-gray font-outfit text-base leading-relaxed mb-8">
-            <a href="https://institutional.vanguard.com/insights-and-research/report/previewing-how-america-saves-2025.html" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Vanguard's How America Saves 2025</a> found 67% of participants hold professionally managed allocations. That concentration makes the choice between different types of oversight models consequential.
+            <a href="https://institutional.vanguard.com/insights-and-research/report/previewing-how-america-saves-2025.html" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Vanguard&apos;s How America Saves 2025</a> found 67% of participants hold professionally managed allocations. That concentration makes the choice between different types of oversight models consequential.
           </p>
           <div className="overflow-x-auto">
             <table className="w-full border-collapse">
@@ -334,7 +334,7 @@ export default function FundMonitoringPage() {
           </h2>
           <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
             <p>
-              <a href="https://www.ici.org/news-release/25-low-expense-ratios-benefit-retirement-savers" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">ICI research</a> shows average equity mutual fund expense ratios in 401(k) plans fell from 0.76% in 2000 to 0.26% in 2024, a 66% decline. That reduction didn't happen passively. It resulted from ongoing fee benchmarking and share-class scrutiny, exactly the consulting discipline PointOak applies to every plan through <Link href="/about" className="text-medium-blue hover:underline">our independence</Link> and open-architecture evaluation.
+              <a href="https://www.ici.org/news-release/25-low-expense-ratios-benefit-retirement-savers" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">ICI research</a> shows average equity mutual fund expense ratios in 401(k) plans fell from 0.76% in 2000 to 0.26% in 2024, a 66% decline. That reduction didn&apos;t happen passively. It resulted from ongoing fee benchmarking and share-class scrutiny, exactly the consulting discipline PointOak applies to every plan through <Link href="/about" className="text-medium-blue hover:underline">our independence</Link> and open-architecture evaluation.
             </p>
             <p>
               Many sponsors assume their current service provider handles monitoring. A recordkeeper administers accounts. A named fiduciary monitors the lineup against documented criteria, manages watchlist triggers, and produces committee-ready reports. PointOak serves as a named 3(21) or 3(38) fiduciary, separating administration from oversight so each role is clear on paper and in practice.

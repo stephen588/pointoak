@@ -113,7 +113,7 @@ export default function LiveBidBenchmarkingPage() {
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Negotiating Leverage with Current Provider</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Armed with competitive proposals, you have documented evidence to support fee negotiations. Providers know losing a client is expensive, so they're often willing to reduce fees or enhance services when presented with Live Bid results showing competitive alternatives. Many sponsors achieve 15-30% fee reductions without changing providers.
+                Armed with competitive proposals, you have documented evidence to support fee negotiations. Providers know losing a client is expensive, so they&apos;re often willing to reduce fees or enhance services when presented with Live Bid results showing competitive alternatives. Many sponsors achieve 15-30% fee reductions without changing providers.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
@@ -131,7 +131,7 @@ export default function LiveBidBenchmarkingPage() {
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Independent Analysis with No Provider Conflicts</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                As an independent, fee-only advisor with no recordkeeper affiliations, PointOak has no financial incentive to steer you toward any particular provider. Our Live Bid methodology scores proposals objectively against your plan's priorities, not our revenue relationships. <Link href="/about" className="text-medium-blue hover:text-navy underline">Our independence</Link> ensures recommendations serve your plan alone.
+                As an independent, fee-only advisor with no recordkeeper affiliations, PointOak has no financial incentive to steer you toward any particular provider. Our Live Bid methodology scores proposals objectively against your plan&apos;s priorities, not our revenue relationships. <Link href="/about" className="text-medium-blue hover:text-navy underline">Our independence</Link> ensures recommendations serve your plan alone.
               </p>
             </div>
           </div>
@@ -151,7 +151,7 @@ export default function LiveBidBenchmarkingPage() {
               Live Bid benchmarking starts with comprehensive plan data collection: participant demographics, current fee structure, service agreements, and investment lineup. We use this information to create a detailed RFP distributed to qualified providers. Each provider responds with binding proposals based on your actual plan specifications, not generalized estimates.
             </p>
             <p>
-              We analyze responses across fees, investments, technology, services, and compliance capabilities using weighted scoring aligned with your committee's priorities. You receive side-by-side comparisons showing exactly how providers stack up and what switching or staying would mean for your plan. This documented analysis supports negotiation with your current provider or selection of a new one, with full <Link href="/corporate-retirement-plans/provider-fee-benchmarking/recordkeeper-rfp" className="text-medium-blue hover:text-navy underline">RFP management</Link> and transition support throughout.
+              We analyze responses across fees, investments, technology, services, and compliance capabilities using weighted scoring aligned with your committee&apos;s priorities. You receive side-by-side comparisons showing exactly how providers stack up and what switching or staying would mean for your plan. This documented analysis supports negotiation with your current provider or selection of a new one, with full <Link href="/corporate-retirement-plans/provider-fee-benchmarking/recordkeeper-rfp" className="text-medium-blue hover:text-navy underline">RFP management</Link> and transition support throughout.
             </p>
           </div>
           <div className="mt-8">
@@ -184,7 +184,7 @@ export default function LiveBidBenchmarkingPage() {
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">You Haven't Benchmarked in Three or More Years</h3>
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">You Haven&apos;t Benchmarked in Three or More Years</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
                 Market compression means pricing shifts quickly. A plan that was competitively priced three years ago may be significantly overpriced today. Live Bid resets your baseline with current market data and identifies opportunities for <Link href="/corporate-retirement-plans/provider-fee-benchmarking/fee-benchmarking" className="text-medium-blue hover:text-navy underline">fee reduction</Link>.
               </p>
@@ -192,13 +192,13 @@ export default function LiveBidBenchmarkingPage() {
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Your Plan Has Experienced Significant Growth</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Asset-based fees increase automatically as your plan grows. Live Bid evaluates whether your fee percentage should decline with scale, as larger plans typically command better pricing. You may be paying more than necessary simply because fees haven't been renegotiated since the plan was smaller.
+                Asset-based fees increase automatically as your plan grows. Live Bid evaluates whether your fee percentage should decline with scale, as larger plans typically command better pricing. You may be paying more than necessary simply because fees haven&apos;t been renegotiated since the plan was smaller.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">You're Uncertain Whether Current Fees Are Competitive</h3>
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">You&apos;re Uncertain Whether Current Fees Are Competitive</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                If you can't answer "Are our fees reasonable?" with documented confidence, Live Bid provides that certainty. Real proposals from qualified providers remove guesswork and give your committee defensible evidence for fiduciary decision-making.
+                If you can&apos;t answer "Are our fees reasonable?" with documented confidence, Live Bid provides that certainty. Real proposals from qualified providers remove guesswork and give your committee defensible evidence for fiduciary decision-making.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">

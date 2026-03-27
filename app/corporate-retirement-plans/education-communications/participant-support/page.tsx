@@ -119,15 +119,15 @@ export default function ParticipantSupportPage() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white rounded-lg p-6 md:p-8 shadow-sm border border-gray-100">
-              <h3 className="font-outfit text-navy text-xl font-semibold mb-3">Know Whether You're Actually on Track</h3>
+              <h3 className="font-outfit text-navy text-xl font-semibold mb-3">Know Whether You&apos;re Actually on Track</h3>
               <p className="text-gray-600 leading-relaxed">
-                The most common question participants bring to an advisor is whether they've saved enough to retire. Plan tools assess allocation but skip retirement readiness. Participant advice measures your retirement savings against your specific retirement goals, accounting for income needs, time horizon, and expected expenses.
+                The most common question participants bring to an advisor is whether they&apos;ve saved enough to retire. Plan tools assess allocation but skip retirement readiness. Participant advice measures your retirement savings against your specific retirement goals, accounting for income needs, time horizon, and expected expenses.
               </p>
             </div>
             <div className="bg-white rounded-lg p-6 md:p-8 shadow-sm border border-gray-100">
               <h3 className="font-outfit text-navy text-xl font-semibold mb-3">Protect Your Balance from Hidden Fee Drag</h3>
               <p className="text-gray-600 leading-relaxed">
-                A 1% fee difference can reduce your 401(k) balance by 28% over 35 years, according to the <a href="https://www.dol.gov/node/63354" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Department of Labor fee analysis</a>. That cost compounds silently across decades. Participant advice from a <Link href="/about" className="text-medium-blue hover:underline">fee-only fiduciary advisor</Link> reviews what you pay and whether it's justified before any rollover decision.
+                A 1% fee difference can reduce your 401(k) balance by 28% over 35 years, according to the <a href="https://www.dol.gov/node/63354" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Department of Labor fee analysis</a>. That cost compounds silently across decades. Participant advice from a <Link href="/about" className="text-medium-blue hover:underline">fee-only fiduciary advisor</Link> reviews what you pay and whether it&apos;s justified before any rollover decision.
               </p>
             </div>
             <div className="bg-white rounded-lg p-6 md:p-8 shadow-sm border border-gray-100">
@@ -139,13 +139,13 @@ export default function ParticipantSupportPage() {
             <div className="bg-white rounded-lg p-6 md:p-8 shadow-sm border border-gray-100">
               <h3 className="font-outfit text-navy text-xl font-semibold mb-3">Evaluate Rollover Decisions Before You Commit</h3>
               <p className="text-gray-600 leading-relaxed">
-                The Department of Labor requires rollover advice to compare your current plan's fees, investment options, and services against the alternative before recommending a change. Many advisors skip this comparison. Fiduciary participant advice starts with the analysis, not the recommendation.
+                The Department of Labor requires rollover advice to compare your current plan&apos;s fees, investment options, and services against the alternative before recommending a change. Many advisors skip this comparison. Fiduciary participant advice starts with the analysis, not the recommendation.
               </p>
             </div>
             <div className="bg-white rounded-lg p-6 md:p-8 shadow-sm border border-gray-100">
               <h3 className="font-outfit text-navy text-xl font-semibold mb-3">Coordinate Your 401(k) with the Rest of Your Financial Picture</h3>
               <p className="text-gray-600 leading-relaxed">
-                Your 401(k) doesn't exist in isolation. Participant advice integrates asset allocation, risk decisions, and investment selections with other accounts, taxes, Social Security, and estate planning. Treating each account separately leads to duplicated investments and missed tax strategies.
+                Your 401(k) doesn&apos;t exist in isolation. Participant advice integrates asset allocation, risk decisions, and investment selections with other accounts, taxes, Social Security, and estate planning. Treating each account separately leads to duplicated investments and missed tax strategies.
               </p>
             </div>
           </div>
@@ -185,25 +185,25 @@ export default function ParticipantSupportPage() {
           </p>
           <div className="space-y-8">
             <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">You're Within 10 Years of Retirement</h3>
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">You&apos;re Within 10 Years of Retirement</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Income, withdrawal, and tax decisions multiply as retirement approaches. Your plan's tools won't address Social Security timing, tax bracket management, or how to coordinate your 401(k) drawdown with other income sources. This is when guidance addresses gaps automated tools cannot.
+                Income, withdrawal, and tax decisions multiply as retirement approaches. Your plan&apos;s tools won&apos;t address Social Security timing, tax bracket management, or how to coordinate your 401(k) drawdown with other income sources. This is when guidance addresses gaps automated tools cannot.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">You're Changing Jobs or Leaving an Employer</h3>
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">You&apos;re Changing Jobs or Leaving an Employer</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Rolling over isn't automatically the right move. You need a comparison of your current plan's fees, investment options, and services against an IRA or new employer plan before you act. Evaluating advice options helps you make confident decisions about where your assets belong.
+                Rolling over isn&apos;t automatically the right move. You need a comparison of your current plan&apos;s fees, investment options, and services against an IRA or new employer plan before you act. Evaluating advice options helps you make confident decisions about where your assets belong.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">You've Built Significant Savings but Aren't Sure About Your Mix</h3>
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">You&apos;ve Built Significant Savings but Aren&apos;t Sure About Your Mix</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
                 Once your balance reaches a level where allocation, risk, and diversification carry real stakes, a target-date fund may no longer match your situation. The factors driving your investment decisions shift as your retirement savings and assets grow.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">You're Already Retired and Managing Withdrawals</h3>
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">You&apos;re Already Retired and Managing Withdrawals</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
                 Withdrawal sequencing, tax bracket management, and required minimum distribution decisions need ongoing coordination as your life and spending patterns change. Getting these wrong in early retirement compounds over the life of your savings.
               </p>
@@ -211,7 +211,7 @@ export default function ParticipantSupportPage() {
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">You Have Multiple Retirement Accounts Across Employers</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Scattered accounts create duplicated allocations, inconsistent risk exposure, and planning blind spots. Consolidation decisions require evaluating each account's fees, investment options, and tax implications before making changes.
+                Scattered accounts create duplicated allocations, inconsistent risk exposure, and planning blind spots. Consolidation decisions require evaluating each account&apos;s fees, investment options, and tax implications before making changes.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
@@ -260,7 +260,7 @@ export default function ParticipantSupportPage() {
                 <tr className="border-b border-gray-100 even:bg-gray-50">
                   <td className="px-4 py-3 text-gray-700 font-medium">Conflicts of interest</td>
                   <td className="px-4 py-3 text-gray-700">No commissions, no proprietary products</td>
-                  <td className="px-4 py-3 text-gray-700">May favor plan provider's fund options</td>
+                  <td className="px-4 py-3 text-gray-700">May favor plan provider&apos;s fund options</td>
                 </tr>
                 <tr className="border-b border-gray-100 even:bg-gray-50">
                   <td className="px-4 py-3 text-gray-700 font-medium">Retirement transition support</td>
@@ -368,7 +368,7 @@ export default function ParticipantSupportPage() {
             Why Choose PointOak for 401(k) Participant Advice
           </h2>
           <p className="text-text-gray font-outfit text-base leading-relaxed mb-6">
-            <a href="https://www.cfp.net/news/2026/01/cfp-professional-advised-americans-experience-greater-financial-preparedness" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">CFP Board's 2026 study</a> found that 94% of households advised by CFP professionals feel confident achieving their financial goals, compared to 81% of unadvised Americans. That confidence gap narrows when your advisor carries fiduciary responsibilities, uses open-architecture product selection, and specializes in retirement decisions rather than general financial planning.
+            <a href="https://www.cfp.net/news/2026/01/cfp-professional-advised-americans-experience-greater-financial-preparedness" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">CFP Board&apos;s 2026 study</a> found that 94% of households advised by CFP professionals feel confident achieving their financial goals, compared to 81% of unadvised Americans. That confidence gap narrows when your advisor carries fiduciary responsibilities, uses open-architecture product selection, and specializes in retirement decisions rather than general financial planning.
           </p>
           <p className="text-text-gray font-outfit text-base leading-relaxed">
             You already have a plan, so the real question is whether paid guidance adds enough. <Link href="/our-consulting-team" className="text-medium-blue hover:underline">Our senior advisors</Link> bring a corporate retirement plan background. They understand fee structures, provider conflicts, investment menus, and where plan-level rules stop. That knowledge directly shapes the participant advice you receive.
@@ -391,4 +391,10 @@ export default function ParticipantSupportPage() {
       </section>
       </AnimateOnScroll>
 
-      <ServiceDetailFAQ faqs
+      <ServiceDetailFAQ faqs={faqs} />
+
+      <CTASection />
+      <Footer />
+    </main>
+  );
+}

@@ -121,13 +121,13 @@ export default function RecordkeeperRFPPage() {
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Stronger Technology and Cybersecurity Vetting</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Cybersecurity threats rose from 40% to 47% as sponsors' top concern between 2022 and 2024 (PSCA/Escalent 2024). Most RFPs underweight this essential area with generic security questions instead of evaluating incident response protocols, SOC 2 compliance, and encryption across the full technology infrastructure.
+                Cybersecurity threats rose from 40% to 47% as sponsors&apos; top concern between 2022 and 2024 (PSCA/Escalent 2024). Most RFPs underweight this essential area with generic security questions instead of evaluating incident response protocols, SOC 2 compliance, and encryption across the full technology infrastructure.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Lower Plan Costs Through Competitive Bidding</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Fee decomposition separates direct recordkeeping charges from revenue sharing credits and indirect compensation. Without this breakdown, your committee can't compare providers on equal terms. Competitive bidding with structured fee disclosure forces the cost transparency that informal renewals rarely produce.
+                Fee decomposition separates direct recordkeeping charges from revenue sharing credits and indirect compensation. Without this breakdown, your committee can&apos;t compare providers on equal terms. Competitive bidding with structured fee disclosure forces the cost transparency that informal renewals rarely produce.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
@@ -188,19 +188,19 @@ export default function RecordkeeperRFPPage() {
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Your Recordkeeper Contract Is Approaching Renewal</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Long tenure without formal review signals fiduciary risk. If your committee can't document when it last assessed the market, renewal is the trigger to evaluate current provider fit against your specific needs.
+                Long tenure without formal review signals fiduciary risk. If your committee can&apos;t document when it last assessed the market, renewal is the trigger to evaluate current provider fit against your specific needs.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Plan Fees Feel Opaque or Uncompetitive</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                If your organization can't isolate recordkeeping fees from investment expenses and revenue sharing, you can't determine whether participants are overpaying. Fee opacity flags that competitive bidding is overdue.
+                If your organization can&apos;t isolate recordkeeping fees from investment expenses and revenue sharing, you can&apos;t determine whether participants are overpaying. Fee opacity flags that competitive bidding is overdue.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Technology and Cybersecurity Expectations Have Changed</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Forty-eight percent of plan sponsors rated digital experience extremely important in 2024, up from 30% the prior year (Fidelity 2024). If your employer's technology hasn't kept pace, the gap affects participant outcomes.
+                Forty-eight percent of plan sponsors rated digital experience extremely important in 2024, up from 30% the prior year (Fidelity 2024). If your employer&apos;s technology hasn&apos;t kept pace, the gap affects participant outcomes.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
@@ -218,7 +218,7 @@ export default function RecordkeeperRFPPage() {
           </div>
           <div className="mt-8 p-6 bg-cloud-blue rounded-lg">
             <p className="text-text-gray font-outfit text-base leading-relaxed">
-              Plans that completed a documented evaluation in the past three years with no material changes may not need a new RFP. PointOak's corporate retirement plan consulting provides ongoing monitoring between formal reviews.
+              Plans that completed a documented evaluation in the past three years with no material changes may not need a new RFP. PointOak&apos;s corporate retirement plan consulting provides ongoing monitoring between formal reviews.
             </p>
           </div>
         </div>
@@ -252,7 +252,7 @@ export default function RecordkeeperRFPPage() {
                 </tr>
                 <tr className="border-b border-gray-100 even:bg-gray-50">
                   <td className="px-4 py-3 text-gray-700 font-medium">Investment Menu Control</td>
-                  <td className="px-4 py-3 text-gray-700">Often limited to provider's fund lineup</td>
+                  <td className="px-4 py-3 text-gray-700">Often limited to provider&apos;s fund lineup</td>
                   <td className="px-4 py-3 text-gray-700">Open architecture; plan selects investments independently</td>
                 </tr>
                 <tr className="border-b border-gray-100 even:bg-gray-50">
@@ -302,7 +302,7 @@ export default function RecordkeeperRFPPage() {
               <div className="flex-shrink-0 w-16 h-16 rounded-full bg-medium-blue flex items-center justify-center text-white font-bold text-xl">2</div>
               <div>
                 <h3 className="text-navy font-outfit text-lg lg:text-xl font-semibold mb-2">Optimize the Evaluation Criteria</h3>
-                <p className="text-text-gray font-outfit text-base leading-relaxed">Your committee receives a weighted scoring framework and customized RFP we develop around your plan's priorities.</p>
+                <p className="text-text-gray font-outfit text-base leading-relaxed">Your committee receives a weighted scoring framework and customized RFP we develop around your plan&apos;s priorities.</p>
               </div>
             </div>
             <div className="flex items-start gap-6">
@@ -326,10 +326,10 @@ export default function RecordkeeperRFPPage() {
           </h2>
           <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
             <p>
-              PointOak operates as an <Link href="/about" className="text-medium-blue hover:text-navy underline">independent, fee-only advisory firm</Link> with no affiliations to record keepers, custodians, or bundled providers. Our Live Bid methodology uses actual plan data rather than industry averages to score every bidder across the complete evaluation. Fee-only compensation means our analysis serves your plan's objectives, not a product shelf.
+              PointOak operates as an <Link href="/about" className="text-medium-blue hover:text-navy underline">independent, fee-only advisory firm</Link> with no affiliations to record keepers, custodians, or bundled providers. Our Live Bid methodology uses actual plan data rather than industry averages to score every bidder across the complete evaluation. Fee-only compensation means our analysis serves your plan&apos;s objectives, not a product shelf.
             </p>
             <p>
-              Some plan sponsors run RFPs internally or use recordkeeper-affiliated advisors. Internal teams lack the industry expertise and benchmarking resources to assess all potential providers objectively. Affiliated advisors may favor their parent company's platform, an undisclosed conflict your committee cannot afford.
+              Some plan sponsors run RFPs internally or use recordkeeper-affiliated advisors. Internal teams lack the industry expertise and benchmarking resources to assess all potential providers objectively. Affiliated advisors may favor their parent company&apos;s platform, an undisclosed conflict your committee cannot afford.
             </p>
           </div>
         </div>
@@ -355,7 +355,7 @@ export default function RecordkeeperRFPPage() {
       <section className="bg-white py-8">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <p className="text-text-gray font-outfit text-sm leading-relaxed text-center">
-            <Link href="/contact" className="text-medium-blue hover:text-navy underline">Schedule a consultation</Link> to start building your plan's recordkeeper evaluation framework with a named ERISA fiduciary.
+            <Link href="/contact" className="text-medium-blue hover:text-navy underline">Schedule a consultation</Link> to start building your plan&apos;s recordkeeper evaluation framework with a named ERISA fiduciary.
           </p>
         </div>
       </section>

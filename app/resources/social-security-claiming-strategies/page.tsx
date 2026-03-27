@@ -134,7 +134,7 @@ export default function SocialSecurityClaimingStrategiesPage() {
                 <ul className="list-disc pl-5 text-dark-gray space-y-2">
                   <li>There is no universally optimal age; the right claiming age depends on health, work status, survivor needs, and tax situation</li>
                   <li>Claiming as early as age 62 can permanently reduce lifetime benefits by about 30% for someone with FRA 67</li>
-                  <li>Survivor benefits range from 71.5% to 100% of a deceased spouse's benefit depending on when the survivor claims</li>
+                  <li>Survivor benefits range from 71.5% to 100% of a deceased spouse&apos;s benefit depending on when the survivor claims</li>
                   <li>Several once-popular spousal strategies are now obsolete under current deemed-filing rules</li>
                 </ul>
               </div>
@@ -151,8 +151,8 @@ export default function SocialSecurityClaimingStrategiesPage() {
                 </p>
                 <ul className="list-disc pl-5 text-dark-gray space-y-2 mb-4">
                   <li><strong>Life expectancy outlook:</strong> family history, current health conditions, and your honest assessment of longevity</li>
-                  <li><strong>Work income and earnings-test exposure:</strong> whether you'll continue earning above the annual threshold before full retirement age</li>
-                  <li><strong>Survivor protection:</strong> the higher earner's claiming age directly sets the floor for a surviving spouse's benefit</li>
+                  <li><strong>Work income and earnings-test exposure:</strong> whether you&apos;ll continue earning above the annual threshold before full retirement age</li>
+                  <li><strong>Survivor protection:</strong> the higher earner&apos;s claiming age directly sets the floor for a surviving spouse&apos;s benefit</li>
                   <li><strong>Tax bracket management:</strong> coordinating the timing with withdrawals from retirement accounts to manage combined income</li>
                   <li><strong>Portfolio bridge capacity:</strong> whether you have enough in other assets to cover living expenses while delaying</li>
                 </ul>
@@ -166,7 +166,7 @@ export default function SocialSecurityClaimingStrategiesPage() {
               <div id="benefits-change" className="mb-10">
                 <h2 className="font-outfit text-navy text-2xl font-light mb-4">How Your Social Security Benefits Change at 62, Full Retirement Age, and 70</h2>
                 <p className="font-outfit text-dark-gray text-base leading-relaxed mb-4">
-                  Your birth year determines your full retirement age (FRA), and every month you claim before or after it changes your social security retirement benefits permanently. The Social Security Administration calculates your primary insurance amount (PIA) based on your highest 35 years of earnings record. That PIA is what you'd receive when you reach your full retirement age.
+                  Your birth year determines your full retirement age (FRA), and every month you claim before or after it changes your social security retirement benefits permanently. The Social Security Administration calculates your primary insurance amount (PIA) based on your highest 35 years of earnings record. That PIA is what you&apos;d receive when you reach your full retirement age.
                 </p>
                 <div className="space-y-6 mb-6">
                   <div>
@@ -184,7 +184,7 @@ export default function SocialSecurityClaimingStrategiesPage() {
                   <div>
                     <h3 className="font-outfit text-navy text-xl font-semibold mb-3">Delaying to 70</h3>
                     <blockquote className="border-l-4 border-medium-blue pl-4 text-gray-600 italic mb-3">
-                      Delayed retirement credits add 8% per year to your benefit for each year you wait past FRA, stopping at age 70, according to the <a href="https://www.ssa.gov/benefits/retirement/planner/delayret.html" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">SSA's delayed retirement credits page</a>.
+                      Delayed retirement credits add 8% per year to your benefit for each year you wait past FRA, stopping at age 70, according to the <a href="https://www.ssa.gov/benefits/retirement/planner/delayret.html" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">SSA&apos;s delayed retirement credits page</a>.
                     </blockquote>
                     <p className="font-outfit text-dark-gray text-base leading-relaxed">
                       Delay claiming to 70 produces the maximum benefit and locks in a higher benefit base for survivor calculations. A higher earner who can delay claiming while drawing from other assets or work income may secure significantly more future benefits for both spouses. Waiting until age 70 maximizes the monthly benefit your household can protect.
@@ -230,10 +230,10 @@ export default function SocialSecurityClaimingStrategiesPage() {
               <div id="married-couples" className="mb-10">
                 <h2 className="font-outfit text-navy text-2xl font-light mb-4">Social Security Claiming Strategies for Married Couples and Survivors</h2>
                 <blockquote className="border-l-4 border-medium-blue pl-4 text-gray-600 italic mb-4">
-                  A surviving spouse's Social Security payment can range from 71.5% to 100% of the deceased spouse's benefit depending on when the survivor claims, according to the <a href="https://www.ssa.gov/survivor/amount" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">SSA's survivor benefit calculations</a>.
+                  A surviving spouse&apos;s Social Security payment can range from 71.5% to 100% of the deceased spouse&apos;s benefit depending on when the survivor claims, according to the <a href="https://www.ssa.gov/survivor/amount" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">SSA&apos;s survivor benefit calculations</a>.
                 </blockquote>
                 <p className="font-outfit text-dark-gray text-base leading-relaxed mb-4">
-                  For married couples, the claiming decision is a household problem. When one spouse dies, the surviving spouse keeps the higher of the two benefits, not both. The higher earner's claiming age directly determines how much the lower earning spouse will receive as survivor benefits.
+                  For married couples, the claiming decision is a household problem. When one spouse dies, the surviving spouse keeps the higher of the two benefits, not both. The higher earner&apos;s claiming age directly determines how much the lower earning spouse will receive as survivor benefits.
                 </p>
                 <p className="font-outfit text-dark-gray text-base leading-relaxed mb-4">
                   December 2023 average benefits were $2,081.74 for men and $1,653.79 for women, which underscores why survivor planning matters most for the lower-earning family member.
@@ -242,10 +242,10 @@ export default function SocialSecurityClaimingStrategiesPage() {
                   Deemed filing changed the rules for coordinating retirement and spousal benefits. Under current law, filing for your own retirement benefit triggers a simultaneous filing for spousal benefits, so the old strategy of receiving spousal benefits first while letting your own benefits grow is no longer available for most filers. The exception: you can still claim survivor benefits separately. A widow or widower can claim one benefit type first and switch to the other later, creating a genuine sequencing opportunity.
                 </p>
                 <p className="font-outfit text-dark-gray text-base leading-relaxed mb-4">
-                  Survivor FRA falls between age 66 and 67 and is not always the same as your retirement FRA. An ex-spouse from a marriage lasting at least 10 years may also be eligible for benefits based on the former spouse's record. Remarriage after age 60 may preserve survivor eligibility, and dependent children may also qualify on a deceased parent's record.
+                  Survivor FRA falls between age 66 and 67 and is not always the same as your retirement FRA. An ex-spouse from a marriage lasting at least 10 years may also be eligible for benefits based on the former spouse&apos;s record. Remarriage after age 60 may preserve survivor eligibility, and dependent children may also qualify on a deceased parent&apos;s record.
                 </p>
                 <p className="font-outfit text-dark-gray text-base leading-relaxed">
-                  Coordinating two benefits across two lifetimes requires modeling that accounts for ages, health, income, and taxes. One spouse may need to collect benefits early while the other delays to maximize household income. PointOak's <Link href="/our-services/" className="text-medium-blue hover:underline">retirement plan consulting and wealth management</Link> team builds these models as part of every retirement income plan.
+                  Coordinating two benefits across two lifetimes requires modeling that accounts for ages, health, income, and taxes. One spouse may need to collect benefits early while the other delays to maximize household income. PointOak&apos;s <Link href="/our-services/" className="text-medium-blue hover:underline">retirement plan consulting and wealth management</Link> team builds these models as part of every retirement income plan.
                 </p>
               </div>
               <div id="earnings-limits" className="mb-10">
@@ -277,7 +277,7 @@ export default function SocialSecurityClaimingStrategiesPage() {
                   </table>
                 </div>
                 <p className="font-outfit text-dark-gray text-base leading-relaxed text-sm mb-4">
-                  <em>Source: <a href="https://www.ssa.gov/benefits/retirement/planner/whileworking.html" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">SSA's earnings test rules</a></em>
+                  <em>Source: <a href="https://www.ssa.gov/benefits/retirement/planner/whileworking.html" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">SSA&apos;s earnings test rules</a></em>
                 </p>
                 <p className="font-outfit text-dark-gray text-base leading-relaxed">
                   If you collect social security before FRA and earn above these limits, the withheld amount is not permanently lost. The SSA recalculates your benefit at FRA to credit you for months of withholding, which increases your social security income going forward. Your earnings history may also improve if recent high-earning years replace lower-earning years in the 35-year calculation.
@@ -289,7 +289,7 @@ export default function SocialSecurityClaimingStrategiesPage() {
                   Generic claiming advice often ignores operational details that cost real money. Four blind spots come up repeatedly:
                 </p>
                 <ul className="list-disc pl-5 text-dark-gray space-y-3 mb-4">
-                  <li><strong>Medicare enrollment gap:</strong> Delaying Social Security past 65 does not delay your Medicare obligation. Part B late enrollment adds a 10% premium penalty for each 12-month period you delayed, according to the <a href="https://www.ssa.gov/medicare/plan/when-to-sign-up" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">SSA's Medicare enrollment guidance</a></li>
+                  <li><strong>Medicare enrollment gap:</strong> Delaying Social Security past 65 does not delay your Medicare obligation. Part B late enrollment adds a 10% premium penalty for each 12-month period you delayed, according to the <a href="https://www.ssa.gov/medicare/plan/when-to-sign-up" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">SSA&apos;s Medicare enrollment guidance</a></li>
                   <li><strong>Provisional income taxation:</strong> Up to 85% of social security benefits can be taxed depending on your combined income. The thresholds ($25,000 single, $32,000 married filing jointly) have not been adjusted for inflation since 1993</li>
                   <li><strong>Retroactive claim limits:</strong> After FRA, the SSA allows retroactive claims of up to 6 months. Before FRA, retroactive filing is not available</li>
                   <li><strong>Suspension rules:</strong> After FRA, you can voluntarily suspend benefits to earn delayed credits, but suspending also stops other benefits based on your record, including spousal benefits</li>

@@ -131,7 +131,7 @@ export default function RetirementEducationPage() {
             <div className="bg-white rounded-lg p-6 md:p-8 shadow-sm border border-gray-100">
               <h3 className="font-outfit text-navy text-xl font-semibold mb-3">Higher Participant Engagement and Confidence</h3>
               <p className="text-gray-600 leading-relaxed mb-4">
-                Two-thirds of workers want more financial education from their employers. <a href="https://www.transamerica.com/retirement/guidance" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Transamerica's retirement guidance research</a> (2025) found 66% of employees seek information and advice on retirement goals from their employer sponsored plan.
+                Two-thirds of workers want more financial education from their employers. <a href="https://www.transamerica.com/retirement/guidance" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Transamerica&apos;s retirement guidance research</a> (2025) found 66% of employees seek information and advice on retirement goals from their employer sponsored plan.
               </p>
               <p className="text-gray-600 leading-relaxed">
                 Structured retirement education responds to that demand and builds confidence in achieving financial security through consistent saving for retirement.
@@ -146,7 +146,7 @@ export default function RetirementEducationPage() {
             <div className="bg-white rounded-lg p-6 md:p-8 shadow-sm border border-gray-100">
               <h3 className="font-outfit text-navy text-xl font-semibold mb-3">Reduced Fiduciary Exposure Through Documented Education</h3>
               <p className="text-gray-600 leading-relaxed">
-                The Employee Retirement Income Security Act requires plan sponsors to act prudently in participant communications. A structured education program creates a documented record for your fiduciary file, demonstrating that your committee fulfilled its obligation to inform participants. PointOak's <Link href="/fiduciary-support" className="text-medium-blue hover:underline">fiduciary support</Link> integrates directly with this effort.
+                The Employee Retirement Income Security Act requires plan sponsors to act prudently in participant communications. A structured education program creates a documented record for your fiduciary file, demonstrating that your committee fulfilled its obligation to inform participants. PointOak&apos;s <Link href="/fiduciary-support" className="text-medium-blue hover:underline">fiduciary support</Link> integrates directly with this effort.
               </p>
             </div>
             <div className="bg-white rounded-lg p-6 md:p-8 shadow-sm border border-gray-100">
@@ -177,10 +177,10 @@ export default function RetirementEducationPage() {
             Effective retirement plan education segments the workforce by career stage, savings level, and retirement proximity. Programs providing stage-appropriate retirement planning content improve financial literacy and drive stronger engagement. This is the foundation of <Link href="/our-services" className="text-medium-blue hover:underline">corporate retirement plan consulting</Link> that treats employee education as a behavior-change initiative, not a compliance checkbox.
           </p>
           <p className="text-text-gray font-outfit text-base leading-relaxed mb-6">
-            Cadence matters as much as content. <a href="https://www.psca.org/news/psca-news/2025/6/frequency-of-participant-education-campaigns/" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">PSCA's 2025 participant education research</a> found 48.5% of sponsors now deliver year-round education, while 35% still communicate only as needed. Year-round programs outperform periodic email blasts through repetition and relevance, turning valuable resources into action across each participant's planning horizon.
+            Cadence matters as much as content. <a href="https://www.psca.org/news/psca-news/2025/6/frequency-of-participant-education-campaigns/" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">PSCA&apos;s 2025 participant education research</a> found 48.5% of sponsors now deliver year-round education, while 35% still communicate only as needed. Year-round programs outperform periodic email blasts through repetition and relevance, turning valuable resources into action across each participant&apos;s planning horizon.
           </p>
           <p className="text-text-gray font-outfit text-base leading-relaxed">
-            <Link href="/contact" className="text-medium-blue hover:underline">Schedule a consultation</Link> to discuss your plan's education strategy.
+            <Link href="/contact" className="text-medium-blue hover:underline">Schedule a consultation</Link> to discuss your plan&apos;s education strategy.
           </p>
         </div>
       </section>
@@ -273,7 +273,7 @@ export default function RetirementEducationPage() {
                 <tr className="border-b border-gray-100 even:bg-gray-50">
                   <td className="px-4 py-3 text-gray-700 font-medium">Fiduciary alignment</td>
                   <td className="px-4 py-3 text-gray-700">Delivered by a named ERISA fiduciary</td>
-                  <td className="px-4 py-3 text-gray-700">Content from the employer's plan recordkeeper</td>
+                  <td className="px-4 py-3 text-gray-700">Content from the employer&apos;s plan recordkeeper</td>
                 </tr>
                 <tr className="border-b border-gray-100 even:bg-gray-50">
                   <td className="px-4 py-3 text-gray-700 font-medium">Measurable outcomes</td>
@@ -292,7 +292,7 @@ export default function RetirementEducationPage() {
             Sources: PSCA, 2025; Transamerica, 2025; PSCA citing Voya, 2025
           </p>
           <p className="text-text-gray font-outfit text-base leading-relaxed mt-6">
-            PSCA citing Voya (2025) reports 77% of sponsors plan to add retirement income solutions within two years. Recordkeeper materials may suffice for simple plans with limited investment choices. PointOak's <Link href="/education-and-communications-program" className="text-medium-blue hover:underline">education and communications programs</Link> pair retirement experts with your specific investment lineup, covering compound interest, asset allocation, and contribution strategy so participants act on what they learn.
+            PSCA citing Voya (2025) reports 77% of sponsors plan to add retirement income solutions within two years. Recordkeeper materials may suffice for simple plans with limited investment choices. PointOak&apos;s <Link href="/education-and-communications-program" className="text-medium-blue hover:underline">education and communications programs</Link> pair retirement experts with your specific investment lineup, covering compound interest, asset allocation, and contribution strategy so participants act on what they learn.
           </p>
         </div>
       </section>
@@ -335,10 +335,10 @@ export default function RetirementEducationPage() {
             Why Choose PointOak for Retirement Education
           </h2>
           <p className="text-text-gray font-outfit text-base leading-relaxed mb-6">
-            The average employee-elective deferral rate was 7.7% in 2024, according to <a href="https://corporate.vanguard.com/content/dam/corp/research/pdf/how_america_saves_report_2025.pdf" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Vanguard's How America Saves 2025 report</a>. That figure reflects employers relying on auto-enrollment without reinforcing savings behavior through education. <Link href="/about" className="text-medium-blue hover:underline">Our approach to retirement plan consulting</Link> pairs retirement experts with plan-specific data to move participants past default rates and build retirement confidence.
+            The average employee-elective deferral rate was 7.7% in 2024, according to <a href="https://corporate.vanguard.com/content/dam/corp/research/pdf/how_america_saves_report_2025.pdf" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Vanguard&apos;s How America Saves 2025 report</a>. That figure reflects employers relying on auto-enrollment without reinforcing savings behavior through education. <Link href="/about" className="text-medium-blue hover:underline">Our approach to retirement plan consulting</Link> pairs retirement experts with plan-specific data to move participants past default rates and build retirement confidence.
           </p>
           <p className="text-text-gray font-outfit text-base leading-relaxed">
-            Your recordkeeper provides education materials, but that content serves the recordkeeper's platform, not your workforce's gaps. <Link href="/our-consulting-team" className="text-medium-blue hover:underline">Our senior advisors</Link> operate as a named ERISA fiduciary with no proprietary product incentives. The fee-only model builds every recommendation around participant outcomes, whether you work with federal government contractors or private-sector employers across multiple states.
+            Your recordkeeper provides education materials, but that content serves the recordkeeper&apos;s platform, not your workforce&apos;s gaps. <Link href="/our-consulting-team" className="text-medium-blue hover:underline">Our senior advisors</Link> operate as a named ERISA fiduciary with no proprietary product incentives. The fee-only model builds every recommendation around participant outcomes, whether you work with federal government contractors or private-sector employers across multiple states.
           </p>
         </div>
       </section>
@@ -363,7 +363,7 @@ export default function RetirementEducationPage() {
       <section className="bg-white py-8">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <p className="text-text-gray font-outfit text-sm leading-relaxed text-center">
-            Call (703) 595-4444 or <Link href="/contact" className="text-medium-blue hover:underline">schedule a consultation</Link> to review your plan's education approach.
+            Call (703) 595-4444 or <Link href="/contact" className="text-medium-blue hover:underline">schedule a consultation</Link> to review your plan&apos;s education approach.
           </p>
         </div>
       </section>

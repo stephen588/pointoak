@@ -200,11 +200,11 @@ export default function TDFConsultingPage() {
               A rigorous TDF evaluation starts with participant demographics: ages, target retirement dates, salary levels, contribution rates, and withdrawal patterns. The evaluation examines glide path design (static glide path vs. declining glide path), underlying asset allocation across stocks, bonds, cash, and other asset classes. Management style and component-fund investment strategies receive the same <Link href="/investment-analysis/" className="text-navy underline hover:text-medium-blue transition-colors">investment analysis</Link> rigor applied to the full plan menu and managed investments.
             </p>
             <p>
-              <a href="https://www.morningstar.com/funds/target-date-funds-have-delivered-investors" target="_blank" rel="noopener noreferrer" className="text-navy underline hover:text-medium-blue transition-colors">Morningstar's 2024 target-date report</a> shows target-date mutual fund asset-weighted fees fell to 29 basis points in 2024. Fee compression and CIT growth make vehicle selection a live fiduciary requirement, not a historical checkbox. A plan holding high-cost mutual fund shares finds lower-cost CIT alternatives with identical underlying assets and bond exposure.
+              <a href="https://www.morningstar.com/funds/target-date-funds-have-delivered-investors" target="_blank" rel="noopener noreferrer" className="text-navy underline hover:text-medium-blue transition-colors">Morningstar&apos;s 2024 target-date report</a> shows target-date mutual fund asset-weighted fees fell to 29 basis points in 2024. Fee compression and CIT growth make vehicle selection a live fiduciary requirement, not a historical checkbox. A plan holding high-cost mutual fund shares finds lower-cost CIT alternatives with identical underlying assets and bond exposure.
             </p>
             <div className="mt-6 pt-6 border-t border-gray-300">
               <p>
-                <Link href="/contact/" className="text-navy underline hover:text-medium-blue transition-colors font-medium">Schedule a consultation</Link> to evaluate your plan's target date fund lineup.
+                <Link href="/contact/" className="text-navy underline hover:text-medium-blue transition-colors font-medium">Schedule a consultation</Link> to evaluate your plan&apos;s target date fund lineup.
               </p>
             </div>
           </div>
@@ -294,7 +294,7 @@ export default function TDFConsultingPage() {
             </table>
           </div>
           <p className="text-text-gray font-outfit text-base leading-relaxed mt-6">
-            Sway Research reports $371 billion in custom TDF strategies at year-end 2025. Custom wins when demographics diverge and plan size creates leverage for individual investments; off-the-shelf wins when governance is limited. PointOak's <Link href="/investment-analysis/" className="text-navy underline hover:text-medium-blue transition-colors">investment analysis</Link> resolves the question with your plan's data and a documented comparison.
+            Sway Research reports $371 billion in custom TDF strategies at year-end 2025. Custom wins when demographics diverge and plan size creates leverage for individual investments; off-the-shelf wins when governance is limited. PointOak&apos;s <Link href="/investment-analysis/" className="text-navy underline hover:text-medium-blue transition-colors">investment analysis</Link> resolves the question with your plan&apos;s data and a documented comparison.
           </p>
         </div>
       </section>
@@ -341,7 +341,7 @@ export default function TDFConsultingPage() {
               The <a href="https://www.ici.org/index.php/resource-hubs/target-retirement-date-funds" target="_blank" rel="noopener noreferrer" className="text-navy underline hover:text-medium-blue transition-colors">Investment Company Institute</a> reports $4.0 trillion invested in target date funds at year-end 2024. That concentration makes TDF selection one of the most consequential fiduciary decisions in any DC plan. PointOak evaluates every series as an <Link href="/about/" className="text-navy underline hover:text-medium-blue transition-colors">independent, fee-only advisory firm</Link> with no product affiliations or recordkeeper ties, strengthening every recommendation and investment strategy.
             </p>
             <p>
-              "We already have a TDF lineup" is the most common reason committees defer review. An existing lineup is not a documented fit analysis. PointOak's Live Bid methodology and DOL-aligned strategy create the fiduciary record that protects investment returns and supports long-term growth in participant outcomes.
+              "We already have a TDF lineup" is the most common reason committees defer review. An existing lineup is not a documented fit analysis. PointOak&apos;s Live Bid methodology and DOL-aligned strategy create the fiduciary record that protects investment returns and supports long-term growth in participant outcomes.
             </p>
           </div>
         </div>

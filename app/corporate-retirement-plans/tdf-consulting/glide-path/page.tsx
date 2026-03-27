@@ -133,19 +133,19 @@ export default function GlidePathPage() {
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Documented Fiduciary Protection</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                DOL expects fiduciaries to document why a specific TDF suite was selected, including how glide path characteristics align with plan participants. Independent <Link href="/corporate-retirement-plans/tdf-consulting" className="text-medium-blue hover:underline">target date fund consulting</Link> produces that documentation. Without it, your committee's investment objectives and selection rationale remain assumptions, not evidence.
+                DOL expects fiduciaries to document why a specific TDF suite was selected, including how glide path characteristics align with plan participants. Independent <Link href="/corporate-retirement-plans/tdf-consulting" className="text-medium-blue hover:underline">target date fund consulting</Link> produces that documentation. Without it, your committee&apos;s investment objectives and selection rationale remain assumptions, not evidence.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Glide Path Design Matched to Your Participants</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Standardized glide paths assume average salary levels, turnover rates, and retirement ages. Your workforce isn't average. Demographic fit analysis maps your actual participant data to glide path implications, revealing whether the default allocation curve manages risk appropriately for the people depending on it.
+                Standardized glide paths assume average salary levels, turnover rates, and retirement ages. Your workforce isn&apos;t average. Demographic fit analysis maps your actual participant data to glide path implications, revealing whether the default allocation curve manages risk appropriately for the people depending on it.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Reduced Default-Selection Risk</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                85% of 401(k) plans offer target date funds, and 68% of participants hold them. That concentration means a mismatched default affects most retirement outcomes in your plan. Evaluating glide path fit reduces the investment risk of accepting a recordkeeper's standard lineup.
+                85% of 401(k) plans offer target date funds, and 68% of participants hold them. That concentration means a mismatched default affects most retirement outcomes in your plan. Evaluating glide path fit reduces the investment risk of accepting a recordkeeper&apos;s standard lineup.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
@@ -157,7 +157,7 @@ export default function GlidePathPage() {
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Stronger Participant Retirement Outcomes</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                A glide path matched to actual workforce demographics drives successful retirement outcomes by aligning risk exposure with participants' time horizons and retirement income needs. Mismatched allocations expose participants to excessive inflation risk or insufficient growth, undermining wealth outcomes across the plan.
+                A glide path matched to actual workforce demographics drives successful retirement outcomes by aligning risk exposure with participants&apos; time horizons and retirement income needs. Mismatched allocations expose participants to excessive inflation risk or insufficient growth, undermining wealth outcomes across the plan.
               </p>
             </div>
           </div>
@@ -174,7 +174,7 @@ export default function GlidePathPage() {
           </h2>
           <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
             <p>
-              Glide path evaluation examines the asset allocation trajectory: underlying funds, asset classes, equity exposure, and the most conservative point. <a href="https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/fact-sheets/target-date-retirement-funds-tips-for-erisa-plan-fiduciaries" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">DOL guidance on TDF evaluation</a> and J.P. Morgan's six-factor framework assess glide path design variables including asset allocation changes and whether the fund targets a more conservative portfolio at each stage.
+              Glide path evaluation examines the asset allocation trajectory: underlying funds, asset classes, equity exposure, and the most conservative point. <a href="https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/fact-sheets/target-date-retirement-funds-tips-for-erisa-plan-fiduciaries" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">DOL guidance on TDF evaluation</a> and J.P. Morgan&apos;s six-factor framework assess glide path design variables including asset allocation changes and whether the fund targets a more conservative portfolio at each stage.
             </p>
             <p>
               Average TDF expense ratios fell from 0.67% in 2008 to 0.29% in 2024. When fees converge, the glide path becomes the primary differentiator between suites. How a fund handles periodically rebalancing across asset classes and manages equity exposure post-retirement matters more than headline cost.
@@ -182,7 +182,7 @@ export default function GlidePathPage() {
           </div>
           <div className="mt-8 bg-navy text-white rounded-lg p-6 md:p-8">
             <p className="font-outfit text-base leading-relaxed">
-              <a href="https://www.pointoak.com/contact/" target="_blank" rel="noopener noreferrer" className="text-warm-gold hover:underline font-semibold">Schedule a Consultation</a> to discuss your plan's target date fund glide path.
+              <a href="https://www.pointoak.com/contact/" target="_blank" rel="noopener noreferrer" className="text-warm-gold hover:underline font-semibold">Schedule a Consultation</a> to discuss your plan&apos;s target date fund glide path.
             </p>
           </div>
         </div>
@@ -201,9 +201,9 @@ export default function GlidePathPage() {
           </p>
           <div className="space-y-8">
             <div className="bg-cloud-blue rounded-lg p-6 md:p-8">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Your Plan's TDF Suite Was Inherited, Not Selected</h3>
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Your Plan&apos;s TDF Suite Was Inherited, Not Selected</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                58% of DC plan assets sit in off-the-shelf target date funds. Many plan sponsors accepted the recordkeeper's default without documenting glide path alignment with their plan's objectives.
+                58% of DC plan assets sit in off-the-shelf target date funds. Many plan sponsors accepted the recordkeeper&apos;s default without documenting glide path alignment with their plan&apos;s objectives.
               </p>
             </div>
             <div className="bg-cloud-blue rounded-lg p-6 md:p-8">
@@ -215,7 +215,7 @@ export default function GlidePathPage() {
             <div className="bg-cloud-blue rounded-lg p-6 md:p-8">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Your Committee Is Facing a Provider Change or RFP</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                A new recordkeeper means a new TDF lineup. Our <Link href="/corporate-retirement-plans" className="text-medium-blue hover:underline">retirement plan consulting services</Link> map each provider's glide path to your participants' individual circumstances and contribution rates.
+                A new recordkeeper means a new TDF lineup. Our <Link href="/corporate-retirement-plans" className="text-medium-blue hover:underline">retirement plan consulting services</Link> map each provider&apos;s glide path to your participants&apos; individual circumstances and contribution rates.
               </p>
             </div>
             <div className="bg-cloud-blue rounded-lg p-6 md:p-8">
@@ -292,7 +292,7 @@ export default function GlidePathPage() {
             Source: DOL, State Street Global Advisors
           </p>
           <p className="text-text-gray font-outfit text-base leading-relaxed mt-6">
-            "To" glide paths reach peak fixed income securities allocation as the target retirement date approaches. "Through" designs accept higher risk by maintaining equity securities exposure past retirement. "To" suits early-withdrawal plans. "Through" fits extended drawdowns. Your committee's data determines which, as <a href="https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/fact-sheets/target-date-retirement-funds-tips-for-erisa-plan-fiduciaries" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">DOL fiduciary tips for TDF selection</a> affirms.
+            "To" glide paths reach peak fixed income securities allocation as the target retirement date approaches. "Through" designs accept higher risk by maintaining equity securities exposure past retirement. "To" suits early-withdrawal plans. "Through" fits extended drawdowns. Your committee&apos;s data determines which, as <a href="https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/fact-sheets/target-date-retirement-funds-tips-for-erisa-plan-fiduciaries" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">DOL fiduciary tips for TDF selection</a> affirms.
           </p>
         </div>
       </section>
@@ -365,7 +365,7 @@ export default function GlidePathPage() {
       <section className="bg-white py-8">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <p className="text-text-gray font-outfit text-sm leading-relaxed italic text-center">
-            <a href="https://www.pointoak.com/contact/" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Schedule a Consultation</a> to start your plan's glide path review.
+            <a href="https://www.pointoak.com/contact/" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Schedule a Consultation</a> to start your plan&apos;s glide path review.
           </p>
         </div>
       </section>

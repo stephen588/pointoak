@@ -138,7 +138,7 @@ export default function ERISACompliancePage() {
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Reduced Fiduciary Liability Exposure</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                EBSA restored nearly $1.4 billion to retirement plans in FY 2025 and referred 75 cases for litigation (<a href="https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/fact-sheets/ebsa-monetary-results" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:text-navy underline">EBSA monetary results</a>). Documented <Link href="/corporate-retirement-plans/fiduciary-support" className="text-medium-blue hover:text-navy underline">fiduciary support</Link> proves your committee acted in plan participants' best interests. That record positions plan fiduciaries favorably when the DOL or litigants raise questions.
+                EBSA restored nearly $1.4 billion to retirement plans in FY 2025 and referred 75 cases for litigation (<a href="https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/fact-sheets/ebsa-monetary-results" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:text-navy underline">EBSA monetary results</a>). Documented <Link href="/corporate-retirement-plans/fiduciary-support" className="text-medium-blue hover:text-navy underline">fiduciary support</Link> proves your committee acted in plan participants&apos; best interests. That record positions plan fiduciaries favorably when the DOL or litigants raise questions.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
@@ -150,7 +150,7 @@ export default function ERISACompliancePage() {
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">A Documented Governance Process for Your Committee</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                The DOL requires fiduciaries to prudently select and monitor service providers. Hiring a recordkeeper does not eliminate that duty. Structured committee support, meeting minutes, and documented plan administrator decisions create the audit trail satisfying ERISA's prudence standard and ensure compliance with ongoing oversight.
+                The DOL requires fiduciaries to prudently select and monitor service providers. Hiring a recordkeeper does not eliminate that duty. Structured committee support, meeting minutes, and documented plan administrator decisions create the audit trail satisfying ERISA&apos;s prudence standard and ensure compliance with ongoing oversight.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
@@ -162,7 +162,7 @@ export default function ERISACompliancePage() {
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Independent Fee Analysis That Protects Plan Participants</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Seventy-four percent of DC plan sponsors said reviewing plan fees was their top focus in 2024. Independent <Link href="/corporate-retirement-plans/provider-fee-benchmarking" className="text-medium-blue hover:text-navy underline">provider and fee benchmarking</Link> uses open-market data rather than vendor self-reporting to satisfy ERISA's fee-reasonableness standard. That analysis protects plan assets and fiduciaries responsible for them.
+                Seventy-four percent of DC plan sponsors said reviewing plan fees was their top focus in 2024. Independent <Link href="/corporate-retirement-plans/provider-fee-benchmarking" className="text-medium-blue hover:text-navy underline">provider and fee benchmarking</Link> uses open-market data rather than vendor self-reporting to satisfy ERISA&apos;s fee-reasonableness standard. That analysis protects plan assets and fiduciaries responsible for them.
               </p>
             </div>
           </div>
@@ -229,13 +229,13 @@ export default function ERISACompliancePage() {
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Organizations That Have Not Benchmarked Plan Fees Recently</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                ERISA's fee-reasonableness standard requires periodic benchmarking. If your last independent review was two or more years ago, exposure exists. Employers owe employees a retirement plan priced at reasonable levels, and regulators expect the data to prove it.
+                ERISA&apos;s fee-reasonableness standard requires periodic benchmarking. If your last independent review was two or more years ago, exposure exists. Employers owe employees a retirement plan priced at reasonable levels, and regulators expect the data to prove it.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Sponsors Managing Plans Under Expanding ERISA Requirements</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                DOL's cybersecurity guidance and ongoing SECURE 2.0 implementation widen what compliance covers for clients across industries. Internal teams may lack bandwidth to track regulatory changes, updated <Link href="/corporate-retirement-plans/plan-design" className="text-medium-blue hover:text-navy underline">plan design</Link> requirements, and new disclosure obligations simultaneously.
+                DOL&apos;s cybersecurity guidance and ongoing SECURE 2.0 implementation widen what compliance covers for clients across industries. Internal teams may lack bandwidth to track regulatory changes, updated <Link href="/corporate-retirement-plans/plan-design" className="text-medium-blue hover:text-navy underline">plan design</Link> requirements, and new disclosure obligations simultaneously.
               </p>
             </div>
           </div>
@@ -270,7 +270,7 @@ export default function ERISACompliancePage() {
               <tbody>
                 <tr className="border-b border-gray-100 even:bg-gray-50">
                   <td className="px-4 py-3 text-gray-700 font-medium">Independence from plan providers</td>
-                  <td className="px-4 py-3 text-gray-700">Tied to parent vendor's products and economics</td>
+                  <td className="px-4 py-3 text-gray-700">Tied to parent vendor&apos;s products and economics</td>
                   <td className="px-4 py-3 text-gray-700">No vendor affiliation; benchmarks across all providers</td>
                 </tr>
                 <tr className="border-b border-gray-100 even:bg-gray-50">
@@ -285,7 +285,7 @@ export default function ERISACompliancePage() {
                 </tr>
                 <tr className="border-b border-gray-100 even:bg-gray-50">
                   <td className="px-4 py-3 text-gray-700 font-medium">Responsibility mapping</td>
-                  <td className="px-4 py-3 text-gray-700">Often unclear what remains the sponsor's duty</td>
+                  <td className="px-4 py-3 text-gray-700">Often unclear what remains the sponsor&apos;s duty</td>
                   <td className="px-4 py-3 text-gray-700">Documented delegation vs. retained duties for plan fiduciaries</td>
                 </tr>
                 <tr className="border-b border-gray-100 even:bg-gray-50">
@@ -297,7 +297,7 @@ export default function ERISACompliancePage() {
             </table>
           </div>
           <p className="text-text-gray font-outfit text-base leading-relaxed mt-6">
-            Bundled administration can work when plans are straightforward and your internal team has governance experience. When complexity grows, committees rotate, or benchmarking has not been independently verified, advisory <Link href="/corporate-retirement-plans/provider-fee-benchmarking" className="text-medium-blue hover:text-navy underline">provider and fee benchmarking</Link> and fiduciary oversight help sponsors comply with ERISA's monitoring standard.
+            Bundled administration can work when plans are straightforward and your internal team has governance experience. When complexity grows, committees rotate, or benchmarking has not been independently verified, advisory <Link href="/corporate-retirement-plans/provider-fee-benchmarking" className="text-medium-blue hover:text-navy underline">provider and fee benchmarking</Link> and fiduciary oversight help sponsors comply with ERISA&apos;s monitoring standard.
           </p>
         </div>
       </section>
@@ -359,7 +359,7 @@ export default function ERISACompliancePage() {
             About PointOak Retirement Advisors
           </h2>
           <p className="text-text-gray font-outfit text-base leading-relaxed">
-            PointOak Retirement Advisors is an SEC-registered, fee-only investment advisory firm founded in 2017 and headquartered in McLean, Virginia. We provide corporate retirement plan consulting and wealth management nationwide with over $1.08 billion in assets under management. Our team brings 50+ years of collective experience, and Darsh Makim's practice dates to 2005. Named 3(21) and 3(38) ERISA fiduciary. <Link href="/contact" className="text-medium-blue hover:text-navy underline">Schedule a consultation</Link>.
+            PointOak Retirement Advisors is an SEC-registered, fee-only investment advisory firm founded in 2017 and headquartered in McLean, Virginia. We provide corporate retirement plan consulting and wealth management nationwide with over $1.08 billion in assets under management. Our team brings 50+ years of collective experience, and Darsh Makim&apos;s practice dates to 2005. Named 3(21) and 3(38) ERISA fiduciary. <Link href="/contact" className="text-medium-blue hover:text-navy underline">Schedule a consultation</Link>.
           </p>
         </div>
       </section>
@@ -370,7 +370,7 @@ export default function ERISACompliancePage() {
       <section className="bg-white py-8">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <p className="text-text-gray font-outfit text-sm leading-relaxed text-center">
-            <Link href="/contact" className="text-medium-blue hover:text-navy underline">Schedule your consultation</Link> to discuss your plan's ERISA compliance and fiduciary governance.
+            <Link href="/contact" className="text-medium-blue hover:text-navy underline">Schedule your consultation</Link> to discuss your plan&apos;s ERISA compliance and fiduciary governance.
           </p>
         </div>
       </section>

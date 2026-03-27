@@ -107,7 +107,7 @@ export default function ProviderEvaluationPage() {
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Documented Fiduciary Defensibility</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                The DOL requires plan sponsors to document 401(k) provider selection and periodically review performance. A formal 401(k) provider evaluation creates the committee record that satisfies fiduciary obligations under ERISA's fiduciary responsibilities standard. <Link href="/corporate-retirement-plans/fiduciary-support" className="text-medium-blue hover:text-navy underline">Fiduciary support</Link> structures this documentation from the start.
+                The DOL requires plan sponsors to document 401(k) provider selection and periodically review performance. A formal 401(k) provider evaluation creates the committee record that satisfies fiduciary obligations under ERISA&apos;s fiduciary responsibilities standard. <Link href="/corporate-retirement-plans/fiduciary-support" className="text-medium-blue hover:text-navy underline">Fiduciary support</Link> structures this documentation from the start.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
@@ -151,7 +151,7 @@ export default function ProviderEvaluationPage() {
               A thorough 401(k) provider evaluation compares recordkeeping platform capabilities, participant services, plan sponsor support, investment governance, and fee competitiveness. The process uses standardized criteria and documented scoring across identical bid parameters so every 401(k) provider responds to the same plan data. This benchmarking discipline, aligned with DOL guidance, replaces subjective assessments with defensible results.
             </p>
             <p>
-              Industry data compiled by PSCA shows recordkeeping fees declined from $57 per participant in 2016 to $42 in 2025. That pricing compression means sponsors who have not benchmarked recently may be operating under stale pricing assumptions. A current evaluation using today's investment options and pricing structure exposes gaps that industry averages alone would miss.
+              Industry data compiled by PSCA shows recordkeeping fees declined from $57 per participant in 2016 to $42 in 2025. That pricing compression means sponsors who have not benchmarked recently may be operating under stale pricing assumptions. A current evaluation using today&apos;s investment options and pricing structure exposes gaps that industry averages alone would miss.
             </p>
           </div>
           <div className="mt-8">
@@ -174,7 +174,7 @@ export default function ProviderEvaluationPage() {
             Who Needs 401(k) Provider Evaluation
           </h2>
           <p className="text-text-gray font-outfit text-base leading-relaxed mb-8">
-            Not every plan sponsor needs a formal provider evaluation right now. These scenarios signal it's time.
+            Not every plan sponsor needs a formal provider evaluation right now. These scenarios signal it&apos;s time.
           </p>
           <div className="space-y-8">
             <div className="border-l-4 border-medium-blue pl-6">
@@ -192,7 +192,7 @@ export default function ProviderEvaluationPage() {
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Your Organization Is Preparing for a DOL Audit or Fiduciary Review</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                A documented evaluation strengthens your committee's defensibility record before regulators arrive. Employers preparing for audit scrutiny need evidence that provider selection followed a prudent, repeatable process rather than inertia or convenience.
+                A documented evaluation strengthens your committee&apos;s defensibility record before regulators arrive. Employers preparing for audit scrutiny need evidence that provider selection followed a prudent, repeatable process rather than inertia or convenience.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
@@ -202,7 +202,7 @@ export default function ProviderEvaluationPage() {
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Your Provider's Contract Is Up for Renewal</h3>
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Your Provider&apos;s Contract Is Up for Renewal</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
                 Renewal windows are the natural trigger for competitive benchmarking before re-committing. Evaluating alternatives before signing gives your committee documented evidence that the renewal terms reflect current market pricing, not a default rollover.
               </p>
@@ -363,7 +363,7 @@ export default function ProviderEvaluationPage() {
           </h2>
           <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
             <p>
-              A PLANSPONSOR survey of 3,172 plan sponsors confirmed providers are evaluated across four service areas, not fees alone. PointOak's Live Bid methodology applies that discipline using your plan's actual data rather than industry averages. <Link href="/about/our-team" className="text-medium-blue hover:text-navy underline">Darsh and his team</Link> deliver every evaluation as a named ERISA fiduciary, reducing fiduciary liability through documented results.
+              A PLANSPONSOR survey of 3,172 plan sponsors confirmed providers are evaluated across four service areas, not fees alone. PointOak&apos;s Live Bid methodology applies that discipline using your plan&apos;s actual data rather than industry averages. <Link href="/about/our-team" className="text-medium-blue hover:text-navy underline">Darsh and his team</Link> deliver every evaluation as a named ERISA fiduciary, reducing fiduciary liability through documented results.
             </p>
             <p>
               Every top-ranking page for 401(k) provider evaluation was written by a recordkeeper or institution selling a platform. PointOak brings expertise as an <Link href="/about" className="text-medium-blue hover:text-navy underline">independent, fee-only advisory firm</Link> with no proprietary products, no platform revenue, and no incentive beyond the right fit for your plan.
@@ -392,7 +392,7 @@ export default function ProviderEvaluationPage() {
       <section className="bg-white py-8">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <p className="text-text-gray font-outfit text-sm leading-relaxed text-center">
-            <Link href="/contact" className="text-medium-blue hover:text-navy underline">Schedule a consultation</Link> to start your 401(k) plan's provider evaluation with a named fiduciary advisor.
+            <Link href="/contact" className="text-medium-blue hover:text-navy underline">Schedule a consultation</Link> to start your 401(k) plan&apos;s provider evaluation with a named fiduciary advisor.
           </p>
         </div>
       </section>

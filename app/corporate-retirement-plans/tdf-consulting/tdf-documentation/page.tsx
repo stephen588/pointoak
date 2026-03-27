@@ -138,31 +138,31 @@ export default function TDFDocumentationPage() {
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Defensible Fiduciary Record</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Choosing a recognizable fund family or low-fee series does not satisfy <a href="https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/fact-sheets/target-date-retirement-funds-tips-for-erisa-plan-fiduciaries" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">DOL's fiduciary tips for target-date fund oversight</a>. The standard requires an objective process evaluating fund performance, the fund's fees, and glide-path composition to produce a defensible fiduciary record. PointOak's <Link href="/corporate-retirement-plans/fiduciary-support" className="text-medium-blue hover:underline">fiduciary support</Link> builds that record.
+                Choosing a recognizable fund family or low-fee series does not satisfy <a href="https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/fact-sheets/target-date-retirement-funds-tips-for-erisa-plan-fiduciaries" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">DOL&apos;s fiduciary tips for target-date fund oversight</a>. The standard requires an objective process evaluating fund performance, the fund&apos;s fees, and glide-path composition to produce a defensible fiduciary record. PointOak&apos;s <Link href="/corporate-retirement-plans/fiduciary-support" className="text-medium-blue hover:underline">fiduciary support</Link> builds that record.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Participant-Fit Precision</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Documentation must show that the plan's participant profile fits the fund's assumptions about retirement dates, salary levels, and contribution behavior. Individual level participant data converts a generic comparison into evidence that the plan's TDFs align with plan participants.
+                Documentation must show that the plan&apos;s participant profile fits the fund&apos;s assumptions about retirement dates, salary levels, and contribution behavior. Individual level participant data converts a generic comparison into evidence that the plan&apos;s TDFs align with plan participants.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">CIT-Era Disclosure Clarity</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                CITs held 50.5% of target date assets by June 2024 (PSCA citing Morningstar), yet regulatory disclosure requirements for CITs differ from mutual-fund standards. Documentation must show how the committee evaluated the fund's fees, component funds, and performance when standard prospectus disclosures do not apply.
+                CITs held 50.5% of target date assets by June 2024 (PSCA citing Morningstar), yet regulatory disclosure requirements for CITs differ from mutual-fund standards. Documentation must show how the committee evaluated the fund&apos;s fees, component funds, and performance when standard prospectus disclosures do not apply.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Reduced Litigation Exposure</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Recent fiduciary lawsuits have targeted IPS failures, delayed suitability analyses, and absent TDF evaluation criteria. Each allegation traces to a documentation gap. A defensible fiduciary process capturing the fund's investments, fees, and whether the particular TDF risk posture fits participant demographics addresses these claims at their origin.
+                Recent fiduciary lawsuits have targeted IPS failures, delayed suitability analyses, and absent TDF evaluation criteria. Each allegation traces to a documentation gap. A defensible fiduciary process capturing the fund&apos;s investments, fees, and whether the particular TDF risk posture fits participant demographics addresses these claims at their origin.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">IPS-Aligned Governance Framework</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                The review maps to Investment Policy Statement language and the committee's governance calendar, keeping documentation connected to fiduciary obligations. PointOak's <Link href="/corporate-retirement-plans/investment-analysis" className="text-medium-blue hover:underline">investment analysis</Link> evaluates asset allocation, glide-path design, and component funds held within the IPS framework rather than as a standalone report.
+                The review maps to Investment Policy Statement language and the committee&apos;s governance calendar, keeping documentation connected to fiduciary obligations. PointOak&apos;s <Link href="/corporate-retirement-plans/investment-analysis" className="text-medium-blue hover:underline">investment analysis</Link> evaluates asset allocation, glide-path design, and component funds held within the IPS framework rather than as a standalone report.
               </p>
             </div>
           </div>
@@ -182,12 +182,12 @@ export default function TDFDocumentationPage() {
               A rigorous TDF review evaluates glidepath risk against plan specific data: participant ages, target retirement dates, salary levels, and contribution rates. The process scores fund performance across asset classes, analyzes underlying fund scores against vintage and peer averages, and maps fees to <Link href="/corporate-retirement-plans/provider-and-fee-benchmarking" className="text-medium-blue hover:underline">provider and fee benchmarking</Link> standards. Each output is investment policy documentation designed to present data objectively.
             </p>
             <p>
-              Participant-level data changes every output. A target date fund that fits one plan population may carry misfit risk for another because age distributions, turnover rates, and account balances shift the glidepath assumptions. The TDF analysis process functions as a fiduciary documentation tool: each input produces a more precise fit analysis connecting the fund's risk posture to this plan's participants.
+              Participant-level data changes every output. A target date fund that fits one plan population may carry misfit risk for another because age distributions, turnover rates, and account balances shift the glidepath assumptions. The TDF analysis process functions as a fiduciary documentation tool: each input produces a more precise fit analysis connecting the fund&apos;s risk posture to this plan&apos;s participants.
             </p>
           </div>
           <div className="mt-8 bg-navy text-white rounded-lg p-6 md:p-8">
             <p className="font-outfit text-base leading-relaxed">
-              <a href="https://www.pointoak.com/contact/" target="_blank" rel="noopener noreferrer" className="text-warm-gold hover:underline font-semibold">Schedule a consultation</a> to discuss your committee's TDF documentation and review process.
+              <a href="https://www.pointoak.com/contact/" target="_blank" rel="noopener noreferrer" className="text-warm-gold hover:underline font-semibold">Schedule a consultation</a> to discuss your committee&apos;s TDF documentation and review process.
             </p>
           </div>
         </div>
@@ -208,7 +208,7 @@ export default function TDFDocumentationPage() {
             <div className="bg-cloud-blue rounded-lg p-6 md:p-8">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Your Committee Selected the TDF Lineup Years Ago With No Documented Review Since</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                No meeting minutes, no benchmarking artifacts, no participant-fit analysis on file. When a plan fiduciary's decisions lack documentation, the defense depends on memory that regulators and courts reject.
+                No meeting minutes, no benchmarking artifacts, no participant-fit analysis on file. When a plan fiduciary&apos;s decisions lack documentation, the defense depends on memory that regulators and courts reject.
               </p>
             </div>
             <div className="bg-cloud-blue rounded-lg p-6 md:p-8">
@@ -232,12 +232,12 @@ export default function TDFDocumentationPage() {
             <div className="bg-cloud-blue rounded-lg p-6 md:p-8">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Your Plan Is Transitioning Recordkeepers or Advisors</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Transitions trigger a re-evaluation window where documenting the new TDF selection is a fiduciary obligation. Salary data, account balances, and retirement dates should feed the analysis supporting the committee's decision.
+                Transitions trigger a re-evaluation window where documenting the new TDF selection is a fiduciary obligation. Salary data, account balances, and retirement dates should feed the analysis supporting the committee&apos;s decision.
               </p>
             </div>
             <div className="bg-white border-2 border-navy rounded-lg p-6 md:p-8">
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                If your plan does not offer TDFs or uses a managed-account QDIA with separate documentation, this service may not apply. PointOak's <Link href="/corporate-retirement-plans" className="text-medium-blue hover:underline">retirement plan consulting services</Link> can help assess the right approach.
+                If your plan does not offer TDFs or uses a managed-account QDIA with separate documentation, this service may not apply. PointOak&apos;s <Link href="/corporate-retirement-plans" className="text-medium-blue hover:underline">retirement plan consulting services</Link> can help assess the right approach.
               </p>
             </div>
           </div>
@@ -297,14 +297,14 @@ export default function TDFDocumentationPage() {
                 </tr>
                 <tr className="border-b border-gray-100 even:bg-gray-50">
                   <td className="px-4 py-3 text-gray-700 font-medium">Defensibility standard</td>
-                  <td className="px-4 py-3 text-gray-700">Verifies fund's characteristics align with all DOL factors</td>
+                  <td className="px-4 py-3 text-gray-700">Verifies fund&apos;s characteristics align with all DOL factors</td>
                   <td className="px-4 py-3 text-gray-700">Addresses fees and performance only</td>
                 </tr>
               </tbody>
             </table>
           </div>
           <p className="text-text-gray font-outfit text-base leading-relaxed mt-6">
-            In a 2025 lawsuit, plaintiffs alleged 73% of participant retirement savings remained in imprudent TDFs due to process defects (PSCA). Fee screening filters candidates, but when a committee defends its QDIA, supporting fiduciary documentation within a prudent review ecosystem determines the outcome. PointOak's <Link href="/corporate-retirement-plans/fiduciary-support" className="text-medium-blue hover:underline">named fiduciary services</Link> build that record.
+            In a 2025 lawsuit, plaintiffs alleged 73% of participant retirement savings remained in imprudent TDFs due to process defects (PSCA). Fee screening filters candidates, but when a committee defends its QDIA, supporting fiduciary documentation within a prudent review ecosystem determines the outcome. PointOak&apos;s <Link href="/corporate-retirement-plans/fiduciary-support" className="text-medium-blue hover:underline">named fiduciary services</Link> build that record.
           </p>
         </div>
       </section>
@@ -348,10 +348,10 @@ export default function TDFDocumentationPage() {
           </h2>
           <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
             <p>
-              In 2024, 84% of actual participants used TDFs (PSCA). When one option holds that share of a plan's assets, documentation determines defensible governance or exposure. PointOak's retirement planning practice, shaped by <Link href="/about" className="text-medium-blue hover:underline">our approach</Link> to Department of Labor fiduciary standards, means we share fiduciary obligations as a named 3(21) and 3(38) fiduciary rather than advise from the sideline.
+              In 2024, 84% of actual participants used TDFs (PSCA). When one option holds that share of a plan&apos;s assets, documentation determines defensible governance or exposure. PointOak&apos;s retirement planning practice, shaped by <Link href="/about" className="text-medium-blue hover:underline">our approach</Link> to Department of Labor fiduciary standards, means we share fiduciary obligations as a named 3(21) and 3(38) fiduciary rather than advise from the sideline.
             </p>
             <p>
-              Committees with an existing recordkeeper reviewing TDFs still face a gap: that evaluation may favor the recordkeeper's own shelf. PointOak's fee-only independence means documentation reflects objective analysis, not platform loyalty. <Link href="/our-consulting-team" className="text-medium-blue hover:underline">Our consulting team</Link> evaluates the full marketplace so recommendations serve the plan's participants.
+              Committees with an existing recordkeeper reviewing TDFs still face a gap: that evaluation may favor the recordkeeper&apos;s own shelf. PointOak&apos;s fee-only independence means documentation reflects objective analysis, not platform loyalty. <Link href="/our-consulting-team" className="text-medium-blue hover:underline">Our consulting team</Link> evaluates the full marketplace so recommendations serve the plan&apos;s participants.
             </p>
           </div>
         </div>
@@ -377,7 +377,7 @@ export default function TDFDocumentationPage() {
       <section className="bg-white py-8">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <p className="text-text-gray font-outfit text-sm leading-relaxed italic text-center">
-            <a href="https://www.pointoak.com/contact/" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Schedule your consultation</a> to review your committee's TDF documentation and fiduciary process.
+            <a href="https://www.pointoak.com/contact/" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Schedule your consultation</a> to review your committee&apos;s TDF documentation and fiduciary process.
           </p>
         </div>
       </section>

@@ -200,31 +200,31 @@ export default function FourZeroOneKRolloverGuidePage() {
               <div id="four-options" className="mb-10">
                 <h2 className="font-outfit text-navy text-2xl font-light mb-4">Should You Roll Over Your 401(k)? Four Options, One Framework</h2>
                 <blockquote className="border-l-4 border-medium-blue pl-4 text-gray-600 italic mb-4">
-                  Workers who leave an employer at age 55 or older can take penalty-free withdrawals from that employer's plan account. Roll those funds into an IRA and you lose access until 59½. (Vanguard / IRS)
+                  Workers who leave an employer at age 55 or older can take penalty-free withdrawals from that employer&apos;s plan account. Roll those funds into an IRA and you lose access until 59½. (Vanguard / IRS)
                 </blockquote>
                 <div className="space-y-6">
                   <div>
                     <h3 className="font-outfit text-navy text-xl font-semibold mb-3">When Staying in Your Current Plan Makes Sense</h3>
                     <p className="font-outfit text-dark-gray text-base leading-relaxed">
-                      Your former employer's plan may be worth keeping. Institutional share classes often carry lower investment fees than comparable mutual funds available in a retail IRA. If you're between 55 and 59½, the age-55 rule preserves penalty-free access that an IRA cannot replicate. Federal law also provides broad creditor protection in employer plans, while IRA protection varies by state. Some 401(k) plans offer stable value funds or other investment options unavailable outside the employer's retirement plan. Not every old 401(k) is a bad plan.
+                      Your former employer&apos;s plan may be worth keeping. Institutional share classes often carry lower investment fees than comparable mutual funds available in a retail IRA. If you&apos;re between 55 and 59½, the age-55 rule preserves penalty-free access that an IRA cannot replicate. Federal law also provides broad creditor protection in employer plans, while IRA protection varies by state. Some 401(k) plans offer stable value funds or other investment options unavailable outside the employer&apos;s retirement plan. Not every old 401(k) is a bad plan.
                     </p>
                   </div>
                   <div>
                     <h3 className="font-outfit text-navy text-xl font-semibold mb-3">When an IRA Rollover Works Better</h3>
                     <p className="font-outfit text-dark-gray text-base leading-relaxed mb-3">
-                      Rolling to a traditional IRA or Roth IRA makes sense when your former employer's plan charges high fees, limits investment choices, or uses a narrow fund menu. A rollover IRA opens the full marketplace: individual stocks, ETFs, bonds, mutual funds, and sector-specific funds that your employer's plan never offered.
+                      Rolling to a traditional IRA or Roth IRA makes sense when your former employer&apos;s plan charges high fees, limits investment choices, or uses a narrow fund menu. A rollover IRA opens the full marketplace: individual stocks, ETFs, bonds, mutual funds, and sector-specific funds that your employer&apos;s plan never offered.
                     </p>
                     <p className="font-outfit text-dark-gray text-base leading-relaxed">
                       Consolidation is another reason. Retirement accounts scattered across previous employers become harder to track, rebalance, and coordinate into one account. Combining them into one rollover IRA simplifies <Link href="/our-services/" className="text-medium-blue hover:underline">retirement income planning</Link> and gives you a clearer picture of where you stand.
                     </p>
                   </div>
                   <div>
-                    <h3 className="font-outfit text-navy text-xl font-semibold mb-3">When Your New Employer's Plan Is the Move</h3>
+                    <h3 className="font-outfit text-navy text-xl font-semibold mb-3">When Your New Employer&apos;s Plan Is the Move</h3>
                     <p className="font-outfit text-dark-gray text-base leading-relaxed mb-3">
                       A new plan deserves consideration when it offers institutional pricing, plan loan availability, or Roth 401(k) contributions you want to continue. Some new plans accept incoming rollovers and preserve the age-55 withdrawal exception for the transferred balance.
                     </p>
                     <p className="font-outfit text-dark-gray text-base leading-relaxed">
-                      Cash out is a fourth option, but rarely the right one. You'll face 20% withholding plus a 10% early withdrawal penalty if you're under 59½, and the full amount becomes taxable income. The mechanics of how you move the money matter as much as where you send it.
+                      Cash out is a fourth option, but rarely the right one. You&apos;ll face 20% withholding plus a 10% early withdrawal penalty if you&apos;re under 59½, and the full amount becomes taxable income. The mechanics of how you move the money matter as much as where you send it.
                     </p>
                   </div>
                 </div>
@@ -235,14 +235,14 @@ export default function FourZeroOneKRolloverGuidePage() {
                   Rules that trip people up:
                 </p>
                 <ul className="list-disc pl-5 text-dark-gray space-y-2 mb-4">
-                  <li>An indirect rollover requires your plan to withhold 20% for federal income taxes before cutting the check. You must replace that 20% from your own pocket or you'll owe taxes on the shortfall.</li>
-                  <li>Miss the 60-day deadline and the entire amount becomes taxable income. If you're under 59½, add a 10% early withdrawal penalty.</li>
+                  <li>An indirect rollover requires your plan to withhold 20% for federal income taxes before cutting the check. You must replace that 20% from your own pocket or you&apos;ll owe taxes on the shortfall.</li>
+                  <li>Miss the 60-day deadline and the entire amount becomes taxable income. If you&apos;re under 59½, add a 10% early withdrawal penalty.</li>
                   <li>The one-per-year rule applies to IRA-to-IRA rollovers. 401(k)-to-IRA rollovers are exempt from this limit.</li>
                   <li>Required minimum distributions cannot be rolled over. Any RMD amount included in a rollover must be corrected as an excess contribution.</li>
                   <li>A direct rollover avoids the withholding and the 60-day clock entirely. Pre-tax money moves to the receiving plan or IRA without triggering tax consequences.</li>
                 </ul>
                 <p className="font-outfit text-dark-gray text-base leading-relaxed mb-4">
-                  The tax implications of getting this wrong compound fast. If you receive a $200,000 distribution and $40,000 is withheld, you need $200,000 in the new account within 60 days. Fail to replace the withheld portion and you'll pay taxes on the $40,000 shortfall at your ordinary income tax rate, potentially pushing you into a higher tax bracket for the year.
+                  The tax implications of getting this wrong compound fast. If you receive a $200,000 distribution and $40,000 is withheld, you need $200,000 in the new account within 60 days. Fail to replace the withheld portion and you&apos;ll pay taxes on the $40,000 shortfall at your ordinary income tax rate, potentially pushing you into a higher tax bracket for the year.
                 </p>
                 <blockquote className="border-l-4 border-medium-blue pl-4 text-gray-600 italic mb-4">
                   The IRS gives you exactly 60 days from the date you receive a distribution to complete an indirect rollover. Miss that window and the full amount is treated as a taxable distribution. (<a href="https://www.irs.gov/taxtopics/tc413" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">IRS Topic 413</a>)
@@ -275,7 +275,7 @@ export default function FourZeroOneKRolloverGuidePage() {
                   As of June 30, 2025, IRA assets in the United States totaled $18.0 trillion, with roughly half originating from employer-plan rollovers. (Investment Company Institute quarterly data)
                 </blockquote>
                 <p className="font-outfit text-dark-gray text-base leading-relaxed mb-4">
-                  <a href="https://www.finra.org/rules-guidance/notices/13-45" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">FINRA's regulatory guidance on rollovers</a> makes the incentive structure explicit: advisors may earn asset-based fees on IRA assets but receive no compensation if your money stays in the plan. FINRA says rollover marketing should include a balanced discussion of all available options, with specific attention to fee comparisons between the existing plan and the proposed IRA. Your tax advisor can confirm whether the rollover's tax impact justifies the move.
+                  <a href="https://www.finra.org/rules-guidance/notices/13-45" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">FINRA&apos;s regulatory guidance on rollovers</a> makes the incentive structure explicit: advisors may earn asset-based fees on IRA assets but receive no compensation if your money stays in the plan. FINRA says rollover marketing should include a balanced discussion of all available options, with specific attention to fee comparisons between the existing plan and the proposed IRA. Your tax advisor can confirm whether the rollover&apos;s tax impact justifies the move.
                 </p>
                 <p className="font-outfit text-dark-gray text-base leading-relaxed">
                   PointOak Retirement Advisors operates as a <Link href="/about/" className="text-medium-blue hover:underline">fee-only fiduciary since 2017</Link>, earning no commissions on rollovers. Our corporate retirement plan consulting background means we evaluate your existing plan with the same rigor we bring to the institutional clients whose plans we help design, benchmark, and monitor. That perspective changes the conversation from "should you roll over?" to "what does your specific situation actually call for?"

@@ -215,14 +215,14 @@ export default function FiduciarySupportPage() {
           </h2>
           <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
             <p>
-              Under a 3(21) arrangement, the advisor serves in a fiduciary capacity to provide investment recommendations to the committee, which retains final decision authority. Under a 3(38) fiduciary arrangement, the investment manager accepts discretionary authority over the plan's investment strategy, including fund selection, monitoring, and replacement. ERISA defines both as fiduciary roles with distinct liability structures.
+              Under a 3(21) arrangement, the advisor serves in a fiduciary capacity to provide investment recommendations to the committee, which retains final decision authority. Under a 3(38) fiduciary arrangement, the investment manager accepts discretionary authority over the plan&apos;s investment strategy, including fund selection, monitoring, and replacement. ERISA defines both as fiduciary roles with distinct liability structures.
             </p>
             <p>
               Per <a href="https://www.dol.gov/sites/dolgov/files/EBSA/about-ebsa/our-activities/resource-center/publications/meeting-your-fiduciary-responsibilities.pdf" target="_blank" rel="noopener noreferrer" className="text-navy underline hover:text-medium-blue transition-colors">DOL guidance on fiduciary responsibilities</a>, plan fiduciaries must still prudently select and periodically monitor any named fiduciary they appoint. Effective oversight includes a documented review cadence, IPS-aligned investment evaluation, and regular committee reporting that tracks decisions and rationale over time.
             </p>
             <div className="mt-6 pt-6 border-t border-gray-300">
               <p>
-                <Link href="/contact/" className="text-navy underline hover:text-medium-blue transition-colors font-medium">Schedule a consultation</Link> to evaluate your plan's fiduciary structure and governance needs.
+                <Link href="/contact/" className="text-navy underline hover:text-medium-blue transition-colors font-medium">Schedule a consultation</Link> to evaluate your plan&apos;s fiduciary structure and governance needs.
               </p>
             </div>
           </div>
@@ -306,7 +306,7 @@ export default function FiduciarySupportPage() {
             Outsourced Fiduciary Support vs. In-House Committee Oversight
           </h2>
           <p className="text-text-gray font-outfit text-base leading-relaxed mb-10">
-            Both outsourced fiduciary support and in-house committee oversight can work. The right approach depends on your committee's governance capacity, internal expertise, and available bandwidth.
+            Both outsourced fiduciary support and in-house committee oversight can work. The right approach depends on your committee&apos;s governance capacity, internal expertise, and available bandwidth.
           </p>
           <div className="overflow-x-auto">
             <table className="w-full border-collapse">
@@ -394,7 +394,7 @@ export default function FiduciarySupportPage() {
           </h2>
           <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
             <p>
-              More than half of plan sponsors now use an outside fiduciary to outsource governance. PointOak serves as a named 3(21) or 3(38) fiduciary with investment advisory services grounded in its proprietary Live Bid benchmarking methodology and open-architecture investment selection. The firm's fiduciary duty is documented, not implied.
+              More than half of plan sponsors now use an outside fiduciary to outsource governance. PointOak serves as a named 3(21) or 3(38) fiduciary with investment advisory services grounded in its proprietary Live Bid benchmarking methodology and open-architecture investment selection. The firm&apos;s fiduciary duty is documented, not implied.
             </p>
             <p>
               Many 401(k) plans have an advisor without defined fiduciary roles or accountability. PointOak operates as a fee-only, SEC-registered advisor with no recordkeeper affiliations, proprietary products, or commission incentives. Learn more <Link href="/about/" className="text-navy underline hover:text-medium-blue transition-colors">about PointOak</Link> and how our investment professionals serve plan sponsors from the same side of the table as your committee.

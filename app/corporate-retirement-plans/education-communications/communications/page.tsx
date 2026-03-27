@@ -139,13 +139,13 @@ export default function CommunicationsPage() {
             <div className="bg-white rounded-lg p-6 md:p-8 shadow-sm border border-gray-100">
               <h3 className="font-outfit text-navy text-xl font-semibold mb-3">More Confident Investment Decisions</h3>
               <p className="text-gray-600 leading-relaxed">
-                Participants who understand the <Link href="/investment-analysis" className="text-medium-blue hover:underline">investment analysis</Link> behind their 401(k) plan's fund menu and the value of their company match make informed decisions rather than passive defaults. Financial literacy around these features turns employees into confident participants who actively manage their investments and retirement benefits.
+                Participants who understand the <Link href="/investment-analysis" className="text-medium-blue hover:underline">investment analysis</Link> behind their 401(k) plan&apos;s fund menu and the value of their company match make informed decisions rather than passive defaults. Financial literacy around these features turns employees into confident participants who actively manage their investments and retirement benefits.
               </p>
             </div>
             <div className="bg-white rounded-lg p-6 md:p-8 shadow-sm border border-gray-100">
               <h3 className="font-outfit text-navy text-xl font-semibold mb-3">Measurable Engagement Outcomes</h3>
               <p className="text-gray-600 leading-relaxed">
-                Advisor-led communication programs track opens, account visits, election changes, and contribution adjustments. Plan sponsors get data their recordkeeper's generic emails do not provide: evidence that financial wellness communications are changing behavior, not just reaching inboxes.
+                Advisor-led communication programs track opens, account visits, election changes, and contribution adjustments. Plan sponsors get data their recordkeeper&apos;s generic emails do not provide: evidence that financial wellness communications are changing behavior, not just reaching inboxes.
               </p>
             </div>
           </div>
@@ -164,10 +164,10 @@ export default function CommunicationsPage() {
             Effective 401(k) communication strategies segment messages by employee cohort: new hires, mid-career, and near-retirement. Each group receives content through various communication channels they actually use, timed to attention windows rather than business hours. Payroll integration ensures contribution changes from enrollment or investment options decisions take effect seamlessly.
           </p>
           <p className="text-text-gray font-outfit text-base leading-relaxed mb-6">
-            <a href="https://workplace.vanguard.com/content/dam/inst/iig-transformation/insights/pdf/2025/has/2025_How_America_Saves.pdf" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Vanguard's 2025 How America Saves report</a> found 45% of participants increased their deferral rate in 2024, many through automatic enrollment escalation prompts. This supports a lifecycle process where communications tie to specific <Link href="/plan-design" className="text-medium-blue hover:underline">plan design</Link> features like default contribution rate increases and Roth election windows rather than a single enrollment burst.
+            <a href="https://workplace.vanguard.com/content/dam/inst/iig-transformation/insights/pdf/2025/has/2025_How_America_Saves.pdf" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Vanguard&apos;s 2025 How America Saves report</a> found 45% of participants increased their deferral rate in 2024, many through automatic enrollment escalation prompts. This supports a lifecycle process where communications tie to specific <Link href="/plan-design" className="text-medium-blue hover:underline">plan design</Link> features like default contribution rate increases and Roth election windows rather than a single enrollment burst.
           </p>
           <p className="text-text-gray font-outfit text-base leading-relaxed">
-            <Link href="/contact" className="text-medium-blue hover:underline">Schedule a consultation</Link> to review your plan's participant communication strategy.
+            <Link href="/contact" className="text-medium-blue hover:underline">Schedule a consultation</Link> to review your plan&apos;s participant communication strategy.
           </p>
         </div>
       </section>
@@ -187,13 +187,13 @@ export default function CommunicationsPage() {
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Participation Has Stalled Despite a Company Match</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Your company offers a match, but eligible employees still don't participate or contribute beyond the default. Communication isn't reaching them or explaining the value of their retirement benefits clearly enough.
+                Your company offers a match, but eligible employees still don&apos;t participate or contribute beyond the default. Communication isn&apos;t reaching them or explaining the value of their retirement benefits clearly enough.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Your Workforce Includes Non-Desk or Shift Employees</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Recordkeeper emails go unread when your workforce doesn't sit at desks. Frontline and field employees need multi-channel delivery timed to off-hours attention windows, not messages buried in an inbox they rarely access.
+                Recordkeeper emails go unread when your workforce doesn&apos;t sit at desks. Frontline and field employees need multi-channel delivery timed to off-hours attention windows, not messages buried in an inbox they rarely access.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
@@ -282,7 +282,7 @@ export default function CommunicationsPage() {
             Sources: Vanguard How America Saves 2025; IRS Retirement Notices guidance
           </p>
           <p className="text-text-gray font-outfit text-base leading-relaxed mt-6">
-            Required notices are the floor. Plan sponsors with flat participation, low deferral rates, or disengaged participants after enrollment need a communication strategy that goes beyond compliance. PointOak's <Link href="/our-services" className="text-medium-blue hover:underline">corporate retirement plan consulting</Link> connects compliance documentation with engagement strategies that move retirement outcomes.
+            Required notices are the floor. Plan sponsors with flat participation, low deferral rates, or disengaged participants after enrollment need a communication strategy that goes beyond compliance. PointOak&apos;s <Link href="/our-services" className="text-medium-blue hover:underline">corporate retirement plan consulting</Link> connects compliance documentation with engagement strategies that move retirement outcomes.
           </p>
         </div>
       </section>
@@ -353,7 +353,7 @@ export default function CommunicationsPage() {
       <section className="bg-white py-8">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <p className="text-text-gray font-outfit text-sm leading-relaxed text-center">
-            Call PointOak at (703) 595-4444 or <Link href="/contact" className="text-medium-blue hover:underline">schedule a consultation</Link> to discuss your plan's communication strategy.
+            Call PointOak at (703) 595-4444 or <Link href="/contact" className="text-medium-blue hover:underline">schedule a consultation</Link> to discuss your plan&apos;s communication strategy.
           </p>
         </div>
       </section>

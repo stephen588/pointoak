@@ -136,7 +136,7 @@ export default function DCMetroRetirementPlanningPage() {
                   <h3 className="font-outfit text-navy text-lg font-medium mb-3">Key Takeaways</h3>
                   <ul className="list-disc pl-5 text-dark-gray space-y-2">
                     <li>2026 401(k) and TSP limit: $24,500; ages 60-63 catch-up rises to $11,250</li>
-                    <li>Virginia's age deduction reaches $12,000; Maryland and DC offer separate pension and property tax relief</li>
+                    <li>Virginia&apos;s age deduction reaches $12,000; Maryland and DC offer separate pension and property tax relief</li>
                     <li>Medicare Part B standard premium: $202.90/month in 2026</li>
                     <li>Social Security COLA: 2.8% for 2026</li>
                   </ul>
@@ -149,7 +149,7 @@ export default function DCMetroRetirementPlanningPage() {
                   20.2% of McLean CDP residents are age 65 or older (U.S. Census Bureau, 2020-2024).
                 </blockquote>
                 <p className="font-outfit text-dark-gray text-base leading-relaxed mb-4">
-                  That concentration of retirees exists for a reason. The DC metro area combines a large federal and government-adjacent workforce, high housing values, and cross-border tax complexity that doesn't exist in single-state metros. Your retirement income might come from a federal pension, a TSP, Social Security, and taxable investments simultaneously, and each source is treated differently depending on whether you file in DC, Virginia, or Maryland. Understanding these overlapping rules separates a retirement plan that works from one that leaks value at every turn.
+                  That concentration of retirees exists for a reason. The DC metro area combines a large federal and government-adjacent workforce, high housing values, and cross-border tax complexity that doesn&apos;t exist in single-state metros. Your retirement income might come from a federal pension, a TSP, Social Security, and taxable investments simultaneously, and each source is treated differently depending on whether you file in DC, Virginia, or Maryland. Understanding these overlapping rules separates a retirement plan that works from one that leaks value at every turn.
                 </p>
                 <p className="font-outfit text-dark-gray text-base leading-relaxed mb-4">
                   The planning dimensions specific to this region include:
@@ -175,7 +175,7 @@ export default function DCMetroRetirementPlanningPage() {
                   The IRS raised several retirement account limits for 2026, and one change creates a narrow but significant savings window. Workers ages 60 through 63 can now make catch-up contributions of $11,250 to eligible 401(k), 403(b), 457, and TSP plans, up from the standard age-50 catch-up of $8,000. For DC-area federal employees maxing out their TSP in the final years before retirement, this means an additional $3,250 in annual tax-deferred savings during the highest-earning stretch of their careers.
                 </p>
                 <p className="font-outfit text-dark-gray text-base leading-relaxed mb-4">
-                  Here's how the 2026 limits break down per <a href="https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">IRS 2026 contribution limits</a>:
+                  Here&apos;s how the 2026 limits break down per <a href="https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">IRS 2026 contribution limits</a>:
                 </p>
                 <div className="overflow-x-auto mb-6">
                   <table className="w-full border-collapse">
@@ -215,10 +215,10 @@ export default function DCMetroRetirementPlanningPage() {
                   The 2026 Social Security cost-of-living adjustment is 2.8% (SSA).
                 </blockquote>
                 <p className="font-outfit text-dark-gray text-base leading-relaxed mb-4">
-                  Benefits rose 2.8% in January 2026, per <a href="https://www.ssa.gov/cola/factsheets/2026.html" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">SSA's 2026 COLA fact sheet</a>. The maximum Social Security benefit at full retirement age in 2026 is $4,152 per month, paid to eligible beneficiaries who maximized their earnings history.
+                  Benefits rose 2.8% in January 2026, per <a href="https://www.ssa.gov/cola/factsheets/2026.html" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">SSA&apos;s 2026 COLA fact sheet</a>. The maximum Social Security benefit at full retirement age in 2026 is $4,152 per month, paid to eligible beneficiaries who maximized their earnings history.
                 </p>
                 <p className="font-outfit text-dark-gray text-base leading-relaxed">
-                  A separate update carries particular weight in the DC area. The Social Security Fairness Act became law on January 5, 2025, eliminating the Windfall Elimination Provision and Government Pension Offset that had reduced benefits for public-sector retirees with pensions. SSA identified 2.8 million affected beneficiaries and sent 3.1 million payments totaling $17 billion by July 2025. For the DC metro's large population of federal employees and public-sector workers who contributed to both Social Security and a government pension, this changes the math on claiming strategy and retirement income projections.
+                  A separate update carries particular weight in the DC area. The Social Security Fairness Act became law on January 5, 2025, eliminating the Windfall Elimination Provision and Government Pension Offset that had reduced benefits for public-sector retirees with pensions. SSA identified 2.8 million affected beneficiaries and sent 3.1 million payments totaling $17 billion by July 2025. For the DC metro&apos;s large population of federal employees and public-sector workers who contributed to both Social Security and a government pension, this changes the math on claiming strategy and retirement income projections.
                 </p>
               </div>
 
@@ -251,7 +251,7 @@ export default function DCMetroRetirementPlanningPage() {
                         <td className="px-4 py-3 text-gray-700">Property tax relief for seniors</td>
                         <td className="px-4 py-3 text-gray-700">Income-tested homestead deduction using prior-year federal AGI</td>
                         <td className="px-4 py-3 text-gray-700">Real estate tax relief programs vary by county</td>
-                        <td className="px-4 py-3 text-gray-700">Homeowners' and renters' tax credits; varies by county</td>
+                        <td className="px-4 py-3 text-gray-700">Homeowners&apos; and renters&apos; tax credits; varies by county</td>
                       </tr>
                       <tr className="border-b border-gray-100 even:bg-gray-50">
                         <td className="px-4 py-3 text-gray-700">Pension / 401(k) distributions</td>
@@ -263,7 +263,7 @@ export default function DCMetroRetirementPlanningPage() {
                   </table>
                 </div>
                 <p className="font-outfit text-dark-gray text-base leading-relaxed mb-4">
-                  A simple comparison of top tax rates doesn't capture the real difference. The interaction between your income sources, deduction eligibility, and property situation determines which jurisdiction produces the best after-tax outcome. Someone with a federal pension plus TSP distributions might see a materially different result in Maryland than in Virginia, even at the same gross income.
+                  A simple comparison of top tax rates doesn&apos;t capture the real difference. The interaction between your income sources, deduction eligibility, and property situation determines which jurisdiction produces the best after-tax outcome. Someone with a federal pension plus TSP distributions might see a materially different result in Maryland than in Virginia, even at the same gross income.
                 </p>
                 <p className="font-outfit text-dark-gray text-base leading-relaxed">
                   This is where coordinated <Link href="/our-services/" className="text-medium-blue hover:underline">retirement income planning</Link> across asset allocation, withdrawal order, and tax jurisdiction adds measurable value and helps protect your assets from unnecessary tax erosion year over year.
@@ -276,7 +276,7 @@ export default function DCMetroRetirementPlanningPage() {
                   For anyone born in 1960 or later, full retirement age is exactly 67, per <a href="https://www.ssa.gov/benefits/retirement/planner/1960.html" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">SSA full retirement age for 1960+ births</a>. Not "around 66." Not "66 and change." That distinction matters because every month of early claiming applies a precise reduction formula, and every month of delay past 67 earns an 8% annual credit up to age 70.
                 </p>
                 <p className="font-outfit text-dark-gray text-base leading-relaxed mb-4">
-                  <strong>Should I claim Social Security if I'm still working?</strong>
+                  <strong>Should I claim Social Security if I&apos;m still working?</strong>
                 </p>
                 <p className="font-outfit text-dark-gray text-base leading-relaxed mb-4">
                   It depends on how much you earn. In 2026, the earnings-test limit is $24,480 for people under FRA. Benefits above that threshold are reduced by $1 for every $2 earned. In the year you reach FRA, the limit jumps to $65,160 with a smaller reduction. Many DC-area professionals earning well above these limits find that claiming early while working full-time triggers both benefit reductions and higher tax brackets, creating a double loss on the same income.
@@ -308,10 +308,10 @@ export default function DCMetroRetirementPlanningPage() {
                   That figure covers most retirees, but DC-area incomes frequently trigger IRMAA surcharges. Medicare uses your tax return from two years prior to set income-adjusted premiums. A withdrawal spike in one year, such as a large Roth conversion or stock option exercise, can push your Part B and Part D premiums higher for a future coverage period. This connection between investment strategy and healthcare costs makes withdrawal sequencing a live planning variable, not a footnote. Easy access to your tax return history and income projections helps you model IRMAA exposure before it hits.
                 </p>
                 <p className="font-outfit text-dark-gray text-base leading-relaxed mb-4">
-                  Part A costs $311 or $565 per month for retirees who don't qualify for premium-free coverage based on work history.
+                  Part A costs $311 or $565 per month for retirees who don&apos;t qualify for premium-free coverage based on work history.
                 </p>
                 <p className="font-outfit text-dark-gray text-base leading-relaxed mb-4">
-                  McLean's median home value is $1,412,700 (U.S. Census Bureau, 2020-2024). That equity shapes every major retirement decision: aging in place with high property taxes, downsizing to free up cash flow, or using a home equity strategy to supplement income. For many retirees in Northern Virginia, their home is the single largest asset on the balance sheet. <Link href="/about/" className="text-medium-blue hover:underline">Our approach to retirement income planning</Link> treats housing as a planning lever, not an afterthought. The insights you gain from modeling different housing scenarios often reveal opportunities to improve cash flow or reduce lifestyle risk.
+                  McLean&apos;s median home value is $1,412,700 (U.S. Census Bureau, 2020-2024). That equity shapes every major retirement decision: aging in place with high property taxes, downsizing to free up cash flow, or using a home equity strategy to supplement income. For many retirees in Northern Virginia, their home is the single largest asset on the balance sheet. <Link href="/about/" className="text-medium-blue hover:underline">Our approach to retirement income planning</Link> treats housing as a planning lever, not an afterthought. The insights you gain from modeling different housing scenarios often reveal opportunities to improve cash flow or reduce lifestyle risk.
                 </p>
                 <p className="font-outfit text-dark-gray text-base leading-relaxed mb-4">
                   The cost categories that DC-area retirees need to map against their withdrawal plan:
@@ -327,7 +327,7 @@ export default function DCMetroRetirementPlanningPage() {
               <div id="professional-help" className="mb-10">
                 <h2 className="font-outfit text-navy text-2xl font-light mb-4">When Coordinated Retirement Planning Is Worth Professional Help</h2>
                 <p className="font-outfit text-dark-gray text-base leading-relaxed mb-4">
-                  When your retirement involves multiple account types, cross-jurisdiction tax rules, Social Security timing, and Medicare cost management, the cost of uncoordinated decisions often exceeds the cost of advice. Each section of this guide described a planning dimension that interacts with every other one. The risk isn't getting one decision wrong; it's making five decisions in isolation that conflict. If you request a review of your current plan, you'll often discover gaps that weren't visible when looking at each piece separately.
+                  When your retirement involves multiple account types, cross-jurisdiction tax rules, Social Security timing, and Medicare cost management, the cost of uncoordinated decisions often exceeds the cost of advice. Each section of this guide described a planning dimension that interacts with every other one. The risk isn&apos;t getting one decision wrong; it&apos;s making five decisions in isolation that conflict. If you request a review of your current plan, you&apos;ll often discover gaps that weren&apos;t visible when looking at each piece separately.
                 </p>
                 <p className="font-outfit text-dark-gray text-base leading-relaxed mb-4">
                   Specific scenarios where coordination changes the outcome:

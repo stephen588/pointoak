@@ -145,7 +145,7 @@ export default function ThreeThirtyEightPage() {
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Fee Benchmarking Discipline</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                <a href="https://advisors.voya.com/document/business-building-defined-contribution/survey-retirement-landscape-plan-sponsor-sentiments.pdf" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:text-navy underline">Voya's 2025 retirement landscape survey</a> found 37% of sponsors are extremely concerned about ensuring plan fees are reasonable. A 3(38) fiduciary builds fee due diligence into ongoing management of plan assets through systematic <Link href="/corporate-retirement-plans/provider-fee-benchmarking" className="text-medium-blue hover:text-navy underline">provider and fee benchmarking</Link>, addressing asset based fees alongside fund costs.
+                <a href="https://advisors.voya.com/document/business-building-defined-contribution/survey-retirement-landscape-plan-sponsor-sentiments.pdf" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:text-navy underline">Voya&apos;s 2025 retirement landscape survey</a> found 37% of sponsors are extremely concerned about ensuring plan fees are reasonable. A 3(38) fiduciary builds fee due diligence into ongoing management of plan assets through systematic <Link href="/corporate-retirement-plans/provider-fee-benchmarking" className="text-medium-blue hover:text-navy underline">provider and fee benchmarking</Link>, addressing asset based fees alongside fund costs.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
@@ -174,10 +174,10 @@ export default function ThreeThirtyEightPage() {
           </h2>
           <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
             <p>
-              ERISA defines an investment manager under the Employee Retirement Income Security Act as a registered investment advisor, bank, or insurance company with discretionary authority over plan assets. Investment advisers in this role select, monitor, and replace the plan's investment options without requiring committee approval. <Link href="/corporate-retirement-plans/fiduciary-support" className="text-medium-blue hover:text-navy underline">Fiduciary support services</Link> formalize this delegation through model portfolios and documented processes.
+              ERISA defines an investment manager under the Employee Retirement Income Security Act as a registered investment advisor, bank, or insurance company with discretionary authority over plan assets. Investment advisers in this role select, monitor, and replace the plan&apos;s investment options without requiring committee approval. <Link href="/corporate-retirement-plans/fiduciary-support" className="text-medium-blue hover:text-navy underline">Fiduciary support services</Link> formalize this delegation through model portfolios and documented processes.
             </p>
             <p>
-              As fee compression narrows cost differences between funds, 3(38) investment performance monitoring methodology and governance discipline become the real differentiators. Product selection alone no longer separates providers. <Link href="/contact" className="text-medium-blue hover:text-navy underline">Schedule a consultation</Link> to discuss whether delegated fiduciary services fit your plan's investment oversight needs.
+              As fee compression narrows cost differences between funds, 3(38) investment performance monitoring methodology and governance discipline become the real differentiators. Product selection alone no longer separates providers. <Link href="/contact" className="text-medium-blue hover:text-navy underline">Schedule a consultation</Link> to discuss whether delegated fiduciary services fit your plan&apos;s investment oversight needs.
             </p>
           </div>
         </div>
@@ -208,13 +208,13 @@ export default function ThreeThirtyEightPage() {
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Plan Fees Haven't Been Benchmarked Recently</h3>
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Plan Fees Haven&apos;t Been Benchmarked Recently</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
                 No systematic fee review exists and the lineup may not reflect competitive pricing. About one-third of sponsors report their specialists hold 3(38) responsibility, so adoption is meaningful but far from universal.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">You're Transitioning Recordkeepers or Plan Providers</h3>
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">You&apos;re Transitioning Recordkeepers or Plan Providers</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
                 A provider transition creates a natural evaluation point for fiduciary structure. Rebuilding your investment lineup alongside recordkeeping changes and <Link href="/corporate-retirement-plans/plan-design" className="text-medium-blue hover:text-navy underline">plan design services</Link> under 3(38) delegation consolidates governance into a single framework.
               </p>
@@ -334,10 +334,10 @@ export default function ThreeThirtyEightPage() {
           </h2>
           <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
             <p>
-              <a href="https://advisors.voya.com/document/business-building-defined-contribution/survey-retirement-landscape-plan-sponsor-sentiments.pdf" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:text-navy underline">Voya's 2025 survey</a> found 24% of sponsors are extremely concerned about monitoring investment performance. PointOak brings investment expertise and a proprietary benchmarking process to address this, with a named senior advisor from <Link href="/about/our-team" className="text-medium-blue hover:text-navy underline">our consulting team</Link> assigned to your committee. Direct accountability from the first meeting keeps focus on your plan's best interest.
+              <a href="https://advisors.voya.com/document/business-building-defined-contribution/survey-retirement-landscape-plan-sponsor-sentiments.pdf" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:text-navy underline">Voya&apos;s 2025 survey</a> found 24% of sponsors are extremely concerned about monitoring investment performance. PointOak brings investment expertise and a proprietary benchmarking process to address this, with a named senior advisor from <Link href="/about/our-team" className="text-medium-blue hover:text-navy underline">our consulting team</Link> assigned to your committee. Direct accountability from the first meeting keeps focus on your plan&apos;s best interest.
             </p>
             <p>
-              The difference between 3(38) service providers is the methodology. PointOak's approach builds on corporate retirement plan consulting with documented IPS development, defined watchlist criteria, and quarterly committee reporting. Past performance informs but does not dictate our selections, which draw from sources believed reliable. Learn more <Link href="/about" className="text-medium-blue hover:text-navy underline">about PointOak</Link>.
+              The difference between 3(38) service providers is the methodology. PointOak&apos;s approach builds on corporate retirement plan consulting with documented IPS development, defined watchlist criteria, and quarterly committee reporting. Past performance informs but does not dictate our selections, which draw from sources believed reliable. Learn more <Link href="/about" className="text-medium-blue hover:text-navy underline">about PointOak</Link>.
             </p>
           </div>
         </div>
@@ -363,7 +363,7 @@ export default function ThreeThirtyEightPage() {
       <section className="bg-white py-8">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <p className="text-text-gray font-outfit text-sm leading-relaxed text-center">
-            <Link href="/contact" className="text-medium-blue hover:text-navy underline">Schedule your consultation</Link> for a no-cost conversation about your plan's fiduciary structure and our investment advisory services.
+            <Link href="/contact" className="text-medium-blue hover:text-navy underline">Schedule your consultation</Link> for a no-cost conversation about your plan&apos;s fiduciary structure and our investment advisory services.
           </p>
         </div>
       </section>

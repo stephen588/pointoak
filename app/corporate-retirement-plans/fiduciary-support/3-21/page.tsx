@@ -125,7 +125,7 @@ export default function ThreeTwentyOnePage() {
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Structured Investment Oversight</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                A 3(21) advisor reviews your plan's investments against the IPS and documents each recommendation. 401(k) plans hold $10.0 trillion in plan assets across roughly 730,000 plans (ICI 2025), making ad hoc fund selection a fiduciary liability. Structured <Link href="/corporate-retirement-plans/investment-analysis" className="text-medium-blue hover:text-navy underline">investment analysis</Link> replaces guesswork with documented investment decisions.
+                A 3(21) advisor reviews your plan&apos;s investments against the IPS and documents each recommendation. 401(k) plans hold $10.0 trillion in plan assets across roughly 730,000 plans (ICI 2025), making ad hoc fund selection a fiduciary liability. Structured <Link href="/corporate-retirement-plans/investment-analysis" className="text-medium-blue hover:text-navy underline">investment analysis</Link> replaces guesswork with documented investment decisions.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
@@ -166,10 +166,10 @@ export default function ThreeTwentyOnePage() {
           </h2>
           <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
             <p>
-              Under ERISA, a 3(21) investment fiduciary provides advice for a fee, triggering co-fiduciary responsibility shared with the plan sponsor. The registered investment adviser provides investment recommendations aligned with your plan's objectives. The committee makes the final selection, and every recommendation is recorded in the fiduciary file.
+              Under ERISA, a 3(21) investment fiduciary provides advice for a fee, triggering co-fiduciary responsibility shared with the plan sponsor. The registered investment adviser provides investment recommendations aligned with your plan&apos;s objectives. The committee makes the final selection, and every recommendation is recorded in the fiduciary file.
             </p>
             <p>
-              This structure combines outside expertise with internal accountability. The advisor's role is to provide advice, market analysis, and investment policy statement alignment reviews with documented rationale. The committee retains discretionary authority to accept, modify, or reject each recommendation, preserving governance control over <Link href="/corporate-retirement-plans/plan-design" className="text-medium-blue hover:text-navy underline">plan design</Link> and management decisions.
+              This structure combines outside expertise with internal accountability. The advisor&apos;s role is to provide advice, market analysis, and investment policy statement alignment reviews with documented rationale. The committee retains discretionary authority to accept, modify, or reject each recommendation, preserving governance control over <Link href="/corporate-retirement-plans/plan-design" className="text-medium-blue hover:text-navy underline">plan design</Link> and management decisions.
             </p>
           </div>
           <div className="mt-8">
@@ -192,7 +192,7 @@ export default function ThreeTwentyOnePage() {
             Who Needs a 3(21) Fiduciary Advisor
           </h2>
           <p className="text-text-gray font-outfit text-base leading-relaxed mb-8">
-            The need depends on your committee's expertise, plan complexity, and how much authority you want to retain.
+            The need depends on your committee&apos;s expertise, plan complexity, and how much authority you want to retain.
           </p>
           <div className="space-y-8">
             <div className="border-l-4 border-medium-blue pl-6">
@@ -208,7 +208,7 @@ export default function ThreeTwentyOnePage() {
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Your Current Advisor Isn't Acting as a Named Fiduciary</h3>
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Your Current Advisor Isn&apos;t Acting as a Named Fiduciary</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
                 Some financial advisors provide recommendations without accepting fiduciary responsibility. A 3(21) arrangement puts accountability in a written agreement, clarifying who is responsible and how plan administrative functions are handled.
               </p>
@@ -220,7 +220,7 @@ export default function ThreeTwentyOnePage() {
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">You're Concerned About DOL Scrutiny or Audit Exposure</h3>
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">You&apos;re Concerned About DOL Scrutiny or Audit Exposure</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
                 The DOL expects documented evidence of prudent process behind every plan decision. A 3(21) fiduciary advisor builds that fiduciary file alongside your committee, covering each review, recommendation, and rationale.
               </p>
@@ -228,7 +228,7 @@ export default function ThreeTwentyOnePage() {
           </div>
           <div className="mt-8 p-6 bg-cloud-blue rounded-lg">
             <p className="text-text-gray font-outfit text-base leading-relaxed">
-              <strong className="text-navy">When 3(21) isn't the right fit:</strong> If the sponsor wants to fully delegate investment discretion, a 3(38) investment manager is the better model. That arrangement transfers selection authority to the manager rather than sharing it with the committee.
+              <strong className="text-navy">When 3(21) isn&apos;t the right fit:</strong> If the sponsor wants to fully delegate investment discretion, a 3(38) investment manager is the better model. That arrangement transfers selection authority to the manager rather than sharing it with the committee.
             </p>
           </div>
         </div>
@@ -284,7 +284,7 @@ export default function ThreeTwentyOnePage() {
             </table>
           </div>
           <p className="text-text-gray font-outfit text-base leading-relaxed mt-6">
-            Most sponsors maintain fiduciary responsibility for investment selection under a 3(21) arrangement (Voya 2025). When the committee wants expert guidance with retained authority, the 3(21) model fits. When full delegation is preferred, a 3(38) investment manager transfers discretion. PointOak's <Link href="/corporate-retirement-plans/fiduciary-support" className="text-medium-blue hover:text-navy underline">fiduciary support services</Link> cover both.
+            Most sponsors maintain fiduciary responsibility for investment selection under a 3(21) arrangement (Voya 2025). When the committee wants expert guidance with retained authority, the 3(21) model fits. When full delegation is preferred, a 3(38) investment manager transfers discretion. PointOak&apos;s <Link href="/corporate-retirement-plans/fiduciary-support" className="text-medium-blue hover:text-navy underline">fiduciary support services</Link> cover both.
           </p>
         </div>
       </section>
@@ -328,7 +328,7 @@ export default function ThreeTwentyOnePage() {
           </h2>
           <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
             <p>
-              Voya's 2025 survey found 91% of sponsors believed participants were prepared for retirement, but only 69% of participants agreed. That gap signals a need for advisory relationships built on rigorous plan analysis. Our <Link href="/about/our-team" className="text-medium-blue hover:text-navy underline">consulting team's</Link> deep corporate retirement plan background means every 3(21) engagement draws on real-world exposure to diverse plan designs, participant scenarios, and provider benchmarking across clients.
+              Voya&apos;s 2025 survey found 91% of sponsors believed participants were prepared for retirement, but only 69% of participants agreed. That gap signals a need for advisory relationships built on rigorous plan analysis. Our <Link href="/about/our-team" className="text-medium-blue hover:text-navy underline">consulting team&apos;s</Link> deep corporate retirement plan background means every 3(21) engagement draws on real-world exposure to diverse plan designs, participant scenarios, and provider benchmarking across clients.
             </p>
             <p>
               The most common concern: does hiring a 3(21) advisor reduce liability? The answer is in <Link href="/about" className="text-medium-blue hover:text-navy underline">our approach</Link>. Every recommendation is documented under law, every fee assessed through the Live Bid methodology. Independence from any bank or insurance company means each recommendation serves your interest alone.

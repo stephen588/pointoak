@@ -137,25 +137,25 @@ export default function ShareClassAnalysisPage() {
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Documented Fiduciary Compliance</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Courts evaluate whether committees investigated lower-cost share class alternatives before accepting current fund expenses. A documented share class review produces the fiduciary record regulators and auditors expect. PointOak's <Link href="/corporate-retirement-plans/fiduciary-support" className="text-medium-blue hover:underline">fiduciary support</Link> process ensures that documentation meets ERISA standards.
+                Courts evaluate whether committees investigated lower-cost share class alternatives before accepting current fund expenses. A documented share class review produces the fiduciary record regulators and auditors expect. PointOak&apos;s <Link href="/corporate-retirement-plans/fiduciary-support" className="text-medium-blue hover:underline">fiduciary support</Link> process ensures that documentation meets ERISA standards.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Revenue Sharing Transparency</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Many 401(k) plans embed provider compensation inside fund expenses through revenue sharing arrangements without isolating the dollar amount. Share class analysis separates investment cost from the administrative subsidy buried in each mutual fund's expense ratio, giving committees a clear view of who receives what.
+                Many 401(k) plans embed provider compensation inside fund expenses through revenue sharing arrangements without isolating the dollar amount. Share class analysis separates investment cost from the administrative subsidy buried in each mutual fund&apos;s expense ratio, giving committees a clear view of who receives what.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Stronger Provider Negotiations</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Plan sponsors who document their net cost position per fund negotiate recordkeeper and advisor fees from a verified baseline rather than a provider's summary. Share class analysis produces that fund-level baseline, giving the committee documented data in any fee discussion or provider evaluation.
+                Plan sponsors who document their net cost position per fund negotiate recordkeeper and advisor fees from a verified baseline rather than a provider&apos;s summary. Share class analysis produces that fund-level baseline, giving the committee documented data in any fee discussion or provider evaluation.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Cleaner Investment Menu for Participants</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Replacing legacy retail or R-share classes with institutional or clean shares removes embedded distribution costs and other administrative expenses participants never chose. The result is a simplified lineup where each fund's expense ratio reflects investment management, not intermediary compensation.
+                Replacing legacy retail or R-share classes with institutional or clean shares removes embedded distribution costs and other administrative expenses participants never chose. The result is a simplified lineup where each fund&apos;s expense ratio reflects investment management, not intermediary compensation.
               </p>
             </div>
           </div>
@@ -175,7 +175,7 @@ export default function ShareClassAnalysisPage() {
               The mutual fund industry manages $5.3 trillion in fund assets across 401(k) plans, or 61% of all plan holdings (ICI, 2025). That concentration means mutual fund share classes are the primary cost variable in most lineups. Analysis compares the same fund across distribution classes to isolate embedded distribution, revenue-sharing, and management fees.
             </p>
             <p>
-              The net-cost evaluation framework maps expense ratio plus revenue-sharing arrangement plus plan-level administrative offsets to arrive at true participant cost per fund. Fund prospectuses disclose the expense ratio but not how revenue sharing flows through the plan. PointOak's <Link href="/corporate-retirement-plans/investment-analysis" className="text-medium-blue hover:underline">investment analysis</Link> maps the full equation, documented for the committee's fiduciary file.
+              The net-cost evaluation framework maps expense ratio plus revenue-sharing arrangement plus plan-level administrative offsets to arrive at true participant cost per fund. Fund prospectuses disclose the expense ratio but not how revenue sharing flows through the plan. PointOak&apos;s <Link href="/corporate-retirement-plans/investment-analysis" className="text-medium-blue hover:underline">investment analysis</Link> maps the full equation, documented for the committee&apos;s fiduciary file.
             </p>
           </div>
           <div className="mt-8 bg-navy text-white rounded-lg p-6 md:p-8">
@@ -207,7 +207,7 @@ export default function ShareClassAnalysisPage() {
             <div className="bg-cloud-blue rounded-lg p-6 md:p-8">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Committee Told "Fees Are Competitive" Without Documentation</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Provider assurances without a same-fund, cross-class comparison leave gaps courts have scrutinized. Custodial expenses and administrative costs bundled into share class pricing require independent verification, not a provider's word.
+                Provider assurances without a same-fund, cross-class comparison leave gaps courts have scrutinized. Custodial expenses and administrative costs bundled into share class pricing require independent verification, not a provider&apos;s word.
               </p>
             </div>
             <div className="bg-cloud-blue rounded-lg p-6 md:p-8">
@@ -364,7 +364,7 @@ export default function ShareClassAnalysisPage() {
       <section className="bg-white py-8">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <p className="text-text-gray font-outfit text-sm leading-relaxed italic text-center">
-            Talk to a named ERISA fiduciary about your plan's share class positioning. <a href="https://www.pointoak.com/contact/" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Schedule your consultation</a>.
+            Talk to a named ERISA fiduciary about your plan&apos;s share class positioning. <a href="https://www.pointoak.com/contact/" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Schedule your consultation</a>.
           </p>
         </div>
       </section>

@@ -143,25 +143,25 @@ export default function TDFSelectionPage() {
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Better Participant Retirement Outcomes</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                The fund's asset allocation sets investment risk at every stage of the glide path. Effective target date fund selection aligns risk tolerance assessment and glide path design to actual participant age distribution, contribution behavior, and retirement timing. Misalignment between diversification and asset allocation assumptions and real workforce patterns reduces retirement income.
+                The fund&apos;s asset allocation sets investment risk at every stage of the glide path. Effective target date fund selection aligns risk tolerance assessment and glide path design to actual participant age distribution, contribution behavior, and retirement timing. Misalignment between diversification and asset allocation assumptions and real workforce patterns reduces retirement income.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Stronger Fiduciary Protection</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Target date funds represented 38% of total 401(k) assets by year-end 2022, according to the ICI's 2025 Fact Book. A documented selection process addressing key considerations around participant fit satisfies ERISA prudence requirements. That record is the foundation of defensible <Link href="/corporate-retirement-plans/fiduciary-support" className="text-medium-blue hover:underline">fiduciary support</Link>.
+                Target date funds represented 38% of total 401(k) assets by year-end 2022, according to the ICI&apos;s 2025 Fact Book. A documented selection process addressing key considerations around participant fit satisfies ERISA prudence requirements. That record is the foundation of defensible <Link href="/corporate-retirement-plans/fiduciary-support" className="text-medium-blue hover:underline">fiduciary support</Link>.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Lower All-In Investment Costs</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                The <a href="https://www.investor.gov/index.php/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/target" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">SEC Investor Bulletin on target date funds</a> directs fiduciaries to review the fund's fees and the investment expenses of underlying holdings. Layered costs compound across the full holding period. Independent <Link href="/corporate-retirement-plans/provider-and-fee-benchmarking" className="text-medium-blue hover:underline">provider and fee benchmarking</Link> identifies cost gaps, including mutual funds and other investments within the TDF structure.
+                The <a href="https://www.investor.gov/index.php/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/target" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">SEC Investor Bulletin on target date funds</a> directs fiduciaries to review the fund&apos;s fees and the investment expenses of underlying holdings. Layered costs compound across the full holding period. Independent <Link href="/corporate-retirement-plans/provider-and-fee-benchmarking" className="text-medium-blue hover:underline">provider and fee benchmarking</Link> identifies cost gaps, including mutual funds and other investments within the TDF structure.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Alignment with Workforce Demographics</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                DOL guidance directs fiduciaries to consider participant ages, salary levels, turnover, and withdrawal patterns when evaluating target date retirement funds. A workforce of early-career employees has different investment objectives than one nearing mass retirement. Matching TDF assumptions to demographics supports each participant's future savings goal.
+                DOL guidance directs fiduciaries to consider participant ages, salary levels, turnover, and withdrawal patterns when evaluating target date retirement funds. A workforce of early-career employees has different investment objectives than one nearing mass retirement. Matching TDF assumptions to demographics supports each participant&apos;s future savings goal.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
@@ -184,19 +184,19 @@ export default function TDFSelectionPage() {
           </h2>
           <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
             <p>
-              88% of participants who held target date funds held a single age-appropriate fund, according to a joint ICI and EBRI study. Participants treat their TDF as a complete retirement solution. That reality means the fund's glide path, equity exposure, fixed income allocation, and underlying mutual funds define the investment mix for most plan members.
+              88% of participants who held target date funds held a single age-appropriate fund, according to a joint ICI and EBRI study. Participants treat their TDF as a complete retirement solution. That reality means the fund&apos;s glide path, equity exposure, fixed income allocation, and underlying mutual funds define the investment mix for most plan members.
             </p>
             <p>
-              Effective evaluation compares glide path design, active or passive implementation, total layered fees, and how each fund reaches its most conservative point. The <a href="https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/fact-sheets/target-date-retirement-funds-tips-for-erisa-plan-fiduciaries" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">DOL's fiduciary guidance on target date funds</a> frames these criteria for <Link href="/corporate-retirement-plans/investment-analysis" className="text-medium-blue hover:underline">investment analysis</Link> committees. Funds continue to evolve as asset managers adjust allocations across different asset classes and cash equivalents.
+              Effective evaluation compares glide path design, active or passive implementation, total layered fees, and how each fund reaches its most conservative point. The <a href="https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/fact-sheets/target-date-retirement-funds-tips-for-erisa-plan-fiduciaries" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">DOL&apos;s fiduciary guidance on target date funds</a> frames these criteria for <Link href="/corporate-retirement-plans/investment-analysis" className="text-medium-blue hover:underline">investment analysis</Link> committees. Funds continue to evolve as asset managers adjust allocations across different asset classes and cash equivalents.
             </p>
           </div>
           <div className="mt-8 bg-navy text-white rounded-lg p-6 md:p-8">
             <p className="font-outfit text-base leading-relaxed">
-              <a href="https://www.pointoak.com/contact/" target="_blank" rel="noopener noreferrer" className="text-warm-gold hover:underline font-semibold">Schedule a consultation</a> to discuss your plan's target date fund lineup with PointOak.
+              <a href="https://www.pointoak.com/contact/" target="_blank" rel="noopener noreferrer" className="text-warm-gold hover:underline font-semibold">Schedule a consultation</a> to discuss your plan&apos;s target date fund lineup with PointOak.
             </p>
           </div>
         </div>
-      </Section>
+      </section>
       </AnimateOnScroll>
 
       {/* Who Needs It */}
@@ -211,15 +211,15 @@ export default function TDFSelectionPage() {
           </p>
           <div className="space-y-8">
             <div className="bg-cloud-blue rounded-lg p-6 md:p-8">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Your Plan Uses the Recordkeeper's Default TDF</h3>
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Your Plan Uses the Recordkeeper&apos;s Default TDF</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                58% of defined contribution plan assets sat in off-the-shelf TDF suites, per Morningstar. Many plan sponsors accepted the default without evaluating different funds or documenting why that series fits their participants' investment preferences.
+                58% of defined contribution plan assets sat in off-the-shelf TDF suites, per Morningstar. Many plan sponsors accepted the default without evaluating different funds or documenting why that series fits their participants&apos; investment preferences.
               </p>
             </div>
             <div className="bg-cloud-blue rounded-lg p-6 md:p-8">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Your Fiduciary Committee Hasn't Reviewed the TDF in Two or More Years</h3>
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Your Fiduciary Committee Hasn&apos;t Reviewed the TDF in Two or More Years</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Federal guidance expects ERISA plan fiduciaries to review TDF selections periodically. Strategy changes, fee adjustments, and management team turnover can shift the fund's suitability and introduce inflation risk if allocations lag purchasing power.
+                Federal guidance expects ERISA plan fiduciaries to review TDF selections periodically. Strategy changes, fee adjustments, and management team turnover can shift the fund&apos;s suitability and introduce inflation risk if allocations lag purchasing power.
               </p>
             </div>
             <div className="bg-cloud-blue rounded-lg p-6 md:p-8">
@@ -243,7 +243,7 @@ export default function TDFSelectionPage() {
             <div className="bg-white border-2 border-navy rounded-lg p-6 md:p-8">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">When independent evaluation may not be necessary:</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Plans with minimal investment complexity and a workforce that closely matches the default fund's assumed participant profile may not need independent evaluation beyond confirming the existing selection.
+                Plans with minimal investment complexity and a workforce that closely matches the default fund&apos;s assumed participant profile may not need independent evaluation beyond confirming the existing selection.
               </p>
             </div>
           </div>
@@ -259,7 +259,7 @@ export default function TDFSelectionPage() {
             Structured TDF Evaluation vs. Default Selection
           </h2>
           <p className="text-text-gray font-outfit text-base leading-relaxed mb-8">
-            Both approaches can satisfy fiduciary requirements. The right choice depends on plan complexity, participant diversity, and your committee's documentation expectations for the TDF lineup.
+            Both approaches can satisfy fiduciary requirements. The right choice depends on plan complexity, participant diversity, and your committee&apos;s documentation expectations for the TDF lineup.
           </p>
           <div className="overflow-x-auto">
             <table className="w-full border-collapse">
@@ -274,11 +274,11 @@ export default function TDFSelectionPage() {
                 <tr className="border-b border-gray-100 even:bg-gray-50">
                   <td className="px-4 py-3 text-gray-700 font-medium">Glide path review</td>
                   <td className="px-4 py-3 text-gray-700">Compares equity and fixed income curves across TDF providers</td>
-                  <td className="px-4 py-3 text-gray-700">Accepts recordkeeper's standard series</td>
+                  <td className="px-4 py-3 text-gray-700">Accepts recordkeeper&apos;s standard series</td>
                 </tr>
                 <tr className="border-b border-gray-100 even:bg-gray-50">
                   <td className="px-4 py-3 text-gray-700 font-medium">Fee analysis</td>
-                  <td className="px-4 py-3 text-gray-700">Reviews fund's fees and underlying investment expenses</td>
+                  <td className="px-4 py-3 text-gray-700">Reviews fund&apos;s fees and underlying investment expenses</td>
                   <td className="px-4 py-3 text-gray-700">Uses menu without independent benchmarking</td>
                 </tr>
                 <tr className="border-b border-gray-100 even:bg-gray-50">
@@ -289,7 +289,7 @@ export default function TDFSelectionPage() {
                 <tr className="border-b border-gray-100 even:bg-gray-50">
                   <td className="px-4 py-3 text-gray-700 font-medium">Implementation</td>
                   <td className="px-4 py-3 text-gray-700">Evaluates active management style, index funds, and collective investment trusts</td>
-                  <td className="px-4 py-3 text-gray-700">Accepts TDF provider's packaged investment strategies</td>
+                  <td className="px-4 py-3 text-gray-700">Accepts TDF provider&apos;s packaged investment strategies</td>
                 </tr>
                 <tr className="border-b border-gray-100 even:bg-gray-50">
                   <td className="px-4 py-3 text-gray-700 font-medium">Documentation</td>
@@ -305,7 +305,7 @@ export default function TDFSelectionPage() {
             </table>
           </div>
           <p className="text-text-gray font-outfit text-base leading-relaxed mt-6">
-            Target date mutual fund fees reached new lows in 2024, according to <a href="https://www.morningstar.com/content/cs-assets/v3/assets/blt9415ea4cc4157833/blt3da7ebd510258119/68dc10ee6bd4350b353c1eb9/Target-Date_Landscape_Updated.pdf" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Morningstar's 2025 target-date landscape report</a>. With fee gaps narrowing, the asset mix, conservative asset allocation design, and underlying holdings are where selection separates plans. Independent <Link href="/corporate-retirement-plans/provider-and-fee-benchmarking" className="text-medium-blue hover:underline">fee benchmarking</Link> confirms whether other mutual funds or investment strategies better serve your participants.
+            Target date mutual fund fees reached new lows in 2024, according to <a href="https://www.morningstar.com/content/cs-assets/v3/assets/blt9415ea4cc4157833/blt3da7ebd510258119/68dc10ee6bd4350b353c1eb9/Target-Date_Landscape_Updated.pdf" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Morningstar&apos;s 2025 target-date landscape report</a>. With fee gaps narrowing, the asset mix, conservative asset allocation design, and underlying holdings are where selection separates plans. Independent <Link href="/corporate-retirement-plans/provider-and-fee-benchmarking" className="text-medium-blue hover:underline">fee benchmarking</Link> confirms whether other mutual funds or investment strategies better serve your participants.
           </p>
         </div>
       </section>
@@ -378,7 +378,7 @@ export default function TDFSelectionPage() {
       <section className="bg-white py-8">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <p className="text-text-gray font-outfit text-sm leading-relaxed italic text-center">
-            Call PointOak at (703) 595-4444 or <a href="https://www.pointoak.com/contact/" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">book a consultation</a> to review your plan's target date fund lineup.
+            Call PointOak at (703) 595-4444 or <a href="https://www.pointoak.com/contact/" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">book a consultation</a> to review your plan&apos;s target date fund lineup.
           </p>
         </div>
       </section>

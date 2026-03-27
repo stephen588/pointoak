@@ -230,10 +230,10 @@ export default function PlanDesignPage() {
           </h2>
           <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
             <p>
-              Participation reached 94% in plans with automatic enrollment versus 82% overall according to Vanguard's 2024 data. That gap is a function of design mechanics: when an automatic contribution arrangement pairs a default deferral rate with an escalation schedule and a match threshold, participants save more without taking affirmative action. The safe harbor 401 k election determines whether this structure also eliminates actual deferral percentage and actual contribution percentage testing on elective deferrals.
+              Participation reached 94% in plans with automatic enrollment versus 82% overall according to Vanguard&apos;s 2024 data. That gap is a function of design mechanics: when an automatic contribution arrangement pairs a default deferral rate with an escalation schedule and a match threshold, participants save more without taking affirmative action. The safe harbor 401 k election determines whether this structure also eliminates actual deferral percentage and actual contribution percentage testing on elective deferrals.
             </p>
             <p>
-              QACA requires auto-enrollment starting at 3% of an employee's salary, rising to at least 6% by year 5, with ADP/ACP testing relief in exchange. Traditional safe harbor 401 k demands 100% immediate vesting on safe harbor contributions but imposes no auto-enrollment mandate. Choosing between them depends on workforce demographics, turnover rates, and whether <Link href="/corporate-retirement-plans/investment-analysis/" className="text-navy underline hover:text-medium-blue transition-colors">investment analysis</Link> supports the default fund lineup tied to auto-enrolled participants.
+              QACA requires auto-enrollment starting at 3% of an employee&apos;s salary, rising to at least 6% by year 5, with ADP/ACP testing relief in exchange. Traditional safe harbor 401 k demands 100% immediate vesting on safe harbor contributions but imposes no auto-enrollment mandate. Choosing between them depends on workforce demographics, turnover rates, and whether <Link href="/corporate-retirement-plans/investment-analysis/" className="text-navy underline hover:text-medium-blue transition-colors">investment analysis</Link> supports the default fund lineup tied to auto-enrolled participants.
             </p>
             <div className="mt-6 pt-6 border-t border-gray-300">
               <p>
@@ -317,7 +317,7 @@ export default function PlanDesignPage() {
       <section className="bg-white py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
-            Custom 401(k) Plan Design vs. Virginia's RetirePath Program
+            Custom 401(k) Plan Design vs. Virginia&apos;s RetirePath Program
           </h2>
           <p className="text-text-gray font-outfit text-base leading-relaxed mb-10">
             Virginia employers with 25 or more eligible employees face a choice: adopt a custom qualified plan or default into RetirePath.
@@ -350,7 +350,7 @@ export default function PlanDesignPage() {
                 <tr className="border-b border-gray-100 even:bg-gray-50">
                   <td className="px-4 py-3 text-gray-700 font-medium">Employee vesting</td>
                   <td className="px-4 py-3 text-gray-700">Depends on design; 44.1% of plans with matching used immediate vesting in 2024 (PSCA)</td>
-                  <td className="px-4 py-3 text-gray-700">Fully vested (employee's own paycheck contributions only)</td>
+                  <td className="px-4 py-3 text-gray-700">Fully vested (employee&apos;s own paycheck contributions only)</td>
                 </tr>
                 <tr className="border-b border-gray-100 even:bg-gray-50">
                   <td className="px-4 py-3 text-gray-700 font-medium">Recruiting and retention value</td>
@@ -413,7 +413,7 @@ export default function PlanDesignPage() {
           </h2>
           <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
             <p>
-              PSCA's 68th Annual Survey reported 64.3% of plans used automatic enrollment in 2024. As adoption rises, the design decisions surrounding default rates, match thresholds, and safe harbor 401 k elections grow more consequential. PointOak acts as a named 3(21) or 3(38) ERISA fiduciary focused on connecting these design levers into a 401 k plan structure that fits your workforce. Learn more <Link href="/about/" className="text-navy underline hover:text-medium-blue transition-colors">about PointOak</Link> and how we work with plan sponsors.
+              PSCA&apos;s 68th Annual Survey reported 64.3% of plans used automatic enrollment in 2024. As adoption rises, the design decisions surrounding default rates, match thresholds, and safe harbor 401 k elections grow more consequential. PointOak acts as a named 3(21) or 3(38) ERISA fiduciary focused on connecting these design levers into a 401 k plan structure that fits your workforce. Learn more <Link href="/about/" className="text-navy underline hover:text-medium-blue transition-colors">about PointOak</Link> and how we work with plan sponsors.
             </p>
             <p>
               Plan sponsors sometimes encounter advisors who push expensive safe harbor 401 k templates without proving fit. We evaluate whether safe harbor, QACA, or traditional 401 k design serves your workforce demographics and employer matching contributions budget before recommending a structure. The fee-only model eliminates product-sale incentives that influence employee contributions guidance at bank-affiliated firms.

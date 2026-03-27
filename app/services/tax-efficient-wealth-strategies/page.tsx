@@ -472,7 +472,7 @@ export default function TaxEfficientWealthStrategiesPage() {
           </h2>
           <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
             <p>
-              <Link href="/our-consulting-team" className="text-medium-blue hover:text-navy underline">Our senior advisors</Link> build tax-aware investing into every wealth management relationship, drawing on the firm's corporate retirement plan background and thousands of participant scenarios where tax decisions changed outcomes. That depth in fixed income investments and asset allocation is rare among fee-only firms.
+              <Link href="/our-consulting-team" className="text-medium-blue hover:text-navy underline">Our senior advisors</Link> build tax-aware investing into every wealth management relationship, drawing on the firm&apos;s corporate retirement plan background and thousands of participant scenarios where tax decisions changed outcomes. That depth in fixed income investments and asset allocation is rare among fee-only firms.
             </p>
             <p>
               A common objection: your CPA already handles taxes. Your CPA reports what happened last year, while a tax advisor working inside your portfolio influences decisions before they create taxable events. <Link href="/about" className="text-medium-blue hover:text-navy underline">Our independence</Link> means we coordinate with your CPA so both roles work together, not in sequence.
@@ -482,7 +482,10 @@ export default function TaxEfficientWealthStrategiesPage() {
       </section>
       </AnimateOnScroll>
 
-      {/* About PointOak */}
-      <AnimateOnScroll>
-      <section className="bg-white py-12 md:py-16 lg:py-20">
-        <div className="max-w
+      <ServiceDetailFAQ faqs={faqs} sectionTitle="Tax-Efficient Wealth Strategies FAQ" />
+
+      <CTASection />
+      <Footer />
+    </main>
+  );
+}

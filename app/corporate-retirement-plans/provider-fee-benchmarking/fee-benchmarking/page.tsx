@@ -109,25 +109,25 @@ export default function FeeBenchmarkingPage() {
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Full Visibility into Total Plan Cost</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Hidden fees distort plan costs. A <a href="https://www.gao.gov/products/gao-12-325" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:text-navy underline">U.S. Government Accountability Office</a> report found small-plan administration fees averaged 1.33% of assets versus 0.15% for large plans. Independent benchmarking separates plan expenses from revenue sharing offsets so your committee sees how fees affect participants' retirement savings.
+                Hidden fees distort plan costs. A <a href="https://www.gao.gov/products/gao-12-325" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:text-navy underline">U.S. Government Accountability Office</a> report found small-plan administration fees averaged 1.33% of assets versus 0.15% for large plans. Independent benchmarking separates plan expenses from revenue sharing offsets so your committee sees how fees affect participants&apos; retirement savings.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Market-Competitive Pricing by Plan Size</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Industry averages obscure more than they reveal. <Link href="/corporate-retirement-plans/provider-fee-benchmarking" className="text-medium-blue hover:text-navy underline">Provider and fee benchmarking</Link> compares your 401(k) plan's total cost structure against similar-size retirement plans with comparable service scope, using actual bid data rather than published expense ratios alone.
+                Industry averages obscure more than they reveal. <Link href="/corporate-retirement-plans/provider-fee-benchmarking" className="text-medium-blue hover:text-navy underline">Provider and fee benchmarking</Link> compares your 401(k) plan&apos;s total cost structure against similar-size retirement plans with comparable service scope, using actual bid data rather than published expense ratios alone.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Stronger Participant Retirement Outcomes</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Fee drag compounds across decades. Even a fraction-of-a-percent difference in investment fees erodes retirement savings invisibly year over year but substantially at the account balance level. Benchmarking is one of the clearest actions a fiduciary can take to protect plan participants' outcomes and maximize investment returns.
+                Fee drag compounds across decades. Even a fraction-of-a-percent difference in investment fees erodes retirement savings invisibly year over year but substantially at the account balance level. Benchmarking is one of the clearest actions a fiduciary can take to protect plan participants&apos; outcomes and maximize investment returns.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Defensible Committee Governance</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Committee minutes paired with benchmark reports create the evidence trail ERISA's prudent-process requirement demands. Regulators evaluate the process a committee followed, not just the fee levels it accepted. Documented governance demonstrates that reasonable fees were confirmed through structured analysis.
+                Committee minutes paired with benchmark reports create the evidence trail ERISA&apos;s prudent-process requirement demands. Regulators evaluate the process a committee followed, not just the fee levels it accepted. Documented governance demonstrates that reasonable fees were confirmed through structured analysis.
               </p>
             </div>
           </div>
@@ -170,11 +170,11 @@ export default function FeeBenchmarkingPage() {
             Who Needs 401(k) Fee Benchmarking
           </h2>
           <p className="text-text-gray font-outfit text-base leading-relaxed mb-8">
-            These scenarios signal that an independent fee review should move to the front of your committee's agenda.
+            These scenarios signal that an independent fee review should move to the front of your committee&apos;s agenda.
           </p>
           <div className="space-y-8">
             <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Your Plan Hasn't Been Benchmarked in Over Three Years</h3>
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Your Plan Hasn&apos;t Been Benchmarked in Over Three Years</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
                 Many plans drift past the recommended benchmarking window as share classes shift and service terms evolve. An independent review resets your baseline so your committee can make informed decisions about current retirement plan fees.
               </p>
@@ -182,13 +182,13 @@ export default function FeeBenchmarkingPage() {
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">You Recently Assumed Fiduciary Responsibility</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                New committee members inherit fee arrangements they didn't negotiate. Establishing a documented baseline is the fastest way to understand what your plan fiduciaries are overseeing: total fees, service scope, and provider performance.
+                New committee members inherit fee arrangements they didn&apos;t negotiate. Establishing a documented baseline is the fastest way to understand what your plan fiduciaries are overseeing: total fees, service scope, and provider performance.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Your Provider's Fee Structure Feels Opaque</h3>
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Your Provider&apos;s Fee Structure Feels Opaque</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Revenue sharing, indirect compensation, and bundled pricing obscure true cost. When employer sponsors can't isolate what each service costs, high fees persist undetected behind bundled structures. An independent review separates every cost layer.
+                Revenue sharing, indirect compensation, and bundled pricing obscure true cost. When employer sponsors can&apos;t isolate what each service costs, high fees persist undetected behind bundled structures. An independent review separates every cost layer.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
@@ -221,7 +221,7 @@ export default function FeeBenchmarkingPage() {
             Independent Fee Benchmarking vs. Internal Committee Review
           </h2>
           <p className="text-text-gray font-outfit text-base leading-relaxed mb-8">
-            Two approaches exist for evaluating 401(k) fee reasonableness: optimize for lowest cost, or document best value for your plan's service scope.
+            Two approaches exist for evaluating 401(k) fee reasonableness: optimize for lowest cost, or document best value for your plan&apos;s service scope.
           </p>
 
           <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-4">Lowest-Fee Provider vs. Best-Value Provider</h3>
@@ -365,7 +365,7 @@ export default function FeeBenchmarkingPage() {
               The <a href="https://www.dol.gov/node/63354" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:text-navy underline">U.S. Department of Labor</a> does not set a specific permissible fee level for retirement plans. Reasonableness must be determined through documented evaluation of expenses paid across every service layer. PointOak is fee-only, SEC-registered, and independent from every recordkeeper and provider, so advisor fees reflect unbiased analysis rather than revenue-sharing incentives.
             </p>
             <p>
-              A reputable provider name doesn't guarantee annual fees are generally charged at competitive rates. Individual service fees and costs deducted directly from participant accounts still require verification against current benchmarks, which is where <Link href="/about" className="text-medium-blue hover:text-navy underline">open-architecture independence</Link> eliminates provider bias.
+              A reputable provider name doesn&apos;t guarantee annual fees are generally charged at competitive rates. Individual service fees and costs deducted directly from participant accounts still require verification against current benchmarks, which is where <Link href="/about" className="text-medium-blue hover:text-navy underline">open-architecture independence</Link> eliminates provider bias.
             </p>
           </div>
         </div>
@@ -390,4 +390,14 @@ export default function FeeBenchmarkingPage() {
 
       <section className="bg-white py-8">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
-          <p className="text
+          <p className="text-text-gray font-outfit text-sm leading-relaxed italic text-center">
+            Contact PointOak at (703) 595-4444 or <a href="https://www.pointoak.com/contact/" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">schedule a consultation</a> to discuss your plan&apos;s fee structure.
+          </p>
+        </div>
+      </section>
+
+      <CTASection />
+      <Footer />
+    </main>
+  );
+}

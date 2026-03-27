@@ -207,14 +207,14 @@ export default function InvestmentAnalysisPage() {
           </h2>
           <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
             <p>
-              IPS criteria are applied to each fund during every review cycle: performance measured against benchmarks and peer groups across stocks, bonds, and alternative asset classes. Fees are compared to category medians, and fund managers are evaluated for consistency and tenure. Plans average 23 to 27.6 options per <a href="https://institutional.vanguard.com/content/dam/inst/iig-transformation/insights/pdf/2025/has/2025_How_America_Saves.pdf" target="_blank" rel="noopener noreferrer" className="text-navy underline hover:text-medium-blue transition-colors">Vanguard's 2025 How America Saves report</a> and PSCA data, making a systematic investment process the foundation of sound investment decisions.
+              IPS criteria are applied to each fund during every review cycle: performance measured against benchmarks and peer groups across stocks, bonds, and alternative asset classes. Fees are compared to category medians, and fund managers are evaluated for consistency and tenure. Plans average 23 to 27.6 options per <a href="https://institutional.vanguard.com/content/dam/inst/iig-transformation/insights/pdf/2025/has/2025_How_America_Saves.pdf" target="_blank" rel="noopener noreferrer" className="text-navy underline hover:text-medium-blue transition-colors">Vanguard&apos;s 2025 How America Saves report</a> and PSCA data, making a systematic investment process the foundation of sound investment decisions.
             </p>
             <p>
               Watchlist flags identify funds with sustained underperformance, excessive costs, or portfolio manager changes. Replacement follows documented criteria, not reactive judgment. Exchange traded funds, institutional share classes, QDIAs, and target-date selections are all evaluated equally to maintain optimal diversification.
             </p>
             <div className="mt-6 pt-6 border-t border-gray-300">
               <p>
-                <Link href="/contact/" className="text-navy underline hover:text-medium-blue transition-colors font-medium">Schedule a consultation</Link> to discuss your plan's investment lineup and monitoring process.
+                <Link href="/contact/" className="text-navy underline hover:text-medium-blue transition-colors font-medium">Schedule a consultation</Link> to discuss your plan&apos;s investment lineup and monitoring process.
               </p>
             </div>
           </div>
@@ -230,7 +230,7 @@ export default function InvestmentAnalysisPage() {
             Who Needs 401(k) Investment Analysis
           </h2>
           <p className="text-text-gray font-outfit text-base leading-relaxed mb-10">
-            Not every plan requires outside <Link href="/our-services/" className="text-navy underline hover:text-medium-blue transition-colors">retirement plan consulting services</Link>. These scenarios indicate when independent analysis strengthens your committee's governance.
+            Not every plan requires outside <Link href="/our-services/" className="text-navy underline hover:text-medium-blue transition-colors">retirement plan consulting services</Link>. These scenarios indicate when independent analysis strengthens your committee&apos;s governance.
           </p>
           <div className="space-y-6">
             {needsAnalysisData.map((item, idx) => (
@@ -283,7 +283,7 @@ export default function InvestmentAnalysisPage() {
                 <tr className="border-b border-gray-100 even:bg-gray-50">
                   <td className="px-4 py-3 text-gray-700 font-medium">Fund Replacement Triggers</td>
                   <td className="px-4 py-3 text-gray-700">Defined watchlist criteria with documented replacement logic</td>
-                  <td className="px-4 py-3 text-gray-700">Replacement timing may follow provider's own schedule</td>
+                  <td className="px-4 py-3 text-gray-700">Replacement timing may follow provider&apos;s own schedule</td>
                 </tr>
                 <tr className="border-b border-gray-100 even:bg-gray-50">
                   <td className="px-4 py-3 text-gray-700 font-medium">Committee Reporting</td>
@@ -298,7 +298,7 @@ export default function InvestmentAnalysisPage() {
                 <tr className="border-b border-gray-100 even:bg-gray-50">
                   <td className="px-4 py-3 text-gray-700 font-medium">Investment Fee Transparency</td>
                   <td className="px-4 py-3 text-gray-700">Independent review surfaces hidden costs across all share classes</td>
-                  <td className="px-4 py-3 text-gray-700">Fee disclosure limited to provider's standard reporting</td>
+                  <td className="px-4 py-3 text-gray-700">Fee disclosure limited to provider&apos;s standard reporting</td>
                 </tr>
               </tbody>
             </table>
@@ -354,7 +354,7 @@ export default function InvestmentAnalysisPage() {
               A <a href="https://www.psca.org/news/psca-news/2024/5/benchmarking-your-retirement-plan/" target="_blank" rel="noopener noreferrer" className="text-navy underline hover:text-medium-blue transition-colors">PSCA survey on advisor use</a> found 83% of plans use an independent investment advisor to support fiduciary responsibilities. PointOak operates as a named ERISA 3(21) or 3(38) fiduciary. <Link href="/about/" className="text-navy underline hover:text-medium-blue transition-colors">Our approach</Link> is fee-only and independent, with no ties to recordkeepers or fund providers.
             </p>
             <p>
-              Every advisor claims quarterly monitoring. PointOak's process applies documented criteria, defined watchlist triggers, and committee-ready replacement logic. <Link href="/our-consulting-team/" className="text-navy underline hover:text-medium-blue transition-colors">Our consulting team</Link> delivers fiduciary-grade reporting, not a quarterly slide deck repackaging provider data.
+              Every advisor claims quarterly monitoring. PointOak&apos;s process applies documented criteria, defined watchlist triggers, and committee-ready replacement logic. <Link href="/our-consulting-team/" className="text-navy underline hover:text-medium-blue transition-colors">Our consulting team</Link> delivers fiduciary-grade reporting, not a quarterly slide deck repackaging provider data.
             </p>
           </div>
         </div>

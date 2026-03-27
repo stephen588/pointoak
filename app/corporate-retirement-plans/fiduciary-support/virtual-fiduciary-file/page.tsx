@@ -139,7 +139,7 @@ export default function VirtualFiduciaryFilePage() {
             <div className="border-l-4 border-medium-blue pl-6">
               <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Documented Fee and Provider Oversight</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                DOL requires participant-directed 401(k) plans to provide quarterly statements detailing the plan's fees and expenses deducted from accounts. Recurring <Link href="/corporate-retirement-plans/provider-fee-benchmarking" className="text-medium-blue hover:text-navy underline">provider and fee benchmarking</Link> documentation is a fiduciary compliance obligation. Your file should evidence that only reasonable plan expenses were charged and reviewed against market comparables on a defined schedule.
+                DOL requires participant-directed 401(k) plans to provide quarterly statements detailing the plan&apos;s fees and expenses deducted from accounts. Recurring <Link href="/corporate-retirement-plans/provider-fee-benchmarking" className="text-medium-blue hover:text-navy underline">provider and fee benchmarking</Link> documentation is a fiduciary compliance obligation. Your file should evidence that only reasonable plan expenses were charged and reviewed against market comparables on a defined schedule.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
@@ -162,10 +162,10 @@ export default function VirtualFiduciaryFilePage() {
           </h2>
           <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
             <p>
-              A fiduciary documentation system organizes plan documents, trust records, participant data, governance evidence, and plan service provider oversight records into a maintained framework. Industry best practice holds that documentation includes not only meeting minutes but the materials reviewed at each meeting. Retaining the plan's investment options analysis and diversifying plan investments reports alongside minutes creates a prudent process file rather than a simple archive.
+              A fiduciary documentation system organizes plan documents, trust records, participant data, governance evidence, and plan service provider oversight records into a maintained framework. Industry best practice holds that documentation includes not only meeting minutes but the materials reviewed at each meeting. Retaining the plan&apos;s investment options analysis and diversifying plan investments reports alongside minutes creates a prudent process file rather than a simple archive.
             </p>
             <p>
-              Industry guidance recommends benchmarking service provider fees every three to five years, and <Link href="/corporate-retirement-plans/investment-analysis" className="text-medium-blue hover:text-navy underline">investment analysis</Link> against the IPS should occur at least annually for proper investment oversight. These cadences create a recurring documentation cycle of monitoring service providers, reviewing each service provider's performance, and updating governance records. This is a continuous plan management discipline, not a one-time file build.
+              Industry guidance recommends benchmarking service provider fees every three to five years, and <Link href="/corporate-retirement-plans/investment-analysis" className="text-medium-blue hover:text-navy underline">investment analysis</Link> against the IPS should occur at least annually for proper investment oversight. These cadences create a recurring documentation cycle of monitoring service providers, reviewing each service provider&apos;s performance, and updating governance records. This is a continuous plan management discipline, not a one-time file build.
             </p>
           </div>
           <div className="mt-8">
@@ -286,7 +286,7 @@ export default function VirtualFiduciaryFilePage() {
             </table>
           </div>
           <p className="text-text-gray font-outfit text-base leading-relaxed mt-6">
-            A basic file meets minimum recordkeeping requirements. A full governance file is worth the investment when plan assets, committee size, or service provider complexity create meaningful fiduciary exposure. Our <Link href="/corporate-retirement-plans" className="text-medium-blue hover:text-navy underline">retirement plan consulting services</Link> build either approach based on your plan's needs, with documented attention to the plan's account records and other plan property.
+            A basic file meets minimum recordkeeping requirements. A full governance file is worth the investment when plan assets, committee size, or service provider complexity create meaningful fiduciary exposure. Our <Link href="/corporate-retirement-plans" className="text-medium-blue hover:text-navy underline">retirement plan consulting services</Link> build either approach based on your plan&apos;s needs, with documented attention to the plan&apos;s account records and other plan property.
           </p>
         </div>
       </section>
@@ -359,7 +359,7 @@ export default function VirtualFiduciaryFilePage() {
       <section className="bg-white py-8">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <p className="text-text-gray font-outfit text-sm leading-relaxed text-center">
-            Call (703) 595-4444 or <Link href="/contact" className="text-medium-blue hover:text-navy underline">schedule a consultation</Link> to review your plan's fiduciary governance file.
+            Call (703) 595-4444 or <Link href="/contact" className="text-medium-blue hover:text-navy underline">schedule a consultation</Link> to review your plan&apos;s fiduciary governance file.
           </p>
         </div>
       </section>
