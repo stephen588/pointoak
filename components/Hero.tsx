@@ -18,7 +18,7 @@ export default function Hero() {
         poster="/images/hero-video-poster.jpg"
         className="absolute inset-0 w-full h-full object-cover object-center"
       >
-        <source src="/images/hero-video-web.mp4" type="video/mp4" />
+        <source src="https://pikaso.cdnpk.net/private/production/3759825097/946ec48b-cf6c-463b-a168-9657fb68afcd-0.mp4?token=exp=1775001600~hmac=eaaf20eb76105a57fed2f591d4bcdba85dd5b5cec44e1001eade419120c8565f" type="video/mp4" />
       </video>
 
       {/* Gradient overlay - subtle top, darker bottom for text readability */}
