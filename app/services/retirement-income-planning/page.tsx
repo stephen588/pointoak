@@ -10,70 +10,129 @@ import AnimateOnScroll from "@/components/AnimateOnScroll";
 
 export const metadata: Metadata = {
   title: "Retirement Income Planning | PointOak Retirement Advisors",
-  description: "Build a sustainable retirement income strategy with PointOak. We help high-net-worth individuals plan withdrawals, optimize Social Security, and protect their lifestyle through retirement.",
+  description: "PointOak coordinates withdrawals, Social Security, taxes, and Medicare into one retirement income plan. Fee-only fiduciary since 2017. Schedule a consultation.",
   alternates: {
     canonical: "https://www.pointoak.com/services/retirement-income-planning/"
   }
 };
 
 const highlights = [
-  "Average Social Security payment: $2,071/month in January 2026",
-  "Education covering income gap, RMDs, and withdrawal strategies",
-  "Independent fiduciary consulting, zero parent company conflicts",
-  "Group workshops, virtual benefits fairs, and 1-on-1 sessions"
+  "Retirement plan specialists since 2005",
+  "Fee-only fiduciary wealth advisory",
+  "Complimentary no-obligation initial consultation"
+];
+
+const benefitsData = [
+  {
+    title: "Sustainable Cash Flow Through Retirement",
+    description: "Guardrail spending frameworks replace fixed withdrawal rules with dynamic models that adjust to market risk. We stress-test portfolios against thousands of scenarios to calculate safe spending levels. Your retirement cash flow maintains your lifestyle through inflation without eroding principal."
+  },
+  {
+    title: "Lower Tax Impact on Retirement Withdrawals",
+    description: "Wrong-account withdrawals in the wrong year push you into a higher bracket and reduce what you keep. Tax-aware sequencing determines which accounts to tap: tax-deferred, tax-free, or taxable. Multi-year projections manage your taxes across a decade, not one filing at a time."
+  },
+  {
+    title: "Coordinated Social Security and Medicare Decisions",
+    description: "When you claim Social Security, and at what age, affects your tax bracket, Medicare premiums, and how long your portfolio lasts. We model spousal benefit scenarios against your full income picture. Each claiming decision factors in IRMAA thresholds and lifetime coverage costs."
+  },
+  {
+    title: "Protection Against Unexpected Retirement Costs",
+    description: "Fidelity's 2025 retiree health care cost estimate projects $172,500 in lifetime healthcare costs for a 65-year-old retiring in 2025. That excludes long term care or extended nursing stays. Planning builds these costs into your withdrawal strategy before they arrive."
+  },
+  {
+    title: "A Written, Personalized Withdrawal Strategy",
+    description: "Most affluent households lack a documented plan for turning assets into income. A written withdrawal strategy assigns each source a role, a timeline, and a tax treatment. Our approach to retirement planning puts these decisions on paper so they can be tracked."
+  }
 ];
 
 const processSteps = [
   {
     number: 1,
-    title: "Consultation",
-    description: "We review your plan demographics, retirement readiness data, and education goals."
+    title: "Understand",
+    description: "We discuss your goals, concerns, and full financial picture so both sides align before any recommendations."
   },
   {
     number: 2,
-    title: "Data Gathering",
-    description: "We analyze contribution rates, income gap indicators, and participation patterns."
+    title: "Design",
+    description: "We develop a customized strategy integrating retirement income, investment management, and tax-aware considerations for your situation."
   },
   {
     number: 3,
-    title: "Strategy Development",
-    description: "We build an education calendar combining workshops, campaigns, and 1-on-1 sessions."
+    title: "Implement and Monitor",
+    description: "Your plan goes into action with ongoing monitoring, check-ins, and adjustments as life and goals change."
+  }
+];
+
+const whoNeedsData = [
+  {
+    title: "Approaching Retirement with Multiple Income Sources",
+    description: "Pension income, Social Security, employer plans, portfolio withdrawals, and rental earnings each carry different tax treatment. Sequencing them reduces your effective rate and extends how long assets last."
   },
   {
-    number: 4,
-    title: "Implementation",
-    description: "Licensed advisors deliver sessions covering income sources, investing basics, and withdrawal strategy."
+    title: "Considering a 401(k) Rollover",
+    description: "A 401(k) rollover triggers decisions about tax treatment, withdrawal timing, and how the new account fits your broader retirement income plan. Eligible rollover options include traditional IRAs and Roth conversions."
   },
   {
-    number: 5,
-    title: "Monitoring",
-    description: "We track engagement and refresh content as Social Security COLA, RMD rules, and inflation data evolve."
+    title: "Frustrated with Generic Advice from Your Current Provider",
+    description: "Recordkeeper guidance focuses on fund selection while you earn a salary. Once withdrawals begin, coordinating taxes, Social Security, and healthcare costs requires a different approach and specialized services."
+  },
+  {
+    title: "Facing Roth Conversion or Withdrawal Timing Decisions",
+    description: "The window for Roth conversions narrows as required minimum distributions begin at age 73. Every year before that is a chance to convert at a lower bracket within your full income picture."
+  },
+  {
+    title: "Carrying Significant Assets but No Documented Income Plan",
+    description: "Most affluent households lack a written income plan. The 2025 EBRI Retirement Confidence Survey found 45% of retirees said spending exceeded expectations. Our senior advisors build documented strategies to prevent this."
   }
 ];
 
 const faqs = [
   {
-    question: "What is the average Social Security payment for retired workers in 2026?",
-    answer: "The estimated average monthly Social Security retirement benefit for January 2026 is $2,071, per the SSA. This reflects the 2026 COLA of 2.8%, which increased average retirement income by roughly $56 per month. For most retirees, the average Social Security payment covers only a portion of essential expenses, making it a starting point for income gap analysis rather than a complete answer."
+    question: "How much does retirement income planning cost?",
+    answer: "PointOak charges a transparent, asset-based fee with no commissions or hidden costs. The fee is based on a percentage of assets under management and varies by account size and complexity. There is a $500,000 minimum in investable assets. PointOak is fee-only, meaning the firm earns no commissions and uses no proprietary products. Your initial consultation is complimentary, typically lasting 30 to 45 minutes with no obligation. Schedule a complimentary consultation to discuss your situation and learn what the fee would look like for your accounts."
   },
   {
-    question: "What is the median household income for retirees age 65 and older?",
-    answer: "Median household income for householders age 65 and older was $59,648 in 2024, per the US Census Bureau ACS brief. Average annual expenditures were $78,535 in 2024, per BLS data, meaning many retired households face a meaningful income gap if they rely primarily on social security income and modest retirement savings. PointOak helps employees manage this gap before they retire."
+    question: "What is retirement income planning, and how is it different from general financial planning?",
+    answer: "Retirement income planning focuses on turning accumulated assets into sustainable income, not just growing them. General financial planning covers budgeting, insurance, and wealth accumulation across your working years. Retirement income planning narrows the focus to withdrawal sequencing, Social Security timing, tax bracket management, required minimum distributions, and healthcare budgeting, all coordinated into one integrated strategy for the income phase of your financial life."
   },
   {
-    question: "When should participants start taking Social Security?",
-    answer: "Delaying Social Security benefits until age 70 can increase monthly payments by up to 28%, per Kiplinger, but requires bridge income from retirement savings or other assets. For participants with adequate retirement accounts, delaying is often the highest-return financial planning decision available. PointOak's 1-on-1 sessions help employees estimate both scenarios and reach a sound answer using their actual data."
+    question: "How often should a retirement income plan be reviewed?",
+    answer: "PointOak reviews retirement income plans on a semi-annual cadence with adjustments as needed. Semi-annual reviews cover portfolio performance, tax law changes, and shifts in your spending or goals. If a major life event occurs between reviews, such as a health change, market disruption, or new tax legislation, PointOak schedules additional meetings. You can always reach us by phone or email between scheduled conversations."
   },
   {
-    question: "Does retirement income planning cover annuities?",
-    answer: "Yes. Annuities from an insurance company can serve as a guaranteed income floor, and PointOak's programs address when and how to evaluate them. PointOak evaluates annuity options independently, without any affiliated insurance company relationship influencing recommendations. Guidance reflects participant retirement income needs and cost tradeoffs, not a product interest."
+    question: "When should I start retirement income planning?",
+    answer: "Five to ten years before retirement gives the most flexibility for Roth conversions and claiming decisions. Required minimum distributions begin at age 73, and Medicare enrollment starts at age 65. Starting earlier opens a window for strategic Roth conversions at lower tax brackets, Social Security claiming analysis, and healthcare cost projections. The earlier you plan, the more levers are available to reduce lifetime taxes and strengthen your income."
+  },
+  {
+    question: "How much of my retirement income will Social Security realistically cover?",
+    answer: "For affluent households, Social Security typically replaces a modest fraction of pre-retirement income. The average Social Security benefit covers a smaller share of spending for higher earners than for median-income retirees. Most households with investable assets above $500,000 need coordinated portfolio income, tax-aware withdrawals, and strategic claiming to maintain their standard of living. Social Security is one piece of the income plan, not the foundation."
+  },
+  {
+    question: "Do I need a fiduciary advisor for retirement income planning?",
+    answer: "A fiduciary advisor is legally required to act in your interest, which matters when income decisions are irreversible. Many retirement income decisions, such as Social Security claiming and Roth conversions, cannot be reversed once made. A fiduciary is bound by law to act in your interest, not sell the highest-commission product. PointOak has operated as a fiduciary since inception in 2017. Schedule a complimentary consultation to discuss your plan."
+  },
+  {
+    question: "Can I rely on my 401(k) provider for retirement income advice?",
+    answer: "Most recordkeepers offer general guidance but do not integrate taxes, claiming strategy, or healthcare planning. Recordkeeper tools can estimate account balances and suggest contribution rates, but they typically do not coordinate withdrawal sequencing across multiple accounts, model Social Security claiming scenarios against your tax bracket, or factor in Medicare costs. A retirement income plan requires that level of integration, which most provider platforms are not built to deliver."
+  },
+  {
+    question: "Is the 4% rule still realistic after inflation and taxes?",
+    answer: "Static withdrawal rules ignore your individual tax situation, healthcare costs, and market sequence risk. The 4% rule was designed as a general starting point, not a retirement income plan. It ignores your specific tax bracket, the mix of taxable and tax-free accounts, and healthcare cost spikes. A dynamic withdrawal strategy adjusts spending year by year based on portfolio performance and tax conditions."
+  },
+  {
+    question: "What should I look for in a retirement income planner?",
+    answer: "Look for a written income plan, SEC registration, fiduciary status, and ongoing monitoring. A strong retirement income planner provides a documented withdrawal strategy, coordinates Social Security and tax planning, holds SEC registration, and operates under the fiduciary standard. Ongoing monitoring matters because tax laws, Medicare thresholds, and your spending will shift over time. PointOak meets each of these criteria and has since the firm's founding."
+  },
+  {
+    question: "Why do retirees say spending is higher than expected?",
+    answer: "Healthcare, dental, and lifestyle costs routinely exceed pre-retirement estimates for affluent households. Retirees often underestimate out-of-pocket healthcare costs, dental work, travel, home maintenance, and supporting adult children or aging parents. These expenses compound when inflation is factored in. A retirement income plan stress-tests your spending assumptions before retirement begins, building reserves for the categories most likely to surprise you."
   }
 ];
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Service",
-  "name": "Retirement Income Planning Education",
+  "name": "Retirement Income Planning",
   "provider": {
     "@type": "FinancialService",
     "name": "PointOak Retirement Advisors"
@@ -162,14 +221,14 @@ export default function RetirementIncomePlanningPage() {
           { label: "For Individuals & Families", href: "/for-individuals-families" },
           { label: "Retirement Income Planning" }
         ]}
-        title="Retirement Income Planning Education & Consulting for Plan Participants"
-        subtitle="Most retirees discover their retirement income falls short of essential expenses only after they stop working. PointOak delivers retirement income planning education so your employees begin closing the income gap well before their retirement date."
+        title="Retirement Income Planning That Coordinates Every Dollar"
+        subtitle="Turning accumulated assets into sustainable retirement income means coordinating withdrawals, Social Security, taxes, and Medicare. PointOak Retirement Advisors builds retirement income plans that coordinate every source into one financial planning strategy."
       />
 
       {/* Highlights Bar */}
       <section className="bg-cloud-blue py-8 md:py-10">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {highlights.map((highlight, idx) => (
               <div key={idx} className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-medium-blue rounded-full mt-2 flex-shrink-0" />
@@ -182,36 +241,59 @@ export default function RetirementIncomePlanningPage() {
         </div>
       </section>
 
-      {/* How Retirement Income Planning Works */}
+      {/* Benefits of Retirement Income Planning */}
       <AnimateOnScroll>
       <section className="bg-white py-12 md:py-16 lg:py-20">
+        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
+          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-10">
+            Benefits of Retirement Income Planning
+          </h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            {benefitsData.map((benefit, idx) => (
+              <div key={idx} className="bg-white rounded-lg p-6 md:p-8 shadow-sm border border-gray-100">
+                <h3 className="text-navy font-outfit text-xl font-semibold mb-3">
+                  {benefit.title}
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  {benefit.description}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+      </AnimateOnScroll>
+
+      {/* How Retirement Income Planning Works */}
+      <AnimateOnScroll>
+      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
             How Retirement Income Planning Works
           </h2>
           <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
             <p>
-              Retirement income planning maps what participants will spend against what their income sources will actually pay. It starts by classifying essential expenses separately from discretionary spending, then tracking every income source by start date: social security income, retirement accounts, pensions, and any annuities from an insurance company. A withdrawal strategy is then selected that accounts for inflation, sequence-of-returns risk, and required minimum distributions beginning at age 73.
+              Retirement income planning coordinates the timing of portfolio withdrawals, Social Security claims, Roth conversions, and required minimum distributions into one investment strategy. Each decision changes your tax bracket, which in turn affects every other account and income source. The approach reduces guesswork by mapping these interactions across your full retirement timeline.
             </p>
             <p>
-              Multiple withdrawal frameworks exist, each with different aspects that affect retirement savings longevity. The bucket strategy holds three to five years of living expenses in cash, staged into fixed income and equities for growth, per BlackRock. Delaying Social Security benefits until age 70 can increase monthly payments by up to 28%, per Kiplinger, making the claiming date one of the highest-impact decisions in any income plan.
+              According to <a href="https://www.investmentnews.com/retirement-planning/mass-affluent-americans-confident-about-retirement-but-few-have-a-plan-prudential/262770" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:text-navy underline">a 2025 Prudential study</a>, only 25% of mass affluent Americans had a clearly defined withdrawal strategy. A structured plan replaces ad hoc decisions with multi-year investment projections that adapt as tax laws change. The difference between investing to earn returns and planning for income is this level of coordination.
             </p>
             <p>
-              PointOak translates this complexity into structured participant education through custom workshops, 1-on-1 consultation sessions, and virtual benefits fairs. Licensed advisors walk employees through retirement income calculator tools, income gap estimates, and withdrawal strategy selection, all within fiduciary-safe boundaries that protect plan sponsors from liability.
+              <Link href="/contact" className="text-medium-blue hover:text-navy underline">Schedule a complimentary consultation</Link> to discuss your retirement income plan, or contact us at (703) 595-4444.
             </p>
           </div>
         </div>
       </section>
       </AnimateOnScroll>
 
-      {/* Image Break — Consultation */}
+      {/* Image Break */}
       <AnimateOnScroll variant="fade">
-      <section className="bg-cloud-blue py-4">
+      <section className="bg-white py-4">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <div className="relative w-full rounded-lg overflow-hidden">
             <Image
               src="/images/services/retirement-income-planning.png"
-              alt="A friendly financial advisor gestures gently while explaining a retirement income concept to a relaxed couple"
+              alt="Financial advisor consulting with clients about retirement income planning"
               width={2936}
               height={1638}
               className="w-full h-auto"
@@ -221,213 +303,111 @@ export default function RetirementIncomePlanningPage() {
       </section>
       </AnimateOnScroll>
 
-      {/* Benefits of Retirement Income Planning Education */}
-      <AnimateOnScroll>
-      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
-        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
-          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-10">
-            Benefits of Retirement Income Planning Education
-          </h2>
-          <div className="grid md:grid-cols-2 gap-8">
-            {/* Benefit 1 */}
-            <div>
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-4">
-                Close the Income Gap Early
-              </h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed">
-                More than half of aged households receive 50% or more of their income from Social Security alone, per SSA data, and social security income covers only about 31% of total income for most retirees. PointOak&apos;s education programs help employees estimate the gap, access insights on their retirement savings runway, and build a financial planning approach that helps them make ends meet throughout retirement.
-              </p>
-            </div>
-
-            {/* Benefit 2 */}
-            <div>
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-4">
-                Prepare Participants for Social Security Decisions
-              </h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed">
-                The government confirmed a 2.8% Social Security COLA for 2026, increasing average retirement benefits by roughly $56 per month. PointOak&apos;s workshops give participants the tools to track payments, understand how social security income interacts with withdrawal sequencing, and decide when to begin claiming based on data and sound judgment.
-              </p>
-            </div>
-
-            {/* Benefit 3 */}
-            <div>
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-4">
-                Build Plans That Reflect Real Spending
-              </h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Households in their 70s spend approximately $5,165 per month, per an Investopedia summary of BLS data, and most retirees find that lifestyle costs do not fall as sharply as expected. PointOak workshops help participants model essential expenses and discretionary spending separately so retirement savings projections reflect real cost assumptions, not outdated tips and rules of thumb.
-              </p>
-            </div>
-
-            {/* Benefit 4 */}
-            <div>
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-4">
-                Maintain Current Plans as Rules Evolve
-              </h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed">
-                RMDs begin at age 73, Social Security adjusts annually, and inflation continuously erodes purchasing power. PointOak&apos;s ongoing monitoring keeps education current so employees maintain an accurate income plan as costs, payments, and benefits rules change over time.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      </AnimateOnScroll>
-
-      {/* Our Retirement Income Planning Services */}
+      {/* Who Needs Retirement Income Planning */}
       <AnimateOnScroll>
       <section className="bg-white py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
-          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-10">
-            Our Retirement Income Planning Services
+          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
+            Who Needs Retirement Income Planning
           </h2>
+          <p className="text-text-gray font-outfit text-base leading-relaxed mb-10">
+            Retirement income planning fits specific situations. These scenarios focus on when coordinating income sources matters most.
+          </p>
+
           <div className="space-y-8">
-            {/* Service 1 */}
-            <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">
-                1-on-1 Consultation Sessions
-              </h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Licensed advisors meet individually with employees to review retirement accounts, social security income timelines, and income gap estimates. This format is intended for participants within five to seven years of retirement who need focused attention on withdrawal strategy and claiming decisions, including soft retirement transitions from full-time work.
-              </p>
-            </div>
+            {whoNeedsData.map((item, idx) => (
+              <div key={idx}>
+                <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">
+                  {item.title}
+                </h3>
+                <p className="text-text-gray font-outfit text-base leading-relaxed">
+                  {item.description}
+                </p>
+              </div>
+            ))}
+          </div>
 
-            {/* Service 2 */}
-            <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">
-                Custom Educational Workshops
-              </h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Group sessions cover essential expenses, income source mapping, withdrawal strategy frameworks, and Social Security basics. Workshops give plan sponsors a repeatable education model built with fidelity to fiduciary standards, giving clients a scalable way to track participant engagement and improve plan-level retirement readiness.
-              </p>
-            </div>
-
-            {/* Service 3 */}
-            <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">
-                Tailored Communication Campaigns
-              </h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Multi-touch campaigns deliver retirement income planning content to specific employee segments, driving access to workshops and 1-on-1 sessions. They are designed for employees who would not otherwise save time or pay attention to generic benefits messaging.
-              </p>
-            </div>
-
-            {/* Service 4 */}
-            <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">
-                Virtual Benefits Fairs
-              </h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Digital events give distributed workforces the ability to visit live sessions and access tools and data on retirement savings, investing, and income planning, regardless of location. Participants from large cities and smaller markets, including McLean, Virginia, Ann Arbor, Michigan, Highlands Ranch, Colorado, South Bend, Indiana, and Thousand Oaks, California, can attend without traveling.
-              </p>
-            </div>
+          <div className="mt-10 p-6 bg-[#F5F3EF] rounded-lg">
+            <p className="text-text-gray font-outfit text-base leading-relaxed">
+              <strong className="text-navy">When retirement income planning may not be the right fit:</strong> This service may not be the right fit if you are still in early accumulation, primarily focused on contributing to retirement accounts, or hold less than $500,000 in investable assets.
+            </p>
           </div>
         </div>
       </section>
       </AnimateOnScroll>
 
-      {/* Bucket Strategy vs. the 4% Rule - Table */}
+      {/* Fiduciary Advisor vs. DIY Approach - Table */}
       <AnimateOnScroll>
       <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
-            Bucket Strategy vs. the 4% Rule
+            Retirement Income Planning: Fiduciary Advisor vs. DIY Approach
           </h2>
           <p className="text-text-gray font-outfit text-base leading-relaxed mb-8">
-            Both approaches help participants manage retirement income risk. Which one fits depends on spending flexibility, retirement account wealth, and comfort with market volatility.
+            Most retirement savers manage withdrawals independently. <a href="https://www.investmentnews.com/retirement-planning/401k-participants-seek-advice-but-few-turn-to-financial-advisors/260912" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:text-navy underline">Cerulli research</a> shows 63% of active 401(k) participants work without an advisor. The table below compares both approaches for six coordination decisions.
           </p>
 
           <div className="overflow-x-auto">
-            <table className="w-full border border-[#F3F4F6]">
+            <table className="w-full border-collapse">
               <thead>
                 <tr className="bg-navy text-white">
-                  <th className="px-6 py-4 text-left font-outfit text-base font-medium">Factor</th>
-                  <th className="px-6 py-4 text-left font-outfit text-base font-medium">Bucket Strategy</th>
-                  <th className="px-6 py-4 text-left font-outfit text-base font-medium">4% Rule</th>
+                  <th className="px-4 py-3 text-left font-outfit font-semibold">Criterion</th>
+                  <th className="px-4 py-3 text-left font-outfit font-semibold">DIY / Recordkeeper</th>
+                  <th className="px-4 py-3 text-left font-outfit font-semibold">Fiduciary Retirement Income Planner</th>
                 </tr>
               </thead>
               <tbody>
-                <tr className="bg-white">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Core structure</td>
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray">Cash reserve (3-5 yrs) + staged risk tiers</td>
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray">Fixed annual percentage from portfolio</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Tax coordination across account types</td>
+                  <td className="px-4 py-3 text-gray-700">General guidance; no multi-year bracket analysis or account-specific sequencing</td>
+                  <td className="px-4 py-3 text-gray-700">Complete analysis of tax-deferred, tax-free, and taxable accounts with multi-year projections</td>
                 </tr>
-                <tr className="bg-cloud-blue">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Spending flexibility</td>
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray">Requires periodic cash refill</td>
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray">Benefits from willingness to cut spending</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Social Security claiming analysis</td>
+                  <td className="px-4 py-3 text-gray-700">Online calculators; no integration with portfolio or tax plan</td>
+                  <td className="px-4 py-3 text-gray-700">Spousal benefit modeling integrated with withdrawal and tax strategy</td>
                 </tr>
-                <tr className="bg-white">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">RMD interaction</td>
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray">Cash tier absorbs RMD distributions</td>
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray">RMDs add taxable income; sequencing matters</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Healthcare and Medicare cost planning</td>
+                  <td className="px-4 py-3 text-gray-700">Medicare.gov resources; no link to income or IRMAA bracket management</td>
+                  <td className="px-4 py-3 text-gray-700">Medicare costs and IRMAA thresholds built into withdrawal projections</td>
                 </tr>
-                <tr className="bg-cloud-blue">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Social Security timing</td>
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray">Cash bridges income while delaying claiming</td>
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray">Assumes SS already counted in the plan</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Withdrawal sequencing and RMD timing</td>
+                  <td className="px-4 py-3 text-gray-700">Ad hoc decisions; no IRS RMD coordination with other income sources</td>
+                  <td className="px-4 py-3 text-gray-700">Sequenced withdrawals coordinating IRS required distributions with all income</td>
                 </tr>
-                <tr className="bg-white">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Best for</td>
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray">Participants managing sequence risk</td>
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray">Participants with simple, flexible portfolios</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Ongoing adjustment and monitoring</td>
+                  <td className="px-4 py-3 text-gray-700">Self-directed review when time permits</td>
+                  <td className="px-4 py-3 text-gray-700">Scheduled semi-annual review with proactive adjustments for tax and market changes</td>
+                </tr>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Regulatory accountability and fiduciary duty</td>
+                  <td className="px-4 py-3 text-gray-700">No fiduciary duty; suitability standard at most</td>
+                  <td className="px-4 py-3 text-gray-700">SEC-registered fiduciary advisory services with legal obligation to act in your interest</td>
                 </tr>
               </tbody>
             </table>
           </div>
 
-          <p className="text-text-gray font-outfit text-base leading-relaxed mt-6">
-            The bucket strategy is better suited to retired workers who need a clear plan to manage risk during a market downturn. The 4% rule suits participants who can adjust lifestyle spending if returns fall short. A Florida retiree with limited liquidity faces the same sequence risk as participants in large cities elsewhere, and both benefit from a structured income plan over a generic rule.
+          <p className="text-text-gray font-outfit text-sm leading-relaxed mt-6 italic">
+            Source: Cerulli Associates via InvestmentNews, 2025
           </p>
-        </div>
-      </section>
-      </AnimateOnScroll>
 
-      {/* Who Needs Retirement Income Planning Education? */}
-      <AnimateOnScroll>
-      <section className="bg-white py-12 md:py-16 lg:py-20">
-        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
-          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-10">
-            Who Needs Retirement Income Planning Education?
-          </h2>
-
-          <div className="space-y-8">
-            <div>
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">
-                Participants 5-7 Years From Retirement
-              </h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Employees in this window face imminent Social Security claiming decisions, RMD planning, and withdrawal strategy selection. Without structured guidance, most default to the first available option, often leaving retirement income on the table. Key financial planning decisions begin to get counted before participants realize it.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">
-                Employees With Limited Retirement Savings
-              </h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed">
-                About half of aged households receive at least 50% of their income from Social Security, and about one-quarter receive at least 90%, per SSA policy data. For participants with limited wealth in retirement accounts, education shifts to income gap management, realistic essential expense modeling, and tips on how to manage money and maintain retirement benefits as intended.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">
-                When This Program Is Not the Right Fit
-              </h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Participants who need individualized tax advice, estate planning, or investment management beyond an educational scope should work with a personal financial advisor. PointOak&apos;s programs are intended to deliver education within fiduciary-safe boundaries.
-              </p>
-            </div>
-          </div>
+          <p className="text-text-gray font-outfit text-base leading-relaxed mt-6">
+            A DIY approach works when income comes from Social Security and a single retirement account. A fiduciary retirement income planner adds measurable value when multiple accounts, tax brackets, and Medicare thresholds require year-over-year coordination.
+          </p>
         </div>
       </section>
       </AnimateOnScroll>
 
       {/* What To Expect: Our Process */}
       <AnimateOnScroll>
-      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
+      <section className="bg-white py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-10">
-            What To Expect: Our Process
+            What To Expect: Our Retirement Income Planning Process
           </h2>
 
           <div className="relative">
@@ -439,7 +419,7 @@ export default function RetirementIncomePlanningPage() {
                 <div key={step.number} className="flex gap-6">
                   {/* Step number */}
                   <div className="flex-shrink-0 z-10">
-                    <div className="w-10 h-10 rounded-full bg-medium-blue flex items-center justify-center">
+                    <div className="w-10 h-10 rounded-full bg-navy flex items-center justify-center">
                       <span className="font-outfit font-semibold text-white text-lg leading-none">
                         {step.number}
                       </span>
@@ -459,32 +439,30 @@ export default function RetirementIncomePlanningPage() {
               ))}
             </div>
           </div>
+
+          <div className="mt-8">
+            <Link href="/contact" className="text-medium-blue hover:text-navy underline font-outfit text-base">
+              Schedule your consultation
+            </Link> to begin.
+          </div>
         </div>
       </section>
       </AnimateOnScroll>
 
       {/* Why Choose PointOak */}
       <AnimateOnScroll>
-      <section className="bg-white py-12 md:py-16 lg:py-20">
+      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
-            <div>
-              <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
-                Why Choose PointOak for Retirement Income Planning?
-              </h2>
-              <p className="text-text-gray font-outfit text-base leading-relaxed">
-                PointOak manages over $1 billion in client assets with a team of three partners bringing more than 50 years of collective experience in retirement planning and wealth management. Our dual expertise — deep roots in institutional retirement plan consulting combined with personalized wealth advisory — gives us real-world insight into retirement scenarios that most advisors lack. With fewer than 100 clients per partner, we deliver the personalized attention your retirement income strategy deserves. As a fee-only fiduciary firm with no proprietary products, we are legally obligated to act in your best interest at every step.
-              </p>
-            </div>
-            <div className="relative w-full h-[300px] lg:h-[380px] rounded-lg overflow-hidden">
-              <Image
-                src="/images/asset-couples-01.png"
-                alt="A happy couple in their 60s sitting at a kitchen table reviewing financial documents together"
-                fill
-                className="object-cover object-[center_25%]"
-                sizes="(max-width: 1024px) 100vw, 585px"
-              />
-            </div>
+          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
+            Why Choose PointOak for Retirement Income Planning
+          </h2>
+          <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
+            <p>
+              That number changes annually and directly affects withdrawal planning, IRMAA brackets, and Roth conversion decisions. Our corporate retirement plan background means the team tracks these costs and thresholds daily.
+            </p>
+            <p>
+              Every advisor claims retirement expertise, but PointOak is fee-only with no commissions. You get direct access to Darsh and his senior team at our office from your first meeting. <Link href="/about" className="text-medium-blue hover:text-navy underline">Learn about PointOak</Link>.
+            </p>
           </div>
         </div>
       </section>
@@ -492,13 +470,18 @@ export default function RetirementIncomePlanningPage() {
 
       {/* About PointOak */}
       <AnimateOnScroll>
-      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
+      <section className="bg-white py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
             About PointOak Retirement Advisors
           </h2>
-          <p className="text-text-gray font-outfit text-base leading-relaxed">
-            PointOak Retirement Advisors is an independent, fee-only wealth advisory firm headquartered in McLean, Virginia, specializing in retirement planning and wealth management for high-net-worth individuals and families. The firm has operated as a full-scope fiduciary since inception, managing over $1 billion in assets with a team of three partners bringing more than 50 years of collective experience. PointOak also serves corporate plan sponsors through its retirement plan consulting practice.
+          <p className="text-text-gray font-outfit text-base leading-relaxed mb-6">
+            PointOak Retirement Advisors is an independent, fee-only wealth advisory firm founded in 2017 and headquartered in McLean, Virginia, serving high-net-worth individuals and corporate plan sponsors nationwide. SEC-registered investment advisor (CRD #314866) with over $1.08 billion in assets under management and 50+ years of collective experience across the team. Darsh and his team work directly with every client.
+          </p>
+          <p>
+            <Link href="/contact" className="text-medium-blue hover:text-navy underline font-outfit text-base">
+              Schedule a complimentary consultation
+            </Link>
           </p>
         </div>
       </section>
@@ -507,14 +490,18 @@ export default function RetirementIncomePlanningPage() {
       {/* FAQ Section */}
       <ServiceDetailFAQ faqs={faqs} />
 
-      {/* Disclaimer */}
-      <section className="bg-white py-8">
-        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
-          <p className="text-text-gray font-outfit text-sm leading-relaxed italic text-center">
-            Investment advisory services offered through PointOak Retirement Advisors, LLC. This site is published for residents of the United States only. Not all of the products and services referenced on this site are available in every state and through every representative or advisor listed. PointOak Retirement Advisors, LLC does not provide tax or legal advice.
+      {/* Final CTA */}
+      <AnimateOnScroll>
+      <section className="bg-cloud-blue py-12">
+        <div className="max-w-[1170px] mx-auto px-6 xl:px-0 text-center">
+          <p className="text-text-gray font-outfit text-base leading-relaxed">
+            <Link href="/contact" className="text-medium-blue hover:text-navy underline font-semibold">
+              Schedule your consultation
+            </Link> to receive a clear picture of how your retirement income sources work together.
           </p>
         </div>
       </section>
+      </AnimateOnScroll>
 
       <CTASection />
       <Footer />

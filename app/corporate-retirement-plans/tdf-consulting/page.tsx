@@ -5,109 +5,127 @@ import ServiceDetailFAQ from "@/components/ServiceDetailFAQ";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
 import Link from "next/link";
-import { Target, TrendingUp, Settings, FileCheck } from "lucide-react";
+import { Shield, Users, DollarSign, Settings, CheckCircle } from "lucide-react";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
 
 export const metadata: Metadata = {
   title: "Target Date Fund Consulting | PointOak Retirement Advisors",
-  description: "Target date fund consulting for plan sponsors nationwide. Independent TDF evaluation, glide path analysis, and DOL compliance. Named fiduciary protection.",
+  description: "PointOak's TDF consulting matches glide path design to your plan's participant base. Named 3(21)/3(38) fiduciary. 450+ data points per bidder. Schedule a consultation.",
   alternates: {
     canonical: "https://www.pointoak.com/corporate-retirement-plans/tdf-consulting/"
   }
 };
 
 const highlights = [
-  "Independent analysis with no fund family conflicts",
-  "Named fiduciary status under ERISA 3(21) and 3(38)",
-  "Documented process for audit protection"
+  "450+ data points reviewed per plan bidder",
+  "Named 3(21) and 3(38) ERISA fiduciary",
+  "Fee-only fiduciary since 2017"
 ];
 
-const subServices = [
+const benefitsData = [
   {
-    title: "TDF Selection & Suitability",
-    description: "We analyze participant demographics, savings rates, and retirement patterns to determine if a &quot;to retirement&quot; or &quot;through retirement&quot; approach fits your plan with complete documentation for fiduciary protection.",
-    href: "/corporate-retirement-plans/tdf-consulting/tdf-selection/",
-    icon: Target,
+    title: "Documented Fiduciary Protection",
+    description: "DOL's TDF fiduciary guidance requires a thorough, objective evaluation for comparing TDFs designated as your plan's QDIA. PointOak's consulting produces that documentation trail: selection rationale, comparison criteria, and a review cadence for each fund series. Your committee's fiduciary support record starts here.",
+    icon: Shield
   },
   {
-    title: "Glide Path Analysis",
-    description: "We develop side-by-side comparisons of equity exposure, asset allocation strategies, and risk levels across TDF families to match strategy to participant retirement patterns.",
-    href: "/corporate-retirement-plans/tdf-consulting/glide-path/",
-    icon: TrendingUp,
+    title: "Participant-Matched Default Design",
+    description: "PSCA reports 71% of TDF investors held their entire account in a single target date fund. When participants default into one fund, the glide path's equity exposure and asset allocation must reflect their demographics: ages, salary bands, turnover rates, and risk tolerance. A generic asset mix fails most plans.",
+    icon: Users
   },
   {
-    title: "Custom TDF Solutions",
-    description: "We help you evaluate whether off-the-shelf TDFs from major fund families meet your needs, or if a customized glide path designed specifically for your participant population makes sense.",
-    href: "/corporate-retirement-plans/tdf-consulting/custom-tdf/",
-    icon: Settings,
+    title: "Independent Vehicle and Fee Analysis",
+    description: "PointOak's fee-only model eliminates recordkeeper and manufacturer bias from TDF evaluation. We review fees and expenses at the component level across mutual funds, CITs, and custom structures. Our provider and fee benchmarking process spans all available asset classes, vehicles, and investment strategies.",
+    icon: DollarSign
   },
   {
-    title: "TDF Documentation & Compliance",
-    description: "Our evaluation methodology addresses every DOL requirement, creating a defensible record that demonstrates prudent process with quarterly monitoring and comprehensive fiduciary file documentation.",
-    href: "/corporate-retirement-plans/tdf-consulting/tdf-documentation/",
-    icon: FileCheck,
+    title: "Custom vs. Off-the-Shelf Clarity",
+    description: "DOL directs plan fiduciaries to evaluate whether a custom solution or off-the-shelf target date fund fits their plan better. PointOak answers that question with data: participant demographics, fee analysis, governance capacity, and diversification needs specific to your plan's profile. The right path depends on your investment options and participant base.",
+    icon: Settings
   },
+  {
+    title: "Ongoing Monitoring and Review Cadence",
+    description: "DOL requires periodic review of TDF selections, not a one-time recommendation. PointOak establishes a documented monitoring framework covering glide path changes, fee shifts, and participant demographic updates. Each review cycle produces an updated fiduciary record with security against future DOL inquiries.",
+    icon: CheckCircle
+  }
+];
+
+const needsConsultingData = [
+  {
+    title: "Your Committee Has No Documented TDF Selection Process",
+    description: "If your current TDF was inherited or auto-selected by the recordkeeper, your fiduciary file likely lacks the documented comparison DOL expects for QDIA selections. A custom solution approach starts with independent consulting to close that gap."
+  },
+  {
+    title: "Your Plan Is Considering a Recordkeeper Change",
+    description: "Recordkeeper transitions open access to different fund lineups, share classes, and CIT options. Evaluate your TDF series independently as part of a broader plan design review before the transition closes."
+  },
+  {
+    title: "Your Participant Demographics Differ from Generic Assumptions",
+    description: "Plans with unusual age distributions, high turnover, or concentrated salary bands need a different glide path than off-the-shelf defaults. Your participant data and investor ages should drive TDF selection, not a generic model built on standard assumptions."
+  },
+  {
+    title: "Your Committee Wants to Evaluate Custom or Blended Structures",
+    description: "Custom and blended TDF structures add governance complexity that requires justification. An independent consultant determines whether a custom solution is warranted for your plan's size, demographics, and capacity before your committee commits."
+  },
+  {
+    title: "You Have Concerns About Fiduciary Exposure on Your QDIA",
+    description: "If committee members are uncertain the current QDIA would withstand DOL scrutiny, independent consulting creates the defensible record a solid process requires. Documentation provides the security that separates a prudent decision from an inherited one."
+  }
 ];
 
 const processSteps = [
   {
     number: 1,
-    title: "Analyze Current State",
-    description: "We review your existing target date funds and participant demographics to identify gaps."
+    title: "Analyze",
+    description: "We evaluate your current TDF lineup: participant demographics, glide path structure, fees, vehicle type, and fiduciary documentation."
   },
   {
     number: 2,
-    title: "Evaluate Options",
-    description: "You receive detailed comparison of TDF families, glide paths, fees, and suitability to your plan."
+    title: "Optimize",
+    description: "You receive recommendations on TDF selection, custom-vs-off-the-shelf fit, allocation changes, and a monitoring framework."
   },
   {
     number: 3,
-    title: "Document Selection",
-    description: "We create comprehensive documentation showing your prudent evaluation process for fiduciary protection."
-  },
-  {
-    number: 4,
-    title: "Implement Changes",
-    description: "Our team works with your recordkeeper to transition participants and update plan documents."
-  },
-  {
-    number: 5,
-    title: "Monitor Ongoing",
-    description: "You get quarterly reports on TDF performance, fees, and adherence to investment objectives."
+    title: "Implement",
+    description: "We execute changes, update your fiduciary file, and establish a review cadence with participant education support."
   }
 ];
 
 const faqs = [
   {
     question: "How much does target date fund consulting cost?",
-    answer: "TDF consulting fees vary based on plan size, complexity, and scope of services. Our fees are typically structured as an annual retainer or percentage of plan assets. Most clients find the cost is far less than the potential liability exposure from selecting target date funds without proper documentation. We provide transparent pricing with no hidden charges."
+    answer: "TDF consulting fees vary by plan complexity, asset size, and engagement scope. PointOak operates on a fee-only model with no commissions or product-based compensation. TDF consulting is typically part of a broader retirement plan consulting relationship, with fees transparent, scaled to plan size and complexity, and disclosed before engagement begins. The complimentary initial consultation carries no cost and no obligation."
   },
   {
-    question: "What makes PointOak different from other TDF consulting firms?",
-    answer: "Three critical differences set us apart. First, we generate over 90% of our revenue from retirement plans, so we&apos;re true specialists rather than generalists. Second, we&apos;re independently owned with no recordkeeper or fund family affiliations, eliminating conflicts of interest. Third, all our advisors can act as 3(21) or 3(38) named fiduciaries, providing direct liability protection."
+    question: "What's the difference between an off-the-shelf and custom target date fund?",
+    answer: "Off-the-shelf TDFs use a generic glide path; custom TDFs are built around your plan's participant data. Off-the-shelf series assume a typical participant base and apply a standardized asset mix. Custom structures adjust the glide path, asset-class composition, and vehicle selection to match your plan's demographics. The comparison table above outlines trade-offs across six factors, and PointOak's evaluation determines which structure your fiduciary file supports."
   },
   {
-    question: "How long does the TDF selection process usually take?",
-    answer: "A comprehensive target date fund evaluation typically takes 4-6 weeks from initial analysis through final documentation. This timeline includes reviewing participant demographics, comparing glide paths across fund families, evaluating fees and performance, and preparing detailed reports. Implementation timing depends on your recordkeeper&apos;s processes and any participant communication requirements."
+    question: "How often should plan fiduciaries review target date funds?",
+    answer: "DOL guidance calls for periodic TDF reviews, and most committees should evaluate at least annually. A documented annual review covers glide path fit, fee competitiveness, vehicle changes, and participant demographic shifts. PointOak establishes a monitoring framework and provides documentation for each review cycle. Significant plan events like a recordkeeper change warrant an interim review outside the standard cadence."
   },
   {
-    question: "What is the difference between &quot;to&quot; and &quot;through&quot; retirement glide paths?",
-    answer: "A &quot;to retirement&quot; glide path reaches its most conservative asset allocation at the target date, assuming participants will withdraw all savings when they retire. A &quot;through retirement&quot; glide path continues reducing equity exposure for 10-20 years past the target date, maintaining some growth potential for participants who draw down gradually. The right choice depends on your participant characteristics and withdrawal tendencies."
+    question: "How do you choose the right target date fund for a 401(k) plan?",
+    answer: "Start with participant demographics, then evaluate glide path fit, fees, vehicle type, and component-fund composition. DOL guidance identifies participant ages, retirement timing, salary levels, turnover, and contribution rates as factors fiduciaries should assess. PointOak applies these criteria through a structured evaluation and delivers committee-ready documentation with specific recommendations tied to your plan's data. Fiduciary support records are maintained throughout the process."
   },
   {
-    question: "How do I choose the right target date fund for my 401(k) plan?",
-    answer: "Start by analyzing your participant demographics including age distribution, salary levels, and expected retirement patterns. Then evaluate which glide path philosophy aligns with those characteristics. Compare fees to ensure you&apos;re getting appropriate share classes for your plan size. Finally, assess underlying fund quality and manager tenure. Document each step of this evaluation process for fiduciary protection."
+    question: "What is glide path analysis in a target date fund?",
+    answer: "Glide path analysis evaluates how a TDF shifts its asset allocation from equities to fixed income over time. Two funds with the same target date hold materially different equity exposure at every point along the glide path. A \"to\" approach reduces equity by the target retirement date, while a \"through\" approach maintains higher equity into retirement. The right structure depends on how your participants behave after they stop contributing."
   },
   {
-    question: "What are the risks of target date funds?",
-    answer: "Target date funds carry several important risks plan sponsors must understand. The principal value is not guaranteed at any time, including at the target date. Participants can lose money if the stocks and bonds owned by the fund decline. Different TDFs with the same target date may have vastly different risk levels due to glide path variations. Plus, participants who don&apos;t understand the fund&apos;s assumptions may end up with unsuitable allocations."
+    question: "What is the difference between a \"to\" and \"through\" retirement glide path?",
+    answer: "A \"to\" glide path reaches its most conservative allocation at retirement; a \"through\" glide path continues adjusting after. \"To\" designs assume participants withdraw or annuitize at retirement. \"Through\" designs assume participants stay invested and draw down gradually, maintaining higher equity longer. Neither is guaranteed to produce superior outcomes, and PointOak evaluates which philosophy matches your plan's participant behavior and retirement patterns."
   },
+  {
+    question: "Are all 2035 or 2040 target date funds basically the same?",
+    answer: "No. Same-vintage TDFs differ substantially in equity exposure, asset-class composition, fees, and glide path design. Same-vintage funds show wide variation in equity allocation across providers. A 2040 fund from one provider holds significantly more equity than a 2040 from another, creating different risk profiles for participants who assume they are interchangeable. Independent analysis is the only way to evaluate fit for your plan's demographics."
+  }
 ];
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Service",
-  name: "Target Date Fund Consulting for Plan Sponsors",
+  name: "Target Date Fund Consulting for Plan Sponsors and Fiduciary Committees",
   provider: { "@type": "FinancialService", name: "PointOak Retirement Advisors" },
   serviceType: "Target Date Fund Consulting",
   areaServed: { "@type": "Country", name: "United States" },
@@ -125,8 +143,8 @@ export default function TDFConsultingPage() {
           { label: "For Businesses", href: "/corporate-retirement-plans" },
           { label: "Target Date Fund Consulting" }
         ]}
-        title="Target Date Fund Consulting for Plan Sponsors Who Want Real Answers"
-        subtitle="You&apos;ve probably heard that the DOL expects plan sponsors to evaluate target date funds carefully before selection. But how many times have you wondered which glide path actually fits your participant demographics? We help you meet fiduciary obligations through documented TDF evaluation that protects you from liability."
+        title="Target Date Fund Consulting for Plan Sponsors and Fiduciary Committees"
+        subtitle="A brand-name target date fund with the right vintage year does not constitute a documented fiduciary process. PointOak's target date fund consulting helps plan sponsors and plan fiduciaries build a documented selection and glide path evaluation matched to plan participants' demographics and retirement savings patterns."
       />
 
       {/* Highlights Bar */}
@@ -143,55 +161,26 @@ export default function TDFConsultingPage() {
         </div>
       </section>
 
-      {/* Why Choose Us */}
+      {/* Benefits of Target Date Fund Consulting */}
       <AnimateOnScroll>
       <section className="bg-white py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
-          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
-            Why Choose Us for Target Date Fund Consulting?
-          </h2>
-          <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
-            <p>
-              Target date funds now hold $4.0 trillion in assets, making them the dominant investment in 401(k) plans. With 80% of plans offering TDFs and 60% of new contributions flowing into these funds, the DOL&apos;s 2013 guidance on proper selection isn&apos;t optional. PointOak specializes exclusively in retirement plan consulting, generating over 90% of our revenue from corporate plans.
-            </p>
-            <p>
-              What sets us apart is our independence. We&apos;re not affiliated with any recordkeeper or fund family, so our TDF recommendations serve only your participants&apos; best interests. Acting as your 3(21) or 3(38) named fiduciary, we provide documented evaluation processes that protect you if audited. Our methodology evaluates glide path suitability, fees, underlying fund quality, and participant tendencies.
-            </p>
-          </div>
-        </div>
-      </section>
-      </AnimateOnScroll>
-
-      {/* Sub-Service Cards */}
-      <AnimateOnScroll>
-      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
-        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-10">
-            Our Target Date Fund Consulting Services
+            Benefits of Target Date Fund Consulting
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {subServices.map((service) => {
-              const Icon = service.icon;
+            {benefitsData.map((benefit, idx) => {
+              const Icon = benefit.icon;
               return (
-                <Link
-                  key={service.href}
-                  href={service.href}
-                  className="bg-white rounded-lg p-8 border border-gray-100 hover:shadow-lg hover:border-navy/20 transition-all duration-300 group"
-                >
-                  <div className="flex items-start gap-5">
-                    <div className="w-12 h-12 rounded-full bg-cloud-blue flex items-center justify-center flex-shrink-0 group-hover:bg-navy/10 transition-colors">
-                      <Icon className="w-6 h-6 text-navy" />
+                <div key={idx} className="bg-cloud-blue rounded-lg p-6 md:p-8">
+                  <div className="flex items-start gap-4 mb-4">
+                    <div className="w-12 h-12 rounded-full bg-navy flex items-center justify-center flex-shrink-0">
+                      <Icon className="w-6 h-6 text-white" />
                     </div>
-                    <div className="flex-1">
-                      <h3 className="font-outfit text-navy text-xl font-medium mb-3 group-hover:text-navy/80 transition-colors">
-                        {service.title}
-                      </h3>
-                      <p className="font-outfit text-dark-gray text-sm leading-relaxed">
-                        {service.description}
-                      </p>
-                    </div>
+                    <h3 className="font-outfit text-navy text-xl font-semibold flex-1">{benefit.title}</h3>
                   </div>
-                </Link>
+                  <p className="text-text-gray font-outfit text-base leading-relaxed">{benefit.description}</p>
+                </div>
               );
             })}
           </div>
@@ -199,66 +188,124 @@ export default function TDFConsultingPage() {
       </section>
       </AnimateOnScroll>
 
-      {/* Challenges Table */}
+      {/* How Target Date Fund Consulting Works */}
+      <AnimateOnScroll>
+      <section className="bg-[#F5F3EF] py-12 md:py-16 lg:py-20">
+        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
+          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
+            How Target Date Fund Consulting Works
+          </h2>
+          <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
+            <p>
+              A rigorous TDF evaluation starts with participant demographics: ages, target retirement dates, salary levels, contribution rates, and withdrawal patterns. The evaluation examines glide path design (static glide path vs. declining glide path), underlying asset allocation across stocks, bonds, cash, and other asset classes. Management style and component-fund investment strategies receive the same <Link href="/investment-analysis/" className="text-navy underline hover:text-medium-blue transition-colors">investment analysis</Link> rigor applied to the full plan menu and managed investments.
+            </p>
+            <p>
+              <a href="https://www.morningstar.com/funds/target-date-funds-have-delivered-investors" target="_blank" rel="noopener noreferrer" className="text-navy underline hover:text-medium-blue transition-colors">Morningstar's 2024 target-date report</a> shows target-date mutual fund asset-weighted fees fell to 29 basis points in 2024. Fee compression and CIT growth make vehicle selection a live fiduciary requirement, not a historical checkbox. A plan holding high-cost mutual fund shares finds lower-cost CIT alternatives with identical underlying assets and bond exposure.
+            </p>
+            <div className="mt-6 pt-6 border-t border-gray-300">
+              <p>
+                <Link href="/contact/" className="text-navy underline hover:text-medium-blue transition-colors font-medium">Schedule a consultation</Link> to evaluate your plan's target date fund lineup.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      </AnimateOnScroll>
+
+      {/* Who Needs Target Date Fund Consulting */}
       <AnimateOnScroll>
       <section className="bg-white py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
-            Common Target Date Fund Challenges for Plan Sponsors
+            Who Needs Target Date Fund Consulting
           </h2>
+          <p className="text-text-gray font-outfit text-base leading-relaxed mb-10">
+            Not every plan needs independent TDF consulting. These scenarios help plan sponsors determine when a documented review is overdue.
+          </p>
+          <div className="space-y-6">
+            {needsConsultingData.map((item, idx) => (
+              <div key={idx} className="bg-cloud-blue rounded-lg p-6 md:p-8 border-l-4 border-navy">
+                <h3 className="font-outfit text-navy text-lg md:text-xl font-semibold mb-3">{item.title}</h3>
+                <p className="text-text-gray font-outfit text-base leading-relaxed">{item.description}</p>
+              </div>
+            ))}
+            <div className="bg-[#F5F3EF] rounded-lg p-6 md:p-8 border-l-4 border-warm-gold">
+              <h3 className="font-outfit text-navy text-lg md:text-xl font-semibold mb-3">When TDF Consulting Might Not Be the Right Fit</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                Plans with straightforward demographics, limited governance capacity, and a well-documented existing process generally do not need outside TDF consulting. Existing <Link href="/our-services/" className="text-navy underline hover:text-medium-blue transition-colors">retirement plan consulting services</Link> are sufficient.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      </AnimateOnScroll>
+
+      {/* Comparison Table */}
+      <AnimateOnScroll>
+      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
+        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
+          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
+            Off-the-Shelf TDF vs. Custom TDF
+          </h2>
+          <p className="text-text-gray font-outfit text-base leading-relaxed mb-10">
+            Both traditional TDF and custom target date fund structures serve plan participants. The right path depends on participant demographics, plan size, fee leverage, and governance capacity.
+          </p>
           <div className="overflow-x-auto">
-            <table className="w-full border border-[#F3F4F6]">
+            <table className="w-full border-collapse">
               <thead>
                 <tr className="bg-navy text-white">
-                  <th className="px-6 py-4 text-left font-outfit text-base font-medium">Challenge</th>
-                  <th className="px-6 py-4 text-left font-outfit text-base font-medium">What It Looks Like</th>
-                  <th className="px-6 py-4 text-left font-outfit text-base font-medium">How We Help</th>
+                  <th className="px-4 py-3 text-left font-outfit font-semibold">Factor</th>
+                  <th className="px-4 py-3 text-left font-outfit font-semibold">Off-the-Shelf TDF</th>
+                  <th className="px-4 py-3 text-left font-outfit font-semibold">Custom TDF</th>
                 </tr>
               </thead>
               <tbody>
-                <tr className="bg-white">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Glide path confusion</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Target date funds with identical target dates can have 40% variance in equity allocation. Plan sponsors lack framework to determine which approach fits their employees.</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">We evaluate participant characteristics and savings patterns to recommend glide paths aligned with your workforce, fully documented for compliance.</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Participant fit</td>
+                  <td className="px-4 py-3 text-gray-700">Generic demographic assumptions</td>
+                  <td className="px-4 py-3 text-gray-700">Glide path matched to plan data</td>
                 </tr>
-                <tr className="bg-cloud-blue">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">DOL compliance gaps</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">The DOL&apos;s 2013 guidance requires fiduciaries to evaluate multiple factors before TDF selection. Most plan sponsors don&apos;t know what those factors are or how to document the process.</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Our evaluation methodology addresses every DOL requirement, creating a defensible record that demonstrates prudent process if you&apos;re audited.</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Vehicle options</td>
+                  <td className="px-4 py-3 text-gray-700">Mutual funds, standard share classes</td>
+                  <td className="px-4 py-3 text-gray-700">CITs (50.5% of TDF assets by mid-2024), mutual funds, or blended</td>
                 </tr>
-                <tr className="bg-white">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Demographic mismatch</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Off-the-shelf target date funds are designed for average investors, but your participants may have different income levels, retirement age expectations, or savings rates.</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">We analyze your specific participant tendencies and demographics to determine if traditional TDFs fit or if customization would better serve employees.</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Fee structure</td>
+                  <td className="px-4 py-3 text-gray-700">Packaged expense ratio</td>
+                  <td className="px-4 py-3 text-gray-700">Component-level fee negotiation</td>
                 </tr>
-                <tr className="bg-cloud-blue">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Fee transparency issues</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Understanding whether your plan is getting appropriate share classes for your size is complex. Many sponsors overpay without realizing it.</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">We benchmark TDF expenses against plans of similar size and provide leverage to negotiate better fees or identify lower-cost alternatives.</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Governance requirement</td>
+                  <td className="px-4 py-3 text-gray-700">Standard monitoring cadence</td>
+                  <td className="px-4 py-3 text-gray-700">Custom IPS with ongoing rebalancing oversight</td>
                 </tr>
-                <tr className="bg-white">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Recordkeeper conflicts</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Advisors affiliated with recordkeepers or fund families face pressure to recommend proprietary products, even when better options exist.</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">As an independent firm with no fund family ties, we evaluate all options objectively and recommend only what serves your participants.</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Portability</td>
+                  <td className="px-4 py-3 text-gray-700">High; transfers with recordkeeper changes</td>
+                  <td className="px-4 py-3 text-gray-700">Lower; requires restructuring</td>
                 </tr>
-                <tr className="bg-cloud-blue">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Monitoring gaps</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Many plans select target date funds once, then fail to review them quarterly. Changes in underlying funds, fees, or managers go unnoticed until problems emerge.</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Our ongoing monitoring catches issues early with documented quarterly reviews that demonstrate continuous fiduciary oversight.</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Branding</td>
+                  <td className="px-4 py-3 text-gray-700">Provider-branded series</td>
+                  <td className="px-4 py-3 text-gray-700">Plan-branded or white-labeled</td>
                 </tr>
               </tbody>
             </table>
           </div>
+          <p className="text-text-gray font-outfit text-base leading-relaxed mt-6">
+            Sway Research reports $371 billion in custom TDF strategies at year-end 2025. Custom wins when demographics diverge and plan size creates leverage for individual investments; off-the-shelf wins when governance is limited. PointOak's <Link href="/investment-analysis/" className="text-navy underline hover:text-medium-blue transition-colors">investment analysis</Link> resolves the question with your plan's data and a documented comparison.
+          </p>
         </div>
       </section>
       </AnimateOnScroll>
 
       {/* Our Process */}
       <AnimateOnScroll>
-      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
+      <section className="bg-white py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-10">
-            What To Expect: Our Process
+            What To Expect: Our TDF Consulting Process
           </h2>
           <div className="relative">
             <div className="absolute left-[19px] top-10 bottom-10 w-px bg-[#C1C5C9] hidden sm:block" />
@@ -266,7 +313,7 @@ export default function TDFConsultingPage() {
               {processSteps.map((step) => (
                 <div key={step.number} className="flex gap-6">
                   <div className="flex-shrink-0 z-10">
-                    <div className="w-10 h-10 rounded-full bg-medium-blue flex items-center justify-center">
+                    <div className="w-10 h-10 rounded-full bg-navy flex items-center justify-center">
                       <span className="font-outfit font-semibold text-white text-lg leading-none">{step.number}</span>
                     </div>
                   </div>
@@ -282,6 +329,25 @@ export default function TDFConsultingPage() {
       </section>
       </AnimateOnScroll>
 
+      {/* Why Choose PointOak */}
+      <AnimateOnScroll>
+      <section className="bg-[#F5F3EF] py-12 md:py-16 lg:py-20">
+        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
+          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
+            Why Choose PointOak for Target Date Fund Consulting
+          </h2>
+          <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
+            <p>
+              The <a href="https://www.ici.org/index.php/resource-hubs/target-retirement-date-funds" target="_blank" rel="noopener noreferrer" className="text-navy underline hover:text-medium-blue transition-colors">Investment Company Institute</a> reports $4.0 trillion invested in target date funds at year-end 2024. That concentration makes TDF selection one of the most consequential fiduciary decisions in any DC plan. PointOak evaluates every series as an <Link href="/about/" className="text-navy underline hover:text-medium-blue transition-colors">independent, fee-only advisory firm</Link> with no product affiliations or recordkeeper ties, strengthening every recommendation and investment strategy.
+            </p>
+            <p>
+              "We already have a TDF lineup" is the most common reason committees defer review. An existing lineup is not a documented fit analysis. PointOak's Live Bid methodology and DOL-aligned strategy create the fiduciary record that protects investment returns and supports long-term growth in participant outcomes.
+            </p>
+          </div>
+        </div>
+      </section>
+      </AnimateOnScroll>
+
       {/* About PointOak */}
       <AnimateOnScroll>
       <section className="bg-white py-12 md:py-16 lg:py-20">
@@ -290,7 +356,7 @@ export default function TDFConsultingPage() {
             About PointOak Retirement Advisors
           </h2>
           <p className="text-text-gray font-outfit text-base leading-relaxed">
-            PointOak Retirement Advisors is an independent retirement plan consulting firm headquartered in McLean, Virginia, serving plan sponsors nationwide. The firm generates over 90% of its revenue from corporate retirement plans and acts as a 3(21) or 3(38) named fiduciary under ERISA with every client. PointOak evaluates over $120 billion in retirement plan assets quarterly using a proprietary 10-point pass/fail scoring system and conducts more than 10,000 plan benchmarks annually.
+            PointOak Retirement Advisors is an independent, fee-only wealth advisory firm founded in 2017 and headquartered in McLean, Virginia. SEC-registered investment advisor serving plan sponsors and high-net-worth individuals nationwide. Over $1.08 billion in assets under management. 50+ years of collective team experience. Darsh Makim, CRPC, leads a <Link href="/our-consulting-team/" className="text-navy underline hover:text-medium-blue transition-colors">senior advisory team</Link> present in every client relationship. <Link href="/contact/" className="text-navy underline hover:text-medium-blue transition-colors">Schedule a consultation</Link>.
           </p>
         </div>
       </section>

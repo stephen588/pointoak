@@ -9,75 +9,130 @@ import Image from "next/image";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
 
 export const metadata: Metadata = {
-  title: "Investment Management Services | PointOak Retirement Advisors",
-  description: "Disciplined, fiduciary investment management for high-net-worth individuals. PointOak builds portfolios aligned with your goals, risk tolerance, and tax situation.",
+  title: "Investment Management | PointOak Retirement Advisors",
+  description: "PointOak delivers tax-aware investment management for high-net-worth families. Fee-only fiduciary, open-architecture portfolios, $500K minimum. Schedule a consultation.",
   alternates: {
     canonical: "https://www.pointoak.com/services/investment-management/"
   }
 };
 
 const highlights = [
-  "$120B in plan assets evaluated quarterly",
-  "Proprietary 10-point pass/fail scoring system",
-  "Named fiduciary: 3(21) or 3(38) from day one",
-  "10,000+ benchmarks per year"
+  "Fee-only fiduciary since 2017",
+  "SEC-registered, open-architecture portfolios",
+  "Complimentary initial consultation"
+];
+
+const benefitsData = [
+  {
+    title: "Coordinated Planning Beyond Portfolio Returns",
+    description: "70% of U.S. adults expect estate planning to be part of their financial plans, according to a Trust & Will survey. Your asset allocation connects to retirement planning, tax coordination, and investment objectives rather than treating fund selection as an isolated exercise. Fund selection in isolation misses the decisions that matter most to your financial goals."
+  },
+  {
+    title: "Tax-Aware Strategies That Protect More of Your Wealth",
+    description: "PointOak uses multi-year projections and asset location decisions across tax-deferred, tax-free, and taxable accounts to manage your brackets over time. Withdrawal sequencing improves after-tax outcomes throughout retirement, not just next year's bill. Tax planning across account types protects more of your wealth over decades."
+  },
+  {
+    title: "Open-Architecture Access Across the Entire Market",
+    description: "PointOak selects from the full marketplace of asset classes. No proprietary products, no corporate sales quotas, no limited shelf. Your risk tolerance drives every decision about appropriate investments because a fiduciary standard requires acting in your best interest at all times, not just recommending products considered suitable."
+  },
+  {
+    title: "A Single Advisor Relationship for Every Financial Decision",
+    description: "Fragmented advice creates gaps when your investment manager, tax advisor, and estate attorney operate in silos. PointOak acts as your central financial advisor, coordinating every decision into one integrated plan."
+  },
+  {
+    title: "Direct Senior-Level Access From Your First Meeting",
+    description: "Darsh and his team are present from your first conversation onward. You will not be handed off to a junior associate or call center after onboarding. The advisors who build your strategy are the same ones who monitor and adjust your plan as your financial life evolves."
+  }
 ];
 
 const processSteps = [
   {
     number: 1,
-    title: "IPS Development",
-    description: "We draft an Investment Policy Statement aligned with your plan's financial assets, risk tolerance, and portfolio strategy."
+    title: "Understand",
+    description: "Share your financial goals, concerns, and complete picture. Schedule a complimentary consultation to begin."
   },
   {
     number: 2,
-    title: "Lineup Evaluation",
-    description: "We conduct a full assessment of your existing investment options — performance, expense ratios, share class suitability, and style consistency."
+    title: "Design",
+    description: "Your strategy integrates investment management services, financial planning, and tax-aware considerations into one coordinated plan."
   },
   {
     number: 3,
-    title: "Quarterly Monitoring",
-    description: "Using our proprietary 10-point scoring system, we evaluate your fund lineup against IPS benchmarks and regulatory constraints every quarter."
+    title: "Implement and Monitor",
+    description: "Your plan goes into action with ongoing monitoring, check-ins, and adjustments as your life evolves."
+  }
+];
+
+const whoNeedsData = [
+  {
+    title: "Approaching Retirement With Complex Income Decisions",
+    description: "You are within five years of retirement with multiple income sources to coordinate. Social Security timing, withdrawal sequencing, and pension decisions all interact. Wealth management services that connect these decisions prevent costly sequencing mistakes and protect your assets during the transition."
   },
   {
-    number: 4,
-    title: "Fee & Share Class Review",
-    description: "We examine share classes on your platform and compare expense ratios against current market benchmarks to reduce fee exposure."
+    title: "Rolling Over a 401(k) After a Job Change or Retirement",
+    description: "A rollover involves more than moving investments between accounts. Roth conversion timing and consolidation decisions affect your wealth for decades, so each option deserves evaluation against your long term goals."
   },
   {
-    number: 5,
-    title: "Committee Reporting",
-    description: "We facilitate your annual committee meeting, presenting monitoring results with documented attendance, decisions, and supporting data."
+    title: "Outgrowing a Previous Advisor's Service Model",
+    description: "Schwab's 2024 RIA Benchmarking Study found sub-$1M relationships make up 55% of clients at larger firms but only 21% of revenue. If your advisor has become harder to reach, the firm's economics may explain why."
+  },
+  {
+    title: "Managing Wealth From a Business Sale or Inheritance",
+    description: "A sudden influx of wealth from a sale, inheritance, or equity event creates decisions across investments, taxes, and estate planning that are directly linked. Without coordination aligned to your life goals, tax exposure compounds quickly."
+  },
+  {
+    title: "Wanting One Advisor Who Knows Your Full Picture",
+    description: "Multiple advisors and call centers that do not know your name produce fragmented results. One advisor who understands the many responsibilities across your financial life eliminates gaps that cost you money."
   }
 ];
 
 const faqs = [
   {
-    question: "What is the difference between a 3(21) and a 3(38) investment manager?",
-    answer: "A 3(21) co-fiduciary advises your committee while you retain final fund approval; a 3(38) investment manager assumes full discretionary responsibility for selecting and monitoring your plan's investments. Under 3(21), PointOak provides recommendations and your committee approves each fund change; under 3(38), PointOak makes those decisions directly. DOL guidance requires sponsors to prudently select and monitor the investment adviser under either arrangement. PointOak offers both structures."
+    question: "How much does a wealth manager charge?",
+    answer: "Most fee-only advisors charge an asset-based percentage; at PointOak, the fee reflects the full scope of planning you receive. Asset-based fees typically range from 0.5% to 1.5% of assets under management depending on the firm and scope of services. Investor.gov recommends asking what a percentage fee translates to in actual dollars. PointOak uses a fee-only model where your fee covers investment management, retirement income planning, tax-aware strategies, and ongoing monitoring. No commissions, no product-based compensation. The initial consultation is complimentary, and PointOak's minimum is $500,000 in investable assets. Clients receive transparent pricing before any engagement begins."
   },
   {
-    question: "Does hiring a 3(38) eliminate fiduciary liability?",
-    answer: "No. Hiring a 3(38) reduces exposure for individual fund decisions but does not eliminate your obligation to prudently select and monitor the manager. DOL guidance states that even when you delegate investment decisions to a qualified investment adviser, you retain the duty to monitor. That means documenting selection criteria, reviewing credentials through FINRA BrokerCheck, and maintaining a fiduciary file with evidence of ongoing oversight. PointOak's Virtual 401(k) Fiduciary File supports that residual obligation directly."
+    question: "What is the difference between a financial advisor and a wealth manager?",
+    answer: "A financial advisor may focus on a single planning area, while a wealth manager coordinates investments, income, taxes, and estate planning in one relationship. A financial advisor might specialize in investment selection or retirement projections without connecting those decisions to your tax situation or estate plan. Wealth management brings those disciplines together under one advisor relationship. PointOak provides integrated wealth management rather than portfolio-only advice, so each recommendation accounts for your broader financial goals and investment objectives."
   },
   {
-    question: "Do target date funds require ongoing monitoring?",
-    answer: "Yes. DOL guidance covers TDF selection and monitoring, including glide path evaluation, underlying asset class review, and expense ratio benchmarking. In 2022, TDFs represented 38% of 401(k) plan assets per ICI, making QDIA oversight consequential for most sponsors. PointOak's TDF consulting follows DOL guidelines and documents every evaluation in your fiduciary file."
+    question: "What does an investment manager actually do?",
+    answer: "An investment manager constructs, monitors, and adjusts your portfolio based on your goals and risk tolerance. PointOak selects from the entire marketplace rather than a proprietary product shelf, coordinates with your tax and estate professionals, and adjusts allocations as your financial life changes. Ongoing monitoring means your portfolio stays aligned with your financial planning objectives rather than drifting after initial setup. Financial reporting keeps you informed of portfolio performance and adjustments made in response to changing financial markets."
   },
   {
-    question: "How do we verify an investment manager's credentials?",
-    answer: "Use FINRA BrokerCheck and the SEC's Investment Adviser Public Disclosure database to verify registration, credentials, disciplinary history, and disclosed conflicts of interest. FINRA makes BrokerCheck free and publicly accessible. For registered investment advisers, SEC IAPD includes Form ADV filings with fee disclosures and client service standards."
+    question: "Is a fee-only fiduciary better than a commission-based advisor?",
+    answer: "A fee-only fiduciary is compensated solely by you, which removes product-sale incentives from every recommendation. NAPFA defines fee-only as having no product-contingent compensation, which reduces conflicts of interest between what benefits the advisor and what benefits you. Commission-based advisors may recommend suitable products that also generate revenue for their firm. Clients seeking integrated retirement and tax coordination benefit most from fee-only arrangements where regulatory constraints at financial institutions do not limit recommendations."
   },
   {
-    question: "Why do plan fees and share classes matter?",
-    answer: "In 2024, the asset-weighted average equity fund expense ratio was 0.40% per ICI; share class and fee differences are directly linked to long-term participant outcomes. Fee drag compounds over time and is one of the clearest places to demonstrate fiduciary prudence. PointOak's share class review and Live Bid benchmarking assist clients in identifying overcharges directly linked to participants' financial future."
+    question: "What questions should I ask before hiring a financial advisor?",
+    answer: "Start with registration status, fee structure in dollars, and whether the advisor acts as a fiduciary in every interaction. Verify registration through the SEC or FINRA BrokerCheck and review any disciplinary history. Ask what services the fee covers and whether commissions or revenue sharing exist. Investor.gov's advisor evaluation guide provides a full checklist of questions covering designation requirements, fee transparency, and fiduciary status."
+  },
+  {
+    question: "How do I choose an investment professional?",
+    answer: "Regulators recommend confirming licensing, reviewing disciplinary records, understanding fees, and asking about service scope before signing anything. The SEC and FINRA both maintain searchable databases where you can verify registration and check for complaints. PointOak is an SEC-registered investment advisor with a clean regulatory record. Legislative and regulatory constraints shape what different firms can recommend, so ask whether your investments are managed in the context of broader retirement and tax planning."
+  },
+  {
+    question: "Should I hire a wealth manager or invest on my own?",
+    answer: "Self-directed investing works when your financial picture is straightforward and you have the discipline to manage tax implications and rebalancing. When retirement income, tax-bracket management, and estate coordination overlap, the cost of mistakes often exceeds the advisory fee. The decision point is complexity, not a philosophical stance on paying for advice."
+  },
+  {
+    question: "At what point should someone consider hiring a wealth manager?",
+    answer: "The threshold is complexity rather than a specific dollar amount, though PointOak requires $500,000 in investable assets. Common triggers include a 401(k) rollover, approaching retirement, a business sale, or inheriting assets. When decisions across investments, taxes, and income timing interact, professional coordination adds measurable value."
+  },
+  {
+    question: "What credentials should a wealth manager have?",
+    answer: "Look for SEC or state registration first, then evaluate what any professional designation actually required to earn and maintain. FINRA advises asking about the training, exams, and continuing education behind any credential, as designations vary in rigor. PointOak's founder, Darsh Makim, holds the CRPC (Chartered Retirement Planning Counselor) designation, which focuses specifically on retirement planning. Registration status is verifiable online and is the baseline when evaluating investment professionals."
+  },
+  {
+    question: "Is there any cost for the initial consultation?",
+    answer: "PointOak's initial consultation is complimentary with no cost and no obligation. The meeting typically lasts 30 to 45 minutes and covers your goals, concerns, and financial picture. You can bring a spouse or partner. The purpose is to determine whether PointOak's approach is the right fit for your situation before any commitment on either side."
   }
 ];
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Service",
-  "name": "Investment Management Services for Retirement Plans",
+  "name": "Investment Management",
   "provider": {
     "@type": "FinancialService",
     "name": "PointOak Retirement Advisors"
@@ -116,7 +171,7 @@ const breadcrumbJsonLd = {
       "@type": "ListItem",
       "position": 2,
       "name": "For Individuals & Families",
-      "item": "https://www.pointoak.com/services/"
+      "item": "https://www.pointoak.com/for-individuals-families/"
     },
     {
       "@type": "ListItem",
@@ -151,17 +206,17 @@ export default function InvestmentManagementPage() {
 
       <PageHero
         breadcrumbs={[
-          { label: "For Individuals & Families", href: "/services" },
+          { label: "For Individuals & Families", href: "/for-individuals-families" },
           { label: "Investment Management" }
         ]}
-        title="Investment Management Services for Retirement Plans"
-        subtitle="Investment management for retirement plans is a fiduciary-governed, documented process of selecting, monitoring, and defending your 401(k) fund lineup under ERISA's standards of care. PointOak delivers named fiduciary investment management backed by a proprietary 10-point scoring system evaluating over $120 billion in assets every quarter."
+        title="Investment Management Built Around Your Full Financial Picture"
+        subtitle="Your portfolio is one piece of a broader financial life. 41% of affluent clients with $500,000 or more in financial assets would switch financial advisors over service-level changes alone. PointOak Retirement Advisors delivers investment management integrating retirement income, tax coordination, and estate planning into wealth management strategies."
       />
 
       {/* Highlights Bar */}
       <section className="bg-cloud-blue py-8 md:py-10">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {highlights.map((highlight, idx) => (
               <div key={idx} className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-medium-blue rounded-full mt-2 flex-shrink-0" />
@@ -174,19 +229,45 @@ export default function InvestmentManagementPage() {
         </div>
       </section>
 
-      {/* How Investment Management Works */}
+      {/* Benefits of Investment Management */}
       <AnimateOnScroll>
       <section className="bg-white py-12 md:py-16 lg:py-20">
+        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
+          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-10">
+            Benefits of Investment Management
+          </h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            {benefitsData.map((benefit, idx) => (
+              <div key={idx} className="bg-white rounded-lg p-6 md:p-8 shadow-sm border border-gray-100">
+                <h3 className="text-navy font-outfit text-xl font-semibold mb-3">
+                  {benefit.title}
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  {benefit.description}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+      </AnimateOnScroll>
+
+      {/* How Investment Management Works */}
+      <AnimateOnScroll>
+      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
             How Investment Management Works
           </h2>
           <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
             <p>
-              A prudent process starts with an Investment Policy Statement defining asset allocation targets, risk tolerance thresholds, and watchlist triggers for your investment portfolios. Each fund is then measured quarterly across asset classes including mutual funds, exchange traded funds, fixed income, and private equity alternatives, using benchmarks for portfolio performance, fund managers&apos; tenure, and expense ratios. That sequence turns portfolio management into a documentable record a DOL auditor can follow.
+              PointOak builds tax-aware portfolios using open-architecture selection, positioning fixed income, equities, mutual funds, and alternative investments so retirement income needs and advisory fees are supported by portfolio cash flow. Securities within client portfolios are monitored against market trends. Investment strategies adapt as your circumstances and time horizon change.
             </p>
             <p>
-              PointOak&apos;s proprietary 10-point pass/fail system evaluates fund valuations, risk-adjusted returns, and share class suitability against IPS criteria every quarter. In 2024, 65% of active large-cap U.S. equity investment managers failed to achieve above-average fund performance relative to the S&P 500 per SPIVA, which is why disciplined criteria matter more than chasing returns.
+              Independent RIAs are projected to grow 4% annually to 56,000 advisors by 2028, according to Cerulli research via Schwab. This growth reflects investors choosing strategies built without captive product constraints. Firms with <Link href="/our-services" className="text-medium-blue hover:text-navy underline">retirement plan consulting expertise</Link> bring depth to investment decisions through exposure to thousands of real participant scenarios and diverse plan structures.
+            </p>
+            <p>
+              <Link href="/contact" className="text-medium-blue hover:text-navy underline">Schedule your consultation</Link> to discuss how investment management fits your retirement and tax goals.
             </p>
           </div>
         </div>
@@ -195,12 +276,12 @@ export default function InvestmentManagementPage() {
 
       {/* Image Break */}
       <AnimateOnScroll variant="fade">
-      <section className="bg-cloud-blue py-4">
+      <section className="bg-white py-4">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <div className="relative w-full rounded-lg overflow-hidden">
             <Image
               src="/images/services/investment-management.png"
-              alt="Team collaborating on financial strategy and investment planning"
+              alt="Financial advisors collaborating on investment strategy and portfolio management"
               width={2936}
               height={1638}
               className="w-full h-auto"
@@ -210,223 +291,102 @@ export default function InvestmentManagementPage() {
       </section>
       </AnimateOnScroll>
 
-      {/* Benefits of Investment Management */}
-      <AnimateOnScroll>
-      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
-        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
-          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-10">
-            Benefits of Investment Management
-          </h2>
-          <div className="grid md:grid-cols-2 gap-8">
-            <div>
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-4">
-                Lower Fee Exposure
-              </h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed">
-                In 2024, the asset-weighted average expense ratio for equity mutual funds was 0.40% per the Investment Company Institute. Share class mismatches within the same fund family can push your plan above that benchmark without improving participant outcomes. PointOak&apos;s fee and share class review uncovers those inefficiencies and creates leverage to negotiate a reasonable price.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-4">
-                Documented Prudence for Audit Defense
-              </h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed">
-                DOL guidance states that plan fiduciaries retain responsibility for selecting and monitoring plan investments even when participants direct their own assets. A documented process with committee minutes, IPS records, and quarterly monitoring reports demonstrates procedural prudence. PointOak maintains that record inside your Virtual 401(k) Fiduciary File.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-4">
-                Evidence-Based Fund Selection
-              </h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed">
-                With over 40,000 investment companies offering funds across the financial world, selecting a lineup without a scoring rubric invites inconsistency. PointOak&apos;s scoring system gives your committee clear, defensible criteria tied to your plan&apos;s financial goals. That consistency protects your employees&apos; financial future and their long-term outcomes.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-4">
-                Virtual 401(k) Fiduciary File
-              </h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Every quarterly review, committee meeting, and fund change is documented in your Virtual 401(k) Fiduciary File — a living audit trail that demonstrates procedural prudence. If the DOL or FINRA triggers a review, your governance record is organized and ready.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      </AnimateOnScroll>
-
-      {/* Our Investment Management Services */}
+      {/* Who Needs Investment Management */}
       <AnimateOnScroll>
       <section className="bg-white py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
-          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-10">
-            Our Investment Management Services
+          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
+            Who Needs Investment Management
           </h2>
+          <p className="text-text-gray font-outfit text-base leading-relaxed mb-10">
+            Investment management adds the most value when overlapping decisions across investments, taxes, and income timing demand coordination.
+          </p>
+
           <div className="space-y-8">
-            <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">
-                Investment Policy Statement Development
-              </h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed">
-                We draft an IPS aligned with your plan&apos;s financial assets, risk tolerance, and portfolio strategy. The IPS defines selection criteria and watchlist triggers your committee applies consistently. Ideal for plans building a new governance foundation or resetting a stale process.
-              </p>
-            </div>
+            {whoNeedsData.map((item, idx) => (
+              <div key={idx}>
+                <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">
+                  {item.title}
+                </h3>
+                <p className="text-text-gray font-outfit text-base leading-relaxed">
+                  {item.description}
+                </p>
+              </div>
+            ))}
+          </div>
 
-            <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">
-                Initial Investment Lineup Evaluation
-              </h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed">
-                We conduct a full assessment of your existing investment options, evaluating portfolio performance, expense ratios, share class suitability, and style consistency across client portfolios. The output is a prioritized remediation plan.
-              </p>
-            </div>
-
-            <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">
-                Quarterly Investment Monitoring
-              </h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Using institutional measurement techniques applied to over $120 billion in plan assets each quarter, we evaluate your fund lineup against IPS benchmarks and review legislative and regulatory constraints affecting your options. Each cycle produces documented results your committee acts on.
-              </p>
-            </div>
-
-            <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">
-                Investment Fee and Share Class Review
-              </h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed">
-                We examine share classes available on your platform and compare expense ratios against current market benchmarks. For clients managing significant financial assets, a lower-cost share class on your existing platform reduces fee exposure without requiring a fund change.
-              </p>
-            </div>
-
-            <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">
-                TDF Consulting and QDIA Evaluation
-              </h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed">
-                We evaluate target date fund glide paths, underlying asset classes, and fees using DOL-aligned diligence guidelines. In 2022, TDFs represented 38% of 401(k) plan assets per ICI, making this one of the highest-stakes investment decisions your plan fiduciaries make.
-              </p>
-            </div>
+          <div className="mt-10 p-6 bg-[#F5F3EF] rounded-lg">
+            <p className="text-text-gray font-outfit text-base leading-relaxed">
+              <strong className="text-navy">When Investment Management Might NOT Be the Right Fit:</strong> If your investable assets are below $500,000 or your financial needs are straightforward enough for a single index fund strategy, a passive management approach with lower fees may serve you better.
+            </p>
           </div>
         </div>
       </section>
       </AnimateOnScroll>
 
-      {/* 3(38) vs 3(21) Comparison Table */}
+      {/* Fee-Only vs Commission-Based - Table */}
       <AnimateOnScroll>
       <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
-            3(38) vs. 3(21): Which Structure Fits Your Plan?
+            Fee-Only Investment Management vs. Commission-Based Advising
           </h2>
           <p className="text-text-gray font-outfit text-base leading-relaxed mb-8">
-            Both are ERISA-recognized investment management structures. The right choice depends on your governance capacity and how much decision authority your management teams want to retain.
+            How your advisor is compensated shapes every piece of investment advice you receive. The structural difference between fee-only and commission-based models is the first decision for clients evaluating wealth advisors.
           </p>
 
           <div className="overflow-x-auto">
-            <table className="w-full border border-[#F3F4F6]">
+            <table className="w-full border-collapse">
               <thead>
                 <tr className="bg-navy text-white">
-                  <th className="px-6 py-4 text-left font-outfit text-base font-medium">Factor</th>
-                  <th className="px-6 py-4 text-left font-outfit text-base font-medium">3(38) Discretionary Manager</th>
-                  <th className="px-6 py-4 text-left font-outfit text-base font-medium">3(21) Co-Fiduciary Advisor</th>
+                  <th className="px-4 py-3 text-left font-outfit font-semibold">Criteria</th>
+                  <th className="px-4 py-3 text-left font-outfit font-semibold">Fee-Only Fiduciary (PointOak)</th>
+                  <th className="px-4 py-3 text-left font-outfit font-semibold">Commission-Based Advisor</th>
                 </tr>
               </thead>
               <tbody>
-                <tr className="bg-white">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Decision Authority</td>
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray">Manager selects and changes funds directly</td>
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray">Sponsor retains final approval</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Fiduciary Duty</td>
+                  <td className="px-4 py-3 text-gray-700">Legally required to act in your best interest at all times</td>
+                  <td className="px-4 py-3 text-gray-700">Often held to suitability standard; must be suitable, not necessarily lowest cost</td>
                 </tr>
-                <tr className="bg-cloud-blue">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Committee Workload</td>
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray">Lower for fund decisions</td>
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray">Higher; committee reviews each change</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Fee Structure</td>
+                  <td className="px-4 py-3 text-gray-700">Asset-based fee paid by you; no commissions</td>
+                  <td className="px-4 py-3 text-gray-700">May include commissions, revenue sharing, or product incentives</td>
                 </tr>
-                <tr className="bg-white">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Residual Sponsor Duty</td>
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray">Must prudently select and monitor manager</td>
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray">Retains accountability for fund changes</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Product Selection</td>
+                  <td className="px-4 py-3 text-gray-700">Open architecture: full marketplace access</td>
+                  <td className="px-4 py-3 text-gray-700">May favor proprietary funds or a limited product shelf</td>
                 </tr>
-                <tr className="bg-cloud-blue">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Eligibility</td>
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray">Bank, insurance company, or registered investment adviser</td>
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray">Broader eligibility under ERISA</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Service Scope</td>
+                  <td className="px-4 py-3 text-gray-700">Integrated: investments, retirement income, tax coordination, estate</td>
+                  <td className="px-4 py-3 text-gray-700">Often portfolio-focused; planning may require a separate engagement</td>
                 </tr>
-                <tr className="bg-white">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Documentation</td>
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray">Manager documents fund decisions</td>
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray">Both parties document per IPS</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Minimum Investment</td>
+                  <td className="px-4 py-3 text-gray-700">$500,000 in investable assets (PointOak)</td>
+                  <td className="px-4 py-3 text-gray-700">Varies; some accept lower minimums but may tier service levels</td>
                 </tr>
               </tbody>
             </table>
           </div>
 
           <p className="text-text-gray font-outfit text-base leading-relaxed mt-6">
-            Choose 3(38) when your committee wants lower governance workload and clearer accountability lines. Choose 3(21) when leadership wants final approval on every change. Either way, DOL guidance requires prudent selection and monitoring of your investment adviser. PointOak serves as a named fiduciary under both structures.
+            Fee-only fiduciary advice is strongest when retirement income timing, tax-bracket management, and estate coordination are in play. Commission-based services may suit buyers seeking insurance or annuity products who accept the compensation trade-offs. <Link href="/about" className="text-medium-blue hover:text-navy underline">PointOak's independence</Link> as a fee-only firm eliminates those conflicts entirely.
           </p>
         </div>
       </section>
       </AnimateOnScroll>
 
-      {/* Who Needs Investment Management */}
+      {/* What To Expect: Our Process */}
       <AnimateOnScroll>
       <section className="bg-white py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-10">
-            Who Needs Investment Management?
-          </h2>
-
-          <div className="space-y-8">
-            <div>
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">
-                No Documented Monitoring Process
-              </h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Your plan has no IPS, no scoring criteria, and no written committee record. That is exactly the gap that draws DOL attention during an audit.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">
-                TDF Used as QDIA Without Recent Review
-              </h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Target date funds require ongoing evaluation of glide paths and fees per DOL guidance. A fund chosen once and never revisited is not a prudent process.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">
-                Governance Fatigue
-              </h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Your committee feels unequipped to evaluate fund-specific data. A 3(38) structure with quarterly monitoring reduces that burden while maintaining the governance record DOL requires.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">
-                When It May Not Be the Right Fit
-              </h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed">
-                If your organization already employs internal investment staff who maintain a documented IPS and run quarterly reviews, a <Link href="/corporate-retirement-plans/provider-fee-benchmarking" className="text-navy font-medium hover:underline">provider and fee benchmarking study</Link> may be more appropriate.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      </AnimateOnScroll>
-
-      {/* Our Process */}
-      <AnimateOnScroll>
-      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
-        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
-          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-10">
-            What To Expect: Our Process
+            What To Expect: Our Investment Management Process
           </h2>
 
           <div className="relative">
@@ -436,7 +396,7 @@ export default function InvestmentManagementPage() {
               {processSteps.map((step) => (
                 <div key={step.number} className="flex gap-6">
                   <div className="flex-shrink-0 z-10">
-                    <div className="w-10 h-10 rounded-full bg-medium-blue flex items-center justify-center">
+                    <div className="w-10 h-10 rounded-full bg-navy flex items-center justify-center">
                       <span className="font-outfit font-semibold text-white text-lg leading-none">
                         {step.number}
                       </span>
@@ -460,26 +420,18 @@ export default function InvestmentManagementPage() {
 
       {/* Why Choose PointOak */}
       <AnimateOnScroll>
-      <section className="bg-white py-12 md:py-16 lg:py-20">
+      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
-            <div>
-              <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
-                Why Choose PointOak for Investment Management?
-              </h2>
-              <p className="text-text-gray font-outfit text-base leading-relaxed">
-                PointOak manages over $1 billion in client assets with a team of three partners bringing more than 50 years of collective experience. Our background in institutional retirement plan consulting gives us unique insight into portfolio construction, risk management, and investment discipline — expertise that translates directly into better outcomes for individual investors. As a fee-only, independent fiduciary firm, we build portfolios without proprietary products or hidden conflicts. With fewer than 100 clients per partner, every portfolio receives the personalized attention and ongoing monitoring it deserves.
-              </p>
-            </div>
-            <div className="relative w-full h-[300px] lg:h-[380px] rounded-lg overflow-hidden">
-              <Image
-                src="/images/asset-data-01.png"
-                alt="PointOak team collaborating on investment analysis and fund monitoring"
-                fill
-                className="object-cover object-[center_25%]"
-                sizes="(max-width: 1024px) 100vw, 585px"
-              />
-            </div>
+          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
+            Why Choose PointOak for Investment Management
+          </h2>
+          <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
+            <p>
+              40% of financial advisory clients would switch advisors based on estate planning services alone. Investors leave when investment management exists in a silo. PointOak integrates retirement income, tax strategy, and estate coordination into every portfolio because those gaps drive departures.
+            </p>
+            <p>
+              Self-directed investing works until retirement income, tax brackets, and withdrawal timing interact. <Link href="/our-consulting-team" className="text-medium-blue hover:text-navy underline">Darsh and his team</Link> bring experience from working with plan sponsors and participants since 2005, and that exposure to thousands of real-world scenarios shapes how portfolios are built and where tax savings are found.
+            </p>
           </div>
         </div>
       </section>
@@ -487,13 +439,18 @@ export default function InvestmentManagementPage() {
 
       {/* About PointOak */}
       <AnimateOnScroll>
-      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
+      <section className="bg-white py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
             About PointOak Retirement Advisors
           </h2>
-          <p className="text-text-gray font-outfit text-base leading-relaxed">
-            PointOak Retirement Advisors is an independent, fee-only wealth advisory firm headquartered in McLean, Virginia, specializing in retirement planning and wealth management for high-net-worth individuals and families. The firm has operated as a full-scope fiduciary since inception, managing over $1 billion in assets with a team of three partners bringing more than 50 years of collective experience. PointOak also serves corporate plan sponsors through its retirement plan consulting practice.
+          <p className="text-text-gray font-outfit text-base leading-relaxed mb-6">
+            PointOak Retirement Advisors is an independent, fee-only wealth advisory firm founded in 2017 and headquartered in McLean, Virginia. We are an SEC-registered investment advisor serving clients in the DC metro area and nationwide through virtual relationships. Over $1.08 billion in assets under management with 50+ years of collective experience. Led by Darsh Makim, CRPC, with a practice dating to 2005.
+          </p>
+          <p>
+            <Link href="/contact" className="text-medium-blue hover:text-navy underline font-outfit text-base">
+              Schedule a complimentary consultation
+            </Link>
           </p>
         </div>
       </section>
@@ -502,14 +459,20 @@ export default function InvestmentManagementPage() {
       {/* FAQ Section */}
       <ServiceDetailFAQ faqs={faqs} />
 
-      {/* Disclaimer */}
-      <section className="bg-white py-8">
-        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
-          <p className="text-text-gray font-outfit text-sm leading-relaxed italic text-center">
-            Investment advisory services offered through PointOak Retirement Advisors, LLC. This site is published for residents of the United States only. Not all of the products and services referenced on this site are available in every state and through every representative or advisor listed. PointOak Retirement Advisors, LLC does not provide tax or legal advice.
+      {/* Final CTA */}
+      <AnimateOnScroll>
+      <section className="bg-cloud-blue py-12">
+        <div className="max-w-[1170px] mx-auto px-6 xl:px-0 text-center">
+          <p className="text-text-gray font-outfit text-base leading-relaxed">
+            Call (703) 595-4444 or{" "}
+            <Link href="/contact" className="text-medium-blue hover:text-navy underline font-semibold">
+              book a consultation
+            </Link>{" "}
+            to discuss your investment management goals with Darsh and his team.
           </p>
         </div>
       </section>
+      </AnimateOnScroll>
 
       <CTASection />
       <Footer />

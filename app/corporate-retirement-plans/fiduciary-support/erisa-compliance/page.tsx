@@ -8,70 +8,91 @@ import Link from "next/link";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
 
 export const metadata: Metadata = {
-  title: "ERISA Compliance & Oversight | PointOak Retirement Advisors",
-  description: "Expert ERISA compliance support with 3(21)/3(38) fiduciary services. Protect your plan from DOL audits. 10,000+ benchmarks annually. Contact us today.",
+  title: "ERISA Compliance Support | PointOak Retirement Advisors",
+  description: "PointOak delivers ERISA compliance support with named fiduciary oversight, fee benchmarking, and governance documentation for plan sponsors. Schedule a consultation.",
   alternates: {
     canonical: "https://www.pointoak.com/corporate-retirement-plans/fiduciary-support/erisa-compliance/"
   }
 };
 
 const highlights = [
-  "Named 3(21) or 3(38) fiduciaries under ERISA",
-  "Over 10,000 benchmarks performed annually",
-  "Virtual 401(k) Fiduciary Files for audit protection"
+  "Named 3(21) and 3(38) ERISA fiduciary",
+  "450+ data points reviewed per plan bidder",
+  "Fee-only fiduciary since 2017"
 ];
 
 const processSteps = [
   {
     number: 1,
-    title: "Analyze",
-    description: "We conduct a comprehensive review of your current plan structure, fees, investments, and compliance processes to identify areas for improvement and potential ERISA violations that could subject your business to penalties."
+    title: "Review Your Plan Documents and Compliance Procedures",
+    description: "We review your plan documents, governance records, and compliance procedures against ERISA requirements and IRS qualification rules."
   },
   {
     number: 2,
-    title: "Optimize",
-    description: "We provide strategic recommendations on plan design, investment solutions, and provider relationships, with clear documentation of our fiduciary process and the expertise we apply in determining the best path forward for your organization."
+    title: "Identify Governance Gaps and Fiduciary Exposure",
+    description: "You receive a clear report mapping covered areas, retained plan administrator duties, and gaps creating exposure."
   },
   {
     number: 3,
-    title: "Implement",
-    description: "We help you effect changes and provide ongoing support, including quarterly investment reviews and annual benchmarking, with everything documented in your Virtual Fiduciary File to maintain compliance with ERISA requirements and protect you during audits."
+    title: "Develop Targeted Remediation and Governance Recommendations",
+    description: "We recommend corrections and benchmarking actions prioritized by risk, including voluntary compliance programs where applicable."
+  },
+  {
+    number: 4,
+    title: "Implement Changes With Ongoing Monitoring",
+    description: "Your committee receives fiduciary support training, documentation, and recurring reviews to prevent missed deadlines."
   }
 ];
 
 const faqs = [
   {
     question: "How much does ERISA compliance support cost?",
-    answer: "ERISA compliance services vary based on plan size, complexity, and the level of fiduciary responsibility you delegate. Our fees are transparent and clearly outlined before engagement. We provide comprehensive ERISA services including 3(21) or 3(38) fiduciary support, annual benchmarking to ensure reasonable costs, quarterly investment monitoring, and Virtual Fiduciary File maintenance. The cost of compliance is significantly less than the risk of Department of Labor fines and penalties."
+    answer: "PointOak's fee-only model means no commissions or hidden revenue-sharing. Pricing varies based on the number of plans, total assets, governance scope, and whether the engagement includes named fiduciary services under the Employee Retirement Income Security Act of 1974. Most plan sponsors find that independent compliance support costs less than a single DOL correction or fee-litigation settlement. PointOak provides a transparent fee proposal after the initial plan review, covering all benefit plans in scope."
   },
   {
-    question: "What makes PointOak Retirement Advisors different from other ERISA compliance firms?",
-    answer: "Three things: we generate over 90% of our revenue from retirement plans and employee benefit plans (we&apos;re specialists, not generalists managing various business lines), our advisors are registered and act as named fiduciaries under ERISA from day one (3(21) or 3(38) with all clients providing direct liability protections), and we perform over 10,000 benchmarks per year using our Live Bid process with 450+ data points per provider."
+    question: "What is the difference between a compliance advisor and a bundled vendor's compliance support?",
+    answer: "Bundled vendors handle recordkeeping but typically do not accept fiduciary responsibility for governance. An independent advisor benchmarks fees, documents committee decisions, and accepts named fiduciary duties. ERISA is a federal law that sets minimum standards for pension plans and other employee benefit plans, and independent advisors help sponsors meet those standards."
   },
   {
-    question: "What&apos;s the difference between a 3(21) and 3(38) fiduciary?",
-    answer: "A 3(21) co-fiduciary provides investment recommendations and guidance while you retain final decision-making authority and fiduciary responsibility for plan investments and managing plan assets. A 3(38) investment manager assumes full discretionary responsibility for selecting, managing, monitoring, and benchmarking the investment offerings available in your retirement plans. With a 3(38), we take on the investment fiduciary liability under ERISA law."
+    question: "Is ERISA compliance support a one-time project or an ongoing process?",
+    answer: "The DOL requires ongoing provider monitoring, periodic fee disclosure, and annual reporting. PointOak's engagement includes recurring governance reviews tied to your plan year cycle, not just initial remediation. Each review updates your plan description SPD compliance, investment menu analysis, and documentation so your fiduciary file stays current."
   },
   {
-    question: "How long does it take to implement ERISA compliance improvements?",
-    answer: "Initial analysis and recommendations typically take 30-60 days depending on plan complexity and whether you&apos;re addressing retirement plans, group health plans, or other welfare benefit plans. Implementation timelines vary based on the changes needed. Provider transitions generally take 90-120 days with careful planning to minimize disruption to participants. Investment lineup changes can be implemented more quickly, often within 30-45 days."
+    question: "Who is responsible for ERISA compliance in a 401(k) plan?",
+    answer: "Even when tasks are delegated to a recordkeeper or TPA, the sponsor retains the duty to monitor those providers and verify fee reasonableness. Hiring outside help does not eliminate oversight obligations. The Employee Benefits Security Administration within the Department of Labor enforces these requirements and can review any plan sponsor's governance practices."
   },
   {
-    question: "How do I know if our plan needs better ERISA compliance support?",
-    answer: "Warning signs include: no Investment Policy Statement or one that hasn&apos;t been updated in years, Investment Committee meetings not documented or held irregularly, uncertainty about whether your fees are reasonable under ERISA requirements, no benchmarking study in the last three years, participant complaints about investment options or fees, and concerns about personal liability exposure under federal law."
+    question: "Can ERISA compliance be outsourced?",
+    answer: "A named 3(21) or 3(38) fiduciary can accept defined responsibilities under the act. The sponsor still must prudently select and monitor those providers. Most plan sponsors already use outsourced fiduciary oversight for coverage of key governance functions. PointOak documents what transfers and what stays, creating clear accountability under the Internal Revenue Code."
   },
   {
-    question: "Do you offer ongoing support after implementation?",
-    answer: "Yes. ERISA compliance is not a one-time project but an ongoing fiduciary responsibility for employers subject to the Employee Retirement Income Security Act. We provide continuous ongoing support including quarterly investment monitoring using our proprietary 10-point scoring system, annual benchmarking studies, regular regulatory updates and fiduciary education, Investment Committee meeting support with complete documentation, and access to our Virtual 401(k) Fiduciary Files."
+    question: "What does ERISA compliance support typically include?",
+    answer: "Typical services include Form 5500 coordination, investment menu monitoring, fee benchmarking, plan document and summary plan description review, correction support, and committee facilitation. Scope varies by plan size and complexity. Any material modification triggers updated disclosure, and wrap documents consolidate multiple welfare benefit plans into a single plan description for ERISA reporting."
+  },
+  {
+    question: "Do recordkeepers or TPAs handle all ERISA compliance?",
+    answer: "A recordkeeper manages transactions, statements, and reporting. That is not the same as overseeing the plan's investment menu, benchmarking fees, documenting governance decisions, or ensuring correction procedures are in place. Those fiduciary duties require separate oversight, and sponsors who assume their vendor handles everything expose themselves and their beneficiaries to unmanaged risk."
+  },
+  {
+    question: "Why is ERISA compliance support more than just Form 5500 filing?",
+    answer: "Plan sponsors owe ongoing provider monitoring, periodic fee disclosure to participants, investment menu oversight, and documented committee governance. The Employee Retirement Income Security Act sets standards for plan administration that extend across every quarter, not just filing season. Treating compliance as a filing exercise leaves the rest of the obligation unmanaged."
+  },
+  {
+    question: "How should a plan sponsor evaluate an ERISA compliance support provider?",
+    answer: "Ask whether the provider will accept named fiduciary status, how often governance reviews occur, whether fee benchmarking uses open-market data, and how errors are corrected. Some sponsors seek legal counsel for specific dispute resolution, a separate function from ongoing compliance. PointOak provides a documented responsibility matrix and quarterly or semi-annual governance reviews."
+  },
+  {
+    question: "Can retirement-plan errors be self-corrected?",
+    answer: "The IRS allows self-correction for eligible operational failures when the plan sponsor has established compliance procedures in place. A plan document alone does not qualify. Document failures typically require formal correction through VFCP or VCP. EBSA's Self Correction Component received 176 applications in FY 2025, confirming sponsors actively use these pathways."
   }
 ];
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Service",
-  name: "ERISA Compliance & Oversight Services",
+  name: "ERISA Compliance Support",
   provider: { "@type": "FinancialService", name: "PointOak Retirement Advisors" },
-  serviceType: "ERISA Compliance Support",
+  serviceType: "ERISA Compliance Advisory",
   areaServed: { "@type": "Country", name: "United States" }
 };
 
@@ -86,10 +107,10 @@ export default function ERISACompliancePage() {
         breadcrumbs={[
           { label: "For Businesses", href: "/corporate-retirement-plans" },
           { label: "Fiduciary Support", href: "/corporate-retirement-plans/fiduciary-support" },
-          { label: "ERISA Compliance & Oversight" }
+          { label: "ERISA Compliance" }
         ]}
-        title="Expert ERISA Compliance Support for Plan Sponsors"
-        subtitle="The maze of Department of Labor regulations and fiduciary responsibilities can feel overwhelming. PointOak Retirement Advisors has been helping plan sponsors navigate ERISA compliance since day one, serving as your advocate to protect you from liability while ensuring your employees have access to a successful retirement plan."
+        title="ERISA Compliance Support for Retirement Plan Sponsors"
+        subtitle="Plan sponsors retain fiduciary responsibilities no recordkeeper covers. The DOL's Employee Benefits Security Administration oversees roughly 801,000 private industry retirement plans covering about 156 million participants and families. PointOak Retirement Advisors delivers ERISA compliance support with named fiduciary oversight and governance documentation through our retirement plan consulting services."
       />
 
       {/* Highlights Bar */}
@@ -106,61 +127,42 @@ export default function ERISACompliancePage() {
         </div>
       </section>
 
-      {/* Why Choose Us */}
+      {/* Benefits */}
       <AnimateOnScroll>
       <section className="bg-white py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
-          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
-            Why Choose Us for ERISA Compliance Support?
-          </h2>
-          <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
-            <p>
-              Last year, 71% of ERISA plan audits resulted in monetary penalties, with employers paying an average of $2.7 million each in fines, penalties, and plan restitution. Staying on top of the ever-changing regulations under the Employee Retirement Income Security Act requires specialized expertise. PointOak generates over 90% of its revenue from working with corporate retirement plans and employee benefit plans, which means we are fully dedicated to helping you achieve successful outcomes while protecting you from fiduciary risk.
-            </p>
-            <p>
-              What sets us apart is our independence and process. As an independently owned firm, we offer truly independent ERISA compliance consulting without being driven by proprietary products of a parent company. We stay on top of Department of Labor mandates, maintain Virtual 401(k) Fiduciary Files for all clients, and perform over 10,000 benchmarks per year using our proprietary Live Bid process.
-            </p>
-          </div>
-        </div>
-      </section>
-      </AnimateOnScroll>
-
-      {/* Our Services */}
-      <AnimateOnScroll>
-      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
-        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-10">
-            Our ERISA Compliance Services
+            Benefits of ERISA Compliance Support
           </h2>
           <div className="space-y-8">
             <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Fiduciary Support</h3>
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Reduced Fiduciary Liability Exposure</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Our fiduciary support services help plan sponsors meet their fiduciary obligations under federal law and minimize liability exposure by acting as your 3(21) or 3(38) named fiduciary under the Employee Retirement Income Security Act. We provide oversight and guidance for managing fiduciary duties, including Investment Policy Statement development, Investment Committee services, regulatory updates and education, and comprehensive annual fiduciary plan reviews.
+                EBSA restored nearly $1.4 billion to retirement plans in FY 2025 and referred 75 cases for litigation (<a href="https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/fact-sheets/ebsa-monetary-results" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:text-navy underline">EBSA monetary results</a>). Documented <Link href="/corporate-retirement-plans/fiduciary-support" className="text-medium-blue hover:text-navy underline">fiduciary support</Link> proves your committee acted in plan participants' best interests. That record positions plan fiduciaries favorably when the DOL or litigants raise questions.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Provider & Fee Benchmarking</h3>
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Earlier Error Detection Before Enforcement Escalates</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Our provider and fee benchmarking services help plan sponsors select and monitor their plan provider while ensuring fees remain reasonable as required by ERISA regulations and the Department of Labor. We conduct annual custom Live Bid benchmarking studies that review over 450 data points per bidder, using your specific plan information rather than average demographics. This analysis helps you evaluate whether plan assets are being managed prudently.
+                IRS guidance allows self-correction of operational failures, but only when established compliance procedures are in place. A plan document does not satisfy that standard. Ongoing monitoring catches issues while voluntary correction paths remain, helping you avoid costly penalties and minimize risk before compliance deadlines pass.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Investment Analysis</h3>
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">A Documented Governance Process for Your Committee</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                With over 40,000 investment options available in the market, selecting and monitoring appropriate investments for plan participants can feel overwhelming. Our investment analysis services help plan sponsors build and maintain a low-cost, diversified investment menu that meets your fiduciary responsibilities under the Internal Revenue Code and ERISA requirements. Our methodology evaluates over $120 billion in retirement plan assets quarterly.
+                The DOL requires fiduciaries to prudently select and monitor service providers. Hiring a recordkeeper does not eliminate that duty. Structured committee support, meeting minutes, and documented plan administrator decisions create the audit trail satisfying ERISA's prudence standard and ensure compliance with ongoing oversight.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Plan Design</h3>
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Defined Responsibility Boundaries Between Sponsor and Providers</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Our plan design services help employers move beyond cookie-cutter plans to create retirement programs optimized for their specific company needs and culture while addressing compliance issues. We conduct comprehensive current plan design reviews, analyze your organizational goals, and provide guidance on automatic enrollment and auto-escalation features that drive participation while maintaining compliance with ERISA mandates and federal law.
+                Most employee benefit plans involve multiple service providers, and fiduciary duties do not transfer automatically between them. PointOak maps what stays with the sponsor, what gets delegated, and what falls through the gap. Clear responsibility boundaries prevent assumptions that leave critical oversight tasks unassigned.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Education & Communications Programs</h3>
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Independent Fee Analysis That Protects Plan Participants</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Our education and communications programs help create a financially savvy workforce by providing comprehensive guidance on retirement planning, debt management, and investment strategies while ensuring proper disclosures are distributed to plan participants. Licensed securities advisors lead interactive sessions covering retirement savings strategies, creating an environment that encourages active participation.
+                Seventy-four percent of DC plan sponsors said reviewing plan fees was their top focus in 2024. Independent <Link href="/corporate-retirement-plans/provider-fee-benchmarking" className="text-medium-blue hover:text-navy underline">provider and fee benchmarking</Link> uses open-market data rather than vendor self-reporting to satisfy ERISA's fee-reasonableness standard. That analysis protects plan assets and fiduciaries responsible for them.
               </p>
             </div>
           </div>
@@ -168,61 +170,145 @@ export default function ERISACompliancePage() {
       </section>
       </AnimateOnScroll>
 
-      {/* Challenges Table */}
+      {/* How It Works */}
+      <AnimateOnScroll>
+      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
+        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
+          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
+            How ERISA Compliance Support Works
+          </h2>
+          <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
+            <p>
+              ERISA compliance support operates as a continuous monitoring and governance system, not periodic filing assistance. Three operational layers drive it: fiduciary monitoring, document and procedure governance, and correction with ongoing support. Under IRS rules, self-correction requires established compliance procedures beyond a written plan document and summary plan description.
+            </p>
+            <p>
+              The DOL requires participant-level disclosure before first investment direction, annually, and with actual fee data at least quarterly for participant-directed plans (<a href="https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/publications/meeting-your-fiduciary-responsibilities" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:text-navy underline">DOL fiduciary guidance</a>). That cadence makes compliance support an ongoing operational function. Each cycle involves <Link href="/corporate-retirement-plans/investment-analysis" className="text-medium-blue hover:text-navy underline">investment analysis</Link>, fee review, and governance documentation tied to current ERISA regulations and Department of Labor requirements.
+            </p>
+          </div>
+          <div className="mt-8">
+            <Link 
+              href="/contact"
+              className="inline-block bg-medium-blue hover:bg-navy text-white font-outfit font-medium px-8 py-3 rounded transition-colors"
+            >
+              Schedule a consultation
+            </Link>
+          </div>
+        </div>
+      </section>
+      </AnimateOnScroll>
+
+      {/* Who Needs This */}
       <AnimateOnScroll>
       <section className="bg-white py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
-            Common ERISA Compliance Challenges
+            Who Needs ERISA Compliance Support
           </h2>
+          <p className="text-text-gray font-outfit text-base leading-relaxed mb-8">
+            Not every plan sponsor needs the same level of outside support. These scenarios signal when independent compliance oversight adds value.
+          </p>
+          <div className="space-y-8">
+            <div className="border-l-4 border-medium-blue pl-6">
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Plan Sponsors Relying on Recordkeepers for Fiduciary Monitoring</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                Your recordkeeper handles transactions, not fiduciary monitoring. Private employers and private sector employers in this position carry unmanaged risk when assuming bundled vendors cover all ERISA compliance.
+              </p>
+            </div>
+            <div className="border-l-4 border-medium-blue pl-6">
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">HR Leaders Preparing for a DOL Review or IRS Audit</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                Internal documentation is incomplete or procedures are not formalized. A DOL review requires evidence of a functioning governance process across the full plan year with organized records and documented decisions.
+              </p>
+            </div>
+            <div className="border-l-4 border-medium-blue pl-6">
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Fiduciary Committees Without Formal Governance Documentation</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                No committee charter, documented selection process, or structured minutes means IRS self-correction eligibility is at risk. <Link href="/corporate-retirement-plans/participant-education" className="text-medium-blue hover:text-navy underline">Education and communications programs</Link> for committee members build the procedures required for voluntary correction.
+              </p>
+            </div>
+            <div className="border-l-4 border-medium-blue pl-6">
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Organizations That Have Not Benchmarked Plan Fees Recently</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                ERISA's fee-reasonableness standard requires periodic benchmarking. If your last independent review was two or more years ago, exposure exists. Employers owe employees a retirement plan priced at reasonable levels, and regulators expect the data to prove it.
+              </p>
+            </div>
+            <div className="border-l-4 border-medium-blue pl-6">
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Sponsors Managing Plans Under Expanding ERISA Requirements</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                DOL's cybersecurity guidance and ongoing SECURE 2.0 implementation widen what compliance covers for clients across industries. Internal teams may lack bandwidth to track regulatory changes, updated <Link href="/corporate-retirement-plans/plan-design" className="text-medium-blue hover:text-navy underline">plan design</Link> requirements, and new disclosure obligations simultaneously.
+              </p>
+            </div>
+          </div>
+          <div className="mt-8 p-6 bg-cloud-blue rounded-lg">
+            <p className="text-text-gray font-outfit text-base leading-relaxed">
+              <strong className="text-navy">When an alternative is better:</strong> If you operate only a SEP-IRA or SIMPLE IRA without ERISA obligations or need one-time legal representation for a specific dispute, a specialized ERISA attorney may be a better fit.
+            </p>
+          </div>
+        </div>
+      </section>
+      </AnimateOnScroll>
+
+      {/* Comparison Table */}
+      <AnimateOnScroll>
+      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
+        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
+          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
+            ERISA Compliance Support vs. Bundled Vendor Administration
+          </h2>
+          <p className="text-text-gray font-outfit text-base leading-relaxed mb-8">
+            Both models can serve plan sponsors, but the right choice depends on plan complexity, who controls plan assets, and how fiduciary monitoring responsibilities are handled.
+          </p>
           <div className="overflow-x-auto">
-            <table className="w-full border border-[#F3F4F6]">
+            <table className="w-full border-collapse">
               <thead>
                 <tr className="bg-navy text-white">
-                  <th className="px-6 py-4 text-left font-outfit text-base font-medium">Challenge</th>
-                  <th className="px-6 py-4 text-left font-outfit text-base font-medium">What It Looks Like</th>
-                  <th className="px-6 py-4 text-left font-outfit text-base font-medium">How We Help</th>
+                  <th className="px-4 py-3 text-left font-outfit font-semibold">Feature</th>
+                  <th className="px-4 py-3 text-left font-outfit font-semibold">Bundled Vendor Administration</th>
+                  <th className="px-4 py-3 text-left font-outfit font-semibold">Independent Compliance Advisory</th>
                 </tr>
               </thead>
               <tbody>
-                <tr className="bg-white">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Overwhelming regulatory complexity</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Department of Labor regulations constantly changing, SECURE 2.0 provisions rolling out through 2026, confusion about ERISA requirements versus optional features for retirement plans.</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">We stay on top of ever-changing fiduciary rules and ERISA law so we can implement best practices to keep you in compliance without the burden falling on your team.</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Independence from plan providers</td>
+                  <td className="px-4 py-3 text-gray-700">Tied to parent vendor's products and economics</td>
+                  <td className="px-4 py-3 text-gray-700">No vendor affiliation; benchmarks across all providers</td>
                 </tr>
-                <tr className="bg-cloud-blue">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Fee reasonableness uncertainty</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">No clear definition of &quot;reasonable&quot; fees under ERISA, lack of transparency from current providers about costs and coverage, uncertainty about whether plan assets are being prudently managed.</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Our Live Bid benchmarking process analyzes 450+ data points to determine fee reasonableness and provide solutions for cost reduction through renegotiation or provider switches.</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Fee benchmarking</td>
+                  <td className="px-4 py-3 text-gray-700">Self-reported or limited to own marketplace</td>
+                  <td className="px-4 py-3 text-gray-700">Open-market analysis using actual plan data</td>
                 </tr>
-                <tr className="bg-white">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Inadequate fiduciary documentation</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Investment Committee meetings not documented properly, no Investment Policy Statement or outdated IPS, missing proof of prudent process if audited by Department of Labor.</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">We maintain Virtual 401(k) Fiduciary Files for all clients, documenting everything to help protect you from liability during federal audits and demonstrate your fiduciary duties were fulfilled appropriately.</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Ongoing governance cadence</td>
+                  <td className="px-4 py-3 text-gray-700">Typically annual review around Form 5500</td>
+                  <td className="px-4 py-3 text-gray-700">Quarterly or semi-annual governance with committee support</td>
                 </tr>
-                <tr className="bg-cloud-blue">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Investment monitoring gaps</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Difficulty tracking performance across 40,000+ available funds, uncertainty about when to remove underperforming options from the plan, lack of quarterly oversight required by fiduciary obligations.</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Our proprietary 10-point scoring system evaluates $120 billion in plan assets quarterly, providing clear pass/fail metrics and specific fund replacement recommendations that act in participants&apos; best interests.</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Responsibility mapping</td>
+                  <td className="px-4 py-3 text-gray-700">Often unclear what remains the sponsor's duty</td>
+                  <td className="px-4 py-3 text-gray-700">Documented delegation vs. retained duties for plan fiduciaries</td>
                 </tr>
-                <tr className="bg-white">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Approaching 3-year benchmark window</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Department of Labor and ERISA regulations require fee benchmarking at least every three years, creating urgency as deadline approaches without proper documentation of provider evaluation.</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">We perform annual benchmarking to ensure employers are always within the three-year requirement under federal law, with complete documentation of your prudent process for selecting and monitoring providers.</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Correction and remediation</td>
+                  <td className="px-4 py-3 text-gray-700">May flag issues but limited correction guidance</td>
+                  <td className="px-4 py-3 text-gray-700">Coordinates VFCP, SCC, and IRS self-correction pathways</td>
                 </tr>
               </tbody>
             </table>
           </div>
+          <p className="text-text-gray font-outfit text-base leading-relaxed mt-6">
+            Bundled administration can work when plans are straightforward and your internal team has governance experience. When complexity grows, committees rotate, or benchmarking has not been independently verified, advisory <Link href="/corporate-retirement-plans/provider-fee-benchmarking" className="text-medium-blue hover:text-navy underline">provider and fee benchmarking</Link> and fiduciary oversight help sponsors comply with ERISA's monitoring standard.
+          </p>
         </div>
       </section>
       </AnimateOnScroll>
 
       {/* Our Process */}
       <AnimateOnScroll>
-      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
+      <section className="bg-white py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-10">
-            What To Expect: Our Process
+            What To Expect: Our ERISA Compliance Support Process
           </h2>
           <div className="relative">
             <div className="absolute left-[19px] top-10 bottom-10 w-px bg-[#C1C5C9] hidden sm:block" />
@@ -246,6 +332,25 @@ export default function ERISACompliancePage() {
       </section>
       </AnimateOnScroll>
 
+      {/* Why Choose PointOak */}
+      <AnimateOnScroll>
+      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
+        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
+          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
+            Why Choose PointOak for ERISA Compliance Support
+          </h2>
+          <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
+            <p>
+              The DOL received 797 Voluntary Fiduciary Correction Program applications in FY 2025 (<a href="https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/fact-sheets/ebsa-monetary-results" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:text-navy underline">EBSA enforcement and correction data</a>). That volume confirms plan errors are common and enforcement is active. PointOak helps sponsors identify issues before formal correction is required and coordinates the pathway through VFCP, SCC, or IRS self-correction when it is.
+            </p>
+            <p>
+              Plan sponsors often assume their recordkeeper handles compliance, but TPAs do not absorb fiduciary monitoring duties under labor law. PointOak serves as a named fiduciary under ERISA, accepting defined responsibilities documented in writing. See how that structure works through <Link href="/about/our-team" className="text-medium-blue hover:text-navy underline">our consulting team</Link> and <Link href="/about" className="text-medium-blue hover:text-navy underline">about PointOak</Link>.
+            </p>
+          </div>
+        </div>
+      </section>
+      </AnimateOnScroll>
+
       {/* About */}
       <AnimateOnScroll>
       <section className="bg-white py-12 md:py-16 lg:py-20">
@@ -254,7 +359,7 @@ export default function ERISACompliancePage() {
             About PointOak Retirement Advisors
           </h2>
           <p className="text-text-gray font-outfit text-base leading-relaxed">
-            PointOak Retirement Advisors is an independent retirement plan consulting firm headquartered in McLean, Virginia, serving plan sponsors nationwide. The firm generates over 90% of its revenue from corporate retirement plans and acts as a 3(21) or 3(38) named fiduciary under ERISA with every client. PointOak evaluates over $120 billion in retirement plan assets quarterly.
+            PointOak Retirement Advisors is an SEC-registered, fee-only investment advisory firm founded in 2017 and headquartered in McLean, Virginia. We provide corporate retirement plan consulting and wealth management nationwide with over $1.08 billion in assets under management. Our team brings 50+ years of collective experience, and Darsh Makim's practice dates to 2005. Named 3(21) and 3(38) ERISA fiduciary. <Link href="/contact" className="text-medium-blue hover:text-navy underline">Schedule a consultation</Link>.
           </p>
         </div>
       </section>
@@ -264,8 +369,8 @@ export default function ERISACompliancePage() {
 
       <section className="bg-white py-8">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
-          <p className="text-text-gray font-outfit text-sm leading-relaxed italic text-center">
-            Investment advisory services offered through PointOak Retirement Advisors, LLC. This site is published for residents of the United States only. PointOak Retirement Advisors, LLC does not provide tax or legal advice.
+          <p className="text-text-gray font-outfit text-sm leading-relaxed text-center">
+            <Link href="/contact" className="text-medium-blue hover:text-navy underline">Schedule your consultation</Link> to discuss your plan's ERISA compliance and fiduciary governance.
           </p>
         </div>
       </section>

@@ -8,84 +8,72 @@ import Link from "next/link";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
 
 export const metadata: Metadata = {
-  title: "401(k) Participant Advice | Employee Retirement Guidance | PointOak",
-  description: "401(k) participant advice helping plan sponsors deliver investment guidance to employees. Licensed advisors, education programs, one-on-one consultations. Named 3(21)/3(38) fiduciary. Get in touch.",
+  title: "401(k) Participant Advice | PointOak Retirement Advisors",
+  description: "Independent, fee-only 401(k) participant advice for rollover decisions, retirement income, and tax-aware withdrawals. Schedule a complimentary consultation.",
   alternates: {
     canonical: "https://www.pointoak.com/corporate-retirement-plans/education-communications/participant-support/"
   }
 };
 
 const highlights = [
-  "Licensed securities advisors provide personalized guidance",
-  "90%+ revenue from retirement plans exclusively",
-  "Named 3(21) and 3(38) fiduciary status"
+  "Fee-only fiduciary since 2017",
+  "Advising 401(k) participants since 2005",
+  "SEC-registered advisor with no commissions"
 ];
 
 const processSteps = [
   {
     number: 1,
-    title: "Analyze",
-    description: "We review your current participant engagement, plan demographics, and financial wellness survey data to understand your workforce needs."
+    title: "Understand",
+    description: "You share your 401(k) details and financial picture to establish clear goals. No cost, no obligation."
   },
   {
     number: 2,
-    title: "Optimize",
-    description: "We design a customized education program addressing the specific factors affecting your participants, from retirement readiness to life stage considerations."
+    title: "Design",
+    description: "We assist you with a plan integrating your 401(k) with retirement income, tax, and withdrawal decisions."
   },
   {
     number: 3,
-    title: "Implement",
-    description: "Our advisors deliver sessions, track participation, and measure outcomes. Everything is documented in your Virtual 401(k) Fiduciary File for audit protection."
+    title: "Implement and Monitor",
+    description: "Your strategy goes into action with ongoing support as your life and goals change."
   }
 ];
 
 const faqs = [
   {
-    question: "How much does participant advice cost?",
-    answer: "Participant education program fees depend on your plan size, participant count, and service frequency. Plans under $50 million typically see advisor fees of 17-37 basis points annually. We provide transparent pricing with no hidden costs and can often reduce your total plan expenses by identifying inefficiencies elsewhere."
+    question: "Is paying for 401(k) advice worth it if I'm already in a target-date fund?",
+    answer: "It depends on the complexity of your situation beyond allocation. Target-date funds handle allocation but skip savings adequacy, tax-aware withdrawals, and rollover analysis. PointOak charges a transparent, asset-based fee with no commissions, and your complimentary consultation costs nothing. When retirement income, tax, or rollover decisions are involved, independent advice with fee benchmarking addresses gaps a default fund cannot."
   },
   {
-    question: "What makes PointOak different from other retirement plan advisors?",
-    answer: "Three factors: we generate over 90% of our revenue from retirement plans (true specialists, not generalists), all our advisors serve as named 3(21) or 3(38) fiduciaries under ERISA, and we're independently owned with no pressure to push proprietary investments. Our sole focus is helping your participants achieve successful retirement outcomes."
+    question: "Are managed accounts worth it in a 401(k)?",
+    answer: "Managed accounts improve allocation inside your plan but do not address rollover, tax, or income decisions. Most participants have access to managed account options, yet adoption remains low. If your primary concern is allocation within your current plan, a managed account may work. If you face retirement timing, rollover, or multi-account decisions, the scope of a managed account falls short of what independent participant advice provides."
   },
   {
-    question: "How long does it take to implement a participant advice program?",
-    answer: "Most organizations launch their first education session within 30-45 days. Our Analyze phase takes 1-2 weeks to review your plan demographics and determine the right approach. We then Optimize your program design and schedule Implementation based on your preferred timeline and employee availability."
+    question: "How do I know if I need 401(k) advice?",
+    answer: "Common signs include approaching retirement, changing jobs, or uncertainty about whether your savings are on track. Confidence in withdrawal and tax decisions is where most participants report the largest gaps. If you're within ten years of retirement, carrying a significant balance without a drawdown strategy, or unsure whether your current allocation fits your goals, those are signals that assistance would add value. PointOak's initial conversation is complimentary, so you can assess the fit before any commitment."
   },
   {
-    question: "What is the difference between 3(21) and 3(38) fiduciary?",
-    answer: "A 3(21) co-fiduciary provides investment advice and recommendations while you retain final decision authority. A 3(38) investment manager assumes discretionary responsibility for selecting and monitoring plan investments. Both share fiduciary liability, but 3(38) offers plan sponsors fewer direct obligations for investment decisions."
+    question: "Should I roll my 401(k) into an IRA or leave it in my plan?",
+    answer: "A rollover is not automatically better, so compare fees, options, and services before deciding. The Department of Labor requires rollover advice to include a comparison of your existing plan against the proposed alternative. That means reviewing expense ratios, fund selection, withdrawal flexibility, and any services you'd gain or lose. PointOak evaluates both sides of the decision so you can make a confident choice based on your actual numbers."
   },
   {
-    question: "Should employees use target date funds in their 401(k)?",
-    answer: "Target date funds offer a less burdensome investment option that can gradually shift to more conservative allocations as participants approach retirement. However, they don't reflect actual investment results for individual circumstances. Our investment analysis helps you evaluate whether TDFs or personalized advice better serves your participants."
+    question: "What questions should I ask a 401(k) advisor before taking advice?",
+    answer: "Ask about fiduciary status, compensation, conflicts of interest, and whether they reviewed your current plan first. The Department of Labor recommends verifying how an advisor is paid, whether they receive commissions or revenue-sharing, and whether they compared your plan's options before recommending changes. A fiduciary advisor must act in your interest and disclose these details upfront. PointOak provides this information at the start of every engagement."
   },
   {
-    question: "How can I help employees understand their 401(k)?",
-    answer: "Beyond enrollment materials, employees benefit from ongoing education addressing retirement planning, investing basics, and how to track progress toward goals. Group sessions create peer engagement while one-on-one consultations address individual questions about risk, distributions, and future projections."
+    question: "Should I trust the advisor connected to my 401(k) provider?",
+    answer: "Provider-connected advisors may have conflicts that limit the scope and independence of their guidance. An advisor affiliated with your plan's recordkeeper may be restricted to that provider's products or plan-level allocation only. Ask whether they operate as a fiduciary, how they're compensated, and whether their guidance extends to rollover analysis, tax coordination, and retirement income planning. If the answers are limited, an independent fiduciary advisor can offer broader coverage."
   },
   {
-    question: "What advice options work best for mass affluent employees?",
-    answer: "Participants in the mass affluent category often need more sophisticated guidance than target date funds provide. They benefit from personalized consultations addressing tax implications, retirement income planning, and asset allocation strategies that account for their complete financial picture."
-  },
-  {
-    question: "How do I know if my employees are on track for retirement?",
-    answer: "Survey data shows the majority of participants don't know if they're saving enough. Our education programs teach employees how to track progress, review their account balance against retirement goals, and determine whether their current savings rate will support their future income needs. Annual reviews help participants stay on course."
-  },
-  {
-    question: "What should I do if my plan has high expense ratios affecting participants?",
-    answer: "High fees directly impact participant retirement savings over time. Our provider and fee benchmarking services analyze your plan costs against 450+ data points to identify whether you're paying competitive rates. We provide the ammunition to renegotiate better fees or evaluate novel solutions."
-  },
-  {
-    question: "Do you offer support for participants approaching retirement?",
-    answer: "Yes. Our advisors help participants nearing retirement understand their income options, withdrawal strategies, and how to maintain their savings through retirement. We address guarantees, distributions, and how to balance growth with conservative investments as participants move from accumulation to decumulation."
+    question: "Can a financial advisor help with retirement income planning from a 401(k)?",
+    answer: "Yes, and retirement income is where the largest gap exists between plan tools and actual participant advice. Turning a 401(k) balance into sustainable income involves withdrawal sequencing, tax bracket management, Social Security coordination, and required minimum distributions. Most in-plan tools do not cover this scope. PointOak coordinates your 401(k) withdrawals with other accounts and income sources to help you maintain your money throughout retirement."
   }
 ];
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Service",
-  name: "401(k) Participant Advice Services",
+  name: "401(k) Participant Advice",
   provider: { "@type": "FinancialService", name: "PointOak Retirement Advisors" },
   serviceType: "401(k) Participant Advisory",
   areaServed: { "@type": "Country", name: "United States" },
@@ -102,10 +90,10 @@ export default function ParticipantSupportPage() {
         breadcrumbs={[
           { label: "For Businesses", href: "/corporate-retirement-plans" },
           { label: "Education & Communications", href: "/corporate-retirement-plans/education-communications" },
-          { label: "One-on-One Participant Support" }
+          { label: "Participant Support" }
         ]}
-        title="401(k) Participant Advice for Plan Sponsors"
-        subtitle="Your employees want help with their retirement savings, but 63% of 401(k) participants don&apos;t have a financial advisor. PointOak Retirement Advisors helps plan sponsors deliver the investment advice and guidance your workforce needs to achieve retirement goals."
+        title="401(k) Participant Advice: Independent Guidance for Every Stage"
+        subtitle="Most 401(k) participants make rollover, allocation, and withdrawal decisions without independent guidance. Cerulli and PSCA's 2025 research found 63% of active 401(k) participants do not have a financial advisor. PointOak Retirement Advisors provides fee-only, fiduciary 401(k) participant advice for the decisions that shape your retirement plan."
       />
 
       {/* Highlights Bar */}
@@ -122,194 +110,233 @@ export default function ParticipantSupportPage() {
         </div>
       </section>
 
-      {/* Why Choose Us */}
+      {/* Benefits Section */}
       <AnimateOnScroll>
       <section className="bg-white py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
-          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
-            Why Choose Us for 401(k) Participant Advice?
+          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-10">
+            Benefits of 401(k) Participant Advice
           </h2>
-          <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
-            <p>
-              Employees lose an average of 7.3 hours per week to financial stress, costing U.S. employers $183 billion annually. Your plan participants need a trusted advisor who can help them build confidence in their retirement planning decisions. PointOak has been wholly focused on the retirement plan industry since day one, generating over 90% of our revenue from corporate retirement plans.
-            </p>
-            <p>
-              What sets us apart is our independence and fiduciary standards. Unlike recordkeeper-affiliated advice options, we provide guidance free from conflicts of interest. Our licensed securities advisors act as 3(21) or 3(38) named fiduciaries, sharing responsibility for the investment advice we deliver. This gives your employees the ability to make informed decisions about their retirement assets.
-            </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="bg-white rounded-lg p-6 md:p-8 shadow-sm border border-gray-100">
+              <h3 className="font-outfit text-navy text-xl font-semibold mb-3">Know Whether You're Actually on Track</h3>
+              <p className="text-gray-600 leading-relaxed">
+                The most common question participants bring to an advisor is whether they've saved enough to retire. Plan tools assess allocation but skip retirement readiness. Participant advice measures your retirement savings against your specific retirement goals, accounting for income needs, time horizon, and expected expenses.
+              </p>
+            </div>
+            <div className="bg-white rounded-lg p-6 md:p-8 shadow-sm border border-gray-100">
+              <h3 className="font-outfit text-navy text-xl font-semibold mb-3">Protect Your Balance from Hidden Fee Drag</h3>
+              <p className="text-gray-600 leading-relaxed">
+                A 1% fee difference can reduce your 401(k) balance by 28% over 35 years, according to the <a href="https://www.dol.gov/node/63354" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Department of Labor fee analysis</a>. That cost compounds silently across decades. Participant advice from a <Link href="/about" className="text-medium-blue hover:underline">fee-only fiduciary advisor</Link> reviews what you pay and whether it's justified before any rollover decision.
+              </p>
+            </div>
+            <div className="bg-white rounded-lg p-6 md:p-8 shadow-sm border border-gray-100">
+              <h3 className="font-outfit text-navy text-xl font-semibold mb-3">Get Withdrawal and Tax Guidance Your Plan Provider Skips</h3>
+              <p className="text-gray-600 leading-relaxed">
+                Fewer than 30% of active participants feel confident making withdrawal and tax decisions without an advisor, according to Cerulli and PSCA 2025. Plan providers rarely cover withdrawal sequencing, tax bracket management, or required minimum distributions. Participant advice addresses this gap with retirement income strategies around your financial picture.
+              </p>
+            </div>
+            <div className="bg-white rounded-lg p-6 md:p-8 shadow-sm border border-gray-100">
+              <h3 className="font-outfit text-navy text-xl font-semibold mb-3">Evaluate Rollover Decisions Before You Commit</h3>
+              <p className="text-gray-600 leading-relaxed">
+                The Department of Labor requires rollover advice to compare your current plan's fees, investment options, and services against the alternative before recommending a change. Many advisors skip this comparison. Fiduciary participant advice starts with the analysis, not the recommendation.
+              </p>
+            </div>
+            <div className="bg-white rounded-lg p-6 md:p-8 shadow-sm border border-gray-100">
+              <h3 className="font-outfit text-navy text-xl font-semibold mb-3">Coordinate Your 401(k) with the Rest of Your Financial Picture</h3>
+              <p className="text-gray-600 leading-relaxed">
+                Your 401(k) doesn't exist in isolation. Participant advice integrates asset allocation, risk decisions, and investment selections with other accounts, taxes, Social Security, and estate planning. Treating each account separately leads to duplicated investments and missed tax strategies.
+              </p>
+            </div>
           </div>
         </div>
       </section>
       </AnimateOnScroll>
 
-      {/* Our Services */}
+      {/* How It Works */}
+      <AnimateOnScroll>
+      <section className="bg-[#F5F3EF] py-12 md:py-16 lg:py-20">
+        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
+          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
+            How 401(k) Participant Advice Works
+          </h2>
+          <p className="text-text-gray font-outfit text-base leading-relaxed mb-6">
+            Participant advice evaluates your full 401(k) picture: whether contributions and allocation match your retirement goals, whether plan fees are competitive, how to determine if a rollover makes sense, and how to sequence withdrawals. A <Link href="/fiduciary-support" className="text-medium-blue hover:underline">fiduciary support</Link> standard means every recommendation must serve your interest and reflect actual investment results.
+          </p>
+          <p className="text-text-gray font-outfit text-base leading-relaxed mb-6">
+            According to the <a href="https://www.psca.org/news/psca-news/2024/12/half-of-retirement-savers-have-no-draw-down-strategy/" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">PSCA participant survey</a>, 46% of participants said their 401(k) provider offered minimal or no resources on withdrawal strategies as they approached retirement. Independent advice covers what managed account services and in-plan investing tools miss: withdrawal planning, tax coordination, and strategies that track progress toward your spending needs.
+          </p>
+          <p className="text-text-gray font-outfit text-base leading-relaxed">
+            Have questions about a 401(k) rollover, your allocation, or retirement withdrawals? <Link href="/contact" className="text-medium-blue hover:underline">Schedule your consultation</Link> at no cost.
+          </p>
+        </div>
+      </section>
+      </AnimateOnScroll>
+
+      {/* Who Needs */}
+      <AnimateOnScroll>
+      <section className="bg-white py-12 md:py-16 lg:py-20">
+        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
+          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
+            Who Needs 401(k) Participant Advice
+          </h2>
+          <p className="text-text-gray font-outfit text-base leading-relaxed mb-10">
+            Not every 401(k) participant needs paid advice. These situations signal when it adds real value.
+          </p>
+          <div className="space-y-8">
+            <div className="border-l-4 border-medium-blue pl-6">
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">You're Within 10 Years of Retirement</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                Income, withdrawal, and tax decisions multiply as retirement approaches. Your plan's tools won't address Social Security timing, tax bracket management, or how to coordinate your 401(k) drawdown with other income sources. This is when guidance addresses gaps automated tools cannot.
+              </p>
+            </div>
+            <div className="border-l-4 border-medium-blue pl-6">
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">You're Changing Jobs or Leaving an Employer</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                Rolling over isn't automatically the right move. You need a comparison of your current plan's fees, investment options, and services against an IRA or new employer plan before you act. Evaluating advice options helps you make confident decisions about where your assets belong.
+              </p>
+            </div>
+            <div className="border-l-4 border-medium-blue pl-6">
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">You've Built Significant Savings but Aren't Sure About Your Mix</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                Once your balance reaches a level where allocation, risk, and diversification carry real stakes, a target-date fund may no longer match your situation. The factors driving your investment decisions shift as your retirement savings and assets grow.
+              </p>
+            </div>
+            <div className="border-l-4 border-medium-blue pl-6">
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">You're Already Retired and Managing Withdrawals</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                Withdrawal sequencing, tax bracket management, and required minimum distribution decisions need ongoing coordination as your life and spending patterns change. Getting these wrong in early retirement compounds over the life of your savings.
+              </p>
+            </div>
+            <div className="border-l-4 border-medium-blue pl-6">
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">You Have Multiple Retirement Accounts Across Employers</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                Scattered accounts create duplicated allocations, inconsistent risk exposure, and planning blind spots. Consolidation decisions require evaluating each account's fees, investment options, and tax implications before making changes.
+              </p>
+            </div>
+            <div className="border-l-4 border-medium-blue pl-6">
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">When 401(k) Advice Might Not Be the Right Fit</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                If your balance is small, your situation is straightforward, and your target-date fund matches your comfort level, paid advice may not add enough value yet. A <Link href="/contact" className="text-medium-blue hover:underline">complimentary consultation</Link> can help you decide.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      </AnimateOnScroll>
+
+      {/* Comparison Tables */}
       <AnimateOnScroll>
       <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
-          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-10">
-            Our Participant Education Services
-          </h2>
-          <div className="space-y-8">
-            <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Customized Group Education Sessions</h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed mb-4">
-                Our education and communications programs bring licensed securities advisors directly to your workforce. These interactive sessions address retirement planning, risk tolerance assessment, and retirement income strategies tailored to your organization&apos;s demographics.
-              </p>
-              <p className="text-text-gray font-outfit text-base leading-relaxed mb-4">
-                Group sessions create an environment that encourages active participation. We cover debt management, budgeting, and savings priorities so employees can see their complete financial picture. Your participants leave with actionable steps to track progress toward retirement goals.
-              </p>
-              <p className="text-text-gray font-outfit text-sm font-semibold mb-2">Highlights:</p>
-              <ul className="space-y-2">
-                <li className="flex items-start gap-2">
-                  <div className="w-1.5 h-1.5 bg-medium-blue rounded-full mt-2 flex-shrink-0" />
-                  <span className="text-text-gray font-outfit text-sm">Led by licensed securities advisors</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <div className="w-1.5 h-1.5 bg-medium-blue rounded-full mt-2 flex-shrink-0" />
-                  <span className="text-text-gray font-outfit text-sm">Covers budgeting, debt, and retirement savings</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <div className="w-1.5 h-1.5 bg-medium-blue rounded-full mt-2 flex-shrink-0" />
-                  <span className="text-text-gray font-outfit text-sm">Tailored to your workforce demographics</span>
-                </li>
-              </ul>
-            </div>
-            <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">One-on-One Consultation Sessions</h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed mb-4">
-                Some plan participants need personalized attention to review their account balance, determine appropriate investments, and establish a retirement planning strategy. Our individual consultations provide professional advice addressing each employee&apos;s unique factors including age, risk tolerance, and retirement goals.
-              </p>
-              <p className="text-text-gray font-outfit text-base leading-relaxed mb-4">
-                These sessions help participants understand tax implications of their contributions and withdrawals. Advisors review current allocations and help employees gradually shift their investments as they move through the accumulation phase toward retirement income needs.
-              </p>
-              <p className="text-text-gray font-outfit text-sm font-semibold mb-2">Highlights:</p>
-              <ul className="space-y-2">
-                <li className="flex items-start gap-2">
-                  <div className="w-1.5 h-1.5 bg-medium-blue rounded-full mt-2 flex-shrink-0" />
-                  <span className="text-text-gray font-outfit text-sm">Personalized investment advice for participants</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <div className="w-1.5 h-1.5 bg-medium-blue rounded-full mt-2 flex-shrink-0" />
-                  <span className="text-text-gray font-outfit text-sm">Address individual risk tolerance factors</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <div className="w-1.5 h-1.5 bg-medium-blue rounded-full mt-2 flex-shrink-0" />
-                  <span className="text-text-gray font-outfit text-sm">Review account allocations and projections</span>
-                </li>
-              </ul>
-            </div>
-            <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Online Webinars</h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed mb-4">
-                For distributed workforces, our online webinars deliver the same thought leadership and guidance as in-person sessions. Plan participants can join from any location, making retirement planning support accessible across your entire organization.
-              </p>
-              <p className="text-text-gray font-outfit text-base leading-relaxed mb-4">
-                Webinars maintain engagement through interactive elements and live Q&amp;A. We record sessions so employees who cannot attend can review the material later. This ensures your majority of participants can access professional help regardless of schedule or location.
-              </p>
-              <p className="text-text-gray font-outfit text-sm font-semibold mb-2">Highlights:</p>
-              <ul className="space-y-2">
-                <li className="flex items-start gap-2">
-                  <div className="w-1.5 h-1.5 bg-medium-blue rounded-full mt-2 flex-shrink-0" />
-                  <span className="text-text-gray font-outfit text-sm">Accessible for remote and distributed teams</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <div className="w-1.5 h-1.5 bg-medium-blue rounded-full mt-2 flex-shrink-0" />
-                  <span className="text-text-gray font-outfit text-sm">Interactive format with live Q&amp;A</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <div className="w-1.5 h-1.5 bg-medium-blue rounded-full mt-2 flex-shrink-0" />
-                  <span className="text-text-gray font-outfit text-sm">Recorded for future employee access</span>
-                </li>
-              </ul>
-            </div>
-            <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Monthly Financial Newsletters</h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed mb-4">
-                Ongoing engagement keeps retirement planning top of mind between education sessions. Our monthly newsletters deliver timely guidance on market conditions, regulatory updates, and financial planning strategies that help participants stay confident about their future.
-              </p>
-              <p className="text-text-gray font-outfit text-base leading-relaxed mb-4">
-                Consistent communication reinforces positive savings behaviors and helps participants maintain focus on their retirement goals. Newsletters address seasonal topics like annual enrollment decisions and year-end contribution strategies.
-              </p>
-              <p className="text-text-gray font-outfit text-sm font-semibold mb-2">Highlights:</p>
-              <ul className="space-y-2">
-                <li className="flex items-start gap-2">
-                  <div className="w-1.5 h-1.5 bg-medium-blue rounded-full mt-2 flex-shrink-0" />
-                  <span className="text-text-gray font-outfit text-sm">Ongoing support beyond initial sessions</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <div className="w-1.5 h-1.5 bg-medium-blue rounded-full mt-2 flex-shrink-0" />
-                  <span className="text-text-gray font-outfit text-sm">Timely market and regulatory updates</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <div className="w-1.5 h-1.5 bg-medium-blue rounded-full mt-2 flex-shrink-0" />
-                  <span className="text-text-gray font-outfit text-sm">Reinforces positive savings behaviors</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-      </AnimateOnScroll>
-
-      {/* Challenges Table */}
-      <AnimateOnScroll>
-      <section className="bg-white py-12 md:py-16 lg:py-20">
-        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
-            Common Participant Advice Challenges
+            401(k) Participant Advice vs. In-Plan Managed Accounts
           </h2>
-          <div className="overflow-x-auto">
-            <table className="w-full border border-[#F3F4F6]">
+          <p className="text-text-gray font-outfit text-base leading-relaxed mb-8">
+            In-plan managed accounts and target-date funds serve real purposes. The question is whether they cover enough as your decisions grow more complex.
+          </p>
+          
+          <h3 className="text-navy font-outfit text-2xl font-medium mb-6">Independent Fiduciary Advice vs. In-Plan Managed Account</h3>
+          <div className="overflow-x-auto mb-10">
+            <table className="w-full border-collapse bg-white">
               <thead>
                 <tr className="bg-navy text-white">
-                  <th className="px-6 py-4 text-left font-outfit text-base font-medium">Challenge</th>
-                  <th className="px-6 py-4 text-left font-outfit text-base font-medium">What It Looks Like</th>
-                  <th className="px-6 py-4 text-left font-outfit text-base font-medium">How We Help</th>
+                  <th className="px-4 py-3 text-left font-outfit font-semibold">Factor</th>
+                  <th className="px-4 py-3 text-left font-outfit font-semibold">Independent Fiduciary Advice</th>
+                  <th className="px-4 py-3 text-left font-outfit font-semibold">In-Plan Managed Account</th>
                 </tr>
               </thead>
               <tbody>
-                <tr className="bg-white">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Unadvised participants lack confidence</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Only 38% of workers feel confident making 401(k) investment decisions alone, leading to analysis paralysis or poor allocation choices</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Our one-on-one consultations give participants the professional advice they need to invest confidently based on their risk tolerance</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Advice scope</td>
+                  <td className="px-4 py-3 text-gray-700">Full financial picture: taxes, rollover, income, estate</td>
+                  <td className="px-4 py-3 text-gray-700">Portfolio allocation within current plan only</td>
                 </tr>
-                <tr className="bg-cloud-blue">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Financial stress crushing productivity</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">56% of financially stressed employees spend 3+ hours weekly at work on personal finances, reducing focus and output</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Comprehensive education programs reduce money worries so employees can retain focus and achieve better work-life balance</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Fiduciary standard</td>
+                  <td className="px-4 py-3 text-gray-700">Fee-only, legally obligated to act in your interest</td>
+                  <td className="px-4 py-3 text-gray-700">Varies; may follow suitability standard only</td>
                 </tr>
-                <tr className="bg-white">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Participants relying on wrong sources</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">52% of participants without an advisor rely on their recordkeeper as their primary source for retirement guidance</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Independent advisors provide unbiased guidance free from recordkeeper conflicts, serving as a trusted advisor for your workforce</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Conflicts of interest</td>
+                  <td className="px-4 py-3 text-gray-700">No commissions, no proprietary products</td>
+                  <td className="px-4 py-3 text-gray-700">May favor plan provider's fund options</td>
                 </tr>
-                <tr className="bg-cloud-blue">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Multi-generational workforce needs</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Gen Z faces student debt while Boomers need decumulation strategies, yet most plans offer one-size-fits-all solutions</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">We tailor sessions by life stage so each generation gets relevant guidance for their accumulation phase or income planning needs</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Retirement transition support</td>
+                  <td className="px-4 py-3 text-gray-700">Withdrawal sequencing, tax coordination, Social Security</td>
+                  <td className="px-4 py-3 text-gray-700">Typically limited to plan-level guidance</td>
                 </tr>
-                <tr className="bg-white">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Low participation and deferral rates</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Many plans fall below the 84.9% industry benchmark participation rate, leaving employees unprepared for retirement</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Engaging education helps participants establish higher contribution levels and track progress toward retirement savings goals</td>
-                </tr>
-                <tr className="bg-cloud-blue">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Fiduciary liability exposure</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Plan sponsors have obligations to ensure participants can make informed decisions, yet lack documented education programs</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Our Virtual 401(k) Fiduciary File documents all participant support, helping you maintain compliance with fiduciary standards</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Participant adoption</td>
+                  <td className="px-4 py-3 text-gray-700">Participant-initiated based on need</td>
+                  <td className="px-4 py-3 text-gray-700">79% have access; 9% use it (Vanguard 2025)</td>
                 </tr>
               </tbody>
             </table>
           </div>
+          <p className="text-text-gray font-outfit text-sm leading-relaxed mb-8 italic">
+            Source: Vanguard How America Saves 2025; U.S. Department of Labor 2025
+          </p>
+          <p className="text-text-gray font-outfit text-base leading-relaxed mb-10">
+            In-plan managed accounts work when allocation is the primary concern. Independent fiduciary advice becomes the stronger choice when rollover, tax, retirement income, or multi-account decisions are involved. An advisor with <Link href="/our-services" className="text-medium-blue hover:underline">retirement plan consulting</Link> experience brings deeper insight into plan mechanics that affect your options.
+          </p>
+
+          <h3 className="text-navy font-outfit text-2xl font-medium mb-6">Target-Date Fund (DIY) vs. Personalized Participant Advice</h3>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse bg-white">
+              <thead>
+                <tr className="bg-navy text-white">
+                  <th className="px-4 py-3 text-left font-outfit font-semibold">Factor</th>
+                  <th className="px-4 py-3 text-left font-outfit font-semibold">Target-Date Fund / DIY</th>
+                  <th className="px-4 py-3 text-left font-outfit font-semibold">Personalized Advice</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Allocation approach</td>
+                  <td className="px-4 py-3 text-gray-700">Automatic age-based glide path</td>
+                  <td className="px-4 py-3 text-gray-700">Customized to goals, risk tolerance, full picture</td>
+                </tr>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Savings adequacy check</td>
+                  <td className="px-4 py-3 text-gray-700">Not assessed</td>
+                  <td className="px-4 py-3 text-gray-700">Evaluates readiness against your retirement target</td>
+                </tr>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Tax planning</td>
+                  <td className="px-4 py-3 text-gray-700">None</td>
+                  <td className="px-4 py-3 text-gray-700">Multi-year projections across account types</td>
+                </tr>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Rollover decisions</td>
+                  <td className="px-4 py-3 text-gray-700">Not addressed</td>
+                  <td className="px-4 py-3 text-gray-700">Compares plan vs. IRA fees, options, services</td>
+                </tr>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Cost</td>
+                  <td className="px-4 py-3 text-gray-700">Low expense ratio only</td>
+                  <td className="px-4 py-3 text-gray-700">Advisory fee; value depends on complexity</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-text-gray font-outfit text-sm leading-relaxed mt-6 italic">
+            Source: U.S. Department of Labor 2025; EBRI/Greenwald Retirement Confidence Survey 2025
+          </p>
+          <p className="text-text-gray font-outfit text-base leading-relaxed mt-6">
+            Target-date funds handle allocation for disciplined savers with straightforward situations. Personalized advice adds value when retirement timing, tax coordination, or rollover decisions go beyond what a default fund covers. <a href="https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/faqs/choosing-the-right-person-to-give-you-investment-advice" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">DOL guidance on choosing an investment advice provider</a> outlines what to evaluate, including whether your advisor meets fiduciary standards.
+          </p>
         </div>
       </section>
       </AnimateOnScroll>
 
       {/* Our Process */}
       <AnimateOnScroll>
-      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
+      <section className="bg-white py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-10">
-            What To Expect: Our Process
+            What To Expect: Our 401(k) Participant Advice Process
           </h2>
           <div className="relative">
             <div className="absolute left-[19px] top-10 bottom-10 w-px bg-[#C1C5C9] hidden sm:block" />
@@ -317,7 +344,7 @@ export default function ParticipantSupportPage() {
               {processSteps.map((step) => (
                 <div key={step.number} className="flex gap-6">
                   <div className="flex-shrink-0 z-10">
-                    <div className="w-10 h-10 rounded-full bg-medium-blue flex items-center justify-center">
+                    <div className="w-10 h-10 rounded-full bg-navy flex items-center justify-center">
                       <span className="font-outfit font-semibold text-white text-lg leading-none">{step.number}</span>
                     </div>
                   </div>
@@ -333,7 +360,24 @@ export default function ParticipantSupportPage() {
       </section>
       </AnimateOnScroll>
 
-      {/* About */}
+      {/* Why Choose PointOak */}
+      <AnimateOnScroll>
+      <section className="bg-[#F5F3EF] py-12 md:py-16 lg:py-20">
+        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
+          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
+            Why Choose PointOak for 401(k) Participant Advice
+          </h2>
+          <p className="text-text-gray font-outfit text-base leading-relaxed mb-6">
+            <a href="https://www.cfp.net/news/2026/01/cfp-professional-advised-americans-experience-greater-financial-preparedness" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">CFP Board's 2026 study</a> found that 94% of households advised by CFP professionals feel confident achieving their financial goals, compared to 81% of unadvised Americans. That confidence gap narrows when your advisor carries fiduciary responsibilities, uses open-architecture product selection, and specializes in retirement decisions rather than general financial planning.
+          </p>
+          <p className="text-text-gray font-outfit text-base leading-relaxed">
+            You already have a plan, so the real question is whether paid guidance adds enough. <Link href="/our-consulting-team" className="text-medium-blue hover:underline">Our senior advisors</Link> bring a corporate retirement plan background. They understand fee structures, provider conflicts, investment menus, and where plan-level rules stop. That knowledge directly shapes the participant advice you receive.
+          </p>
+        </div>
+      </section>
+      </AnimateOnScroll>
+
+      {/* About PointOak */}
       <AnimateOnScroll>
       <section className="bg-white py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
@@ -341,24 +385,10 @@ export default function ParticipantSupportPage() {
             About PointOak Retirement Advisors
           </h2>
           <p className="text-text-gray font-outfit text-base leading-relaxed">
-            PointOak Retirement Advisors is an independent retirement plan consulting firm headquartered in McLean, Virginia, serving plan sponsors nationwide. The firm generates over 90% of its revenue from corporate retirement plans and acts as a 3(21) or 3(38) named fiduciary under ERISA with every client. PointOak evaluates over $120 billion in retirement plan assets quarterly.
+            PointOak Retirement Advisors is a fee-only, SEC-registered wealth advisory firm founded in 2017 and headquartered in McLean, Virginia. We serve high-net-worth individuals and corporate plan sponsors nationwide, with over $1.08 billion in assets under management and over 50 years of collective experience. Darsh Makim, CRPC, founded the firm after advising plan sponsors and participants since 2005. <Link href="/contact" className="text-medium-blue hover:underline">Schedule a complimentary consultation</Link>.
           </p>
         </div>
       </section>
       </AnimateOnScroll>
 
-      <ServiceDetailFAQ faqs={faqs} />
-
-      <section className="bg-white py-8">
-        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
-          <p className="text-text-gray font-outfit text-sm leading-relaxed italic text-center">
-            Investment advisory services offered through PointOak Retirement Advisors, LLC. This site is published for residents of the United States only. PointOak Retirement Advisors, LLC does not provide tax or legal advice.
-          </p>
-        </div>
-      </section>
-
-      <CTASection />
-      <Footer />
-    </main>
-  );
-}
+      <ServiceDetailFAQ faqs

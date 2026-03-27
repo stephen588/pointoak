@@ -8,68 +8,84 @@ import Link from "next/link";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
 
 export const metadata: Metadata = {
-  title: "Target Date Fund Glide Path Consulting | PointOak Retirement Advisors",
-  description: "Target date fund glide path consulting for plan sponsors. Over 90% revenue from retirement plans. Documented fiduciary selection process. Get in touch.",
+  title: "Target Date Fund Glide Path Evaluation | PointOak",
+  description: "Evaluate target date fund glide paths with a fiduciary framework built for plan committees. Named 3(21) and 3(38) ERISA fiduciary. Schedule a consultation.",
   alternates: {
     canonical: "https://www.pointoak.com/corporate-retirement-plans/tdf-consulting/glide-path/"
   }
 };
 
 const highlights = [
-  "Independent glide path analysis",
-  "Documented fiduciary selection process",
-  "$120 billion evaluated quarterly"
+  "Named 3(21) and 3(38) ERISA fiduciary",
+  "DOL-aligned multi-step selection process",
+  "Fee-only, independent of fund manufacturers"
 ];
 
 const processSteps = [
   {
     number: 1,
-    title: "Plan Assessment",
-    description: "You share plan data and participant demographics. We analyze workforce characteristics to establish glide path criteria."
+    title: "Analyze",
+    description: "Review current TDF investments, glide path design, fees, and participant demographics against plan investment goals."
   },
   {
     number: 2,
-    title: "Glide Path Analysis",
-    description: "We evaluate available target date fund options, comparing equity allocation, underlying funds, and asset mix."
+    title: "Optimize",
+    description: "Recommend glide path changes or alternative investment strategies aligned with participant data and retirement savings objectives."
   },
   {
     number: 3,
-    title: "Suitability Recommendations",
-    description: "You receive detailed analysis with recommendations on which glide path design and TDF series fits your plan."
+    title: "Implement",
+    description: "Execute changes with full fiduciary documentation through our target date fund consulting process and a periodic review schedule."
   }
 ];
 
 const faqs = [
   {
-    question: "How much does target date fund glide path consulting cost?",
-    answer: "Consulting fees depend on plan complexity, number of TDF series being evaluated, and scope of ongoing monitoring. We provide transparent pricing after understanding your needs. Engagements typically include initial analysis, recommendations, and fiduciary file documentation. Contact us for a proposal tailored to your retirement plan."
+    question: "How much does target date fund consulting cost?",
+    answer: "TDF consulting fees vary by plan size, complexity, and scope of the engagement. PointOak uses a fee-only model with no commissions, added expenses, or fund-company payments. Consulting fees reflect plan asset size and the scope of evaluation, whether a standalone glide path review or ongoing fiduciary support with periodic reassessment. A fee-only structure at low cost relative to fiduciary protection ensures recommendations serve your committee's interests rather than product revenue. The initial consultation is complimentary with no obligation, typically lasting 30 to 45 minutes. Schedule a complimentary consultation to discuss your plan's scope and pricing."
   },
   {
-    question: "What makes PointOak Retirement Advisors different from other target date fund consultants?",
-    answer: "Three things: specialization, independence, and documentation. We generate over 90% of revenue from retirement plans. We&apos;re independently owned with no proprietary products creating conflicts. And we document everything using our Virtual 401(k) Fiduciary File system to protect your investment decision if questioned."
+    question: "What is the difference between a \"to\" and \"through\" glide path?",
+    answer: "A \"to\" glide path reaches its most conservative point at the target date; a \"through\" glide path continues derisking after target retirement. A \"to\" design prioritizes downside protection at the target retirement date by reaching its conservative point at participants' expected retirement year. A \"through\" design maintains equity exposure past retirement for participants who stay invested longer. The right choice depends on withdrawal behavior and retirement-income objectives, not which approach sounds safer."
   },
   {
-    question: "How long does a target date fund glide path evaluation usually take?",
-    answer: "A comprehensive glide path evaluation typically takes four to six weeks from receiving plan data to delivering recommendations. Complex evaluations involving multiple provider comparisons may require additional time. We work with your timeline for urgent situations requiring faster turnaround."
+    question: "How often should a plan review its target-date fund glide path?",
+    answer: "DOL guidance calls for periodic review, and any material change in demographics or plan strategy should trigger reassessment. PointOak recommends reviewing glide path fit whenever participant demographics shift, the provider changes strategy, or plan objectives evolve. Shifts in market conditions or assumptions about future returns can also expose misalignment during participants' retirement years. DOL requires ongoing monitoring, not just a one-time selection."
   },
   {
-    question: "What is the difference between a &quot;to&quot; and &quot;through&quot; retirement glide path?",
-    answer: "A &quot;to retirement&quot; glide path reaches its most conservative portfolio at the target retirement date and maintains that asset mix afterward. A &quot;through retirement&quot; approach continues shifting toward more conservative investments for years past the target date. The right approach depends on your participant population characteristics and retirement planning patterns."
+    question: "What is a target date fund glide path?",
+    answer: "A glide path is the predetermined schedule that shifts a target date fund's asset allocation from growth-oriented to conservative over time. The glide path determines how the date fund allocates across equity, fixed income, and asset classes like high yield bonds at each stage. The fund name's approximate year represents an expected retirement date, not a risk guarantee. Two funds labeled \"2040\" can hold different allocations at every point."
   },
   {
-    question: "How do I know if my target date fund glide path is appropriate for plan participants?",
-    answer: "Appropriate glide paths align with your participant population&apos;s characteristics. Key factors include average retirement date, salary levels, contribution rates, and whether participants have other retirement savings sources. We evaluate your workforce data against your current TDF&apos;s assumptions to identify mismatches that could affect retirement outcomes."
+    question: "Are all target-date funds with the same retirement year basically the same?",
+    answer: "Same-year target date funds differ significantly in glide path design, equity exposure, fees, and underlying asset classes. DOL has warned about \"considerable differences\" among funds with identical target dates. Past performance does not predict future results, and one provider may hold 50% equity at that date while another holds 65%. Evaluate the actual allocation curve and underlying asset classes rather than assuming the label tells the story."
   },
   {
-    question: "Can target date funds lose money at or after the target retirement date?",
-    answer: "Yes. Target date funds are not guaranteed, and past performance is not necessarily indicative of future results. Plan participants can lose money at any time, including at and after the target date. Funds with higher risk through more equity exposure at retirement carry more investment risk but also more growth potential."
+    question: "How much equity should a target-date fund hold at retirement?",
+    answer: "No single correct equity level exists at retirement; the right equity allocation depends on participant withdrawal behavior and income needs. Providers differ materially on this point. Some target 50% equity at age 65 while others maintain higher exposure to offset interest rate and longevity risk over longer drawdowns. PointOak's evaluation matches equity allocation to actual plan demographics rather than default assumptions about retirement income needs."
+  },
+  {
+    question: "Are target-date funds too conservative?",
+    answer: "Some glide paths are more conservative than others, and whether that is a problem depends on your participant profile. Glide path differences have narrowed, but end-of-path equity ranges remain wider than expected. A plan with younger investors may require more risk; that higher risk posture is appropriate when tenure is long. Portfolio construction determines whether the fund protects principal invested and matches the population it serves."
+  },
+  {
+    question: "Should I pick a later target date if I want more stocks?",
+    answer: "Choosing a later-dated fund to increase stock market exposure is common, but it changes the entire derisking timeline. Selecting a later target date shifts the entire glide path, changing when equity exposure decreases. For committees, evaluate whether current equity levels and expected returns match plan needs rather than gaming dates. Individual participants using this workaround may enhance returns short-term but accept misaligned time horizons and unintended risk near retirement."
+  },
+  {
+    question: "What should fiduciaries document when selecting or reviewing a TDF suite?",
+    answer: "Document the review of glide path design, fees, underlying investments, and alignment with participant demographics. DOL identifies specific areas: \"to\" versus \"through\" philosophy, the most conservative allocation point, participant salary levels, turnover, contribution rates, and withdrawal patterns. PointOak builds this documentation as part of every engagement, covering plan's objectives and individual circumstances. Fiduciary support services ensure the file includes important disclosures and is audit-ready."
+  },
+  {
+    question: "What is the difference between an off-the-shelf and custom target-date glide path?",
+    answer: "Off-the-shelf target date glide paths use standardized assumptions; custom glide paths are built around a specific plan's participant data. A significant share of plans rely on standardized defaults that assume average demographics. Custom approaches require more governance but improve alignment when your participant population differs materially from industry norms. PointOak helps committees determine which model fits and documents the rationale as part of the retirement planning and investment strategies review."
   }
 ];
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Service",
-  name: "Target Date Fund Glide Path Consulting",
+  name: "Target Date Fund Glide Path Evaluation",
   provider: { "@type": "FinancialService", name: "PointOak Retirement Advisors" },
   serviceType: "TDF Glide Path Analysis",
   areaServed: { "@type": "Country", name: "United States" },
@@ -86,10 +102,10 @@ export default function GlidePathPage() {
         breadcrumbs={[
           { label: "For Businesses", href: "/corporate-retirement-plans" },
           { label: "TDF Consulting", href: "/corporate-retirement-plans/tdf-consulting" },
-          { label: "Glide Path Analysis" }
+          { label: "Glide Path Evaluation" }
         ]}
-        title="Target Date Fund Glide Path Consulting for Plan Sponsors"
-        subtitle="Your plan participants depend on target date funds to guide their long-term retirement savings through decades of asset allocation changes. PointOak Retirement Advisors helps you evaluate glide path design and select target date funds aligned with your participant population."
+        title="Evaluating Target Date Fund Glide Paths for Your Plan"
+        subtitle="Most plan sponsors never evaluate their target date fund glide path. Approximately $4.0 trillion sat in target date funds at year-end 2024, and much of that rides on unexamined allocation decisions. PointOak Retirement Advisors provides independent glide path evaluation for retirement planning committees, matched to your participant demographics."
       />
 
       {/* Highlights Bar */}
@@ -106,213 +122,188 @@ export default function GlidePathPage() {
         </div>
       </section>
 
-      {/* Why Choose Us */}
+      {/* Benefits Section */}
       <AnimateOnScroll>
       <section className="bg-white py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
-          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
-            Why Choose Us for Target Date Fund Glide Path Consulting?
-          </h2>
-          <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
-            <p>
-              Target date fund assets recently surpassed $4 trillion, yet equity exposure can vary by 40% among funds sharing the same target retirement date. Many plan sponsors struggle to determine which glide path truly fits their workforce. PointOak has been wholly focused on retirement plan consulting since day one, generating over 90% of our revenue from corporate retirement plans.
-            </p>
-            <p>
-              What sets us apart is our independence. We&apos;re not affiliated with any fund family or recordkeeper, so our target date fund recommendations are based solely on your plan&apos;s objectives and participant population. Our meticulous documentation protects your investment decision if it&apos;s ever questioned.
-            </p>
-          </div>
-        </div>
-      </section>
-      </AnimateOnScroll>
-
-      {/* Our Services */}
-      <AnimateOnScroll>
-      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
-        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-10">
-            Our Target Date Fund Glide Path Services
+            Benefits of Target Date Fund Glide Path Evaluation
           </h2>
           <div className="space-y-8">
             <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">TDF Suitability Analysis</h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed mb-4">
-                Your participant population has unique characteristics that affect which glide path design makes sense. Our Target Date Fund (TDF) Consulting begins with comprehensive analysis of workforce demographics, contribution patterns, and retirement behaviors.
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Documented Fiduciary Protection</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                DOL expects fiduciaries to document why a specific TDF suite was selected, including how glide path characteristics align with plan participants. Independent <Link href="/corporate-retirement-plans/tdf-consulting" className="text-medium-blue hover:underline">target date fund consulting</Link> produces that documentation. Without it, your committee's investment objectives and selection rationale remain assumptions, not evidence.
               </p>
-              <ul className="space-y-2 text-text-gray font-outfit text-sm">
-                <li className="flex items-start gap-2">
-                  <div className="w-1.5 h-1.5 bg-medium-blue rounded-full mt-1.5 flex-shrink-0" />
-                  <span>Participant demographic analysis</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <div className="w-1.5 h-1.5 bg-medium-blue rounded-full mt-1.5 flex-shrink-0" />
-                  <span>Retirement behavior assessment</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <div className="w-1.5 h-1.5 bg-medium-blue rounded-full mt-1.5 flex-shrink-0" />
-                  <span>Risk tolerance evaluation by age</span>
-                </li>
-              </ul>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Glide Path Comparison</h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed mb-4">
-                Not all target date funds are created equal. Even funds with identical target retirement dates can have dramatically different asset allocation strategies and equity allocation throughout the glide path. Our side-by-side comparison examines how different fund families approach portfolio construction.
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Glide Path Design Matched to Your Participants</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                Standardized glide paths assume average salary levels, turnover rates, and retirement ages. Your workforce isn't average. Demographic fit analysis maps your actual participant data to glide path implications, revealing whether the default allocation curve manages risk appropriately for the people depending on it.
               </p>
-              <ul className="space-y-2 text-text-gray font-outfit text-sm">
-                <li className="flex items-start gap-2">
-                  <div className="w-1.5 h-1.5 bg-medium-blue rounded-full mt-1.5 flex-shrink-0" />
-                  <span>Side-by-side glide path analysis</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <div className="w-1.5 h-1.5 bg-medium-blue rounded-full mt-1.5 flex-shrink-0" />
-                  <span>Equity allocation comparison by age</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <div className="w-1.5 h-1.5 bg-medium-blue rounded-full mt-1.5 flex-shrink-0" />
-                  <span>Underlying fund evaluation</span>
-                </li>
-              </ul>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">&quot;To&quot; vs &quot;Through&quot; Retirement Analysis</h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed mb-4">
-                One of the most important glide path design decisions involves whether target date funds reach their most conservative point at the target date or continue adjusting through retirement years. Our analysis helps you understand which approach supports successful retirement outcomes for your participant population.
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Reduced Default-Selection Risk</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                85% of 401(k) plans offer target date funds, and 68% of participants hold them. That concentration means a mismatched default affects most retirement outcomes in your plan. Evaluating glide path fit reduces the investment risk of accepting a recordkeeper's standard lineup.
               </p>
-              <ul className="space-y-2 text-text-gray font-outfit text-sm">
-                <li className="flex items-start gap-2">
-                  <div className="w-1.5 h-1.5 bg-medium-blue rounded-full mt-1.5 flex-shrink-0" />
-                  <span>To vs through comparison</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <div className="w-1.5 h-1.5 bg-medium-blue rounded-full mt-1.5 flex-shrink-0" />
-                  <span>Post-retirement asset mix analysis</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <div className="w-1.5 h-1.5 bg-medium-blue rounded-full mt-1.5 flex-shrink-0" />
-                  <span>Longevity and inflation risk assessment</span>
-                </li>
-              </ul>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Qualitative TDF Evaluation</h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed mb-4">
-                Beyond glide path comparison, we assess the broad range of qualitative factors that affect future performance and retirement outcomes. Our evaluation examines investment manager tenure, fund style consistency, and how asset classes work together throughout the glide path design.
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Clearer Committee Decision-Making</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                Fund manufacturers present their glide path as the answer. Independent evaluation replaces branded narratives with neutral criteria. Committee members can identify key factors through structured <Link href="/corporate-retirement-plans/investment-analysis" className="text-medium-blue hover:underline">investment analysis</Link> and defend selections with documented analysis, not sales presentations.
               </p>
-              <ul className="space-y-2 text-text-gray font-outfit text-sm">
-                <li className="flex items-start gap-2">
-                  <div className="w-1.5 h-1.5 bg-medium-blue rounded-full mt-1.5 flex-shrink-0" />
-                  <span>Investment manager evaluation</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <div className="w-1.5 h-1.5 bg-medium-blue rounded-full mt-1.5 flex-shrink-0" />
-                  <span>Asset class diversification review</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <div className="w-1.5 h-1.5 bg-medium-blue rounded-full mt-1.5 flex-shrink-0" />
-                  <span>Risk management assessment</span>
-                </li>
-              </ul>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">TDF Fee and Share Class Review</h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed mb-4">
-                Fees directly impact long term retirement savings. A 1% difference in expenses over 35 years can reduce a participant&apos;s nest egg by tens of thousands of dollars. Our fee analysis identifies opportunities to reduce added expenses through appropriate share class selection.
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Stronger Participant Retirement Outcomes</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                A glide path matched to actual workforce demographics drives successful retirement outcomes by aligning risk exposure with participants' time horizons and retirement income needs. Mismatched allocations expose participants to excessive inflation risk or insufficient growth, undermining wealth outcomes across the plan.
               </p>
-              <ul className="space-y-2 text-text-gray font-outfit text-sm">
-                <li className="flex items-start gap-2">
-                  <div className="w-1.5 h-1.5 bg-medium-blue rounded-full mt-1.5 flex-shrink-0" />
-                  <span>Expense ratio comparison</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <div className="w-1.5 h-1.5 bg-medium-blue rounded-full mt-1.5 flex-shrink-0" />
-                  <span>Share class optimization</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <div className="w-1.5 h-1.5 bg-medium-blue rounded-full mt-1.5 flex-shrink-0" />
-                  <span>Fee impact modeling</span>
-                </li>
-              </ul>
-            </div>
-            <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">TDF Documentation Support</h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed mb-4">
-                Department of Labor guidance makes clear that plan fiduciaries need a documented process for selecting and periodically review target date funds. Our Fiduciary Support services include comprehensive documentation demonstrating your prudent evaluation methodology.
-              </p>
-              <ul className="space-y-2 text-text-gray font-outfit text-sm">
-                <li className="flex items-start gap-2">
-                  <div className="w-1.5 h-1.5 bg-medium-blue rounded-full mt-1.5 flex-shrink-0" />
-                  <span>Complete selection documentation</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <div className="w-1.5 h-1.5 bg-medium-blue rounded-full mt-1.5 flex-shrink-0" />
-                  <span>Investment Policy Statement integration</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <div className="w-1.5 h-1.5 bg-medium-blue rounded-full mt-1.5 flex-shrink-0" />
-                  <span>Ongoing monitoring records</span>
-                </li>
-              </ul>
             </div>
           </div>
         </div>
       </section>
       </AnimateOnScroll>
 
-      {/* Challenges Table */}
+      {/* How It Works */}
+      <AnimateOnScroll>
+      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
+        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
+          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
+            How Target Date Fund Glide Path Evaluation Works
+          </h2>
+          <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
+            <p>
+              Glide path evaluation examines the asset allocation trajectory: underlying funds, asset classes, equity exposure, and the most conservative point. <a href="https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/fact-sheets/target-date-retirement-funds-tips-for-erisa-plan-fiduciaries" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">DOL guidance on TDF evaluation</a> and J.P. Morgan's six-factor framework assess glide path design variables including asset allocation changes and whether the fund targets a more conservative portfolio at each stage.
+            </p>
+            <p>
+              Average TDF expense ratios fell from 0.67% in 2008 to 0.29% in 2024. When fees converge, the glide path becomes the primary differentiator between suites. How a fund handles periodically rebalancing across asset classes and manages equity exposure post-retirement matters more than headline cost.
+            </p>
+          </div>
+          <div className="mt-8 bg-navy text-white rounded-lg p-6 md:p-8">
+            <p className="font-outfit text-base leading-relaxed">
+              <a href="https://www.pointoak.com/contact/" target="_blank" rel="noopener noreferrer" className="text-warm-gold hover:underline font-semibold">Schedule a Consultation</a> to discuss your plan's target date fund glide path.
+            </p>
+          </div>
+        </div>
+      </section>
+      </AnimateOnScroll>
+
+      {/* Who Needs It */}
       <AnimateOnScroll>
       <section className="bg-white py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
-            Common Target Date Fund Glide Path Challenges
+            Who Needs Target Date Fund Glide Path Evaluation
           </h2>
+          <p className="text-text-gray font-outfit text-base leading-relaxed mb-8">
+            These scenarios signal when a glide path evaluation should move to the top of the committee agenda.
+          </p>
+          <div className="space-y-8">
+            <div className="bg-cloud-blue rounded-lg p-6 md:p-8">
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Your Plan's TDF Suite Was Inherited, Not Selected</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                58% of DC plan assets sit in off-the-shelf target date funds. Many plan sponsors accepted the recordkeeper's default without documenting glide path alignment with their plan's objectives.
+              </p>
+            </div>
+            <div className="bg-cloud-blue rounded-lg p-6 md:p-8">
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Your Participant Demographics Have Shifted</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                Workforce age, turnover rate, and early career hiring patterns affect glide path fit. If your participant population has shifted since the last review, the risk tolerance assumptions behind your current suite may no longer apply.
+              </p>
+            </div>
+            <div className="bg-cloud-blue rounded-lg p-6 md:p-8">
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Your Committee Is Facing a Provider Change or RFP</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                A new recordkeeper means a new TDF lineup. Our <Link href="/corporate-retirement-plans" className="text-medium-blue hover:underline">retirement plan consulting services</Link> map each provider's glide path to your participants' individual circumstances and contribution rates.
+              </p>
+            </div>
+            <div className="bg-cloud-blue rounded-lg p-6 md:p-8">
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">You Cannot Document Why Your Current Glide Path Fits</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                DOL expects fiduciaries to demonstrate they reviewed TDF characteristics against participant demographics. If your committee cannot document why the current glide path fits, you need <Link href="/corporate-retirement-plans/fiduciary-support" className="text-medium-blue hover:underline">fiduciary support</Link>.
+              </p>
+            </div>
+            <div className="bg-white border-2 border-navy rounded-lg p-6 md:p-8">
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">When a review is not needed:</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                Plans that completed a documented, independent TDF evaluation within the past 12-18 months and have experienced no material change in participant demographics or plan objectives do not need a new review.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      </AnimateOnScroll>
+
+      {/* Comparison Table */}
+      <AnimateOnScroll>
+      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
+        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
+          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
+            "To Retirement" vs. "Through Retirement" Glide Paths
+          </h2>
+          <p className="text-text-gray font-outfit text-base leading-relaxed mb-8">
+            The most misunderstood choice in TDF evaluation is when the asset mix reaches its most conservative portfolio. "To" and "through" address that target retirement date question differently.
+          </p>
           <div className="overflow-x-auto">
-            <table className="w-full border border-[#F3F4F6]">
+            <table className="w-full border-collapse">
               <thead>
                 <tr className="bg-navy text-white">
-                  <th className="px-6 py-4 text-left font-outfit text-base font-medium">Challenge</th>
-                  <th className="px-6 py-4 text-left font-outfit text-base font-medium">What It Looks Like</th>
-                  <th className="px-6 py-4 text-left font-outfit text-base font-medium">How We Help</th>
+                  <th className="px-4 py-3 text-left font-outfit font-semibold">Design Factor</th>
+                  <th className="px-4 py-3 text-left font-outfit font-semibold">"To Retirement"</th>
+                  <th className="px-4 py-3 text-left font-outfit font-semibold">"Through Retirement"</th>
                 </tr>
               </thead>
               <tbody>
-                <tr className="bg-white">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Overwhelming fund options</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Over 60 glide path strategies exist with equity exposure varying 40% among same-date funds, making comparison difficult.</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Our structured evaluation framework narrows options to those aligned with your participant population and investment objectives.</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Conservative point reached</td>
+                  <td className="px-4 py-3 text-gray-700">At the target retirement date</td>
+                  <td className="px-4 py-3 text-gray-700">Years after target date (e.g., age 75)</td>
                 </tr>
-                <tr className="bg-cloud-blue">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Demographic mismatch</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Off-the-shelf target date funds assume average participants, but your workforce may retire earlier, later, or have different financial situation factors.</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">We analyze your actual participant data to recommend glide paths designed for populations with similar characteristics.</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Equity allocation at retirement</td>
+                  <td className="px-4 py-3 text-gray-700">Lower equity at target date</td>
+                  <td className="px-4 py-3 text-gray-700">Higher; derisking continues post-retirement</td>
                 </tr>
-                <tr className="bg-white">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">To vs through confusion</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">The difference between reaching the most conservative point at retirement versus through retirement affects how much investment risk participants carry.</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">We explain practical implications of each approach and recommend based on how your plan participants actually behave.</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Post-retirement trajectory</td>
+                  <td className="px-4 py-3 text-gray-700">Holds at conservative allocation</td>
+                  <td className="px-4 py-3 text-gray-700">Funds continue reducing equity 5-10+ years</td>
                 </tr>
-                <tr className="bg-cloud-blue">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Documentation gaps</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">DOL guidance requires documented selection process, but many plan sponsors lack evidence of the analysis behind their investment decision.</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Our comprehensive documentation demonstrates your prudent fiduciary process for your Virtual 401(k) Fiduciary File.</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Longevity risk approach</td>
+                  <td className="px-4 py-3 text-gray-700">Prioritizes downside protection at retirement</td>
+                  <td className="px-4 py-3 text-gray-700">Maintains more risk for extended drawdown</td>
                 </tr>
-                <tr className="bg-white">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Proprietary product concerns</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Recordkeeper-affiliated advisors may favor their firm&apos;s date fund over alternatives, creating potential conflicts in investment advice.</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">As an independent firm with no products to sell, our recommendations are based solely on what serves your participants.</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Best participant profile</td>
+                  <td className="px-4 py-3 text-gray-700">Higher turnover or early withdrawal patterns</td>
+                  <td className="px-4 py-3 text-gray-700">Extended drawdown with longer horizons</td>
+                </tr>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Variation within approach</td>
+                  <td className="px-4 py-3 text-gray-700">Narrow range at conservative point</td>
+                  <td className="px-4 py-3 text-gray-700">Wide: State Street 90% vs 95% starting equity, landing age 75</td>
                 </tr>
               </tbody>
             </table>
           </div>
+          <p className="text-text-gray font-outfit text-sm italic mt-6">
+            Source: DOL, State Street Global Advisors
+          </p>
+          <p className="text-text-gray font-outfit text-base leading-relaxed mt-6">
+            "To" glide paths reach peak fixed income securities allocation as the target retirement date approaches. "Through" designs accept higher risk by maintaining equity securities exposure past retirement. "To" suits early-withdrawal plans. "Through" fits extended drawdowns. Your committee's data determines which, as <a href="https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/fact-sheets/target-date-retirement-funds-tips-for-erisa-plan-fiduciaries" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">DOL fiduciary tips for TDF selection</a> affirms.
+          </p>
         </div>
       </section>
       </AnimateOnScroll>
 
       {/* Our Process */}
       <AnimateOnScroll>
-      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
+      <section className="bg-white py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-10">
-            What To Expect: Our Process
+            What To Expect: Our Target Date Fund Consulting Process
           </h2>
           <div className="relative">
             <div className="absolute left-[19px] top-10 bottom-10 w-px bg-[#C1C5C9] hidden sm:block" />
@@ -336,6 +327,25 @@ export default function GlidePathPage() {
       </section>
       </AnimateOnScroll>
 
+      {/* Why Choose PointOak */}
+      <AnimateOnScroll>
+      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
+        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
+          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
+            Why Choose PointOak for Target Date Fund Glide Path Evaluation
+          </h2>
+          <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
+            <p>
+              Your recordkeeper offers a TDF lineup, but a product shelf is not a fiduciary evaluation. Three of the five top-ranking pages for this topic are published by fund manufacturers. As a named 3(21) and 3(38) ERISA fiduciary and <Link href="/about" className="text-medium-blue hover:underline">independent, fee-only advisory firm</Link>, we evaluate across providers with no product incentives.
+            </p>
+            <p>
+              Our fee-only model eliminates investment manager and fund-family bias that any commission-based financial professional carries. Whether evaluating active management options or low cost index suites, we produce valuable insights about glide path fit through <Link href="/corporate-retirement-plans/provider-and-fee-benchmarking" className="text-medium-blue hover:underline">provider and fee benchmarking</Link>.
+            </p>
+          </div>
+        </div>
+      </section>
+      </AnimateOnScroll>
+
       {/* About */}
       <AnimateOnScroll>
       <section className="bg-white py-12 md:py-16 lg:py-20">
@@ -344,7 +354,7 @@ export default function GlidePathPage() {
             About PointOak Retirement Advisors
           </h2>
           <p className="text-text-gray font-outfit text-base leading-relaxed">
-            PointOak Retirement Advisors is an independent retirement plan consulting firm headquartered in McLean, Virginia, serving plan sponsors nationwide. The firm generates over 90% of its revenue from corporate retirement plans and acts as a 3(21) or 3(38) named fiduciary under ERISA with every client. PointOak evaluates over $120 billion in retirement plan assets quarterly.
+            PointOak Retirement Advisors is an SEC-registered, fee-only wealth advisory firm founded in 2017 in McLean, Virginia. Retirement plan consulting and wealth management for the DC/MD/VA metro area and nationwide. Over $1.08 billion in assets under management, over 50 years of collective experience, led by Darsh Makim, CRPC. Named 3(21) and 3(38) ERISA fiduciary since inception. <a href="https://www.pointoak.com/contact/" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Schedule a complimentary consultation</a> or meet <Link href="/our-consulting-team" className="text-medium-blue hover:underline">our consulting team</Link>.
           </p>
         </div>
       </section>
@@ -355,7 +365,7 @@ export default function GlidePathPage() {
       <section className="bg-white py-8">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <p className="text-text-gray font-outfit text-sm leading-relaxed italic text-center">
-            Investment advisory services offered through PointOak Retirement Advisors, LLC. This site is published for residents of the United States only. PointOak Retirement Advisors, LLC does not provide tax or legal advice.
+            <a href="https://www.pointoak.com/contact/" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Schedule a Consultation</a> to start your plan's glide path review.
           </p>
         </div>
       </section>

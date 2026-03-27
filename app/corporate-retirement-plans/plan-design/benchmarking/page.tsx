@@ -8,71 +8,65 @@ import Link from "next/link";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
 
 export const metadata: Metadata = {
-  title: "401(k) Plan Benchmarking | Independent Fiduciary Services | PointOak",
-  description: "Independent 401(k) plan benchmarking protecting plan sponsors from ERISA liability. Live Bid methodology analyzing 450+ data points, fee negotiation, investment analysis. 3(21)/3(38) fiduciary services nationwide.",
+  title: "401(k) Plan Benchmarking | PointOak Retirement Advisors",
+  description: "PointOak reviews 450+ data points per bidder to benchmark your 401(k) fees, investments, and plan design. Named ERISA fiduciary. Schedule a consultation.",
   alternates: {
     canonical: "https://www.pointoak.com/corporate-retirement-plans/plan-design/benchmarking/"
   }
 };
 
 const highlights = [
-  "Independent fiduciary protection through 3(21)/3(38) services",
-  "Live Bid methodology with 450+ data points",
-  "Proven results: 64% to 98% participation improvements"
+  "450+ data points reviewed per plan bidder",
+  "Named 3(21) and 3(38) ERISA fiduciary",
+  "Fee-only fiduciary since 2017"
 ];
 
 const processSteps = [
   {
     number: 1,
-    title: "Initial Consultation and Data Gathering",
-    description: "You&apos;ll share your current plan documents, fee disclosures, and participant demographics with our team. We review your existing provider agreements and plan design to understand your starting point."
+    title: "Analyze",
+    description: "Provide plan documents and current plan assets data for review against peer benchmarks."
   },
   {
     number: 2,
-    title: "Comprehensive Plan Analysis",
-    description: "We analyze your plan fees, investment options, and services against comparable plans of similar size and industry. Our proprietary system evaluates investment returns, expense ratios, and service quality to identify gaps."
+    title: "Optimize",
+    description: "You receive a scored report with prioritized findings and recommendations to determine your next steps."
   },
   {
     number: 3,
-    title: "Live Bid RFP Process",
-    description: "We draft and distribute custom RFPs to qualified providers, collecting actual bids on your specific plan. This generates real pricing data rather than relying on industry averages that may not reflect your situation."
-  },
-  {
-    number: 4,
-    title: "Results Presentation and Recommendations",
-    description: "You&apos;ll receive a detailed presentation comparing your current plan against bidder proposals across all key metrics. We provide specific, actionable recommendations for improving fees, investments, or services while documenting everything for your Virtual 401(k) Fiduciary File."
-  },
-  {
-    number: 5,
-    title: "Implementation Support and Ongoing Monitoring",
-    description: "We work with you to implement approved changes and provide quarterly investment monitoring using our proprietary 10-point scoring system. As your 3(21) or 3(38) fiduciary, we continue protecting you from potential liability through meticulous documentation and regular benchmarking important to compliance."
+    title: "Implement",
+    description: "Your committee acts on recommendations with PointOak's support through provider negotiations and ongoing monitoring."
   }
 ];
 
 const faqs = [
   {
     question: "How much does 401(k) plan benchmarking cost?",
-    answer: "Benchmarking costs vary based on plan complexity, participant count, and scope of analysis. Most independent advisors structure fees as a percentage of plan assets or per-participant charges. At PointOak, we provide transparent pricing during our initial consultation. Our focus is on delivering value that far exceeds our advisory costs through fee reductions, improved investment options, and reduced potential liability from ERISA compliance gaps."
+    answer: "Benchmarking fees vary by plan size, complexity, and the scope of the review. PointOak operates on a fee-only model, which means no commissions, no revenue-sharing arrangements with providers, and no product-based compensation of any kind. The consulting fee is based on plan assets and the scope of the engagement. A fee-only benchmarking review covering recordkeeping and fund costs falls at a different price point than a full 401(k) plan benchmarking engagement with ongoing monitoring, investment review, and design analysis. PointOak's fee-only structure ensures that every recommendation serves your committee's interests rather than generating provider compensation. Schedule a consultation to discuss your plan's scope and receive a transparent fee proposal before any engagement begins."
   },
   {
-    question: "What makes PointOak different from other benchmarking providers?",
-    answer: "We generate over 90% of our revenue from retirement plan work, making us true specialists rather than generalists. Our Live Bid methodology analyzes 450+ data points per bidder using your actual plan information, not industry averages. All our advisors can serve as 3(21) or 3(38) named fiduciaries under ERISA. As an independently owned firm, we have no conflicts of interest from parent company products, ensuring our recommendations serve only your best interest."
+    question: "What's the difference between fee benchmarking and full-plan benchmarking?",
+    answer: "Fee benchmarking reviews costs; full 401(k) plan benchmarking adds design, service, and participant outcomes. Fee benchmarking focuses on recordkeeping and fund expense ratios compared against peer-plan averages. Full-plan benchmarking evaluates those costs alongside auto-features, investment lineup construction, provider service quality, and participation data. For most 401(k) plans, full-plan benchmarking creates a stronger fiduciary record and surfaces improvement opportunities in areas that fee-only reviews do not examine."
   },
   {
-    question: "How often should I benchmark my 401 k plan?",
-    answer: "The DOL recommends formal benchmarking every three years minimum, but industry best practice is annual review. We conduct annual benchmarking studies to ensure your plan fees, investments, and services remain competitive. You should also benchmark after significant plan asset growth, when approaching provider contract renewals, or if you&apos;re concerned about potential liability from ERISA litigation trends. Regular benchmarking important demonstrates your commitment to fiduciary duty."
+    question: "How often should a 401(k) plan be benchmarked?",
+    answer: "Annual benchmarking with a deeper market review every three to five years. Prudent fiduciary practice calls for annual monitoring of fees, investments, and plan metrics to confirm the plan continues to serve participants effectively. Court filings and industry guidance suggest conducting a competitive bid for recordkeeping services every three to five years. PointOak builds ongoing monitoring into its consulting engagements so regular benchmarking efforts function as a continuous process rather than a one-time project."
   },
   {
-    question: "How do I know if my current 401(k) fees are too high?",
-    answer: "Compare your all-in fees to plans of similar size and industry. Research shows plans under $1 million in assets average 1.26% in fees, while plans over $1 billion average just 0.27%. Anything above 1% is generally considered excessive. Review your 408(b)(2) fee disclosures carefully, as many plan sponsors miss indirect fees. Our Live Bid process provides definitive answers by getting actual competitive bids on your specific plan."
+    question: "Is 401(k) benchmarking a fiduciary responsibility?",
+    answer: "Yes; ERISA requires plan fiduciaries to monitor service providers and ensure reasonable expenses. The IRS and DOL both state that fiduciaries must prudently select and monitor providers and confirm plan fees are reasonable for the services received. Hiring an outside advisor does not transfer this responsibility from the committee. A documented benchmarking process provides evidence that the committee is meeting its obligations, and PointOak's fiduciary support services formalize that accountability as a named fiduciary sharing the legal obligation."
   },
   {
-    question: "What&apos;s the difference between benchmarking and an RFP?",
-    answer: "Benchmarking compares your current plan to industry standards using available data. An RFP (Request for Proposal) is a formal process where competing providers submit actual bids to service your plan. Our Live Bid benchmarking combines both approaches, using real RFP responses rather than industry averages for maximum accuracy. This methodology reveals your true competitive position and creates negotiating leverage with your current provider or alternatives."
+    question: "What should you compare when benchmarking a 401(k) plan?",
+    answer: "Compare fees, investments, plan design, provider service, and participant outcomes against peer 401(k) plans. Start with recordkeeping and advisory fees, then evaluate fund expense ratios and performance across the investment menu. Review plan design features including auto-enrollment, auto-escalation, match formulas, and eligibility provisions. Assess provider service and participant engagement. Peer-plan data turns each area into a scored comparison, giving your committee a clear basis for decisions rather than assumptions."
   },
   {
-    question: "Is 401(k) benchmarking required by law?",
-    answer: "ERISA requires plan fiduciaries to ensure fees are reasonable but doesn&apos;t mandate formal benchmarking. However, proving you fulfilled your fiduciary responsibility requires documentation. The DOL suggests benchmarking every 3-5 years, and failure to benchmark is often cited in excessive fee lawsuits. With ERISA litigation up 35% in 2024 and average settlements at $4.6 million, regular benchmarking provides essential liability protection through documented due diligence."
+    question: "Can benchmarking improve participant outcomes beyond reducing fees?",
+    answer: "Yes; benchmarking plan design and auto-features often has a larger impact than fee reduction alone. 401(k) plans that benchmark design against peers can identify where auto-enrollment, escalation, and match structures lag. Research shows these features drive meaningfully higher savings rates over time, helping participants build real retirement security. PointOak's benchmarking evaluates the full plan so committees can act on design improvements and access opportunities that cost reductions alone would never reveal."
+  },
+  {
+    question: "What should a retirement committee document during benchmarking?",
+    answer: "Document provider comparisons, fee reasonableness findings, investment reviews, decisions, and follow-up actions. A prudent-process record should include the data reviewed, peer comparisons used, alternatives considered, decisions made, and the rationale behind each decision. This documentation protects the committee if fiduciary decisions are ever questioned by the DOL or in litigation. PointOak delivers scored benchmarking reports designed specifically for committee files, regulatory review, and ongoing plan management success."
   }
 ];
 
@@ -81,7 +75,7 @@ const jsonLd = {
   "@type": "Service",
   name: "401(k) Plan Benchmarking Services",
   provider: { "@type": "FinancialService", name: "PointOak Retirement Advisors" },
-  serviceType: "Plan Design Benchmarking",
+  serviceType: "Plan Benchmarking",
   areaServed: { "@type": "Country", name: "United States" },
 };
 
@@ -96,10 +90,10 @@ export default function BenchmarkingPage() {
         breadcrumbs={[
           { label: "For Businesses", href: "/corporate-retirement-plans" },
           { label: "Plan Design", href: "/corporate-retirement-plans/plan-design" },
-          { label: "Plan Design Benchmarking" }
+          { label: "Plan Benchmarking" }
         ]}
-        title="401(k) Plan Benchmarking: Protect Your Company and Empower Your Employees"
-        subtitle="Are you certain your retirement plan fees are reasonable and your fiduciary obligations are met? With ERISA litigation surging 35% in 2024 and average settlements reaching $4.6 million, plan sponsors face mounting pressure to prove due diligence. PointOak Retirement Advisors provides comprehensive 401 k plan benchmarking through our independent Live Bid process, analyzing 450+ data points to protect you from liability while strengthening retirement benefits for your employees."
+        title="401(k) Plan Benchmarking: A Fiduciary-First Review Process"
+        subtitle="Plan sponsors face rising scrutiny over retirement plans and growing employee expectations. Morgan Stanley at Work reported in 2025 that 84% of employees believe employers should more actively assist with financial issues. PointOak's 401(k) plan benchmarking process evaluates plan fees, providers, investments, and design to deliver documented, committee-ready findings."
       />
 
       {/* Highlights Bar */}
@@ -116,67 +110,42 @@ export default function BenchmarkingPage() {
         </div>
       </section>
 
-      {/* Why Choose Us */}
+      {/* Benefits Section */}
       <AnimateOnScroll>
       <section className="bg-white py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
-          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
-            Why Choose PointOak for 401(k) Plan Benchmarking Services
-          </h2>
-          <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
-            <p>
-              PointOak has been advising plan sponsors and participants since day one, generating over 90% of our revenue from working with corporate retirement plans. We&apos;re retirement plan specialists, not generalists offering retirement as a sideline. Our advisors are registered and act as fiduciaries under ERISA, serving as either 3(21) or 3(38) named fiduciaries with all clients.
-            </p>
-            <p>
-              What sets our benchmarking process apart is our Live Bid methodology. We perform over 10,000 benchmarks per year, reviewing 450+ data points per bidder using your actual plan information rather than industry averages. This approach delivers data accuracy that beats standard industry benchmarks. Plus, as an independently owned firm, we offer unbiased advice without pressure to push proprietary products of a parent company. Our meticulous, technology-driven process documents everything to help protect you from liability if you get audited.
-            </p>
-          </div>
-        </div>
-      </section>
-      </AnimateOnScroll>
-
-      {/* Our Services */}
-      <AnimateOnScroll>
-      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
-        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-10">
-            Our 401(k) Plan Benchmarking Services
+            Benefits of 401(k) Plan Benchmarking
           </h2>
           <div className="space-y-8">
             <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Live Bid Benchmarking</h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed mb-4">
-                Our Live Bid benchmarking uses your specific plan information rather than average demographics, making our analysis among the most accurate in the industry. We conduct annual custom studies that review over 450 data points per bidder, ensuring you never pay more than you should for plan administration and services.
-              </p>
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Documented Fiduciary Protection</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                This comprehensive approach evaluates your company&apos;s retirement plan across three critical areas: fees, investments, and services. We help you uncover inefficiencies and provide the ammunition to renegotiate better fees or services, or to make a provider switch that benefits your plan participants.
+                Every plan fiduciary carries a legal obligation to monitor providers and confirm that fees remain reasonable relative to the services delivered. IRS guidance makes clear that this duty is ongoing, not a one-time checkbox. A structured benchmarking review creates the documented record your committee needs to demonstrate a prudent process. PointOak&apos;s <Link href="/corporate-retirement-plans/fiduciary-support" className="text-medium-blue hover:underline">fiduciary support</Link> formalizes that record with scored findings tied to plan documents and committee decisions.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Three-Area Benchmark Analysis</h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed mb-4">
-                We benchmark your 401 k plan comprehensively, evaluating plan fees, plan&apos;s investments, and service quality. This ensures you&apos;re meeting your fiduciary responsibility while maintaining competitive retirement benefits that help with attracting talent and employee retention.
-              </p>
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Lower Plan Costs Without Sacrificing Service</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Our analysis examines administrative fees, investment fees, advisory costs, and individual service fees. We compare your plan against meaningful comparisons with similar-sized organizations to ensure compliance with industry standards and identify opportunities for improvement.
+                Fee benchmarking often surfaces overpayment, but reducing expenses at the cost of plan service quality is not a prudent outcome. DOL guidance requires fiduciaries to evaluate whether fees are reasonable in context, not simply whether they are the lowest available. A disciplined review weighs recordkeeping costs, advisory expenses, and fund-level fees against the service quality and plan features your participants receive.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">RFP Management and Provider Comparison</h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed mb-4">
-                We handle the complete drafting and management of Request for Proposal processes when you&apos;re considering alternative service providers. Our team creates side-by-side comparisons of current and bidding providers on both cost and quality, giving you the clarity needed to make informed decisions.
-              </p>
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Stronger Participant Savings Rates</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                This service creates leverage to negotiate better fees or services with your current provider. We evaluate how providers measure against industry averages and best practice standards, ensuring your plan remains a critical component of your employee benefits package.
+                The Plan Sponsor Council of America reported that 64.3% of 401(k) plans used automatic enrollment by the end of 2024. Plans that benchmark design against industry standards, not just plan fees, can pinpoint where auto-features, match formulas, and eligibility provisions lag peers. <Link href="/corporate-retirement-plans/plan-design" className="text-medium-blue hover:underline">Plan design consulting</Link> turns those findings into specific improvements that drive higher participation and savings rates among participants.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Fee Negotiation Support and Market Analysis</h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed mb-4">
-                As required by the DOL, retirement plans should be benchmarked at least every three years to determine reasonableness of fees. We help ensure your plan providers are offering appropriate products and services for your dollars through regular benchmarking and strategic negotiation support.
-              </p>
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">A More Competitive Benefits Package</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Our analysis covers the full spectrum of plan costs, from average fund fees to plan asset growth charges. We review plan documents and 408(b)(2) disclosures to identify all fees, including hidden costs that many plan sponsors miss.
+                Retirement benefits carry real weight in recruitment and retention, particularly as employee expectations around financial wellness continue to rise. Plans that benchmark against peer data can position the benefits package as a differentiator rather than an afterthought. The review identifies where your plan stands on investment options, employer match, and design relative to competitors in your industry and helps attract top talent.
+              </p>
+            </div>
+            <div className="border-l-4 border-medium-blue pl-6">
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Actionable Committee-Level Reporting</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                Generic provider-generated reports rarely give committees the context needed to make decisions. Benchmarking delivers scored comparisons with documented rationale, showing where your plan leads and where it trails. Committees receive a decision-support tool built for diligent oversight, where every finding maps to a specific action or a documented justification for the status quo.
               </p>
             </div>
           </div>
@@ -184,66 +153,146 @@ export default function BenchmarkingPage() {
       </section>
       </AnimateOnScroll>
 
-      {/* Challenges Table */}
+      {/* How It Works */}
+      <AnimateOnScroll>
+      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
+        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
+          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
+            How 401(k) Plan Benchmarking Works
+          </h2>
+          <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
+            <p>
+              A formal benchmarking process evaluates several aspects of your plan against peer data: recordkeeping and advisory fees, <Link href="/corporate-retirement-plans/investment-analysis" className="text-medium-blue hover:underline">investment analysis</Link> covering the investment lineup&apos;s expense ratios and fund performance, plan design features such as auto-enrollment and escalation, and provider service quality. The process produces meaningful comparisons benchmarked against retirement plans of similar size and industry, giving committees the data to separate assumptions from evidence.
+            </p>
+            <p>
+              Benchmarking plan management and design, not just costs, is where measurable differences emerge. Vanguard&apos;s 2025 research found that participants in plans with automatic enrollment plus automatic annual increases save 20-30% more within three years than participants only auto-enrolled. Evaluating design alongside fees and funds reveals the specific levers that drive asset growth and stronger participant outcomes.
+            </p>
+          </div>
+          <div className="mt-8 bg-navy text-white rounded-lg p-6 md:p-8">
+            <p className="font-outfit text-base leading-relaxed">
+              <a href="https://www.pointoak.com/contact/" target="_blank" rel="noopener noreferrer" className="text-warm-gold hover:underline font-semibold">Schedule a consultation</a> to discuss how a benchmarking review can support your committee&apos;s oversight process.
+            </p>
+          </div>
+        </div>
+      </section>
+      </AnimateOnScroll>
+
+      {/* Who Needs It */}
       <AnimateOnScroll>
       <section className="bg-white py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
-            Common 401(k) Plan Benchmarking Challenges
+            Who Needs 401(k) Plan Benchmarking
           </h2>
+          <p className="text-text-gray font-outfit text-base leading-relaxed mb-8">
+            Not every plan needs a full benchmarking engagement right now. These scenarios signal when a review is overdue.
+          </p>
+          <div className="space-y-8">
+            <div className="bg-cloud-blue rounded-lg p-6 md:p-8">
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Your Committee Lacks a Documented Review Process</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                Your company&apos;s retirement plan has no formal benchmarking record, or the last review was conducted more than three years ago. IRS guidance confirms that employers retain fiduciary responsibility for monitoring providers and ensuring plan fees remain reasonable. Without documentation, your committee carries risk it cannot defend in an audit or participant survey.
+              </p>
+            </div>
+            <div className="bg-cloud-blue rounded-lg p-6 md:p-8">
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">You Suspect Fees Are Higher Than They Should Be</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                Recordkeeping, advisory, or fund expenses have never been compared against peer plans through a formal <Link href="/corporate-retirement-plans/provider-and-fee-benchmarking" className="text-medium-blue hover:underline">provider and fee benchmarking</Link> process. Fee reasonableness is not about finding the lowest cost. It requires evaluating whether the money you are spending aligns with the administration services and support delivered to your plan participants.
+              </p>
+            </div>
+            <div className="bg-cloud-blue rounded-lg p-6 md:p-8">
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Participation or Savings Rates Trail Peer Plans</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                Voya reported in 2025 that financially stressed employees who postpone retirement cost employers an average of $51,000 per employee. Weak participation and low deferral rates often signal plan design issues rather than employee disinterest. Benchmarking combined with targeted <Link href="/corporate-retirement-plans/education-and-communications" className="text-medium-blue hover:underline">education and communications programs</Link> can identify where the plan continues to underperform and why.
+              </p>
+            </div>
+            <div className="bg-cloud-blue rounded-lg p-6 md:p-8">
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">A Provider Contract Is Up for Renewal</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                An upcoming renewal is the natural inflection point for competitive evaluation. PLANSPONSOR litigation filings reference a best practice of market-testing recordkeeping services every three to five years. Conducting a benchmarking review before renewal gives your company leverage and documentation regardless of whether you stay or switch.
+              </p>
+            </div>
+            <div className="bg-cloud-blue rounded-lg p-6 md:p-8">
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Your Leadership Wants to Strengthen the Benefits Package</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                Rising employee demand for financial wellness support has made plan quality a recruitment and retention factor. Businesses that benchmark against peers can identify specific gaps in match design, Roth availability, or loan and hardship withdrawal provisions. The findings give leadership a clear picture of where the plan stands and what changes attract talent and protect company profits.
+              </p>
+            </div>
+            <div className="bg-white border-2 border-navy rounded-lg p-6 md:p-8">
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">When benchmarking may not be the right fit</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                Plans launched within the last 12 months or micro-plans with only a few participants may benefit more from initial plan design consulting than a full benchmarking review.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      </AnimateOnScroll>
+
+      {/* Comparison Table */}
+      <AnimateOnScroll>
+      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
+        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
+          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
+            Fee Benchmarking vs. Full-Plan Benchmarking
+          </h2>
+          <p className="text-text-gray font-outfit text-base leading-relaxed mb-8">
+            Both approaches serve important considerations for plan sponsors, but the scope determines what your committee actually learns.
+          </p>
           <div className="overflow-x-auto">
-            <table className="w-full border border-[#F3F4F6]">
+            <table className="w-full border-collapse">
               <thead>
                 <tr className="bg-navy text-white">
-                  <th className="px-6 py-4 text-left font-outfit text-base font-medium">Challenge</th>
-                  <th className="px-6 py-4 text-left font-outfit text-base font-medium">What It Looks Like</th>
-                  <th className="px-6 py-4 text-left font-outfit text-base font-medium">How We Help</th>
+                  <th className="px-4 py-3 text-left font-outfit font-semibold">Dimension</th>
+                  <th className="px-4 py-3 text-left font-outfit font-semibold">Fee Benchmarking</th>
+                  <th className="px-4 py-3 text-left font-outfit font-semibold">Full-Plan Benchmarking</th>
                 </tr>
               </thead>
               <tbody>
-                <tr className="bg-white">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Fee Transparency Issues</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Hidden costs in plan documents make it difficult to identify true all-in costs. Many plan sponsors discover they&apos;re paying significantly above reasonable fees only after comprehensive analysis.</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">We review all fee sources including investment expenses, administrative fees, and indirect compensation. Our analysis uncovers hidden costs and provides clear documentation for fiduciary obligations.</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Scope</td>
+                  <td className="px-4 py-3 text-gray-700">Reviews recordkeeping and fund costs against peer averages</td>
+                  <td className="px-4 py-3 text-gray-700">Adds plan design, provider service, participation, and outcome evaluation</td>
                 </tr>
-                <tr className="bg-cloud-blue">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Interpreting 408(b)(2) Disclosures</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Complex disclosure documents make comparing services provided and costs nearly impossible. Most companies struggle to extract meaningful comparisons from required fee disclosures.</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">We translate disclosure documents into clear cost comparisons. Our three-area benchmark analysis breaks down administrative fees, investment fees, and services in plain language you can use.</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Fee Data</td>
+                  <td className="px-4 py-3 text-gray-700">Compares plan fees to peers; ICI reports 401(k) equity fund avg expense ratio of 0.26% vs 0.40% industrywide in 2024</td>
+                  <td className="px-4 py-3 text-gray-700">Evaluates whether fee levels are reasonable relative to service quality delivered</td>
                 </tr>
-                <tr className="bg-white">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Determining Reasonable Compensation</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Without access to comparable plan data, you can&apos;t verify if fees align with industry standards. The DOL requires reasonable fees but doesn&apos;t define &quot;reasonable.&quot;</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Our Live Bid process uses actual RFP responses from providers bidding on plans like yours. With 10,000+ benchmarks annually, we know what competitive pricing looks like for your plan size.</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Fiduciary Documentation</td>
+                  <td className="px-4 py-3 text-gray-700">Documents fee reasonableness only</td>
+                  <td className="px-4 py-3 text-gray-700">Documents the full prudent-process record IRS and DOL expect from fiduciaries</td>
                 </tr>
-                <tr className="bg-cloud-blue">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Investment Performance Evaluation</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Tracking investment returns and comparing funds against appropriate benchmarks requires specialized knowledge. With 40,000+ funds available, selecting and monitoring becomes overwhelming.</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Our investment methodology evaluates over $120 billion in plan assets quarterly. We use a proprietary 10-point pass/fail scoring system to measure fund performance across multiple factors.</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Plan Design</td>
+                  <td className="px-4 py-3 text-gray-700">Not evaluated</td>
+                  <td className="px-4 py-3 text-gray-700">Reviews auto-features, match, eligibility, and Roth availability against peer benchmarks</td>
                 </tr>
-                <tr className="bg-white">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Plan Design Competitiveness</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">You may not know if your plan features like automatic enrollment or profit sharing align with best practice. Poor plan design directly impacts participation rates and retirement readiness.</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">We benchmark your plan design against similar organizations and industry standards. Our analysis has helped clients increase participation from 64% to 98% through strategic design improvements.</td>
-                </tr>
-                <tr className="bg-cloud-blue">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Provider Service Quality Assessment</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Beyond costs, evaluating service providers requires measuring participant satisfaction, education resources, and compliance support. Many plan sponsors focus only on fees and miss service quality gaps.</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">We evaluate all aspects of services provided, from participant support to compliance assistance. Our comprehensive approach ensures you&apos;re getting value, not just the lowest price.</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Participant Outcomes</td>
+                  <td className="px-4 py-3 text-gray-700">Not evaluated</td>
+                  <td className="px-4 py-3 text-gray-700">Assesses participation rates, savings behavior, and engagement signals</td>
                 </tr>
               </tbody>
             </table>
           </div>
+          <p className="text-text-gray font-outfit text-sm italic mt-6">
+            Sources: <a href="https://www.ici.org/news-release/25-low-expense-ratios-benefit-retirement-savers" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Investment Company Institute</a> 2025, IRS, DOL, PSCA
+          </p>
+          <p className="text-text-gray font-outfit text-base leading-relaxed mt-6">
+            Fee benchmarking is a useful starting point when cost is the immediate concern. Full 401(k) plan benchmarking supports a broader fiduciary standard and uncovers improvement opportunities in design and participant outcomes that fee reviews alone miss. For plans considering investment options like <Link href="/corporate-retirement-plans/target-date-fund-tdf-consulting" className="text-medium-blue hover:underline">target date fund consulting</Link>, the full-plan approach provides the necessary context for evaluating both cost and fit.
+          </p>
         </div>
       </section>
       </AnimateOnScroll>
 
       {/* Our Process */}
       <AnimateOnScroll>
-      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
+      <section className="bg-white py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-10">
-            What To Expect: Our 401(k) Benchmarking Process
+            What To Expect: Our 401(k) Plan Benchmarking Process
           </h2>
           <div className="relative">
             <div className="absolute left-[19px] top-10 bottom-10 w-px bg-[#C1C5C9] hidden sm:block" />
@@ -267,6 +316,25 @@ export default function BenchmarkingPage() {
       </section>
       </AnimateOnScroll>
 
+      {/* Why Choose PointOak */}
+      <AnimateOnScroll>
+      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
+        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
+          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
+            Why Choose PointOak for 401(k) Plan Benchmarking
+          </h2>
+          <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
+            <p>
+              J.P. Morgan reported in 2025 that over half of plan sponsors are unaware of their fiduciary roles and responsibility. PointOak serves as a named 3(21) or 3(38) fiduciary, meaning we share the legal obligation and document your committee&apos;s prudent process. <Link href="/our-consulting-team" className="text-medium-blue hover:underline">Darsh Makim and his team</Link> work directly with your committee, applying the same benchmarking methodology to every engagement regardless of plan size, following <a href="https://www.irs.gov/retirement-plans/retirement-plan-fiduciary-responsibilities" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">IRS fiduciary guidance</a> throughout.
+            </p>
+            <p>
+              PointOak is fee-only and independent, with no commissions, no proprietary products, and no provider affiliations that compromise recommendations. The Live Bid methodology evaluates every bidder against the same multi-point scoring criteria so fiduciaries on your committee receive objective, comparable results in your best interest. That independence is why the findings hold up under scrutiny from the Department of Labor or plan auditors.
+            </p>
+          </div>
+        </div>
+      </section>
+      </AnimateOnScroll>
+
       {/* About */}
       <AnimateOnScroll>
       <section className="bg-white py-12 md:py-16 lg:py-20">
@@ -275,7 +343,7 @@ export default function BenchmarkingPage() {
             About PointOak Retirement Advisors
           </h2>
           <p className="text-text-gray font-outfit text-base leading-relaxed">
-            PointOak Retirement Advisors is an independent retirement plan consulting firm headquartered in McLean, Virginia, serving plan sponsors nationwide. The firm generates over 90% of its revenue from corporate retirement plans and acts as a 3(21) or 3(38) named fiduciary under ERISA with every client. PointOak evaluates over $120 billion in retirement plan assets quarterly.
+            PointOak Retirement Advisors is an independent, fee-only wealth advisory firm founded in 2017 and headquartered in McLean, Virginia. SEC-registered investment advisor with over $1.08 billion in assets under management. Our team brings over 50 years of collective experience serving high-net-worth individuals and corporate plan sponsors nationwide. Learn more <Link href="/about" className="text-medium-blue hover:underline">about PointOak</Link> or call us at (703) 595-4444 to <a href="https://www.pointoak.com/contact/" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">schedule a consultation</a>.
           </p>
         </div>
       </section>
@@ -286,7 +354,7 @@ export default function BenchmarkingPage() {
       <section className="bg-white py-8">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <p className="text-text-gray font-outfit text-sm leading-relaxed italic text-center">
-            Investment advisory services offered through PointOak Retirement Advisors, LLC. This site is published for residents of the United States only. PointOak Retirement Advisors, LLC does not provide tax or legal advice.
+            <a href="https://www.pointoak.com/contact/" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Book a consultation</a> with Darsh and his team to discuss your plan&apos;s benchmarking needs.
           </p>
         </div>
       </section>

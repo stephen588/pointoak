@@ -1,0 +1,31 @@
+Batch 5C - Resources Content Updates - COMPLETE
+
+Completed: March 27, 2026
+
+Updated 3 resource pages with new Surfer SEO content:
+
+1. /app/resources/tax-efficient-investing-strategies/page.tsx
+   - Updated with full Surfer content from resources__tax-efficient-investing-strategies.json
+   - New meta title: "Tax-Efficient Investing Strategies for 2025 | PointOak"
+   - Covers asset location ($112K bequest improvement), harvesting rules, 2026 thresholds
+   - 8 FAQs included
+
+2. /app/resources/independent-ria-vs-wirehouse/page.tsx
+   - Updated with full Surfer content from resources__independent-ria-vs-wirehouse.json
+   - New meta title: "Independent RIA vs. Wirehouse: How to Verify Your Advisor | PointOak"
+   - Covers CFP Board fee definitions, advisor verification steps (Investor.gov, BrokerCheck, Form CRS, Form ADV)
+   - 8 FAQs with HowTo schema markup
+
+3. /app/resources/dc-metro-retirement-planning/page.tsx
+   - Updated with full Surfer content from resources__dc-metro-retirement-planning.json
+   - New meta title: "DC Area Retirement Planning: What 2026 Changes for Virginia, Maryland, and DC | PointOak"
+   - Covers 2026 contribution limits, Social Security updates, state tax comparisons, Medicare costs
+   - 8 FAQs included
+
+All pages follow the existing design patterns from retirement-income-planning-guide reference page.
+All internal links converted to Next.js <Link> components.
+All pages include proper schema markup (Article, FAQPage, BreadcrumbList).
+AnimateOnScroll wrappers maintained.
+Footer component included on all pages.
+
+READY FOR REVIEW.

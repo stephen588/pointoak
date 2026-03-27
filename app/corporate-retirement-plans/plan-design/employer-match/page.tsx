@@ -8,80 +8,86 @@ import Link from "next/link";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
 
 export const metadata: Metadata = {
-  title: "401(k) Employer Match Strategy | Benchmarking & Fiduciary Guidance | PointOak",
-  description: "Expert 401(k) employer match consulting for plan sponsors. Industry-leading benchmarking, safe harbor guidance, and fiduciary protection from matching errors. Independent advice on match formulas that balance cost and competitiveness.",
+  title: "401(k) Employer Match Explained | PointOak",
+  description: "How your 401(k) employer match works, what a strong match looks like, and how to capture every dollar. PointOak can help. Schedule a consultation.",
   alternates: {
     canonical: "https://www.pointoak.com/corporate-retirement-plans/plan-design/employer-match/"
   }
 };
 
 const highlights = [
-  "Independent benchmarking across 10,000+ retirement plans annually",
-  "Named fiduciary protection from costly matching errors",
-  "Custom match formulas aligned with business goals"
+  "Fee-only fiduciary since inception",
+  "Independent, open-architecture advice",
+  "Complimentary consultation, no obligation"
 ];
 
 const processSteps = [
   {
     number: 1,
-    title: "Comprehensive Benchmarking Analysis",
-    description: "You&apos;ll receive a detailed comparison of how your current match formula stacks up against similar-sized companies in your industry. We analyze your specific plan demographics rather than using generic averages."
+    title: "Understand",
+    description: "You share your goals and financial picture with our senior advisors in a complimentary consultation with no obligation."
   },
   {
     number: 2,
-    title: "Cost vs. Competitiveness Assessment",
-    description: "We evaluate the big difference between overly generous matches that strain budgets and insufficient matches that lose you talent. You&apos;ll see exactly where your contribution rate falls and what adjustments make sense."
+    title: "Design",
+    description: "You receive a customized strategy integrating asset allocation, retirement planning, and tax-aware considerations for your situation."
   },
   {
     number: 3,
-    title: "Compliance & Risk Review",
-    description: "Our fiduciaries review your employer&apos;s plan documents to ensure matching calculations align with IRS requirements. We identify operational errors before they become costly corrections requiring income taxes or penalties."
-  },
-  {
-    number: 4,
-    title: "Custom Match Formula Recommendations",
-    description: "You decide which match formula best fits your goals after reviewing our analysis. We provide specific advice on full match, partial match, profit sharing contributions, or hybrid structures."
-  },
-  {
-    number: 5,
-    title: "Ongoing Monitoring & Support",
-    description: "We stay on top of contribution limits, vesting schedules, and regulatory changes. Our Virtual 401(k) Fiduciary Files document everything for audit protection, and you&apos;ll receive annual reviews of your match amount competitiveness."
+    title: "Implement and Monitor",
+    description: "Your financial advisor implements the plan with ongoing monitoring, check-ins, and adjustments as your life changes."
   }
 ];
 
 const faqs = [
   {
-    question: "What is a good 401(k) employer match percentage?",
-    answer: "A good employer match typically ranges from 4% to 6% of employee salary, with the national average at 4.6% to 4.7%. The most common match formula is a 50% partial match on the first 6% of employee contributions, which delivers a 3% employer contribution when employees contribute at least 6%. Dollar for dollar matches on the first 3% to 5% are also considered strong. Your industry, company size, and total compensation package all factor into what constitutes a competitive match for your specific situation."
+    question: "How much do I need to contribute to get the full employer match?",
+    answer: "The deferral percentage required depends entirely on your plan's specific match formula. Most 401(k) plans require you to contribute a stated percentage of your salary before the employer puts money in. Common formulas match a fixed percentage of pay up to a threshold, but the only definitive source is your plan document. PointOak can review your Summary Plan Description and confirm the exact deferral rate needed to claim your full employer match so you are not leaving money behind."
   },
   {
-    question: "Does employer match count toward the 401(k) limit?",
-    answer: "No, employer matching contributions do not count toward the employee&apos;s annual contribution limit of $24,500 for 2026 (or $32,500 with catch-up contributions for those 50 and older). However, all employer contributions do count toward the combined employee and employer limit of $72,000 per year. This means employees can still take full advantage of the employer match even after maxing out their personal deferrals. High earners should note the maximum amount of compensation that can be considered for matching is $350,000 in 2026."
+    question: "What does a 6% 401(k) match actually mean?",
+    answer: "A \"6% match\" can mean different dollar amounts depending on whether your employer matches dollar for dollar or at a partial rate. If your employer contributes 100% on the first 6% of pay, you receive 6% of your salary as a company match. If the formula is 50% on the first 6%, you receive 3%. The difference over a career is substantial. Your plan document is the only place that specifies which formula applies, so check before assuming the higher figure."
   },
   {
-    question: "Can an employer change their 401(k) match?",
-    answer: "Yes, employers can change or even suspend their employer 401 k match, but specific rules apply depending on your plan type. Traditional matches can generally be modified with proper plan amendments and employee communications. Safe harbor matches require at least 30 days&apos; advance notice before mid-year changes, and reducing or suspending a safe harbor match mid-year triggers ADP/ACP testing for that year. Economic downturns often force companies to adjust employer offers, but proper compliance procedures protect you from DOL issues and maintain employee trust."
+    question: "What happens to my employer match if I leave my job?",
+    answer: "Vesting schedules determine how much of the employer match you keep when you separate from the company. Some 401(k) plans vest immediately, meaning every matched dollar is yours from day one. Others use cliff vesting or graded vesting, where ownership increases over time. The IRS permits all three structures. If you are considering a job change, PointOak helps you evaluate your unvested balance and factor it into your rollover decision."
   },
   {
-    question: "Are employers required to offer 401(k) matching?",
-    answer: "No, employer matching contributions are entirely voluntary. However, 98% of companies offer some form of employer contribution because matching is such a valuable benefit for attracting and keeping talent. While there&apos;s no legal requirement to offer a match, competitive pressure drives most employers to include matching in their retirement savings plan. Some employers choose profit sharing contributions or nonelective contributions instead of traditional matching, which can satisfy safe harbor requirements without requiring employees to contribute first."
+    question: "Is a 3% employer match good?",
+    answer: "A 3% match falls below the industry average, though context matters. The average employer match rate sits above 3%, so your 401(k) plan offers less than the typical benchmark. Whether that matters depends on your match formula type, vesting terms, and other retirement benefits your employer offers. A 3% immediate-vesting partial match from a company with profit sharing contributions may deliver more total value than a higher match with a six-year cliff."
   },
   {
-    question: "What is the average 401(k) employer match in 2026?",
-    answer: "The average employer match in 2026 remains around 4.6% to 4.7% of employee compensation, based on recent Vanguard and Fidelity research. The most common match formula is a 50% match on the first 6% of employee salary, which costs employers about 3% when employees participate fully. About 16% of plans use this exact formula. Dollar for dollar matches on the first 3% to 5% are the second most common structure. These averages vary significantly by industry, with technology and finance sectors typically offering higher matches to retain talent."
+    question: "Does a Roth 401(k) still get the employer match?",
+    answer: "Choosing Roth 401(k) deferrals does not reduce your match eligibility. The IRS allows employers to calculate match based on your Roth 401(k) contributions just as they would with traditional pre-tax deferrals. Employer contributions always go into a separate pre-tax account, so you will owe income tax on the match portion when you withdraw it. See the IRS designated Roth account guidance for details. PointOak can model whether Roth or traditional deferrals produce a better after-tax outcome for your situation."
   },
   {
-    question: "Is a 4% employer match competitive for attracting talent?",
-    answer: "A 4% match sits slightly below the national average of 4.6% to 4.7%, which could make it harder to attract top talent if competitors offer more generous matching contributions. However, a 4% match can still be competitive when combined with other strong benefits, immediate vesting, or automatic enrollment features that maximize participation. The bigger picture matters more than the match amount alone. We help you benchmark your total retirement package against similar companies in your industry to determine if your 4% match supports your talent goals or if increasing to 5% or 6% would make a big difference."
+    question: "Why does my employer match seem lower than I expected?",
+    answer: "Several plan mechanics can create a gap between the match you expected and the match you received. The most common causes are the IRS compensation cap for high earners, payroll-period matching with no reconciliation that stops matching once you hit your deferral limit mid-year, and misreading the formula. A partial match of 50% on 6% yields 3%, not 6%. Check your Summary Plan Description for the compensation definition, match formula, and whether a reconciliation provision exists."
+  },
+  {
+    question: "Does maxing out my 401(k) early in the year hurt my employer match?",
+    answer: "In payroll-period plans without reconciliation, front-loading can cost you match dollars. Once your year-to-date deferrals hit the annual limit, your contributions stop and so does the employer match for remaining pay periods. Plans with a reconciliation provision correct this at year end. Plans without one do not. The comparison section earlier on this page explains how to identify which type your 401(k) plan uses and pace your deferrals."
+  },
+  {
+    question: "Where do I find my employer match rules?",
+    answer: "Your Summary Plan Description is the authoritative document for every match rule in your plan. The IRS generally requires employers to provide the SPD within 90 days of your becoming a participant. Look for four sections: match formula, vesting schedule, compensation definition, and any reconciliation or profit sharing policy. If you cannot locate your SPD, request a copy from HR. PointOak reviews these documents to confirm you are reading the terms correctly."
+  },
+  {
+    question: "Can my employer match my student loan payments instead of my 401(k) contributions?",
+    answer: "SECURE 2.0 allows employers to treat qualifying student loan payments as eligible for matching contributions, but very few plans have adopted this feature. The provision applies to plan years beginning after December 31, 2023, but adoption remains extremely low as most employers evaluate administrative requirements. If your employer offers this option, the match on student loan payments follows the same formula and vesting rules as a traditional 401(k) employer match. Check your plan documents to see whether your plan has added this provision."
+  },
+  {
+    question: "Does the employer match count toward the IRS 401(k) contribution limit?",
+    answer: "Employer match dollars do not count against your personal deferral limit. Your elective deferrals are subject to one cap, and total combined contributions from all sources face a separate, higher annual additions limit. The employer contributes match dollars on top of what you defer, not instead of it. Companies that retain talent through generous matching programs structure their 401(k) plans to encourage saving, not discourage it."
   }
 ];
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Service",
-  name: "401(k) Employer Match Strategy Services",
+  name: "401(k) Employer Match Guidance",
   provider: { "@type": "FinancialService", name: "PointOak Retirement Advisors" },
-  serviceType: "Employer Match Consulting",
+  serviceType: "Employer Match Strategy",
   areaServed: { "@type": "Country", name: "United States" },
 };
 
@@ -98,8 +104,8 @@ export default function EmployerMatchPage() {
           { label: "Plan Design", href: "/corporate-retirement-plans/plan-design" },
           { label: "Employer Match Design" }
         ]}
-        title="401(k) Employer Match: Strategic Guidance for Plan Sponsors"
-        subtitle="You&apos;ve set your retirement plan&apos;s employer match, but is it competitive enough to retain talent without straining your budget? PointOak Retirement Advisors helps plan sponsors nationwide design and optimize 401 k employer match formulas that balance cost management with talent attraction, backed by industry-leading benchmarking data and fiduciary expertise."
+        title="401(k) Employer Match: How It Works and How to Capture Every Dollar"
+        subtitle="Millions of workers lose retirement savings by misreading their 401(k) employer match formula or vesting rules. Vanguard reported average employer contributions at 4.6% of pay in 2024, with a median of 4.0%. PointOak Retirement Advisors helps you claim every matching contribution your 401(k) plan offers and build long-term financial security."
       />
 
       {/* Highlights Bar */}
@@ -116,58 +122,42 @@ export default function EmployerMatchPage() {
         </div>
       </section>
 
-      {/* Why Choose Us */}
+      {/* Benefits Section */}
       <AnimateOnScroll>
       <section className="bg-white py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
-          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
-            Why Choose Us for Employer Match Strategy Nationwide
-          </h2>
-          <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
-            <p>
-              PointOak Retirement Advisors generates over 90% of our revenue from corporate retirement plans, making us true retirement plan specialists rather than generalists. Our advisors are registered as 3(21) or 3(38) named fiduciaries under ERISA, serving plan sponsors across the United States with meticulous, technology-driven processes.
-            </p>
-            <p>
-              As an independently owned firm, we provide objective guidance on employer matching contributions without parent company conflicts. Our Live Bid benchmarking process analyzes 450+ data points per provider across 10,000+ plans annually, giving you the ammunition to design a company match that works for your budget and your employees.
-            </p>
-          </div>
-        </div>
-      </section>
-      </AnimateOnScroll>
-
-      {/* Understanding Options */}
-      <AnimateOnScroll>
-      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
-        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-10">
-            Understanding Your 401(k) Employer Match Options
+            Benefits of Understanding Your 401(k) Employer Match
           </h2>
           <div className="space-y-8">
             <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">What Is a 401(k) Employer Match?</h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed mb-4">
-                A 401 k employer match is when your company contributes to employees&apos; retirement accounts based on how much they save. The employer puts money into the 401 k plan alongside employee contributions, creating a powerful incentive for retirement savings. Most companies offer some form of matching contributions, with 98% of 401(k) plans including this valuable benefit.
-              </p>
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Retirement Growth Without Earning More</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                The match works as free money for employees who participate. When an employee contributes a certain percentage of their salary, the employer adds matching funds according to the plan&apos;s match formula. This employer contribution doesn&apos;t count toward the employee&apos;s annual contribution limit of $24,500 (2026), though it does count toward the combined limit of $72,000.
+                A dollar-for-dollar match on your own contributions doubles each deferral&apos;s impact without requiring extra income. Compounding interest then multiplies that company match over decades inside your retirement account, building long-term financial security from money you never had to earn.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Dollar for Dollar Match vs. Partial Match</h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed mb-4">
-                A dollar for dollar match means the employer contributes the full amount of what the employee contributes, typically up to a set percentage of salary. For example, a 100% match on the first 3% means employees get the full employer match when they contribute at least 3% of their pay.
-              </p>
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">A Clear Benchmark for Your Plan&apos;s Match Quality</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                A partial match works differently. The employer contributes a fraction of what employees save. The most common structure is a 50% match on the first 6% of employee contributions. This partial match formula lets you retain talent while managing costs more carefully than a full match.
+                Vanguard found the most common formula in 2024 was 50 cents per dollar on the first 6% of pay, used by 13% of 401(k) plans. Knowing where your full company match ranks against that benchmark helps you evaluate whether your retirement plan deserves a larger share of your investment strategy.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Safe Harbor Match Requirements</h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed mb-4">
-                Safe harbor matching contributions offer automatic compliance with nondiscrimination testing. The basic safe harbor formula requires a 100% match on the first 3% of employee contributions plus a 50% match on the next 2%. Enhanced safe harbor options include a full employer match on the first 4% to 6% of salary.
-              </p>
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Tax-Advantaged Compounding on Employer Dollars</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                All safe harbor matches must be fully vested immediately. There&apos;s no vesting period for these employer&apos;s matching contributions. In exchange for this immediate vesting schedule, your retirement plan becomes exempt from complex ACP testing that traditional matches require.
+                Employer matching contributions grow tax-deferred inside your retirement account, compounding alongside your own deferrals without triggering annual tax bills. That growth continues until you take distributions in retirement. The result is more retirement income generated from money your 401(k) employer contributed on your behalf.
+              </p>
+            </div>
+            <div className="border-l-4 border-medium-blue pl-6">
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Smarter Contribution Timing</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                Front-loading deferrals in 401(k) plans without year-end reconciliation means hitting your limit early and forfeiting 401(k) match dollars in remaining pay periods. Spacing contributions across each payroll period through deliberate financial planning prevents that gap and protects your financial future.
+              </p>
+            </div>
+            <div className="border-l-4 border-medium-blue pl-6">
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Confidence During Job Changes</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                Your vesting schedule determines how much of an employer&apos;s match you keep when you leave. Checking your company&apos;s vesting schedules before resigning can prevent forfeiting thousands. If you are weighing a job change, <a href="https://www.pointoak.com/contact/" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">schedule a consultation</a> to evaluate your unvested balance and rollover options.
               </p>
             </div>
           </div>
@@ -175,66 +165,146 @@ export default function EmployerMatchPage() {
       </section>
       </AnimateOnScroll>
 
-      {/* Challenges Table */}
+      {/* How It Works */}
+      <AnimateOnScroll>
+      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
+        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
+          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
+            How 401(k) Employer Matching Works
+          </h2>
+          <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
+            <p>
+              Your 401(k) employer calculates match dollars each payroll period based on that check&apos;s salary deferrals, not once a year. The IRS sets the 2026 elective deferral limit at $24,500, which caps how much an employee contributes from their own pay. You must defer at least a certain amount each period to trigger employer matching contributions under your plan&apos;s match formulas.
+            </p>
+            <p>
+              Employer match dollars do not count against your $24,500 contribution limits. The IRS caps total annual additions from all sources at $72,000 for 2026, excluding catch-up contributions. High earners whose annual salary exceeds the IRS compensation cap may see their effective match reduced because the formula applies only to eligible compensation.
+            </p>
+          </div>
+          <div className="mt-8 bg-navy text-white rounded-lg p-6 md:p-8">
+            <p className="font-outfit text-base leading-relaxed">
+              <a href="https://www.pointoak.com/contact/" target="_blank" rel="noopener noreferrer" className="text-warm-gold hover:underline font-semibold">Schedule your consultation</a> to get clarity on your 401(k) employer match and contribution limits.
+            </p>
+          </div>
+        </div>
+      </section>
+      </AnimateOnScroll>
+
+      {/* Who Should Review */}
       <AnimateOnScroll>
       <section className="bg-white py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
-            Common Employer Match Challenges for Retirement Plans
+            Who Should Review Their 401(k) Employer Match
           </h2>
+          <p className="text-text-gray font-outfit text-base leading-relaxed mb-8">
+            Not everyone needs to rethink their match strategy. Here is how to know.
+          </p>
+          <div className="space-y-8">
+            <div className="bg-cloud-blue rounded-lg p-6 md:p-8">
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Starting a New Job With a 401(k)</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                Your new employer offers an employer-sponsored retirement plan with an unfamiliar match formula. Setting your deferral rate correctly from your first paycheck means capturing match dollars immediately rather than playing catch-up later.
+              </p>
+            </div>
+            <div className="bg-cloud-blue rounded-lg p-6 md:p-8">
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Not Sure You&apos;re Contributing Enough</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                You enrolled in your retirement savings plan years ago at a round number. Most employers disclose the full match threshold in their benefits guide, but few workers revisit it. One check tells you whether your rate captures every dollar.
+              </p>
+            </div>
+            <div className="bg-cloud-blue rounded-lg p-6 md:p-8">
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Approaching Retirement With Complex Benefits</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                You are coordinating a 401(k) with Social Security timing, a pension, or catch-up contributions. Pre-retirees with employer-sponsored retirement plan benefits across multiple sources need a contribution strategy that accounts for all of them.
+              </p>
+            </div>
+            <div className="bg-cloud-blue rounded-lg p-6 md:p-8">
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Changing Jobs and Evaluating a Rollover</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                Unvested match dollars disappear if your vesting schedule has not matured when you leave. Weighing your current plan&apos;s remaining match value against a new employer&apos;s formula and deciding how to roll over your own money requires professional guidance.
+              </p>
+            </div>
+            <div className="bg-cloud-blue rounded-lg p-6 md:p-8">
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">High Earner Hitting Compensation Limits</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                Your pay exceeds the IRS compensation cap, reducing your effective 401(k) match below what the formula suggests. A Roth 401(k) or after-tax money strategy could change the math, but only if modeled against your retirement savings goals.
+              </p>
+            </div>
+            <div className="bg-white border-2 border-navy rounded-lg p-6 md:p-8">
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">When PointOak May Not Be the Right Fit</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                If you already work with a <a href="https://www.pointoak.com/about/" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">fee-only fiduciary</a> who reviews your 401(k) annually and coordinates it with your broader financial plan, you are likely well-covered. PointOak requires $500,000 in investable assets.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      </AnimateOnScroll>
+
+      {/* Comparison Table */}
+      <AnimateOnScroll>
+      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
+        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
+          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
+            Payroll-Period Matching vs. Annual Reconciliation
+          </h2>
+          <p className="text-text-gray font-outfit text-base leading-relaxed mb-8">
+            Both payroll-period and reconciliation plans calculate match dollars differently, and your contribution strategy should reflect which rules apply. Your summary plan description specifies the method.
+          </p>
           <div className="overflow-x-auto">
-            <table className="w-full border border-[#F3F4F6]">
+            <table className="w-full border-collapse">
               <thead>
                 <tr className="bg-navy text-white">
-                  <th className="px-6 py-4 text-left font-outfit text-base font-medium">Challenge</th>
-                  <th className="px-6 py-4 text-left font-outfit text-base font-medium">What It Looks Like</th>
-                  <th className="px-6 py-4 text-left font-outfit text-base font-medium">How We Help</th>
+                  <th className="px-4 py-3 text-left font-outfit font-semibold">Feature</th>
+                  <th className="px-4 py-3 text-left font-outfit font-semibold">Payroll-Period Matching</th>
+                  <th className="px-4 py-3 text-left font-outfit font-semibold">Annual Reconciliation</th>
                 </tr>
               </thead>
               <tbody>
-                <tr className="bg-white">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Balancing Cost vs. Competition</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Your match formula seems expensive, but reducing it might cost you valuable employees who leave money on the table at competitors offering better retirement accounts.</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">We benchmark your employer contribution against industry standards using Live Bid data from 10,000+ plans. You&apos;ll know if you&apos;re overpaying or risking talent loss.</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">How match is calculated</td>
+                  <td className="px-4 py-3 text-gray-700">Per-paycheck based on that period&apos;s deferral</td>
+                  <td className="px-4 py-3 text-gray-700">Year-end reconciliation against total annual deferrals</td>
                 </tr>
-                <tr className="bg-cloud-blue">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">ACP Testing Failures</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Highly compensated employees can&apos;t get the full company match because your traditional match failed nondiscrimination testing, requiring corrective distributions and frustrated participants.</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Our fiduciary support services help you evaluate safe harbor options that eliminate testing. We compare the true up cost against testing headaches.</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Risk of missing match dollars</td>
+                  <td className="px-4 py-3 text-gray-700">High if you front-load or pause contributions</td>
+                  <td className="px-4 py-3 text-gray-700">Low because shortfalls are corrected at year end</td>
                 </tr>
-                <tr className="bg-white">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Operational Errors</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Matching calculations use the wrong definition of compensation, or contributions post to the wrong pay period, creating liability exposure and correction requirements.</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">As 3(21) or 3(38) named fiduciaries, we oversee your match administration and catch errors before DOL audits. Our process documentation protects you.</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Vesting rules</td>
+                  <td className="px-4 py-3 text-gray-700">44.1% used immediate vesting in 2024 (PSCA); rest vest over a set vesting period</td>
+                  <td className="px-4 py-3 text-gray-700">Same vesting schedules apply; check whether you are fully vested before changing jobs</td>
                 </tr>
-                <tr className="bg-cloud-blue">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Mid-Year Match Changes</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Economic pressure forces you to consider suspending employer offers temporarily, but you&apos;re unsure about compliance requirements and the impact on employee morale.</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">We guide you through proper notice requirements (30+ days for safe harbor changes) and help you understand testing implications when you leave money in the plan.</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Best for which saver</td>
+                  <td className="px-4 py-3 text-gray-700">Steady contributor with even deferrals across every pay period</td>
+                  <td className="px-4 py-3 text-gray-700">Variable-income earner or aggressive saver who may front-load</td>
                 </tr>
-                <tr className="bg-white">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Vesting Schedule Complexity</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">You want to use vesting to retain talent, but safe harbor matches require immediate vesting. Choosing between retention tools and compliance simplicity is confusing.</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Our plan design consulting evaluates whether traditional matches with vesting periods make sense for your turnover rates, or if safe harbor&apos;s automatic deductions benefit outweighs the loss of vesting.</td>
-                </tr>
-                <tr className="bg-cloud-blue">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Roth Match Confusion</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">SECURE 2.0 now allows Roth matching contributions, but you&apos;re uncertain if offering this option complicates payroll or provides enough value to employees.</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">We help you assess whether a Roth account option for matching fits your employee demographics and explain the investment options and tax implications clearly.</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Where to verify your plan&apos;s rules</td>
+                  <td className="px-4 py-3 text-gray-700">Match formula section of your plan&apos;s SPD or your employer&apos;s plan documents</td>
+                  <td className="px-4 py-3 text-gray-700">HR benefits team can confirm whether a reconciliation provision exists</td>
                 </tr>
               </tbody>
             </table>
           </div>
+          <p className="text-text-gray font-outfit text-sm italic mt-6">
+            Sources: IRS plan disclosure guidance; PSCA 68th Annual 401(k) Survey 2025.
+          </p>
+          <p className="text-text-gray font-outfit text-base leading-relaxed mt-6">
+            Reconciliation protects workers who front-load or earn variable income, while payroll-period plans reward steady deferrals across every check. PSCA reported 1.9% of plans matched student loan payments in 2024, a sign that matching funds and plan&apos;s rules keep growing more complex. Read the <a href="https://www.irs.gov/retirement-plans/plan-disclosure-documents-understanding-your-employers-retirement-plan" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">IRS plan disclosure guidance</a> to locate your basic match formula.
+          </p>
         </div>
       </section>
       </AnimateOnScroll>
 
       {/* Our Process */}
       <AnimateOnScroll>
-      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
+      <section className="bg-white py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-10">
-            What To Expect: Our Employer Match Optimization Process
+            What to Expect: Our Retirement Planning Process
           </h2>
           <div className="relative">
             <div className="absolute left-[19px] top-10 bottom-10 w-px bg-[#C1C5C9] hidden sm:block" />
@@ -258,6 +328,25 @@ export default function EmployerMatchPage() {
       </section>
       </AnimateOnScroll>
 
+      {/* Why Choose PointOak */}
+      <AnimateOnScroll>
+      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
+        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
+          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
+            Why Choose PointOak for 401(k) Guidance
+          </h2>
+          <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
+            <p>
+              &quot;I just need the formula.&quot; That reaction is common, but a formula does not reveal whether your 401(k) plan has a reconciliation provision, how your employer&apos;s plan documents define eligible compensation, or what happens to unvested match dollars when you change jobs. PointOak&apos;s team has reviewed match formulas, vesting schedules, and plan designs from the plan sponsor side since 2005.
+            </p>
+            <p>
+              We are a fee-only fiduciary with no commissions and no proprietary products. Our <a href="https://www.pointoak.com/" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">wealth management services</a> coordinate your Roth account and 401(k) with your broader financial picture, including tax-aware strategies built with your CPA. <a href="https://www.pointoak.com/contact/" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Schedule a complimentary consultation</a> or call (703) 595-4444.
+            </p>
+          </div>
+        </div>
+      </section>
+      </AnimateOnScroll>
+
       {/* About */}
       <AnimateOnScroll>
       <section className="bg-white py-12 md:py-16 lg:py-20">
@@ -266,7 +355,7 @@ export default function EmployerMatchPage() {
             About PointOak Retirement Advisors
           </h2>
           <p className="text-text-gray font-outfit text-base leading-relaxed">
-            PointOak Retirement Advisors is an independent retirement plan consulting firm headquartered in McLean, Virginia, serving plan sponsors nationwide. The firm generates over 90% of its revenue from corporate retirement plans and acts as a 3(21) or 3(38) named fiduciary under ERISA with every client. PointOak evaluates over $120 billion in retirement plan assets quarterly.
+            PointOak Retirement Advisors is a fee-only fiduciary wealth advisory firm founded in 2017 and headquartered in McLean, Virginia, serving high-net-worth individuals and corporate plan sponsors nationwide as an SEC-registered investment advisor. Our team brings over 50 years of collective experience managing over $1.08 billion in assets, led by founder Darsh Makim, CRPC, who has worked with plan sponsors and participants since 2005. <a href="https://www.pointoak.com/contact/" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Schedule your consultation</a>.
           </p>
         </div>
       </section>
@@ -277,7 +366,7 @@ export default function EmployerMatchPage() {
       <section className="bg-white py-8">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <p className="text-text-gray font-outfit text-sm leading-relaxed italic text-center">
-            Investment advisory services offered through PointOak Retirement Advisors, LLC. This site is published for residents of the United States only. PointOak Retirement Advisors, LLC does not provide tax or legal advice.
+            <a href="https://www.pointoak.com/contact/" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Book a consultation</a> with PointOak to confirm every employer match dollar is reaching your retirement account.
           </p>
         </div>
       </section>

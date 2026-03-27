@@ -4,85 +4,134 @@ import PageHero from "@/components/PageHero";
 import ServiceDetailFAQ from "@/components/ServiceDetailFAQ";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
-import Image from "next/image";
+import Link from "next/link";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
 
 export const metadata: Metadata = {
-  title: "401(k) Rollover Guide | PointOak Retirement Advisors",
-  description: "Navigate job transitions and retirement account consolidation with tax-smart rollover strategies and multi-year Roth conversion planning. Independent fiduciary guidance from PointOak.",
+  title: "401(k) Rollover and Roth Conversion Planning | PointOak",
+  description: "PointOak helps high-net-worth clients evaluate rollover options and model Roth conversion tax effects. Fee-only fiduciary. Schedule a complimentary consultation.",
   alternates: {
     canonical: "https://www.pointoak.com/services/401k-rollovers-roth-conversions/"
   }
 };
 
 const highlights = [
-  "20% mandatory withholding avoided via direct rollover (IRS)",
-  "$1,711,975 IRA bankruptcy exemption, effective April 1, 2025",
-  "Independent, fiduciary-led guidance with full documentation"
+  "Fee-only, zero commissions or proprietary products",
+  "SEC-registered fiduciary since 2017",
+  "Complimentary 30-45 minute initial consultation"
+];
+
+const benefitsData = [
+  {
+    title: "Clarity on Which Move Saves You More",
+    description: "A rollover preserves tax-deferred growth. A Roth conversion triggers income taxes on pre-tax money the year you convert. Which move saves more depends on your current tax bracket, projected retirement income, and whether tax-free Roth access outweighs today's bill."
+  },
+  {
+    title: "Protection from Social Security and Medicare Tax Surprises",
+    description: "IRS Publication 915 confirms that up to 85% of Social Security benefits become taxable income once combined income exceeds certain thresholds. A poorly sized Roth conversion pushes you past those thresholds and increases Medicare premiums two years later through IRMAA surcharges."
+  },
+  {
+    title: "A Strategy for Paying Taxes on Your Terms",
+    description: "Converting your entire balance in one year spikes your tax rate and triggers secondary costs. Partial Roth IRA conversions spread across multiple years let you fill lower brackets strategically, reducing future taxes on those funds. Our approach to retirement planning makes bracket management a multi-year discipline."
+  },
+  {
+    title: "A Wider Conversion Window Before RMDs Begin",
+    description: "Under IRS Publication 590-B, required minimum distributions from traditional IRAs begin after age 73. The years between retirement and that deadline are your prime conversion window, when taxable income drops before Social Security and RMDs overlap. Tax-free withdrawals from Roth funds then replace income from tax-deferred retirement accounts."
+  },
+  {
+    title: "Fewer Irreversible Mistakes",
+    description: "Roth conversions cannot be undone once the tax year closes. Withdrawn tax-free distributions only deliver their tax advantage if the conversion was sized and timed correctly. PointOak's corporate retirement plan background means your review draws on thousands of participant scenarios before you convert."
+  }
 ];
 
 const processSteps = [
   {
     number: 1,
-    title: "Analyze",
-    description: "We review your employer&apos;s retirement plan, fees, investment products, and distribution notice to map your starting position."
+    title: "Understand",
+    description: "We review your retirement accounts, tax situation, and goals to clarify your rollover and conversion options."
   },
   {
     number: 2,
-    title: "Map Your Rollover Options",
-    description: "We compare rollover options across the receiving plan, traditional ira, roth ira, and staying put, with tax benefits and protection factors documented."
+    title: "Design",
+    description: "We build a multi-year strategy covering conversion sizing, bracket management, and coordination with your CPA."
   },
   {
     number: 3,
-    title: "Coordinate Tax Implications",
-    description: "We identify income taxes, tax rate, and withholding exposure for your specific situation and connect you with your tax professional or tax advisor for execution."
+    title: "Implement and Monitor",
+    description: "We execute transfers to your new account at the right financial institution and monitor results annually."
+  }
+];
+
+const whoNeedsData = [
+  {
+    title: "You Left a Job with an Unmanaged 401(k)",
+    description: "Your old 401 k in a former employer's retirement plan sits disconnected from your financial life. Without a rollover strategy, retirement funds risk early withdrawal penalty or misallocation across outdated investment options."
   },
   {
-    number: 4,
-    title: "Implement and Document",
-    description: "We guide the trustee to trustee transfer, confirm receipt at the financial institution, and maintain your documentation for audit protection."
+    title: "You Are Within Five Years of Retirement",
+    description: "Pre-tax balances are large and the conversion window is shrinking. Required minimum distributions, Social Security timing, and Medicare decisions are converging, and modeling those interactions now prevents costly overlap."
+  },
+  {
+    title: "You Are Frustrated with Conflicted Advice",
+    description: "A wirehouse advisor recommended an IRA without addressing Rule of 55 access or institutional pricing from your employer-sponsored retirement plan. Independence matters when advice shapes whether you pay income tax now or later."
+  },
+  {
+    title: "You Received a Large Distribution or Inheritance",
+    description: "A sudden liquidity event demands coordinated placement of retirement funds and decisions about which accounts to withdraw funds from first. IRA rollover choices grow complex when matching contributions or catch-up contributions are involved."
+  },
+  {
+    title: "You Want One Advisor Who Sees the Full Picture",
+    description: "Multiple accounts with no coordinated strategy creates blind spots. Our senior advisors review every account and tax implication, ensuring rollover contributions and Roth contributions align with your goals."
   }
 ];
 
 const faqs = [
   {
-    question: "Do you pay taxes on a 401(k) rollover?",
-    answer: "A direct rollover avoids all withholding; an indirect rollover triggers 20% mandatory withholding on the entire distribution. The IRS requires you to roll over the entire distribution to keep it tax deferred, not just the net amount you received (IRS Topic 413). You must replace the withheld funds from other sources within 60 days or owe income taxes on the shortfall, plus a possible early withdrawal penalty before age 59."
+    question: "How much does 401(k) rollover and Roth conversion planning cost?",
+    answer: "PointOak charges a fee-only, asset-based advisory fee with no commissions. The fee varies by account size and complexity, with minimum amounts set at $500,000 in investable assets. Your initial complimentary consultation typically runs 30-45 minutes with no obligation. PointOak does not earn commissions or sell proprietary products, so the fee you pay is the only compensation the firm receives. Come prepared with your most recent account statements and any questions about your rollover or conversion options."
   },
   {
-    question: "Is it better to roll a 401(k) to an IRA or a new employer plan?",
-    answer: "The right answer depends on creditor protection, investment strategies, and whether the receiving plan accepts rollovers. Rolling to a traditional ira expands investment products and simplifies tax planning, but ERISA creditor protection does not transfer. IRA protection is capped at $1,711,975 federally (Federal Register, 2025). New employer plans preserve ERISA protections if the plan administrator confirms the plan accepts incoming funds, which is not guaranteed."
+    question: "What is the difference between a 401(k) rollover and a Roth conversion?",
+    answer: "A rollover moves money between accounts; a Roth conversion changes the tax treatment. A rollover to a traditional IRA or new employer plan keeps the money tax-deferred. A Roth conversion moves pre-tax funds into a Roth IRA and triggers income tax on the converted amount that year. The two moves serve different goals and carry different tax consequences, which is why PointOak evaluates both options together as part of a coordinated strategy."
   },
   {
-    question: "Can I undo a Roth IRA conversion?",
-    answer: "No. The IRS permanently prohibited recharacterization of Roth conversions effective January 1, 2018. Since 2018, the converted amount becomes part of your ordinary income for the conversion year and cannot be reversed (IRS IRA FAQs). PointOak recommends multi-year, bracket-managed roth ira conversion planning so you control the impact on your current bracket and owe taxes in smaller increments over time."
+    question: "Is rollover and conversion planning a one-time decision or an ongoing strategy?",
+    answer: "For most high-net-worth clients, conversion planning spans multiple tax years. An initial rollover may be a single event, but Roth conversion sizing depends on income, tax brackets, and Medicare thresholds that shift year to year. PointOak's senior advisors monitor these variables and adjust the conversion pace at each review so the strategy stays aligned with your changing financial picture."
   },
   {
-    question: "What is the difference between a direct rollover and a 60-day rollover?",
-    answer: "A direct rollover moves funds trustee to trustee with no withholding; a 60-day rollover pays you first and triggers mandatory withholding. In a direct rollover, the plan administrator sends funds made payable to the new account, bypassing the 20% withholding rule. In a 60-day rollover, you receive the funds and have 60 days to redeposit the entire distribution, including replacing the withheld taxes from your own funds."
+    question: "What are my options for an old 401(k)?",
+    answer: "You can leave it, roll it to a new IRA, move it to a new employer plan, or cash out. Each option carries different tax, access, and cost implications. Leaving money in a former employer's plan may preserve Rule of 55 access and creditor protection under ERISA. Cashing out usually triggers taxes and a potential penalty that permanently reduces the balance."
   },
   {
-    question: "What happens if I do nothing with my old 401(k)?",
-    answer: "The plan administrator may automatically roll balances of $1,000 to $5,000 into an IRA in your name if you make no election. The IRS states that plan administrators may deposit balances of $1,000 to $5,000 into an automatic IRA if no election is made (IRS). Balances under $1,000 may be distributed as cash, triggering income taxes and an early withdrawal penalty before age 59."
+    question: "When does a Roth conversion make sense?",
+    answer: "It often makes sense in lower-income years before required minimum distributions begin. Converting during years when taxable income is temporarily low lets you fill a lower bracket with conversion income. Early retirement, a gap year between jobs, or a year with unusually large deductions can all create windows. The key is modeling the full impact on your taxes, Medicare premiums, and Social Security rather than looking at the current-year bill alone."
   },
   {
-    question: "How many IRA rollovers can I do per year?",
-    answer: "Only one IRA-to-IRA rollover is allowed per 12-month period regardless of how many IRAs or retirement accounts you hold. Beginning after January 1, 2015, the IRS limits IRA-to-IRA rollovers to one per year across all of your IRAs (IRS). Direct trustee to trustee transfers are not subject to this rule, which is why PointOak&apos;s process favors direct transfers. Violating the one-rollover rule makes the second rollover a taxable distribution."
+    question: "How much tax will I owe on a Roth conversion?",
+    answer: "You owe income tax on the pre-tax amount you convert, calculated at your marginal rate. The converted amount is added to your other taxable income for the year, and that total determines your bracket. A large conversion in a high-income year pushes you into a higher bracket and affects Medicare premiums two years later. PointOak models these interactions before recommending a conversion amount for any given year."
   },
   {
-    question: "Does a Roth IRA conversion reduce future required minimum distributions?",
-    answer: "Yes. Roth IRAs carry no annual required minimum distributions during the owner&apos;s lifetime, removing taxable income after age 73. Roth IRA accounts are exempt from required minimum distributions rmds during the owner&apos;s lifetime, and SECURE 2.0 sets the RMD starting age at 73 (IRS, 2023). Converting pre tax balances before RMDs begin reduces ordinary income and income taxes you would owe each year, a key benefit for high earners expecting a higher bracket in retirement."
+    question: "Can a Roth conversion increase my Medicare premiums?",
+    answer: "Yes, because Medicare uses a two-year income lookback to set premiums. A conversion that raises your modified adjusted gross income above certain thresholds triggers Income-Related Monthly Adjustment Amounts for Parts B and D. The premium increase applies two years after the conversion year, which means a 2025 conversion affects your 2027 premiums. Planning conversion size around these brackets is a core part of what PointOak evaluates during each annual review."
   },
   {
-    question: "Can after-tax 401(k) money roll to a Roth IRA without taxes on earnings?",
-    answer: "Yes, under IRS Notice 2014-54, after tax contributions can roll to a Roth IRA while pre tax earnings roll to a traditional IRA. IRS Notice 2014-54 permits a split rollover: after tax contributions roll to a roth ira tax free while pre tax earnings roll to a traditional ira to grow tax deferred (IRS, 2014). This tax smart strategy lets participants take advantage of tax free growth on roth ira contributions without triggering ordinary income taxes on the full account balance."
+    question: "Does rolling a Roth 401(k) into a Roth IRA start a new 5-year clock?",
+    answer: "It depends on whether you already have a Roth IRA with prior contributions. If you have an existing Roth IRA with Roth IRA contributions predating the rollover, the 5-year clock for qualified distributions runs from that earlier contribution date. If the Roth IRA is new, the clock starts when you open it. This is one reason timing and account structure matter in rollover execution, and why reviewing the full picture before moving funds avoids unintended waiting periods."
+  },
+  {
+    question: "Can I undo a Roth conversion if I change my mind?",
+    answer: "No. Roth conversions made since 2018 are permanent and cannot be reversed. The IRS eliminated the recharacterization option for Roth conversions starting January 1, 2018. Once funds move to a Roth IRA and the tax year closes, the conversion stands regardless of market performance or changes in your circumstances. This is why PointOak stress-tests the numbers before a client converts."
+  },
+  {
+    question: "Can a Roth conversion make more of my Social Security taxable?",
+    answer: "Yes, because conversion income counts toward provisional income thresholds. Conversion income pushes combined income above the levels where Social Security benefits become partially or substantially taxable. This interaction is one of the secondary effects that most advisory pages overlook entirely. A year-by-year conversion plan accounts for the relationship between conversion amounts and Social Security taxation so you do not inadvertently create a higher overall tax burden."
   }
 ];
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Service",
-  "name": "401(k) Rollover Services",
+  "name": "401(k) Rollover and Roth Conversion Planning",
   "provider": {
     "@type": "FinancialService",
     "name": "PointOak Retirement Advisors"
@@ -121,12 +170,12 @@ const breadcrumbJsonLd = {
       "@type": "ListItem",
       "position": 2,
       "name": "For Individuals & Families",
-      "item": "https://www.pointoak.com/services/"
+      "item": "https://www.pointoak.com/for-individuals-families/"
     },
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "401(k) Rollovers & Roth Conversions",
+      "name": "401(k) Rollover and Roth Conversion Planning",
       "item": "https://www.pointoak.com/services/401k-rollovers-roth-conversions/"
     }
   ]
@@ -135,7 +184,7 @@ const breadcrumbJsonLd = {
 const howToJsonLd = {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "Our Rollover Process",
+  "name": "Our 401(k) Rollover and Roth Conversion Planning Process",
   "step": processSteps.map((step, idx) => ({
     "@type": "HowToStep",
     "position": idx + 1,
@@ -147,20 +196,32 @@ const howToJsonLd = {
 export default function RolloversConversionsPage() {
   return (
     <main className="min-h-screen">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToJsonLd) }} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToJsonLd) }}
+      />
 
       <Header />
 
       <PageHero
         breadcrumbs={[
-          { label: "For Individuals & Families", href: "/services" },
-          { label: "401(k) Rollovers & Roth Conversions" }
+          { label: "For Individuals & Families", href: "/for-individuals-families" },
+          { label: "401(k) Rollover and Roth Conversion Planning" }
         ]}
-        title="401(k) Rollover: Rules, Options, and Roth Conversion Strategies"
-        subtitle="Moving retirement savings out of your employer&apos;s retirement plan is only tax deferred if executed correctly. The IRS requires 20% mandatory withholding on any eligible rollover distribution paid directly to you, even if you intend to roll over every dollar (IRS Topic 413). PointOak&apos;s independent advisory services help plan sponsors and participants protect their retirement accounts."
+        title="401(k) Rollover and Roth Conversion Planning"
+        subtitle="A 401(k) rollover mistake costs more than one year's taxes: it costs decades of compounding. PointOak Retirement Advisors helps high-net-worth clients evaluate rollover options and model Roth conversion tax effects."
       />
 
       {/* Highlights Bar */}
@@ -179,183 +240,176 @@ export default function RolloversConversionsPage() {
         </div>
       </section>
 
-      {/* How 401(k) Rollovers Work */}
+      {/* Benefits of 401(k) Rollover and Roth Conversion Planning */}
+      <AnimateOnScroll>
+      <section className="bg-white py-12 md:py-16 lg:py-20">
+        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
+          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-10">
+            Benefits of 401(k) Rollover and Roth Conversion Planning
+          </h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            {benefitsData.map((benefit, idx) => (
+              <div key={idx} className="bg-white rounded-lg p-6 md:p-8 shadow-sm border border-gray-100">
+                <h3 className="text-navy font-outfit text-xl font-semibold mb-3">
+                  {benefit.title}
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  {benefit.description}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+      </AnimateOnScroll>
+
+      {/* How 401(k) Rollovers and Roth Conversions Work */}
+      <AnimateOnScroll>
+      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
+        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
+          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
+            How 401(k) Rollovers and Roth Conversions Work
+          </h2>
+          <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
+            <p>
+              A direct rollover (also called a trustee-to-trustee transfer) moves pre-tax money from one retirement account to another without triggering current taxes. A Roth conversion moves pre-tax funds into a Roth IRA, making the converted amount taxable in the conversion year. The distinction determines whether you owe taxes now or later.
+            </p>
+            <p>
+              Under <a href="https://www.irs.gov/retirement-plans/plan-participant-employee/rollovers-of-retirement-plan-and-ira-distributions" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:text-navy underline">IRS rollover rules</a>, non-direct eligible rollover distributions face 20% mandatory federal tax withholding from your plan administrator. To transfer funds in full, you must replace the withheld amount within 60 days or the shortfall becomes taxable. Converting money from a pre-tax account to a Roth IRA requires coordination with your tax advisor to manage immediate tax obligations.
+            </p>
+            <p>
+              <Link href="/contact" className="text-medium-blue hover:text-navy underline">Schedule a complimentary consultation</Link> to review your rollover and Roth conversion options.
+            </p>
+          </div>
+        </div>
+      </section>
+      </AnimateOnScroll>
+
+      {/* Who Needs 401(k) Rollover and Roth Conversion Planning */}
       <AnimateOnScroll>
       <section className="bg-white py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
-            How 401(k) Rollovers Work
+            Who Needs 401(k) Rollover and Roth Conversion Planning
           </h2>
-          <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
-            <p>
-              The IRS recognizes two execution paths. A direct rollover sends funds from your plan administrator to the receiving plan or new account as a trustee to trustee transfer, bypassing withholding entirely. An indirect rollover cuts a check made payable to you, triggering 20% mandatory withholding on the entire distribution, even when you plan to redeposit every dollar.
-            </p>
-            <p>
-              With an indirect approach, you have 60 days to redeposit the funds and must replace the withheld amount out of pocket or owe taxes on the shortfall. Beginning after January 1, 2015, only one IRA-to-IRA rollover is permitted in any 12-month period regardless of how many other IRAs or retirement accounts you hold (IRS). Trustee to trustee transfers do not count against this limit.
-            </p>
-          </div>
-        </div>
-      </section>
-      </AnimateOnScroll>
-
-      {/* Image Break */}
-      <AnimateOnScroll variant="fade">
-      <section className="bg-cloud-blue py-4">
-        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
-          <div className="relative w-full h-[300px] md:h-[400px] rounded-lg overflow-hidden">
-            <Image
-              src="/images/asset-advisor-05.png"
-              alt="Financial advisor consulting with client on 401(k) rollover options"
-              fill
-              className="object-cover object-[center_25%]"
-              sizes="(max-width: 1170px) 100vw, 1170px"
-            />
-          </div>
-        </div>
-      </section>
-      </AnimateOnScroll>
-
-      {/* Your 401(k) Rollover Options */}
-      <AnimateOnScroll>
-      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
-        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
-          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-10">
-            Your 401(k) Rollover Options
-          </h2>
-          <p className="text-text-gray font-outfit text-base leading-relaxed mb-8">
-            Four main options exist when you leave an employer. The right choice depends on creditor protection needs, investment goals, and plan acceptance.
+          <p className="text-text-gray font-outfit text-base leading-relaxed mb-10">
+            Your best move depends on your situation. These scenarios show where professional modeling matters most.
           </p>
 
           <div className="space-y-8">
-            <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">
-                Leave It in Your Old Plan
-              </h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed">
-                ERISA-qualified retirement plans provide unlimited federal creditor protection and may allow penalty free access for participants who leave at age 55 or older, avoiding the early withdrawal penalty before age 59. If your old plan has low-cost investment products and you remain actively employed at a second employer, staying put can preserve valuable features.
-              </p>
-            </div>
-
-            <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">
-                Roll Over to a Traditional IRA
-              </h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Moving ira money to a traditional ira lets assets grow tax deferred in a new account with broader investment strategies and investment products. IRA bankruptcy protection is capped at $1,711,975 under federal law (Federal Register, 2025), a concrete tradeoff versus ERISA-plan creditor protection that every rollover decision should weigh.
-              </p>
-            </div>
-
-            <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">
-                Roll Over to a New Employer Plan
-              </h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed">
-                A new plan keeps funds inside a qualified retirement plan with ERISA protections and plan loan eligibility. The receiving plan is not required to accept rollovers, so confirm acceptance with the plan administrator first. 403(b) plans and simple IRAs each have separate eligibility rules for incoming rollover funds.
-              </p>
-            </div>
-
-            <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">
-                Cash Out
-              </h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Cashing out triggers ordinary income taxes, a possible 10% early withdrawal penalty before age 59, and permanent loss of tax deferred growth. EBRI estimates cashouts cost savers $60 billion to $105 billion annually (EBRI, 2022). It is rarely the right move when rollover options exist.
-              </p>
-            </div>
+            {whoNeedsData.map((item, idx) => (
+              <div key={idx}>
+                <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">
+                  {item.title}
+                </h3>
+                <p className="text-text-gray font-outfit text-base leading-relaxed">
+                  {item.description}
+                </p>
+              </div>
+            ))}
           </div>
-        </div>
-      </section>
-      </AnimateOnScroll>
 
-      {/* Roth Conversion Strategies */}
-      <AnimateOnScroll>
-      <section className="bg-white py-12 md:py-16 lg:py-20">
-        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
-          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
-            Roth Conversion Strategies
-          </h2>
-          <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
-            <p>
-              A roth ira conversion moves pre tax money from a 401(k) or traditional ira into a roth ira, where funds grow tax free and no required minimum distributions apply during your lifetime. The converted amount counts as ordinary income and is taxed at your ordinary income taxes rate in that year.
-            </p>
-            <p>
-              Since the IRS prohibited recharacterization effective January 1, 2018, roth ira conversion decisions are permanent (IRS IRA FAQs). Tax smart strategies spread conversions across lower-income years to keep taxable income within a current bracket and reduce future taxes plus required minimum distributions rmds that begin at age 73 under SECURE 2.0 (IRS, 2023). High earners expecting a higher bracket later benefit most.
+          <div className="mt-10 p-6 bg-[#F5F3EF] rounded-lg">
+            <p className="text-text-gray font-outfit text-base leading-relaxed">
+              <strong className="text-navy">Not the right fit?</strong> If your investable assets are below $500,000 or you need tax preparation rather than tax-aware planning, PointOak may not be the right fit. We coordinate with your CPA but do not provide tax advice.
             </p>
           </div>
         </div>
       </section>
       </AnimateOnScroll>
 
-      {/* Who Needs Rollover Guidance */}
+      {/* Tax-Deferred Rollover vs. Roth Conversion */}
       <AnimateOnScroll>
       <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
-          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-10">
-            Who Needs Rollover Guidance?
+          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
+            Tax-Deferred Rollover vs. Roth Conversion
           </h2>
+          <p className="text-text-gray font-outfit text-base leading-relaxed mb-8">
+            Both paths preserve retirement savings. The right choice depends on your current tax bracket, when you need access, and what other income sources interact with the decision.
+          </p>
 
-          <div className="space-y-8">
-            <div>
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">
-                You Are Leaving an Employer
-              </h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed">
-                When actively employed status ends, a distribution election is required. The IRS notes plan administrators may default balances of $1,000 to $5,000 into an automatic IRA if you make no election (IRS). Specific advice before that deadline protects your rollover options and tax planning.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">
-                You Have Multiple Retirement Accounts
-              </h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Consolidation was the primary rollover motivation for 19% of IRA-owning households in mid-2024 (ICI). Combining funds into one account simplifies future taxes, investment strategies, and tracking of required minimum distributions rmds across retirement accounts.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">
-                You Are Pre-RMD Planning
-              </h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Years before age 73 are the window for bracket-managed roth ira conversion work. Converting pre tax funds in low-income years reduces the ordinary income and future taxes you would owe on rmds in higher-bracket retirement years.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">
-                When a Rollover May Not Be the Right Fit
-              </h3>
-              <p className="text-text-gray font-outfit text-base leading-relaxed">
-                If you need penalty free access before age 59, carry employer stock with net unrealized appreciation, or rely on plan loans, staying in the old plan may serve you better. A tax advisor or registered investment adviser should review your specific situation before moving any funds.
-              </p>
-            </div>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse">
+              <thead>
+                <tr className="bg-navy text-white">
+                  <th className="px-4 py-3 text-left font-outfit font-semibold">Factor</th>
+                  <th className="px-4 py-3 text-left font-outfit font-semibold">Tax-Deferred Rollover</th>
+                  <th className="px-4 py-3 text-left font-outfit font-semibold">Roth IRA Conversion</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Tax impact this year</td>
+                  <td className="px-4 py-3 text-gray-700">Generally none if structured as a direct transfer</td>
+                  <td className="px-4 py-3 text-gray-700">Converted amount becomes taxable income in the conversion year</td>
+                </tr>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Tax in retirement</td>
+                  <td className="px-4 py-3 text-gray-700">Withdrawals taxed as ordinary income taxes at your future rate</td>
+                  <td className="px-4 py-3 text-gray-700">Qualified withdrawals are tax-free after the 5-year clock</td>
+                </tr>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Required minimum distributions</td>
+                  <td className="px-4 py-3 text-gray-700">RMDs begin after age 73 for traditional IRA rollovers</td>
+                  <td className="px-4 py-3 text-gray-700">No RMDs during the Roth IRA owner&apos;s lifetime</td>
+                </tr>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Access before 59½</td>
+                  <td className="px-4 py-3 text-gray-700">Rule of 55 preserved if kept in employer plan; penalty-free withdrawals under certain conditions</td>
+                  <td className="px-4 py-3 text-gray-700">10% penalty on earnings if under 59½ and before 5-year clock</td>
+                </tr>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Medicare and Social Security effect</td>
+                  <td className="px-4 py-3 text-gray-700">No immediate income spike from the rollover itself</td>
+                  <td className="px-4 py-3 text-gray-700">Conversion income pushes you into higher tax brackets and raises IRMAA premiums</td>
+                </tr>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Partial conversion flexibility</td>
+                  <td className="px-4 py-3 text-gray-700">Not applicable; rollover moves the balance as directed</td>
+                  <td className="px-4 py-3 text-gray-700">Choose how much to convert each year through partial withdrawal to manage your current bracket</td>
+                </tr>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Cash-out alternative</td>
+                  <td className="px-4 py-3 text-gray-700">Cashing out $50,000 before 59½ could leave $29,500 after taxes and early withdrawal penalty (Fidelity)</td>
+                  <td className="px-4 py-3 text-gray-700">Same penalty structure applies once funds are converted and the 5-year clock is satisfied</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
+
+          <p className="text-text-gray font-outfit text-base leading-relaxed mt-6">
+            A tax-deferred rollover often wins when current-year income is high. When you convert money from a pre-tax account, you pay taxes at ordinary income tax rates on the full amount. PointOak&apos;s retirement income planning models both paths against your tax implications before making a recommendation.
+          </p>
         </div>
       </section>
       </AnimateOnScroll>
 
-      {/* Our Process */}
+      {/* What To Expect: Our Process */}
       <AnimateOnScroll>
       <section className="bg-white py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-10">
-            What To Expect: Our Process
+            What to Expect: Our Rollover and Conversion Planning Process
           </h2>
 
           <div className="relative">
+            {/* Vertical connector line */}
             <div className="absolute left-[19px] top-10 bottom-10 w-px bg-[#C1C5C9] hidden sm:block" />
 
             <div className="flex flex-col gap-6">
               {processSteps.map((step) => (
                 <div key={step.number} className="flex gap-6">
+                  {/* Step number */}
                   <div className="flex-shrink-0 z-10">
-                    <div className="w-10 h-10 rounded-full bg-medium-blue flex items-center justify-center">
+                    <div className="w-10 h-10 rounded-full bg-navy flex items-center justify-center">
                       <span className="font-outfit font-semibold text-white text-lg leading-none">
                         {step.number}
                       </span>
                     </div>
                   </div>
+
+                  {/* Step content */}
                   <div className="flex-1 pb-2">
                     <h3 className="text-navy font-outfit text-lg lg:text-xl font-semibold mb-2">
                       {step.title}
@@ -376,24 +430,16 @@ export default function RolloversConversionsPage() {
       <AnimateOnScroll>
       <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
-            <div>
-              <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
-                Why Choose PointOak for 401(k) Rollover Guidance?
-              </h2>
-              <p className="text-text-gray font-outfit text-base leading-relaxed">
-                PointOak manages over $1 billion in client assets with a team of three partners bringing more than 50 years of collective experience. Our deep background in retirement plan consulting means we understand the mechanics, tax implications, and strategic considerations of 401(k) rollovers and Roth conversions better than most advisors. As a fee-only, independent fiduciary firm with no proprietary products, we compare all your options objectively — staying in your employer plan, rolling to an IRA, or converting to Roth — without product-sales pressure or conflicts of interest. With fewer than 100 clients per partner, you receive the personalized guidance this important transition deserves.
-              </p>
-            </div>
-            <div className="relative w-full h-[300px] lg:h-[380px] rounded-lg overflow-hidden">
-              <Image
-                src="/images/asset-couples-03.png"
-                alt="Couple planning their retirement rollover strategy with advisor"
-                fill
-                className="object-cover object-[center_25%]"
-                sizes="(max-width: 1024px) 100vw, 585px"
-              />
-            </div>
+          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
+            Why Choose PointOak for 401(k) Rollover and Roth Conversion Planning
+          </h2>
+          <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
+            <p>
+              The 2025 standard Medicare Part B premium is $185 per month according to <a href="https://www.ssa.gov/blog/en/posts/2025-02-06.html" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:text-navy underline">SSA&apos;s 2025 premium schedule</a>, and higher-income retirees pay more. PointOak models these secondary effects before recommending any conversion. Corporate retirement plan work gives the team direct exposure to how plan design, participant behavior, and investment strategy interact.
+            </p>
+            <p>
+              A common hesitation: &quot;I can read this on Fidelity&apos;s site or handle it myself.&quot; Fidelity&apos;s guide explains mechanics. PointOak builds a year-by-year strategy calibrated to your tax brackets, Medicare thresholds, Social Security timing, and coordination with your tax professional. Our fiduciary standard as a fee-only financial professional means no incentive to recommend a rollover that benefits the advisor instead of you.
+            </p>
           </div>
         </div>
       </section>
@@ -406,8 +452,8 @@ export default function RolloversConversionsPage() {
           <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
             About PointOak Retirement Advisors
           </h2>
-          <p className="text-text-gray font-outfit text-base leading-relaxed">
-            PointOak Retirement Advisors is an independent, fee-only wealth advisory firm headquartered in McLean, Virginia, specializing in retirement planning and wealth management for high-net-worth individuals and families. The firm has operated as a full-scope fiduciary since inception, managing over $1 billion in assets with a team of three partners bringing more than 50 years of collective experience. PointOak also serves corporate plan sponsors through its retirement plan consulting practice.
+          <p className="text-text-gray font-outfit text-base leading-relaxed mb-6">
+            PointOak Retirement Advisors is a fee-only wealth advisory firm founded in 2017 and headquartered in McLean, Virginia. We provide wealth management and retirement plan consulting to clients across the DC metro area and nationwide. SEC-registered investment advisor, fiduciary since inception. Over $1.08 billion in assets under management with 50+ years of collective team experience. Call us at <Link href="/contact" className="text-medium-blue hover:text-navy underline">(703) 595-4444</Link>.
           </p>
         </div>
       </section>
@@ -416,14 +462,18 @@ export default function RolloversConversionsPage() {
       {/* FAQ Section */}
       <ServiceDetailFAQ faqs={faqs} />
 
-      {/* Disclaimer */}
-      <section className="bg-white py-8">
-        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
-          <p className="text-text-gray font-outfit text-sm leading-relaxed italic text-center">
-            Investment advisory services offered through PointOak Retirement Advisors, LLC. This site is published for residents of the United States only. Not all of the products and services referenced on this site are available in every state and through every representative or advisor listed. PointOak Retirement Advisors, LLC does not provide tax or legal advice.
+      {/* Final CTA */}
+      <AnimateOnScroll>
+      <section className="bg-cloud-blue py-12">
+        <div className="max-w-[1170px] mx-auto px-6 xl:px-0 text-center">
+          <p className="text-text-gray font-outfit text-base leading-relaxed">
+            <Link href="/contact" className="text-medium-blue hover:text-navy underline font-semibold">
+              Schedule your complimentary consultation
+            </Link> to discuss your 401(k) rollover and Roth conversion options with PointOak.
           </p>
         </div>
       </section>
+      </AnimateOnScroll>
 
       <CTASection />
       <Footer />

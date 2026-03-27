@@ -8,71 +8,75 @@ import Link from "next/link";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
 
 export const metadata: Metadata = {
-  title: "401(k) Share Class Analysis for Plan Sponsors | PointOak",
-  description: "Expert 401(k) share class analysis to identify lowest-cost mutual funds, protect fiduciaries, and maximize retirement savings. Independent advisors nationwide.",
+  title: "401(k) Share Class Analysis | PointOak Retirement Advisors",
+  description: "PointOak's fiduciary-grade 401(k) share class analysis compares retail, R, and institutional fund classes to reduce participant costs. Schedule a consultation.",
   alternates: {
     canonical: "https://www.pointoak.com/corporate-retirement-plans/investment-analysis/share-class-analysis/"
   }
 };
 
 const highlights = [
-  "Independent analysis across all share classes",
-  "90% revenue from retirement plans only",
-  "Documented process for fiduciary protection"
+  "450+ data points reviewed per bidder",
+  "Named 3(21) and 3(38) ERISA fiduciary",
+  "Fee-only, no revenue-sharing conflicts"
 ];
 
 const processSteps = [
   {
     number: 1,
-    title: "Initial Share Class Assessment",
-    description: "You provide current fund lineup details. We catalog all available share classes for the same fund across your platform."
+    title: "Inventory Your Current Lineup",
+    description: "We catalog every fund, share class, expense ratio, and revenue-sharing arrangement across your plan's investment options."
   },
   {
     number: 2,
-    title: "Eligibility Analysis",
-    description: "We determine which institutional share classes your plan qualifies for based on assets held and identify opportunities to save money."
+    title: "Compare Identical Funds Across Available Classes",
+    description: "Each fund is evaluated against lower-cost institutional and clean share alternatives your plan qualifies for."
   },
   {
     number: 3,
-    title: "Cost-Benefit Recommendations",
-    description: "You receive analysis comparing your fund&apos;s expense ratio against all available options, with projections showing how lower fees compound over a given period."
+    title: "Evaluate Net Cost Including Administrative Offsets",
+    description: "Revenue sharing and recordkeeping fees are mapped to show true account value impact per participant."
   },
   {
     number: 4,
-    title: "Implementation Support",
-    description: "We coordinate with your recordkeeper to implement changes, ensuring no sales charges or breakpoint discounts are overlooked during transitions."
+    title: "Document Committee Findings",
+    description: "Your PointOak financial advisor delivers a written analysis with class-by-class comparisons and recommendations."
   },
   {
     number: 5,
-    title: "Ongoing Monitoring",
-    description: "Quarterly reviews track whether most funds maintain appropriate pricing as annual contributions grow your plan or participants change jobs and trigger annual withdrawals."
+    title: "Implement Changes and Monitor",
+    description: "Approved changes execute with your recordkeeper, and ongoing monitoring tracks share class availability and fee shifts."
   }
 ];
 
 const faqs = [
   {
-    question: "How much does 401(k) share class analysis cost nationwide?",
-    answer: "Investment analysis fees vary based on plan assets held and complexity. Most retirement plan consulting engagements are structured as basis points on assets (typically 0.25% for larger plans) or flat annual fees. PointOak provides transparent pricing during initial consultations with no sales charges or front end load costs. We discuss fee structures that align with your budget and protect participants&apos; retirement savings."
+    question: "Should a 401(k) plan always use the lowest-cost share class available?",
+    answer: "No. DOL guidance requires fees to be reasonable relative to services, not simply the lowest available. Selecting solely on expense ratio can be counterproductive when plan-level account fees and cost offsets are ignored. A bond fund or money market fund with a higher expense ratio may include recordkeeping subsidies. That arrangement can produce a lower net cost than a stripped-down institutional share class paired with separate per-participant charges. PointOak evaluates net cost aligned with each plan's investment objective and asset allocation strategy, not headline numbers."
   },
   {
-    question: "What makes PointOak different from other financial advisors nationwide?",
-    answer: "Three differentiators: We generate over 90% of revenue exclusively from employer sponsored retirement plan services (true specialists analyzing mutual funds daily, not generalists). All advisors act as 3(21) or 3(38) named fiduciaries, assuming direct liability for investment recommendations. Our methodology evaluates over $120 billion quarterly, identifying which mutual fund share classes offer lower fees and documenting the process to protect plan sponsors from fiduciary liability."
+    question: "When should a plan consider clean shares or CITs instead of mutual fund share classes?",
+    answer: "When plan size qualifies and the recordkeeper supports non-mutual-fund vehicles on its platform. Clean shares strip embedded distribution costs and serve as an intermediate step between retail and institutional share classes. CITs can offer lower pricing for qualifying 401(k) plans, particularly in target date funds and fixed income securities allocations. PointOak's target date fund consulting evaluates these vehicles based on plan size and recordkeeper platform support."
   },
   {
-    question: "Is an R6 share or institutional share better for my retirement plan?",
-    answer: "Both typically offer lower costs than retail share classes, but eligibility and pricing vary. R6 shares are specifically designed for employer sponsored retirement plans with $10+ million in assets and eliminate 12b-1 fees entirely. Institutional shares serve large institutional investors broadly and may have different minimums. We compare each fund&apos;s expense ratio across all available options, including management fees and other expenses, to determine which share class structure saves the most money for your specific plan and recordkeeper platform."
+    question: "How often should a plan's share class lineup be reviewed?",
+    answer: "Annually, aligned with your investment committee meeting cycle and defined contribution plan oversight duties. Fiduciary duty requires ongoing monitoring of individual funds and their share classes, not one-time selection. Courts have evaluated whether committees maintained regular review processes. PointOak's fiduciary support services build annual reviews into plan oversight, tracking whether each fund company has introduced lower-cost classes."
   },
   {
-    question: "How often should mutual fund share classes be reviewed nationwide?",
-    answer: "DOL regulations require fee benchmarking at least every three years to ensure costs remain reasonable. Best practice involves annual reviews because share class eligibility changes as annual contributions and employer match provisions grow your plan&apos;s assets held. When you cross $10 million, $50 million, or $100 million, new institutional share classes with lower fees typically become available. We conduct quarterly monitoring to identify exactly when asset growth triggers opportunities affecting participants&apos; retirement savings."
+    question: "What is the difference between R shares and institutional shares in a 401(k)?",
+    answer: "R shares typically embed revenue-sharing and sub transfer agency costs; institutional shares strip distribution fees to a lower base. R shares were designed for retirement accounts and often include layered costs covering transfer agent expenses, sub transfer agency payments, and revenue-sharing flows to recordkeepers. Institutional share classes carry lower average expense ratios because these distribution components are removed. The trade-off: 401(k) plans using institutional shares may pay recordkeeping costs directly rather than through embedded fund charges."
   },
   {
-    question: "How do I know if my plan really needs share class analysis?",
-    answer: "Warning signs include: participants invested in the same mutual fund at higher retail share classes when institutional options exist, any fund&apos;s expense ratio above 0.5% for index investments or 1.0% for actively managed bond mutual funds, plan assets exceeding $10 million without R6 share access, or no documented review in three-plus years. If individual investors in your plan pay higher annual fees than institutional investors would for the same fund, analysis protects you from fiduciary breach claims and helps participants save money over time."
+    question: "How do you compare different share classes of the same mutual fund in a 401(k)?",
+    answer: "By isolating cost differences across share classes for the same underlying portfolio and documenting each variance. The same portfolio of index funds or actively managed holdings exists inside each share class. The difference is the wrapper: distribution fees, other expenses, and revenue-sharing layers. FINRA's fund comparison framework applies this same-fund logic, and PointOak extends it across every position in the lineup to produce a cost map the committee can act on."
   },
   {
-    question: "Do you provide ongoing monitoring after implementing share class changes?",
-    answer: "Yes. Our quarterly investment monitoring tracks whether mutual funds maintain appropriate share classes and alerts plan sponsors when fund managers introduce new lower-cost options. We review all investments across different classes, compare management fees and other expenses, and document decisions for your fiduciary file. This ongoing process satisfies your duty under ERISA to monitor investment options continuously, especially as participants make annual contributions or annual withdrawals that affect total assets held in each fund."
+    question: "How does revenue sharing affect 401(k) fund expenses?",
+    answer: "Revenue sharing redirects a portion of fund expenses to offset recordkeeping or administrative costs within the plan. A fund's operating expenses include a revenue-sharing component paid to the recordkeeper or administrator. Without monitoring, that amount may exceed services rendered. Plans with higher account maintenance activity generate more revenue sharing than administration requires. PointOak isolates these flows to identify whether participants subsidize costs beyond what the plan consumes."
+  },
+  {
+    question: "Can a plan use a more expensive share class if recordkeeping fees are offset?",
+    answer: "Yes, if the committee documents that total participant cost is reasonable after accounting for all offsets. DOL advisory material cautions against selecting solely for the lowest expense ratio or the highest revenue-sharing yield. The committee must document that net cost, including accounting expenses, legal expenses, and other administrative charges, is prudent. PointOak provides that documentation with a net-cost analysis the committee can reference during audits."
   }
 ];
 
@@ -99,7 +103,7 @@ export default function ShareClassAnalysisPage() {
           { label: "Share Class & Fee Analysis" }
         ]}
         title="401(k) Share Class Analysis for Plan Sponsors"
-        subtitle="You&apos;re responsible for selecting mutual fund share classes for your employer sponsored retirement plan, but navigating the same fund offered in different classes with varying mutual fund fees is overwhelming. PointOak provides independent analysis that identifies lowest-cost fund share classes, protects your retirement savings, and documents your fiduciary process nationwide."
+        subtitle="Many 401(k) plans hold identical mutual funds in retail wrappers when institutional share classes cost less on the same platform. Average equity fund expense ratios in 401(k) plans fell from 0.76% to 0.26% between 2000 and 2024. PointOak's share class analysis, part of our provider and fee benchmarking, isolates where participants absorb associated fees that add no investment value."
       />
 
       {/* Highlights Bar */}
@@ -116,55 +120,42 @@ export default function ShareClassAnalysisPage() {
         </div>
       </section>
 
-      {/* Why Choose Us */}
+      {/* Benefits Section */}
       <AnimateOnScroll>
       <section className="bg-white py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
-          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
-            Why Choose Us for 401(k) Share Class Analysis Nationwide?
-          </h2>
-          <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
-            <p>
-              Average equity mutual fund expense ratios in 401(k) plans fell 66% from 0.76% to 0.26% between 2000-2024, but many plan sponsors still pay higher fees because they don&apos;t know which share classes their plan qualifies for. PointOak specializes exclusively in employer sponsored retirement plan consulting, helping you access these lower costs.
-            </p>
-            <p>
-              We generate over 90% of revenue from retirement plan services, not general financial advisor work. Our advisors act as 3(21) or 3(38) named fiduciaries from day one, and our proprietary methodology evaluates over $120 billion in retirement plan assets quarterly. This specialization means you get expert guidance on complex mutual fund share class decisions.
-            </p>
-          </div>
-        </div>
-      </section>
-      </AnimateOnScroll>
-
-      {/* Our Services */}
-      <AnimateOnScroll>
-      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
-        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-10">
-            Our Investment Analysis Services
+            Benefits of 401(k) Share Class Analysis
           </h2>
           <div className="space-y-8">
             <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Share Class Fee Review</h3>
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Lower Participant Costs Without Changing Funds</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Our share class fee review evaluates every mutual fund in your plan to identify whether the same fund is available in lower-cost share classes that match your plan size. We analyze each fund&apos;s expense ratio, including management fees, 12b-1 fees, and other expenses across R shares, institutional share classes, and so-called clean shares. Most funds offer 6-8 different classes with fees that vary widely, and we identify which options minimize costs for your participants&apos; retirement savings.
+                Pew research found retail equity mutual fund share classes carried median annual operating expenses 37% higher than institutional share class alternatives for the same portfolios. Moving to a lower priced share class reduces operating expenses without altering the underlying holdings or investment strategy.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Investment Policy Statement Development</h3>
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Documented Fiduciary Compliance</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                A comprehensive Investment Policy Statement establishes guidelines for mutual fund share class selection and documents criteria for evaluating investment options in your retirement plan. We draft IPS language addressing how fund managers are evaluated, what constitutes reasonable mutual fund fees, and when share classes should be reviewed. This protects plan sponsors from liability by documenting a prudent process for all investment decisions.
+                Courts evaluate whether committees investigated lower-cost share class alternatives before accepting current fund expenses. A documented share class review produces the fiduciary record regulators and auditors expect. PointOak's <Link href="/corporate-retirement-plans/fiduciary-support" className="text-medium-blue hover:underline">fiduciary support</Link> process ensures that documentation meets ERISA standards.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Quarterly Investment Monitoring</h3>
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Revenue Sharing Transparency</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Our quarterly monitoring tracks whether your mutual funds maintain appropriate share classes as assets held in the plan grow or new lower-cost options become available for the same mutual fund. We measure fund performance and expenses quarterly using institutional measurement techniques. Individual investors in retail share classes often pay higher fees, but employer sponsored retirement plans can access institutional investors&apos; pricing when plan size qualifies.
+                Many 401(k) plans embed provider compensation inside fund expenses through revenue sharing arrangements without isolating the dollar amount. Share class analysis separates investment cost from the administrative subsidy buried in each mutual fund's expense ratio, giving committees a clear view of who receives what.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Fund Replacement Recommendations</h3>
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Stronger Provider Negotiations</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                When analysis reveals mutual funds with excessive annual fees or inappropriate share classes, we recommend specific replacements including target date funds, bond mutual funds, and equity options with lower costs. We identify whether different share classes of one fund make sense or if changing to different fund managers offers better value. Recommendations include how each option affects participants&apos; financial goals, and we provide additional details on sales charges, deferred sales charges, and front end load structures that may apply.
+                Plan sponsors who document their net cost position per fund negotiate recordkeeper and advisor fees from a verified baseline rather than a provider's summary. Share class analysis produces that fund-level baseline, giving the committee documented data in any fee discussion or provider evaluation.
+              </p>
+            </div>
+            <div className="border-l-4 border-medium-blue pl-6">
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Cleaner Investment Menu for Participants</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                Replacing legacy retail or R-share classes with institutional or clean shares removes embedded distribution costs and other administrative expenses participants never chose. The result is a simplified lineup where each fund's expense ratio reflects investment management, not intermediary compensation.
               </p>
             </div>
           </div>
@@ -172,61 +163,146 @@ export default function ShareClassAnalysisPage() {
       </section>
       </AnimateOnScroll>
 
-      {/* Challenges Table */}
+      {/* How It Works */}
+      <AnimateOnScroll>
+      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
+        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
+          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
+            How 401(k) Share Class Analysis Works
+          </h2>
+          <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
+            <p>
+              The mutual fund industry manages $5.3 trillion in fund assets across 401(k) plans, or 61% of all plan holdings (ICI, 2025). That concentration means mutual fund share classes are the primary cost variable in most lineups. Analysis compares the same fund across distribution classes to isolate embedded distribution, revenue-sharing, and management fees.
+            </p>
+            <p>
+              The net-cost evaluation framework maps expense ratio plus revenue-sharing arrangement plus plan-level administrative offsets to arrive at true participant cost per fund. Fund prospectuses disclose the expense ratio but not how revenue sharing flows through the plan. PointOak's <Link href="/corporate-retirement-plans/investment-analysis" className="text-medium-blue hover:underline">investment analysis</Link> maps the full equation, documented for the committee's fiduciary file.
+            </p>
+          </div>
+          <div className="mt-8 bg-navy text-white rounded-lg p-6 md:p-8">
+            <p className="font-outfit text-base leading-relaxed">
+              Request a 401(k) share class review for your plan. <a href="https://www.pointoak.com/contact/" target="_blank" rel="noopener noreferrer" className="text-warm-gold hover:underline font-semibold">Schedule a consultation</a> with no cost or obligation.
+            </p>
+          </div>
+        </div>
+      </section>
+      </AnimateOnScroll>
+
+      {/* Who Needs It */}
       <AnimateOnScroll>
       <section className="bg-white py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
-            Common 401(k) Share Class Challenges Nationwide
+            Who Needs 401(k) Share Class Analysis
           </h2>
+          <p className="text-text-gray font-outfit text-base leading-relaxed mb-8">
+            Share class analysis serves targeted purposes within <Link href="/corporate-retirement-plans" className="text-medium-blue hover:underline">retirement plan consulting</Link>. These scenarios tell committees when to act.
+          </p>
+          <div className="space-y-8">
+            <div className="bg-cloud-blue rounded-lg p-6 md:p-8">
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Legacy Retail or R-Share Lineup Unreviewed for 3+ Years</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                Employer sponsored retirement plans retaining the same fund classes for years risk embedding costs plan participants no longer need to pay. Unreviewed lineups create fiduciary documentation gaps committees cannot explain during audits.
+              </p>
+            </div>
+            <div className="bg-cloud-blue rounded-lg p-6 md:p-8">
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Committee Told "Fees Are Competitive" Without Documentation</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                Provider assurances without a same-fund, cross-class comparison leave gaps courts have scrutinized. Custodial expenses and administrative costs bundled into share class pricing require independent verification, not a provider's word.
+              </p>
+            </div>
+            <div className="bg-cloud-blue rounded-lg p-6 md:p-8">
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Revenue Sharing Subsidizes Recordkeeping but Amounts Are Not Monitored</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                GAO documented a provider receiving $18,000 in revenue-sharing payments against $10,000 in administrative expenses owed. Most revenue sharing goes unmonitored, and excess compensation erodes plan assets without committee awareness.
+              </p>
+            </div>
+            <div className="bg-cloud-blue rounded-lg p-6 md:p-8">
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Provider Change or RFP in Progress</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                A share class review during an RFP gives the committee a documented cost baseline before evaluating new proposals. That baseline turns a subjective provider comparison into a data-driven decision.
+              </p>
+            </div>
+            <div className="bg-cloud-blue rounded-lg p-6 md:p-8">
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Fiduciary Litigation Concern or DOL Audit Preparation</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                Retirement plans facing scrutiny need documented evidence that lower-cost alternatives were investigated. A current share class analysis is the most direct proof an investment committee can produce.
+              </p>
+            </div>
+            <div className="bg-white border-2 border-navy rounded-lg p-6 md:p-8">
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Not the right fit:</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                Plans already using institutional-only or CIT lineups with a documented annual review process and independent benchmarking in place have this analysis covered. A second layer adds cost without value.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      </AnimateOnScroll>
+
+      {/* Comparison Table */}
+      <AnimateOnScroll>
+      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
+        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
+          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
+            Retail vs. Institutional Mutual Fund Share Classes
+          </h2>
+          <p className="text-text-gray font-outfit text-base leading-relaxed mb-8">
+            Share class selection is a fiduciary documentation exercise, not solely a cost comparison. Platform availability and plan size determine which fund share classes your 401(k) plan can access.
+          </p>
           <div className="overflow-x-auto">
-            <table className="w-full border border-[#F3F4F6]">
+            <table className="w-full border-collapse">
               <thead>
                 <tr className="bg-navy text-white">
-                  <th className="px-6 py-4 text-left font-outfit text-base font-medium">Challenge</th>
-                  <th className="px-6 py-4 text-left font-outfit text-base font-medium">What It Looks Like</th>
-                  <th className="px-6 py-4 text-left font-outfit text-base font-medium">How We Help</th>
+                  <th className="px-4 py-3 text-left font-outfit font-semibold">Factor</th>
+                  <th className="px-4 py-3 text-left font-outfit font-semibold">Retail Share Class</th>
+                  <th className="px-4 py-3 text-left font-outfit font-semibold">Institutional Share Class</th>
                 </tr>
               </thead>
               <tbody>
-                <tr className="bg-white">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Retail share classes when institutional pricing available</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Plan sponsors pay retail share classes with higher management fees and annual fees of 1.5% when the same mutual fund offers institutional share options at 0.5% for plans over $10 million in assets.</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">We identify all institutional share classes your plan qualifies for, compare each fund&apos;s expense ratio across different classes, and document potential savings of tens of thousands annually for participant accounts.</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Expense Ratio</td>
+                  <td className="px-4 py-3 text-gray-700">Higher; embeds 12b-1, sales charges, and distribution fees</td>
+                  <td className="px-4 py-3 text-gray-700">Lower; stripped of distribution costs</td>
                 </tr>
-                <tr className="bg-cloud-blue">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">C shares with ongoing 12b-1 fees</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Mutual funds sold as &quot;no load funds&quot; still charge C shares&apos; ongoing 12b-1 fees of 1% annually, which exceed the initial investment cost of A shares&apos; front end sales charge over a certain period.</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">We calculate total cost of ownership across different share classes over time, showing when lower cost A shares or institutional options reduce total expenses and associated fees for your participants.</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Revenue Sharing</td>
+                  <td className="px-4 py-3 text-gray-700">Often embedded in fund share expenses</td>
+                  <td className="px-4 py-3 text-gray-700">Minimal or none</td>
                 </tr>
-                <tr className="bg-white">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Revenue sharing hidden in mutual fund fees</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">12b-1 fees and sub-TA fees pay recordkeepers and financial advisors, but disclosure documents don&apos;t clearly show how these other expenses reduce money available for investing in participant accounts.</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Our Live Bid benchmarking reveals all associated fees across 450+ data points, creates leverage to negotiate better pricing, and identifies funds where you pay less through different fee structures.</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Shareholder Fees</td>
+                  <td className="px-4 py-3 text-gray-700">May include front end load, deferred sales charges, redemption fees, or purchase fees</td>
+                  <td className="px-4 py-3 text-gray-700">Typically no sales loads or exchange fees</td>
                 </tr>
-                <tr className="bg-cloud-blue">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Plan growth without share class updates</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Your employer match and annual contribution increases pushed assets over $50 million, triggering eligibility for lower fees in institutional share classes that fund managers offer, but nobody reviewed available options.</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Annual reviews ensure mutual fund share classes align with current plan size, and we proactively identify when growth creates opportunities to save costs for participants&apos; financial goals.</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Platform Availability</td>
+                  <td className="px-4 py-3 text-gray-700">Standard on most recordkeeper platforms</td>
+                  <td className="px-4 py-3 text-gray-700">Requires verification; plan may need same share class waiver</td>
                 </tr>
-                <tr className="bg-white">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Same fund with 8+ share class options</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">One fund family offers the same fund in R1-R6 shares, A shares, C shares, institutional shares, clean shares, and others, each with different front end load structures, management fees, and other expenses.</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Our 10-point methodology evaluates all available different share classes for bonds, target date funds, and equity investments, showing exactly which option minimizes total costs over any given period for your specific situation.</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Fiduciary Risk</td>
+                  <td className="px-4 py-3 text-gray-700">Higher when a lower-cost fund share class exists (Tibble: 24-40 bps cheaper, no quality differences)</td>
+                  <td className="px-4 py-3 text-gray-700">Lower when selection is documented as prudent</td>
                 </tr>
               </tbody>
             </table>
           </div>
+          <p className="text-text-gray font-outfit text-sm leading-relaxed mt-6 italic">
+            Sources: FINRA Fund Analyzer, Tibble v. Edison (9th Circuit, 2013), Investor.gov
+          </p>
+          <p className="text-text-gray font-outfit text-base leading-relaxed mt-6">
+            When platform constraints prevent institutional access, retail or C shares can be documented as reasonable after net-cost analysis. No load funds and lower cost A shares offer intermediate options. When identical portfolios exist in institutional share classes, the fiduciary case for switching is well established.
+          </p>
         </div>
       </section>
       </AnimateOnScroll>
 
       {/* Our Process */}
       <AnimateOnScroll>
-      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
+      <section className="bg-white py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-10">
-            What To Expect - Our Process
+            What To Expect: Our 401(k) Share Class Analysis Process
           </h2>
           <div className="relative">
             <div className="absolute left-[19px] top-10 bottom-10 w-px bg-[#C1C5C9] hidden sm:block" />
@@ -250,6 +326,25 @@ export default function ShareClassAnalysisPage() {
       </section>
       </AnimateOnScroll>
 
+      {/* Why Choose PointOak */}
+      <AnimateOnScroll>
+      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
+        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
+          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
+            Why Choose PointOak Retirement Advisors for 401(k) Share Class Analysis
+          </h2>
+          <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
+            <p>
+              ICI reports 401(k) investors in equity mutual funds paid an average of 0.31% in 2023, versus 0.42% for all equity mutual fund assets. That pricing advantage exists at the plan level, but only when share classes are properly selected. PointOak helps plan sponsors verify their lineup captures these lower ongoing costs.
+            </p>
+            <p>
+              PointOak operates as a <Link href="/about" className="text-medium-blue hover:underline">fee-only fiduciary since 2017</Link> with no revenue-sharing income, proprietary products, or recordkeeper affiliations. That independence removes the conflict GAO identified. Every financial professional on our team evaluates share classes based on fiduciary responsibility to plan participants, not revenue to compensating brokers.
+            </p>
+          </div>
+        </div>
+      </section>
+      </AnimateOnScroll>
+
       {/* About */}
       <AnimateOnScroll>
       <section className="bg-white py-12 md:py-16 lg:py-20">
@@ -258,7 +353,7 @@ export default function ShareClassAnalysisPage() {
             About PointOak Retirement Advisors
           </h2>
           <p className="text-text-gray font-outfit text-base leading-relaxed">
-            PointOak Retirement Advisors is an independent retirement plan consulting firm headquartered in McLean, Virginia, serving plan sponsors nationwide. The firm generates over 90% of its revenue from corporate retirement plans and acts as a 3(21) or 3(38) named fiduciary under ERISA with every client. PointOak evaluates over $120 billion in retirement plan assets quarterly.
+            PointOak Retirement Advisors is an independent, fee-only wealth advisory firm founded in 2017 and headquartered in McLean, Virginia. We serve plan sponsors and high-net-worth individuals nationwide as an SEC-registered investment advisor with over 50 years of collective experience and over $1.08 billion in assets under management. CRPC-credentialed founder Darsh Makim leads every client relationship. <a href="https://www.pointoak.com/contact/" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Schedule a complimentary consultation</a>.
           </p>
         </div>
       </section>
@@ -269,7 +364,7 @@ export default function ShareClassAnalysisPage() {
       <section className="bg-white py-8">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <p className="text-text-gray font-outfit text-sm leading-relaxed italic text-center">
-            Investment advisory services offered through PointOak Retirement Advisors, LLC. This site is published for residents of the United States only. PointOak Retirement Advisors, LLC does not provide tax or legal advice.
+            Talk to a named ERISA fiduciary about your plan's share class positioning. <a href="https://www.pointoak.com/contact/" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:underline">Schedule your consultation</a>.
           </p>
         </div>
       </section>

@@ -5,104 +5,139 @@ import ServiceDetailFAQ from "@/components/ServiceDetailFAQ";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
 import Link from "next/link";
-import { GraduationCap, Heart, Headphones, MessageSquare } from "lucide-react";
+import { TrendingUp, Heart, Users, CheckCircle, Target, Shield } from "lucide-react";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
 
 export const metadata: Metadata = {
-  title: "401k Participant Education | Retirement Plan Education Programs | PointOak",
-  description: "401k participant education programs that drive retirement outcomes. Licensed advisors deliver customized education protecting plan sponsors from fiduciary liability. 73% of employees need better education. Get independent guidance.",
+  title: "401(k) Participant Education Programs | PointOak",
+  description: "PointOak's 401(k) participant education programs help plan sponsors turn retirement plan features into participant understanding. Named ERISA fiduciary. Schedule a consultation.",
   alternates: {
     canonical: "https://www.pointoak.com/corporate-retirement-plans/education-communications/"
   }
 };
 
 const highlights = [
-  "Licensed securities advisors lead all sessions",
-  "Customized to your workforce demographics",
-  "Comprehensive documentation for fiduciary files"
+  "Named 3(21) and 3(38) ERISA fiduciary for plan sponsors",
+  "Year-round participant communication programs",
+  "Deep retirement plan expertise"
 ];
 
-const subServices = [
+const benefitsData = [
   {
-    title: "Retirement Education Sessions",
-    description: "Customized group education sessions bring licensed securities advisors directly to your employees. Our presenters address retirement goals, investment options, and enrollment strategies tailored to your company culture and participant demographics.",
-    href: "/corporate-retirement-plans/education-communications/retirement-education/",
-    icon: GraduationCap,
+    title: "Stronger Retirement Readiness Across Your Workforce",
+    description: "Participants who receive structured planning support are measurably more prepared for retirement than those left to figure it out alone. PointOak's 401k education programs, built from deep retirement plan consulting services experience, connect your plan's features to each participant's financial goals through fiduciary-guided advice. Participants who enroll with clear guidance make better saving and investment decisions from day one, building financial literacy that carries through their entire career.",
+    icon: TrendingUp
   },
   {
-    title: "Financial Wellness Programs",
-    description: "Comprehensive financial wellness education covering debt management, budgeting, and retirement planning principles that help participants make informed decisions about their financial security and retirement savings goals.",
-    href: "/corporate-retirement-plans/education-communications/financial-wellness/",
-    icon: Heart,
+    title: "Higher Engagement with Plan Features",
+    description: "85% of participants say financial wellness programs are valuable (J.P. Morgan 2025). The gap is turning that interest into action. Education that explains matching formulas, vesting schedules, and contribution strategies moves participants from passive enrollment to active investing and saving decisions. Understanding benefit plans drives engagement across your workforce and gives participants control over their long-term financial wellness.",
+    icon: Users
   },
   {
-    title: "One-on-One Participant Support",
-    description: "Individual retirement account reviews give participants personalized assistance with their specific finances. Employees receive guidance on contributions, investment options, and strategies to reach their retirement savings goals.",
-    href: "/corporate-retirement-plans/education-communications/participant-support/",
-    icon: Headphones,
+    title: "Reduced Financial Stress in the Workplace",
+    description: "Financial stress follows participants into the office, affecting both mental health and productivity. When your workforce is distracted by debt, emergency savings gaps, or basic retirement questions, retention suffers. Education addressing these concerns builds financial literacy and restores focus across your organization. Participants gain control over their finances, reducing the health impacts of chronic financial worry.",
+    icon: Heart
   },
   {
-    title: "Ongoing Communications",
-    description: "Year-round engagement through educational newsletter content, webinars, and digital resources keeps retirement planning top of mind. Regular communication helps participants stay focused on their financial security.",
-    href: "/corporate-retirement-plans/education-communications/communications/",
-    icon: MessageSquare,
+    title: "Regulatory Changes Translated Into Action Steps",
+    description: "New plan features like PLESAs and auto-enrollment changes require more than a compliance notice. Advisor-led programs translate SECURE 2.0 provisions into action steps participants can follow: what changed, what it means for their retirement, and what to do next. Tax credits and other incentives become accessible when participants understand how to use them, turning complex regulatory subjects into practical value.",
+    icon: CheckCircle
   },
+  {
+    title: "A Competitive Advantage in Talent Retention",
+    description: "Participants increasingly expect retirement guidance as part of their benefits package, not just access to a plan. Pairing a structured education program with the retirement tools already available in your plan strengthens your total rewards story and positions your business as an employer investing in its people. Demand for financial wellness resources continues to rise across every industry, making advisor-led participant education a competitive differentiator for companies seeking top talent.",
+    icon: Target
+  }
+];
+
+const educationNeedsData = [
+  {
+    title: "Your Workforce Shows Signs of Financial Stress",
+    description: "60% of full-time workers report financial stress (PwC 2023). When HR fields concerns about debt, plan basics, or economic factors affecting savings, a structured education program fills the gap between benefit plans and financial well being."
+  },
+  {
+    title: "You Are Implementing SECURE 2.0 Changes",
+    description: "PLESAs, auto-enrollment provisions, and Roth catch-up changes create communication needs that default notices cannot address. Advisor-led education helps participants understand what changed and what action to take during this transition."
+  },
+  {
+    title: "Participation Is High but Engagement Is Low",
+    description: "Auto-enrollment raised participation numbers, but many participants still do not understand matching, vesting, or investment options. Education turns passive enrollment into active decisions about saving, investing, and retirement goals."
+  },
+  {
+    title: "Your Plan Committee Wants Fiduciary Documentation",
+    description: "A structured education program with documented outreach supports the plan committee's ERISA obligations. Every session and communication touchpoint becomes part of the fiduciary record your organization maintains."
+  },
+  {
+    title: "You Are Competing for Talent and Need a Stronger Benefits Story",
+    description: "Pairing retirement plan design with visible education programs strengthens your total rewards positioning. Participants who receive retirement guidance, not just plan access, see your business as invested in their financial goals."
+  }
 ];
 
 const processSteps = [
   {
     number: 1,
-    title: "Analyze Current Education Efforts",
-    description: "You&apos;ll receive a comprehensive assessment of your existing participant education. We review participation rates, enrollment data, and engagement metrics to identify gaps."
+    title: "Analyze",
+    description: "We review current participant communication, plan design, and workforce demographics to identify education gaps."
   },
   {
     number: 2,
-    title: "Customize Your Program",
-    description: "We design education content matched to your workforce demographics. Industry-specific examples, generational preferences, and company culture all factor into the plan."
+    title: "Optimize",
+    description: "We design a lifecycle-segmented communication strategy focused on your plan's specific features and participant needs."
   },
   {
     number: 3,
-    title: "Implement Education Campaign",
-    description: "Licensed advisors deliver your program through your chosen formats. Every session is documented for your fiduciary protection."
-  },
-  {
-    number: 4,
-    title: "Measure and Optimize",
-    description: "We track participation changes, deferral rate improvements, and employee engagement. Quarterly reviews ensure your program delivers results."
+    title: "Implement",
+    description: "We deliver the program, monitor participant engagement, and adjust messaging to maintain results over time."
   }
 ];
 
 const faqs = [
   {
-    question: "How much does 401k participant education cost?",
-    answer: "Education program cost depends on your workforce size, delivery formats, and session frequency. We customize proposals based on your specific needs and budget. Initial consultations are complimentary, and we provide transparent pricing without hidden fees. Most employers find education pays for itself through improved testing results and reduced liability exposure."
+    question: "What does a 401(k) participant education program cost?",
+    answer: "Cost depends on workforce size, communication scope, and whether your plan needs a full program or targeted support. PointOak's consulting fee is transparent and tied to program scope. Key factors include participant count, communication frequency, depth of one-on-one support, and how tightly education integrates with existing plan features. PointOak does not earn commissions or sell products. The fee covers advisory education services only. The cost of weak education, from under-saving to poor investment decisions across your workforce, often exceeds what a structured program costs. Schedule a consultation to discuss what your plan needs."
   },
   {
-    question: "What makes PointOak different from other education providers?",
-    answer: "Three factors distinguish our approach: independence (no products to sell), specialization (90%+ of revenue from retirement plans), and fiduciary status (we act as named fiduciaries under ERISA). Our licensed securities advisors can go deeper than generic educators while maintaining compliance with investment advice regulations."
+    question: "Should participant education come from the advisor or the recordkeeper?",
+    answer: "Advisor-led education is fiduciary-guided and plan-specific; recordkeeper communication is platform-driven and standardized. The comparison above outlines differences in scope, customization, and fiduciary perspective. Advisor-led education is shaped by fiduciary obligation and built around your plan's features. Recordkeeper communication follows templated campaigns around platform capabilities. Many plan sponsors use both, with fiduciary support services guiding the education strategy."
   },
   {
-    question: "Is in-person or virtual education better for our employees?",
-    answer: "Both formats serve different needs effectively. In-person sessions typically generate higher engagement and allow for deeper Q&A. Virtual webinars reach distributed workforces and accommodate varied schedules. We recommend combo approaches that combine group sessions with individual breakouts to maximize participation across all employee types."
+    question: "How often should plan sponsors communicate with participants?",
+    answer: "Year-round communication tied to enrollment, plan changes, and participant life events produces the strongest results. Annual enrollment is one touchpoint, not a communication strategy. Effective programs include onboarding education, mid-year updates tied to plan changes, SECURE 2.0 communications as provisions take effect, and pre-retirement sessions for eligible participants. Missing these windows means missing the moments when participants are most likely to act on their finances."
   },
   {
-    question: "How long does it take to implement an education program?",
-    answer: "Most programs launch within four to six weeks of engagement. This timeline includes workforce analysis, content customization, scheduling, and communication preparation. Ongoing programs operate on quarterly or annual cycles depending on your preference and budget. We coordinate with your HR department to minimize administrative burden."
+    question: "What is 401(k) participant education?",
+    answer: "Structured programs that help participants understand and act on their retirement plan features beyond compliance disclosures. 401(k) participant education goes beyond compliance notices and summary plan descriptions. It includes plain-language explanations of matching formulas, vesting schedules, investment options, and distribution rules delivered through group sessions, digital content, and individual guidance. The goal is moving participants from passive enrollment to active, informed decisions about their retirement savings."
   },
   {
-    question: "How do we know if participants need education?",
-    answer: "Several indicators signal education gaps: low participation rates, minimal contribution percentages, high hardship withdrawal activity, or failed nondiscrimination testing. If employees rarely access plan resources or express confusion about investment options, education can address these issues directly."
+    question: "What should a retirement plan communication program include?",
+    answer: "Lifecycle-segmented content covering enrollment, matching, vesting, fees, SECURE 2.0 changes, and individual guidance pathways. A strong program segments content by participant stage. New hires need enrollment and matching explanations. Mid-career participants need investment education and plan design context. Pre-retirees need distribution and Social Security coordination guidance. SECURE 2.0 provisions should be woven into each segment as they take effect."
   },
   {
-    question: "What&apos;s the difference between education and investment advice under ERISA?",
-    answer: "DOL Interpretive Bulletin 96-1 establishes safe harbors for participant education versus fiduciary advice. Education covers general investment concepts, plan features, and retirement planning principles. Advice involves specific recommendations for individual circumstances. Our programs stay within education safe harbors while providing meaningful guidance that helps participants prepare for retirement."
+    question: "Does better participant education actually improve retirement outcomes?",
+    answer: "Participants with planning support show measurably stronger retirement preparedness than those without structured guidance. Research consistently shows that participants who receive structured planning support are far more likely to be on track for retirement. PointOak's programs move participants from passive enrollment to active decisions about contribution rates, investment options, and retirement goals. The shift from awareness to action is where outcomes change."
   },
+  {
+    question: "Why do participants still feel confused about their 401(k) even when notices are sent?",
+    answer: "Compliance notices use regulatory language filed in formal documents that most participants never read. Summary plan descriptions and DOL reporting and disclosure guide documents are written for legal accuracy, not participant comprehension. Vesting schedules, matching formulas, and fee disclosures appear in documents participants rarely open. Education delivers that same information in plain-language formats at decision moments: onboarding, open enrollment, and job transitions."
+  },
+  {
+    question: "Can unclear vesting and matching information cost participants money?",
+    answer: "Participants who don't understand vesting or matching may forfeit employer contributions by leaving too early. Vesting schedules determine when employer contributions become fully owned by the participant. Workers who leave before full vesting forfeit money their employer set aside for them. Education explaining vesting during onboarding and at key milestones helps participants factor this into career and financial decisions."
+  },
+  {
+    question: "What SECURE 2.0 changes should participants be educated about?",
+    answer: "Key provisions include PLESAs, automatic enrollment changes, expanded catch-up contributions, and student loan matching. PLESAs became available for plan years after December 31, 2023. Automatic enrollment requirements begin in 2025 for certain new plans. Expanded catch-up contributions and student loan matching create additional tax planning considerations for interested participants. PointOak translates each provision into participant-facing communication explaining what changed, who is eligible, and what steps to take."
+  },
+  {
+    question: "What should employers look for in a 401(k) education provider?",
+    answer: "Look for plain-language capability, lifecycle segmentation, SECURE 2.0 fluency, and evidence of engagement outcomes. Evaluate whether the provider segments education by participant lifecycle, communicates in plain language, and demonstrates engagement results. SECURE 2.0 fluency matters because new provisions require ongoing updates. Integration with broader financial wellness and retirement tools should be standard, not an add-on. Ask for documented outcomes from plan sponsors with similar workforce profiles."
+  }
 ];
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Service",
-  name: "401k Participant Education Programs That Drive Retirement Outcomes",
+  name: "401(k) Participant Education and Communication Programs",
   provider: { "@type": "FinancialService", name: "PointOak Retirement Advisors" },
   serviceType: "Participant Education & Communications",
   areaServed: { "@type": "Country", name: "United States" },
@@ -120,8 +155,8 @@ export default function EducationCommunicationsPage() {
           { label: "For Businesses", href: "/corporate-retirement-plans" },
           { label: "Education & Communications" }
         ]}
-        title="401k Participant Education Programs That Drive Retirement Outcomes"
-        subtitle="Most employees don&apos;t understand their retirement plan. In fact, 73% don&apos;t feel completely educated about their company benefits, and 67% grade the industry &quot;C, D or F&quot; for explaining saving and investing. You&apos;re responsible for providing education that actually works. PointOak Retirement Advisors delivers 401k participant education programs designed to engage your workforce and protect you from fiduciary liability."
+        title="401(k) Participant Education and Communication Programs"
+        subtitle="Most plan sponsors assume recordkeeper notices count as participant financial education. They don't. 77% of workers say retirement investing guidance is what they most want from employers (Goldman Sachs 2024). PointOak's 401(k) participant education programs deliver that guidance through advisor-led retirement plan communication that turns retirement plans into something your workforce actually understands and can control."
       />
 
       {/* Highlights Bar */}
@@ -138,55 +173,26 @@ export default function EducationCommunicationsPage() {
         </div>
       </section>
 
-      {/* Why Choose Us */}
+      {/* Benefits of 401(k) Participant Education */}
       <AnimateOnScroll>
       <section className="bg-white py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
-          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
-            Why Choose Us for 401k Participant Education
-          </h2>
-          <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
-            <p>
-              When nearly half of plan sponsors don&apos;t even realize they&apos;re fiduciaries, education becomes more than an employee benefit. It becomes a compliance requirement. PointOak has been advising plan sponsors since day one, generating over 90% of revenue from retirement plan consulting. Our advisors are registered and act as named fiduciaries under ERISA.
-            </p>
-            <p>
-              What sets us apart is independence. We have no proprietary products to sell, no recordkeeper affiliations to satisfy. Your participants receive education focused on retirement readiness and financial security, not fund sales pitches. Our process-driven approach documents everything for your fiduciary file.
-            </p>
-          </div>
-        </div>
-      </section>
-      </AnimateOnScroll>
-
-      {/* Sub-Service Cards */}
-      <AnimateOnScroll>
-      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
-        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-10">
-            Our Education &amp; Communications Services
+            Benefits of 401(k) Participant Education
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {subServices.map((service) => {
-              const Icon = service.icon;
+            {benefitsData.map((benefit, idx) => {
+              const Icon = benefit.icon;
               return (
-                <Link
-                  key={service.href}
-                  href={service.href}
-                  className="bg-white rounded-lg p-8 border border-gray-100 hover:shadow-lg hover:border-navy/20 transition-all duration-300 group"
-                >
-                  <div className="flex items-start gap-5">
-                    <div className="w-12 h-12 rounded-full bg-cloud-blue flex items-center justify-center flex-shrink-0 group-hover:bg-navy/10 transition-colors">
-                      <Icon className="w-6 h-6 text-navy" />
+                <div key={idx} className="bg-cloud-blue rounded-lg p-6 md:p-8">
+                  <div className="flex items-start gap-4 mb-4">
+                    <div className="w-12 h-12 rounded-full bg-navy flex items-center justify-center flex-shrink-0">
+                      <Icon className="w-6 h-6 text-white" />
                     </div>
-                    <div className="flex-1">
-                      <h3 className="font-outfit text-navy text-xl font-medium mb-3 group-hover:text-navy/80 transition-colors">
-                        {service.title}
-                      </h3>
-                      <p className="font-outfit text-dark-gray text-sm leading-relaxed">
-                        {service.description}
-                      </p>
-                    </div>
+                    <h3 className="font-outfit text-navy text-xl font-semibold flex-1">{benefit.title}</h3>
                   </div>
-                </Link>
+                  <p className="text-text-gray font-outfit text-base leading-relaxed">{benefit.description}</p>
+                </div>
               );
             })}
           </div>
@@ -194,66 +200,127 @@ export default function EducationCommunicationsPage() {
       </section>
       </AnimateOnScroll>
 
-      {/* Challenges Table */}
+      {/* How 401(k) Participant Education Works */}
+      <AnimateOnScroll>
+      <section className="bg-[#F5F3EF] py-12 md:py-16 lg:py-20">
+        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
+          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
+            How 401(k) Participant Education Works
+          </h2>
+          <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
+            <p>
+              Only 1 in 3 workers say they have the time, interest, and knowledge to manage their own savings (Goldman Sachs 2024). Effective defined contribution plan education structures communication around decisions related to enrollment, contribution rates, and investment strategies rather than expecting participants to find resources on their own.
+            </p>
+            <p>
+              Strong programs segment communication by lifecycle stage and tie each touchpoint to an action prompt. <a href="https://www.dol.gov/agencies/ebsa/employers-and-advisers/guidance/field-assistance-bulletins/2012-02" target="_blank" rel="noopener noreferrer" className="text-navy underline hover:text-medium-blue transition-colors">DOL participant disclosure guidance</a> requires certain notices, but compliance documents do not produce comprehension. Genuine <Link href="/corporate-retirement-plans/fiduciary-support/" className="text-navy underline hover:text-medium-blue transition-colors">fiduciary support</Link> delivers education participants act on, including online access to participant website tools and timely information on saving strategies.
+            </p>
+            <div className="mt-6 pt-6 border-t border-gray-300">
+              <p>
+                <Link href="/contact/" className="text-navy underline hover:text-medium-blue transition-colors font-medium">Schedule a Consultation</Link> to discuss how advisor-led education can strengthen your plan's participant outcomes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      </AnimateOnScroll>
+
+      {/* Who Needs 401(k) Participant Education */}
       <AnimateOnScroll>
       <section className="bg-white py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
-            Common 401k Participant Education Challenges
+            Who Needs 401(k) Participant Education
           </h2>
+          <p className="text-text-gray font-outfit text-base leading-relaxed mb-10">
+            Not every organization needs an advisor-led education program. These scenarios help you decide.
+          </p>
+          <div className="space-y-6">
+            {educationNeedsData.map((item, idx) => (
+              <div key={idx} className="bg-cloud-blue rounded-lg p-6 md:p-8 border-l-4 border-navy">
+                <h3 className="font-outfit text-navy text-lg md:text-xl font-semibold mb-3">{item.title}</h3>
+                <p className="text-text-gray font-outfit text-base leading-relaxed">{item.description}</p>
+              </div>
+            ))}
+            <div className="bg-[#F5F3EF] rounded-lg p-6 md:p-8 border-l-4 border-warm-gold">
+              <h3 className="font-outfit text-navy text-lg md:text-xl font-semibold mb-3">When It Might NOT Be the Right Fit</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                If your organization does not yet have a retirement plan in place, or needs recordkeeping and administration rather than advisory education, a different starting point makes more sense.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      </AnimateOnScroll>
+
+      {/* Comparison Table */}
+      <AnimateOnScroll>
+      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
+        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
+          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
+            Advisor-Led Education vs. Recordkeeper Communication
+          </h2>
+          <p className="text-text-gray font-outfit text-base leading-relaxed mb-10">
+            Both advisor-led education and recordkeeper communication serve a function. The right choice depends on what your participants need to understand and act on.
+          </p>
           <div className="overflow-x-auto">
-            <table className="w-full border border-[#F3F4F6]">
+            <table className="w-full border-collapse">
               <thead>
                 <tr className="bg-navy text-white">
-                  <th className="px-6 py-4 text-left font-outfit text-base font-medium">Challenge</th>
-                  <th className="px-6 py-4 text-left font-outfit text-base font-medium">What It Looks Like</th>
-                  <th className="px-6 py-4 text-left font-outfit text-base font-medium">How We Help</th>
+                  <th className="px-4 py-3 text-left font-outfit font-semibold">Feature</th>
+                  <th className="px-4 py-3 text-left font-outfit font-semibold">Advisor-Led Education</th>
+                  <th className="px-4 py-3 text-left font-outfit font-semibold">Recordkeeper Communication</th>
                 </tr>
               </thead>
               <tbody>
-                <tr className="bg-white">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Low participation rates</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Only 77% of eligible employees enroll, risking failed nondiscrimination testing and compliance issues with DOL requirements.</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Targeted enrollment campaigns and simplified sign-up assistance increase NHCE participation to protect your plan.</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Communication Scope</td>
+                  <td className="px-4 py-3 text-gray-700">Year-round, segmented by lifecycle stage</td>
+                  <td className="px-4 py-3 text-gray-700">Enrollment-focused, standardized campaigns</td>
                 </tr>
-                <tr className="bg-cloud-blue">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Gen Z disengagement</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Just 36% of Gen Z workers participate versus 71% of millennials, creating a generational gap in retirement savings.</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Age-appropriate digital education and mobile-first resources engage younger workers where they already spend time.</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Communication Frequency</td>
+                  <td className="px-4 py-3 text-gray-700">Ongoing, tied to plan events and participant needs</td>
+                  <td className="px-4 py-3 text-gray-700">2-4 campaigns per year</td>
                 </tr>
-                <tr className="bg-white">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Information overload</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Employees feel overwhelmed by complicated investment options and tune out generic presentations about funds and percentages.</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">We simplify choices with clear frameworks that help participants decide without needing to become investors themselves.</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Fiduciary Perspective</td>
+                  <td className="px-4 py-3 text-gray-700">Shaped by fiduciary obligation to participants</td>
+                  <td className="px-4 py-3 text-gray-700">Shaped by platform capabilities</td>
                 </tr>
-                <tr className="bg-cloud-blue">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Limited HR bandwidth</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Your benefits department lacks time to develop and deliver comprehensive education while managing other responsibilities.</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">We handle the entire education process, freeing your team to focus on core business functions.</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Content Customization</td>
+                  <td className="px-4 py-3 text-gray-700">Built around plan design and workforce goals</td>
+                  <td className="px-4 py-3 text-gray-700">Templated to platform defaults</td>
                 </tr>
-                <tr className="bg-white">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Fiduciary liability exposure</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Inadequate education documentation leaves plan sponsors subject to DOL audits, potential attorney involvement, and ERISA law violations.</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Every session creates detailed records for your fiduciary file, demonstrating your commitment to participant welfare.</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">SECURE 2.0 Responsiveness</td>
+                  <td className="px-4 py-3 text-gray-700">Translates new rules into action steps</td>
+                  <td className="px-4 py-3 text-gray-700">Adds required notices as regulations take effect</td>
                 </tr>
-                <tr className="bg-cloud-blue">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Post-seminar inaction</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Only 14% of participants make changes after attending workplace education, wasting money and effort on programs that don&apos;t work.</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Behavioral strategies and follow-up communication convert education into actual enrollment and contribution increases.</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Participant Support Model</td>
+                  <td className="px-4 py-3 text-gray-700">Group sessions plus 1:1 guidance pathways</td>
+                  <td className="px-4 py-3 text-gray-700">Self-service tools and call center access</td>
                 </tr>
               </tbody>
             </table>
           </div>
+          <p className="text-text-gray font-outfit text-sm leading-relaxed mt-6 italic">
+            Sources: Capital Group 2024, <a href="https://www.goldmansachs.com/what-we-do/ayco/insights/2024-retirement-survey-insights-report" target="_blank" rel="noopener noreferrer" className="text-navy underline hover:text-medium-blue transition-colors">Goldman Sachs 2024 Retirement Survey</a>, Phase 2 competitive audit
+          </p>
+          <p className="text-text-gray font-outfit text-base leading-relaxed mt-6">
+            53% of workers want to learn more about government matching contributions to IRAs or 401(k)s (Schwab 2024). When your workforce faces these decisions, an advisor-led program through a <Link href="/our-services/" className="text-navy underline hover:text-medium-blue transition-colors">corporate retirement plan consulting</Link> relationship delivers outcomes and services that a compliance campaign alone cannot.
+          </p>
         </div>
       </section>
       </AnimateOnScroll>
 
       {/* Our Process */}
       <AnimateOnScroll>
-      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
+      <section className="bg-white py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-10">
-            What To Expect: Our Process
+            What To Expect: Our Education and Communications Process
           </h2>
           <div className="relative">
             <div className="absolute left-[19px] top-10 bottom-10 w-px bg-[#C1C5C9] hidden sm:block" />
@@ -261,7 +328,7 @@ export default function EducationCommunicationsPage() {
               {processSteps.map((step) => (
                 <div key={step.number} className="flex gap-6">
                   <div className="flex-shrink-0 z-10">
-                    <div className="w-10 h-10 rounded-full bg-medium-blue flex items-center justify-center">
+                    <div className="w-10 h-10 rounded-full bg-navy flex items-center justify-center">
                       <span className="font-outfit font-semibold text-white text-lg leading-none">{step.number}</span>
                     </div>
                   </div>
@@ -277,6 +344,25 @@ export default function EducationCommunicationsPage() {
       </section>
       </AnimateOnScroll>
 
+      {/* Why Choose PointOak */}
+      <AnimateOnScroll>
+      <section className="bg-[#F5F3EF] py-12 md:py-16 lg:py-20">
+        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
+          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
+            Why Choose PointOak for Participant Education
+          </h2>
+          <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
+            <p>
+              80% of workers with a personalized plan report being on track or ahead of schedule, compared with 39% without one (<a href="https://www.goldmansachs.com/what-we-do/ayco/insights/2024-retirement-survey-insights-report" target="_blank" rel="noopener noreferrer" className="text-navy underline hover:text-medium-blue transition-colors">Goldman Sachs 2024 Retirement Survey</a>). PointOak's 401 k participant education programs draw on direct experience consulting across the industry with plan sponsors and participants since 2005. <Link href="/about/" className="text-navy underline hover:text-medium-blue transition-colors">Our approach to retirement plan consulting</Link> translates complexity into insights companies and their participants can act on.
+            </p>
+            <p>
+              Your recordkeeper provides communication. <Link href="/our-consulting-team/" className="text-navy underline hover:text-medium-blue transition-colors">Darsh and his team</Link> design education around your specific plan design, workforce demographics, and fiduciary goals. We build every program around what your participants need to understand, not around a platform's standard campaign library.
+            </p>
+          </div>
+        </div>
+      </section>
+      </AnimateOnScroll>
+
       {/* About PointOak */}
       <AnimateOnScroll>
       <section className="bg-white py-12 md:py-16 lg:py-20">
@@ -285,7 +371,7 @@ export default function EducationCommunicationsPage() {
             About PointOak Retirement Advisors
           </h2>
           <p className="text-text-gray font-outfit text-base leading-relaxed">
-            PointOak Retirement Advisors is an independent retirement plan consulting firm headquartered in McLean, Virginia, serving plan sponsors nationwide. The firm generates over 90% of its revenue from corporate retirement plans and acts as a 3(21) or 3(38) named fiduciary under ERISA with every client. PointOak evaluates over $120 billion in retirement plan assets quarterly using a proprietary 10-point pass/fail scoring system and conducts more than 10,000 plan benchmarks annually.
+            PointOak Retirement Advisors is an independent, fee-only wealth advisory firm founded in 2017 and headquartered in McLean, Virginia. We serve high-net-worth individuals and corporate plan sponsors nationwide as an SEC-registered investment advisor. Led by Darsh Makim, CRPC, our team brings over 50 years of collective experience and manages over $1.08 billion in assets. <Link href="/contact/" className="text-navy underline hover:text-medium-blue transition-colors">Schedule a Consultation</Link>.
           </p>
         </div>
       </section>

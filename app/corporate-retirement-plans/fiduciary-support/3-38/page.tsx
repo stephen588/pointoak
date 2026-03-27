@@ -8,66 +8,77 @@ import Link from "next/link";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
 
 export const metadata: Metadata = {
-  title: "3(38) Investment Fiduciary Services | PointOak Advisors",
-  description: "Transfer investment liability with PointOak&apos;s 3(38) fiduciary services. 90%+ retirement plan specialists. Full discretionary authority. Contact us today.",
+  title: "3(38) Investment Fiduciary Services | PointOak",
+  description: "PointOak serves as a named 3(38) ERISA fiduciary, reviewing 450+ data points per bidder to build and monitor your retirement plan lineup. Schedule a consultation.",
   alternates: {
     canonical: "https://www.pointoak.com/corporate-retirement-plans/fiduciary-support/3-38/"
   }
 };
 
 const highlights = [
-  "Named fiduciary status from day one",
-  "90%+ revenue from retirement plan services",
-  "Proprietary 10-point investment scoring system"
+  "450+ data points reviewed per plan bidder",
+  "Named 3(21) and 3(38) ERISA fiduciary",
+  "Fee-only, zero commissions or proprietary products"
 ];
 
 const processSteps = [
   {
     number: 1,
-    title: "Initial Consultation and Fiduciary Assessment",
-    description: "Call or schedule online. We confirm your appointment within two business hours and conduct your fiduciary assessment, reviewing current fiduciary roles and responsibilities."
+    title: "Analyze",
+    description: "We review your current plan structure, investment lineup, fees, and plan documents to establish a baseline."
   },
   {
     number: 2,
-    title: "Investment Analysis and Proposal",
-    description: "We analyze your current investment lineup using our 10-point scoring system. You receive a comprehensive proposal documenting our investment management services approach and fiduciary structure."
+    title: "Optimize",
+    description: "We develop an investment policy statement and recommend lineup changes based on benchmarked data and defined criteria."
   },
   {
     number: 3,
-    title: "3(38) Fiduciary Appointment",
-    description: "We execute the 3(38) investment manager agreement, establishing our named fiduciary status in writing per ERISA requirements. This transfers investment fiduciary responsibility from your committee."
-  },
-  {
-    number: 4,
-    title: "Ongoing Quarterly Monitoring",
-    description: "Your plan investments receive quarterly reviews. We make necessary fund changes immediately and provide comprehensive documentation for your fiduciary file."
+    title: "Implement",
+    description: "We execute changes, manage ongoing monitoring, and deliver quarterly reporting on plan assets and performance."
   }
 ];
 
 const faqs = [
   {
-    question: "How much does a 3(38) investment fiduciary cost?",
-    answer: "Investment advisory services fees typically run 0.15% to 0.40% of plan assets annually, depending on plan size and complexity. Larger plans often negotiate lower basis point fees. We provide transparent, itemized pricing with no hidden charges. Many clients find the fiduciary liability protection and time savings justify the investment, especially considering average ERISA litigation settlements exceed $4 million."
+    question: "How much do 3(38) investment fiduciary services cost?",
+    answer: "Key cost factors include plan asset size, number of participants, investment menu complexity, and scope of governance support. Fee-only fiduciaries charge advisory fees with no commissions or revenue-sharing from fund companies. Small employers may offset costs through available retirement plan tax credits. PointOak's fee structure is transparent and discussed during the initial consultation. All investing involves risk, and fees represent one component of total plan cost. We act in your plan's best interest under our fiduciary duty."
   },
   {
-    question: "What makes PointOak different from other 3(38) fiduciary providers?",
-    answer: "Three things set us apart: we generate over 90% of revenue from retirement plans (true specialists, not financial advisors who treat retirement plans as side business), we&apos;re independently owned with no proprietary products to push, and our investment methodology evaluates over $120 billion in plan assets quarterly. We&apos;ve been registered as named fiduciaries since day one."
+    question: "What is the difference between a 3(21) and 3(38) fiduciary?",
+    answer: "Under a 3(21) arrangement, the investment advisor recommends investment options and the committee makes final investment decisions. Under a 3(38), the investment manager selects, monitors, and replaces funds without requiring committee approval. The plan sponsor retains the duty to prudently select and monitor whichever provider it chooses."
   },
   {
-    question: "Is switching from 3(21) to 3(38) complicated?",
-    answer: "The transition typically takes 2-4 weeks. We execute a new investment manager agreement establishing our 3(38) status, then assume discretionary authority over your existing investment options. We analyze current plan investments immediately using our due diligence process and make necessary fund changes. Most sponsors report the process is straightforward and the relief from fiduciary responsibility is immediate."
+    question: "How often should a 3(38) fiduciary review and report on plan investments?",
+    answer: "A responsible 3(38) provider conducts regular fund-level performance reviews, monitors watchlisted investments against defined criteria, and updates the committee through written reports. PointOak provides quarterly reporting with documented rationale for fund changes, including target date fund consulting adjustments. The cadence aligns with your plan's governance calendar."
   },
   {
-    question: "What is the difference between a 3(21) and a 3(38) fiduciary?",
-    answer: "A 3(21) investment adviser can provide investment advice and recommendations, but you retain final decision-making authority and fiduciary liability. A 3(38) investment manager has full discretionary authority to select, monitor, and replace plan investments without your approval. The 3(38) assumes investment fiduciary responsibility under the Employee Retirement Income Security Act."
+    question: "What is a 3(38) investment fiduciary?",
+    answer: "ERISA section 3(38) defines an investment manager as a fiduciary that is either a registered investment adviser, bank, or insurance company with the power to manage, acquire, or dispose of plan assets. The designation carries specific legal requirements under federal or state law, including written acknowledgment of fiduciary status."
   },
   {
-    question: "What are the benefits of hiring a 3(38) investment manager?",
-    answer: "You transfer investment fiduciary liability to a registered investment advisor who acts on your behalf. Committee meetings shift from reviewing individual funds to focusing on participant outcomes and helping employees achieve comfortable retirement. Many sponsors reduce meeting frequency and committee size significantly, lowering costs. Research shows relief from worry and fiduciary risk is the primary motivator for business owners."
+    question: "Does hiring a 3(38) fiduciary remove liability from the plan sponsor?",
+    answer: "DOL fiduciary responsibilities guidance makes clear that even when a sponsor hires a 3(38) investment manager, the sponsor remains responsible for prudently choosing that provider and reviewing its performance. PointOak supports this retained duty through documented committee reporting, transparent methodology, and regular performance reviews that give the committee information to fulfill its fiduciary responsibility."
   },
   {
-    question: "Does a 3(38) fiduciary eliminate all my liability?",
-    answer: "No. You remain responsible for selecting and monitoring your 3(38) investment manager with the same fiduciary duty of prudence. You must demonstrate a prudent process for choosing us and periodically review our investment performance. However, you&apos;re no longer liable for specific investment decisions like fund selection or replacement. The 3(38) assumes that fiduciary responsibility under federal law."
+    question: "Who can serve as a 3(38) investment manager?",
+    answer: "ERISA limits the 3(38) investment manager designation to three entity types under state law: registered investment advisers, banks, and insurance companies. A financial advisor or broker outside these categories cannot legally serve in a 3(38) capacity. Confirm any provider's SEC registration through the Investment Adviser Public Disclosure database."
+  },
+  {
+    question: "How involved does the retirement committee stay after hiring a 3(38)?",
+    answer: "Hiring a 3(38) fiduciary does not mean the committee disbands. The committee reviews investment reports, evaluates the provider's performance, and documents its oversight. Financial advisors in this role provide regular updates, shifting the workload from fund selection to evaluating the 3(38) provider's methodology against the investment policy statement."
+  },
+  {
+    question: "What is the difference between a bundled recordkeeper 3(38) and an independent fiduciary advisor?",
+    answer: "Some recordkeepers offer 3(38) coverage as an add-on, cost-effective for smaller plans with straightforward needs. An independent fiduciary advisor provides open-architecture fund selection, custom benchmarking, and direct senior-level access. PointOak operates as an independent, fee-only investment fiduciary. Investment managers offer different service depth depending on their model."
+  },
+  {
+    question: "What should a plan sponsor look for in a 3(38) fiduciary?",
+    answer: "Start with verification: the provider must be a registered investment adviser, bank, or insurance company under ERISA. Then evaluate the investment monitoring process, fee benchmarking discipline, committee reporting format, and willingness to accept written fiduciary acknowledgment. A strong provider explains how it documents decisions and provides investment recommendations. Correct paperwork and formal acknowledgment are non-negotiable."
+  },
+  {
+    question: "Is a 3(38) fiduciary worth it for a small business 401(k)?",
+    answer: "Small plan sponsors typically have less time for investment monitoring and less access to institutional benchmarking tools. A 3(38) fiduciary brings institutional-grade oversight regardless of plan size, helping participants work toward a comfortable retirement. Eligible small employers may benefit from IRS retirement plan startup cost credits that offset the cost of upgrading their fiduciary structure."
   }
 ];
 
@@ -93,8 +104,8 @@ export default function ThreeThirtyEightPage() {
           { label: "Fiduciary Support", href: "/corporate-retirement-plans/fiduciary-support" },
           { label: "3(38) Fiduciary Services" }
         ]}
-        title="3(38) Investment Fiduciary Services"
-        subtitle="You&apos;re responsible for your company&apos;s 401(k) plan, but managing investments isn&apos;t your expertise. PointOak Retirement Advisors acts as your 3(38) investment fiduciary, assuming full discretionary authority over plan investments so you can focus on running your business."
+        title="3(38) Investment Fiduciary Services for Retirement Plans"
+        subtitle="Delegating investment decisions does not eliminate fiduciary responsibility. PointOak serves as a named 3(38) investment fiduciary, bringing discretionary oversight to your retirement plan through our retirement plan consulting services."
       />
 
       {/* Highlights Bar */}
@@ -111,55 +122,42 @@ export default function ThreeThirtyEightPage() {
         </div>
       </section>
 
-      {/* Why Choose Us */}
+      {/* Benefits */}
       <AnimateOnScroll>
       <section className="bg-white py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
-          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
-            Why Choose Us for 3(38) Investment Fiduciary Services?
-          </h2>
-          <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
-            <p>
-              ERISA excessive fee litigation surged 35% in 2024, with the average settlement reaching $4.6 million. As plan fiduciaries, many plan sponsors face overwhelming fiduciary risk without the investment expertise to protect themselves. PointOak has been advising plan sponsors and participants since day one, acting as registered investment advisors under the Employee Retirement Income Security Act with full 3(38) named fiduciary status on every engagement.
-            </p>
-            <p>
-              What sets us apart is our specialization. We generate over 90% of our revenue from corporate retirement plans, not general wealth management. Our investment methodology evaluates over $120 billion in retirement plan assets quarterly using a proprietary 10-point pass/fail scoring system. As your 3(38) investment manager, we handle all investment decisions on your behalf. We document everything in your Virtual 401(k) Fiduciary File to protect you if the DOL comes calling.
-            </p>
-          </div>
-        </div>
-      </section>
-      </AnimateOnScroll>
-
-      {/* Our Services */}
-      <AnimateOnScroll>
-      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
-        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-10">
-            Our 3(38) Investment Manager Services
+            Benefits of 3(38) Investment Fiduciary Services
           </h2>
           <div className="space-y-8">
             <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">3(38) Investment Manager Services</h3>
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Delegated Investment Discretion</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                As your 3(38) investment fiduciary, we accept full discretionary authority to select, monitor, and replace plan investments on your behalf. This transfers investment fiduciary responsibility from your committee to us under ERISA Section 3(38). Only registered investment advisors, banks, and insurance companies can serve in this fiduciary role under federal or state law. We make fund changes immediately when investment performance fails our criteria. No waiting for committee approval.
+                A 3(38) fiduciary takes discretionary authority over selecting, monitoring, and replacing plan investments. Your committee shifts from evaluating individual fund changes to overseeing the provider relationship. This transfer of fiduciary responsibility for investment selection reduces personal liability exposure for committee members.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Investment Policy Statement Development</h3>
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Documented Fiduciary Protection</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                We draft your Investment Policy Statement to document investment objectives, risk tolerance, and decision-making criteria. This IPS serves as your fiduciary roadmap and demonstrates prudent process during DOL audits or ERISA litigation. The Employee Retirement Income Security Act requires plan fiduciaries to follow plan documents and act in the best interest of plan participants. Your IPS aligns with participant demographics and plan design.
+                A named 3(38) investment fiduciary creates a written accountability chain with formal acknowledgment of fiduciary liability for investment selection. The DOL still expects plan sponsors to prudently select and monitor any service provider they hire. Documented delegation makes that retained duty auditable rather than ambiguous.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Quarterly Investment Monitoring</h3>
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Fee Benchmarking Discipline</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                Our investment committee reviews your plan&apos;s fund lineup every quarter using institutional measurement techniques. We evaluate investment performance, expense ratios, style drift, and manager tenure against our proprietary 10-point scoring system. This ongoing due diligence ensures your investment portfolio meets ERISA requirements. Funds that fail our criteria get replaced automatically.
+                <a href="https://advisors.voya.com/document/business-building-defined-contribution/survey-retirement-landscape-plan-sponsor-sentiments.pdf" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:text-navy underline">Voya's 2025 retirement landscape survey</a> found 37% of sponsors are extremely concerned about ensuring plan fees are reasonable. A 3(38) fiduciary builds fee due diligence into ongoing management of plan assets through systematic <Link href="/corporate-retirement-plans/provider-fee-benchmarking" className="text-medium-blue hover:text-navy underline">provider and fee benchmarking</Link>, addressing asset based fees alongside fund costs.
               </p>
             </div>
             <div className="border-l-4 border-medium-blue pl-6">
-              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Investment Committee Services</h3>
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Institutional-Grade Investment Monitoring</h3>
               <p className="text-text-gray font-outfit text-base leading-relaxed">
-                We establish or refine your Investment Committee structure and governance framework. Our financial advisors attend your committee meetings as named fiduciaries, providing direct investment advice and guiding strategic discussions. Committee meetings shift from reviewing individual fund performance to focusing on participant outcomes, retirement readiness, and plan design optimization. Many business owners report significant relief from no longer making complex investment decisions without proper investment expertise.
+                Defined watchlist criteria, documented replacement triggers, and structured performance reviews replace ad hoc committee judgment on plan investments. Your 3(38) fiduciary applies <Link href="/corporate-retirement-plans/investment-analysis" className="text-medium-blue hover:text-navy underline">investment analysis</Link> protocols used in institutional investment management services, not subjective assessments driven by recent returns or headline risk.
+              </p>
+            </div>
+            <div className="border-l-4 border-medium-blue pl-6">
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Committee-Ready Governance Support</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                Quarterly reporting, meeting preparation, decision memos, and plain-English summaries equip your committee to fulfill its retained monitoring duty. Every fund change ties back to the investment policy statement, so the committee reviews documented rationale rather than rebuilding analysis from scratch.
               </p>
             </div>
           </div>
@@ -167,61 +165,143 @@ export default function ThreeThirtyEightPage() {
       </section>
       </AnimateOnScroll>
 
-      {/* Challenges Table */}
+      {/* How It Works */}
+      <AnimateOnScroll>
+      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
+        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
+          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
+            How 3(38) Investment Fiduciary Services Work
+          </h2>
+          <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
+            <p>
+              ERISA defines an investment manager under the Employee Retirement Income Security Act as a registered investment advisor, bank, or insurance company with discretionary authority over plan assets. Investment advisers in this role select, monitor, and replace the plan's investment options without requiring committee approval. <Link href="/corporate-retirement-plans/fiduciary-support" className="text-medium-blue hover:text-navy underline">Fiduciary support services</Link> formalize this delegation through model portfolios and documented processes.
+            </p>
+            <p>
+              As fee compression narrows cost differences between funds, 3(38) investment performance monitoring methodology and governance discipline become the real differentiators. Product selection alone no longer separates providers. <Link href="/contact" className="text-medium-blue hover:text-navy underline">Schedule a consultation</Link> to discuss whether delegated fiduciary services fit your plan's investment oversight needs.
+            </p>
+          </div>
+        </div>
+      </section>
+      </AnimateOnScroll>
+
+      {/* Who Needs This */}
       <AnimateOnScroll>
       <section className="bg-white py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
-            Common Investment Fiduciary Challenges Nationwide
+            Who Needs a 3(38) Investment Fiduciary
           </h2>
+          <p className="text-text-gray font-outfit text-base leading-relaxed mb-8">
+            Not every plan needs a 3(38) fiduciary. These situations signal when delegated discretion adds value.
+          </p>
+          <div className="space-y-8">
+            <div className="border-l-4 border-medium-blue pl-6">
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Your Committee Lacks Investment Monitoring Bandwidth</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                Your committee meets infrequently and reviews funds ad hoc with no formal investment policy statement. Many plan sponsors carry fiduciary obligations without the bandwidth to execute, leaving 401 k plan decisions undocumented.
+              </p>
+            </div>
+            <div className="border-l-4 border-medium-blue pl-6">
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Fiduciary Liability Concerns Are Growing</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                A business owner facing ERISA litigation concerns needs a clear accountability chain for investment documentation. A 3(38) investment manager shifts fund-level plan decisions to a provider with the investment expertise to defend them under scrutiny.
+              </p>
+            </div>
+            <div className="border-l-4 border-medium-blue pl-6">
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Plan Fees Haven't Been Benchmarked Recently</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                No systematic fee review exists and the lineup may not reflect competitive pricing. About one-third of sponsors report their specialists hold 3(38) responsibility, so adoption is meaningful but far from universal.
+              </p>
+            </div>
+            <div className="border-l-4 border-medium-blue pl-6">
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">You're Transitioning Recordkeepers or Plan Providers</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                A provider transition creates a natural evaluation point for fiduciary structure. Rebuilding your investment lineup alongside recordkeeping changes and <Link href="/corporate-retirement-plans/plan-design" className="text-medium-blue hover:text-navy underline">plan design services</Link> under 3(38) delegation consolidates governance into a single framework.
+              </p>
+            </div>
+            <div className="border-l-4 border-medium-blue pl-6">
+              <h3 className="text-navy font-outfit text-xl lg:text-2xl font-medium mb-3">Your Current Advisor Provides Recommendations but You Want Discretionary Oversight</h3>
+              <p className="text-text-gray font-outfit text-base leading-relaxed">
+                Your advisor provides investment recommendations but the committee votes on every fund change. Moving to 3(38) converts that relationship into full delegation, and <Link href="/corporate-retirement-plans/participant-education" className="text-medium-blue hover:text-navy underline">participant education programs</Link> help plan participants understand lineup changes.
+              </p>
+            </div>
+          </div>
+          <div className="mt-8 p-6 bg-cloud-blue rounded-lg">
+            <h3 className="text-navy font-outfit text-xl font-semibold mb-3">When a 3(38) Fiduciary Might NOT Be the Right Fit</h3>
+            <p className="text-text-gray font-outfit text-base leading-relaxed">
+              When the committee has strong ERISA governance discipline, a current investment policy statement, and prefers retaining authority over fund changes, a 3(21) co-fiduciary arrangement keeps decision making in-house with advisory support.
+            </p>
+          </div>
+        </div>
+      </section>
+      </AnimateOnScroll>
+
+      {/* Comparison Table */}
+      <AnimateOnScroll>
+      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
+        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
+          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
+            3(38) Fiduciary vs. 3(21) Co-Fiduciary Advisor
+          </h2>
+          <p className="text-text-gray font-outfit text-base leading-relaxed mb-8">
+            Both fiduciary roles serve 401(k) plans. The right choice depends on how much decision making your committee wants to delegate per <a href="https://www.dol.gov/sites/dolgov/files/EBSA/about-ebsa/our-activities/resource-center/publications/archive/meeting-your-fiduciary-responsibilities.pdf" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:text-navy underline">DOL fiduciary guidance</a>.
+          </p>
           <div className="overflow-x-auto">
-            <table className="w-full border border-[#F3F4F6]">
+            <table className="w-full border-collapse">
               <thead>
                 <tr className="bg-navy text-white">
-                  <th className="px-6 py-4 text-left font-outfit text-base font-medium">Challenge</th>
-                  <th className="px-6 py-4 text-left font-outfit text-base font-medium">What It Looks Like</th>
-                  <th className="px-6 py-4 text-left font-outfit text-base font-medium">How We Help</th>
+                  <th className="px-4 py-3 text-left font-outfit font-semibold">Dimension</th>
+                  <th className="px-4 py-3 text-left font-outfit font-semibold">3(38) Investment Manager</th>
+                  <th className="px-4 py-3 text-left font-outfit font-semibold">3(21) Co-Fiduciary Advisor</th>
                 </tr>
               </thead>
               <tbody>
-                <tr className="bg-white">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">ERISA Litigation Exposure</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Excessive fee lawsuits increased 35% in 2024, with average settlements of $4.6 million. Even well-run plans get targeted by plaintiff firms pursuing fiduciary breach claims.</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">We assume full discretionary authority as your 3(38) fiduciary, transferring investment liability to us under federal law. Our fiduciary services include complete defense of investment decisions.</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Investment Authority</td>
+                  <td className="px-4 py-3 text-gray-700">Discretionary: selects, monitors, replaces funds without committee vote</td>
+                  <td className="px-4 py-3 text-gray-700">Advisory: renders investment advice and recommendations, committee makes final decision</td>
                 </tr>
-                <tr className="bg-cloud-blue">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Investment Decision Complexity</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">40,000+ available investment options make selection overwhelming. Most committee members lack investment expertise to evaluate performance, expense ratios, and style drift properly.</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Our proprietary 10-point scoring system evaluates $120+ billion quarterly. We handle all investment due diligence using institutional measurement techniques our investment professionals apply systematically.</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Liability Allocation</td>
+                  <td className="px-4 py-3 text-gray-700">Assumes investment selection liability; sponsor monitors the provider</td>
+                  <td className="px-4 py-3 text-gray-700">Shared: sponsor retains selection and monitoring responsibility</td>
                 </tr>
-                <tr className="bg-white">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Time Burden on Executives</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Managing plan investments equals a part-time job. Committee meetings consume travel costs, billable hours, and executive focus. Business owners need to run their companies, not manage investment portfolios.</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Clients reduce committee size from eight to two and switch from quarterly to semiannual meetings, cutting costs significantly while improving plan decisions.</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Committee Time</td>
+                  <td className="px-4 py-3 text-gray-700">Lower: 4 quarterly provider reviews replace per-fund decisions</td>
+                  <td className="px-4 py-3 text-gray-700">Higher: evaluates each recommendation before acting</td>
                 </tr>
-                <tr className="bg-cloud-blue">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">DOL Audit Anxiety</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">67% of DOL investigations result in monetary penalties or corrective action. Most sponsors lack proper documentation showing they followed correct procedures and fiduciary process requirements.</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">We maintain your Virtual 401(k) Fiduciary File with complete documentation of every investment decision and quarterly review, demonstrating compliance with ERISA requirements.</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Documentation Burden</td>
+                  <td className="px-4 py-3 text-gray-700">Provider documents fund rationale and watchlist actions</td>
+                  <td className="px-4 py-3 text-gray-700">Committee documents acceptance or rejection of each recommendation</td>
                 </tr>
-                <tr className="bg-white">
-                  <td className="px-6 py-4 font-outfit text-base text-text-gray font-medium">Fear of Personal Liability</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Plan fiduciaries face personal fiduciary liability for breaches. Many executives don&apos;t realize they&apos;re fiduciaries until receiving lawsuit notice, despite ERISA defining broad fiduciary roles.</td>
-                  <td className="px-6 py-4 font-outfit text-sm text-text-gray">Our 3(38) named fiduciary status transfers investment fiduciary responsibility to us, a registered investment advisor under federal law acting solely in participants&apos; best interest.</td>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Fee Scrutiny Support</td>
+                  <td className="px-4 py-3 text-gray-700">Benchmarking embedded in delegated scope</td>
+                  <td className="px-4 py-3 text-gray-700">Committee drives fee review with advisor input</td>
+                </tr>
+                <tr className="border-b border-gray-100 even:bg-gray-50">
+                  <td className="px-4 py-3 text-gray-700 font-medium">Override Flexibility</td>
+                  <td className="px-4 py-3 text-gray-700">Fully delegated; committee monitors but does not override</td>
+                  <td className="px-4 py-3 text-gray-700">Committee retains override authority on every recommendation</td>
                 </tr>
               </tbody>
             </table>
           </div>
+          <p className="text-text-gray font-outfit text-base leading-relaxed mt-6">
+            When the committee wants delegated discretion, the 3(38) investment manager fits. When it prefers final say on fund changes, a 3(21) investment advisor works.
+          </p>
         </div>
       </section>
       </AnimateOnScroll>
 
       {/* Our Process */}
       <AnimateOnScroll>
-      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
+      <section className="bg-white py-12 md:py-16 lg:py-20">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-10">
-            What To Expect: Our Process
+            What To Expect: Our 3(38) Fiduciary Process
           </h2>
           <div className="relative">
             <div className="absolute left-[19px] top-10 bottom-10 w-px bg-[#C1C5C9] hidden sm:block" />
@@ -245,6 +325,25 @@ export default function ThreeThirtyEightPage() {
       </section>
       </AnimateOnScroll>
 
+      {/* Why Choose PointOak */}
+      <AnimateOnScroll>
+      <section className="bg-cloud-blue py-12 md:py-16 lg:py-20">
+        <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
+          <h2 className="text-navy font-outfit text-3xl md:text-4xl lg:text-[42px] font-light leading-tight mb-6">
+            Why Choose PointOak for 3(38) Investment Fiduciary Services
+          </h2>
+          <div className="space-y-4 text-text-gray font-outfit text-base leading-relaxed">
+            <p>
+              <a href="https://advisors.voya.com/document/business-building-defined-contribution/survey-retirement-landscape-plan-sponsor-sentiments.pdf" target="_blank" rel="noopener noreferrer" className="text-medium-blue hover:text-navy underline">Voya's 2025 survey</a> found 24% of sponsors are extremely concerned about monitoring investment performance. PointOak brings investment expertise and a proprietary benchmarking process to address this, with a named senior advisor from <Link href="/about/our-team" className="text-medium-blue hover:text-navy underline">our consulting team</Link> assigned to your committee. Direct accountability from the first meeting keeps focus on your plan's best interest.
+            </p>
+            <p>
+              The difference between 3(38) service providers is the methodology. PointOak's approach builds on corporate retirement plan consulting with documented IPS development, defined watchlist criteria, and quarterly committee reporting. Past performance informs but does not dictate our selections, which draw from sources believed reliable. Learn more <Link href="/about" className="text-medium-blue hover:text-navy underline">about PointOak</Link>.
+            </p>
+          </div>
+        </div>
+      </section>
+      </AnimateOnScroll>
+
       {/* About */}
       <AnimateOnScroll>
       <section className="bg-white py-12 md:py-16 lg:py-20">
@@ -253,7 +352,7 @@ export default function ThreeThirtyEightPage() {
             About PointOak Retirement Advisors
           </h2>
           <p className="text-text-gray font-outfit text-base leading-relaxed">
-            PointOak Retirement Advisors is an independent retirement plan consulting firm headquartered in McLean, Virginia, serving plan sponsors nationwide. The firm generates over 90% of its revenue from corporate retirement plans and acts as a 3(21) or 3(38) named fiduciary under ERISA with every client. PointOak evaluates over $120 billion in retirement plan assets quarterly.
+            <Link href="/" className="text-medium-blue hover:text-navy underline">PointOak Retirement Advisors</Link> is an independent, fee-only wealth advisory firm headquartered in McLean, Virginia. SEC-registered investment advisor and fiduciary since our 2017 founding. Darsh Makim, CRPC, has worked with plan sponsors and participants since 2005. Our team brings 50+ years of collective experience managing over $1.08 billion in assets under management. Investment advisory services delivered in-person and virtually nationwide. <Link href="/contact" className="text-medium-blue hover:text-navy underline">Schedule a complimentary consultation</Link>.
           </p>
         </div>
       </section>
@@ -263,8 +362,8 @@ export default function ThreeThirtyEightPage() {
 
       <section className="bg-white py-8">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
-          <p className="text-text-gray font-outfit text-sm leading-relaxed italic text-center">
-            Investment advisory services offered through PointOak Retirement Advisors, LLC. This site is published for residents of the United States only. PointOak Retirement Advisors, LLC does not provide tax or legal advice.
+          <p className="text-text-gray font-outfit text-sm leading-relaxed text-center">
+            <Link href="/contact" className="text-medium-blue hover:text-navy underline">Schedule your consultation</Link> for a no-cost conversation about your plan's fiduciary structure and our investment advisory services.
           </p>
         </div>
       </section>
