@@ -11,7 +11,7 @@ const services = [
   {
     title: "Investment Management",
     description:
-      "Tax-aware portfolio construction designed for optimal risk-adjusted returns. We build diversified investing strategies aligned with your time horizon and coordinate with your broader financial plan for accumulation or income generation. Our team reviews your objectives and constructs a portfolio using the best investment products available in the marketplace.",
+      "We design diversified investment strategies aligned with your time horizon, risk tolerance, and overall financial plan. As your needs evolve, we adjust your portfolio to reflect your life stage and long-term objectives. Our disciplined approach to portfolio construction focuses on optimizing risk-adjusted returns, using carefully selected investment solutions from across the marketplace.",
   },
   {
     title: "Tax-Efficient Wealth Strategies",

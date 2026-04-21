@@ -46,19 +46,24 @@ export default function Hero() {
         <div className="w-full max-w-4xl h-px bg-white/20 mb-6" />
 
         {/* Description */}
-        <p className="text-[15px] lg:text-[18px] leading-[1.6] max-w-3xl mb-10 font-normal"
-           style={{ textTransform: "capitalize" }}>
+        <p className="text-[15px] lg:text-[18px] leading-[1.6] max-w-3xl mb-10 font-normal">
           <span className="text-[#EDEDED] font-semibold">PointOak</span>
           <span className="text-[#C3C3C3]">
-            {" "}is an independent, fee-only wealth advisory firm and fiduciary serving
-            high-net-worth individuals and families. With over{" "}
+            {" "}is an independent, fee-only{" "}
+          </span>
+          <span className="text-[#EDEDED] font-semibold uppercase tracking-wide">
+            fiduciary
+          </span>
+          <span className="text-[#C3C3C3]">
+            {" "}wealth advisory firm serving high-net-worth individuals and families.
+            Backed by over{" "}
           </span>
           <span className="text-[#EDEDED] font-medium">
             50 years of collective experience,
           </span>
           <span className="text-[#C3C3C3]">
-            {" "}we turn sophisticated financial strategies into clear,
-            actionable plans aligned with your long-term goals.
+            {" "}we turn sophisticated financial strategies into clear, actionable
+            solutions aligned with your long-term goals.
           </span>
         </p>
 

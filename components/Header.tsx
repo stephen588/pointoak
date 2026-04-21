@@ -2,7 +2,7 @@
 
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
-import { Menu, X, ArrowRight, ChevronDown } from "lucide-react";
+import { Menu, X, ArrowRight, ChevronDown, LogIn } from "lucide-react";
 import { useConsultationModal } from "./ConsultationModalProvider";
 
 const navItems = [
@@ -110,14 +110,28 @@ function DesktopDropdown({ item }: { item: typeof navItems[number] }) {
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [mobileExpanded, setMobileExpanded] = useState<string | null>(null);
+  const [scrolled, setScrolled] = useState(false);
   const { openModal } = useConsultationModal();
 
   const toggleMobileSection = (label: string) => {
     setMobileExpanded(mobileExpanded === label ? null : label);
   };
 
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 20);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
   return (
-    <header className="absolute top-0 left-0 right-0 z-50">
+    <header
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+        scrolled
+          ? "bg-navy/95 backdrop-blur-md shadow-lg border-b border-white/10"
+          : "bg-transparent"
+      }`}
+    >
       <div className="mx-auto px-6 lg:px-24 flex items-center justify-between h-[78px]">
         {/* Logo → Home */}
         <Link href="/" className="flex-shrink-0">
@@ -134,6 +148,13 @@ export default function Header() {
           {navItems.map((item) => (
             <DesktopDropdown key={item.href} item={item} />
           ))}
+          <Link
+            href="/client-login"
+            className="flex items-center gap-1.5 text-white text-[15px] font-normal hover:text-white/80 transition-colors"
+          >
+            <LogIn className="w-4 h-4" strokeWidth={1.75} />
+            Log In
+          </Link>
         </nav>
 
         {/* CTA Button */}
@@ -204,6 +225,14 @@ export default function Header() {
                 )}
               </div>
             ))}
+            <Link
+              href="/client-login"
+              onClick={() => setMobileOpen(false)}
+              className="flex items-center gap-2 text-white text-[16px] font-normal py-3 border-b border-white/10"
+            >
+              <LogIn className="w-4 h-4" strokeWidth={1.75} />
+              Log In
+            </Link>
             <button
               onClick={() => {
                 setMobileOpen(false);
