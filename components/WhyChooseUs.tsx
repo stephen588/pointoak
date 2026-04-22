@@ -107,25 +107,25 @@ export default function WhyChooseUs() {
       icon: <IndependentIcon />,
       title: "Independent & Unbiased",
       description:
-        "As a fee-only, SEC-registered investment advisor, we&apos;re entirely independent. We work solely in your best interest — no commissions, no conflicts.",
+        "As a fee-only, SEC-registered investment advisor and fiduciary, we provide objective, conflict-free advice\u2014always acting in your best interest. No commissions, no conflicts\u2014just transparent, client-first guidance.",
     },
     {
       icon: <PersonalServiceIcon />,
       title: "White-Glove, Personal Service",
       description:
-        "With each client supported by a dedicated support partner managing over $1 billion in assets, we offer a level of intimacy and expertise that&apos;s rare in the industry.",
+        "Every client relationship is supported by a dedicated team member with senior-level experience. We combine institutional-level expertise with a highly personal, responsive service experience.",
     },
     {
       icon: <RetirementIcon />,
       title: "Deep Retirement Expertise",
       description:
-        "As a fee-only, SEC-registered investment advisor, we&apos;re entirely independent and focused on helping you build the retirement you&apos;ve envisioned.",
+        "Our background in corporate retirement plan consulting gives us insight into thousands of real-world retirement scenarios. We apply that experience to help you build, optimize, and sustain your retirement with confidence.",
     },
     {
       icon: <PlanningIcon />,
       title: "Sophisticated Planning, Simply Explained",
       description:
-        "We take sophisticated financial concepts and explain them clearly so they truly make sense — empowering you to make confident decisions.",
+        "We simplify complex financial strategies\u2014integrating investments, retirement, tax, and estate planning into a clear, actionable plan so you can make confident decisions.",
     },
   ];
 
