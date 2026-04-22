@@ -11,12 +11,6 @@ const testimonials = [
   },
   {
     quote:
-      "I was frustrated with my previous advisor's high fees and cookie-cutter approach. With PointOak, I finally have transparency and a strategy tailored to my situation. They respond quickly when I have questions and really know the ins and outs of retirement income planning.",
-    name: "Robert K.",
-    role: "Business Owner, McLean VA",
-  },
-  {
-    quote:
       "What stands out most is how accessible they are. I'm not sitting on hold or emailing into the void. When I call, I get answers from people who know my situation. They've taken so much off my plate, and I finally feel confident about my financial future.",
     name: "Michael & Sarah T.",
     role: "Pre-Retirees, Bethesda MD",
@@ -114,7 +108,7 @@ export default function Testimonials() {
           }
         `}</style>
 
-        <div className="lg:grid lg:grid-cols-3 lg:gap-5 hidden">
+        <div className="lg:grid lg:grid-cols-2 lg:gap-5 hidden">
           {testimonials.map((t, i) => (
             <TestimonialCard key={i} {...t} />
           ))}
