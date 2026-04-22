@@ -245,15 +245,6 @@ export default function WhoWeServe() {
               </div>
             </div>
 
-            {/* Blue card - moved below timeline */}
-            <div className="px-9 py-6 bg-[#016BA4] rounded-lg text-center">
-              <p className="font-outfit text-white font-bold text-xl leading-tight">
-                Serving clients ages 25–75
-              </p>
-              <p className="font-outfit text-white font-medium text-sm italic mt-1">
-                across DC/MD/VA metro and nationwide
-              </p>
-            </div>
           </div>
         </div>
       </div>

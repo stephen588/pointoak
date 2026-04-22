@@ -17,7 +17,7 @@ const services = [
     title: "Tax-Efficient Wealth Strategies",
     description:
       "We utilize tax-aware portfolio models and advanced tax-loss harvesting to minimize tax cost over time. Strategies include concentrated position management and low-cost-basis optimization.",
-    disclaimer: "PointOak does not provide tax advice. We coordinate with your CPA.",
+    disclaimer: "PointOak does not provide tax advice. We are happy to coordinate with your CPA.",
   },
   {
     title: "401(k) Rollover & Workplace Benefit Optimization",
