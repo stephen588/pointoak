@@ -22,17 +22,17 @@ const services = [
   {
     title: "401(k) Rollover & Workplace Benefit Optimization",
     description:
-      "Our corporate retirement plan background means superior guidance on rollovers, contribution strategy, and maximizing workplace benefits. As former retirement plan advisors, we've advised thousands of participants and understand the nuances of defined contribution plans that other advisors might miss. We help you achieve the best value from your company's retirement programs.",
+      "With extensive experience advising on corporate retirement plans, we provide informed guidance on rollovers, contribution strategies, and maximizing workplace benefits. Having advised thousands of participants, we understand the nuances of defined contribution plans that many advisors overlook\u2014helping you get the most value from your company\u2019s retirement programs.",
   },
   {
     title: "Social Security & Pension Optimization",
     description:
-      "We use advanced planning software to evaluate and model optimal claiming scenarios for primary and spousal Social Security benefits. Each strategy is integrated with your broader retirement income plan and tax situation to help you maximize lifetime benefits.",
+      "We use advanced planning software to model optimal claiming strategies for primary and spousal Social Security benefits. Each recommendation is coordinated with your broader retirement income plan and tax strategy to help maximize lifetime benefits.",
   },
   {
     title: "Comprehensive Financial Planning",
     description:
-      "Coordinated guidance across investments, retirement, taxes, and estate planning. We act as your personal financial advocate, taking things off your plate so you can focus on what matters most. Our advice addresses every aspect of your financial life with the combination of expertise and personal attention you deserve.",
+      "We provide coordinated guidance across investments, retirement planning, tax strategies, and estate planning\u2014bringing every aspect of your financial life into alignment. As your personal financial advocate, we simplify complexity and take the burden off your plate, so you can focus on what matters most. Our advice is comprehensive, thoughtful, and tailored to your unique goals.",
   },
 ];
 
