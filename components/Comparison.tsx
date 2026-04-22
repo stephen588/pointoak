@@ -142,7 +142,7 @@ export default function Comparison() {
       </div>
 
       {/* Main content */}
-      <div className="relative z-10 max-w-[1200px] mx-auto px-6 sm:px-10 lg:px-16 xl:px-8 pt-16 md:pt-20 lg:pt-24 pb-4 md:pb-5 lg:pb-6">
+      <div className="relative z-10 max-w-[1200px] mx-auto px-6 sm:px-10 lg:px-16 xl:px-8 py-16 md:py-20 lg:py-24">
         {/* Section header */}
         <div className="mb-10 lg:mb-12">
           <p className="font-outfit text-white font-normal leading-tight mb-3 text-2xl md:text-3xl">
