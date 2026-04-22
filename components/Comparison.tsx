@@ -94,16 +94,16 @@ const tableRows = [
     pointoak:
       "Fiduciary Standard: Legally obligated to act in your best interest at all times",
     broker:
-      "Suitability Standard: Often only required to ensure products are suitable, not necessarily the best or lowest cost",
+      "Regulation Best Interest: Required to act in the client\u2019s best interest when making recommendations, but may still have conflicts tied to compensation and product selection",
     wirehouse:
-      "Suitability Standard: Often only required to ensure products are suitable, not necessarily the best or lowest cost",
+      "Regulation Best Interest: Required to act in the client\u2019s best interest when making recommendations, within a firm-driven product and compensation structure",
   },
   {
     feature: "Product Selection",
     pointoak:
-      "Open Architecture: Choose from entire marketplace to find best solutions",
+      "Open Architecture: Access to a broad universe of investment solutions across the entire marketplace",
     broker:
-      "Semi-Open: More flexibility than wirehouses, but often steered toward preferred product lists and revenue-sharing partners",
+      "Semi-Open Architecture: Broader access than Wall Street Firms, but often influenced by preferred product lists and revenue-sharing partners",
     wirehouse:
       "Proprietary Focus: Incentivized or restricted to using firm's own investment products",
   },
