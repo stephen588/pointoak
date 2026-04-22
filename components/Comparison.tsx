@@ -135,7 +135,7 @@ const tableRows = [
 
 export default function Comparison() {
   return (
-    <div className="min-h-screen bg-[#003754] relative overflow-hidden">
+    <div className="bg-[#003754] relative overflow-hidden">
       {/* Decorative geometric vector — partially visible on left */}
       <div className="absolute -left-72 top-1/2 -translate-y-1/2 pointer-events-none hidden xl:block opacity-100">
         <DecorativeVector />
