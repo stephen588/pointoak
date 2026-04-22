@@ -109,15 +109,15 @@ const tableRows = [
   },
   {
     feature: "Conflicts of Interest",
-    pointoak: "Minimal: Fee-only model reduces incentive to sell products",
+    pointoak: "Lower: Fee-only structure reduces incentives tied to product sales",
     broker:
       "Moderate: Commission-based compensation and revenue-sharing arrangements with product providers can influence recommendations",
     wirehouse:
-      "Higher: Commissions and sales quotas create pressure to recommend specific funds or services",
+      "Higher: Commissions and sales quotas may create conflicts related to product recommendation",
   },
   {
     feature: "Service Model",
-    pointoak: "High-touch: Boutique service with direct partner access",
+    pointoak: "High-touch: Boutique service with direct access to the same team members driving consistency",
     broker:
       "Variable: Representatives operate with some autonomy, but broker/dealer compliance and oversight can limit flexibility",
     wirehouse:
@@ -126,7 +126,7 @@ const tableRows = [
   {
     feature: "Accountability",
     pointoak:
-      "Direct: Working with business owners, not branch employees",
+      "Direct: Clients work directly with firm owners and decision-makers",
     broker:
       "Split: Representatives operate semi-independently but answer to the broker/dealer's compliance structure",
     wirehouse: "Indirect: Branch representatives following corporate mandates",
