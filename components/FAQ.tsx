@@ -106,8 +106,7 @@ export default function FAQ() {
             Frequently Asked Questions
           </h2>
           <p className="font-poppins text-[#777] text-base italic leading-relaxed max-w-xl">
-            We&apos;ve answered the most common questions about working with us. If you don&apos;t see your
-            question here, we&apos;re happy to discuss it during your consultation.
+            We{"\u2019"}ve answered some of the most common questions about working with PointOak. If you don{"\u2019"}t see your question here, we{"\u2019"}re happy to discuss it during your consultation.
           </p>
         </div>
 

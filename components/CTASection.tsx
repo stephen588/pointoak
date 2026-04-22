@@ -23,9 +23,7 @@ export default function CTASection() {
             Ready to Simplify Your Financial Life?
           </h2>
           <p className="font-outfit text-white/75 text-xl md:text-2xl font-light leading-relaxed max-w-[760px] mx-auto mb-10">
-            Schedule a complimentary consultation to discuss your financial goals and how we can help.
-            There&apos;s no cost for the initial meeting. No obligation. Just a conversation to see if we&apos;re
-            the right fit for your needs.
+            Schedule a complimentary consultation to discuss your financial goals and how we can help. There{"\u2019"}s no cost and no obligation{"\u2014"}just a conversation to see if we{"\u2019"}re the right fit.
           </p>
           <button
             onClick={openModal}
@@ -96,8 +94,7 @@ export default function CTASection() {
         <div className="border-t border-white/10 pt-10">
           <h3 className="font-outfit text-white font-bold text-xl mb-2">What To Expect</h3>
           <p className="font-outfit text-white/70 text-base leading-relaxed max-w-2xl">
-            Our initial consultation typically lasts 30–45 minutes. We&apos;ll discuss your goals, current
-            situation, and how we might work together. Come prepared with questions.
+            Our initial consultation typically lasts 30{"\u2013"}45 minutes. We{"\u2019"}ll discuss your goals, current situation, and how we might work together. We encourage you to come prepared with any questions you{"\u2019"}d like to cover.
           </p>
         </div>
       </div>
