@@ -17,16 +17,10 @@ export default function Advocate() {
             </h2>
             <div className="space-y-5 font-poppins text-text-gray text-base leading-relaxed">
               <p>
-                Our primary goal is to take things off your plate. We act as your advocate,
-                identifying gaps in your planning, proactively solving problems, and streamlining
-                every aspect of your financial life. By handling the heavy lifting, we ensure your
-                experience is seamless, efficient, and focused on your long-term peace of mind.
+                Our primary goal is to take complexity off your plate. We act as your advocate{"\u2014"}identifying gaps in your planning, proactively addressing issues, and streamlining every aspect of your financial life. By handling the heavy lifting, we deliver a seamless, efficient experience focused on your long-term peace of mind.
               </p>
               <p>
-                With just three partners managing over $1 billion, we offer intimacy and white-glove
-                attention that&apos;s virtually impossible at larger firms. You&apos;re not another account
-                number. You&apos;re a valued relationship. We&apos;re available when you need us, proactive in
-                our guidance, and committed to your success.
+                We provide a level of personal attention and high-touch service that{"\u2019"}s difficult to find at large Wall Street firms. You{"\u2019"}re not just another account number{"\u2014"}you{"\u2019"}re a valued relationship. We{"\u2019"}re accessible when you need us, proactive in our guidance, and fully committed to your long-term success.
               </p>
             </div>
 

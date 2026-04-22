@@ -128,8 +128,8 @@ const tableRows = [
     pointoak:
       "Direct: Clients work directly with firm owners and decision-makers",
     broker:
-      "Split: Representatives operate semi-independently but answer to the broker/dealer's compliance structure",
-    wirehouse: "Indirect: Branch representatives following corporate mandates",
+      "Shared: Advisors operate independently but within broker/dealer compliance and supervision",
+    wirehouse: "Indirect: Advisors operate within a large corporate structure and reporting framework",
   },
 ];
 
@@ -142,7 +142,7 @@ export default function Comparison() {
       </div>
 
       {/* Main content */}
-      <div className="relative z-10 max-w-[1200px] mx-auto px-6 sm:px-10 lg:px-16 xl:px-8 py-16 md:py-20 lg:py-24">
+      <div className="relative z-10 max-w-[1200px] mx-auto px-6 sm:px-10 lg:px-16 xl:px-8 pt-16 md:pt-20 lg:pt-24 pb-4 md:pb-5 lg:pb-6">
         {/* Section header */}
         <div className="mb-10 lg:mb-12">
           <p className="font-outfit text-white font-normal leading-tight mb-3 text-2xl md:text-3xl">
@@ -178,10 +178,7 @@ export default function Comparison() {
             <span className="font-outfit text-white font-bold text-lg md:text-[22px] block mb-1">
               Why This Matters
             </span>
-            Without corporate sales quotas or proprietary products to push, our
-            advice is driven solely by your financial goals. Think of us as your
-            advocate, scouting the entire market for the best solutions and
-            protecting your interests at every turn.
+            Without corporate sales quotas or proprietary products to promote, our advice is guided solely by your financial goals. Think of us as your advocate{"\u2014"}evaluating the entire marketplace for the best solutions and helping protect your interests every step of the way.
           </p>
         </div>
       </div>
