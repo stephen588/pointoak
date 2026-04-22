@@ -204,9 +204,9 @@ function ComparisonTable() {
       {/* Header row with grid layout */}
       <div className="relative grid bg-white/[0.15]" style={{ gridTemplateColumns: "155px 269px 1fr 1fr" }}>
         <HeaderCell>Feature</HeaderCell>
-        <HeaderCell>Independent RIA (PointOak)</HeaderCell>
+        <HeaderCell>PointOak Registered Investment Advisor (RIA)</HeaderCell>
         <HeaderCell>Independent Broker/Dealer</HeaderCell>
-        <HeaderCell>Wirehouse Firms</HeaderCell>
+        <HeaderCell>Wall Street Firms</HeaderCell>
       </div>
 
       {/* Data rows */}
@@ -284,7 +284,7 @@ function MobileCard({ row }: { row: (typeof tableRows)[0] }) {
         <div className="flex items-center gap-2 mb-1">
           <CheckIcon size="sm" />
           <span className="font-outfit text-white font-semibold text-xs">
-            PointOak (Independent RIA)
+            PointOak Registered Investment Advisor (RIA)
           </span>
         </div>
         <p className="text-[#EDEDED] text-xs leading-relaxed pl-5">
@@ -310,7 +310,7 @@ function MobileCard({ row }: { row: (typeof tableRows)[0] }) {
         <div className="flex items-center gap-2 mb-1">
           <XIcon size="sm" />
           <span className="font-outfit text-[#EDEDED] font-semibold text-xs">
-            Wirehouse Firms
+            Wall Street Firms
           </span>
         </div>
         <p className="text-[#EDEDED] text-xs leading-relaxed pl-5">

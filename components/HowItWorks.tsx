@@ -7,7 +7,7 @@ const steps = [
     number: 1,
     title: "Understand",
     description:
-      "We start by listening. This includes understanding your goals, concerns, financial picture, and what prompted you to seek advice. Our focus is on clarity so both sides are aligned before any recommendations are made.",
+      "We start by listening. This includes understanding your goals, concerns, financial picture, and what prompted you to seek advice. Our focus is on ensuring we\u2019re fully aligned before any recommendations are made.",
   },
   {
     number: 2,

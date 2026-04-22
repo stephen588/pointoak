@@ -95,10 +95,10 @@ export default function WhoWeServe() {
               style={{ color: "#707070", fontSize: "16px", fontWeight: 400, lineHeight: "25px" }}
             >
               <p style={{ textTransform: "capitalize" }}>
-                You&apos;ve built wealth through your career, business, or inheritance. Now the financial decisions are more complex. Retirement income, tax strategies, coordinated planning. You want sophisticated guidance without the overwhelming jargon.
+                You{"\u2019"}ve built wealth through your career, business, or inheritance. Now, your financial decisions are more complex{"\u2014"}retirement income planning, taxes, and coordinated wealth management. You need sophisticated guidance without overwhelming jargon.
               </p>
               <p style={{ textTransform: "capitalize" }}>
-                We work with affluent individuals across multiple life stages: accumulation, pre-retirement planning, active retirement, and wealth transition. Whether you prefer in-person meetings in the DC metro or a virtual relationship nationwide, we provide the white-glove service and expertise you need.
+                We work with high-net-worth individuals and families across every stage of wealth: accumulation, pre-retirement planning, active retirement, and wealth transition. Whether you prefer in-person meetings in the DC metro area or a virtual relationship nationwide, we deliver personalized, high-touch service supported by deep expertise.
               </p>
             </div>
 
@@ -107,7 +107,7 @@ export default function WhoWeServe() {
               className="font-outfit"
               style={{ color: "#707070", fontSize: "16px", fontWeight: 400, lineHeight: "25px", textTransform: "capitalize" }}
             >
-              As we continue to grow, we&apos;re expanding our capabilities to serve ultra-high-net-worth families with more comprehensive wealth coordination.
+              As we continue to grow, we are expanding our capabilities to serve ultra-high-net-worth families with increasingly sophisticated and comprehensive wealth planning solutions.
             </p>
           </div>
 
