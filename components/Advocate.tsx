@@ -12,21 +12,20 @@ export default function Advocate() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Left: Text content */}
           <div>
-            <h2 className="font-outfit text-navy text-3xl md:text-4xl font-light leading-snug mb-4 md:mb-6">
-              Your Personal Financial Advocate
+            <h2 className="font-outfit text-navy text-2xl md:text-3xl lg:text-[32px] font-light leading-snug mb-4 md:mb-6">
+              Your dedicated retirement planner and financial advocate
             </h2>
             <div className="space-y-5 font-poppins text-text-gray text-base leading-relaxed">
               <p>
-                Our primary goal is to take things off your plate. We act as your advocate,
-                identifying gaps in your planning, proactively solving problems, and streamlining
-                every aspect of your financial life. By handling the heavy lifting, we ensure your
-                experience is seamless, efficient, and focused on your long-term peace of mind.
+                Our primary goal is to act as your advocate, taking complex financial duties like
+                retirement plans and wealth management off your plate so you can have confidence in
+                your future and rest easy in the knowledge that an expert is focused on your
+                financial success.
               </p>
               <p>
-                With just three partners managing over $1 billion, we offer intimacy and white-glove
-                attention that&apos;s virtually impossible at larger firms. You&apos;re not another account
-                number. You&apos;re a valued relationship. We&apos;re available when you need us, proactive in
-                our guidance, and committed to your success.
+                With just three partners managing over $1 billion, we provide high-touch,
+                white-glove attention that&apos;s virtually impossible at larger firms. We&apos;re available
+                when you need us, proactive in our guidance, and committed to your success.
               </p>
             </div>
 

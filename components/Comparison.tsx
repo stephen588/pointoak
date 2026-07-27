@@ -142,21 +142,21 @@ export default function Comparison() {
       </div>
 
       {/* Main content */}
-      <div className="relative z-10 max-w-[1200px] mx-auto px-6 sm:px-10 lg:px-16 xl:px-8 py-16 md:py-20 lg:py-24">
+      <div className="relative z-10 max-w-[1170px] mx-auto px-6 xl:px-0 py-16 md:py-20 lg:py-24">
         {/* Section header */}
         <div className="mb-10 lg:mb-12">
-          <p className="font-outfit text-white font-normal leading-tight mb-3 text-2xl md:text-3xl">
+          <p className="font-outfit text-white font-normal leading-tight mb-3 text-xl md:text-2xl">
             Why Independent Matters:
           </p>
-          <h2 className="font-outfit text-white font-normal leading-none mb-7 text-4xl md:text-5xl lg:text-[65px]">
+          <h2 className="font-outfit text-white font-normal leading-none mb-7 text-3xl md:text-4xl lg:text-[44px]">
             How PointOak Compares
           </h2>
-          <p className="text-[#EDEDED] text-base lg:text-[18px] leading-[1.6] max-w-[1031px] capitalize">
-            Operating as an independent firm offers structural advantages that
-            directly benefit you. Unlike large national firms like Morgan Stanley
-            or Merrill Lynch, we&apos;re bound by a fiduciary standard to act in
-            your best interest at all times, not just recommend products that are
-            considered suitable.
+          <p className="text-[#EDEDED] text-base lg:text-[18px] leading-[1.6] max-w-[1031px]">
+            As fee-only financial advisors, we don&apos;t have corporate sales quotas or
+            proprietary products to push. Our wealth management advice is driven solely by your
+            financial goals. Think of us as your financial butler, always there when you need
+            us, protecting your interests at every turn, and scouting the entire market to
+            present you with the best solutions.
           </p>
         </div>
 
@@ -174,14 +174,14 @@ export default function Comparison() {
 
         {/* Footer callout */}
         <div className="mt-10 lg:mt-14 max-w-[945px]">
-          <p className="text-[#EDEDED] text-sm md:text-base leading-[1.65] capitalize">
+          <p className="text-[#EDEDED] text-sm md:text-base leading-[1.65]">
             <span className="font-outfit text-white font-bold text-lg md:text-[22px] block mb-1">
               Why This Matters
             </span>
-            Without corporate sales quotas or proprietary products to push, our
-            advice is driven solely by your financial goals. Think of us as your
-            advocate, scouting the entire market for the best solutions and
-            protecting your interests at every turn.
+            Operating as an independent wealth management firm directly benefits you. Unlike
+            large national firms like Morgan Stanley or Merrill Lynch, our financial advisors
+            are bound by a fiduciary standard to act in your best interest at all times&mdash;not
+            just recommend products.
           </p>
         </div>
       </div>

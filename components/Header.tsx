@@ -11,7 +11,7 @@ export default function Header() {
 
   return (
     <header className="absolute top-0 left-0 right-0 z-50">
-      <div className="mx-auto px-6 lg:px-24 flex items-center justify-between h-[78px]">
+      <div className="mx-auto max-w-[1170px] px-6 xl:px-0 flex items-center justify-between h-[78px]">
         {/* Logo → Home */}
         <Link href="/" className="flex-shrink-0">
           {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -27,6 +27,12 @@ export default function Header() {
           <Link href="/about" className="text-white text-[16px] font-normal hover:text-white/80 transition-colors">
             About
           </Link>
+          <Link href="/#individuals" className="text-white text-[16px] font-normal hover:text-white/80 transition-colors">
+            For Individuals
+          </Link>
+          <Link href="/#businesses" className="text-white text-[16px] font-normal hover:text-white/80 transition-colors">
+            For Businesses
+          </Link>
           <Link href="/our-services" className="text-white text-[16px] font-normal hover:text-white/80 transition-colors">
             Services
           </Link>
@@ -41,7 +47,7 @@ export default function Header() {
           className="hidden lg:flex items-center gap-3 px-5 py-3 rounded-[7px] text-white text-[16px] font-medium capitalize transition-opacity hover:opacity-90"
           style={{ background: "linear-gradient(90deg, #003754 0%, #0078B8 100%)" }}
         >
-          Book a Consultation
+          Schedule A Consultation
           <ArrowRight className="w-4 h-4" strokeWidth={1.5} />
         </button>
 
@@ -61,6 +67,12 @@ export default function Header() {
           <nav className="flex flex-col px-6 py-4 gap-4">
             <Link href="/about" className="text-white text-[16px] font-normal py-2 border-b border-white/10" onClick={() => setMobileOpen(false)}>
               About
+            </Link>
+            <Link href="/#individuals" className="text-white text-[16px] font-normal py-2 border-b border-white/10" onClick={() => setMobileOpen(false)}>
+              For Individuals
+            </Link>
+            <Link href="/#businesses" className="text-white text-[16px] font-normal py-2 border-b border-white/10" onClick={() => setMobileOpen(false)}>
+              For Businesses
             </Link>
             <Link href="/our-services" className="text-white text-[16px] font-normal py-2 border-b border-white/10" onClick={() => setMobileOpen(false)}>
               Services

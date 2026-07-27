@@ -4,7 +4,7 @@ import StatsBar from "@/components/StatsBar";
 import WhoWeServe from "@/components/WhoWeServe";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Services from "@/components/Services";
-import HowItWorks from "@/components/HowItWorks";
+import Businesses from "@/components/Businesses";
 import Comparison from "@/components/Comparison";
 import Experience from "@/components/Experience";
 import Associations from "@/components/Associations";
@@ -96,9 +96,10 @@ export default function Home() {
       <Hero />
       <StatsBar />
       <WhyChooseUs />
+      <Advocate />
       <WhoWeServe />
       <Services />
-      <HowItWorks />
+      <Businesses />
       <Associations />
       <Comparison />
       {/* Fiduciary seal overlapping Comparison→Experience boundary */}
@@ -112,7 +113,6 @@ export default function Home() {
         </div>
       </div>
       <Experience />
-      <Advocate />
       <Testimonials />
       <CTASection />
       <FAQ />

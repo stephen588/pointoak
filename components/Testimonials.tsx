@@ -1,7 +1,5 @@
 "use client";
 
-import { useConsultationModal } from "./ConsultationModalProvider";
-
 const testimonials = [
   {
     quote:
@@ -86,19 +84,12 @@ function TestimonialCard({
 }
 
 export default function Testimonials() {
-  const { openModal } = useConsultationModal();
-  
   return (
-    <section className="bg-[#EDF4F8] py-12 md:py-20 px-4">
-      <div className="max-w-[1296px] mx-auto">
+    <section className="bg-[#EDF4F8] py-12 md:py-20">
+      <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
         {/* Section Heading */}
         <h2
-          className="text-navy font-outfit mb-6 md:mb-12"
-          style={{
-            fontSize: "clamp(36px, 5vw, 68px)",
-            fontWeight: 400,
-            lineHeight: 1,
-          }}
+          className="text-navy font-outfit mb-6 md:mb-12 text-3xl md:text-4xl lg:text-[44px] font-light leading-tight"
         >
           What Our Clients Say
         </h2>
@@ -128,31 +119,6 @@ export default function Testimonials() {
           ))}
         </div>
 
-        {/* CTA Button */}
-        <div className="mt-8 md:mt-12">
-          <button
-            onClick={openModal}
-            className="inline-flex items-center gap-4 text-white font-outfit font-medium text-base rounded-[7px] px-[17px] py-4"
-            style={{
-              background: "linear-gradient(90deg, #003754 0%, #0078B8 100%)",
-              fontWeight: 500,
-            }}
-          >
-            <span>Schedule Your Consultation</span>
-            <svg
-              width="16"
-              height="12"
-              viewBox="0 0 16 12"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M10.1496 0.139911L15.3706 5.36096C15.4615 5.45187 15.5125 5.57516 15.5125 5.70372C15.5125 5.83228 15.4615 5.95557 15.3706 6.04648L10.1496 11.2675C10.0585 11.3575 9.93546 11.4078 9.8074 11.4074C9.67934 11.407 9.55664 11.356 9.46609 11.2655C9.37554 11.1749 9.32449 11.0522 9.3241 10.9241C9.32371 10.7961 9.37401 10.6731 9.46401 10.582L13.8575 6.18849L0.484769 6.18849C0.3562 6.18849 0.232897 6.13741 0.141986 6.0465C0.0510739 5.95559 2.54937e-07 5.83229 2.49317e-07 5.70372C2.43697e-07 5.57515 0.0510739 5.45185 0.141986 5.36094C0.232897 5.27002 0.3562 5.21895 0.484769 5.21895L13.8575 5.21895L9.46401 0.825464C9.37401 0.734365 9.32371 0.611355 9.3241 0.483298C9.32449 0.355239 9.37554 0.232537 9.46609 0.141985C9.55664 0.0514338 9.67934 0.000390308 9.8074 2.15673e-06C9.93546 -0.000386948 10.0585 0.0499108 10.1496 0.139911Z"
-                fill="white"
-              />
-            </svg>
-          </button>
-        </div>
       </div>
     </section>
   );

@@ -102,7 +102,7 @@ export default function FAQ() {
       <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
         {/* Top text */}
         <div className="mb-8 md:mb-14">
-          <h2 className="font-sans text-navy text-5xl md:text-[56px] font-bold leading-tight mb-6">
+          <h2 className="font-sans text-navy text-3xl md:text-4xl lg:text-[44px] font-bold leading-tight mb-6">
             Frequently Asked Questions
           </h2>
           <p className="font-poppins text-[#777] text-base italic leading-relaxed max-w-xl">

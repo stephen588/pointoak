@@ -18,14 +18,13 @@ export default function CTASection() {
 
       <div className="max-w-[1170px] mx-auto px-6 xl:px-0 relative">
         {/* Header */}
-        <div className="text-center mb-14">
-          <h2 className="font-outfit text-white text-4xl md:text-5xl lg:text-[68px] font-light leading-tight mb-6">
-            Ready to Simplify Your Financial Life?
+        <div className="mb-14">
+          <h2 className="font-outfit text-white text-3xl md:text-4xl lg:text-[44px] font-light leading-tight mb-6">
+            Ready for Personalized Wealth Management Service?
           </h2>
-          <p className="font-outfit text-white/75 text-xl md:text-2xl font-light leading-relaxed max-w-[760px] mx-auto mb-10">
-            Schedule a complimentary consultation to discuss your financial goals and how we can help.
-            There&apos;s no cost for the initial meeting. No obligation. Just a conversation to see if we&apos;re
-            the right fit for your needs.
+          <p className="font-outfit text-white/75 text-lg md:text-xl font-light leading-relaxed max-w-[640px] mb-10">
+            Reach out to us for a complimentary consultation. There&apos;s no obligation, just a
+            conversation to see if we&apos;re the right fit for you.
           </p>
           <button
             onClick={openModal}

@@ -29,8 +29,8 @@ export default function Experience() {
       <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
         {/* Centered single column layout */}
         <div className="flex flex-col items-center">
-          <h2 className="font-outfit text-navy text-3xl md:text-4xl font-light leading-snug mb-8 md:mb-12 text-center">
-            Experience You Can Trust
+          <h2 className="font-outfit text-navy text-3xl md:text-4xl lg:text-[44px] font-light leading-snug mb-8 md:mb-12 self-start">
+            Experience at Your Service
           </h2>
 
           {/* Stats in 4-column row */}

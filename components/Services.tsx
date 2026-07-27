@@ -6,33 +6,33 @@ const services = [
   {
     title: "Retirement Income Planning",
     description:
-      "We engineer sustainable income solutions that protect your principal while generating the cash flow you need throughout retirement. Our focus is optimizing how much income your portfolio can deliver, not just building savings. We evaluate your resources and develop a plan to help you maximize every dollar.",
+      "You want to make sure you have the cash you need throughout your retirement. That means not just saving, but building a portfolio that delivers income while protecting your investment. We'll evaluate your resources and develop a custom plan to help you maximize every dollar and build the future you want.",
   },
   {
     title: "Investment Management",
     description:
-      "Tax-aware portfolio construction designed for optimal risk-adjusted returns. We build diversified investing strategies aligned with your time horizon and coordinate with your broader financial plan for accumulation or income generation. Our team reviews your objectives and constructs a portfolio using the best investment products available in the marketplace.",
+      "A successful portfolio isn't static. It should change over time with changes in the market or your personal situation. We take into account current tax laws, risk, time horizons, and your broader financial picture to make adjustments that keep you on track.",
   },
   {
     title: "Tax-Efficient Wealth Strategies",
     description:
-      "We utilize tax-aware portfolio models and advanced tax-loss harvesting to minimize tax cost over time. Strategies include concentrated position management and low-cost-basis optimization.",
+      "Everyone wants to minimize taxes. But when you generate wealth, that wealth is going to be taxed. By using strategies like concentrated position management, low-cost-basis optimization, and tax-aware portfolio models, we can minimize your tax costs over time. Not sure what those are? Get in touch with us and we'll show you.",
     disclaimer: "PointOak does not provide tax advice. We coordinate with your CPA.",
   },
   {
     title: "401(k) Rollover & Workplace Benefit Optimization",
     description:
-      "Our corporate retirement plan background means superior guidance on rollovers, contribution strategy, and maximizing workplace benefits. As former retirement plan advisors, we've advised thousands of participants and understand the nuances of defined contribution plans that other advisors might miss. We help you achieve the best value from your company's retirement programs.",
+      "We've spent years managing corporate retirement plans. That means we offer tested, specific guidance on rollovers, contribution strategies, and work benefits. Your personal financial advisor can offer you independent advice on when, where, and how much to contribute, and help you get the most value from your company retirement plan.",
   },
   {
     title: "Social Security & Pension Optimization",
     description:
-      "We use advanced planning software to evaluate and model optimal claiming scenarios for primary and spousal Social Security benefits. Each strategy is integrated with your broader retirement income plan and tax situation to help you maximize lifetime benefits.",
+      "When should you start taking benefits? How much should you take? Will they be taxed, and if so, how much? What about your spouse? We can answer all these questions and more. We'll model multiple different scenarios and customize your distribution strategy as part of your integrated retirement income plan, so you can maximize your lifetime benefits.",
   },
   {
     title: "Comprehensive Financial Planning",
     description:
-      "Coordinated guidance across investments, retirement, taxes, and estate planning. We act as your personal financial advocate, taking things off your plate so you can focus on what matters most. Our advice addresses every aspect of your financial life with the combination of expertise and personal attention you deserve.",
+      "There is a lot more to financial management than retirement planning. Income generation, investment, debt, taxes, real-estate, and overall risk management—we address every aspect of your financial life. As your wealth management concierge, we take these things off your plate so you can focus on what you enjoy, knowing that your finances are getting expert, personal attention from people dedicated to your wellbeing.",
   },
 ];
 
@@ -53,15 +53,18 @@ export default function Services() {
   const { openModal } = useConsultationModal();
   
   return (
-    <section id="services" className="bg-light-gray py-12 md:py-20 lg:py-28">
-      <div className="max-w-7xl mx-auto px-6 lg:px-12">
-        {/* Header */}
-        <div className="mb-10 md:mb-16 lg:mb-20 max-w-4xl">
-          <h2 className="font-outfit text-navy text-4xl sm:text-5xl lg:text-[68px] font-light leading-tight mb-4 md:mb-5">
-            Comprehensive Wealth Management Services
-          </h2>
-          <p className="font-outfit text-text-gray text-base md:text-lg lg:text-xl leading-relaxed">
-            We provide a full spectrum of integrated financial guidance tailored to your specific situation. Our services work together to create a cohesive strategy aligned with your financial goals, values, and life stage.
+    <section id="services" className="bg-white pb-12 md:pb-20 lg:pb-28 pt-2">
+      <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
+        {/* Divider + subheading */}
+        <div className="border-t-2 border-navy/40 pt-10 md:pt-14 mb-10 md:mb-14 max-w-4xl">
+          <h3 className="font-outfit text-navy text-2xl md:text-3xl lg:text-[32px] font-light leading-snug mb-5">
+            Concierge Wealth Management Services
+          </h3>
+          <p className="font-outfit text-text-gray text-base leading-[27px]">
+            We&apos;re your personal financial strategist. We can help you with all aspects of your
+            financial situation, and identify needs you may not even know you have. Our
+            recommendations take into account your full picture, with services that work together
+            to create a unified financial strategy specific to your goals, values, and life stage.
           </p>
         </div>
 
@@ -69,9 +72,9 @@ export default function Services() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-16 gap-y-14">
           {services.map((service) => (
             <div key={service.title} className="flex flex-col gap-6">
-              <h3 className="font-outfit text-navy text-2xl lg:text-[2rem] font-light leading-snug">
+              <h4 className="font-outfit text-navy text-xl lg:text-2xl font-light leading-snug">
                 {service.title}
-              </h3>
+              </h4>
               <div className="flex-1">
                 <p className="font-outfit text-navy text-base leading-relaxed">
                   {service.description}
