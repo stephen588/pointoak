@@ -67,7 +67,7 @@ interface StatCardProps {
 function StatCard({ icon, value, label, bg }: StatCardProps) {
   return (
     <div
-      className="flex-1 flex items-center justify-center py-10 px-6 lg:px-10 min-w-[250px] flex-shrink-0 md:flex-shrink md:min-w-0"
+      className="flex-1 flex items-center justify-center md:justify-start py-10 px-6 md:px-0 min-w-[250px] flex-shrink-0 md:flex-shrink md:min-w-0"
       style={{ background: bg }}
     >
       <div className="flex items-center gap-4">
@@ -145,8 +145,8 @@ export default function StatsBar() {
         </div>
       </div>
 
-      {/* Desktop: static 4-column grid */}
-      <div className="hidden md:flex flex-row">
+      {/* Desktop: static 4-column grid, aligned to page container */}
+      <div className="hidden md:flex flex-row max-w-[1170px] mx-auto px-6 xl:px-0 gap-10">
         {stats.map((stat, i) => (
           <StatCard
             key={i}
