@@ -25,9 +25,13 @@ const nextConfig = {
       { source: '/fiduciary-briefcase-login-pointoak-retirement-advisors', destination: 'https://wealth.emaplan.com/ema/SignIn?ema%2fkestrafinancial%2fpointoak', permanent: true },
       { source: '/fiduciary-briefcase-login-pointoak-retirement-advisors/', destination: 'https://wealth.emaplan.com/ema/SignIn?ema%2fkestrafinancial%2fpointoak', permanent: true },
 
-      // === Old privacy URL → new privacy policy page ===
-      { source: '/privacy', destination: '/privacy-policy', permanent: true },
-      { source: '/privacy/', destination: '/privacy-policy', permanent: true },
+      // === Privacy page → homepage (temporary until privacy page is built) ===
+      { source: '/privacy', destination: '/', permanent: false },
+      { source: '/privacy/', destination: '/', permanent: false },
+
+      // === /services shortcut → /our-services ===
+      { source: '/services', destination: '/our-services', permanent: true },
+      { source: '/services/', destination: '/our-services', permanent: true },
 
       // === Old team page → about (until team page is built) ===
       { source: '/our-consulting-team', destination: '/about', permanent: false },

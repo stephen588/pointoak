@@ -6,7 +6,6 @@ import Footer from "@/components/Footer";
 import CTASection from "@/components/CTASection";
 import { useConsultationModal } from "@/components/ConsultationModalProvider";
 import { Shield, BarChart3, GraduationCap, Settings, Search, Target } from "lucide-react";
-import AnimateOnScroll from "@/components/AnimateOnScroll";
 
 const services = [
   {
@@ -96,7 +95,6 @@ export default function OurServicesPage() {
       <Header />
       
       {/* Page Hero — left aligned with breadcrumb, matching About page */}
-      <AnimateOnScroll>
       <section 
         className="min-h-[400px] md:min-h-[500px] flex items-center pt-[78px]"
         style={{ background: "linear-gradient(90deg, #003754 0%, #0078B8 100%)" }}
@@ -123,7 +121,6 @@ export default function OurServicesPage() {
           </div>
         </div>
       </section>
-      </AnimateOnScroll>
 
       {/* Services Section */}
       <main>

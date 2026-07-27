@@ -4,7 +4,6 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ConsultationForm from "@/components/ConsultationForm";
-import AnimateOnScroll from "@/components/AnimateOnScroll";
 
 export default function ContactPage() {
   return (
@@ -12,7 +11,6 @@ export default function ContactPage() {
       <Header />
 
       {/* Hero */}
-      <AnimateOnScroll>
       <section
         className="min-h-[400px] md:min-h-[500px] flex items-center pt-[78px]"
         style={{ background: "linear-gradient(90deg, #003754 0%, #0078B8 100%)" }}
@@ -35,10 +33,8 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
-      </AnimateOnScroll>
 
       {/* Contact Info + Form */}
-      <AnimateOnScroll>
       <section className="bg-white py-12 md:py-20 lg:py-28">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
@@ -133,7 +129,6 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
-      </AnimateOnScroll>
 
       <Footer />
     </div>
