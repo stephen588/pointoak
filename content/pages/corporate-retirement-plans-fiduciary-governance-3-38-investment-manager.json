@@ -1,0 +1,355 @@
+{
+  "route": "/corporate-retirement-plans/fiduciary-governance/3-38-investment-manager/",
+  "name": "3(38) Investment Manager Services",
+  "parent": "Fiduciary Governance & Committee Support",
+  "meta": {
+    "title": "3(38) Investment Manager Services | PointOak",
+    "description": "PointOak can serve as a 3(38) investment manager with discretionary authority over investments within the scope delegated by the plan fiduciary.",
+    "schema": "Service + FAQPage + BreadcrumbList"
+  },
+  "hero": {
+    "title": "3(38) Fiduciary Services for Retirement Plan Sponsors",
+    "subtitle": "Delegate investment responsibility while strengthening your fiduciary process.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Managing a retirement plan investment lineup requires ongoing monitoring, documented decision-making, and timely action when investments no longer meet expectations. For many plan sponsors, maintaining that level of oversight has become increasingly complex."
+      },
+      {
+        "type": "p",
+        "text": "PointOak Retirement Advisors provides independent 3(38) fiduciary services, serving as your discretionary investment manager under ERISA. We assume responsibility for selecting, monitoring, and replacing plan investments so your committee can focus on broader plan governance while maintaining a prudent fiduciary process."
+      },
+      {
+        "type": "chips",
+        "items": [
+          "Named ERISA 3(38) investment manager",
+          "Fee-only, SEC-registered investment advisor",
+          "Discretionary investment management",
+          "Quarterly monitoring and documented oversight"
+        ]
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "benefits-of-3-38-fiduciary-services",
+      "title": "Benefits of 3(38) Fiduciary Services",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Delegate Day-to-Day Investment Decisions",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "A 3(38) fiduciary assumes discretionary authority over your investment lineup, allowing investment changes to be made promptly without waiting for committee approval."
+                }
+              ]
+            },
+            {
+              "title": "Reduce Committee Workload",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Investment research, performance monitoring, fund replacements, and documentation become our responsibility, allowing your committee to focus on strategic oversight rather than day-to-day investment management."
+                }
+              ]
+            },
+            {
+              "title": "Strengthen Your Fiduciary Process",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "ERISA requires plan fiduciaries to prudently select and monitor investments. A documented investment management process helps demonstrate ongoing oversight and supports a stronger governance framework."
+                }
+              ]
+            },
+            {
+              "title": "Independent Investment Management",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "PointOak is completely independent. We receive no commissions, revenue sharing, or compensation from investment providers, ensuring every investment decision is made solely in the best interests of plan participants."
+                }
+              ]
+            },
+            {
+              "title": "Continuous Investment Monitoring",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Markets evolve, investment managers change, and fund performance shifts over time. We continuously monitor your investment lineup and make changes when appropriate to keep your plan aligned with its Investment Policy Statement."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-3-38-fiduciary-services-work",
+      "title": "How 3(38) Fiduciary Services Work",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Under ERISA Section 3(38), PointOak becomes the plan's discretionary investment manager. After establishing an agreed-upon Investment Policy Statement, we assume responsibility for selecting, monitoring, and replacing investments within the plan."
+        },
+        {
+          "type": "p",
+          "text": "Rather than bringing every investment change back to the committee for approval, we make decisions as conditions warrant while maintaining complete documentation of our process and keeping your committee informed."
+        },
+        {
+          "type": "p",
+          "text": "This allows investment oversight to become proactive instead of reactive, helping ensure participants always have access to a thoughtfully managed investment lineup."
+        },
+        {
+          "type": "button",
+          "label": "Schedule Your Consultation",
+          "action": "schedule"
+        }
+      ]
+    },
+    {
+      "id": "who-benefits-from-3-38-fiduciary-services",
+      "title": "Who Benefits from 3(38) Fiduciary Services?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A 3(38) fiduciary relationship is often the right solution for organizations that want to reduce administrative burden while maintaining a strong fiduciary process."
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Your Committee Doesn't Want Day-to-Day Investment Responsibility",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Many retirement committees prefer focusing on governance rather than researching funds, monitoring managers, and approving investment changes every quarter."
+                }
+              ]
+            },
+            {
+              "title": "Investment Decisions Are Delayed",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "If your committee only meets quarterly, investment changes may wait months before approval. A 3(38) fiduciary can respond as conditions change instead of waiting for scheduled meetings."
+                }
+              ]
+            },
+            {
+              "title": "Your Plan Has Become More Complex",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "As retirement plans grow, investment oversight requires greater expertise, documentation, and monitoring. Outsourcing investment discretion allows your committee to keep pace with that complexity."
+                }
+              ]
+            },
+            {
+              "title": "Your Organization Wants Greater Fiduciary Protection",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Delegating investment discretion to a qualified ERISA 3(38) fiduciary can reduce your committee's responsibility for day-to-day investment decisions while maintaining oversight of the fiduciary relationship itself."
+                }
+              ]
+            },
+            {
+              "title": "You Need Ongoing Investment Oversight",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Monitoring investment managers, reviewing performance, replacing underperforming funds, and documenting every decision requires continuous attention that many internal teams simply don't have time to provide."
+                },
+                {
+                  "type": "p",
+                  "text": "When a 3(38) fiduciary may not be the right fit: Organizations that prefer making every investment decision internally may be better served by a 3(21) fiduciary relationship, where the committee retains final authority while receiving independent guidance."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3-38-vs-3-21-fiduciary-services",
+      "title": "3(38) vs. 3(21) Fiduciary Services",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Both fiduciary arrangements strengthen retirement plan governance, but they differ in who makes investment decisions."
+        },
+        {
+          "type": "p",
+          "text": "Choosing between the two depends on your committee's experience, available time, and preferred level of involvement."
+        }
+      ]
+    },
+    {
+      "id": "what-to-expect",
+      "title": "What To Expect",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Analyze",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We review your current investment lineup, Investment Policy Statement, governance process, and committee objectives."
+                }
+              ]
+            },
+            {
+              "title": "Implement",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Once engaged as your 3(38) investment manager, we assume discretionary responsibility for selecting, monitoring, and replacing plan investments."
+                }
+              ]
+            },
+            {
+              "title": "Monitor",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Your investment lineup receives ongoing oversight through quarterly reviews, documented monitoring, performance analysis, and timely investment changes when appropriate."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "steps"
+    },
+    {
+      "id": "why-choose-pointoak-for-3-38-fiduciary-services",
+      "title": "Why Choose PointOak for 3(38) Fiduciary Services",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Delegating investment discretion requires trust. That's why PointOak combines independent investment management with a transparent, well-documented fiduciary process."
+        },
+        {
+          "type": "p",
+          "text": "Retirement plan consulting has been our focus since 2005. More than 90% of our business comes from helping retirement plan sponsors improve governance, strengthen investment oversight, and support better participant outcomes."
+        },
+        {
+          "type": "p",
+          "text": "Because we are fee-only and independent, our recommendations are never influenced by proprietary funds, commissions, or recordkeeper relationships. Every investment decision is made solely with your participants' best interests in mind."
+        },
+        {
+          "type": "p",
+          "text": "Our investment management process also integrates with broader retirement plan services including investment analysis, provider and fee benchmarking, committee governance, and ERISA compliance, giving plan sponsors a comprehensive fiduciary partner rather than simply an investment manager."
+        }
+      ]
+    },
+    {
+      "id": "about-pointoak-retirement-advisors",
+      "title": "About PointOak Retirement Advisors",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PointOak Retirement Advisors is an independent, fee-only wealth advisory firm founded in 2017 and headquartered in McLean, Virginia. As an SEC-registered investment advisor, we serve retirement plan sponsors and high-net-worth individuals nationwide."
+        },
+        {
+          "type": "p",
+          "text": "Our team manages more than $1.08 billion in assets under management and brings over 50 years of collective experience. Founder Darsh Makim, CRPC, has advised retirement plan sponsors since 2005 and serves as a named 3(21) and 3(38) ERISA fiduciary."
+        }
+      ]
+    },
+    {
+      "id": "frequently-asked-questions",
+      "title": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "What is a 3(38) fiduciary?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "A 3(38) fiduciary is an ERISA investment manager with discretionary authority to select, monitor, and replace retirement plan investments on behalf of the plan sponsor."
+                }
+              ]
+            },
+            {
+              "q": "What's the difference between a 3(21) and a 3(38) fiduciary?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "A 3(21) fiduciary provides investment recommendations while the committee makes the final decisions. A 3(38) fiduciary has the authority to make those investment decisions directly."
+                }
+              ]
+            },
+            {
+              "q": "Does hiring a 3(38) fiduciary eliminate our fiduciary responsibility?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "No. The plan sponsor remains responsible for prudently selecting and monitoring the 3(38) fiduciary. However, responsibility for day-to-day investment decisions is delegated to the investment manager."
+                }
+              ]
+            },
+            {
+              "q": "How often are investments monitored?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "PointOak continuously monitors investment performance and formally reviews the investment lineup on a regular basis, making changes whenever appropriate under the Investment Policy Statement."
+                }
+              ]
+            },
+            {
+              "q": "Can we still receive committee reports?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Yes. Even though PointOak makes investment decisions, we provide ongoing reporting, documentation, and regular updates so your committee remains informed and engaged."
+                }
+              ]
+            },
+            {
+              "q": "Is PointOak affiliated with any investment companies?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "No. PointOak is a completely independent, fee-only fiduciary advisor. We receive no commissions or compensation from investment managers, fund companies, or recordkeepers."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "label": "View More FAQs",
+          "href": "/faq/",
+          "secondary": false
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "ready-to-delegate-investment-decisions",
+      "title": "Ready to Delegate Investment Decisions?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Let PointOak take responsibility for selecting, monitoring, and replacing plan investments while keeping your committee informed."
+        },
+        {
+          "type": "button",
+          "label": "Schedule Your Complimentary Consultation",
+          "action": "schedule"
+        }
+      ],
+      "layout": "cta"
+    }
+  ]
+}

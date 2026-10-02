@@ -1,0 +1,189 @@
+{
+  "route": "/resources/",
+  "name": "Insights & Resources",
+  "parent": "Home",
+  "meta": {
+    "title": "Financial Insights & Retirement Resources | PointOak",
+    "description": "Explore PointOak insights on investing, retirement, 401(k) rollovers, taxes, Social Security, executive benefits, and employer retirement plans.",
+    "schema": "CollectionPage + BreadcrumbList + Organization"
+  },
+  "hero": {
+    "title": "Insights & Resources",
+    "subtitle": "Perspectives to Help You Make More Informed Financial Decisions",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Explore articles, guides, and educational resources from PointOak on personal wealth, investing, retirement, workplace benefits, and employer-sponsored retirement plans."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "individuals-families",
+      "title": "Individuals & Families",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Investing & Portfolio Strategy",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Investment management, portfolio construction, alternatives, and tax-aware investing."
+                }
+              ]
+            },
+            {
+              "title": "Retirement & Income Planning",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Retirement income, Social Security, pensions, RMDs, and withdrawal strategies."
+                }
+              ]
+            },
+            {
+              "title": "401(k) Rollovers & Career Transitions",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Job changes, rollovers, Roth conversions, account consolidation, and company stock."
+                }
+              ]
+            },
+            {
+              "title": "Tax-Aware Wealth Planning",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Roth conversions, asset location, tax-loss harvesting, and charitable strategies."
+                }
+              ]
+            },
+            {
+              "title": "Executive Wealth",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "RSUs, stock options, deferred compensation, concentrated stock, and workplace benefits."
+                }
+              ]
+            },
+            {
+              "title": "Estate & Legacy Planning",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Beneficiaries, wealth transfer, charitable planning, and estate coordination."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "businesses-retirement-plan-sponsors",
+      "title": "Businesses & Retirement Plan Sponsors",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Fiduciary Governance",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "3(21), 3(38), committee governance, IPSs, and fiduciary documentation."
+                }
+              ]
+            },
+            {
+              "title": "401(k) Fees & Provider Benchmarking",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Plan fees, provider reviews, RFPs, and competitive benchmarking."
+                }
+              ]
+            },
+            {
+              "title": "Investment Oversight",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Fund monitoring, manager evaluation, investment menus, and share classes."
+                }
+              ]
+            },
+            {
+              "title": "Target Date Funds",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Selection, glide paths, suitability, and ongoing monitoring."
+                }
+              ]
+            },
+            {
+              "title": "Plan Design",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Automatic enrollment, employer contributions, safe harbor, eligibility, and vesting."
+                }
+              ]
+            },
+            {
+              "title": "Participant Education",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Retirement education, financial wellness, and participant communications."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "priority-launch-articles",
+      "title": "Priority Launch Articles",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "401(k) Rollover Guide: Your Options When Leaving an Employer",
+            "Should I Roll My 401(k) Into an IRA?",
+            "When Does a Roth Conversion Make Sense?",
+            "Retirement Income Planning: Why a Withdrawal Rate Is Not a Plan",
+            "When Should I Claim Social Security?",
+            "Pension Lump Sum vs. Monthly Benefit",
+            "Alternative Investments in Wealth Management: What Role Can They Play?",
+            "Managing Concentrated Company Stock",
+            "What Should You Do With RSUs When They Vest?",
+            "What Is Asset Location?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "have-a-question-about-your-own-situation",
+      "title": "Have a Question About Your Own Situation?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Educational resources can provide context, but financial decisions depend on individual circumstances."
+        },
+        {
+          "type": "button",
+          "label": "Schedule a Complimentary Consultation",
+          "action": "schedule"
+        }
+      ],
+      "layout": "cta"
+    }
+  ]
+}

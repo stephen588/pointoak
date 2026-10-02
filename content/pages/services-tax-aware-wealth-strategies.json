@@ -1,0 +1,385 @@
+{
+  "route": "/services/tax-aware-wealth-strategies/",
+  "name": "Tax-Aware Wealth Strategies",
+  "parent": "Wealth Management",
+  "meta": {
+    "title": "Tax-Aware Wealth Strategies | PointOak",
+    "description": "Coordinate asset location, gain and loss realization, withdrawal sequencing, and Roth conversion planning within a broader wealth strategy.",
+    "schema": "Service + FAQPage + BreadcrumbList"
+  },
+  "hero": {
+    "title": "Tax-Aware Wealth Strategies",
+    "subtitle": "A Year-Round Approach to Keeping More of What You Earn",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Investment returns are only part of the picture. What you keep after taxes can have a meaningful impact on how much wealth you build and how long it lasts."
+      },
+      {
+        "type": "p",
+        "text": "At PointOak, tax efficiency is integrated into the way we manage your financial life. We coordinate investment decisions, asset location, capital gains, retirement withdrawals, and other tax-aware strategies throughout the year—not just when tax season arrives."
+      },
+      {
+        "type": "p",
+        "text": "We do not provide tax advice or prepare tax returns. Instead, we work alongside your CPA or tax professional to help make sure your investment and financial planning decisions support your broader tax strategy."
+      },
+      {
+        "type": "chips",
+        "items": [
+          "Fee-Only Fiduciary Advisors",
+          "Tax-Aware Investment Strategies",
+          "Complimentary Consultation"
+        ]
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "why-tax-efficient-investing-matters",
+      "title": "Why Tax-Efficient Investing Matters",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Two portfolios can earn similar investment returns and still produce very different results after taxes."
+        },
+        {
+          "type": "p",
+          "text": "Where you hold investments, when you realize gains, which accounts you draw from, and how you manage concentrated positions can all affect how much of your wealth you ultimately keep."
+        },
+        {
+          "type": "p",
+          "text": "Tax-efficient investing looks beyond a single tax year. We evaluate how today's decisions may affect your taxes over time and coordinate those decisions with your investment, retirement, and long-term financial goals."
+        }
+      ]
+    },
+    {
+      "id": "how-pointoak-helps",
+      "title": "How PointOak Helps",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Tax-Aware Portfolio Management",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Taxes are considered throughout the investment process rather than after the fact. We evaluate investment selection, gains, losses, and portfolio changes with your broader financial and tax picture in mind."
+                }
+              ]
+            },
+            {
+              "title": "Strategic Asset Location",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "The type of account in which you hold an investment can affect its after-tax return. We coordinate investments across taxable, tax-deferred, and tax-free accounts to help improve overall tax efficiency."
+                }
+              ]
+            },
+            {
+              "title": "Capital Gain Management",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Large realized gains can affect more than your investment tax bill. We help manage the timing of gains and losses within the context of your income, portfolio, and long-term financial strategy."
+                }
+              ]
+            },
+            {
+              "title": "Tax-Loss Harvesting",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "When appropriate, tax-loss harvesting can help offset realized capital gains and improve portfolio tax efficiency. We monitor opportunities throughout the year rather than limiting the strategy to year-end."
+                }
+              ]
+            },
+            {
+              "title": "Tax-Efficient Retirement Withdrawals",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Once you're drawing income in retirement, the order in which you use taxable, tax-deferred, and tax-free accounts can affect your tax liability for years. We coordinate withdrawals with your overall retirement income strategy."
+                }
+              ]
+            },
+            {
+              "title": "Coordination With Your CPA",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Investment planning and tax planning work better when they aren't happening separately. We collaborate with your CPA or tax professional so everyone is working from the same financial picture."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "is-tax-efficient-wealth-management-right-for-you",
+      "title": "Is Tax-Efficient Wealth Management Right for You?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Tax-aware planning becomes particularly valuable as your financial life grows more complex."
+        },
+        {
+          "type": "list",
+          "lead": "This service may be a good fit if you:",
+          "items": [
+            "Have substantial assets in taxable investment accounts.",
+            "Are approaching or entering retirement.",
+            "Hold a concentrated stock position.",
+            "Receive RSUs, stock options, or other equity compensation.",
+            "Recently sold a business or experienced another liquidity event.",
+            "Are considering Roth conversions.",
+            "Make significant charitable contributions.",
+            "Have multiple account types with different tax treatments.",
+            "Want your advisor and CPA working from a coordinated strategy."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "our-tax-efficient-planning-process",
+      "title": "Our Tax-Efficient Planning Process",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Step 1: Understand",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We review your investments, account types, income sources, tax considerations, and long-term goals to understand where tax efficiency may affect your overall financial plan."
+                }
+              ]
+            },
+            {
+              "title": "Step 2: Design",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We develop a coordinated strategy that may incorporate asset location, gain management, tax-loss harvesting, withdrawal sequencing, charitable planning, and other tax-aware investment decisions appropriate for your situation."
+                }
+              ]
+            },
+            {
+              "title": "Step 3: Implement & Monitor",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Tax-efficient investing is not a once-a-year exercise. We monitor your strategy throughout the year and make adjustments as your investments, income, tax laws, and life circumstances change."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "steps"
+    },
+    {
+      "id": "why-choose-pointoak",
+      "title": "Why Choose PointOak?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Tax efficiency should be integrated into your investment strategy—not added as an afterthought."
+        },
+        {
+          "type": "p",
+          "text": "PointOak combines investment management, retirement planning, and tax-aware financial planning within one coordinated wealth management relationship. That allows us to see how decisions in one area may affect another."
+        },
+        {
+          "type": "p",
+          "text": "As an independent, fee-only fiduciary firm, our recommendations aren't influenced by commissions or proprietary products. And because tax matters often involve professionals outside our firm, we work directly with your CPA or tax advisor to help keep your financial strategy aligned."
+        },
+        {
+          "type": "chips",
+          "items": [
+            "Experience at a Glance",
+            "Fee-Only Fiduciary",
+            "Based in McLean, Virginia"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frequently-asked-questions",
+      "title": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "What is tax-efficient investing?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Tax-efficient investing is the process of managing investment decisions with the goal of improving after-tax outcomes."
+                },
+                {
+                  "type": "p",
+                  "text": "That may include choosing where different investments are held, managing realized gains and losses, coordinating withdrawals, and considering how investment decisions affect your broader financial plan."
+                }
+              ]
+            },
+            {
+              "q": "How is tax-efficient investing different from tax preparation?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Tax preparation looks backward at transactions and income that have already occurred. Tax-efficient investing is forward-looking."
+                },
+                {
+                  "type": "p",
+                  "text": "Your CPA or tax professional prepares your return and provides tax advice. PointOak focuses on investment and financial planning decisions that may affect your tax picture, then coordinates those decisions with your tax professional."
+                }
+              ]
+            },
+            {
+              "q": "What is asset location?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Asset location is the process of deciding which types of investments should be held in taxable, tax-deferred, or tax-free accounts."
+                },
+                {
+                  "type": "p",
+                  "text": "Different investments receive different tax treatment, so the location of an investment can affect its after-tax return over time."
+                }
+              ]
+            },
+            {
+              "q": "What is tax-loss harvesting?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Tax-loss harvesting involves selling investments that have declined in value to realize a loss that may offset realized capital gains."
+                },
+                {
+                  "type": "p",
+                  "text": "The proceeds can then be reinvested while carefully considering IRS wash-sale rules and the overall investment strategy. Tax-loss harvesting is one tool within a broader tax-aware investment approach."
+                }
+              ]
+            },
+            {
+              "q": "Do I need tax-efficient investing if most of my money is in retirement accounts?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Possibly, but the opportunities may be different."
+                },
+                {
+                  "type": "p",
+                  "text": "If most of your assets are held in tax-deferred or tax-free retirement accounts, strategies such as withdrawal sequencing, Roth conversions, and future required minimum distributions may be more important than taxable-account loss harvesting."
+                }
+              ]
+            },
+            {
+              "q": "Can PointOak help with Roth conversions?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Yes. Roth conversion planning is considered within your broader retirement and tax-aware strategy. We evaluate how a conversion may interact with your income, retirement withdrawals, and other financial decisions and coordinate with your tax professional as appropriate."
+                }
+              ]
+            },
+            {
+              "q": "How does charitable giving fit into tax-efficient planning?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Charitable giving can sometimes be coordinated with investment and estate planning strategies."
+                },
+                {
+                  "type": "p",
+                  "text": "For example, donating appreciated securities may provide different tax implications than donating cash. The appropriate strategy depends on your situation, charitable goals, and advice from your tax professional."
+                }
+              ]
+            },
+            {
+              "q": "Do you offer direct indexing?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Direct indexing may be appropriate for some clients with larger taxable portfolios or more complex tax-management needs. We evaluate whether it makes sense based on factors such as portfolio size, concentration, tax situation, and overall investment objectives."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "label": "View More FAQs",
+          "href": "/faq/",
+          "secondary": false
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "related-services",
+      "title": "Related Services",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Tax-efficient planning often works alongside other areas of your financial strategy."
+        },
+        {
+          "type": "p",
+          "text": "Continue exploring:"
+        },
+        {
+          "type": "links",
+          "items": [
+            {
+              "label": "Investment Management",
+              "href": "/services/investment-management/",
+              "secondary": false
+            },
+            {
+              "label": "Retirement Income Planning",
+              "href": "/services/retirement-income-planning/",
+              "secondary": false
+            },
+            {
+              "label": "401(k) Rollovers & Roth Conversions",
+              "href": "/services/401k-rollovers-roth-conversions/",
+              "secondary": false
+            },
+            {
+              "label": "Executive Benefits Planning",
+              "href": "/services/executive-benefits-planning/",
+              "secondary": false
+            },
+            {
+              "label": "Comprehensive Financial Planning",
+              "href": "/services/comprehensive-financial-planning/",
+              "secondary": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "keep-more-of-what-you-ve-built",
+      "title": "Keep More of What You've Built",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Let's identify opportunities to make your investment and withdrawal strategies more tax-efficient over time."
+        },
+        {
+          "type": "button",
+          "label": "Schedule Your Complimentary Consultation",
+          "action": "schedule"
+        }
+      ],
+      "layout": "cta"
+    }
+  ]
+}

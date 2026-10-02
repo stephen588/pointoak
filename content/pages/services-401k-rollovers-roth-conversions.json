@@ -1,0 +1,423 @@
+{
+  "route": "/services/401k-rollovers-roth-conversions/",
+  "name": "401(k) Rollovers & Roth Conversions",
+  "parent": "Wealth Management",
+  "meta": {
+    "title": "401(k) Rollovers & Roth Conversions | PointOak",
+    "description": "Evaluate 401(k) rollover options and Roth conversion strategies within your broader retirement, investment, and tax-aware financial plan.",
+    "schema": "Service + FAQPage + BreadcrumbList"
+  },
+  "hero": {
+    "title": "401(k) Rollovers & Roth Conversions",
+    "subtitle": "Make the Right Move Before You Move Your Money",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Leaving a job, retiring, or consolidating retirement accounts can create more decisions than it seems. Should you leave your 401(k) where it is? Roll it into an IRA? Move it to a new employer plan? Convert some or all of it to Roth?"
+      },
+      {
+        "type": "p",
+        "text": "At PointOak, we help you evaluate each option in the context of your complete financial picture. We consider taxes, investment choices, future income needs, Social Security, Medicare, and your long-term retirement goals before recommending a strategy."
+      },
+      {
+        "type": "chips",
+        "items": [
+          "Retirement Plan Experience Since 2005",
+          "Fee-Only Fiduciary Advisors",
+          "Complimentary Consultation"
+        ]
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "why-rollover-and-roth-conversion-planning-matters",
+      "title": "Why Rollover and Roth Conversion Planning Matters",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A rollover and a Roth conversion are not the same thing, but the decisions often overlap."
+        },
+        {
+          "type": "p",
+          "text": "A rollover changes where your retirement assets are held. A Roth conversion changes how those assets are taxed. Either choice can affect your future income, taxes, investment flexibility, and retirement strategy for years."
+        },
+        {
+          "type": "p",
+          "text": "The right answer depends on more than your current tax bracket or account balance. It should also account for your age, retirement timeline, employer-plan features, future required distributions, Social Security, Medicare, and the rest of your financial life."
+        },
+        {
+          "type": "p",
+          "text": "That is why we evaluate these decisions together rather than treating them as isolated transactions."
+        }
+      ]
+    },
+    {
+      "id": "how-pointoak-helps",
+      "title": "How PointOak Helps",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Evaluate All of Your Rollover Options",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Leaving an employer does not automatically mean you should roll your 401(k) into an IRA."
+                },
+                {
+                  "type": "p",
+                  "text": "We help you compare the options available to you, including leaving assets in your former employer's plan, moving them to a new employer plan, rolling them into an IRA, or taking a distribution."
+                }
+              ]
+            },
+            {
+              "title": "Plan Roth Conversions Over Time",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Roth conversion planning often works best as a multi-year strategy."
+                },
+                {
+                  "type": "p",
+                  "text": "We help evaluate how much to convert and when based on your current and projected income, retirement timeline, future required distributions, and broader financial plan."
+                }
+              ]
+            },
+            {
+              "title": "Coordinate Tax Consequences",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "A Roth conversion can increase taxable income in the year of conversion and may affect other areas of your retirement plan."
+                },
+                {
+                  "type": "p",
+                  "text": "We consider how conversion income may interact with tax brackets, Social Security taxation, Medicare-related income thresholds, and your other income sources while coordinating with your tax professional as appropriate."
+                }
+              ]
+            },
+            {
+              "title": "Review Investment and Plan Features",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Your employer-sponsored plan may offer benefits or investment options worth preserving."
+                },
+                {
+                  "type": "p",
+                  "text": "We compare fees, investment choices, account protections, distribution rules, and other plan-specific considerations before recommending a rollover."
+                }
+              ]
+            },
+            {
+              "title": "Integrate the Decision With Retirement Income",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Rollover decisions affect more than where your money is invested."
+                },
+                {
+                  "type": "p",
+                  "text": "We consider how each account may eventually be used for retirement income, how withdrawals fit together, and how the decision supports your broader retirement strategy."
+                }
+              ]
+            },
+            {
+              "title": "Avoid Decisions You Cannot Easily Reverse",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Roth conversions are generally permanent once completed."
+                },
+                {
+                  "type": "p",
+                  "text": "Our role is to help you understand the potential consequences before moving forward so the strategy fits both your current circumstances and long-term goals."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "is-401-k-rollover-roth-conversion-planning-right-for-you",
+      "title": "Is 401(k) Rollover & Roth Conversion Planning Right for You?",
+      "blocks": [
+        {
+          "type": "list",
+          "lead": "This service may be a good fit if you:",
+          "items": [
+            "Recently left an employer and still have money in your former 401(k).",
+            "Are retiring or plan to retire within the next several years.",
+            "Are considering rolling a 401(k) into an IRA.",
+            "Want to understand whether a Roth conversion makes sense.",
+            "Have multiple retirement accounts you want to coordinate.",
+            "Are concerned about future required minimum distributions.",
+            "Expect your tax situation to change in retirement.",
+            "Want a second opinion before moving retirement assets.",
+            "Need your rollover decision coordinated with Social Security, Medicare, or retirement income planning."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "our-rollover-roth-conversion-planning-process",
+      "title": "Our Rollover & Roth Conversion Planning Process",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Step 1: Understand",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We begin by reviewing your existing retirement accounts, employer-plan options, age, income, retirement timeline, and long-term goals."
+                }
+              ]
+            },
+            {
+              "title": "Step 2: Design",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We compare your rollover options and model potential Roth conversion strategies within the context of your broader retirement and financial plan."
+                }
+              ]
+            },
+            {
+              "title": "Step 3: Implement & Monitor",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Once you've chosen a strategy, we help coordinate implementation and continue reviewing conversion opportunities, retirement income needs, and other variables as your situation evolves."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "steps"
+    },
+    {
+      "id": "why-choose-pointoak",
+      "title": "Why Choose PointOak?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Retirement accounts are one of PointOak's deepest areas of experience."
+        },
+        {
+          "type": "p",
+          "text": "Our team's work with corporate retirement plans dates back to 2005, giving us firsthand knowledge of employer-sponsored plans, investment options, participant decisions, and the practical details that can matter when evaluating a rollover."
+        },
+        {
+          "type": "p",
+          "text": "That experience is especially valuable when you're deciding whether moving money out of a plan is actually the right choice."
+        },
+        {
+          "type": "p",
+          "text": "As an independent, fee-only fiduciary firm, we don't earn commissions from rollover transactions or proprietary investment products. Our goal is to help you understand your options and choose the strategy that best fits your financial plan."
+        },
+        {
+          "type": "chips",
+          "items": [
+            "Experience at a Glance",
+            "Fee-Only Fiduciary",
+            "Based in McLean, Virginia"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frequently-asked-questions",
+      "title": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "What is a 401(k) rollover?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "A 401(k) rollover moves retirement assets from one qualified retirement account to another."
+                },
+                {
+                  "type": "p",
+                  "text": "Depending on your circumstances, that may mean moving an old 401(k) into an IRA or transferring it into a new employer-sponsored retirement plan."
+                }
+              ]
+            },
+            {
+              "q": "Should I roll over my old 401(k)?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Not necessarily."
+                },
+                {
+                  "type": "p",
+                  "text": "Your options generally include leaving the account in your former employer's plan, rolling it into an IRA, transferring it to a new employer plan if permitted, or taking a distribution."
+                },
+                {
+                  "type": "p",
+                  "text": "Each option comes with different considerations around taxes, fees, investment choices, access to funds, and account protections. We evaluate those differences before recommending a rollover."
+                }
+              ]
+            },
+            {
+              "q": "What is the difference between a 401(k) rollover and a Roth conversion?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "A rollover changes where your retirement assets are held. A Roth conversion changes their tax treatment."
+                },
+                {
+                  "type": "p",
+                  "text": "A direct rollover from a traditional 401(k) to a traditional IRA generally maintains tax-deferred status. A Roth conversion moves pre-tax assets into a Roth account and generally creates taxable income in the year of conversion."
+                }
+              ]
+            },
+            {
+              "q": "Can a Roth conversion affect Medicare premiums?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "It can."
+                },
+                {
+                  "type": "p",
+                  "text": "A Roth conversion increases taxable income in the year it occurs, which may affect Medicare income-related premium adjustments in later years."
+                },
+                {
+                  "type": "p",
+                  "text": "We consider those potential effects when evaluating the size and timing of a conversion."
+                }
+              ]
+            },
+            {
+              "q": "Can a Roth conversion affect how much of my Social Security is taxable?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Potentially."
+                },
+                {
+                  "type": "p",
+                  "text": "Conversion income can increase your overall taxable income, which may affect how much of your Social Security benefits are included in taxable income."
+                },
+                {
+                  "type": "p",
+                  "text": "That is one reason we evaluate Roth conversions alongside Social Security and broader retirement income planning rather than in isolation."
+                }
+              ]
+            },
+            {
+              "q": "Can I undo a Roth conversion?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Generally, no."
+                },
+                {
+                  "type": "p",
+                  "text": "Roth conversions can no longer be recharacterized back to a traditional IRA under current rules, so it's important to evaluate the strategy carefully before completing the conversion."
+                }
+              ]
+            },
+            {
+              "q": "What should I consider before rolling over a 401(k)?",
+              "a": [
+                {
+                  "type": "list",
+                  "lead": "Important considerations include:",
+                  "items": [
+                    "Investment choices.",
+                    "Plan fees.",
+                    "Account protections.",
+                    "Access to funds.",
+                    "Your retirement timeline.",
+                    "Tax consequences.",
+                    "Whether your new employer accepts rollovers.",
+                    "How the account fits into your broader retirement income plan.",
+                    "Your employer plan may offer advantages that an IRA does not, so a rollover should never be treated as automatic."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "label": "View More FAQs",
+          "href": "/faq/",
+          "secondary": false
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "related-services",
+      "title": "Related Services",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Rollover and Roth conversion decisions are closely connected to other areas of retirement planning."
+        },
+        {
+          "type": "p",
+          "text": "Continue exploring:"
+        },
+        {
+          "type": "links",
+          "items": [
+            {
+              "label": "Retirement Income Planning",
+              "href": "/services/retirement-income-planning/",
+              "secondary": false
+            },
+            {
+              "label": "Social Security & Pension Planning",
+              "href": "/services/social-security-pension-planning/",
+              "secondary": false
+            },
+            {
+              "label": "Tax-Aware Wealth Strategies",
+              "href": "/services/tax-aware-wealth-strategies/",
+              "secondary": false
+            },
+            {
+              "label": "Investment Management",
+              "href": "/services/investment-management/",
+              "secondary": false
+            },
+            {
+              "label": "Comprehensive Financial Planning",
+              "href": "/services/comprehensive-financial-planning/",
+              "secondary": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "make-your-next-retirement-account-decision-with-confidence",
+      "title": "Make Your Next Retirement Account Decision With Confidence",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Before you roll over, convert, or consolidate retirement assets, let's look at how each decision fits into your broader financial plan."
+        },
+        {
+          "type": "button",
+          "label": "Schedule Your Complimentary Consultation",
+          "action": "schedule"
+        }
+      ],
+      "layout": "cta"
+    }
+  ]
+}

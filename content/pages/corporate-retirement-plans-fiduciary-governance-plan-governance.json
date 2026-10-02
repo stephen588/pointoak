@@ -1,0 +1,355 @@
+{
+  "route": "/corporate-retirement-plans/fiduciary-governance/plan-governance/",
+  "name": "Plan Governance & Committee Support",
+  "parent": "Fiduciary Governance & Committee Support",
+  "meta": {
+    "title": "Retirement Plan Governance & Committee Support | PointOak",
+    "description": "Support retirement plan committees with governance structure, meeting processes, decision-making, and documentation.",
+    "schema": "Service + FAQPage + BreadcrumbList"
+  },
+  "hero": {
+    "title": "Plan Governance & Committee Support for Retirement Plan Sponsors",
+    "subtitle": "Build a stronger fiduciary process with documented governance and ongoing compliance support.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Good fiduciary governance isn't about checking boxes—it's about creating a documented process that helps your retirement plan committee make informed decisions, fulfill its ERISA responsibilities, and act in the best interests of plan participants."
+      },
+      {
+        "type": "p",
+        "text": "PointOak Retirement Advisors helps retirement plan sponsors strengthen ERISA compliance and governance through committee support, fiduciary documentation, investment oversight, and ongoing guidance. Rather than reacting to regulatory changes or preparing for an audit after the fact, we help organizations establish a governance framework that supports prudent decision-making year after year."
+      },
+      {
+        "type": "chips",
+        "items": [
+          "ERISA governance and compliance guidance",
+          "Committee support and fiduciary documentation",
+          "Ongoing investment and provider oversight",
+          "Independent, fee-only fiduciary advisor"
+        ]
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "benefits-of-plan-governance-committee-support",
+      "title": "Benefits of Plan Governance & Committee Support",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "A More Defensible Fiduciary Process",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "ERISA focuses on following a prudent process—not achieving perfect investment performance. Documenting committee discussions, benchmarking decisions, and investment reviews helps demonstrate that your fiduciaries are acting responsibly."
+                }
+              ]
+            },
+            {
+              "title": "Clear Committee Roles and Responsibilities",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Well-defined governance establishes who makes decisions, how those decisions are documented, and when reviews occur, helping committees operate more effectively."
+                }
+              ]
+            },
+            {
+              "title": "Better Documentation",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Meeting minutes, investment reviews, benchmarking reports, committee actions, and fiduciary files create a permanent record of your governance process and strengthen your organization's compliance posture."
+                }
+              ]
+            },
+            {
+              "title": "Ongoing Regulatory Alignment",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Retirement plan regulations continue to evolve. Regular governance reviews help ensure your plan remains aligned with ERISA requirements, Department of Labor guidance, and fiduciary best practices."
+                }
+              ]
+            },
+            {
+              "title": "Greater Confidence for Plan Sponsors",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "With experienced fiduciary guidance supporting your committee, decision-making becomes more consistent, organized, and easier to defend if questions ever arise."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-plan-governance-committee-support-works",
+      "title": "How Plan Governance & Committee Support Works",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Effective retirement plan governance combines several ongoing responsibilities into one documented process. Investment monitoring, provider reviews, committee meetings, fiduciary documentation, and compliance oversight all work together to demonstrate prudent fiduciary management."
+        },
+        {
+          "type": "p",
+          "text": "PointOak helps retirement plan sponsors establish governance procedures, maintain fiduciary records, support committee meetings, review service providers, and document investment decisions throughout the year."
+        },
+        {
+          "type": "p",
+          "text": "Rather than preparing documentation only when it's needed, we help create a repeatable governance process that becomes part of your committee's normal operations."
+        },
+        {
+          "type": "button",
+          "label": "Schedule Your Consultation",
+          "action": "schedule"
+        }
+      ]
+    },
+    {
+      "id": "who-benefits-from-plan-governance-committee-support",
+      "title": "Who Benefits from Plan Governance & Committee Support?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Organizations often seek governance support when retirement plan responsibilities become more complex or internal resources are limited."
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Your Committee Needs a More Structured Process",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Committee meetings happen regularly, but documentation, responsibilities, and follow-up actions are inconsistent. A formal governance framework creates greater accountability and continuity."
+                }
+              ]
+            },
+            {
+              "title": "Your Fiduciary Documentation Is Limited",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "If committee minutes, benchmarking reports, or investment reviews are difficult to locate—or don't exist—a governance review can help establish better documentation practices."
+                }
+              ]
+            },
+            {
+              "title": "Your Plan Hasn't Been Reviewed Recently",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Retirement plans evolve over time. Governance reviews help ensure committee procedures, investment oversight, and compliance processes remain current."
+                }
+              ]
+            },
+            {
+              "title": "Your Organization Is Growing",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "As plans increase in size and complexity, fiduciary responsibilities grow as well. Strong governance provides structure that supports long-term plan management."
+                }
+              ]
+            },
+            {
+              "title": "You're Preparing for an Audit or Regulatory Review",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Whether responding to a Department of Labor inquiry or conducting an internal governance review, organized documentation and clearly defined fiduciary processes make preparation significantly easier."
+                },
+                {
+                  "type": "p",
+                  "text": "When governance consulting may not be necessary: Organizations with newly established retirement plans or very small plans may only need periodic compliance reviews until their committee structure and fiduciary responsibilities become more complex."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "governance-vs-compliance",
+      "title": "Governance vs. Compliance",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Governance and compliance work together, but they serve different purposes."
+        },
+        {
+          "type": "p",
+          "text": "Strong governance supports compliance, while good compliance reinforces a prudent governance process. Together, they create the foundation for effective retirement plan oversight."
+        }
+      ]
+    },
+    {
+      "id": "what-to-expect",
+      "title": "What To Expect",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Assess",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We review your committee structure, fiduciary responsibilities, governance documents, investment oversight process, and current compliance practices."
+                }
+              ]
+            },
+            {
+              "title": "Strengthen",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "You'll receive recommendations for improving committee procedures, fiduciary documentation, governance policies, and ongoing oversight."
+                }
+              ]
+            },
+            {
+              "title": "Support",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We continue supporting your committee through governance guidance, investment reviews, benchmarking, documentation, and fiduciary consulting throughout the year."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "steps"
+    },
+    {
+      "id": "why-choose-pointoak-for-plan-governance-committee-support",
+      "title": "Why Choose PointOak for Plan Governance & Committee Support",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Many retirement plan advisors focus primarily on investments. We believe strong governance is equally important."
+        },
+        {
+          "type": "p",
+          "text": "PointOak works alongside retirement plan committees to establish repeatable fiduciary processes supported by documentation, benchmarking, investment oversight, and independent guidance. Our role is not simply to respond when issues arise but to help prevent them through disciplined governance."
+        },
+        {
+          "type": "p",
+          "text": "As a fee-only, SEC-registered investment advisor serving as a named 3(21) or 3(38) fiduciary, we provide objective recommendations without proprietary products, commissions, or provider incentives."
+        },
+        {
+          "type": "p",
+          "text": "Our governance process integrates with our broader retirement plan services, including investment analysis, provider benchmarking, fiduciary support, and retirement plan optimization, giving plan sponsors one experienced partner across every aspect of fiduciary oversight."
+        }
+      ]
+    },
+    {
+      "id": "about-pointoak-retirement-advisors",
+      "title": "About PointOak Retirement Advisors",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PointOak Retirement Advisors is an independent, fee-only wealth advisory firm founded in 2017 and headquartered in McLean, Virginia. We are an SEC-registered investment advisor serving retirement plan sponsors and high-net-worth individuals nationwide."
+        },
+        {
+          "type": "p",
+          "text": "Our team manages more than $1.08 billion in assets under management and brings over 50 years of collective experience. Founder Darsh Makim, CRPC, has advised retirement plan sponsors since 2005, with retirement plan consulting representing more than 90% of PointOak's business."
+        }
+      ]
+    },
+    {
+      "id": "frequently-asked-questions",
+      "title": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "What is ERISA governance?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "ERISA governance is the framework retirement plan committees use to oversee their plan, including documenting decisions, monitoring investments, reviewing providers, and fulfilling fiduciary responsibilities."
+                }
+              ]
+            },
+            {
+              "q": "What's the difference between governance and compliance?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Compliance focuses on meeting ERISA requirements and regulatory obligations. Governance establishes the decision-making process that helps committees consistently meet those responsibilities."
+                }
+              ]
+            },
+            {
+              "q": "How often should a retirement plan committee meet?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Most retirement plan committees meet quarterly to review investments, provider performance, benchmarking, participant outcomes, and fiduciary matters. Additional meetings may be appropriate during major plan changes."
+                }
+              ]
+            },
+            {
+              "q": "What documentation should retirement plan committees maintain?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Committees should maintain meeting minutes, investment review reports, benchmarking analyses, provider evaluations, fiduciary decisions, Investment Policy Statements, and governance documents that support their fiduciary process."
+                }
+              ]
+            },
+            {
+              "q": "Why is fiduciary documentation important?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "ERISA emphasizes a prudent process. Well-organized documentation demonstrates that fiduciaries considered relevant information, evaluated alternatives, and acted in the best interests of plan participants."
+                }
+              ]
+            },
+            {
+              "q": "How can PointOak help improve our governance process?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "PointOak helps establish committee procedures, strengthen fiduciary documentation, support investment oversight, benchmark providers, review governance practices, and provide ongoing guidance that supports long-term compliance."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "label": "View More FAQs",
+          "href": "/faq/",
+          "secondary": false
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "strengthen-the-process-behind-every-fiduciary-decision",
+      "title": "Strengthen the Process Behind Every Fiduciary Decision",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "We'll help you establish clear governance, maintain documentation, and keep your committee's fiduciary process on track."
+        },
+        {
+          "type": "button",
+          "label": "Schedule Your Complimentary Consultation",
+          "action": "schedule"
+        }
+      ],
+      "layout": "cta"
+    }
+  ]
+}

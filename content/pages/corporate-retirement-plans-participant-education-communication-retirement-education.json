@@ -1,0 +1,312 @@
+{
+  "route": "/corporate-retirement-plans/participant-education-communication/retirement-education/",
+  "name": "Retirement Education & One-on-One Participant Guidance",
+  "parent": "Participant Education & Communication",
+  "meta": {
+    "title": "Retirement Education for Employees | PointOak",
+    "description": "Advisor-led retirement education and one-on-one participant guidance covering plan decisions, retirement readiness, and workplace benefits.",
+    "schema": "Service + FAQPage + BreadcrumbList"
+  },
+  "hero": {
+    "title": "Retirement Education & One-on-One Participant Guidance",
+    "subtitle": "Helping participants build confidence, improve retirement readiness, and make informed financial decisions.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Offering a retirement plan is important, but helping employees understand how to use it is what drives better outcomes. PointOak delivers advisor-led retirement education tailored to every stage of an employee's career, giving participants the knowledge and confidence to make smarter retirement decisions throughout their working lives."
+      },
+      {
+        "type": "chips",
+        "items": [
+          "Advisor-led education programs",
+          "Customized by career stage",
+          "Retirement plan specialists since 2005"
+        ]
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "why-retirement-education-matters",
+      "title": "Why Retirement Education Matters",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Higher Participant Engagement",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Employees who understand their retirement benefits are more likely to participate, increase contributions, and stay engaged throughout their careers. We transform retirement planning from a once-a-year enrollment decision into an ongoing financial conversation."
+                }
+              ]
+            },
+            {
+              "title": "Better Retirement Readiness",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Different employees have different questions. Early-career workers need help understanding the value of starting early, while employees approaching retirement need guidance on income planning, Social Security, and withdrawal strategies. We tailor education to each stage of the journey."
+                }
+              ]
+            },
+            {
+              "title": "Supports Your Fiduciary Responsibilities",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Providing meaningful participant education demonstrates your commitment to helping employees make informed decisions while creating documentation that supports your overall fiduciary governance process."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "retirement-education-services",
+      "title": "Retirement Education Services",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "New Hire & Enrollment Education",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Help employees understand plan features, employer matching, contribution options, and the value of beginning early."
+                },
+                {
+                  "type": "p",
+                  "text": "Plan Basics | Employer Match | Enrollment Support"
+                }
+              ]
+            },
+            {
+              "title": "Mid-Career Retirement Planning",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Guide employees through contribution increases, investment decisions, life changes, and long-term retirement planning as their careers progress."
+                },
+                {
+                  "type": "p",
+                  "text": "Contribution Strategies | Investment Education | Financial Milestones"
+                }
+              ]
+            },
+            {
+              "title": "Pre-Retirement Planning",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Prepare employees for retirement with education focused on income planning, catch-up contributions, withdrawal strategies, and Social Security considerations."
+                },
+                {
+                  "type": "p",
+                  "text": "Income Planning | Catch-Up Contributions | Retirement Readiness"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "our-education-process",
+      "title": "Our Education Process",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Evaluate Your Workforce",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We review participation rates, communication efforts, and participant demographics to identify education opportunities."
+                }
+              ]
+            },
+            {
+              "title": "Build a Customized Curriculum",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Every education program is tailored to your workforce, retirement plan design, and organizational goals."
+                }
+              ]
+            },
+            {
+              "title": "Deliver Year-Round Education",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Through workshops, webinars, group presentations, and individual meetings, we provide education when employees are most likely to act."
+                }
+              ]
+            },
+            {
+              "title": "Measure Results",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We monitor engagement, participation, and contribution trends to continually improve program effectiveness."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "steps"
+    },
+    {
+      "id": "why-choose-pointoak",
+      "title": "Why Choose PointOak",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Retirement Education Built Around Your Participants",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Unlike standardized recordkeeper campaigns, our education programs are designed specifically for your workforce and delivered by experienced retirement plan advisors."
+                },
+                {
+                  "type": "p",
+                  "text": "As an independent, fee-only fiduciary, we focus on helping participants understand their retirement benefits and make informed decisions that support their long-term financial security."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Fee-Only Fiduciary",
+                    "SEC-Registered Investment Adviser",
+                    "20+ Years of Retirement Plan Experience",
+                    "Advisor-Led Education",
+                    "Nationwide Service"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frequently-asked-questions",
+      "title": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "Why is retirement education important for employees?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Retirement education helps employees understand their workplace benefits, make informed financial decisions, and build confidence about their future."
+                },
+                {
+                  "type": "p",
+                  "text": "When employees understand concepts like employer matching, contribution rates, investment options, and long-term saving, they're more likely to participate in the plan and stay engaged throughout their careers."
+                }
+              ]
+            },
+            {
+              "q": "When should employees begin learning about retirement planning?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "As early as possible."
+                },
+                {
+                  "type": "p",
+                  "text": "Employees who begin saving early generally have more opportunities to benefit from long-term compounding. Education is valuable at every career stage, from a new employee enrolling in the plan to someone preparing for retirement within the next few years."
+                }
+              ]
+            },
+            {
+              "q": "Are your retirement education programs customized?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Yes."
+                },
+                {
+                  "type": "p",
+                  "text": "Every organization has different plan features, workforce demographics, and communication goals. PointOak develops customized education programs based on your retirement plan, employee population, and organizational objectives rather than delivering generic presentations."
+                }
+              ]
+            },
+            {
+              "q": "Do you provide both group education and individual meetings?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Yes."
+                },
+                {
+                  "type": "p",
+                  "text": "We offer workshops, webinars, enrollment meetings, retirement planning seminars, and one-on-one participant consultations. This combination allows employees to learn foundational concepts while also getting answers to questions that relate to their own financial situations."
+                }
+              ]
+            },
+            {
+              "q": "What topics are covered during retirement education sessions?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Programs can include retirement plan basics, employer matching, investment fundamentals, contribution strategies, catch-up contributions, retirement income planning, Social Security, rollovers, and retirement readiness."
+                },
+                {
+                  "type": "p",
+                  "text": "Content is tailored to the audience so employees receive education that's appropriate for their career stage and financial needs."
+                }
+              ]
+            },
+            {
+              "q": "How do you measure whether an education program is successful?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "We look at both participation and engagement."
+                },
+                {
+                  "type": "p",
+                  "text": "Depending on your goals, we may review metrics such as enrollment rates, contribution increases, participation in educational events, employee feedback, and overall retirement readiness. These insights help refine future education efforts and ensure the program continues to meet your workforce's needs."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "label": "View More FAQs",
+          "href": "/faq/",
+          "secondary": false
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "help-employees-feel-more-prepared-for-retirement",
+      "title": "Help Employees Feel More Prepared for Retirement",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Give participants practical, stage-appropriate education that helps them understand their benefits and make better retirement decisions."
+        },
+        {
+          "type": "button",
+          "label": "Schedule Your Complimentary Consultation",
+          "action": "schedule"
+        }
+      ],
+      "layout": "cta"
+    }
+  ]
+}

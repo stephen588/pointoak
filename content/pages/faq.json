@@ -1,0 +1,367 @@
+{
+  "route": "/faq/",
+  "name": "Frequently Asked Questions",
+  "parent": "Insights & Resources",
+  "meta": {
+    "title": "Wealth Management & 401(k) FAQs | PointOak",
+    "description": "Answers to common questions about wealth management, financial planning, investments, retirement, 401(k) consulting, fiduciary services, fees, and working with PointOak.",
+    "schema": "FAQPage + Organization + FinancialService + BreadcrumbList"
+  },
+  "hero": {
+    "title": "Questions About Wealth Management & Retirement Plans",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Financial decisions can get complicated quickly, whether you're managing your family's wealth or overseeing an employer-sponsored retirement plan. We've organized the questions we hear most often into categories so you can quickly find what you're looking for. If your question isn't answered here, we're happy to talk through it with you."
+      },
+      {
+        "type": "button",
+        "label": "Schedule a Complimentary Consultation",
+        "action": "schedule"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "working-with-pointoak",
+      "title": "Working With PointOak",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "Who does PointOak work with?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "PointOak serves two primary groups: individuals and families seeking private wealth management and financial planning, and businesses responsible for employer-sponsored retirement plans."
+                }
+              ]
+            },
+            {
+              "q": "Where is PointOak located?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "PointOak is headquartered in McLean, Virginia and serves clients throughout the DC Metro area and nationwide, subject to applicable regulatory requirements."
+                }
+              ]
+            },
+            {
+              "q": "Is the initial consultation complimentary?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Yes. The initial consultation is complimentary and is an opportunity to discuss your goals, questions, and whether our services may be a good fit."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "fee-only-fiduciary-advice",
+      "title": "Fee-Only & Fiduciary Advice",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "What does fee-only mean?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "PointOak is compensated by clients for the advisory and consulting services we provide. We do not receive investment-product commissions. A fee-only compensation structure can reduce certain conflicts associated with product sales, although no compensation model eliminates every potential conflict."
+                }
+              ]
+            },
+            {
+              "q": "Is PointOak a fiduciary?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "PointOak is an SEC-registered investment adviser and serves its advisory clients as a fiduciary. We are required to act in our clients’ best interests and put their interests ahead of our own. For retirement plans, PointOak may also provide services as a 3(21) investment fiduciary or 3(38) investment manager."
+                }
+              ]
+            },
+            {
+              "q": "Is every financial adviser always a fiduciary?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Standards can vary based on the services being provided and the capacity in which a financial professional is acting. Some professionals may act as fiduciaries in certain relationships but not others. Clients should understand the capacity, compensation structure, and potential conflicts associated with a relationship."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "wealth-management-financial-planning",
+      "title": "Wealth Management & Financial Planning",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "What is wealth management?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Wealth management brings investment management and financial planning together across investments, retirement, income needs, taxes, workplace benefits, Social Security and pensions, estate considerations, and other major financial decisions."
+                }
+              ]
+            },
+            {
+              "q": "Is there a minimum account size?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "PointOak’s wealth-management relationships vary based on the services needed, portfolio size, complexity, and overall circumstances. The complimentary initial consultation is an opportunity to discuss your goals and determine whether our services are a good fit."
+                }
+              ]
+            },
+            {
+              "q": "How does PointOak charge for private wealth management?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "PointOak is fee-only. Ongoing investment management is generally charged as an asset-based advisory fee that varies by account size and scope. Comprehensive financial planning may be included or provided through a separate engagement. Specific fees are discussed before engagement."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "investment-management",
+      "title": "Investment Management",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "How does PointOak manage portfolios?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Portfolio recommendations consider goals, time horizon, risk, income needs, tax considerations, and the broader financial plan. Our process can include strategic asset allocation, investment selection, monitoring, rebalancing, and tax-aware management."
+                }
+              ]
+            },
+            {
+              "q": "Does PointOak use proprietary investments?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "No. PointOak uses an open-architecture approach and is not limited to a proprietary investment family."
+                }
+              ]
+            },
+            {
+              "q": "Does PointOak use alternative investments?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "For appropriate clients, PointOak may evaluate alternative and private-market investments. These strategies can involve limited liquidity, longer holding periods, valuation complexity, higher fees, leverage, and eligibility requirements and are not appropriate for every client or portfolio."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "401-k-rollovers-roth-conversions",
+      "title": "401(k) Rollovers & Roth Conversions",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "Should I roll over an old 401(k)?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "It depends. Depending on the plan and your circumstances, your options may include leaving assets in your former employer’s plan, moving eligible assets to a new employer’s plan, rolling assets to an IRA, or taking a distribution. Fees, investment options, services, withdrawal rules, creditor protections, tax considerations, and your broader financial strategy should all be considered before deciding."
+                }
+              ]
+            },
+            {
+              "q": "What is the difference between a rollover and a Roth conversion?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "A rollover generally moves assets between eligible retirement accounts or plans. A Roth conversion changes pre-tax retirement assets to Roth assets and generally creates taxable income in the year of conversion."
+                }
+              ]
+            },
+            {
+              "q": "When might a Roth conversion make sense?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Potential opportunities can arise during lower-income years, before required minimum distributions begin, or when other planning circumstances make paying tax today worth evaluating. The analysis should also consider Medicare premiums, Social Security taxation, and other tax consequences."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "retirement-plan-consulting-erisa",
+      "title": "Retirement Plan Consulting & ERISA",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "Can a plan sponsor outsource fiduciary responsibilities?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Certain fiduciary functions can be delegated to qualified service providers, but the appointing fiduciary generally retains responsibility for prudently selecting and monitoring those providers."
+                }
+              ]
+            },
+            {
+              "q": "How often should a retirement plan be reviewed?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Ongoing fiduciary oversight should occur regularly. The appropriate cadence depends on the topic, plan circumstances, and governance process."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "3-21-3-38-fiduciary-services",
+      "title": "3(21) & 3(38) Fiduciary Services",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "What does a 3(21) investment fiduciary do?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "A 3(21) investment fiduciary provides investment advice and recommendations, while the plan sponsor or committee retains final decision-making authority."
+                }
+              ]
+            },
+            {
+              "q": "What does a 3(38) investment manager do?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "A 3(38) investment manager has discretionary authority over designated investment decisions within the delegated scope. The appointing fiduciary retains responsibility for prudently selecting and monitoring the manager."
+                }
+              ]
+            },
+            {
+              "q": "What is the primary difference?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "3(21): PointOak recommends; the committee decides. 3(38): PointOak makes designated investment decisions under delegated authority."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "401-k-fees-benchmarking-providers",
+      "title": "401(k) Fees, Benchmarking & Providers",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "How often should plan fees be benchmarked?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Plan fees and services should be monitored regularly as part of ongoing fiduciary oversight. PointOak generally performs annual fee benchmarking or repricing analysis, with a more comprehensive plan and provider benchmark typically conducted every three to five years, or sooner when circumstances warrant. Three to five years is PointOak’s general practice, not an ERISA-mandated schedule."
+                }
+              ]
+            },
+            {
+              "q": "Does benchmarking mean choosing the cheapest provider?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "No. Fees should be evaluated in relation to the services, investments, technology, participant support, and other value provided. The lowest-cost option is not automatically the most appropriate option."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "participant-education-financial-wellness",
+      "title": "Participant Education & Financial Wellness",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "Can participants meet individually with PointOak?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Yes. PointOak can offer participants complimentary 30-minute individual consultations to discuss questions related to their retirement plan and broader retirement decisions. Depending on the engagement, topics may include contribution rates, investment allocation, pre-tax versus Roth contributions, beneficiaries, retirement readiness, and available options for eligible retirement assets. Any separate private-wealth or financial-planning relationship with PointOak is optional and subject to a separate engagement and applicable fees."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "still-have-questions",
+      "title": "Still Have Questions?",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "You Don't Need to Have Everything Figured Out Before We Meet",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Whether you're managing personal wealth or responsible for your organization's retirement plan, the first conversation is an opportunity to ask questions, understand your options, and determine whether PointOak may be a good fit."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "label": "Schedule a Complimentary Consultation",
+          "action": "schedule"
+        }
+      ],
+      "layout": "cta"
+    }
+  ]
+}

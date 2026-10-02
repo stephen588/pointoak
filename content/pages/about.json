@@ -1,0 +1,202 @@
+{
+  "route": "/about/",
+  "name": "About PointOak Retirement Advisors",
+  "parent": "Home",
+  "meta": {
+    "title": "About PointOak | Fee-Only Fiduciary Advisors | McLean, VA",
+    "description": "Learn about PointOak, an independent, fee-only fiduciary wealth advisory firm providing private wealth management and retirement plan consulting from McLean, VA.",
+    "schema": "Organization + Person + FinancialService + BreadcrumbList"
+  },
+  "hero": {
+    "title": "About PointOak Retirement Advisors",
+    "subtitle": "Independent Advice. Personal Relationships. Fiduciary Responsibility.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "PointOak Retirement Advisors is an independent, fee-only fiduciary wealth advisory firm headquartered in McLean, Virginia."
+      },
+      {
+        "type": "p",
+        "text": "We provide private wealth management and retirement plan consulting to individuals, families, and businesses throughout the DC Metro area and nationwide."
+      },
+      {
+        "type": "p",
+        "text": "As an SEC-registered investment adviser, PointOak serves its advisory clients as a fiduciary. Our approach combines personalized advice, independent investment management, and deep retirement expertise with direct access to experienced advisers who take the time to understand each client’s circumstances."
+      },
+      {
+        "type": "button",
+        "label": "Schedule a Complimentary Consultation",
+        "action": "schedule"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "what-we-believe",
+      "title": "What We Believe",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Advice Should Be Personal",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We take time to understand your priorities before making recommendations."
+                }
+              ]
+            },
+            {
+              "title": "Advice Should Be Independent",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Our advice is not built around investment-product commissions or a proprietary investment lineup."
+                }
+              ]
+            },
+            {
+              "title": "Advice Should Be Understandable",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We explain complex topics in plain language so clients can understand their options and tradeoffs."
+                }
+              ]
+            },
+            {
+              "title": "Advice Should Be Coordinated",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Investments, retirement, taxes, workplace benefits, estate considerations, and major financial decisions should be considered together."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "two-areas-of-expertise-one-coordinated-approach",
+      "title": "Two Areas of Expertise. One Coordinated Approach.",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Private Wealth Management",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "PointOak helps individuals and families coordinate investment management, financial planning, retirement income, tax-aware strategies, workplace benefits, Social Security and pensions, estate considerations, and major financial transitions."
+                }
+              ]
+            },
+            {
+              "title": "Retirement Plan Consulting",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "For businesses, PointOak provides 3(21) investment fiduciary and 3(38) investment manager services, along with governance, investment oversight, benchmarking, plan design consulting, and participant education."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "experience-that-predates-pointoak",
+      "title": "Experience That Predates PointOak",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Advising Clients Since 2005",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Founder Darsh Makim, CRPC®, has advised retirement plan sponsors and individual clients since 2005. His experience spans employer-sponsored retirement plans, investment management, retirement planning, and private wealth management."
+                },
+                {
+                  "type": "p",
+                  "text": "PointOak has been registered with the SEC as an investment adviser since 2021."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "independent-by-design",
+      "title": "Independent by Design",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PointOak is independently owned and is not part of a wirehouse or investment-product manufacturer. For private wealth clients, that independence allows us to evaluate a broad investment universe that may include ETFs, mutual funds, individual securities, separately managed strategies, and, where appropriate, alternative and private-market investments. For retirement plans, we can evaluate investments, recordkeepers, and other providers without a proprietary product lineup."
+        }
+      ]
+    },
+    {
+      "id": "a-boutique-firm-with-a-broad-perspective",
+      "title": "A Boutique Firm With a Broad Perspective",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Our structure is designed to give clients direct access to experienced advisers while maintaining the capabilities needed to address sophisticated investment, planning, and retirement decisions."
+        }
+      ]
+    },
+    {
+      "id": "meet-our-founder",
+      "title": "Meet Our Founder",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Darsh Makim, CRPC® — Founder & Principal",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Darsh Makim has advised retirement plan sponsors and individual clients since 2005. His experience spans employer-sponsored retirement plans, investment management, retirement planning, and private wealth management. Darsh founded PointOak Retirement Advisors to create an independent advisory firm where clients could receive personalized advice, direct access to experienced advisers, and guidance that brings different areas of their financial lives together. Today, he leads PointOak’s private wealth and retirement-plan practices, working with individuals, families, business owners, executives, and retirement-plan sponsors."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "professional-standards-affiliations-accreditation",
+      "title": "Professional Standards, Affiliations & Accreditation",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "SEC-REGISTERED INVESTMENT ADVISER",
+            "FEE-ONLY FIDUCIARY",
+            "NAPFA | NAPA | ASPPA | RPAG | SHRM",
+            "BBB ACCREDITED BUSINESS — A+ RATING"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "looking-for-an-independent-financial-partner",
+      "title": "Looking for an Independent Financial Partner?",
+      "blocks": [
+        {
+          "type": "button",
+          "label": "Schedule a Complimentary Consultation",
+          "action": "schedule"
+        }
+      ],
+      "layout": "cta"
+    }
+  ]
+}

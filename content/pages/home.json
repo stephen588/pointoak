@@ -1,0 +1,258 @@
+{
+  "route": "/",
+  "name": "Home",
+  "parent": "—",
+  "meta": {
+    "title": "PointOak | Wealth Management & Retirement Plan Consulting",
+    "description": "Independent, fee-only wealth management, financial planning, investment management, and retirement plan consulting from PointOak in McLean, VA.",
+    "schema": "Organization + FinancialService + BreadcrumbList"
+  },
+  "hero": {
+    "title": "Independent Wealth Management & Retirement Plan Consulting",
+    "subtitle": "Personalized advice for individuals, families, and businesses.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "PointOak Retirement Advisors is an independent, fee-only fiduciary wealth advisory firm providing private wealth management and retirement plan consulting to clients throughout the DC Metro area and nationwide."
+      },
+      {
+        "type": "p",
+        "text": "We combine personalized financial planning and investment management for individuals and families with deep experience advising employer-sponsored retirement plans."
+      },
+      {
+        "type": "button",
+        "label": "Schedule a Complimentary Consultation",
+        "action": "schedule"
+      },
+      {
+        "type": "button",
+        "label": "Explore Our Services",
+        "href": "/#services",
+        "secondary": true
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "a-different-kind-of-advisory-relationship",
+      "title": "A Different Kind of Advisory Relationship",
+      "blocks": [
+        {
+          "type": "pillars",
+          "items": [
+            {
+              "title": "Fiduciary",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Your interests come first."
+                }
+              ]
+            },
+            {
+              "title": "Fee-Only",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "No investment-product commissions."
+                }
+              ]
+            },
+            {
+              "title": "Independent",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "No proprietary investment lineup."
+                }
+              ]
+            },
+            {
+              "title": "Experienced",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Retirement and investment experience dating to 2005."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "two-areas-of-expertise-one-coordinated-approach",
+      "title": "Two Areas of Expertise. One Coordinated Approach.",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Individuals & Families — Wealth Management & Financial Planning",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We help individuals and families bring investments, retirement, taxes, workplace benefits, estate considerations, and major financial decisions together into one coordinated strategy."
+                }
+              ],
+              "link": {
+                "label": "Explore Wealth Management",
+                "href": "/services/wealth-management/"
+              }
+            },
+            {
+              "title": "Businesses — Retirement Plan Consulting",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Independent fiduciary guidance for plan governance, investments, benchmarking, plan design, and participant education."
+                }
+              ],
+              "link": {
+                "label": "Explore Retirement Plan Consulting",
+                "href": "/corporate-retirement-plans/"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "your-financial-life-does-not-fit-into-one-account",
+      "title": "Your Financial Life Does Not Fit Into One Account",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Your investments are only one part of the picture. Retirement accounts, taxes, Social Security, pensions, workplace benefits, estate considerations, family priorities, and major life transitions can all affect the decisions you make with your wealth. PointOak brings those pieces together through investment management and comprehensive financial planning built around your circumstances."
+        },
+        {
+          "type": "links",
+          "items": [
+            {
+              "label": "Investment Management",
+              "href": "/services/investment-management/"
+            },
+            {
+              "label": "Comprehensive Financial Planning",
+              "href": "/services/comprehensive-financial-planning/"
+            },
+            {
+              "label": "Retirement Income Planning",
+              "href": "/services/retirement-income-planning/"
+            },
+            {
+              "label": "Tax-Aware Wealth Strategies",
+              "href": "/services/tax-aware-wealth-strategies/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a-broader-investment-perspective",
+      "title": "A Broader Investment Perspective",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Traditional investments remain the foundation of many portfolios, but they are not necessarily the entire opportunity set. As an independent adviser, PointOak can evaluate a broader range of investments and strategies — including public markets, separately managed strategies, and, where appropriate, alternative and private-market investments."
+        },
+        {
+          "type": "band",
+          "text": "PUBLIC MARKETS + PRIVATE MARKETS + ALTERNATIVE STRATEGIES — One coordinated portfolio."
+        },
+        {
+          "type": "button",
+          "label": "Explore Our Investment Approach",
+          "href": "/services/investment-management/",
+          "secondary": false
+        }
+      ]
+    },
+    {
+      "id": "retiring-or-changing-jobs",
+      "title": "Retiring or Changing Jobs?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Your 401(k) may be one of your largest financial assets. Before moving it, understand the options available to you and how each could affect your broader financial plan."
+        },
+        {
+          "type": "button",
+          "label": "Explore 401(k) Rollovers & Roth Conversions",
+          "href": "/services/401k-rollovers-roth-conversions/",
+          "secondary": false
+        }
+      ]
+    },
+    {
+      "id": "approaching-or-entering-retirement",
+      "title": "Approaching or Entering Retirement?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Turning accumulated savings into income introduces new decisions around withdrawals, taxes, Social Security, pensions, and portfolio risk."
+        },
+        {
+          "type": "button",
+          "label": "Explore Retirement Income Planning",
+          "href": "/services/retirement-income-planning/",
+          "secondary": false
+        }
+      ]
+    },
+    {
+      "id": "managing-complex-executive-benefits",
+      "title": "Managing Complex Executive Benefits?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "RSUs, stock options, deferred compensation, concentrated company stock, and retirement benefits can create decisions that extend well beyond your investment portfolio."
+        },
+        {
+          "type": "button",
+          "label": "Explore Executive Benefits Planning",
+          "href": "/services/executive-benefits-planning/",
+          "secondary": false
+        }
+      ]
+    },
+    {
+      "id": "experience-on-both-sides-of-retirement",
+      "title": "Experience on Both Sides of Retirement",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PointOak's experience advising employer-sponsored retirement plans gives our private-wealth team an additional perspective on the workplace benefits and retirement assets that often represent a significant part of a client's financial life."
+        },
+        {
+          "type": "list",
+          "items": [
+            "401(k) Decisions",
+            "Job Changes",
+            "Rollovers",
+            "Executive Benefits",
+            "Retirement Transitions"
+          ]
+        },
+        {
+          "type": "button",
+          "label": "Why PointOak",
+          "href": "/why-point-oak/",
+          "secondary": false
+        }
+      ]
+    },
+    {
+      "id": "ready-to-start-a-conversation",
+      "title": "Ready to Start a Conversation?",
+      "blocks": [
+        {
+          "type": "button",
+          "label": "Schedule a Complimentary Consultation",
+          "action": "schedule"
+        }
+      ],
+      "layout": "cta"
+    }
+  ]
+}

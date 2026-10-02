@@ -1,0 +1,272 @@
+{
+  "route": "/services/wealth-management/",
+  "name": "Wealth Management",
+  "parent": "Home",
+  "meta": {
+    "title": "Wealth Management | Fee-Only Advisors in McLean, VA | PointOak",
+    "description": "Independent, fiduciary wealth management integrating investments, financial planning, retirement, taxes, and major financial decisions for individuals and families.",
+    "schema": "Service + FAQPage + BreadcrumbList"
+  },
+  "hero": {
+    "title": "Wealth Management for Individuals & Families",
+    "subtitle": "Independent, fiduciary advice built around your entire financial life.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "PointOak provides personalized wealth management, investment management, and comprehensive financial planning designed to bring decisions together into one coordinated strategy."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Fiduciary Advice",
+          "Investment Management",
+          "Comprehensive Financial Planning",
+          "Retirement & Tax-Aware Planning"
+        ]
+      },
+      {
+        "type": "button",
+        "label": "Schedule a Complimentary Consultation",
+        "action": "schedule"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "a-relationship-built-around-your-interests",
+      "title": "A Relationship Built Around Your Interests",
+      "blocks": [
+        {
+          "type": "pillars",
+          "items": [
+            {
+              "title": "Fiduciary",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Your interests come first."
+                }
+              ]
+            },
+            {
+              "title": "Fee-Only",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "No investment-product commissions."
+                }
+              ]
+            },
+            {
+              "title": "Independent",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "No proprietary investment lineup."
+                }
+              ]
+            },
+            {
+              "title": "Personal",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Direct access to experienced advisers."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "text": "As an SEC-registered investment adviser, PointOak serves its advisory clients as a fiduciary. We are required to act in our clients' best interests and put their interests ahead of our own."
+        }
+      ]
+    },
+    {
+      "id": "your-financial-life-is-connected",
+      "title": "Your Financial Life Is Connected",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Investment decisions do not happen in isolation. Retirement, taxes, workplace benefits, Social Security, pensions, estate considerations, family priorities, and major life events can all influence how your wealth should be managed. Our role is to help connect those decisions into one coordinated strategy."
+        }
+      ]
+    },
+    {
+      "id": "private-wealth-services",
+      "title": "Private Wealth Services",
+      "blocks": [
+        {
+          "type": "links",
+          "items": [
+            {
+              "label": "Investment Management",
+              "href": "/services/investment-management/"
+            },
+            {
+              "label": "Comprehensive Financial Planning",
+              "href": "/services/comprehensive-financial-planning/"
+            },
+            {
+              "label": "401(k) Rollovers & Roth Conversions",
+              "href": "/services/401k-rollovers-roth-conversions/"
+            },
+            {
+              "label": "Retirement Income Planning",
+              "href": "/services/retirement-income-planning/"
+            },
+            {
+              "label": "Tax-Aware Wealth Strategies",
+              "href": "/services/tax-aware-wealth-strategies/"
+            },
+            {
+              "label": "Executive Benefits Planning",
+              "href": "/services/executive-benefits-planning/"
+            },
+            {
+              "label": "Social Security & Pension Planning",
+              "href": "/services/social-security-pension-planning/"
+            },
+            {
+              "label": "Estate Planning Coordination",
+              "href": "/services/estate-planning-coordination/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "retiring-or-changing-jobs",
+      "title": "Retiring or Changing Jobs?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Your 401(k) may be one of your largest financial assets. Understand your options before you move it. PointOak's experience with both employer-sponsored retirement plans and private wealth management provides perspective on the decisions that can arise when retirement assets transition from the workplace into your broader financial life."
+        },
+        {
+          "type": "button",
+          "label": "Explore Your 401(k) Rollover Options",
+          "href": "/services/401k-rollovers-roth-conversions/",
+          "secondary": false
+        }
+      ]
+    },
+    {
+      "id": "who-we-work-with",
+      "title": "Who We Work With",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Individuals and families approaching or living in retirement",
+            "Corporate executives and professionals with complex workplace benefits",
+            "Business owners",
+            "People navigating a job change or retirement transition",
+            "Families seeking ongoing investment management and comprehensive financial planning"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wealth-through-every-stage",
+      "title": "Wealth Through Every Stage",
+      "blocks": [
+        {
+          "type": "band",
+          "text": "BUILD → GROW → PREPARE → TRANSITION → PRESERVE & TRANSFER"
+        }
+      ]
+    },
+    {
+      "id": "investing-beyond-traditional-markets",
+      "title": "Investing Beyond Traditional Markets",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Broader access can create more ways to build a portfolio.",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "For appropriate clients, PointOak may evaluate private credit, private equity, real assets, real estate, hedge fund strategies, structured investments, and other alternative or private-market strategies alongside traditional investments. These investments can involve limited liquidity, longer holding periods, valuation complexity, higher fees, leverage, and eligibility requirements, and they are not appropriate for every client or portfolio."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a-boutique-relationship-without-a-narrow-perspective",
+      "title": "A Boutique Relationship Without a Narrow Perspective",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PointOak combines direct access to experienced advisers with broad investment and planning capabilities. When appropriate, we also coordinate with a client’s CPA, estate attorney, and other professionals so important decisions are considered together."
+        }
+      ]
+    },
+    {
+      "id": "how-we-work",
+      "title": "How We Work",
+      "blocks": [
+        {
+          "type": "pillars",
+          "items": [
+            {
+              "title": "Understand",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Learn what matters to you and how the pieces of your financial life fit together."
+                }
+              ]
+            },
+            {
+              "title": "Design",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Build a coordinated investment and planning strategy."
+                }
+              ]
+            },
+            {
+              "title": "Implement",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Put agreed recommendations into action."
+                }
+              ]
+            },
+            {
+              "title": "Monitor",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Review progress and adjust as circumstances, markets, tax rules, and goals change."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "steps"
+    },
+    {
+      "id": "ready-to-bring-the-pieces-together",
+      "title": "Ready to Bring the Pieces Together?",
+      "blocks": [
+        {
+          "type": "button",
+          "label": "Schedule a Complimentary Consultation",
+          "action": "schedule"
+        }
+      ],
+      "layout": "cta"
+    }
+  ]
+}

@@ -1,0 +1,475 @@
+{
+  "route": "/corporate-retirement-plans/tdf-consulting/",
+  "name": "Target Date Fund Consulting",
+  "parent": "Retirement Plan Consulting",
+  "meta": {
+    "title": "Target Date Fund Consulting | PointOak",
+    "description": "Independent target date fund evaluation covering selection, suitability, glide paths, fees, structure, and ongoing monitoring.",
+    "schema": "Service + FAQPage + BreadcrumbList"
+  },
+  "hero": {
+    "title": "Target Date Fund Consulting",
+    "subtitle": "Build a TDF strategy around your participants—not simply the fund's target year.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Target date funds are often the investment participants rely on most, which makes their selection and ongoing review an important fiduciary decision. PointOak helps plan sponsors evaluate TDF suitability, glide paths, fees, investment structures, and participant demographics through an independent, documented process."
+      },
+      {
+        "type": "chips",
+        "items": [
+          "Named 3(21) and 3(38) ERISA fiduciary",
+          "Fee-only with no recordkeeper or product affiliations",
+          "Independent TDF evaluation and ongoing monitoring"
+        ]
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "the-benefits-of-target-date-fund-consulting",
+      "title": "The Benefits of Target Date Fund Consulting",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Stronger Fiduciary Documentation",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Selecting a recognizable fund family isn't the same as documenting a prudent selection process. We help your committee establish clear evaluation criteria, compare alternatives, document the rationale behind the decision, and maintain an ongoing review process."
+                }
+              ]
+            },
+            {
+              "title": "Better Alignment With Your Participants",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Two workforces can have very different ages, turnover patterns, savings rates, and retirement behaviors. We evaluate your participant demographics alongside the TDF's assumptions to determine whether the investment strategy is an appropriate fit."
+                }
+              ]
+            },
+            {
+              "title": "Independent Fund and Fee Analysis",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "As a fee-only fiduciary with no recordkeeper affiliations or proprietary products, PointOak can evaluate target date fund options objectively. We consider costs, underlying investments, vehicle structure, asset allocation, and other factors rather than simply accepting the recordkeeper's default fund family."
+                }
+              ]
+            },
+            {
+              "title": "A Clearer Custom vs. Off-the-Shelf Decision",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "A custom target date strategy can provide greater control, but it also requires greater governance. We help determine whether the additional complexity is justified by your plan size, participant demographics, available investment vehicles, and fiduciary capacity."
+                }
+              ]
+            },
+            {
+              "title": "Ongoing Monitoring",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Target date fund selection isn't a one-time exercise. Glide paths change, fees move, investment teams evolve, and your workforce changes. We establish an ongoing monitoring process so your committee can periodically confirm that the selected strategy continues to fit the plan."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "target-date-fund-consulting-services",
+      "title": "Target Date Fund Consulting Services",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "TDF Selection & Suitability",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Selecting a target date fund requires more than comparing performance. We evaluate participant demographics, costs, underlying investments, asset allocation, and overall fund structure to help determine which TDF series best fits your plan."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Glide Path Analysis",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Funds with the same target year can take very different levels of risk. We evaluate how each TDF shifts from equities to more conservative investments over time and whether that glide path reflects how your participants are likely to save, retire, and withdraw assets."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Custom vs. Off-the-Shelf TDFs",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Does your plan need a custom target date strategy, or would a well-selected off-the-shelf series provide the right balance of fit, cost, and simplicity? We evaluate both approaches using your plan's actual participant profile and governance needs."
+                }
+              ],
+              "link": {
+                "label": "Learn About Custom vs. Off-the-Shelf TDFs",
+                "href": "#off-the-shelf-vs-custom-target-date-funds"
+              }
+            },
+            {
+              "title": "TDF Fiduciary Documentation",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "A strong TDF process should be easy to demonstrate. We help document the criteria reviewed, alternatives considered, decisions made, and ongoing monitoring so your committee maintains a clear fiduciary record."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "who-benefits-most-from-target-date-fund-consulting",
+      "title": "Who Benefits Most from Target Date Fund Consulting?",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Your Current TDF Was Selected by the Recordkeeper",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "If the fund series was inherited, automatically added, or selected without an independent comparison, your committee may benefit from a documented suitability review."
+                }
+              ]
+            },
+            {
+              "title": "Your Plan Is Changing Recordkeepers",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "A provider transition creates an opportunity to reassess TDF options, investment vehicles, fees, and share classes before simply carrying the existing lineup into the new platform."
+                }
+              ]
+            },
+            {
+              "title": "Your Workforce Doesn't Fit Generic Assumptions",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Unusual age distributions, high employee turnover, concentrated salary ranges, or participant behavior may make a standard glide path less appropriate for your plan."
+                }
+              ]
+            },
+            {
+              "title": "You're Considering a Custom TDF",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Custom solutions can offer greater flexibility, but they also introduce additional governance and monitoring responsibilities. An independent analysis can determine whether the added complexity creates enough value to justify it."
+                }
+              ]
+            },
+            {
+              "title": "Your Committee Is Concerned About QDIA Oversight",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "If your committee isn't confident it could explain why the current TDF was selected and how it is monitored, a formal review can strengthen both the decision and its documentation."
+                }
+              ]
+            },
+            {
+              "title": "When a Separate TDF Engagement May Not Be Necessary",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "If your plan has straightforward demographics, a recently documented independent review, competitive fees, and a clear ongoing monitoring process, your existing investment oversight may be sufficient."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "off-the-shelf-vs-custom-target-date-funds",
+      "title": "Off-the-Shelf vs. Custom Target Date Funds",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Both approaches can work well. The better choice depends on your participant population, plan size, available investment vehicles, cost structure, and governance capacity."
+        },
+        {
+          "type": "p",
+          "text": "A custom structure isn't automatically better. Our role is to determine whether the additional flexibility is useful for your plan—or whether a carefully selected off-the-shelf TDF offers a better combination of fit, cost, and governance simplicity."
+        }
+      ]
+    },
+    {
+      "id": "our-target-date-fund-consulting-process",
+      "title": "Our Target Date Fund Consulting Process",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Analyze",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We review your existing TDF series, participant demographics, fund structure, fees, glide path, underlying investments, and current fiduciary documentation."
+                }
+              ]
+            },
+            {
+              "title": "Compare",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We evaluate available alternatives using consistent criteria, including participant suitability, costs, risk, asset allocation, and investment structure."
+                }
+              ]
+            },
+            {
+              "title": "Recommend",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Your committee receives clear findings and a documented recommendation based on your plan rather than a provider's product shelf."
+                }
+              ]
+            },
+            {
+              "title": "Implement",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "If a change is appropriate, we coordinate with your recordkeeper and other plan providers while supporting participant communications and required documentation."
+                }
+              ]
+            },
+            {
+              "title": "Monitor",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We establish an ongoing review cadence so changes in the fund, fees, glide path, or participant population can be identified and addressed over time."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "steps"
+    },
+    {
+      "id": "why-choose-pointoak",
+      "title": "Why Choose PointOak",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Independent TDF Analysis Built Around Your Plan",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Target date funds may look simple to participants, but evaluating them properly requires looking beneath the target year."
+                },
+                {
+                  "type": "p",
+                  "text": "PointOak combines retirement plan expertise with independent investment analysis to evaluate participant fit, glide path structure, underlying investments, fees, and fiduciary documentation as one process."
+                },
+                {
+                  "type": "p",
+                  "text": "Because we're fee-only and independent, we're not tied to a recordkeeper's fund family or proprietary investment lineup. Our recommendations are based on the needs of your plan and participants."
+                },
+                {
+                  "type": "p",
+                  "text": "3(21) Investment Fiduciary & 3(38) Investment Manager Services"
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Fee-Only, Independent Advice",
+                    "Retirement Plan Experience Since 2005",
+                    "No Recordkeeper or Product Affiliations",
+                    "Nationwide Plan Sponsor Support"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frequently-asked-questions",
+      "title": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "What is target date fund consulting?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Target date fund consulting helps plan fiduciaries evaluate, select, document, and monitor the TDF series used within their retirement plan."
+                },
+                {
+                  "type": "p",
+                  "text": "A comprehensive review considers participant demographics, glide path, underlying investments, fees, vehicle structure, and ongoing monitoring requirements rather than relying solely on the fund's target year."
+                }
+              ]
+            },
+            {
+              "q": "How do you choose the right target date fund for a 401(k)?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Start by evaluating the plan's participants, then compare the funds' glide paths, asset allocations, fees, underlying investments, and overall structure."
+                },
+                {
+                  "type": "p",
+                  "text": "The goal is to identify a strategy that reasonably fits your workforce and document why the committee selected it."
+                }
+              ]
+            },
+            {
+              "q": "What is glide path analysis?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "A glide path shows how a target date fund's asset allocation changes as participants approach and move through retirement."
+                },
+                {
+                  "type": "p",
+                  "text": "Funds with the same target year can have significantly different equity exposure and risk levels. Glide path analysis helps determine whether that risk pattern makes sense for your participants."
+                }
+              ]
+            },
+            {
+              "q": "What's the difference between a “to” and “through” glide path?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "A “to” glide path generally reaches its most conservative allocation around the target retirement date. A “through” glide path continues changing its allocation after retirement."
+                },
+                {
+                  "type": "p",
+                  "text": "Neither approach is universally better. The appropriate structure depends in part on how participants are expected to use their assets after retiring."
+                }
+              ]
+            },
+            {
+              "q": "Are all target date funds with the same year basically the same?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "No."
+                },
+                {
+                  "type": "p",
+                  "text": "Two 2040 funds, for example, can have different equity exposure, underlying holdings, fees, asset classes, and glide path philosophies. The target year is only one part of the evaluation."
+                }
+              ]
+            },
+            {
+              "q": "What's the difference between an off-the-shelf and custom TDF?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "An off-the-shelf TDF uses a prebuilt investment strategy and glide path created for a broad population. A custom TDF can be structured more specifically around a plan's demographics and investment objectives."
+                },
+                {
+                  "type": "p",
+                  "text": "Custom strategies also require greater governance, so the additional flexibility needs to justify the additional complexity."
+                }
+              ]
+            },
+            {
+              "q": "How often should target date funds be reviewed?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Target date funds should be reviewed periodically as part of the plan's ongoing investment-monitoring process and whenever significant changes occur."
+                },
+                {
+                  "type": "p",
+                  "text": "Changes in fees, management, glide path, fund structure, recordkeepers, or participant demographics can all warrant additional review."
+                }
+              ]
+            },
+            {
+              "q": "Does PointOak only review the TDF offered by our recordkeeper?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "No."
+                },
+                {
+                  "type": "p",
+                  "text": "PointOak is independent of recordkeepers and proprietary fund providers, allowing us to evaluate available alternatives without an incentive to favor a particular fund family."
+                }
+              ]
+            },
+            {
+              "q": "What should our committee document when selecting a TDF?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "The fiduciary record should show what criteria were considered, which alternatives were reviewed, why the selected strategy was appropriate for the plan, and how it will be monitored going forward."
+                },
+                {
+                  "type": "p",
+                  "text": "PointOak helps organize that information into a documented process your committee can maintain over time."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "label": "View More FAQs",
+          "href": "/faq/",
+          "secondary": false
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "is-your-target-date-fund-still-the-right-fit",
+      "title": "Is Your Target Date Fund Still the Right Fit?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "We'll help you evaluate your TDF lineup against your participant demographics, fiduciary responsibilities, and long-term retirement goals."
+        },
+        {
+          "type": "button",
+          "label": "Schedule Your Complimentary Consultation",
+          "action": "schedule"
+        }
+      ],
+      "layout": "cta"
+    }
+  ]
+}

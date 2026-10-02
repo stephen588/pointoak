@@ -1,0 +1,446 @@
+{
+  "route": "/services/social-security-pension-planning/",
+  "name": "Social Security & Pension Planning",
+  "parent": "Wealth Management",
+  "meta": {
+    "title": "Social Security & Pension Planning | PointOak",
+    "description": "Evaluate Social Security claiming strategies and pension elections as part of a coordinated retirement income and financial plan.",
+    "schema": "Service + FAQPage + BreadcrumbList"
+  },
+  "hero": {
+    "title": "Social Security & Pension Planning",
+    "subtitle": "Make Important Retirement Income Decisions With the Full Picture in Mind",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Social Security and pension decisions can shape your retirement income for the rest of your life. And because many of these choices are difficult—or impossible—to reverse, they shouldn’t be made in isolation."
+      },
+      {
+        "type": "p",
+        "text": "At PointOak, we evaluate Social Security claiming strategies and pension options as part of your broader retirement income plan. We consider your household income, spouse or partner, taxes, investment assets, longevity, and long-term goals so you can make informed decisions with confidence."
+      },
+      {
+        "type": "chips",
+        "items": [
+          "Retirement Planning Experience Since 2005",
+          "Fee-Only Fiduciary Advisors",
+          "Complimentary Consultation"
+        ]
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "why-social-security-and-pension-planning-matters",
+      "title": "Why Social Security and Pension Planning Matters",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "There is no single “best” age to claim Social Security, and there is no universally right answer when choosing between pension options."
+        },
+        {
+          "type": "p",
+          "text": "The decision that works for one household may be completely wrong for another."
+        },
+        {
+          "type": "p",
+          "text": "Your claiming age can affect your lifetime benefits, survivor income, taxes, and the amount you need to withdraw from your portfolio. A pension election can affect income certainty, flexibility, estate goals, and how much your spouse receives later."
+        },
+        {
+          "type": "p",
+          "text": "The goal isn't simply to choose the option with the largest number today. It's to understand how each choice fits into your complete retirement strategy."
+        }
+      ]
+    },
+    {
+      "id": "how-pointoak-helps",
+      "title": "How PointOak Helps",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Evaluate Social Security Claiming Strategies",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We model different claiming ages and consider how each option affects your household—not just your individual monthly benefit."
+                },
+                {
+                  "type": "p",
+                  "text": "That includes your income needs, other retirement assets, spouse or partner, longevity considerations, and broader retirement strategy."
+                }
+              ]
+            },
+            {
+              "title": "Analyze Your Pension Options",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "If you're choosing between a monthly pension, lump-sum distribution, or different survivor options, we help you understand the long-term tradeoffs."
+                },
+                {
+                  "type": "p",
+                  "text": "We evaluate your plan terms alongside your retirement income needs, investment assets, risk tolerance, and estate goals."
+                }
+              ]
+            },
+            {
+              "title": "Plan for Survivor Income",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "For couples, the decision isn't only about maximizing today's household income."
+                },
+                {
+                  "type": "p",
+                  "text": "Social Security claiming and pension elections can significantly affect the income available to a surviving spouse later. We model those scenarios so both lives are considered in the plan."
+                }
+              ]
+            },
+            {
+              "title": "Coordinate Taxes and Retirement Income",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Social Security and pension income don't exist separately from the rest of your finances."
+                },
+                {
+                  "type": "p",
+                  "text": "We consider how those income sources interact with portfolio withdrawals, taxable income, Medicare premiums, and other retirement-planning decisions while coordinating with your tax professional where appropriate."
+                }
+              ]
+            },
+            {
+              "title": "Compare Immediate Income With Long-Term Value",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Claiming earlier can provide income sooner. Delaying may increase future monthly benefits. A pension lump sum may offer flexibility, while monthly payments may provide predictable lifetime income."
+                },
+                {
+                  "type": "p",
+                  "text": "We help you evaluate the tradeoffs based on what matters most to you—not a generic rule of thumb."
+                }
+              ]
+            },
+            {
+              "title": "Make Irreversible Decisions With Confidence",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Many pension elections cannot be changed after you make them, and some Social Security decisions have lasting consequences."
+                },
+                {
+                  "type": "p",
+                  "text": "Our role is to help you understand the implications before you commit so you know exactly why a particular strategy fits your financial plan."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "is-social-security-pension-planning-right-for-you",
+      "title": "Is Social Security & Pension Planning Right for You?",
+      "blocks": [
+        {
+          "type": "list",
+          "lead": "This service may be a good fit if you:",
+          "items": [
+            "Are approaching Social Security eligibility.",
+            "Have both Social Security and a pension.",
+            "Received a pension lump-sum or buyout offer.",
+            "Need to choose between single-life and joint-and-survivor pension options.",
+            "Are deciding whether to claim Social Security now or delay.",
+            "Have a spouse with a different age or earnings history.",
+            "Are considering retirement while coordinating multiple income sources.",
+            "Want a second opinion before making an irreversible pension election.",
+            "Need to understand how claiming decisions fit into your broader retirement plan."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "our-social-security-pension-planning-process",
+      "title": "Our Social Security & Pension Planning Process",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Step 1: Understand",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We begin by reviewing your Social Security benefits, pension options, retirement accounts, income needs, family circumstances, and long-term goals."
+                }
+              ]
+            },
+            {
+              "title": "Step 2: Design",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We model different claiming and pension scenarios and evaluate how each option affects household income, survivor benefits, portfolio withdrawals, and your broader retirement strategy."
+                }
+              ]
+            },
+            {
+              "title": "Step 3: Implement & Monitor",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Once you've selected a strategy, we integrate those decisions into your retirement income plan and continue monitoring your financial picture as circumstances change."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "steps"
+    },
+    {
+      "id": "why-choose-pointoak",
+      "title": "Why Choose PointOak?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Social Security and pension decisions are retirement planning decisions—and retirement planning is one of PointOak's deepest areas of experience."
+        },
+        {
+          "type": "p",
+          "text": "Our team's work with employer-sponsored retirement plans dates back to 2005. That background gives us firsthand experience with retirement benefits, pension structures, rollover decisions, and the real-world questions people face as they move from earning and accumulating to living on their assets."
+        },
+        {
+          "type": "p",
+          "text": "As an independent, fee-only fiduciary firm, we don't earn commissions from annuities or other investment products. Our role is to help you understand your options and choose a strategy that fits your goals."
+        },
+        {
+          "type": "chips",
+          "items": [
+            "Experience at a Glance",
+            "Fee-Only Fiduciary",
+            "Based in McLean, Virginia"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frequently-asked-questions",
+      "title": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "When should I claim Social Security?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "There isn't one claiming age that's right for everyone."
+                },
+                {
+                  "type": "p",
+                  "text": "You can begin claiming retirement benefits as early as age 62, wait until your full retirement age, or delay up to age 70. The right timing depends on factors such as your income needs, health and longevity expectations, other retirement assets, marital status, and survivor-benefit considerations."
+                },
+                {
+                  "type": "p",
+                  "text": "We model different scenarios within your broader retirement income plan rather than looking at Social Security in isolation."
+                }
+              ]
+            },
+            {
+              "q": "What happens if I delay Social Security?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Delaying beyond your full retirement age can increase your monthly retirement benefit through delayed retirement credits, up to age 70."
+                },
+                {
+                  "type": "p",
+                  "text": "Whether delaying makes sense depends on how you'll fund the years before claiming, your expected longevity, household income needs, and potential survivor benefits."
+                }
+              ]
+            },
+            {
+              "q": "How does Social Security timing affect my spouse?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "For married couples, Social Security planning should generally consider both spouses together."
+                },
+                {
+                  "type": "p",
+                  "text": "The earnings history and claiming age of each spouse may affect spousal and survivor benefits. This is particularly important when one spouse has earned significantly more than the other or there is a meaningful age difference between them."
+                }
+              ]
+            },
+            {
+              "q": "Should I take a pension lump sum or monthly payments?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "It depends on your pension terms, financial situation, and retirement priorities."
+                },
+                {
+                  "type": "p",
+                  "text": "A lump sum may offer greater flexibility and potential estate value, but it also transfers investment and longevity risk to you. Monthly pension payments may provide predictable lifetime income but typically offer less flexibility once the election is made."
+                },
+                {
+                  "type": "p",
+                  "text": "We compare the options in the context of your complete financial plan before helping you make a decision."
+                }
+              ]
+            },
+            {
+              "q": "What is a joint-and-survivor pension option?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "A joint-and-survivor pension generally provides a reduced monthly benefit during your lifetime in exchange for continuing some portion of that income to your surviving spouse after your death."
+                },
+                {
+                  "type": "p",
+                  "text": "Whether it makes sense depends on your household income needs, other assets, each spouse's longevity, and the specific options offered by your pension plan."
+                }
+              ]
+            },
+            {
+              "q": "How do Social Security and pensions affect my taxes?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Both can affect your taxable income."
+                },
+                {
+                  "type": "p",
+                  "text": "Depending on your overall income, a portion of Social Security benefits may be taxable, while pension payments are generally taxable depending on how contributions were made. These income sources can also interact with portfolio withdrawals and Medicare-related income thresholds."
+                },
+                {
+                  "type": "p",
+                  "text": "PointOak incorporates these considerations into your financial planning and coordinates with your tax professional when appropriate."
+                }
+              ]
+            },
+            {
+              "q": "Can I change my pension election later?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Many pension elections are permanent once payments begin."
+                },
+                {
+                  "type": "p",
+                  "text": "That's one reason it's important to evaluate the available options carefully before making a final choice. Your specific plan documents will determine which elections, if any, can be changed."
+                }
+              ]
+            },
+            {
+              "q": "What should I bring to a Social Security and pension planning meeting?",
+              "a": [
+                {
+                  "type": "list",
+                  "lead": "Helpful documents include:",
+                  "items": [
+                    "Your most recent Social Security statement.",
+                    "Your spouse's or partner's Social Security statement, if applicable.",
+                    "Your pension election packet.",
+                    "Current retirement account statements.",
+                    "Information about other retirement income sources.",
+                    "Recent tax information that may help us understand your broader financial picture."
+                  ]
+                },
+                {
+                  "type": "p",
+                  "text": "You don't need to have everything perfectly organized before the initial conversation. We'll let you know what additional information we need as the planning process moves forward."
+                }
+              ]
+            },
+            {
+              "q": "How much does Social Security and pension planning cost?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "PointOak provides Social Security and pension planning as part of our broader wealth management relationship."
+                },
+                {
+                  "type": "p",
+                  "text": "Your initial consultation is complimentary and carries no obligation."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "label": "View More FAQs",
+          "href": "/faq/",
+          "secondary": false
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "related-services",
+      "title": "Related Services",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Social Security and pension decisions are closely connected to other areas of retirement planning."
+        },
+        {
+          "type": "p",
+          "text": "Continue exploring:"
+        },
+        {
+          "type": "links",
+          "items": [
+            {
+              "label": "Retirement Income Planning",
+              "href": "/services/retirement-income-planning/",
+              "secondary": false
+            },
+            {
+              "label": "401(k) Rollovers & Roth Conversions",
+              "href": "/services/401k-rollovers-roth-conversions/",
+              "secondary": false
+            },
+            {
+              "label": "Tax-Aware Wealth Strategies",
+              "href": "/services/tax-aware-wealth-strategies/",
+              "secondary": false
+            },
+            {
+              "label": "Investment Management",
+              "href": "/services/investment-management/",
+              "secondary": false
+            },
+            {
+              "label": "Comprehensive Financial Planning",
+              "href": "/services/comprehensive-financial-planning/",
+              "secondary": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "make-the-most-of-the-benefits-you-ve-earned",
+      "title": "Make the Most of the Benefits You've Earned",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "We'll help you evaluate your Social Security and pension options in the context of your complete retirement income strategy."
+        },
+        {
+          "type": "button",
+          "label": "Schedule Your Complimentary Consultation",
+          "action": "schedule"
+        }
+      ],
+      "layout": "cta"
+    }
+  ]
+}

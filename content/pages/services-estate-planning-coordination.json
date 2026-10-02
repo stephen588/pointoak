@@ -1,0 +1,464 @@
+{
+  "route": "/services/estate-planning-coordination/",
+  "name": "Estate Planning Coordination",
+  "parent": "Wealth Management",
+  "meta": {
+    "title": "Estate Planning Coordination | PointOak",
+    "description": "Coordinate beneficiary designations, account ownership, wealth-transfer considerations, and financial planning with your attorney and tax professional.",
+    "schema": "Service + FAQPage + BreadcrumbList"
+  },
+  "hero": {
+    "title": "Estate Planning Coordination",
+    "subtitle": "Make Sure Your Financial Plan and Estate Plan Work Together",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Having a will or trust is important, but it is only one part of a complete estate plan. Your beneficiary designations, account ownership, retirement assets, insurance, and broader financial strategy all need to align with your wishes."
+      },
+      {
+        "type": "p",
+        "text": "PointOak helps coordinate those moving pieces so your financial plan supports the legacy you want to leave. We do not draft legal documents or provide tax advice. Instead, we work alongside your estate attorney and CPA to help make sure your accounts, planning decisions, and estate documents are working from the same strategy."
+      },
+      {
+        "type": "chips",
+        "items": [
+          "Fee-Only Fiduciary Advisors",
+          "Attorney & CPA Coordination",
+          "Complimentary Consultation"
+        ]
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "why-estate-planning-coordination-matters",
+      "title": "Why Estate Planning Coordination Matters",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Estate planning is not just about having the right documents."
+        },
+        {
+          "type": "p",
+          "text": "A will may say one thing while a retirement account beneficiary form says another. A trust may no longer reflect your current assets. A major life event may change who should receive what. And decisions around gifting, retirement accounts, or concentrated assets can affect how wealth ultimately transfers."
+        },
+        {
+          "type": "p",
+          "text": "Estate planning coordination helps connect the legal, financial, and tax-related pieces so your intentions are more likely to be carried out the way you expect."
+        }
+      ]
+    },
+    {
+      "id": "how-pointoak-helps",
+      "title": "How PointOak Helps",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Align Beneficiaries and Account Ownership",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Retirement accounts, insurance policies, trusts, and other assets can each have different ownership and beneficiary rules."
+                },
+                {
+                  "type": "p",
+                  "text": "We help review how those pieces fit together and identify areas that may need to be discussed with your attorney or other professionals."
+                }
+              ]
+            },
+            {
+              "title": "Coordinate With Your Estate Attorney",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Your attorney is responsible for legal advice and drafting estate documents."
+                },
+                {
+                  "type": "p",
+                  "text": "We help make sure the financial information they are working with reflects your current accounts, investment strategy, retirement assets, and long-term goals."
+                }
+              ]
+            },
+            {
+              "title": "Work Alongside Your CPA",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We do not provide tax advice, but wealth transfer decisions often have tax implications."
+                },
+                {
+                  "type": "p",
+                  "text": "When appropriate, we coordinate with your CPA or tax professional so financial planning decisions are considered alongside your broader tax strategy."
+                }
+              ]
+            },
+            {
+              "title": "Keep Your Plan Current",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Estate planning should evolve as your life does."
+                },
+                {
+                  "type": "p",
+                  "text": "Marriage, divorce, births, deaths, changes in wealth, new accounts, business transitions, and changes in your goals can all create reasons to revisit your plan."
+                },
+                {
+                  "type": "p",
+                  "text": "We help keep estate considerations connected to the financial planning work we're already doing with you."
+                }
+              ]
+            },
+            {
+              "title": "Plan for Wealth Transfer",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Legacy planning is about more than account balances."
+                },
+                {
+                  "type": "p",
+                  "text": "We help you think through how retirement accounts, investments, beneficiary designations, charitable goals, and other assets fit into the wealth transfer strategy you are building with your attorney and tax professionals."
+                }
+              ]
+            },
+            {
+              "title": "Prepare for Family Conversations",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Inheritance and legacy conversations can be difficult."
+                },
+                {
+                  "type": "p",
+                  "text": "When helpful, we can help you organize the financial picture and clarify your intentions so conversations with family members are more structured and easier to navigate."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "is-estate-planning-coordination-right-for-you",
+      "title": "Is Estate Planning Coordination Right for You?",
+      "blocks": [
+        {
+          "type": "list",
+          "lead": "This service may be a good fit if you:",
+          "items": [
+            "Have a will or trust but have not reviewed it recently.",
+            "Have multiple retirement and investment accounts.",
+            "Need to review beneficiary designations.",
+            "Recently married, divorced, had a child, or experienced a death in the family.",
+            "Own a business or have significant equity compensation.",
+            "Have received an inheritance or other significant assets.",
+            "Want your advisor, attorney, and CPA working together.",
+            "Have charitable or multigenerational wealth transfer goals.",
+            "Are approaching retirement and want to understand how your estate plan fits with your retirement income strategy.",
+            "Want help organizing your financial picture before discussing your legacy with your family."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "our-estate-planning-coordination-process",
+      "title": "Our Estate Planning Coordination Process",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Step 1: Understand",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We begin by reviewing your financial picture, existing estate documents, account ownership, beneficiary designations, family circumstances, and long-term goals."
+                }
+              ]
+            },
+            {
+              "title": "Step 2: Coordinate",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We identify areas where your financial plan and estate strategy need to work together and coordinate with your attorney, CPA, or other professionals as appropriate."
+                }
+              ]
+            },
+            {
+              "title": "Step 3: Monitor & Update",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "As your assets, family, and financial circumstances change, we revisit the areas of your financial plan that may affect your estate and help keep everyone aligned."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "steps"
+    },
+    {
+      "id": "why-choose-pointoak",
+      "title": "Why Choose PointOak?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Estate planning coordination works best when someone understands the entire financial picture."
+        },
+        {
+          "type": "p",
+          "text": "At PointOak, your advisor already knows your investments, retirement strategy, income needs, and long-term goals. That puts us in a strong position to help connect the financial details with the legal and tax work being handled by your other professionals."
+        },
+        {
+          "type": "p",
+          "text": "Our retirement-plan background also gives us deep experience with beneficiary designations, retirement accounts, and the decisions that affect how those assets eventually pass to others."
+        },
+        {
+          "type": "p",
+          "text": "As an independent, fee-only fiduciary firm, our role is to help keep your financial planning aligned with your goals—not sell products or legal services."
+        },
+        {
+          "type": "chips",
+          "items": [
+            "Experience at a Glance",
+            "Fee-Only Fiduciary",
+            "Based in McLean, Virginia"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frequently-asked-questions",
+      "title": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "What is estate planning coordination?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Estate planning coordination is the process of helping make sure your financial accounts, beneficiary designations, investment strategy, and broader financial plan align with the legal estate documents prepared by your attorney."
+                },
+                {
+                  "type": "p",
+                  "text": "PointOak does not draft wills, trusts, or other legal documents. We help coordinate the financial side of the plan."
+                }
+              ]
+            },
+            {
+              "q": "How is estate planning coordination different from having a will?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "A will is one legal document within a broader estate plan."
+                },
+                {
+                  "type": "p",
+                  "text": "Estate planning coordination looks at how your will or trust works alongside beneficiary designations, account ownership, retirement accounts, insurance, investment assets, and other parts of your financial life."
+                }
+              ]
+            },
+            {
+              "q": "Do beneficiary designations override a will?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "In many cases, assets with a named beneficiary pass according to the beneficiary designation rather than instructions in a will."
+                },
+                {
+                  "type": "p",
+                  "text": "That is why retirement accounts, life insurance policies, and similar assets should be reviewed as part of the broader estate planning process."
+                }
+              ]
+            },
+            {
+              "q": "How often should I review my estate plan?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "It is a good idea to revisit your estate plan periodically and whenever there is a major life or financial change."
+                },
+                {
+                  "type": "p",
+                  "text": "Events such as marriage, divorce, the birth of a child, the death of a family member, a significant change in assets, or a business transition may create reasons to review both your legal documents and financial accounts."
+                }
+              ]
+            },
+            {
+              "q": "What should be included in an estate plan review?",
+              "a": [
+                {
+                  "type": "list",
+                  "lead": "Depending on your circumstances, a review may include:",
+                  "items": [
+                    "Wills and trusts.",
+                    "Beneficiary designations.",
+                    "Account ownership and titling.",
+                    "Retirement accounts.",
+                    "Insurance policies.",
+                    "Powers of attorney.",
+                    "Healthcare directives.",
+                    "Charitable intentions.",
+                    "Business interests.",
+                    "Wealth transfer goals."
+                  ]
+                },
+                {
+                  "type": "p",
+                  "text": "Your attorney provides legal guidance on the documents themselves. PointOak helps coordinate the financial information and accounts that interact with them."
+                }
+              ]
+            },
+            {
+              "q": "Do you work with my estate attorney and CPA?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Yes."
+                },
+                {
+                  "type": "p",
+                  "text": "We can coordinate with your existing attorney and CPA so each professional understands the relevant parts of your financial picture."
+                },
+                {
+                  "type": "p",
+                  "text": "PointOak does not provide legal or tax advice, but we can help keep the different pieces of your plan connected."
+                }
+              ]
+            },
+            {
+              "q": "When should a trust be reviewed?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "A trust may need to be revisited after significant changes in your family, assets, business interests, residence, or estate-planning goals."
+                },
+                {
+                  "type": "p",
+                  "text": "Your attorney should advise you on whether legal changes are needed. We can help identify financial changes that may warrant a conversation with them."
+                }
+              ]
+            },
+            {
+              "q": "Can you help with wealth transfer strategies?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Yes, as part of your broader financial planning relationship."
+                },
+                {
+                  "type": "p",
+                  "text": "We can help you evaluate how investments, retirement accounts, beneficiary designations, charitable goals, and other assets fit into your wealth transfer plans while coordinating with your attorney and tax professional."
+                }
+              ]
+            },
+            {
+              "q": "How do we start talking to our family about inheritance?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Start with your intentions before focusing on dollar amounts."
+                },
+                {
+                  "type": "p",
+                  "text": "It can help to explain what you hope your wealth will accomplish, what values are important to you, and why certain decisions were made."
+                },
+                {
+                  "type": "p",
+                  "text": "Your advisor can help organize the financial information and structure the conversation so everyone has a clearer understanding of the plan."
+                }
+              ]
+            },
+            {
+              "q": "How much does estate planning coordination cost?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Estate planning coordination is included as part of PointOak's broader wealth management relationship rather than offered as a standalone legal service."
+                },
+                {
+                  "type": "p",
+                  "text": "Your initial consultation is complimentary and carries no obligation."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "label": "View More FAQs",
+          "href": "/faq/",
+          "secondary": false
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "related-services",
+      "title": "Related Services",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Estate planning is closely connected to other areas of your financial life."
+        },
+        {
+          "type": "p",
+          "text": "Continue exploring:"
+        },
+        {
+          "type": "links",
+          "items": [
+            {
+              "label": "Comprehensive Financial Planning",
+              "href": "/services/comprehensive-financial-planning/",
+              "secondary": false
+            },
+            {
+              "label": "Investment Management",
+              "href": "/services/investment-management/",
+              "secondary": false
+            },
+            {
+              "label": "Retirement Income Planning",
+              "href": "/services/retirement-income-planning/",
+              "secondary": false
+            },
+            {
+              "label": "Tax-Aware Wealth Strategies",
+              "href": "/services/tax-aware-wealth-strategies/",
+              "secondary": false
+            },
+            {
+              "label": "Executive Benefits Planning",
+              "href": "/services/executive-benefits-planning/",
+              "secondary": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "make-sure-your-financial-plan-supports-your-legacy",
+      "title": "Make Sure Your Financial Plan Supports Your Legacy",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "We'll work alongside your legal and tax professionals to help align your estate strategy with your broader financial goals."
+        },
+        {
+          "type": "button",
+          "label": "Schedule Your Complimentary Consultation",
+          "action": "schedule"
+        }
+      ],
+      "layout": "cta"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+import type { Metadata } from "next";
+import { notFound } from "next/navigation";
+import ContentPage from "@/components/page/ContentPage";
+import { SITE_URL, genericRoutes, getPage } from "@/lib/content";
+
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return genericRoutes().map((route) => ({ slug: route.split("/").filter(Boolean) }));
+}
+
+function routeFor(slug: string[]) {
+  return "/" + slug.join("/") + "/";
+}
+
+export function generateMetadata({ params }: { params: { slug: string[] } }): Metadata {
+  const page = getPage(routeFor(params.slug));
+  if (!page) return {};
+  const url = SITE_URL + page.route;
+  return {
+    // sitemap titles already end in "| PointOak", so skip the layout's title template
+    title: { absolute: page.meta.title ?? page.name },
+    description: page.meta.description ?? undefined,
+    alternates: { canonical: url },
+    openGraph: { title: page.meta.title ?? page.name, description: page.meta.description ?? undefined, url },
+  };
+}
+
+export default function Page({ params }: { params: { slug: string[] } }) {
+  const page = getPage(routeFor(params.slug));
+  if (!page) notFound();
+  return <ContentPage page={page} />;
+}

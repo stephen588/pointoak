@@ -1,0 +1,337 @@
+{
+  "route": "/services/investment-management/",
+  "name": "Investment Management",
+  "parent": "Wealth Management",
+  "meta": {
+    "title": "Investment Management | PointOak Retirement Advisors",
+    "description": "Personalized, open-architecture investment management coordinated with retirement, tax, income, and financial-planning goals.",
+    "schema": "Service + FAQPage + BreadcrumbList"
+  },
+  "hero": {
+    "title": "Investment Management",
+    "subtitle": "Personalized Investment Management Built Around Your Financial Life",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Successful investing isn't about chasing returns or finding the next hot stock. It's about building an investment strategy that supports your life, your goals, and your long-term financial plan."
+      },
+      {
+        "type": "p",
+        "text": "At PointOak, investment management is never viewed in isolation. Every portfolio we build considers your retirement goals, tax strategy, estate plan, risk tolerance, and income needs. As an independent, fee-only fiduciary, we create personalized investment strategies designed around what's best for you—not products or commissions."
+      },
+      {
+        "type": "chips",
+        "items": [
+          "Fee-Only Fiduciary Advisors",
+          "Independent, Open-Architecture Portfolios",
+          "Complimentary Consultation"
+        ]
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "why-investment-management-matters",
+      "title": "Why Investment Management Matters",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Your portfolio shouldn't simply reflect your age or risk tolerance. It should reflect your entire financial picture."
+        },
+        {
+          "type": "p",
+          "text": "Investment decisions influence retirement income, taxes, estate planning, charitable giving, and long-term wealth preservation. When those decisions are made independently, opportunities can be missed."
+        },
+        {
+          "type": "p",
+          "text": "Our approach coordinates every part of your financial life, helping your investments support your broader goals today while adapting as those goals evolve over time."
+        }
+      ]
+    },
+    {
+      "id": "how-pointoak-helps",
+      "title": "How PointOak Helps",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Personalized Portfolio Design",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "No two investors are alike. We build portfolios around your financial goals, timeline, risk tolerance, tax situation, and income needs—not generic allocation models."
+                }
+              ]
+            },
+            {
+              "title": "Tax-Aware Investing",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Keeping more of what you earn can be just as important as generating returns. We incorporate tax-efficient investment strategies, asset location, and withdrawal planning to help improve long-term after-tax outcomes."
+                }
+              ]
+            },
+            {
+              "title": "Open-Architecture Investment Selection",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Because we are independent, we're free to select investments from across the marketplace rather than being limited to proprietary products or preferred fund families."
+                }
+              ]
+            },
+            {
+              "title": "Ongoing Monitoring & Rebalancing",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Markets change. So do your goals. We continually monitor your portfolio and make adjustments as market conditions, tax laws, and life circumstances evolve."
+                }
+              ]
+            },
+            {
+              "title": "Integrated Wealth Management",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Your investments shouldn't exist in a vacuum. We coordinate investment decisions with retirement planning, estate planning, tax strategies, executive compensation, and other aspects of your financial life."
+                }
+              ]
+            },
+            {
+              "title": "Direct Access to Experienced Advisors",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "When you have questions, you'll speak with the advisor who understands your financial picture—not a call center or rotating service team. We believe great advice begins with long-term relationships."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "is-investment-management-right-for-you",
+      "title": "Is Investment Management Right for You?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Our investment management services are designed for individuals and families with more complex financial lives."
+        },
+        {
+          "type": "list",
+          "lead": "This service may be a good fit if you:",
+          "items": [
+            "Are approaching retirement.",
+            "Need help coordinating multiple investment accounts.",
+            "Are rolling over a 401(k).",
+            "Have received an inheritance or business sale proceeds.",
+            "Want tax-efficient investment strategies.",
+            "Need a second opinion on your current portfolio.",
+            "Prefer working with an independent fiduciary advisor."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "our-investment-management-process",
+      "title": "Our Investment Management Process",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Step 1: Understand",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We begin by learning about your goals, current investments, financial priorities, and overall picture before making recommendations."
+                }
+              ]
+            },
+            {
+              "title": "Step 2: Design",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We create a personalized investment strategy that aligns your portfolio with your risk tolerance, retirement goals, tax considerations, and long-term objectives."
+                }
+              ]
+            },
+            {
+              "title": "Step 3: Implement & Monitor",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Once your portfolio is in place, we monitor investments continuously, rebalance when appropriate, and adjust your strategy as your life and the markets evolve."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "steps"
+    },
+    {
+      "id": "why-choose-pointoak",
+      "title": "Why Choose PointOak?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Investment management is about more than selecting investments."
+        },
+        {
+          "type": "p",
+          "text": "Our team combines decades of experience with a fiduciary standard of care, helping clients make thoughtful investment decisions that support every aspect of their financial lives."
+        },
+        {
+          "type": "p",
+          "text": "As a boutique advisory firm, we intentionally maintain a high-touch service model. You'll work directly with experienced advisors who know your goals, communicate proactively, and remain available whenever questions arise."
+        },
+        {
+          "type": "chips",
+          "items": [
+            "Experience at a Glance",
+            "Fee-Only Fiduciary",
+            "Based in McLean, Virginia"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frequently-asked-questions",
+      "title": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "What is investment management?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Investment management is the ongoing process of building, monitoring, and adjusting an investment portfolio to help achieve your long-term financial goals. It includes portfolio construction, diversification, risk management, and ongoing oversight."
+                }
+              ]
+            },
+            {
+              "q": "How is PointOak different from other investment managers?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "PointOak integrates investment management with retirement planning, tax strategies, estate planning, and other financial decisions rather than treating your portfolio as a standalone service. As an independent, fee-only fiduciary, our recommendations are based solely on your goals."
+                }
+              ]
+            },
+            {
+              "q": "What does a fee-only investment advisor mean?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Fee-only advisors are compensated directly by their clients rather than through commissions or product sales. This structure helps reduce conflicts of interest and keeps recommendations focused on what's best for you."
+                }
+              ]
+            },
+            {
+              "q": "Do you use proprietary investment products?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "No. PointOak follows an open-architecture approach, allowing us to select investments from across the marketplace rather than limiting recommendations to proprietary funds."
+                }
+              ]
+            },
+            {
+              "q": "How often is my portfolio reviewed?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "We continuously monitor portfolios and recommend adjustments when appropriate. We also meet with clients regularly to review performance, discuss changes in financial goals, and update strategies as needed."
+                }
+              ]
+            },
+            {
+              "q": "Can you manage retirement accounts like IRAs and 401(k) rollovers?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Yes. We help clients manage traditional IRAs, Roth IRAs, taxable investment accounts, inherited accounts, and 401(k) rollovers as part of a coordinated wealth management strategy."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "label": "View More FAQs",
+          "href": "/faq/",
+          "secondary": false
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "related-services",
+      "title": "Related Services",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Your investment strategy is closely connected to other areas of financial planning."
+        },
+        {
+          "type": "p",
+          "text": "Continue exploring:"
+        },
+        {
+          "type": "links",
+          "items": [
+            {
+              "label": "Retirement Income Planning",
+              "href": "/services/retirement-income-planning/",
+              "secondary": false
+            },
+            {
+              "label": "Tax-Aware Wealth Strategies",
+              "href": "/services/tax-aware-wealth-strategies/",
+              "secondary": false
+            },
+            {
+              "label": "Comprehensive Financial Planning",
+              "href": "/services/comprehensive-financial-planning/",
+              "secondary": false
+            },
+            {
+              "label": "401(k) Rollovers & Roth Conversions",
+              "href": "/services/401k-rollovers-roth-conversions/",
+              "secondary": false
+            },
+            {
+              "label": "Estate Planning Coordination",
+              "href": "/services/estate-planning-coordination/",
+              "secondary": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "put-your-investments-to-work-for-your-bigger-picture",
+      "title": "Put Your Investments to Work for Your Bigger Picture",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Build a portfolio designed around your goals, risk tolerance, tax situation, and long-term financial plan."
+        },
+        {
+          "type": "button",
+          "label": "Schedule Your Complimentary Consultation",
+          "action": "schedule"
+        }
+      ],
+      "layout": "cta"
+    }
+  ]
+}

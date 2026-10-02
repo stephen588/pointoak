@@ -1,0 +1,409 @@
+{
+  "route": "/services/executive-benefits-planning/",
+  "name": "Executive Benefits Planning",
+  "parent": "Wealth Management",
+  "meta": {
+    "title": "Executive Benefits Planning | PointOak",
+    "description": "Financial planning for executives with RSUs, stock options, deferred compensation, concentrated stock, workplace benefits, and career transitions.",
+    "schema": "Service + FAQPage + BreadcrumbList"
+  },
+  "hero": {
+    "title": "Executive Benefits Planning",
+    "subtitle": "Make Every Part of Your Executive Compensation Work Together",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Executive compensation can create significant wealth, but it also creates layers of complexity. RSUs, stock options, deferred compensation, bonuses, retirement accounts, and concentrated company stock each come with their own tax rules, timing decisions, and potential risks."
+      },
+      {
+        "type": "p",
+        "text": "At PointOak, we help executives coordinate those decisions as part of one comprehensive financial strategy. Rather than looking at each benefit in isolation, we consider how your compensation affects your investments, taxes, retirement income, diversification, and long-term goals."
+      },
+      {
+        "type": "chips",
+        "items": [
+          "Fee-Only Fiduciary Advisors",
+          "Retirement Specialists Since 2005",
+          "Complimentary Consultation"
+        ]
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "why-executive-benefits-planning-matters",
+      "title": "Why Executive Benefits Planning Matters",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Executive compensation often comes with more choices—and more opportunities to make expensive mistakes."
+        },
+        {
+          "type": "p",
+          "text": "A vesting event can increase your taxable income. Exercising options can trigger unexpected tax consequences. Deferred compensation elections may affect your retirement income years from now. And holding too much employer stock can leave a significant portion of your wealth tied to the same company that provides your paycheck."
+        },
+        {
+          "type": "p",
+          "text": "Executive benefits planning brings these decisions together so your compensation strategy supports your broader financial life instead of operating separately from it."
+        }
+      ]
+    },
+    {
+      "id": "how-pointoak-helps",
+      "title": "How PointOak Helps",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Coordinate Equity Compensation",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We help you understand how RSUs, stock options, and other equity awards fit into your overall investment strategy, retirement timeline, and financial goals."
+                }
+              ]
+            },
+            {
+              "title": "Manage Concentrated Stock Risk",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "A growing employer stock position can create significant portfolio concentration. We help you evaluate when and how to diversify while considering taxes, future vesting, and long-term investment needs."
+                }
+              ]
+            },
+            {
+              "title": "Navigate Tax Consequences",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Different forms of executive compensation create different taxable events. We help coordinate vesting, exercise, sale, and distribution decisions with your broader tax-aware financial strategy."
+                }
+              ]
+            },
+            {
+              "title": "Plan Deferred Compensation",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Deferred compensation can be a valuable retirement planning tool, but elections often need to be made well before the income is received. We help evaluate payout timing, employer risk, and how future distributions fit into your overall retirement income plan."
+                }
+              ]
+            },
+            {
+              "title": "Integrate Retirement Planning",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Your equity compensation doesn't exist separately from your 401(k), Social Security, taxable portfolio, or future retirement spending. We coordinate each source so your retirement strategy works as one complete plan."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "is-executive-benefits-planning-right-for-you",
+      "title": "Is Executive Benefits Planning Right for You?",
+      "blocks": [
+        {
+          "type": "list",
+          "lead": "This service may be a good fit if you:",
+          "items": [
+            "Receive RSUs, stock options, or other equity compensation.",
+            "Have a significant portion of your wealth invested in employer stock.",
+            "Are evaluating a deferred compensation election.",
+            "Have multiple vesting events in a single tax year.",
+            "Are approaching retirement with unvested equity or unexercised options.",
+            "Recently received a major promotion, equity grant, or liquidity event.",
+            "Want to coordinate executive benefits with retirement and tax planning."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "our-executive-benefits-planning-process",
+      "title": "Our Executive Benefits Planning Process",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Step 1: Understand",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We begin by reviewing your compensation package, vesting schedules, retirement accounts, investment portfolio, tax situation, and long-term financial goals."
+                }
+              ]
+            },
+            {
+              "title": "Step 2: Design",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Next, we develop a coordinated strategy for equity compensation, diversification, retirement income, and tax-aware decision-making."
+                }
+              ]
+            },
+            {
+              "title": "Step 3: Implement & Monitor",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "As grants vest, options approach expiration, compensation changes, or retirement gets closer, we continue reviewing and adjusting your strategy."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "steps"
+    },
+    {
+      "id": "why-choose-pointoak",
+      "title": "Why Choose PointOak?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Executive benefits planning requires more than understanding stock compensation. It requires understanding how compensation decisions interact with taxes, investments, retirement income, estate planning, and the rest of your financial life."
+        },
+        {
+          "type": "p",
+          "text": "PointOak combines deep retirement planning experience with independent, fee-only advice and a concierge-level service model. You'll work directly with experienced advisors who understand your complete financial picture and can help coordinate decisions across every part of it."
+        },
+        {
+          "type": "p",
+          "text": "Because we don't receive commissions or sell proprietary products, our recommendations are based solely on what makes sense for you."
+        },
+        {
+          "type": "chips",
+          "items": [
+            "Experience at a Glance",
+            "Fee-Only Fiduciary",
+            "Based in McLean, Virginia"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frequently-asked-questions",
+      "title": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "What is executive benefits planning?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Executive benefits planning coordinates equity compensation, retirement benefits, deferred compensation, taxes, and investments as part of one broader financial strategy."
+                },
+                {
+                  "type": "p",
+                  "text": "Rather than evaluating RSUs, options, or deferred compensation separately, the goal is to understand how each decision affects your total wealth, retirement timeline, tax situation, and investment risk."
+                }
+              ]
+            },
+            {
+              "q": "How often should I review my executive compensation strategy?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "At least annually, and whenever you experience a significant vesting event, new grant, promotion, job change, or change in retirement plans."
+                },
+                {
+                  "type": "p",
+                  "text": "Your strategy should evolve as stock prices, tax laws, vesting schedules, income, and your long-term goals change."
+                }
+              ]
+            },
+            {
+              "q": "How are RSUs taxed when they vest?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "RSUs are generally treated as ordinary income based on their fair market value when they vest."
+                },
+                {
+                  "type": "p",
+                  "text": "Your employer may withhold taxes at vesting, but that withholding does not necessarily equal your final tax obligation. The impact should be considered alongside the rest of your annual income and financial plan."
+                }
+              ]
+            },
+            {
+              "q": "Should I sell RSUs as soon as they vest?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "It depends on your overall portfolio and concentration risk."
+                },
+                {
+                  "type": "p",
+                  "text": "Once RSUs vest, the value is generally treated as taxable compensation whether you continue holding the shares or sell them. The decision to hold or diversify should therefore be based on your broader investment strategy, risk tolerance, tax considerations, and long-term goals rather than the stock price alone."
+                }
+              ]
+            },
+            {
+              "q": "What's the difference between RSUs, ISOs, and NQSOs?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Each gives you equity exposure, but they work differently."
+                },
+                {
+                  "type": "p",
+                  "text": "RSUs generally become shares when they vest. Incentive stock options, or ISOs, give you the right to purchase shares and may create Alternative Minimum Tax considerations when exercised. Non-qualified stock options, or NQSOs, generally create ordinary income on the spread between the exercise price and fair market value when exercised."
+                },
+                {
+                  "type": "p",
+                  "text": "The right strategy depends on the specific award, timing, taxes, and your financial goals."
+                }
+              ]
+            },
+            {
+              "q": "How does deferred compensation work?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Nonqualified deferred compensation allows executives to postpone receiving some income until a future date."
+                },
+                {
+                  "type": "p",
+                  "text": "Deferring income can help shift taxable compensation into later years, but it also introduces considerations around payout elections, employer credit risk, retirement timing, and future tax rates. Elections often need to be made before the compensation is earned, so planning ahead is important."
+                }
+              ]
+            },
+            {
+              "q": "How does concentrated employer stock affect my financial plan?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "A concentrated stock position can create significant risk because both your income and your investments may depend on the same company."
+                },
+                {
+                  "type": "p",
+                  "text": "Diversification may help reduce that exposure, but selling shares can create tax consequences. We help evaluate concentration risk alongside future vesting, taxes, retirement goals, and your broader portfolio."
+                }
+              ]
+            },
+            {
+              "q": "How does executive compensation affect retirement planning?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Equity compensation and deferred compensation can become major retirement assets."
+                },
+                {
+                  "type": "p",
+                  "text": "Vesting schedules, option exercise windows, deferred compensation payouts, retirement accounts, Social Security, and portfolio withdrawals all influence how much income you'll have and when. Coordinating them can help create a more reliable retirement strategy."
+                }
+              ]
+            },
+            {
+              "q": "Can PointOak help coordinate with my CPA and attorney?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Yes."
+                },
+                {
+                  "type": "p",
+                  "text": "PointOak does not provide tax preparation or legal advice, but we work alongside your CPA, estate attorney, and other professionals so compensation, investment, tax, and estate decisions remain aligned."
+                }
+              ]
+            },
+            {
+              "q": "What should I look for in an executive benefits advisor?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Look for an advisor who understands equity compensation, retirement planning, tax-aware investing, diversification, and fiduciary responsibility."
+                },
+                {
+                  "type": "p",
+                  "text": "Your advisor should be able to evaluate RSUs, stock options, deferred compensation, and retirement benefits within your complete financial picture rather than treating each as a separate transaction."
+                }
+              ]
+            },
+            {
+              "q": "How much does executive benefits planning cost?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "PointOak operates as a fee-only fiduciary advisor. Our fees are asset-based and vary depending on account size and complexity."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "label": "View More FAQs",
+          "href": "/faq/",
+          "secondary": false
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "related-services",
+      "title": "Related Services",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Executive benefits planning often works hand in hand with other areas of your financial plan."
+        },
+        {
+          "type": "links",
+          "items": [
+            {
+              "label": "Investment Management",
+              "href": "/services/investment-management/",
+              "secondary": false
+            },
+            {
+              "label": "Tax-Aware Wealth Strategies",
+              "href": "/services/tax-aware-wealth-strategies/",
+              "secondary": false
+            },
+            {
+              "label": "Retirement Income Planning",
+              "href": "/services/retirement-income-planning/",
+              "secondary": false
+            },
+            {
+              "label": "401(k) Rollovers & Roth Conversions",
+              "href": "/services/401k-rollovers-roth-conversions/",
+              "secondary": false
+            },
+            {
+              "label": "Comprehensive Financial Planning",
+              "href": "/services/comprehensive-financial-planning/",
+              "secondary": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "make-the-most-of-your-executive-compensation",
+      "title": "Make the Most of Your Executive Compensation",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "We'll help you coordinate RSUs, stock options, deferred compensation, and other benefits with your taxes, investments, and long-term goals."
+        },
+        {
+          "type": "button",
+          "label": "Schedule Your Complimentary Consultation",
+          "action": "schedule"
+        }
+      ],
+      "layout": "cta"
+    }
+  ]
+}

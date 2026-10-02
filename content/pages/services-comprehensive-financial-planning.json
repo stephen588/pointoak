@@ -1,0 +1,474 @@
+{
+  "route": "/services/comprehensive-financial-planning/",
+  "name": "Comprehensive Financial Planning",
+  "parent": "Wealth Management",
+  "meta": {
+    "title": "Comprehensive Financial Planning | PointOak Retirement Advisors",
+    "description": "Coordinate investments, retirement, tax-aware strategies, estate considerations, workplace benefits, and major financial decisions with PointOak.",
+    "schema": "Service + FAQPage + BreadcrumbList"
+  },
+  "hero": {
+    "title": "Comprehensive Financial Planning",
+    "subtitle": "One Financial Plan Built Around Your Entire Life",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Your investments, retirement income, taxes, estate plan, workplace benefits, and major life decisions all affect one another. Managing each separately can create gaps, missed opportunities, and conflicting strategies."
+      },
+      {
+        "type": "p",
+        "text": "PointOak brings those pieces together through comprehensive financial planning built around your goals. Instead of focusing on one account or one decision at a time, we create an integrated plan that helps you see the full picture and make informed financial decisions with confidence."
+      },
+      {
+        "type": "chips",
+        "items": [
+          "Fee-Only Fiduciary Advisors",
+          "Complimentary Consultation"
+        ]
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "why-comprehensive-financial-planning-matters",
+      "title": "Why Comprehensive Financial Planning Matters",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "As your financial life becomes more complex, individual decisions become harder to separate."
+        },
+        {
+          "type": "p",
+          "text": "A retirement withdrawal can affect your taxes. A Roth conversion may influence Medicare costs. An estate planning decision can change how assets should be titled or invested. A job change can create new questions about retirement accounts, equity compensation, and cash flow."
+        },
+        {
+          "type": "p",
+          "text": "Comprehensive financial planning looks at those decisions together."
+        },
+        {
+          "type": "p",
+          "text": "Rather than managing investments, retirement, taxes, and estate considerations in isolation, PointOak creates one coordinated strategy designed around where you are today and where you want to go."
+        }
+      ]
+    },
+    {
+      "id": "how-pointoak-helps",
+      "title": "How PointOak Helps",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Bring Every Part of Your Financial Life Together",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We organize your investments, retirement accounts, income sources, estate considerations, workplace benefits, and other financial priorities into one coordinated plan."
+                },
+                {
+                  "type": "p",
+                  "text": "That gives you a clearer view of what you have, what needs attention, and how individual decisions affect the bigger picture."
+                }
+              ]
+            },
+            {
+              "title": "Plan for Retirement With Greater Clarity",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We help you understand whether you're on track for retirement and how different decisions may affect your future."
+                },
+                {
+                  "type": "p",
+                  "text": "That can include projected income needs, Social Security, pensions, retirement account withdrawals, investment strategy, and other factors that influence when and how you can retire."
+                }
+              ]
+            },
+            {
+              "title": "Coordinate Tax-Aware Decisions",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Taxes can affect nearly every part of a financial plan."
+                },
+                {
+                  "type": "p",
+                  "text": "We incorporate tax-aware considerations into investment management, retirement withdrawals, Roth conversions, charitable strategies, and other planning decisions while working with your CPA or tax professional as appropriate."
+                }
+              ]
+            },
+            {
+              "title": "Keep Your Estate Strategy Aligned",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Estate documents are only one piece of legacy planning."
+                },
+                {
+                  "type": "p",
+                  "text": "We help coordinate beneficiary designations, investment accounts, retirement assets, and your broader financial plan with the work of your estate attorney so your intentions remain aligned as circumstances change."
+                }
+              ]
+            },
+            {
+              "title": "Give You One Central Point of Contact",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "You may already have a CPA, attorney, insurance professional, or other advisors."
+                },
+                {
+                  "type": "p",
+                  "text": "PointOak helps connect the pieces. We serve as a central financial resource, coordinating with your other professionals so you aren't left managing separate recommendations on your own."
+                }
+              ]
+            },
+            {
+              "title": "Adjust as Your Life Changes",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "A financial plan shouldn't sit untouched for years."
+                },
+                {
+                  "type": "p",
+                  "text": "We regularly review your strategy and make adjustments as your goals, family, career, investments, tax laws, and other circumstances evolve."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "is-comprehensive-financial-planning-right-for-you",
+      "title": "Is Comprehensive Financial Planning Right for You?",
+      "blocks": [
+        {
+          "type": "list",
+          "lead": "This service may be a good fit if you:",
+          "items": [
+            "Are approaching or preparing for retirement.",
+            "Have investments spread across multiple accounts.",
+            "Work with several financial, tax, or legal professionals who aren't coordinating.",
+            "Recently received an inheritance or other significant assets.",
+            "Sold a business or experienced another liquidity event.",
+            "Receive executive compensation, RSUs, or stock options.",
+            "Are considering a 401(k) rollover or Roth conversion.",
+            "Want your investment strategy connected to your broader life goals.",
+            "Feel like your financial life has become too complex to manage piece by piece."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "our-comprehensive-financial-planning-process",
+      "title": "Our Comprehensive Financial Planning Process",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Step 1: Understand",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We begin by learning about your goals, family, assets, income, concerns, and what prompted you to seek advice."
+                },
+                {
+                  "type": "p",
+                  "text": "We review your complete financial picture so we understand not only where you are today, but what you're working toward."
+                }
+              ]
+            },
+            {
+              "title": "Step 2: Design",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We create an integrated financial strategy that connects investment management, retirement planning, tax-aware decisions, estate coordination, workplace benefits, and other priorities relevant to your situation."
+                },
+                {
+                  "type": "p",
+                  "text": "Every recommendation is designed within the context of the full plan rather than as an isolated decision."
+                }
+              ]
+            },
+            {
+              "title": "Step 3: Implement & Monitor",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We help put the plan into action, coordinate with your other professionals when needed, and continue monitoring your progress."
+                },
+                {
+                  "type": "p",
+                  "text": "As life changes, your financial plan changes with it."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "steps"
+    },
+    {
+      "id": "why-choose-pointoak",
+      "title": "Why Choose PointOak?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Comprehensive planning only works when your advisor understands the whole picture."
+        },
+        {
+          "type": "p",
+          "text": "At PointOak, you'll work directly with an experienced advisor who knows your financial goals, understands the different parts of your plan, and stays involved over time."
+        },
+        {
+          "type": "p",
+          "text": "Our background in both private wealth management and corporate retirement plans gives us a broad perspective on the decisions that affect individuals and families throughout their financial lives."
+        },
+        {
+          "type": "p",
+          "text": "As an independent, fee-only fiduciary firm, we don't earn commissions from products or receive compensation for recommending one investment over another. Our role is to provide thoughtful guidance designed around your goals."
+        },
+        {
+          "type": "chips",
+          "items": [
+            "Experience at a Glance",
+            "Fee-Only Fiduciary",
+            "Based in McLean, Virginia"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frequently-asked-questions",
+      "title": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "What is comprehensive financial planning?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Comprehensive financial planning looks at your entire financial life rather than focusing on a single account or goal."
+                },
+                {
+                  "type": "p",
+                  "text": "It can include investment management, retirement income planning, tax-aware strategies, estate coordination, workplace benefits, insurance considerations, major life events, and other financial decisions that affect your long-term goals."
+                }
+              ]
+            },
+            {
+              "q": "How is comprehensive financial planning different from investment management?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Investment management focuses primarily on your portfolio."
+                },
+                {
+                  "type": "p",
+                  "text": "Comprehensive financial planning looks beyond the portfolio to consider how investments interact with retirement, taxes, estate planning, income, workplace benefits, and other financial priorities."
+                },
+                {
+                  "type": "p",
+                  "text": "At PointOak, investment management is integrated into the broader financial plan rather than treated as a standalone decision."
+                }
+              ]
+            },
+            {
+              "q": "What should a comprehensive financial plan include?",
+              "a": [
+                {
+                  "type": "list",
+                  "lead": "The exact plan depends on your situation, but it may include:",
+                  "items": [
+                    "Retirement income planning.",
+                    "Investment management.",
+                    "Tax-aware financial strategies.",
+                    "Social Security and pension planning.",
+                    "401(k) rollover and Roth conversion planning.",
+                    "Estate planning coordination.",
+                    "Executive compensation and workplace benefits.",
+                    "Cash flow and major financial decisions.",
+                    "Ongoing monitoring and adjustments.",
+                    "The goal is to connect the areas that affect one another rather than manage each separately."
+                  ]
+                }
+              ]
+            },
+            {
+              "q": "When should I start comprehensive financial planning?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "You don't need to wait until retirement."
+                },
+                {
+                  "type": "p",
+                  "text": "Comprehensive planning can become especially valuable when your financial life grows more complex—such as approaching retirement, changing careers, receiving an inheritance, selling a business, managing executive compensation, or coordinating multiple investment and retirement accounts."
+                },
+                {
+                  "type": "p",
+                  "text": "Starting earlier can also provide more time to evaluate decisions that may benefit from multi-year planning."
+                }
+              ]
+            },
+            {
+              "q": "Do you work with my CPA and estate attorney?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Yes."
+                },
+                {
+                  "type": "p",
+                  "text": "PointOak does not provide tax or legal advice, but we can coordinate with your existing CPA, attorney, and other professionals so financial decisions are considered within the context of your broader plan."
+                },
+                {
+                  "type": "p",
+                  "text": "That helps reduce the risk of different professionals making recommendations without visibility into the rest of your financial picture."
+                }
+              ]
+            },
+            {
+              "q": "How often will my financial plan be reviewed?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "We typically review plans with clients on a semi-annual basis, with additional conversations as needed."
+                },
+                {
+                  "type": "p",
+                  "text": "Major life changes, financial decisions, market conditions, tax-law changes, or other events may create a reason to revisit the plan between scheduled reviews."
+                }
+              ]
+            },
+            {
+              "q": "Do I need a financial plan if I'm already working with an investment advisor?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Possibly."
+                },
+                {
+                  "type": "p",
+                  "text": "If your current advisor is primarily managing your investments, you may still benefit from broader planning that coordinates retirement income, taxes, estate considerations, workplace benefits, and other financial decisions."
+                },
+                {
+                  "type": "p",
+                  "text": "One useful question to ask is whether your advisor is managing your portfolio or actively coordinating your complete financial picture."
+                }
+              ]
+            },
+            {
+              "q": "Is comprehensive financial planning only for retirees?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "No."
+                },
+                {
+                  "type": "p",
+                  "text": "PointOak works with individuals and families across several stages of life, including accumulation, pre-retirement, active retirement, and wealth transition."
+                },
+                {
+                  "type": "p",
+                  "text": "The planning priorities change over time, but the value of coordinating financial decisions can begin well before retirement."
+                }
+              ]
+            },
+            {
+              "q": "How much does comprehensive financial planning cost?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "PointOak provides comprehensive financial planning as part of our broader wealth management relationship."
+                },
+                {
+                  "type": "p",
+                  "text": "Your initial consultation is complimentary and carries no obligation."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "label": "View More FAQs",
+          "href": "/faq/",
+          "secondary": false
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "related-services",
+      "title": "Related Services",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Comprehensive financial planning connects many areas of your financial life."
+        },
+        {
+          "type": "p",
+          "text": "Continue exploring:"
+        },
+        {
+          "type": "links",
+          "items": [
+            {
+              "label": "Retirement Income Planning",
+              "href": "/services/retirement-income-planning/",
+              "secondary": false
+            },
+            {
+              "label": "Investment Management",
+              "href": "/services/investment-management/",
+              "secondary": false
+            },
+            {
+              "label": "Tax-Aware Wealth Strategies",
+              "href": "/services/tax-aware-wealth-strategies/",
+              "secondary": false
+            },
+            {
+              "label": "401(k) Rollovers & Roth Conversions",
+              "href": "/services/401k-rollovers-roth-conversions/",
+              "secondary": false
+            },
+            {
+              "label": "Social Security & Pension Planning",
+              "href": "/services/social-security-pension-planning/",
+              "secondary": false
+            },
+            {
+              "label": "Estate Planning Coordination",
+              "href": "/services/estate-planning-coordination/",
+              "secondary": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bring-every-part-of-your-financial-life-together",
+      "title": "Bring Every Part of Your Financial Life Together",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "We'll help coordinate your investments, retirement, taxes, estate planning, and major financial decisions into one clear strategy."
+        },
+        {
+          "type": "button",
+          "label": "Schedule Your Complimentary Consultation",
+          "action": "schedule"
+        }
+      ],
+      "layout": "cta"
+    }
+  ]
+}

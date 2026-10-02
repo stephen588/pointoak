@@ -1,0 +1,89 @@
+{
+  "route": "/corporate-retirement-plans/",
+  "name": "Retirement Plan Consulting",
+  "parent": "Home",
+  "meta": {
+    "title": "401(k) Plan Consulting | PointOak Retirement Advisors",
+    "description": "Independent retirement plan consulting for fiduciary governance, investments, benchmarking, plan design, target date funds, and participant education.",
+    "schema": "Service + FAQPage + BreadcrumbList"
+  },
+  "hero": {
+    "title": "Retirement Plan Consulting",
+    "subtitle": "Independent fiduciary guidance for plan governance, investments, benchmarking, plan design, and participant education.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "For businesses, PointOak provides 3(21) investment fiduciary and 3(38) investment manager services, along with governance, investment oversight, benchmarking, plan design consulting, and participant education."
+      },
+      {
+        "type": "button",
+        "label": "Schedule a Complimentary Consultation",
+        "action": "schedule"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "services",
+      "title": "Retirement Plan Consulting Services",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Participant Education & Communication",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Retirement education, financial wellness, and participant communications."
+                }
+              ],
+              "link": {
+                "label": "Learn More",
+                "href": "/corporate-retirement-plans/participant-education-communication/"
+              }
+            },
+            {
+              "title": "Fiduciary Governance & Committee Support",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Independent guidance that strengthens your fiduciary process and helps protect your organization."
+                }
+              ],
+              "link": {
+                "label": "Learn More",
+                "href": "/corporate-retirement-plans/fiduciary-governance/"
+              }
+            },
+            {
+              "title": "Target Date Fund Consulting",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Build a TDF strategy around your participants—not simply the fund's target year."
+                }
+              ],
+              "link": {
+                "label": "Learn More",
+                "href": "/corporate-retirement-plans/tdf-consulting/"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ready-to-start-a-conversation",
+      "title": "Ready to Start a Conversation?",
+      "blocks": [
+        {
+          "type": "button",
+          "label": "Schedule a Complimentary Consultation",
+          "action": "schedule"
+        }
+      ],
+      "layout": "cta"
+    }
+  ]
+}

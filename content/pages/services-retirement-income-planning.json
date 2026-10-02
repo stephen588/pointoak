@@ -1,0 +1,320 @@
+{
+  "route": "/services/retirement-income-planning/",
+  "name": "Retirement Income Planning",
+  "parent": "Wealth Management",
+  "meta": {
+    "title": "Retirement Income Planning | PointOak",
+    "description": "Coordinate portfolio withdrawals, Social Security, pensions, taxes, and spending decisions through a personalized retirement income strategy.",
+    "schema": "Service + FAQPage + BreadcrumbList"
+  },
+  "hero": {
+    "title": "Retirement Income Planning",
+    "subtitle": "Build a Retirement Income Strategy That Gives You Confidence",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Saving for retirement is only half the journey. Once retirement begins, every financial decision becomes connected—when to claim Social Security, which accounts to withdraw from first, how taxes affect your income, and how to make your assets last for decades."
+      },
+      {
+        "type": "p",
+        "text": "At PointOak, we help individuals and families create coordinated retirement income strategies that transform accumulated wealth into reliable, sustainable income. As an independent, fee-only fiduciary, every recommendation is made with one objective in mind: helping you enjoy retirement with confidence."
+      },
+      {
+        "type": "chips",
+        "items": [
+          "Retirement Specialists Since 2005",
+          "Fee-Only Fiduciary Advisors",
+          "Complimentary Consultation"
+        ]
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "why-retirement-income-planning-matters",
+      "title": "Why Retirement Income Planning Matters",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Retirement isn't just about how much you've saved—it's about how efficiently you use those savings."
+        },
+        {
+          "type": "p",
+          "text": "Without a coordinated strategy, seemingly small decisions can have long-term consequences. Claiming Social Security too early, withdrawing from the wrong accounts, overlooking tax implications, or failing to account for healthcare costs can reduce the lifetime value of your retirement savings."
+        },
+        {
+          "type": "p",
+          "text": "A retirement income plan brings all of these moving pieces together into one coordinated strategy designed around your goals, lifestyle, and long-term financial security."
+        }
+      ]
+    },
+    {
+      "id": "how-pointoak-helps",
+      "title": "How PointOak Helps",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Create Reliable Retirement Income",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Your retirement should be supported by a dependable income strategy—not guesswork. We help determine how much you can comfortably spend while preserving your long-term financial security."
+                }
+              ]
+            },
+            {
+              "title": "Coordinate Taxes and Withdrawals",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "The order in which you withdraw retirement assets can significantly impact your taxes over time. We help coordinate withdrawals across taxable, tax-deferred, and tax-free accounts to improve long-term tax efficiency."
+                }
+              ]
+            },
+            {
+              "title": "Optimize Social Security Decisions",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "When you claim benefits affects more than your monthly check. We evaluate claiming strategies alongside your overall retirement income plan, helping you make informed decisions based on your complete financial picture."
+                }
+              ]
+            },
+            {
+              "title": "Plan for Healthcare Costs",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Healthcare expenses often become one of retirement's largest costs. We help incorporate Medicare premiums, long-term healthcare expenses, and other anticipated costs into your overall retirement strategy."
+                }
+              ]
+            },
+            {
+              "title": "Adapt as Life Changes",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Retirement planning isn't a one-time event. We review your strategy regularly and make adjustments as markets, tax laws, spending needs, and life circumstances evolve."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "is-retirement-income-planning-right-for-you",
+      "title": "Is Retirement Income Planning Right for You?",
+      "blocks": [
+        {
+          "type": "list",
+          "lead": "This service may be a good fit if you:",
+          "items": [
+            "Are within 10 years of retirement.",
+            "Have accumulated significant retirement savings.",
+            "Need income from multiple accounts.",
+            "Are considering a 401(k) rollover.",
+            "Want guidance on Social Security claiming.",
+            "Are evaluating Roth conversion opportunities.",
+            "Want to reduce taxes during retirement."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "our-retirement-income-planning-process",
+      "title": "Our Retirement Income Planning Process",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Step 1: Understand",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We begin by learning about your goals, retirement timeline, current assets, anticipated spending, and income needs."
+                }
+              ]
+            },
+            {
+              "title": "Step 2: Design",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Next, we develop a coordinated retirement income strategy that considers investments, taxes, Social Security, retirement accounts, healthcare costs, and your long-term objectives."
+                }
+              ]
+            },
+            {
+              "title": "Step 3: Implement & Monitor",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Once your plan is in place, we continue monitoring your strategy with regular reviews and adjustments as your life and the financial landscape change."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "steps"
+    },
+    {
+      "id": "why-choose-pointoak",
+      "title": "Why Choose PointOak?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Retirement income planning requires more than investment knowledge. It requires understanding how taxes, retirement accounts, Social Security, pensions, and long-term financial planning all work together."
+        },
+        {
+          "type": "p",
+          "text": "PointOak combines decades of retirement planning experience with a concierge-level service model that emphasizes clear communication, objective advice, and long-term relationships."
+        },
+        {
+          "type": "p",
+          "text": "Whether you're approaching retirement or already drawing income, you'll work directly with experienced advisors who know your financial picture and are committed to helping you make informed decisions."
+        },
+        {
+          "type": "chips",
+          "items": [
+            "Experience at a Glance",
+            "Fee-Only Fiduciary",
+            "Based in McLean, Virginia"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frequently-asked-questions",
+      "title": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "What is retirement income planning?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Retirement income planning focuses on converting your accumulated savings into sustainable income. It coordinates investment withdrawals, Social Security, taxes, healthcare costs, and other income sources to support your lifestyle throughout retirement."
+                }
+              ]
+            },
+            {
+              "q": "When should I begin retirement income planning?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Many people benefit from starting five to ten years before retirement. Planning early provides more flexibility for strategies such as Roth conversions, Social Security timing, and tax-efficient withdrawal planning."
+                }
+              ]
+            },
+            {
+              "q": "How often should a retirement income plan be reviewed?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "We recommend reviewing your retirement income strategy at least twice each year, with additional reviews whenever significant life events, tax law changes, or market conditions warrant adjustments."
+                }
+              ]
+            },
+            {
+              "q": "Can you help with Social Security decisions?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Yes. We evaluate multiple claiming strategies and incorporate Social Security into your broader retirement income plan so benefits work alongside your investments and other income sources."
+                }
+              ]
+            },
+            {
+              "q": "Do you help with 401(k) rollovers?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Absolutely. We help clients evaluate rollover options, understand the tax implications, and determine how retirement accounts fit into an overall income strategy."
+                }
+              ]
+            },
+            {
+              "q": "How much does retirement income planning cost?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "PointOak operates as a fee-only fiduciary advisor. Our fees are asset-based and vary depending on account size and complexity. Your initial consultation is complimentary and carries no obligation."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "label": "View More FAQs",
+          "href": "/faq/",
+          "secondary": false
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "related-services",
+      "title": "Related Services",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Your retirement income strategy often works hand in hand with other planning services."
+        },
+        {
+          "type": "links",
+          "items": [
+            {
+              "label": "Investment Management",
+              "href": "/services/investment-management/",
+              "secondary": false
+            },
+            {
+              "label": "Tax-Aware Wealth Strategies",
+              "href": "/services/tax-aware-wealth-strategies/",
+              "secondary": false
+            },
+            {
+              "label": "401(k) Rollovers & Roth Conversions",
+              "href": "/services/401k-rollovers-roth-conversions/",
+              "secondary": false
+            },
+            {
+              "label": "Social Security & Pension Planning",
+              "href": "/services/social-security-pension-planning/",
+              "secondary": false
+            },
+            {
+              "label": "Comprehensive Financial Planning",
+              "href": "/services/comprehensive-financial-planning/",
+              "secondary": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "turn-your-savings-into-a-retirement-paycheck",
+      "title": "Turn Your Savings Into a Retirement Paycheck",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "We'll help you build a coordinated income strategy designed to support the life you want throughout retirement."
+        },
+        {
+          "type": "button",
+          "label": "Schedule Your Complimentary Consultation",
+          "action": "schedule"
+        }
+      ],
+      "layout": "cta"
+    }
+  ]
+}

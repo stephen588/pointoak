@@ -1,0 +1,351 @@
+{
+  "route": "/corporate-retirement-plans/fiduciary-governance/3-21-fiduciary/",
+  "name": "3(21) Fiduciary Services",
+  "parent": "Fiduciary Governance & Committee Support",
+  "meta": {
+    "title": "3(21) Investment Fiduciary Services | PointOak",
+    "description": "PointOak provides 3(21) investment fiduciary advice and recommendations while the plan sponsor or committee retains final decision-making authority.",
+    "schema": "Service + FAQPage + BreadcrumbList"
+  },
+  "hero": {
+    "title": "3(21) Fiduciary Services for Retirement Plan Sponsors",
+    "subtitle": "Independent investment guidance while you retain decision-making authority.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Not every retirement plan committee wants to delegate investment authority completely. Many plan sponsors want experienced fiduciary guidance while maintaining control over the final decisions that affect their plan."
+      },
+      {
+        "type": "p",
+        "text": "PointOak Retirement Advisors provides 3(21) fiduciary services for employers seeking independent investment recommendations, committee support, and documented fiduciary guidance. As your ERISA 3(21) co-fiduciary, we help your organization make informed decisions while strengthening the governance process behind every recommendation."
+      },
+      {
+        "type": "chips",
+        "items": [
+          "Named ERISA 3(21) fiduciary",
+          "Independent, fee-only fiduciary advisor",
+          "Quarterly investment monitoring",
+          "Committee and governance support"
+        ]
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "benefits-of-3-21-fiduciary-services",
+      "title": "Benefits of 3(21) Fiduciary Services",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Maintain Decision-Making Authority",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Unlike a 3(38) arrangement, a 3(21) fiduciary allows your committee to retain final authority over investment decisions while benefiting from independent recommendations and ongoing fiduciary expertise."
+                }
+              ]
+            },
+            {
+              "title": "Reduce Fiduciary Risk",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "ERISA requires plan fiduciaries to act prudently and document their decisions. A structured review process supported by an experienced co-fiduciary helps strengthen that process and demonstrate prudent oversight."
+                }
+              ]
+            },
+            {
+              "title": "Independent Investment Guidance",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "PointOak operates as a fee-only advisor with no commissions, proprietary investment products, or recordkeeper affiliations. Every recommendation is made solely in the best interests of your plan participants."
+                }
+              ]
+            },
+            {
+              "title": "Ongoing Investment Monitoring",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Investment oversight doesn't stop after fund selection. We provide quarterly reviews, watch lists, performance monitoring, and recommendations designed to keep your investment lineup aligned with your Investment Policy Statement."
+                }
+              ]
+            },
+            {
+              "title": "Stronger Committee Governance",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Retirement plan committees benefit from experienced guidance during meetings, investment reviews, benchmarking discussions, and governance decisions throughout the year."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-3-21-fiduciary-services-work",
+      "title": "How 3(21) Fiduciary Services Work",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A 3(21) fiduciary serves as an investment co-fiduciary under ERISA. We provide documented recommendations regarding investment selection, monitoring, replacement decisions, and fiduciary best practices, while your committee retains final approval authority."
+        },
+        {
+          "type": "p",
+          "text": "This collaborative approach allows plan sponsors to benefit from institutional investment expertise without giving up control over the retirement plan."
+        },
+        {
+          "type": "p",
+          "text": "PointOak integrates investment monitoring, provider benchmarking, committee governance, and fiduciary documentation into a repeatable process that supports both regulatory compliance and better participant outcomes."
+        },
+        {
+          "type": "button",
+          "label": "Schedule Your Consultation",
+          "action": "schedule"
+        }
+      ]
+    },
+    {
+      "id": "who-benefits-from-3-21-fiduciary-services",
+      "title": "Who Benefits from 3(21) Fiduciary Services?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A 3(21) fiduciary relationship is often the right fit when your organization wants expert guidance while maintaining oversight of the retirement plan."
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Your Committee Wants Independent Investment Expertise",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Committee members understand their fiduciary responsibilities but want professional investment recommendations before making decisions."
+                }
+              ]
+            },
+            {
+              "title": "Your Organization Wants to Retain Investment Authority",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Some employers prefer maintaining control over investment decisions while receiving objective guidance from an experienced ERISA fiduciary."
+                }
+              ]
+            },
+            {
+              "title": "Investment Reviews Have Become More Complex",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Monitoring fund performance, documenting decisions, and evaluating replacements requires significant time and expertise. A 3(21) fiduciary provides the analytical support needed for confident decision-making."
+                }
+              ]
+            },
+            {
+              "title": "You Need Better Fiduciary Documentation",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Well-documented committee decisions strengthen your fiduciary process and help demonstrate compliance with ERISA's prudent process requirements."
+                }
+              ]
+            },
+            {
+              "title": "Your Plan Hasn't Been Reviewed Recently",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "If investment performance, fees, or plan design haven't been reviewed against current market standards, a 3(21) engagement provides a structured process for evaluation and improvement."
+                },
+                {
+                  "type": "p",
+                  "text": "When a 3(21) fiduciary may not be the best fit: Organizations that want to transfer day-to-day investment responsibility entirely may benefit more from a 3(38) fiduciary arrangement, where the investment manager assumes discretionary authority."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3-21-vs-3-38-fiduciary-services",
+      "title": "3(21) vs. 3(38) Fiduciary Services",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Both fiduciary structures improve retirement plan oversight, but they assign decision-making responsibilities differently."
+        },
+        {
+          "type": "p",
+          "text": "Many organizations begin with a 3(21) relationship before transitioning to a 3(38) structure as committee responsibilities grow or internal resources change."
+        }
+      ]
+    },
+    {
+      "id": "what-to-expect",
+      "title": "What To Expect",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Analyze",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We review your current investment lineup, governance process, committee responsibilities, and Investment Policy Statement."
+                }
+              ]
+            },
+            {
+              "title": "Recommend",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "You'll receive documented investment recommendations, benchmarking insights, and fiduciary guidance tailored to your retirement plan."
+                }
+              ]
+            },
+            {
+              "title": "Monitor",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We provide ongoing quarterly investment reviews, committee support, fiduciary documentation, and recommendations throughout the year."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "steps"
+    },
+    {
+      "id": "why-choose-pointoak-for-3-21-fiduciary-services",
+      "title": "Why Choose PointOak for 3(21) Fiduciary Services",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Effective co-fiduciary support requires more than selecting investments. It requires an ongoing partnership built around prudent governance, documented recommendations, and independent advice."
+        },
+        {
+          "type": "p",
+          "text": "PointOak has advised retirement plan sponsors since 2005 and serves as a named fiduciary for organizations nationwide. More than 90% of our business focuses on retirement plan consulting, giving our team deep experience in investment oversight, fiduciary governance, benchmarking, and participant outcomes."
+        },
+        {
+          "type": "p",
+          "text": "Unlike advisors affiliated with investment companies or recordkeepers, we remain completely independent. Our fee-only structure means every recommendation is based on what's best for your plan—not on product sales or platform incentives."
+        }
+      ]
+    },
+    {
+      "id": "about-pointoak-retirement-advisors",
+      "title": "About PointOak Retirement Advisors",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PointOak Retirement Advisors is an independent, fee-only wealth advisory firm founded in 2017 and headquartered in McLean, Virginia. We are an SEC-registered investment advisor serving retirement plan sponsors and high-net-worth individuals nationwide."
+        },
+        {
+          "type": "p",
+          "text": "Our team manages more than $1.08 billion in assets under management and brings over 50 years of collective experience. Founder Darsh Makim, CRPC, has advised retirement plan sponsors since 2005 and serves as a named 3(21) and 3(38) ERISA fiduciary."
+        }
+      ]
+    },
+    {
+      "id": "frequently-asked-questions",
+      "title": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "What is a 3(21) fiduciary?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "A 3(21) fiduciary is an ERISA investment co-fiduciary who provides investment recommendations while the plan sponsor retains final decision-making authority."
+                }
+              ]
+            },
+            {
+              "q": "What's the difference between a 3(21) and a 3(38) fiduciary?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "A 3(21) fiduciary recommends investments, but the committee makes the final decisions. A 3(38) fiduciary has discretionary authority to select, monitor, and replace investments on the plan's behalf."
+                }
+              ]
+            },
+            {
+              "q": "Does hiring a 3(21) fiduciary eliminate our fiduciary responsibility?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "No. A 3(21) relationship shares fiduciary responsibility. Your committee continues making investment decisions and retains responsibility for those decisions."
+                }
+              ]
+            },
+            {
+              "q": "How often should our investment committee meet?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Most retirement plan committees meet quarterly to review investments, fees, fiduciary documentation, and plan performance. Additional meetings may be appropriate during provider changes or major plan updates."
+                }
+              ]
+            },
+            {
+              "q": "What services are included in a 3(21) engagement?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Typical services include investment monitoring, fund recommendations, benchmarking, committee support, fiduciary documentation, governance guidance, and ongoing ERISA consulting."
+                }
+              ]
+            },
+            {
+              "q": "Is PointOak independent?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Yes. PointOak is a fee-only, SEC-registered investment advisor with no proprietary investment products, commissions, or recordkeeper affiliations."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "label": "View More FAQs",
+          "href": "/faq/",
+          "secondary": false
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "keep-control-without-managing-it-alone",
+      "title": "Keep Control Without Managing It Alone",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Work alongside an experienced co-fiduciary while your committee retains final authority over investment decisions."
+        },
+        {
+          "type": "button",
+          "label": "Schedule Your Complimentary Consultation",
+          "action": "schedule"
+        }
+      ],
+      "layout": "cta"
+    }
+  ]
+}

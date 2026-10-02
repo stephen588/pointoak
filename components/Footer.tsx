@@ -81,7 +81,7 @@ export default function Footer() {
             <div className="font-outfit text-white/85 text-xs md:text-sm leading-relaxed space-y-3 md:space-y-4">
               <p>
                 Investment advisory services offered through PointOak Retirement Advisors, LLC, an
-                SEC-registered investment advisor. This site is published for residents of the United
+                SEC-registered investment adviser. This site is published for residents of the United
                 States only. Not all of the products and services referenced on this site are
                 available in every state and through every representative or advisor listed.
               </p>

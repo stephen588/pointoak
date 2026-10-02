@@ -4,6 +4,11 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ConsultationForm from "@/components/ConsultationForm";
+import ScheduleButton from "@/components/page/ScheduleButton";
+import { getPage } from "@/lib/content";
+
+const contact = getPage("/contact/")!;
+const intro = contact.hero.blocks.find((b) => b.type === "p") as { text: string };
 
 export default function ContactPage() {
   return (
@@ -25,11 +30,14 @@ export default function ContactPage() {
           </div>
           <div className="max-w-4xl">
             <h1 className="font-outfit text-white text-3xl md:text-4xl lg:text-[48px] font-bold leading-[1.4] mb-6">
-              Get In Touch
+              {contact.hero.title}
             </h1>
             <p className="font-outfit text-white/90 text-base md:text-lg lg:text-xl leading-relaxed pb-8 md:pb-0">
-              We&apos;d love to hear from you. Whether you have a question about our services, want to schedule a consultation, or just want to learn more about how we can help — reach out and we&apos;ll get back to you promptly.
+              {intro.text}
             </p>
+            <div className="mt-8 pb-8 md:pb-0">
+              <ScheduleButton />
+            </div>
           </div>
         </div>
       </section>

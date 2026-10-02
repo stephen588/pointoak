@@ -2,7 +2,7 @@
 # Deploy current tree to the client staging URL: https://pointoak-staging.vercel.app
 set -e
 cd "$(dirname "$0")"
-export $(grep -h '^VERCEL_TOKEN=' /opt/report-dashboard/.env.keys)
+VERCEL_TOKEN=$(cat /root/.vercel-token)  # tkx-media team token; the report-dashboard one lost team access (10-02)
 TEAM=team_0pSKaj9PcanYDS9jdaP04tYG
 URL=$(vercel deploy --token "$VERCEL_TOKEN" --yes 2>&1 | grep -oE 'https://pointoak-[a-z0-9]+-tkx-media\.vercel\.app' | tail -1)
 [ -n "$URL" ] || { echo "deploy failed"; exit 1; }

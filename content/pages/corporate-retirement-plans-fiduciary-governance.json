@@ -1,0 +1,438 @@
+{
+  "route": "/corporate-retirement-plans/fiduciary-governance/",
+  "name": "Fiduciary Governance & Committee Support",
+  "parent": "Retirement Plan Consulting",
+  "meta": {
+    "title": "Retirement Plan Fiduciary Consulting | PointOak",
+    "description": "Fiduciary governance and committee support for employer retirement plans, including 3(21), 3(38), governance, and documentation services.",
+    "schema": "Service + FAQPage + BreadcrumbList"
+  },
+  "hero": {
+    "title": "ERISA Fiduciary Governance & Committee Support for Retirement Plan Sponsors",
+    "subtitle": "Independent guidance that strengthens your fiduciary process and helps protect your organization.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Serving as a retirement plan fiduciary means more than selecting investments. ERISA requires plan sponsors to monitor investments, evaluate service providers, document decisions, and always act in the best interests of plan participants."
+      },
+      {
+        "type": "p",
+        "text": "PointOak Retirement Advisors provides independent ERISA fiduciary support that helps retirement plan committees build a documented, repeatable fiduciary process. As a fee-only, SEC-registered investment advisor, we serve as either a 3(21) co-fiduciary or 3(38) investment manager, while also supporting governance, compliance, investment oversight, and committee documentation."
+      },
+      {
+        "type": "chips",
+        "items": [
+          "Named 3(21) and 3(38) ERISA fiduciary",
+          "Fee-only, SEC-registered investment advisor",
+          "Retirement plan specialists since 2005",
+          "Quarterly investment monitoring and governance support"
+        ]
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "benefits-of-erisa-fiduciary-governance-committee-support",
+      "title": "Benefits of ERISA Fiduciary Governance & Committee Support",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Reduced Fiduciary Risk",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "A documented fiduciary process helps demonstrate prudent decision-making while reducing regulatory and litigation exposure."
+                }
+              ]
+            },
+            {
+              "title": "Independent Advice",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Our recommendations are never influenced by commissions, proprietary investment products, or recordkeeper relationships."
+                }
+              ]
+            },
+            {
+              "title": "Ongoing Governance",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Retirement plans require continuous monitoring—not annual checklists. We provide year-round guidance for committees and plan sponsors."
+                }
+              ]
+            },
+            {
+              "title": "Better Participant Outcomes",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Investment oversight, benchmarking, and governance all contribute to stronger retirement outcomes for plan participants."
+                }
+              ]
+            },
+            {
+              "title": "Committee Confidence",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Your committee receives objective recommendations, documentation, and ongoing support that make complex fiduciary decisions easier."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-erisa-fiduciary-governance-committee-support-works",
+      "title": "How ERISA Fiduciary Governance & Committee Support Works",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Every retirement plan has different governance needs. Some committees want to retain investment authority while receiving expert guidance. Others prefer to delegate investment decisions to a discretionary fiduciary."
+        },
+        {
+          "type": "p",
+          "text": "PointOak helps plan sponsors determine the appropriate fiduciary structure while integrating investment monitoring, provider benchmarking, committee governance, and ERISA compliance into one documented process."
+        },
+        {
+          "type": "p",
+          "text": "Our approach combines quarterly investment reviews, fiduciary documentation, committee support, and ongoing monitoring so your retirement plan remains aligned with both participant interests and regulatory expectations."
+        },
+        {
+          "type": "button",
+          "label": "Schedule Your Consultation",
+          "action": "schedule"
+        }
+      ]
+    },
+    {
+      "id": "our-fiduciary-governance-committee-support-services",
+      "title": "Our Fiduciary Governance & Committee Support Services",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PointOak offers several levels of fiduciary support depending on your organization's responsibilities and governance goals."
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "3(21) Fiduciary Services",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Maintain control over investment decisions while working alongside an experienced ERISA co-fiduciary. We provide investment recommendations, fiduciary guidance, committee support, and ongoing monitoring while your committee retains final decision-making authority."
+                },
+                {
+                  "type": "p",
+                  "text": "Shared Fiduciary Responsibility • Investment Recommendations • Quarterly Reviews"
+                }
+              ],
+              "link": {
+                "label": "Learn More",
+                "href": "/corporate-retirement-plans/fiduciary-governance/3-21-fiduciary/"
+              }
+            },
+            {
+              "title": "3(38) Fiduciary Services",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Transfer day-to-day investment responsibility to PointOak. As your 3(38) investment manager, we assume discretionary authority for selecting, monitoring, and replacing plan investments while providing documented oversight throughout the year."
+                },
+                {
+                  "type": "p",
+                  "text": "Discretionary Investment Management • Investment Selection • Continuous Monitoring"
+                }
+              ],
+              "link": {
+                "label": "Learn More",
+                "href": "/corporate-retirement-plans/fiduciary-governance/3-38-investment-manager/"
+              }
+            },
+            {
+              "title": "Plan Governance & Committee Support",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Strong governance requires more than good investments. We help committees establish fiduciary processes, maintain documentation, support committee meetings, and create governance procedures designed to satisfy ERISA requirements."
+                },
+                {
+                  "type": "p",
+                  "text": "Committee Governance • ERISA Compliance • Fiduciary Documentation"
+                }
+              ],
+              "link": {
+                "label": "Learn More",
+                "href": "/corporate-retirement-plans/fiduciary-governance/plan-governance/"
+              }
+            },
+            {
+              "title": "Virtual Fiduciary File",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Keep every benchmark, committee meeting, investment review, provider evaluation, governance record, and fiduciary document organized in one secure location. Your Virtual Fiduciary File creates an audit-ready record of your committee's ongoing fiduciary process while making it easy to retrieve documentation whenever it's needed."
+                },
+                {
+                  "type": "p",
+                  "text": "Audit-Ready Documentation • Committee Records • Centralized Fiduciary File"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "who-benefits-from-erisa-fiduciary-governance-committee-support",
+      "title": "Who Benefits from ERISA Fiduciary Governance & Committee Support?",
+      "blocks": [
+        {
+          "type": "list",
+          "lead": "Professional fiduciary support is especially valuable when:",
+          "items": [
+            "Your organization needs a clearly defined fiduciary structure.",
+            "Your investment committee wants expert guidance.",
+            "Your plan has not been benchmarked recently.",
+            "You're preparing for a Department of Labor audit or regulatory review.",
+            "Internal HR or finance teams lack specialized ERISA expertise.",
+            "Your committee wants ongoing governance and documentation support."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Organizations with simple retirement plans may not require outsourced fiduciary services, but growing companies and larger plans often benefit from independent fiduciary guidance."
+        }
+      ]
+    },
+    {
+      "id": "what-to-expect",
+      "title": "What To Expect",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Analyze",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We review your current fiduciary structure, governance process, investment oversight, committee responsibilities, and documentation."
+                }
+              ]
+            },
+            {
+              "title": "Optimize",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We recommend the appropriate fiduciary model while strengthening governance, investment oversight, compliance, and committee processes."
+                }
+              ]
+            },
+            {
+              "title": "Implement",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We provide ongoing fiduciary services, investment monitoring, committee support, benchmarking, and documentation throughout the year."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "steps"
+    },
+    {
+      "id": "why-choose-pointoak-for-erisa-fiduciary-governance-committee-support",
+      "title": "Why Choose PointOak for ERISA Fiduciary Governance & Committee Support",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Most financial advisors provide retirement plans as one of many services. At PointOak, retirement plan consulting is our primary focus."
+        },
+        {
+          "type": "p",
+          "text": "More than 90% of our work involves helping retirement plan sponsors strengthen fiduciary governance, improve investment oversight, benchmark providers, and document prudent decision-making."
+        },
+        {
+          "type": "p",
+          "text": "Our fee-only model means every recommendation is made solely in the best interests of your organization and your participants."
+        },
+        {
+          "type": "p",
+          "text": "3(21) Investment Fiduciary & 3(38) Investment Manager Services"
+        },
+        {
+          "type": "chips",
+          "items": [
+            "Fee-Only Independent Advisor",
+            "SEC-Registered Investment Adviser",
+            "Retirement Plan Specialists Since 2005",
+            "Quarterly Investment Reviews",
+            "Virtual Fiduciary Documentation",
+            "Ongoing Governance Support"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "about-pointoak-retirement-advisors",
+      "title": "About PointOak Retirement Advisors",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PointOak Retirement Advisors is an independent, fee-only wealth advisory firm founded in 2017 and headquartered in McLean, Virginia. As an SEC-registered investment advisor, we serve retirement plan sponsors and high-net-worth individuals nationwide."
+        },
+        {
+          "type": "p",
+          "text": "Our team manages more than $1.08 billion in assets under management and brings over 50 years of collective experience. Founder Darsh Makim, CRPC, has advised retirement plan sponsors since 2005. PointOak serves as a named 3(21) and 3(38) ERISA fiduciary, helping organizations strengthen governance, investment oversight, and participant outcomes."
+        }
+      ]
+    },
+    {
+      "id": "frequently-asked-questions",
+      "title": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "What is fiduciary support for a retirement plan?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Fiduciary support helps retirement plan sponsors fulfill their responsibilities under ERISA by providing guidance on investment oversight, governance, compliance, documentation, and ongoing monitoring."
+                },
+                {
+                  "type": "p",
+                  "text": "Depending on your needs, fiduciary support may include acting as a 3(21) co-fiduciary, serving as a 3(38) investment manager, assisting with committee governance, conducting fee benchmarking, maintaining fiduciary documentation, and helping monitor investments throughout the year."
+                }
+              ]
+            },
+            {
+              "q": "What is the difference between a 3(21) and a 3(38) fiduciary?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "A 3(21) fiduciary provides investment advice while the plan sponsor retains final decision-making authority. A 3(38) fiduciary assumes discretionary authority to select, monitor, and replace plan investments."
+                },
+                {
+                  "type": "p",
+                  "text": "Both models help strengthen fiduciary oversight, but they offer different levels of responsibility and delegation. PointOak serves as both a 3(21) investment fiduciary and 3(38) investment manager depending on your organization's governance preferences."
+                }
+              ]
+            },
+            {
+              "q": "What services are typically included in fiduciary support?",
+              "a": [
+                {
+                  "type": "list",
+                  "lead": "A comprehensive fiduciary support program may include:",
+                  "items": [
+                    "Investment monitoring",
+                    "ERISA compliance guidance",
+                    "Committee governance",
+                    "Fee and provider benchmarking",
+                    "Fiduciary documentation",
+                    "Investment Policy Statement support",
+                    "Quarterly reporting",
+                    "Virtual fiduciary file management",
+                    "The exact services depend on your plan's size, governance structure, and fiduciary model."
+                  ]
+                }
+              ]
+            },
+            {
+              "q": "What is a Virtual Fiduciary File?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "A Virtual Fiduciary File is a centralized repository that stores committee minutes, investment reports, benchmarking studies, governance documents, fiduciary decisions, and supporting documentation."
+                },
+                {
+                  "type": "p",
+                  "text": "Maintaining organized records helps demonstrate a prudent fiduciary process and provides an audit-ready history of your retirement plan's oversight."
+                }
+              ]
+            },
+            {
+              "q": "Why is documentation so important under ERISA?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "ERISA evaluates the fiduciary process as much as the investment results."
+                },
+                {
+                  "type": "p",
+                  "text": "Documenting committee discussions, investment decisions, provider evaluations, benchmarking studies, and ongoing monitoring demonstrates that fiduciaries followed a prudent, repeatable process designed to serve participants' best interests."
+                }
+              ]
+            },
+            {
+              "q": "How do I know whether my plan needs professional fiduciary support?",
+              "a": [
+                {
+                  "type": "list",
+                  "lead": "Many organizations benefit from fiduciary support if they:",
+                  "items": [
+                    "Have an investment committee",
+                    "Lack formal governance procedures",
+                    "Haven't benchmarked providers recently",
+                    "Need help documenting fiduciary decisions",
+                    "Want independent investment oversight",
+                    "Are preparing for a DOL audit or regulatory review",
+                    "An initial consultation can help determine the level of support that makes sense for your organization."
+                  ]
+                }
+              ]
+            },
+            {
+              "q": "How much does fiduciary support cost?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Fees depend on the size and complexity of your retirement plan, the fiduciary services selected, and the level of ongoing support required."
+                },
+                {
+                  "type": "p",
+                  "text": "PointOak operates on a transparent fee-only model with no commissions or hidden compensation. Your initial consultation is complimentary, allowing us to understand your plan and recommend the most appropriate fiduciary solution."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "label": "View More FAQs",
+          "href": "/faq/",
+          "secondary": false
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "build-a-stronger-fiduciary-process",
+      "title": "Build a Stronger Fiduciary Process",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Get the independent guidance, documentation, and ongoing oversight your committee needs to manage its responsibilities with confidence."
+        },
+        {
+          "type": "button",
+          "label": "Schedule Your Complimentary Consultation",
+          "action": "schedule"
+        }
+      ],
+      "layout": "cta"
+    }
+  ]
+}

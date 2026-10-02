@@ -1,0 +1,252 @@
+import Link from "next/link";
+import { ArrowRight, Check, ChevronDown } from "lucide-react";
+import type { Block, Card } from "@/lib/content";
+import { routeExists } from "@/lib/content";
+import ScheduleButton from "./ScheduleButton";
+
+type Tone = "light" | "dark";
+
+function TextLink({ href, label, tone }: { href: string; label: string; tone: Tone }) {
+  const color = tone === "dark" ? "text-white hover:text-white/80" : "text-medium-blue hover:text-navy";
+  return (
+    <Link href={href} className={`inline-flex items-center gap-2 font-medium ${color} transition-colors`}>
+      {label}
+      <ArrowRight className="w-4 h-4" strokeWidth={1.75} />
+    </Link>
+  );
+}
+
+function CardGrid({ items, tone, numbered }: { items: Card[]; tone: Tone; numbered?: boolean }) {
+  // An h3 with nothing under it in the copy is a sub-heading, not a card
+  if (items.every((c) => !c.body.length && !c.link)) {
+    return (
+      <>
+        {items.map((c, i) => (
+          <p key={i} className={`text-xl md:text-2xl font-medium max-w-3xl ${tone === "dark" ? "text-white" : "text-navy"}`}>
+            {c.title}
+          </p>
+        ))}
+      </>
+    );
+  }
+  const cols =
+    items.length === 1
+      ? "grid-cols-1"
+      : items.length === 2 || items.length === 4
+        ? numbered && items.length === 4
+          ? "grid-cols-1 md:grid-cols-2 lg:grid-cols-4"
+          : "grid-cols-1 md:grid-cols-2"
+        : "grid-cols-1 md:grid-cols-2 lg:grid-cols-3";
+  return (
+    <div className={`grid ${cols} gap-5`}>
+      {items.map((card, i) => {
+        const stepMatch = card.title.match(/^Step\s*(\d+):\s*(.+)$/i);
+        const title = stepMatch ? stepMatch[2] : card.title;
+        return (
+          <div
+            key={i}
+            className={`rounded-[7px] p-7 md:p-8 flex flex-col gap-3 ${
+              tone === "dark" ? "bg-white/[0.07] border border-white/10" : "bg-white border border-[#E5EAF0]"
+            }`}
+          >
+            {numbered && (
+              <div className="w-11 h-11 rounded-full bg-navy text-white flex items-center justify-center font-semibold text-lg mb-1">
+                {stepMatch ? stepMatch[1] : i + 1}
+              </div>
+            )}
+            <h3 className={`font-semibold text-xl leading-snug ${tone === "dark" ? "text-white" : "text-navy"}`}>{title}</h3>
+            <div className="flex flex-col gap-3">
+              <Blocks blocks={card.body} tone={tone} compact />
+            </div>
+            {card.link && routeExists(card.link.href) && (
+              <div className="mt-auto pt-2">
+                <TextLink href={card.link.href} label={card.link.label} tone={tone} />
+              </div>
+            )}
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
+function Badges({ items, tone }: { items: string[]; tone: Tone }) {
+  return (
+    <ul className="flex flex-wrap gap-4">
+      {items.map((item, k) => (
+        <li
+          key={k}
+          className={`flex items-center gap-3 rounded-[7px] px-5 py-4 text-sm font-semibold tracking-wide ${
+            tone === "dark" ? "bg-white/10 text-white" : "bg-white border border-[#D6E4F5] text-navy"
+          }`}
+        >
+          <Check className="w-5 h-5 text-medium-blue flex-shrink-0" strokeWidth={2.25} />
+          {item}
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+function Faq({ items }: { items: { q: string; a: Block[] }[] }) {
+  return (
+    <div className="divide-y divide-[#DCE3EA] border-y border-[#DCE3EA] max-w-4xl">
+      {items.map((item, i) => (
+        <details key={i} className="group py-5">
+          <summary className="flex cursor-pointer list-none items-start justify-between gap-6 text-navy text-lg font-medium [&::-webkit-details-marker]:hidden">
+            {item.q}
+            <ChevronDown className="w-5 h-5 mt-1 flex-shrink-0 transition-transform group-open:rotate-180" />
+          </summary>
+          <div className="pt-3 flex flex-col gap-3">
+            <Blocks blocks={item.a} tone="light" compact />
+          </div>
+        </details>
+      ))}
+    </div>
+  );
+}
+
+export default function Blocks({
+  blocks,
+  tone = "light",
+  compact = false,
+  steps = false,
+}: {
+  blocks: Block[];
+  tone?: Tone;
+  compact?: boolean;
+  steps?: boolean;
+}) {
+  const text = tone === "dark" ? "text-white/85" : "text-text-gray";
+  const strong = tone === "dark" ? "text-white" : "text-navy";
+  const pSize = compact ? "text-base leading-[26px]" : "text-base md:text-lg leading-[28px] md:leading-[30px]";
+
+  return (
+    <>
+      {blocks.map((b, i) => {
+        switch (b.type) {
+          case "p":
+            return (
+              <p key={i} className={`${text} ${pSize} max-w-3xl`}>
+                {b.text}
+              </p>
+            );
+          case "list":
+            if (!b.lead && b.items.every((it) => it === it.toUpperCase())) {
+              return <Badges key={i} items={b.items} tone={tone} />;
+            }
+            return (
+              <div key={i} className="max-w-4xl">
+                {b.lead && <p className={`${strong} font-medium ${compact ? "text-base" : "text-lg"} mb-3`}>{b.lead}</p>}
+                <ul className={`grid gap-x-10 gap-y-3 ${!compact && b.items.length > 4 ? "md:grid-cols-2" : ""}`}>
+                  {b.items.map((item, k) => (
+                    <li key={k} className={`flex gap-3 ${text} text-base leading-[26px]`}>
+                      <Check className={`w-5 h-5 mt-[3px] flex-shrink-0 ${tone === "dark" ? "text-light-blue" : "text-medium-blue"}`} strokeWidth={2} />
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            );
+          case "chips": {
+            const label = /at a glance$/i.test(b.items[0]) ? b.items[0] : null;
+            const chips = label ? b.items.slice(1) : b.items;
+            return (
+              <div key={i} className="flex flex-col gap-3">
+                {label && <p className={`${strong} text-sm font-semibold uppercase tracking-wider`}>{label}</p>}
+              <ul className="flex flex-wrap gap-3">
+                {chips.map((item, k) => (
+                  <li
+                    key={k}
+                    className={`px-4 py-2 rounded-full text-sm font-medium ${
+                      tone === "dark" ? "bg-white/10 text-white border border-white/20" : "bg-cloud-blue text-navy border border-[#D6E4F5]"
+                    }`}
+                  >
+                    {item}
+                  </li>
+                ))}
+              </ul>
+              </div>
+            );
+          }
+          case "pillars":
+          case "cards":
+            return <CardGrid key={i} items={b.items} tone={tone} numbered={steps} />;
+          case "faq":
+            return <Faq key={i} items={b.items} />;
+          case "links":
+            return (
+              <ul key={i} className="flex flex-wrap gap-3">
+                {b.items.map((l, k) =>
+                  l.href && routeExists(l.href) ? (
+                    <li key={k}>
+                      <Link
+                        href={l.href}
+                        className="inline-flex items-center gap-2 px-5 py-3 rounded-[7px] border border-navy/20 text-navy font-medium hover:border-navy hover:bg-navy hover:text-white transition-colors"
+                      >
+                        {l.label}
+                        <ArrowRight className="w-4 h-4" strokeWidth={1.75} />
+                      </Link>
+                    </li>
+                  ) : null,
+                )}
+              </ul>
+            );
+          case "button":
+            if (b.action === "schedule") {
+              return (
+                <div key={i}>
+                  <ScheduleButton label={b.label} tone={tone === "dark" ? "light" : "dark"} />
+                </div>
+              );
+            }
+            if (!b.href || !routeExists(b.href)) return null;
+            return (
+              <div key={i}>
+                <TextLink href={b.href} label={b.label} tone={tone} />
+              </div>
+            );
+          case "table":
+            return (
+              <div key={i} className="overflow-x-auto -mx-6 px-6 xl:mx-0 xl:px-0">
+                <table className="w-full min-w-[720px] border-collapse text-left text-[15px] leading-[24px] bg-white rounded-[7px] overflow-hidden">
+                  <thead>
+                    <tr>
+                      {b.rows[0].map((h, k) => (
+                        <th key={k} className={`p-4 font-semibold align-bottom ${k === 1 ? "bg-navy text-white" : "bg-[#E9F0F8] text-navy"}`}>
+                          {h}
+                        </th>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {b.rows.slice(1).map((row, r) => (
+                      <tr key={r} className="border-t border-[#E5EAF0]">
+                        {row.map((cell, k) => (
+                          <td key={k} className={`p-4 align-top ${k === 0 ? "font-medium text-navy" : k === 1 ? "text-navy bg-cloud-blue/60" : "text-text-gray"}`}>
+                            {cell}
+                          </td>
+                        ))}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            );
+          case "band":
+            return (
+              <div
+                key={i}
+                className="rounded-[7px] px-6 py-6 md:px-10 text-white text-center text-base md:text-xl font-medium tracking-wide"
+                style={{ background: "linear-gradient(90deg, #003754 0%, #0078B8 100%)" }}
+              >
+                {b.text}
+              </div>
+            );
+          default:
+            return null;
+        }
+      })}
+    </>
+  );
+}

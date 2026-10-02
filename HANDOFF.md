@@ -20,3 +20,12 @@ Token: sourced from `/opt/report-dashboard/.env.keys` (VERCEL_TOKEN). Git push a
 
 ## Kickoff prompt
 > PointOak site: /opt/pointoak branch `preview` = live prod baseline. Client changes → edit, run ./stage.sh, share https://pointoak-staging.vercel.app. Prod push = ./golive.sh, Adam-gated. Read HANDOFF.md first — main is NOT the live source.
+
+## 2026-10-02 — Darsh's master copy build (Hannah)
+- Copy source: Darsh's `PointOak_Website_Master_Copy_Final_and_Editorial.docx` + `PointOak_Final_SEO_Sitemap_Implementation_Map.xlsx` (Drive folder 1Rw9HjyAai7SvekDi6N_scNcApSHfIf50). 23 of his 44 sitemap pages have copy; the rest are not built.
+- Pages are data: `content/pages/*.json`, rendered by `app/[...slug]` (generic template) and `app/page.tsx` (home). Contact keeps its own page + form.
+- Regenerate after a new copy doc: `python3 scripts/import-copy.py <docx> <xlsx> && python3 scripts/build-hubs.py <xlsx>` (WARN lines = things to check). Hub pages (`hub-*.json`) are assembled from Darsh's existing sentences until he sends hub copy.
+- Nav lives in `components/Header.tsx`; pages without copy are left out of it.
+- `trailingSlash: true`; *.vercel.app hosts send `X-Robots-Tag: noindex`.
+- Deploy token: `/root/.vercel-token` (the report-dashboard token lost team access 10-02).
+- Schedule CTAs open the existing consultation modal until PointOak sends their scheduling calendar link.

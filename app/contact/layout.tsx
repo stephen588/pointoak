@@ -1,24 +1,19 @@
 import { Metadata } from "next";
+import { SITE_URL, getPage } from "@/lib/content";
+
+const contact = getPage("/contact/")!;
 
 export const metadata: Metadata = {
-  title: "Contact Us — Schedule a Consultation",
-  description:
-    "Get in touch with PointOak Retirement Advisors. Schedule a complimentary consultation to discuss your retirement planning, investment management, and wealth strategy needs. Serving DC, Maryland, Virginia, and nationwide.",
-  alternates: {
-    canonical: "https://www.pointoak.com/contact",
-  },
+  title: { absolute: contact.meta.title ?? "Contact PointOak" },
+  description: contact.meta.description ?? undefined,
+  alternates: { canonical: `${SITE_URL}/contact/` },
   openGraph: {
-    title: "Contact PointOak Retirement Advisors",
-    description:
-      "Schedule a complimentary consultation with our independent, fee-only fiduciary advisors. Serving the DC metro area and clients nationwide.",
-    url: "https://www.pointoak.com/contact",
+    title: contact.meta.title ?? "Contact PointOak",
+    description: contact.meta.description ?? undefined,
+    url: `${SITE_URL}/contact/`,
   },
 };
 
-export default function ContactLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function ContactLayout({ children }: { children: React.ReactNode }) {
   return <>{children}</>;
 }

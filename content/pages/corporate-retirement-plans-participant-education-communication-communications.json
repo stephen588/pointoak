@@ -1,0 +1,416 @@
+{
+  "route": "/corporate-retirement-plans/participant-education-communication/communications/",
+  "name": "Retirement Plan Communications",
+  "parent": "Participant Education & Communication",
+  "meta": {
+    "title": "Retirement Plan Communications | PointOak",
+    "description": "Customized retirement plan communications that explain plan features, enrollment, legislative changes, and retirement topics in clear language.",
+    "schema": "Service + FAQPage + BreadcrumbList"
+  },
+  "hero": {
+    "title": "401(k) Employee Communications",
+    "subtitle": "Clear, strategic communications that help employees understand their benefits and take action.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Required notices are important, but they are not a complete communication strategy. PointOak helps plan sponsors turn complex retirement plan information into clear, timely communications that improve understanding, encourage participation, and support better retirement decisions."
+      },
+      {
+        "type": "chips",
+        "items": [
+          "Named 3(21) and 3(38) ERISA fiduciary",
+          "Independent from recordkeepers and plan providers",
+          "Retirement plan experience since 2005"
+        ]
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "the-benefits-of-strategic-retirement-plan-communications",
+      "title": "The Benefits of Strategic Retirement Plan Communications",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Higher Participant Engagement",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Employees are more likely to engage with their retirement plan when messages are clear, relevant, and tied to a specific action. We help turn passive enrollment into active participation with communications designed around your plan and workforce."
+                }
+              ]
+            },
+            {
+              "title": "Stronger Savings Behavior",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "A company match, auto-escalation feature, or Roth option only creates value when employees understand how to use it. Targeted communications help participants revisit contribution rates, understand available benefits, and make more informed savings decisions."
+                }
+              ]
+            },
+            {
+              "title": "Clearer Plan Changes",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "New providers, contribution limits, automatic enrollment, SECURE 2.0 provisions, and other plan changes can quickly become confusing. We translate technical updates into practical information employees can understand and act on."
+                }
+              ]
+            },
+            {
+              "title": "Better Support for Your Fiduciary Process",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Participant notices and communications are an important part of retirement plan governance. We help maintain a documented communication process that supports your broader fiduciary responsibilities and keeps important records organized."
+                }
+              ]
+            },
+            {
+              "title": "More Meaningful Measurement",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Sending an email is not the same as creating engagement. Where possible, we evaluate how participants respond through account activity, contribution reviews, election changes, and other indicators that show whether communications are prompting action."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "what-retirement-plan-communications-can-include",
+      "title": "What Retirement Plan Communications Can Include",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Enrollment & Onboarding Communications",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Help new and eligible employees understand their plan, employer match, contribution options, and what they need to do to get started."
+                },
+                {
+                  "type": "p",
+                  "text": "Enrollment Campaigns | New Hire Communications | Employer Match Education"
+                }
+              ]
+            },
+            {
+              "title": "Plan Change Communications",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Make provider transitions, new plan features, legislative updates, and other changes easier for participants to understand."
+                },
+                {
+                  "type": "p",
+                  "text": "Plan Updates | SECURE 2.0 Communications | Provider Transitions"
+                }
+              ]
+            },
+            {
+              "title": "Ongoing Participant Engagement",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Keep retirement planning visible throughout the year with targeted communications tied to employee milestones and plan opportunities."
+                },
+                {
+                  "type": "p",
+                  "text": "Contribution Reminders | Roth & Catch-Up Education | Retirement Readiness"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "who-benefits-most-from-a-retirement-plan-communication-strategy",
+      "title": "Who Benefits Most from a Retirement Plan Communication Strategy?",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Participation Has Stalled",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "If eligible employees aren't joining the plan or participants remain at default contribution levels, clearer communication may help them understand the value of taking the next step."
+                }
+              ]
+            },
+            {
+              "title": "Your Workforce Doesn't Sit at a Desk",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Email-only communication can miss frontline, field, healthcare, manufacturing, and shift-based employees. A stronger strategy considers how and when your workforce actually consumes information."
+                }
+              ]
+            },
+            {
+              "title": "Your Plan Is Changing",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "A new recordkeeper, match formula, auto-enrollment feature, or other change creates an important communication window. Employees need to understand not only what changed, but what it means for them."
+                }
+              ]
+            },
+            {
+              "title": "Employees Rarely Revisit Their Elections",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Participants often enroll once and then stop paying attention. Ongoing communications can prompt employees to review contribution levels, investment elections, and retirement goals as their circumstances change."
+                }
+              ]
+            },
+            {
+              "title": "Your Committee Needs Better Documentation",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "A defined communication process creates a clearer record of how participants were informed about plan features, changes, and required notices."
+                }
+              ]
+            },
+            {
+              "title": "When a Broader Communication Strategy May Not Be Necessary",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "If your plan already has strong participation, high contribution rates, engaged employees, and an effective year-round communication program, your resources may be better directed toward another area of plan optimization."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "strategic-communications-vs-required-notices",
+      "title": "Strategic Communications vs. Required Notices",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Required notices serve an important legal purpose. Strategic retirement plan communications build on that foundation by helping employees understand what the information actually means and what action they may want to take."
+        },
+        {
+          "type": "p",
+          "text": "The two work best together: required notices provide the formal disclosure, while strategic communications help employees understand and use the plan."
+        }
+      ]
+    },
+    {
+      "id": "our-retirement-plan-communication-process",
+      "title": "Our Retirement Plan Communication Process",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Assess",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We review your current communications, workforce needs, plan features, and participant engagement to identify where information may be getting lost."
+                }
+              ]
+            },
+            {
+              "title": "Plan",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We build a communication strategy around the moments that matter most, including enrollment, plan changes, contribution opportunities, and retirement milestones."
+                }
+              ]
+            },
+            {
+              "title": "Communicate",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Messages are written in plain language and delivered through appropriate channels for your workforce."
+                }
+              ]
+            },
+            {
+              "title": "Measure & Refine",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We review engagement and participant behavior where data is available, then adjust the strategy based on what is working."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "steps"
+    },
+    {
+      "id": "why-choose-pointoak",
+      "title": "Why Choose PointOak",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Retirement Plan Communications Built Around Your Plan",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "PointOak doesn't approach participant communications as a standalone marketing service. We understand the retirement plan behind the message."
+                },
+                {
+                  "type": "p",
+                  "text": "Our team has worked with plan sponsors since 2005, giving us direct experience with plan design, investment oversight, fiduciary responsibilities, and participant behavior. That allows us to connect each communication to the actual features and goals of your plan."
+                },
+                {
+                  "type": "p",
+                  "text": "And because we're independent and fee-only, our communications aren't designed to promote a recordkeeper, investment product, or proprietary solution. The goal is simple: help your employees understand their benefits and make informed decisions."
+                },
+                {
+                  "type": "p",
+                  "text": "3(21) Investment Fiduciary & 3(38) Investment Manager Services"
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Fee-Only, Independent Advice",
+                    "Retirement Plan Experience Since 2005",
+                    "Customized Participant Communications",
+                    "Nationwide Plan Sponsor Support"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frequently-asked-questions",
+      "title": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "What is the difference between required 401(k) notices and employee communications?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Required notices satisfy specific legal and regulatory disclosure requirements. Employee communications go further by explaining plan features in clear language and helping participants understand what actions they may want to take."
+                },
+                {
+                  "type": "p",
+                  "text": "Both are important, but they serve different purposes."
+                }
+              ]
+            },
+            {
+              "q": "What should a 401(k) communication plan include?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "A strong communication plan typically includes onboarding and enrollment, employer match education, contribution reminders, plan changes, Roth and catch-up information, and pre-retirement content."
+                },
+                {
+                  "type": "p",
+                  "text": "The exact mix should reflect your plan and your workforce."
+                }
+              ]
+            },
+            {
+              "q": "How often should we communicate with participants?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Year-round communication is generally more effective than relying exclusively on open enrollment."
+                },
+                {
+                  "type": "p",
+                  "text": "The right cadence depends on your plan, but important touchpoints often include new-hire enrollment, contribution-limit updates, plan changes, employee milestones, and pre-retirement planning."
+                }
+              ]
+            },
+            {
+              "q": "Why do employees ignore retirement plan emails?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Messages are easy to ignore when they're generic, overly technical, poorly timed, or don't contain a clear next step."
+                },
+                {
+                  "type": "p",
+                  "text": "We focus on plain language, relevance, timing, and communication channels that fit the way your employees actually work."
+                }
+              ]
+            },
+            {
+              "q": "Do we still need communications if we use automatic enrollment?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Yes. Automatic enrollment can help employees enter the plan, but it doesn't guarantee they understand their contribution level, employer match, investment choices, or other plan features."
+                },
+                {
+                  "type": "p",
+                  "text": "Communication helps employees move beyond the default and make more informed decisions."
+                }
+              ]
+            },
+            {
+              "q": "Can PointOak work with our existing recordkeeper communications?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Yes. In many cases, recordkeeper materials remain part of the overall strategy."
+                },
+                {
+                  "type": "p",
+                  "text": "We can help identify where those communications are sufficient and where additional plan-specific education or messaging would improve participant understanding."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "label": "View More FAQs",
+          "href": "/faq/",
+          "secondary": false
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "turn-retirement-plan-information-into-action",
+      "title": "Turn Retirement Plan Information Into Action",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Clearer, more relevant communications can help employees understand their benefits, engage with the plan, and make more informed decisions."
+        },
+        {
+          "type": "button",
+          "label": "Schedule Your Complimentary Consultation",
+          "action": "schedule"
+        }
+      ],
+      "layout": "cta"
+    }
+  ]
+}
