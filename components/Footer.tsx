@@ -7,7 +7,7 @@ export default function Footer() {
         {/* Get In Touch */}
         <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-10 md:gap-16 mb-10 md:mb-12">
           {/* Left — Logo + tagline */}
-          <div className="flex flex-col gap-4 max-w-sm">
+          <div className="flex flex-col gap-4 max-w-md">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/images/pointoak-logo.png"
@@ -15,7 +15,11 @@ export default function Footer() {
               className="h-[48px] w-auto self-start"
             />
             <p className="font-outfit text-white/60 text-sm leading-relaxed">
-              Independent, fee-only fiduciary wealth management for high-net-worth individuals and families.
+              {/* Darsh's locked short description (developer handoff 2026-10-04) */}
+              PointOak Retirement Advisors is an independent, fee-only fiduciary advisory firm providing private
+              wealth management and retirement plan consulting to clients throughout the DC Metro area and
+              nationwide. We offer personalized financial planning and investment management for individuals and
+              families as well as comprehensive retirement plan consulting for businesses.
             </p>
           </div>
 

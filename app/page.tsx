@@ -156,7 +156,7 @@ export default function Home() {
 
       {/* Credentials strip (Figma stats bar), with Darsh's four pillars */}
       <section aria-label={pillars.title} className="bg-[#F2F4F7] border-b border-[#E3E8EE]">
-        <h2 className="sr-only">{pillars.title}</h2>
+        <h2 className="max-w-[1170px] mx-auto px-6 pt-7 text-navy text-xl md:text-2xl font-light">{pillars.title}</h2>
         <div className="max-w-[1170px] mx-auto grid grid-cols-2 lg:grid-cols-4">
           {(first(pillars, "pillars")?.items ?? []).map((card, i) => {
             const Icon = PILLAR_ICONS[i % PILLAR_ICONS.length];

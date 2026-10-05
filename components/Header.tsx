@@ -66,17 +66,17 @@ export default function Header() {
       <div className="mx-auto max-w-[1170px] px-6 xl:px-0 flex items-center justify-between h-[78px]">
         <Link href="/" className="flex-shrink-0">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/images/pointoak-logo.png" alt="PointOak Retirement Advisors" className="h-[56px] w-auto" />
+          <img src="/images/pointoak-logo.png" alt="PointOak Retirement Advisors" className="h-[46px] w-auto" />
         </Link>
 
         {/* Desktop Nav */}
-        <nav className="hidden lg:flex items-center gap-7">
+        <nav className="hidden xl:flex items-center gap-5">
           {NAV.map((item) =>
             item.children ? (
               <div key={item.label} className="relative group">
                 <Link
                   href={item.href}
-                  className="flex items-center gap-1 text-white text-[16px] font-normal hover:text-white/80 transition-colors py-6"
+                  className="flex items-center gap-1 whitespace-nowrap text-white text-[15px] font-normal hover:text-white/80 transition-colors py-6"
                 >
                   {item.label}
                   <ChevronDown className="w-4 h-4 opacity-70" />
@@ -94,7 +94,7 @@ export default function Header() {
                 </div>
               </div>
             ) : (
-              <Link key={item.label} href={item.href} className="text-white text-[16px] font-normal hover:text-white/80 transition-colors">
+              <Link key={item.label} href={item.href} className="whitespace-nowrap text-white text-[15px] font-normal hover:text-white/80 transition-colors">
                 {item.label}
               </Link>
             ),
@@ -103,21 +103,21 @@ export default function Header() {
 
         <button
           onClick={openModal}
-          className="hidden lg:flex items-center gap-3 px-5 py-3 rounded-[7px] text-white text-[16px] font-medium transition-opacity hover:opacity-90"
+          className="hidden xl:flex items-center gap-2 whitespace-nowrap px-4 py-3 rounded-[7px] text-white text-[15px] font-medium transition-opacity hover:opacity-90"
           style={{ background: "linear-gradient(90deg, #003754 0%, #0078B8 100%)" }}
         >
-          Schedule a Consultation
+          Schedule a Complimentary Consultation
           <ArrowRight className="w-4 h-4" strokeWidth={1.5} />
         </button>
 
-        <button className="lg:hidden text-white p-2" onClick={() => setMobileOpen(!mobileOpen)} aria-label="Toggle menu">
+        <button className="xl:hidden text-white p-2" onClick={() => setMobileOpen(!mobileOpen)} aria-label="Toggle menu">
           {mobileOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
         </button>
       </div>
 
       {/* Mobile Menu */}
       {mobileOpen && (
-        <div className="lg:hidden bg-navy/95 backdrop-blur-sm border-t border-white/10 max-h-[calc(100vh-78px)] overflow-y-auto">
+        <div className="xl:hidden bg-navy/95 backdrop-blur-sm border-t border-white/10 max-h-[calc(100vh-78px)] overflow-y-auto">
           <nav className="flex flex-col px-6 py-4">
             {NAV.map((item) =>
               item.children ? (
@@ -161,7 +161,7 @@ export default function Header() {
               className="flex items-center justify-center gap-3 px-5 py-3 rounded-[7px] text-white text-[16px] font-medium mt-4"
               style={{ background: "linear-gradient(90deg, #003754 0%, #0078B8 100%)" }}
             >
-              Schedule a Consultation <ArrowRight className="w-4 h-4" />
+              Schedule a Complimentary Consultation <ArrowRight className="w-4 h-4" />
             </button>
           </nav>
         </div>
