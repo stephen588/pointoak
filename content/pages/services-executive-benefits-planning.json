@@ -200,8 +200,8 @@
         },
         {
           "type": "list",
+          "lead": "Experience at a Glance",
           "items": [
-            "Experience at a Glance",
             "Fee-Only Fiduciary",
             "Based in McLean, Virginia"
           ]
@@ -377,13 +377,28 @@
           "text": "Executive benefits planning often works hand in hand with other areas of your financial plan."
         },
         {
-          "type": "list",
+          "type": "links",
           "items": [
-            "Investment Management →",
-            "Tax-Aware Wealth Strategies →",
-            "Retirement Income Planning →",
-            "401(k) Rollovers & Roth Conversions →",
-            "Comprehensive Financial Planning →"
+            {
+              "label": "Investment Management",
+              "href": "/services/investment-management/"
+            },
+            {
+              "label": "Tax-Aware Wealth Strategies",
+              "href": "/services/tax-aware-wealth-strategies/"
+            },
+            {
+              "label": "Retirement Income Planning",
+              "href": "/services/retirement-income-planning/"
+            },
+            {
+              "label": "401(k) Rollovers & Roth Conversions",
+              "href": "/services/401k-rollovers-roth-conversions/"
+            },
+            {
+              "label": "Comprehensive Financial Planning",
+              "href": "/services/comprehensive-financial-planning/"
+            }
           ]
         }
       ]

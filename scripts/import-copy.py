@@ -123,9 +123,9 @@ def read_doc(path, routes):
 # ---------------------------------------------------------------- structure
 
 def linked(b):
-    """The block is one whole link (e.g. a service name in a list)."""
-    segs = [s for s in b.get("segs", []) if s[0].strip()]
-    return len(segs) == 1 and bool(segs[0][1]) and segs[0][0].strip() == b["x"].strip()
+    """The block is one whole link (e.g. a service name in a list), ignoring a trailing arrow."""
+    segs = [s for s in b.get("segs", []) if s[0].strip(" →")]
+    return len(segs) == 1 and bool(segs[0][1]) and segs[0][0].strip(" →") == b["x"].strip(" →")
 
 
 def para(b):
@@ -169,7 +169,8 @@ def build_blocks(raw, page, article=False, titles=None, hero=False):
                     {"title": m.group(1).title() if m.group(1).isupper() else m.group(1),
                      "body": [{"type": "p", "text": m.group(2)}]} for m in pills]})
             elif all(linked(r) for r in run):
-                out.append({"type": "links", "items": [{"label": r["x"], "href": r["segs"][0][1]} for r in run]})
+                out.append({"type": "links", "items": [{"label": r["x"].rstrip(" →"),
+                                                        "href": next(h for t, h in r["segs"] if h)} for r in run]})
             else:
                 lst = {"type": "list", "items": items}
                 if any(any(h for _, h in r.get("segs", [])) for r in run):
@@ -207,15 +208,20 @@ def build_blocks(raw, page, article=False, titles=None, hero=False):
                     out.append({"type": kind, "items": [it]})
             continue
         if t == "p":
-            # Featured Insights: a run of lines that are each one link to an article
-            if linked(b) and titles is not None:
+            # A run of lines that are each one link: article cards (Featured Insights) or link buttons
+            if linked(b):
                 items, j = [], i
                 while j < len(raw) and raw[j]["t"] == "p" and linked(raw[j]):
-                    href = raw[j]["segs"][0][1]
-                    items.append({"label": raw[j]["x"], "href": href, "text": titles.get(href, "")})
+                    href = next(h for t, h in raw[j]["segs"] if h)
+                    items.append({"label": raw[j]["x"].rstrip(" →"), "href": href,
+                                  "text": (titles or {}).get(href, "")})
                     j += 1
-                if len(items) >= 2 and all(it["href"].startswith("/insights/") for it in items):
+                if len(items) >= 2 and titles is not None and all(it["href"].startswith("/insights/") for it in items):
                     out.append({"type": "articles", "items": items})
+                    i = j
+                    continue
+                if len(items) >= 2:
+                    out.append({"type": "links", "items": [{"label": it["label"], "href": it["href"]} for it in items]})
                     i = j
                     continue
             if BAND.match(x) or (x.upper() == x and (x.count("→") >= 2 or x.count(" + ") >= 2)):
@@ -235,7 +241,11 @@ def build_blocks(raw, page, article=False, titles=None, hero=False):
                     i = j
                     continue
                 if j - i >= 3:
-                    out.append({"type": "list", "items": [r["x"] for r in raw[i:j]]})
+                    labels = [r["x"] for r in raw[i:j]]
+                    lst = {"type": "list", "items": labels}
+                    if re.search(r"at a glance$", labels[0], re.I):  # "Experience at a Glance" heads the list
+                        lst = {"type": "list", "lead": labels[0], "items": labels[1:]}
+                    out.append(lst)
                     i = j
                     continue
             if False:

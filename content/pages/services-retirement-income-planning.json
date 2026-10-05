@@ -254,8 +254,8 @@
         },
         {
           "type": "list",
+          "lead": "Experience at a Glance",
           "items": [
-            "Experience at a Glance",
             "Fee-Only Fiduciary",
             "Based in McLean, Virginia"
           ]
@@ -342,13 +342,28 @@
           "text": "Your retirement income strategy often works hand in hand with other planning services."
         },
         {
-          "type": "list",
+          "type": "links",
           "items": [
-            "Investment Management →",
-            "Tax-Aware Wealth Strategies →",
-            "401(k) Rollovers & Roth Conversions →",
-            "Social Security & Pension Planning →",
-            "Comprehensive Financial Planning →"
+            {
+              "label": "Investment Management",
+              "href": "/services/investment-management/"
+            },
+            {
+              "label": "Tax-Aware Wealth Strategies",
+              "href": "/services/tax-aware-wealth-strategies/"
+            },
+            {
+              "label": "401(k) Rollovers & Roth Conversions",
+              "href": "/services/401k-rollovers-roth-conversions/"
+            },
+            {
+              "label": "Social Security & Pension Planning",
+              "href": "/services/social-security-pension-planning/"
+            },
+            {
+              "label": "Comprehensive Financial Planning",
+              "href": "/services/comprehensive-financial-planning/"
+            }
           ]
         }
       ]

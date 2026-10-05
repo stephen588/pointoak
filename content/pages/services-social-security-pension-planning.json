@@ -224,8 +224,8 @@
         },
         {
           "type": "list",
+          "lead": "Experience at a Glance",
           "items": [
-            "Experience at a Glance",
             "Fee-Only Fiduciary",
             "Based in McLean, Virginia"
           ]
@@ -409,14 +409,32 @@
           "text": "Social Security and pension decisions are closely connected to other areas of retirement planning."
         },
         {
-          "type": "list",
-          "lead": "Continue exploring:",
+          "type": "p",
+          "text": "Continue exploring:"
+        },
+        {
+          "type": "links",
           "items": [
-            "Retirement Income Planning →",
-            "401(k) Rollovers & Roth Conversions →",
-            "Tax-Aware Wealth Strategies →",
-            "Investment Management →",
-            "Comprehensive Financial Planning →"
+            {
+              "label": "Retirement Income Planning",
+              "href": "/services/retirement-income-planning/"
+            },
+            {
+              "label": "401(k) Rollovers & Roth Conversions",
+              "href": "/services/401k-rollovers-roth-conversions/"
+            },
+            {
+              "label": "Tax-Aware Wealth Strategies",
+              "href": "/services/tax-aware-wealth-strategies/"
+            },
+            {
+              "label": "Investment Management",
+              "href": "/services/investment-management/"
+            },
+            {
+              "label": "Comprehensive Financial Planning",
+              "href": "/services/comprehensive-financial-planning/"
+            }
           ]
         }
       ]

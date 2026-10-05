@@ -1,15 +1,19 @@
+import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Blocks from "./Blocks";
 import type { PageContent, Section } from "@/lib/content";
 import { SITE_URL, allFaqs, breadcrumbs } from "@/lib/content";
+import { pageImage } from "@/lib/pageImage";
 
 function SectionView({ section, index }: { section: Section; index: number }) {
   if (section.layout === "cta") {
     return (
-      <section id={section.id} className="py-16 md:py-24" style={{ background: "linear-gradient(90deg, #003754 0%, #0078B8 100%)" }}>
-        <div className="max-w-[1170px] mx-auto px-6 xl:px-0 flex flex-col gap-6 items-start">
+      <section id={section.id} className="relative overflow-hidden bg-navy py-16 md:py-28">
+        <Image src="/images/home/investment-aerial.jpg" alt="" fill sizes="100vw" className="object-cover opacity-40" />
+        <div className="absolute inset-0" style={{ background: "linear-gradient(90deg, rgba(0,35,55,0.96) 0%, rgba(0,55,84,0.85) 55%, rgba(0,120,184,0.55) 100%)" }} />
+        <div className="relative max-w-[1170px] mx-auto px-6 xl:px-0 flex flex-col gap-6 items-start">
           <h2 className="text-white text-3xl md:text-4xl lg:text-[44px] font-light leading-tight max-w-4xl">{section.title}</h2>
           <Blocks blocks={section.blocks} tone="dark" />
         </div>
@@ -17,6 +21,22 @@ function SectionView({ section, index }: { section: Section; index: number }) {
     );
   }
   const bg = index % 2 === 0 ? "bg-white" : "bg-cloud-blue";
+  // Text-only sections: heading on the left with an accent rule, paragraphs on the right
+  if (section.blocks.length > 0 && section.blocks.every((b) => b.type === "p")) {
+    return (
+      <section id={section.id} className={`${bg} py-14 md:py-20 scroll-mt-24`}>
+        <div className="max-w-[1170px] mx-auto px-6 xl:px-0 grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-16">
+          <div className="lg:col-span-5 flex flex-col gap-5">
+            <span aria-hidden className="block w-14 h-[3px] rounded-full bg-gradient-to-r from-[#B5875A] to-[#D9B48A]" />
+            <h2 className="text-navy text-3xl md:text-4xl lg:text-[40px] font-light leading-tight">{section.title}</h2>
+          </div>
+          <div className="lg:col-span-7 flex flex-col gap-5 lg:pt-6">
+            <Blocks blocks={section.blocks} />
+          </div>
+        </div>
+      </section>
+    );
+  }
   return (
     <section id={section.id} className={`${bg} py-14 md:py-20 scroll-mt-24`}>
       <div className="max-w-[1170px] mx-auto px-6 xl:px-0 flex flex-col gap-6 md:gap-8">
@@ -101,6 +121,7 @@ function ArticleBody({ page }: { page: PageContent }) {
 
 export default function ContentPage({ page }: { page: PageContent }) {
   const trail = breadcrumbs(page.route);
+  const img = pageImage(page.route);
   const faqs = allFaqs(page);
   const jsonLd: object[] = [
     {
@@ -180,12 +201,28 @@ export default function ContentPage({ page }: { page: PageContent }) {
               ))}
             </ol>
           </nav>
-          <div className="max-w-4xl flex flex-col gap-6">
-            <h1 className="text-white text-4xl md:text-5xl lg:text-[52px] font-bold leading-[1.15]">{page.hero.title}</h1>
-            {page.hero.subtitle && (
-              <p className="text-white/95 text-xl md:text-2xl font-light leading-snug">{page.hero.subtitle}</p>
+          <div className={`grid grid-cols-1 gap-12 items-center ${img ? "lg:grid-cols-12" : ""}`}>
+            <div className={`flex flex-col gap-6 ${img ? "lg:col-span-7" : "max-w-4xl"}`}>
+              <h1 className="text-white text-4xl md:text-5xl lg:text-[52px] font-bold leading-[1.15]">{page.hero.title}</h1>
+              {page.hero.subtitle && (
+                <p className="text-white/95 text-xl md:text-2xl font-light leading-snug">{page.hero.subtitle}</p>
+              )}
+              {page.kind !== "article" && <Blocks blocks={page.hero.blocks} tone="dark" />}
+            </div>
+            {img && (
+              <div className="lg:col-span-5 relative">
+                <div aria-hidden className="hidden lg:block absolute -inset-3 translate-x-4 translate-y-4 rounded-[14px] border border-white/25" />
+                <Image
+                  src={img.src}
+                  alt={img.alt}
+                  width={1600}
+                  height={1200}
+                  priority
+                  sizes="(min-width: 1024px) 460px, 100vw"
+                  className="relative w-full aspect-[4/3] object-cover rounded-[12px] shadow-2xl shadow-black/30"
+                />
+              </div>
             )}
-            {page.kind !== "article" && <Blocks blocks={page.hero.blocks} tone="dark" />}
           </div>
         </div>
       </section>

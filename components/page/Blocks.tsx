@@ -3,6 +3,7 @@ import { ArrowRight, Check, ChevronDown } from "lucide-react";
 import type { Block, Card, Seg } from "@/lib/content";
 import { routeExists } from "@/lib/content";
 import ScheduleButton from "./ScheduleButton";
+import { cardIcons } from "./cardIcon";
 
 type Tone = "light" | "dark";
 
@@ -64,6 +65,8 @@ function ArticleCards({ items }: { items: { label: string; href: string; text?: 
   );
 }
 
+const STEP_COLS: Record<number, string> = { 3: "lg:grid-cols-3", 4: "lg:grid-cols-4", 5: "lg:grid-cols-5" };
+
 function CardGrid({ items, tone, numbered }: { items: Card[]; tone: Tone; numbered?: boolean }) {
   // An h3 with nothing under it in the copy is a sub-heading, not a card
   if (items.every((c) => !c.body.length && !c.link)) {
@@ -77,6 +80,34 @@ function CardGrid({ items, tone, numbered }: { items: Card[]; tone: Tone; number
       </>
     );
   }
+  if (numbered) {
+    // process steps: numbered circles joined by a line (horizontal on desktop, vertical on mobile)
+    return (
+      <div className="relative">
+        {items.length >= 3 && (
+          <div aria-hidden className="hidden lg:block absolute top-6 left-[6%] right-[6%] h-[2px] bg-gradient-to-r from-navy/10 via-medium-blue/40 to-navy/10" />
+        )}
+      <ol className={`relative grid gap-8 ${STEP_COLS[Math.min(items.length, 5)] ?? "md:grid-cols-2"}`}>
+        {items.map((card, i) => {
+          const stepMatch = card.title.match(/^Step\s*(\d+):\s*(.+)$/i);
+          const title = stepMatch ? stepMatch[2] : card.title;
+          return (
+            <li key={i} className="relative flex lg:flex-col gap-5 lg:gap-4">
+              <div className="relative z-10 w-12 h-12 flex-shrink-0 rounded-full bg-navy text-white flex items-center justify-center font-semibold text-lg ring-8 ring-white">
+                {stepMatch ? stepMatch[1] : i + 1}
+              </div>
+              <div className="flex flex-col gap-2">
+                <h3 className={`font-semibold text-xl leading-snug ${tone === "dark" ? "text-white" : "text-navy"}`}>{title}</h3>
+                <Blocks blocks={card.body} tone={tone} compact />
+              </div>
+            </li>
+          );
+        })}
+      </ol>
+      </div>
+    );
+  }
+  const icons = cardIcons(items.map((c) => c.title));
   const cols =
     items.length === 1
       ? "grid-cols-1"
@@ -93,8 +124,8 @@ function CardGrid({ items, tone, numbered }: { items: Card[]; tone: Tone; number
         return (
           <div
             key={i}
-            className={`rounded-[7px] p-7 md:p-8 flex flex-col gap-3 ${
-              tone === "dark" ? "bg-white/[0.07] border border-white/10" : "bg-white border border-[#E5EAF0]"
+            className={`rounded-[10px] p-7 md:p-8 flex flex-col gap-3 transition-shadow ${
+              tone === "dark" ? "bg-white/[0.07] border border-white/10" : "bg-white border border-[#E5EAF0] shadow-[0_1px_2px_rgba(0,55,84,0.04)] hover:shadow-lg hover:shadow-navy/5"
             }`}
           >
             {numbered && (
@@ -102,6 +133,14 @@ function CardGrid({ items, tone, numbered }: { items: Card[]; tone: Tone; number
                 {stepMatch ? stepMatch[1] : i + 1}
               </div>
             )}
+            {!numbered && items.length > 1 && (() => {
+              const Icon = icons[i];
+              return (
+                <div className={`w-12 h-12 rounded-full flex items-center justify-center mb-1 ${tone === "dark" ? "bg-white/10" : "bg-gradient-to-br from-cloud-blue to-[#dcebfa]"}`}>
+                  <Icon className={`w-6 h-6 ${tone === "dark" ? "text-white" : "text-navy"}`} strokeWidth={1.6} />
+                </div>
+              );
+            })()}
             <h3 className={`font-semibold text-xl leading-snug ${tone === "dark" ? "text-white" : "text-navy"}`}>{title}</h3>
             <div className="flex flex-col gap-3">
               <Blocks blocks={card.body} tone={tone} compact />
@@ -184,7 +223,10 @@ export default function Blocks({
               return <Badges key={i} items={b.items} tone={tone} />;
             }
             return (
-              <div key={i} className="max-w-4xl">
+              <div
+                key={i}
+                className={compact || tone === "dark" ? "max-w-4xl" : "max-w-4xl rounded-[10px] border border-[#E3E8EE] bg-white p-6 md:p-8 shadow-[0_1px_2px_rgba(0,55,84,0.04)]"}
+              >
                 {b.lead && <p className={`${strong} font-medium ${compact ? "text-base" : "text-lg"} mb-3`}>{b.lead}</p>}
                 <ul className={`grid gap-x-10 gap-y-3 ${!compact && b.items.length > 4 ? "md:grid-cols-2" : ""}`}>
                   {b.items.map((item, k) => (

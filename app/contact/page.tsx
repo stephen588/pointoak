@@ -5,6 +5,8 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ConsultationForm from "@/components/ConsultationForm";
 import ScheduleButton from "@/components/page/ScheduleButton";
+import Image from "next/image";
+import alts from "@/content/page-images.json";
 import { getPage } from "@/lib/content";
 
 const contact = getPage("/contact/")!;
@@ -28,16 +30,30 @@ export default function ContactPage() {
               <span className="text-white">Contact</span>
             </nav>
           </div>
-          <div className="max-w-4xl">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center pb-12 lg:pb-16">
+          <div className="lg:col-span-7">
             <h1 className="font-outfit text-white text-3xl md:text-4xl lg:text-[48px] font-bold leading-[1.4] mb-6">
               {contact.hero.title}
             </h1>
             <p className="font-outfit text-white/90 text-base md:text-lg lg:text-xl leading-relaxed pb-8 md:pb-0">
               {intro.text}
             </p>
-            <div className="mt-8 pb-8 md:pb-0">
+            <div className="mt-8">
               <ScheduleButton />
             </div>
+          </div>
+          <div className="lg:col-span-5 relative">
+            <div aria-hidden className="hidden lg:block absolute -inset-3 translate-x-4 translate-y-4 rounded-[14px] border border-white/25" />
+            <Image
+              src="/images/pages/contact.webp"
+              alt={(alts as Record<string, string>).contact}
+              width={1600}
+              height={1200}
+              priority
+              sizes="(min-width: 1024px) 460px, 100vw"
+              className="relative w-full aspect-[4/3] object-cover rounded-[12px] shadow-2xl shadow-black/30"
+            />
+          </div>
           </div>
         </div>
       </section>

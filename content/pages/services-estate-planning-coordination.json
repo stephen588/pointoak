@@ -226,8 +226,8 @@
         },
         {
           "type": "list",
+          "lead": "Experience at a Glance",
           "items": [
-            "Experience at a Glance",
             "Fee-Only Fiduciary",
             "Based in McLean, Virginia"
           ]
@@ -424,14 +424,32 @@
           "text": "Estate planning is closely connected to other areas of your financial life."
         },
         {
-          "type": "list",
-          "lead": "Continue exploring:",
+          "type": "p",
+          "text": "Continue exploring:"
+        },
+        {
+          "type": "links",
           "items": [
-            "Comprehensive Financial Planning →",
-            "Investment Management →",
-            "Retirement Income Planning →",
-            "Tax-Aware Wealth Strategies →",
-            "Executive Benefits Planning →"
+            {
+              "label": "Comprehensive Financial Planning",
+              "href": "/services/comprehensive-financial-planning/"
+            },
+            {
+              "label": "Investment Management",
+              "href": "/services/investment-management/"
+            },
+            {
+              "label": "Retirement Income Planning",
+              "href": "/services/retirement-income-planning/"
+            },
+            {
+              "label": "Tax-Aware Wealth Strategies",
+              "href": "/services/tax-aware-wealth-strategies/"
+            },
+            {
+              "label": "Executive Benefits Planning",
+              "href": "/services/executive-benefits-planning/"
+            }
           ]
         }
       ]

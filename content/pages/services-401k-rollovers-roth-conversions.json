@@ -277,8 +277,8 @@
         },
         {
           "type": "list",
+          "lead": "Experience at a Glance",
           "items": [
-            "Experience at a Glance",
             "Fee-Only Fiduciary",
             "Based in McLean, Virginia"
           ]
@@ -421,14 +421,32 @@
           "text": "Rollover and Roth conversion decisions are closely connected to other areas of retirement planning."
         },
         {
-          "type": "list",
-          "lead": "Continue exploring:",
+          "type": "p",
+          "text": "Continue exploring:"
+        },
+        {
+          "type": "links",
           "items": [
-            "Retirement Income Planning →",
-            "Social Security & Pension Planning →",
-            "Tax-Aware Wealth Strategies →",
-            "Investment Management →",
-            "Comprehensive Financial Planning →"
+            {
+              "label": "Retirement Income Planning",
+              "href": "/services/retirement-income-planning/"
+            },
+            {
+              "label": "Social Security & Pension Planning",
+              "href": "/services/social-security-pension-planning/"
+            },
+            {
+              "label": "Tax-Aware Wealth Strategies",
+              "href": "/services/tax-aware-wealth-strategies/"
+            },
+            {
+              "label": "Investment Management",
+              "href": "/services/investment-management/"
+            },
+            {
+              "label": "Comprehensive Financial Planning",
+              "href": "/services/comprehensive-financial-planning/"
+            }
           ]
         }
       ]

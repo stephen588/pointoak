@@ -223,8 +223,8 @@
         },
         {
           "type": "list",
+          "lead": "Experience at a Glance",
           "items": [
-            "Experience at a Glance",
             "Fee-Only Fiduciary",
             "Based in McLean, Virginia"
           ]
@@ -353,14 +353,32 @@
           "text": "Tax-efficient planning often works alongside other areas of your financial strategy."
         },
         {
-          "type": "list",
-          "lead": "Continue exploring:",
+          "type": "p",
+          "text": "Continue exploring:"
+        },
+        {
+          "type": "links",
           "items": [
-            "Investment Management →",
-            "Retirement Income Planning →",
-            "401(k) Rollovers & Roth Conversions →",
-            "Executive Benefits Planning →",
-            "Comprehensive Financial Planning →"
+            {
+              "label": "Investment Management",
+              "href": "/services/investment-management/"
+            },
+            {
+              "label": "Retirement Income Planning",
+              "href": "/services/retirement-income-planning/"
+            },
+            {
+              "label": "401(k) Rollovers & Roth Conversions",
+              "href": "/services/401k-rollovers-roth-conversions/"
+            },
+            {
+              "label": "Executive Benefits Planning",
+              "href": "/services/executive-benefits-planning/"
+            },
+            {
+              "label": "Comprehensive Financial Planning",
+              "href": "/services/comprehensive-financial-planning/"
+            }
           ]
         }
       ]

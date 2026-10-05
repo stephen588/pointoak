@@ -307,8 +307,8 @@
         },
         {
           "type": "list",
+          "lead": "Experience at a Glance",
           "items": [
-            "Experience at a Glance",
             "Fee-Only Fiduciary",
             "Based in McLean, Virginia"
           ]
@@ -409,14 +409,32 @@
           "text": "Your investment strategy is closely connected to other areas of financial planning."
         },
         {
-          "type": "list",
-          "lead": "Continue exploring:",
+          "type": "p",
+          "text": "Continue exploring:"
+        },
+        {
+          "type": "links",
           "items": [
-            "Retirement Income Planning →",
-            "Tax-Aware Wealth Strategies →",
-            "Comprehensive Financial Planning →",
-            "401(k) Rollovers & Roth Conversions →",
-            "Estate Planning Coordination →"
+            {
+              "label": "Retirement Income Planning",
+              "href": "/services/retirement-income-planning/"
+            },
+            {
+              "label": "Tax-Aware Wealth Strategies",
+              "href": "/services/tax-aware-wealth-strategies/"
+            },
+            {
+              "label": "Comprehensive Financial Planning",
+              "href": "/services/comprehensive-financial-planning/"
+            },
+            {
+              "label": "401(k) Rollovers & Roth Conversions",
+              "href": "/services/401k-rollovers-roth-conversions/"
+            },
+            {
+              "label": "Estate Planning Coordination",
+              "href": "/services/estate-planning-coordination/"
+            }
           ]
         }
       ]
