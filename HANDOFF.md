@@ -29,3 +29,9 @@ Token: sourced from `/opt/report-dashboard/.env.keys` (VERCEL_TOKEN). Git push a
 - `trailingSlash: true`; *.vercel.app hosts send `X-Robots-Tag: noindex`.
 - Deploy token: `/root/.vercel-token` (the report-dashboard token lost team access 10-02).
 - Schedule CTAs open the existing consultation modal until PointOak sends their scheduling calendar link.
+
+## 2026-10-05 — Rebuilt on Darsh's FINAL developer handoff
+- Source: `PointOak_Website_Master_Developer_Handoff_FINAL_2026-10-04.docx` + `PointOak_SEO_Implementation_Map_FINAL_2026-10-04.xlsx` (Darsh email 10-04 in Hannah's "Updates" thread; not in Drive). Supersedes the 10-01 master copy.
+- All 44 units built: 38 core pages + 6 Insights at /insights/<slug>/ (collection stays /resources/). Copy check: 4072/4072 doc lines on the pages.
+- Regenerate: `python3 scripts/import-copy.py <handoff.docx> <map.xlsx>` (old build-hubs.py removed; no hand-built pages now).
+- Open release items from the workbook's Publication Checks: PC01 RMD age (IN04) + PC02 Reg BI (C03, IN06) sign-off; PC04 affiliations/BBB; PC05 Calendly URL (CTAs still open the form modal); PC07 real article author/date; PC08 professional review; PC09 utility pages (privacy, terms, ADV/CRS, logins).
