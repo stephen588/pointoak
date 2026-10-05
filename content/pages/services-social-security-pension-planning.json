@@ -1,11 +1,13 @@
 {
+  "id": "W08",
   "route": "/services/social-security-pension-planning/",
   "name": "Social Security & Pension Planning",
-  "parent": "Wealth Management",
+  "kind": "page",
+  "parentRoute": "/services/wealth-management/",
   "meta": {
     "title": "Social Security & Pension Planning | PointOak",
     "description": "Evaluate Social Security claiming strategies and pension elections as part of a coordinated retirement income and financial plan.",
-    "schema": "Service + FAQPage + BreadcrumbList"
+    "schema": "Service + BreadcrumbList; shared Organization reference"
   },
   "hero": {
     "title": "Social Security & Pension Planning",
@@ -20,9 +22,12 @@
         "text": "At PointOak, we evaluate Social Security claiming strategies and pension options as part of your broader retirement income plan. We consider your household income, spouse or partner, taxes, investment assets, longevity, and long-term goals so you can make informed decisions with confidence."
       },
       {
+        "type": "p",
+        "text": "Founder Darsh Makim has advised clients since 2005."
+      },
+      {
         "type": "chips",
         "items": [
-          "Retirement Planning Experience Since 2005",
           "Fee-Only Fiduciary Advisors",
           "Complimentary Consultation"
         ]
@@ -218,7 +223,7 @@
           "text": "As an independent, fee-only fiduciary firm, we don't earn commissions from annuities or other investment products. Our role is to help you understand your options and choose a strategy that fits your goals."
         },
         {
-          "type": "chips",
+          "type": "list",
           "items": [
             "Experience at a Glance",
             "Fee-Only Fiduciary",
@@ -363,7 +368,21 @@
               "a": [
                 {
                   "type": "p",
-                  "text": "PointOak provides Social Security and pension planning as part of our broader wealth management relationship."
+                  "text": "PointOak provides Social Security and pension planning as part of our broader wealth management relationship.",
+                  "segs": [
+                    [
+                      "PointOak provides Social Security and pension planning as part of our broader ",
+                      null
+                    ],
+                    [
+                      "wealth management",
+                      "/services/wealth-management/"
+                    ],
+                    [
+                      " relationship.",
+                      null
+                    ]
+                  ]
                 },
                 {
                   "type": "p",
@@ -376,8 +395,7 @@
         {
           "type": "button",
           "label": "View More FAQs",
-          "href": "/faq/",
-          "secondary": false
+          "href": "/faq/"
         }
       ],
       "layout": "faq"
@@ -391,37 +409,14 @@
           "text": "Social Security and pension decisions are closely connected to other areas of retirement planning."
         },
         {
-          "type": "p",
-          "text": "Continue exploring:"
-        },
-        {
-          "type": "links",
+          "type": "list",
+          "lead": "Continue exploring:",
           "items": [
-            {
-              "label": "Retirement Income Planning",
-              "href": "/services/retirement-income-planning/",
-              "secondary": false
-            },
-            {
-              "label": "401(k) Rollovers & Roth Conversions",
-              "href": "/services/401k-rollovers-roth-conversions/",
-              "secondary": false
-            },
-            {
-              "label": "Tax-Aware Wealth Strategies",
-              "href": "/services/tax-aware-wealth-strategies/",
-              "secondary": false
-            },
-            {
-              "label": "Investment Management",
-              "href": "/services/investment-management/",
-              "secondary": false
-            },
-            {
-              "label": "Comprehensive Financial Planning",
-              "href": "/services/comprehensive-financial-planning/",
-              "secondary": false
-            }
+            "Retirement Income Planning →",
+            "401(k) Rollovers & Roth Conversions →",
+            "Tax-Aware Wealth Strategies →",
+            "Investment Management →",
+            "Comprehensive Financial Planning →"
           ]
         }
       ]
@@ -436,7 +431,7 @@
         },
         {
           "type": "button",
-          "label": "Schedule Your Complimentary Consultation",
+          "label": "Schedule a Complimentary Consultation",
           "action": "schedule"
         }
       ],

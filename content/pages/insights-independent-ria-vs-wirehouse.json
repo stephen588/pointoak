@@ -1,0 +1,910 @@
+{
+  "id": "IN06",
+  "route": "/insights/independent-ria-vs-wirehouse/",
+  "name": "Independent RIA vs. Wirehouse: Why the Structure Matters",
+  "kind": "article",
+  "parentRoute": "/resources/",
+  "meta": {
+    "title": "Independent RIA vs. Wirehouse: What's the Difference? | PointOak",
+    "description": "Compare independent RIAs, broker-dealers, and wirehouse firms, including fiduciary standards, compensation, investment choice, planning, and service models.",
+    "schema": "BlogPosting + BreadcrumbList; shared Organization reference"
+  },
+  "hero": {
+    "title": "Independent RIA vs. Wirehouse: Why the Structure Matters",
+    "subtitle": "Understanding how an advisory firm is structured can help you evaluate the advice, investment choices, compensation, and service model behind the relationship.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "When choosing a financial advisor, most people naturally focus on the individual."
+      },
+      {
+        "type": "p",
+        "text": "Do I trust this person? Do they understand my goals? Do they have the experience to help me?"
+      },
+      {
+        "type": "p",
+        "text": "Those questions matter."
+      },
+      {
+        "type": "p",
+        "text": "But it can also be helpful to understand the type of firm behind the advisor."
+      },
+      {
+        "type": "p",
+        "text": "Financial professionals may work within independent Registered Investment Advisers, broker-dealers, wirehouse firms, banks, insurance companies, and other financial institutions. These structures can differ in how advisors are compensated, the investments and services available to them, the regulatory standards that apply to different relationships, and how clients receive advice."
+      },
+      {
+        "type": "p",
+        "text": "The distinctions are not always obvious from a business card or job title."
+      },
+      {
+        "type": "p",
+        "text": "Understanding them can help you ask better questions when choosing a financial advisor."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "what-is-an-independent-ria",
+      "title": "What Is an Independent RIA?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A Registered Investment Adviser, or RIA, is a firm that provides investment advisory services."
+        },
+        {
+          "type": "p",
+          "text": "Depending on the firm's size and circumstances, an RIA may be registered with the Securities and Exchange Commission or with one or more states."
+        },
+        {
+          "type": "p",
+          "text": "An independent RIA generally operates outside of a broker-dealer or large financial institution. The firm can establish its own investment philosophy, technology, service model, custodian relationships, and financial-planning process."
+        },
+        {
+          "type": "p",
+          "text": "RIAs provide investment advisory services within a fiduciary relationship."
+        },
+        {
+          "type": "p",
+          "text": "PointOak, for example, is an independent, SEC-registered investment adviser and serves its advisory clients as a fiduciary.",
+          "segs": [
+            [
+              "PointOak, for example",
+              "/why-point-oak/"
+            ],
+            [
+              ", is an independent, SEC-registered investment adviser and serves its advisory clients as a fiduciary.",
+              null
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "It is important, however, not to assume that every RIA is identical. Firms can differ considerably in investment philosophy, fees, planning capabilities, areas of expertise, technology, and client experience.",
+          "segs": [
+            [
+              "It is important, however, not to assume that every RIA is identical. Firms can differ considerably in investment philosophy, fees, planning capabilities, areas of expertise, technology, and ",
+              null
+            ],
+            [
+              "client experience",
+              "/about/"
+            ],
+            [
+              ".",
+              null
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "what-is-a-wirehouse",
+      "title": "What Is a Wirehouse?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The term wirehouse generally refers to a large national brokerage and wealth-management organization."
+        },
+        {
+          "type": "p",
+          "text": "These firms can offer substantial resources, including:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Investment research",
+            "Trading capabilities",
+            "Banking and lending",
+            "Financial planning",
+            "Brokerage services",
+            "Investment management",
+            "Technology",
+            "Specialized investment products",
+            "Large networks of financial professionals"
+          ],
+          "segs": [
+            [
+              [
+                "Investment research",
+                null
+              ]
+            ],
+            [
+              [
+                "Trading capabilities",
+                null
+              ]
+            ],
+            [
+              [
+                "Banking and lending",
+                null
+              ]
+            ],
+            [
+              [
+                "Financial planning",
+                "/services/comprehensive-financial-planning/"
+              ]
+            ],
+            [
+              [
+                "Brokerage services",
+                null
+              ]
+            ],
+            [
+              [
+                "Investment management",
+                null
+              ]
+            ],
+            [
+              [
+                "Technology",
+                null
+              ]
+            ],
+            [
+              [
+                "Specialized investment products",
+                null
+              ]
+            ],
+            [
+              [
+                "Large networks of financial professionals",
+                null
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Many experienced financial advisors work within wirehouse organizations."
+        },
+        {
+          "type": "p",
+          "text": "The key distinction is structural. The advisor operates within the policies, supervisory framework, investment platform, and broader infrastructure of the financial institution."
+        },
+        {
+          "type": "p",
+          "text": "Depending on the services being provided, a financial professional at a wirehouse may operate in a brokerage capacity, an investment-advisory capacity, or potentially both."
+        }
+      ]
+    },
+    {
+      "id": "what-is-an-independent-broker-dealer",
+      "title": "What Is an Independent Broker-Dealer?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An independent broker-dealer represents another common structure."
+        },
+        {
+          "type": "p",
+          "text": "A financial advisor may own an independently branded practice while being affiliated with a broker-dealer that provides brokerage capabilities, supervision, technology, and access to an approved investment platform."
+        },
+        {
+          "type": "p",
+          "text": "From a client's perspective, the practice may look very similar to an independent advisory firm."
+        },
+        {
+          "type": "p",
+          "text": "The distinction is that brokerage activity is conducted through the broker-dealer, and available products and services are generally subject to the broker-dealer's platform and supervisory requirements."
+        },
+        {
+          "type": "p",
+          "text": "Some professionals associated with broker-dealers are also investment adviser representatives and provide advisory services."
+        },
+        {
+          "type": "p",
+          "text": "That makes one question particularly important:"
+        },
+        {
+          "type": "p",
+          "text": "In what capacity is the financial professional working with you?"
+        }
+      ]
+    },
+    {
+      "id": "fiduciary-advice-and-brokerage-relationships",
+      "title": "Fiduciary Advice and Brokerage Relationships",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The terms financial advisor, wealth advisor, and financial consultant can be used in several types of financial-services relationships."
+        },
+        {
+          "type": "p",
+          "text": "They do not, by themselves, tell you what regulatory framework applies."
+        },
+        {
+          "type": "p",
+          "text": "An investment adviser owes fiduciary duties to its advisory clients.",
+          "segs": [
+            [
+              "An investment adviser owes fiduciary duties",
+              "https://www.sec.gov/about/divisions-offices/division-trading-markets/broker-dealers/staff-bulletin-standards-conduct-broker-dealers-investment-advisers-care-obligations"
+            ],
+            [
+              " to its advisory clients.",
+              null
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Broker-dealers operate under a different regulatory framework when providing brokerage services. Professionals who provide both brokerage and advisory services may have different obligations depending on the capacity in which they are acting."
+        },
+        {
+          "type": "p",
+          "text": "In a brokerage relationship, Regulation Best Interest applies when a broker-dealer recommends a securities transaction or investment strategy involving securities to a retail customer. An investment adviser's fiduciary duty generally applies to the entire advisory relationship. These are distinct standards; a brokerage relationship should not be described as having only a suitability obligation.",
+          "segs": [
+            [
+              "In a brokerage relationship, ",
+              null
+            ],
+            [
+              "Regulation Best Interest applies",
+              "https://www.sec.gov/about/divisions-offices/division-trading-markets/broker-dealers/staff-bulletin-standards-conduct-broker-dealers-investment-advisers-care-obligations"
+            ],
+            [
+              " when a broker-dealer recommends a securities transaction or investment strategy involving securities to a retail customer. An investment adviser's fiduciary duty generally applies to the entire advisory relationship. These are distinct standards; a brokerage relationship should not be described as having only a suitability obligation.",
+              null
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "For an investor, the practical questions are:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Are you providing investment advisory services to me?",
+            "Are you acting as a fiduciary in this relationship?",
+            "Are you also providing brokerage services?",
+            "How are you being compensated?",
+            "Are there different incentives associated with different services or investments?"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Those questions are usually more informative than relying solely on a title."
+        }
+      ]
+    },
+    {
+      "id": "fee-only-fee-based-and-commission-compensation",
+      "title": "Fee-Only, Fee-Based, and Commission Compensation",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Compensation is another area where terminology matters."
+        },
+        {
+          "type": "h3",
+          "text": "Fee-Only"
+        },
+        {
+          "type": "p",
+          "text": "A fee-only advisory firm is compensated by its clients for the advisory and planning services it provides and does not receive investment-product commissions.",
+          "segs": [
+            [
+              "A ",
+              null
+            ],
+            [
+              "fee-only",
+              "/faq/"
+            ],
+            [
+              " advisory firm is compensated by its clients for the advisory and planning services it provides and does not receive investment-product commissions.",
+              null
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Fees may take several forms, including asset-based advisory fees, financial-planning fees, or other agreed-upon arrangements."
+        },
+        {
+          "type": "p",
+          "text": "Fee-only does not mean conflict-free. No compensation model eliminates every potential conflict.",
+          "segs": [
+            [
+              "Fee-only does not mean conflict-free. ",
+              null
+            ],
+            [
+              "No compensation model eliminates every potential conflict",
+              "https://www.sec.gov/about/divisions-offices/division-trading-markets/broker-dealers/staff-bulletin-standards-conduct-broker-dealers-investment-advisers-conflicts-interest"
+            ],
+            [
+              ".",
+              null
+            ]
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Fee-Based"
+        },
+        {
+          "type": "p",
+          "text": "The term fee-based is different."
+        },
+        {
+          "type": "p",
+          "text": "A fee-based financial professional may receive advisory fees as well as commissions or other compensation depending on the services or products involved."
+        },
+        {
+          "type": "h3",
+          "text": "Commission-Based Compensation"
+        },
+        {
+          "type": "p",
+          "text": "In a brokerage relationship, compensation may sometimes be connected to transactions or financial products."
+        },
+        {
+          "type": "p",
+          "text": "None of these labels alone tells you whether the advice is good or bad."
+        },
+        {
+          "type": "p",
+          "text": "But understanding who pays your advisor, how much, and under what circumstances can help you identify potential conflicts and evaluate the relationship more clearly."
+        }
+      ]
+    },
+    {
+      "id": "how-investment-choice-can-differ",
+      "title": "How Investment Choice Can Differ",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Investment platforms can also vary depending on the type of firm."
+        },
+        {
+          "type": "p",
+          "text": "An independent RIA may use an open-architecture approach, allowing the firm to evaluate investments across a broad marketplace rather than being tied to one proprietary investment family.",
+          "segs": [
+            [
+              "An independent RIA may use an ",
+              null
+            ],
+            [
+              "open-architecture approach",
+              "/services/investment-management/"
+            ],
+            [
+              ", allowing the firm to evaluate investments across a broad marketplace rather than being tied to one proprietary investment family.",
+              null
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Depending on the firm and client, that might include:"
+        },
+        {
+          "type": "chips",
+          "items": [
+            "ETFs",
+            "Mutual Funds",
+            "Individual Securities",
+            "Separately Managed Strategies",
+            "Alternative & Private-Market Investments"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Broker-dealers and wirehouses may also provide very broad investment menus."
+        },
+        {
+          "type": "p",
+          "text": "However, advisors generally work within the investments, managers, products, and strategies approved by their institution."
+        },
+        {
+          "type": "p",
+          "text": "Neither structure automatically results in a better portfolio."
+        },
+        {
+          "type": "p",
+          "text": "A more useful question is:"
+        },
+        {
+          "type": "p",
+          "text": "How does my advisor determine which investments belong in my portfolio?"
+        },
+        {
+          "type": "p",
+          "text": "The answer should begin with your circumstances and investment objectives rather than simply the availability of a particular product."
+        }
+      ]
+    },
+    {
+      "id": "independent-ria-vs-broker-dealer-vs-wirehouse-at-a-glance",
+      "title": "Independent RIA vs. Broker-Dealer vs. Wirehouse: At a Glance",
+      "blocks": [
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Feature",
+              "Independent RIA — PointOak",
+              "Independent Broker-Dealer",
+              "Wirehouse Firm"
+            ],
+            [
+              "Standard of Conduct",
+              "Fiduciary. PointOak is required to act in its advisory clients' best interests and put their interests ahead of its own.",
+              "Brokerage recommendations to retail customers: Regulation Best Interest. Advisory services: fiduciary duty. Capacity and engagement matter.",
+              "Brokerage recommendations to retail customers: Regulation Best Interest. Advisory services: fiduciary duty. Capacity and engagement matter."
+            ],
+            [
+              "Investment Selection",
+              "Open architecture. PointOak is not limited to a proprietary investment lineup and can evaluate a broad range of investments and strategies.",
+              "Choices may be broad but are generally subject to the broker-dealer's approved platform.",
+              "Choices generally operate within the products, platforms, and solutions made available by the institution."
+            ],
+            [
+              "Compensation",
+              "Fee-only. PointOak does not receive investment-product commissions.",
+              "May include advisory fees, commissions, or other compensation depending on the relationship.",
+              "May include advisory fees, commissions, incentives, or other arrangements depending on the relationship."
+            ],
+            [
+              "Service Model",
+              "Personal and direct. Clients work directly with experienced PointOak advisors familiar with their circumstances.",
+              "Varies by practice and advisor.",
+              "Varies by advisor and team within the larger institution."
+            ],
+            [
+              "Ownership & Independence",
+              "Independently owned. PointOak is not part of a broker-dealer or wirehouse.",
+              "An advisor may own an independent practice while operating within a broker-dealer's platform and supervisory structure.",
+              "The advisor operates within a larger financial institution and its policies, platform, and infrastructure."
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The table is not meant to suggest that every firm within one category operates the same way."
+        },
+        {
+          "type": "p",
+          "text": "Instead, it highlights structural differences worth understanding before choosing an advisory relationship."
+        }
+      ]
+    },
+    {
+      "id": "does-a-larger-firm-mean-more-resources",
+      "title": "Does a Larger Firm Mean More Resources?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Large financial institutions can offer considerable resources."
+        },
+        {
+          "type": "p",
+          "text": "Research teams, banking, lending, investment products, trading infrastructure, estate-planning resources, and specialized departments may all exist within one organization."
+        },
+        {
+          "type": "p",
+          "text": "For some investors, having those services within a single institution may be valuable."
+        },
+        {
+          "type": "p",
+          "text": "An independent RIA may take a different approach."
+        },
+        {
+          "type": "p",
+          "text": "Rather than attempting to provide every service internally, the firm may combine its own investment-management and planning capabilities with outside custodians, investment managers, accountants, attorneys, insurance professionals, and other specialists."
+        },
+        {
+          "type": "p",
+          "text": "The relevant question is not simply which firm is larger."
+        },
+        {
+          "type": "p",
+          "text": "It is:"
+        },
+        {
+          "type": "p",
+          "text": "Does the advisory relationship give me access to the expertise and resources I actually need?"
+        }
+      ]
+    },
+    {
+      "id": "direct-advisor-access-can-also-matter",
+      "title": "Direct Advisor Access Can Also Matter",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Resources are only part of the client experience."
+        },
+        {
+          "type": "p",
+          "text": "Another consideration is who you actually work with."
+        },
+        {
+          "type": "p",
+          "text": "At some firms, clients may interact with multiple specialists, associates, service teams, or departments."
+        },
+        {
+          "type": "p",
+          "text": "Other firms may build the relationship around a smaller advisory team that knows the client's circumstances in greater depth."
+        },
+        {
+          "type": "p",
+          "text": "Neither model is inherently right for everyone."
+        },
+        {
+          "type": "p",
+          "text": "Some investors value institutional scale. Others place greater importance on continuity and direct access to the people making recommendations about their financial lives."
+        },
+        {
+          "type": "p",
+          "text": "If that relationship matters to you, ask:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Who will be my primary advisor?",
+            "How often will we meet?",
+            "Who makes investment decisions?",
+            "Who handles financial planning?",
+            "What happens if my advisor leaves?",
+            "Will I have access to senior members of the advisory team?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "investment-management-and-financial-planning",
+      "title": "Investment Management and Financial Planning",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "For households with greater financial complexity, another important distinction is how deeply the advisor integrates financial planning with portfolio management."
+        },
+        {
+          "type": "p",
+          "text": "An affluent household may be dealing simultaneously with:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Retirement income",
+            "IRAs and 401(k)s",
+            "Roth conversions",
+            "Social Security",
+            "Pension elections",
+            "Executive compensation",
+            "Concentrated company stock",
+            "Tax considerations",
+            "Estate planning",
+            "Charitable giving",
+            "Family financial decisions"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Those issues can influence one another."
+        },
+        {
+          "type": "p",
+          "text": "A portfolio that makes sense in isolation may look different once pension income, taxes, concentrated stock, or future spending needs are considered."
+        },
+        {
+          "type": "p",
+          "text": "When evaluating an advisor, it can therefore be useful to ask whether financial planning is an occasional separate exercise or part of the ongoing investment relationship."
+        }
+      ]
+    },
+    {
+      "id": "who-actually-holds-your-assets",
+      "title": "Who Actually Holds Your Assets?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The company providing financial advice does not necessarily have to be the company holding your investments."
+        },
+        {
+          "type": "p",
+          "text": "Independent RIAs commonly use a separate qualified custodian to hold client assets."
+        },
+        {
+          "type": "p",
+          "text": "Under this structure:"
+        },
+        {
+          "type": "p",
+          "text": "The advisor provides advice and investment management."
+        },
+        {
+          "type": "p",
+          "text": "The custodian holds the assets and processes transactions."
+        },
+        {
+          "type": "p",
+          "text": "At a larger financial institution, custody, brokerage, banking, investment products, and advisory services may exist within the same broader organization."
+        },
+        {
+          "type": "p",
+          "text": "Neither structure automatically determines the quality of the relationship."
+        },
+        {
+          "type": "p",
+          "text": "But investors should understand who is performing each role."
+        }
+      ]
+    },
+    {
+      "id": "no-business-model-is-conflict-free",
+      "title": "No Business Model Is Conflict-Free",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "It is also important to be realistic about conflicts of interest."
+        },
+        {
+          "type": "p",
+          "text": "An independent firm is not automatically conflict-free."
+        },
+        {
+          "type": "p",
+          "text": "A fee-only firm is not automatically conflict-free."
+        },
+        {
+          "type": "p",
+          "text": "A fiduciary relationship does not mean economic incentives disappear."
+        },
+        {
+          "type": "p",
+          "text": "An advisor charging an asset-based fee, for example, has an economic interest when a client is deciding whether assets should be managed by that advisor."
+        },
+        {
+          "type": "p",
+          "text": "A brokerage relationship may involve other potential conflicts related to transactions, products, compensation, or platform arrangements."
+        },
+        {
+          "type": "p",
+          "text": "The important questions are whether potential conflicts are identified, disclosed, understood, and appropriately addressed."
+        },
+        {
+          "type": "p",
+          "text": "A financial professional who tells you there are no conflicts at all may not be giving you the complete picture."
+        }
+      ]
+    },
+    {
+      "id": "questions-to-ask-any-financial-advisor",
+      "title": "Questions to Ask Any Financial Advisor",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Regardless of the type of firm, consider asking:"
+        },
+        {
+          "type": "h3",
+          "text": "Are you acting as a fiduciary when advising me?"
+        },
+        {
+          "type": "p",
+          "text": "Understand the capacity in which the advisor will work with you."
+        },
+        {
+          "type": "h3",
+          "text": "How are you compensated?"
+        },
+        {
+          "type": "p",
+          "text": "Ask about advisory fees, commissions, incentives, and other compensation."
+        },
+        {
+          "type": "h3",
+          "text": "Do you or your firm offer proprietary investments?"
+        },
+        {
+          "type": "p",
+          "text": "Understand whether investment selection may be influenced or limited by the firm's platform."
+        },
+        {
+          "type": "h3",
+          "text": "How do you select investments?"
+        },
+        {
+          "type": "p",
+          "text": "Look for a repeatable investment process tied to your objectives rather than individual product recommendations."
+        },
+        {
+          "type": "h3",
+          "text": "Who will I actually work with?"
+        },
+        {
+          "type": "p",
+          "text": "Find out whether your relationship will primarily be with one advisor, a team, or a larger service organization."
+        },
+        {
+          "type": "h3",
+          "text": "Who holds my assets?"
+        },
+        {
+          "type": "p",
+          "text": "Know the custodian and understand how custody differs from advice."
+        },
+        {
+          "type": "h3",
+          "text": "How does financial planning fit into the relationship?"
+        },
+        {
+          "type": "p",
+          "text": "Determine whether investments are coordinated with retirement, taxes, workplace benefits, Social Security, estate considerations, and other financial decisions."
+        },
+        {
+          "type": "h3",
+          "text": "How do you address conflicts of interest?"
+        },
+        {
+          "type": "p",
+          "text": "A thoughtful explanation can tell you a great deal about how the firm approaches its responsibilities."
+        }
+      ]
+    },
+    {
+      "id": "why-pointoak-chose-the-independent-ria-model",
+      "title": "Why PointOak Chose the Independent RIA Model",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Different financial-services structures can serve different investors well."
+        },
+        {
+          "type": "p",
+          "text": "PointOak chose the independent RIA structure because we believe it aligns especially well with the way we want to serve individuals and families."
+        },
+        {
+          "type": "p",
+          "text": "We believe an ongoing wealth-management relationship benefits from:"
+        },
+        {
+          "type": "p",
+          "text": "Fiduciary advice"
+        },
+        {
+          "type": "p",
+          "text": "A relationship in which the client's best interests come first."
+        },
+        {
+          "type": "p",
+          "text": "Fee-only compensation"
+        },
+        {
+          "type": "p",
+          "text": "Clients compensate us for advice and investment management rather than through investment-product commissions."
+        },
+        {
+          "type": "p",
+          "text": "Open investment architecture"
+        },
+        {
+          "type": "p",
+          "text": "The ability to evaluate investments and strategies across a broader opportunity set rather than operating within a proprietary product lineup."
+        },
+        {
+          "type": "p",
+          "text": "Integrated financial planning and investment management"
+        },
+        {
+          "type": "p",
+          "text": "Investment decisions can be coordinated with retirement, taxes, workplace benefits, Social Security, estate considerations, and other areas of the client's financial life."
+        },
+        {
+          "type": "p",
+          "text": "Direct access to experienced advisors"
+        },
+        {
+          "type": "p",
+          "text": "Clients work with advisors who know their circumstances and remain involved in the relationship."
+        },
+        {
+          "type": "p",
+          "text": "For investors looking for that combination, we believe the independent RIA model offers meaningful advantages."
+        },
+        {
+          "type": "p",
+          "text": "That is why PointOak was built this way."
+        },
+        {
+          "type": "p",
+          "text": "Considering a different advisory relationship? Learn more about PointOak's independent, fee-only fiduciary approach and how we work with individuals and families.",
+          "segs": [
+            [
+              "Considering a different advisory relationship? Learn more about ",
+              null
+            ],
+            [
+              "PointOak",
+              "/why-point-oak/"
+            ],
+            [
+              "'s independent, fee-only fiduciary approach and how we work with individuals and families.",
+              null
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-structure-behind-the-advice-matters",
+      "title": "The Structure Behind the Advice Matters",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Choosing a financial advisor ultimately comes down to much more than a firm's organizational structure."
+        },
+        {
+          "type": "p",
+          "text": "Experience matters. Judgment matters. Investment philosophy matters. Communication matters. Trust matters."
+        },
+        {
+          "type": "p",
+          "text": "But understanding the structure can help you better evaluate the environment in which the advice is being provided."
+        },
+        {
+          "type": "p",
+          "text": "PointOak Retirement Advisors is an independent, fee-only fiduciary advisory firm providing private wealth management and retirement plan consulting to clients throughout the DC Metro area and nationwide. We offer personalized financial planning and investment management for individuals and families as well as comprehensive retirement plan consulting for businesses."
+        }
+      ]
+    },
+    {
+      "id": "looking-for-an-independent-financial-advisor",
+      "title": "Looking for an Independent Financial Advisor?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "If you're evaluating a new advisory relationship, we can help you determine whether PointOak's approach is the right fit for you."
+        },
+        {
+          "type": "button",
+          "label": "Schedule a Complimentary Consultation",
+          "action": "schedule"
+        }
+      ],
+      "layout": "cta"
+    }
+  ],
+  "sources": [
+    {
+      "label": "SEC: Standards of conduct / Care obligations",
+      "href": "https://www.sec.gov/about/divisions-offices/division-trading-markets/broker-dealers/staff-bulletin-standards-conduct-broker-dealers-investment-advisers-care-obligations"
+    },
+    {
+      "label": "SEC: Standards of conduct / Conflicts of interest",
+      "href": "https://www.sec.gov/about/divisions-offices/division-trading-markets/broker-dealers/staff-bulletin-standards-conduct-broker-dealers-investment-advisers-conflicts-interest"
+    }
+  ]
+}

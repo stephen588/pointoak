@@ -1,0 +1,132 @@
+{
+  "id": "R16",
+  "route": "/corporate-retirement-plans/investment-analysis-monitoring/methodology/",
+  "name": "Investment Analysis & Methodology",
+  "kind": "page",
+  "parentRoute": "/corporate-retirement-plans/investment-analysis-monitoring/",
+  "meta": {
+    "title": "Retirement Plan Investment Analysis Methodology | PointOak",
+    "description": "Learn how PointOak evaluates and monitors retirement plan investments using a structured quantitative and qualitative methodology.",
+    "schema": "Service + BreadcrumbList; shared Organization reference"
+  },
+  "hero": {
+    "title": "Investment Analysis & Methodology",
+    "subtitle": "A structured framework for evaluating retirement plan investments.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Investment oversight is stronger when the committee uses consistent criteria rather than reacting to short-term performance. PointOak applies a documented investment-review process that combines quantitative analysis with qualitative judgment and the standards established in the plan's Investment Policy Statement, when applicable."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "how-pointoak-evaluates-investments",
+      "title": "How PointOak Evaluates Investments",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Quantitative Review",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We evaluate factors such as performance, risk-adjusted results, expenses, style consistency, peer comparisons, and other relevant measures over appropriate time periods."
+                }
+              ]
+            },
+            {
+              "title": "Qualitative Review",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Numbers do not tell the entire story. We consider the people, process, philosophy, and organization behind the strategy, including manager changes, investment-process changes, asset flows, strategy capacity, and other factors that may affect the investment thesis."
+                }
+              ]
+            },
+            {
+              "title": "Active and Passive Strategies",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "The evaluation framework recognizes that active and passive investments should not always be judged the same way. The criteria and relevant time periods are applied based on the role and structure of the investment option."
+                }
+              ]
+            },
+            {
+              "title": "Watchlist & Replacement Discipline",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Investments that fall below established standards may be placed on watch for additional monitoring. A watchlist is not an automatic sell signal; it creates a structured process for determining whether continued monitoring, replacement, or another action is appropriate."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "committee-ready-reporting",
+      "title": "Committee-Ready Reporting",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PointOak translates the analysis into reporting designed for fiduciary decision-making. The goal is to show what was reviewed, why an investment remains appropriate or warrants attention, and the rationale supporting the committee's decision."
+        }
+      ]
+    },
+    {
+      "id": "frequently-asked-questions",
+      "title": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "Does poor short-term performance automatically mean a fund should be replaced?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "No. Performance is one factor. A prudent review considers the investment's role, relevant benchmark and peer group, risk, fees, manager and organizational developments, and the standards established for the plan."
+                }
+              ]
+            },
+            {
+              "q": "How often are plan investments reviewed?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "PointOak generally monitors plan investments on an ongoing basis and provides periodic committee reporting based on the engagement and governance calendar."
+                }
+              ]
+            },
+            {
+              "q": "What is the purpose of an investment watchlist?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "A watchlist identifies investments that warrant closer review under the plan's monitoring framework. It supports a consistent process rather than requiring an immediate replacement decision."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "build-a-more-consistent-investment-review-process",
+      "title": "Build a More Consistent Investment Review Process",
+      "blocks": [
+        {
+          "type": "button",
+          "label": "Schedule a Complimentary Consultation",
+          "action": "schedule"
+        }
+      ],
+      "layout": "cta"
+    }
+  ]
+}

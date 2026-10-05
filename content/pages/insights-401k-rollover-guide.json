@@ -1,0 +1,535 @@
+{
+  "id": "IN01",
+  "route": "/insights/401k-rollover-guide/",
+  "name": "401(k) Rollover Guide: Your Options When Leaving an Employer",
+  "kind": "article",
+  "parentRoute": "/resources/",
+  "meta": {
+    "title": "401(k) Rollover Guide: Your Options | PointOak",
+    "description": "Leaving a job or retiring? Learn your 401(k) rollover options, what to compare before moving your money, and important tax and investment considerations.",
+    "schema": "BlogPosting + BreadcrumbList; shared Organization reference"
+  },
+  "hero": {
+    "title": "401(k) Rollover Guide: Your Options When Leaving an Employer",
+    "subtitle": "Your 401(k) may be one of your largest financial assets. Before you move it, understand your options.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Changing jobs or retiring often creates an important decision: What should you do with your old 401(k)?"
+      },
+      {
+        "type": "p",
+        "text": "For many people, particularly those who have spent years accumulating retirement savings, a 401(k) may represent a significant portion of their investment portfolio. Deciding what to do with it should involve more than simply completing rollover paperwork."
+      },
+      {
+        "type": "p",
+        "text": "Depending on your circumstances and the terms of your plans, you may have several choices. You might leave the account with your former employer, move eligible assets to a new employer's retirement plan, roll the account into an IRA, or take a distribution."
+      },
+      {
+        "type": "p",
+        "text": "Each option has advantages and tradeoffs. The right decision depends on factors such as investment choices, fees, services, withdrawal flexibility, taxes, creditor protections, and how the account fits within your broader financial plan.",
+        "segs": [
+          [
+            "Each option has advantages and tradeoffs. The right decision depends on factors such as investment choices, fees, services, withdrawal flexibility, taxes, creditor protections, and how the account fits within your ",
+            null
+          ],
+          [
+            "broader financial plan",
+            "/services/comprehensive-financial-planning/"
+          ],
+          [
+            ".",
+            null
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Here are some of the issues worth considering before making a move."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "what-are-your-options-for-an-old-401-k",
+      "title": "What Are Your Options for an Old 401(k)?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "When you leave an employer, there are generally four potential paths for your retirement savings."
+        },
+        {
+          "type": "h3",
+          "text": "1. Leave the Money in Your Former Employer's Plan"
+        },
+        {
+          "type": "p",
+          "text": "If the plan permits it, you may be able to leave your 401(k) where it is."
+        },
+        {
+          "type": "p",
+          "text": "That can make sense when the plan offers attractive investments, competitive institutional pricing, services you value, or other plan features you would prefer to retain."
+        },
+        {
+          "type": "p",
+          "text": "Leaving the account in place also gives you more time to evaluate your alternatives. However, maintaining multiple retirement accounts across former employers can eventually make your investments and overall financial plan more difficult to coordinate."
+        },
+        {
+          "type": "h3",
+          "text": "2. Move It to Your New Employer's Plan"
+        },
+        {
+          "type": "p",
+          "text": "If you've changed jobs and your new employer's retirement plan accepts rollovers, you may be able to consolidate your old 401(k) into the new plan."
+        },
+        {
+          "type": "p",
+          "text": "This can simplify your retirement accounts while allowing the assets to remain within an employer-sponsored plan."
+        },
+        {
+          "type": "p",
+          "text": "Before transferring the money, compare the new plan's investment lineup, expenses, services, distribution provisions, and other features with those of your former plan."
+        },
+        {
+          "type": "h3",
+          "text": "3. Roll the 401(k) Into an IRA"
+        },
+        {
+          "type": "p",
+          "text": "An IRA can provide access to a broader investment universe and may make it easier to coordinate your retirement assets with the rest of your investment portfolio and financial plan.",
+          "segs": [
+            [
+              "An IRA can provide access to a ",
+              null
+            ],
+            [
+              "broader investment universe",
+              "/services/investment-management/"
+            ],
+            [
+              " and may make it easier to coordinate your retirement assets with the rest of your investment portfolio and financial plan.",
+              null
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Depending on the custodian and advisory relationship, an IRA may provide access to individual securities, ETFs, mutual funds, separately managed strategies, and, for appropriate investors, certain alternative or private-market investments."
+        },
+        {
+          "type": "p",
+          "text": "But broader investment choice does not automatically make an IRA better."
+        },
+        {
+          "type": "p",
+          "text": "Compare the costs and services of the IRA with your existing 401(k), along with investment options, withdrawal rules, creditor protections, advice available to you, and any plan-specific benefits you could lose by moving the assets."
+        },
+        {
+          "type": "h3",
+          "text": "4. Take a Distribution"
+        },
+        {
+          "type": "p",
+          "text": "You may also have the option to receive the money directly."
+        },
+        {
+          "type": "p",
+          "text": "For most people who don't need the funds immediately, taking a taxable distribution can have significant consequences. Pre-tax amounts that are not rolled over are generally included in taxable income, and an additional 10% federal tax may apply to certain distributions taken before age 59½.",
+          "segs": [
+            [
+              "For most people who don't need the funds immediately, taking a taxable distribution can have significant consequences. ",
+              null
+            ],
+            [
+              "Pre-tax amounts that are not rolled over",
+              "https://www.irs.gov/retirement-plans/plan-participant-employee/rollovers-of-retirement-plan-and-ira-distributions"
+            ],
+            [
+              " are generally included in taxable income, and an additional 10% federal tax may apply to certain distributions taken before age 59½.",
+              null
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "If you're considering taking money out rather than keeping it invested for retirement, understanding the tax consequences before requesting the distribution is particularly important."
+        }
+      ]
+    },
+    {
+      "id": "401-k-or-ira-what-should-you-compare",
+      "title": "401(k) or IRA: What Should You Compare?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "There isn't a universal answer to whether money belongs in a 401(k) or an IRA."
+        },
+        {
+          "type": "p",
+          "text": "Instead, consider how the alternatives compare for your particular account and financial situation."
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Consideration",
+              "401(k)",
+              "IRA"
+            ],
+            [
+              "Investment Options",
+              "Selected by the plan fiduciaries; may include institutionally priced investments",
+              "Generally offers a broader investment universe"
+            ],
+            [
+              "Fees",
+              "May benefit from institutional pricing, although plan and administrative expenses vary",
+              "Costs depend on investments, custodian, and advisory services"
+            ],
+            [
+              "Investment Advice",
+              "Varies by employer and provider",
+              "Can be incorporated into an ongoing advisory relationship"
+            ],
+            [
+              "Account Consolidation",
+              "May allow old accounts to be consolidated into a current employer plan",
+              "Can consolidate eligible retirement assets from multiple former employers"
+            ],
+            [
+              "Withdrawal Options",
+              "Determined partly by plan provisions",
+              "Generally provides greater control over distributions"
+            ],
+            [
+              "Creditor Protection",
+              "Employer plans generally receive strong federal protections under ERISA",
+              "Protections differ and can depend on federal and state law and the source of IRA assets"
+            ],
+            [
+              "Investment Coordination",
+              "May be managed separately from your other investments",
+              "Can be coordinated with taxable, Roth, and other investment accounts"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The comparison becomes particularly important when a 401(k) represents a substantial portion of your wealth."
+        },
+        {
+          "type": "p",
+          "text": "A difference in fees matters—but so can portfolio construction, tax planning, retirement-income needs, and the ability to coordinate the account with the rest of your financial life.",
+          "segs": [
+            [
+              "A difference in fees matters—but so can portfolio construction, tax planning, ",
+              null
+            ],
+            [
+              "retirement-income needs",
+              "/services/retirement-income-planning/"
+            ],
+            [
+              ", and the ability to coordinate the account with the rest of your financial life.",
+              null
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Considering a rollover? PointOak can help you compare your employer plan with your available alternatives and evaluate how each option fits within your broader financial plan.",
+          "segs": [
+            [
+              "Considering a rollover? PointOak can help you ",
+              null
+            ],
+            [
+              "compare your employer plan",
+              "/services/401k-rollovers-roth-conversions/"
+            ],
+            [
+              " with your available alternatives and evaluate how each option fits within your broader financial plan.",
+              null
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "look-beyond-the-rollover-itself",
+      "title": "Look Beyond the Rollover Itself",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "For someone with significant retirement assets, the better question often isn't simply:"
+        },
+        {
+          "type": "p",
+          "text": "\"Where should I move my 401(k)?\""
+        },
+        {
+          "type": "p",
+          "text": "It is:"
+        },
+        {
+          "type": "p",
+          "text": "\"How should this money fit into my overall financial and retirement strategy?\""
+        },
+        {
+          "type": "p",
+          "text": "That can lead to a much broader set of considerations."
+        },
+        {
+          "type": "h3",
+          "text": "Portfolio Construction"
+        },
+        {
+          "type": "p",
+          "text": "Your 401(k) may have been managed independently from your IRAs, taxable investments, spouse's accounts, and other assets."
+        },
+        {
+          "type": "p",
+          "text": "A job change or retirement can be an opportunity to look at everything together."
+        },
+        {
+          "type": "p",
+          "text": "Rather than maintaining the same allocation in every account, you can consider your overall exposure to U.S. and international stocks, fixed income, cash, concentrated positions, and other investments across the household."
+        },
+        {
+          "type": "h3",
+          "text": "Retirement Income"
+        },
+        {
+          "type": "p",
+          "text": "If you're approaching or entering retirement, your 401(k) may eventually become an important source of income."
+        },
+        {
+          "type": "p",
+          "text": "That raises questions beyond investment selection: How much should you withdraw? Which accounts should you draw from first? How much liquidity should you maintain? How might market declines affect withdrawals?"
+        },
+        {
+          "type": "p",
+          "text": "The answers can influence how the portfolio itself should be structured."
+        },
+        {
+          "type": "h3",
+          "text": "Taxes and Roth Conversions"
+        },
+        {
+          "type": "p",
+          "text": "Large pre-tax retirement accounts can also create future tax considerations."
+        },
+        {
+          "type": "p",
+          "text": "Depending on your circumstances, the years after retirement but before required minimum distributions begin may provide opportunities to evaluate partial Roth conversions.",
+          "segs": [
+            [
+              "Depending on your circumstances, the years after retirement but before required minimum distributions begin may provide opportunities to evaluate ",
+              null
+            ],
+            [
+              "partial Roth conversions",
+              "/services/tax-aware-wealth-strategies/"
+            ],
+            [
+              ".",
+              null
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "A rollover decision should therefore be considered alongside your current and expected future taxable income, other retirement accounts, Social Security, Medicare considerations, and longer-term estate objectives."
+        },
+        {
+          "type": "p",
+          "text": "A Roth conversion isn't automatically appropriate simply because an opportunity exists. The potential tax cost and longer-term benefits should be evaluated together."
+        }
+      ]
+    },
+    {
+      "id": "special-situations-to-consider-before-moving-a-401-k",
+      "title": "Special Situations to Consider Before Moving a 401(k)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Some accounts require additional analysis before initiating a rollover."
+        },
+        {
+          "type": "h3",
+          "text": "Company Stock and Net Unrealized Appreciation"
+        },
+        {
+          "type": "p",
+          "text": "If your 401(k) contains highly appreciated employer stock, rolling the entire account into an IRA without first evaluating the position could eliminate the ability to use a potentially favorable tax treatment known as Net Unrealized Appreciation (NUA)."
+        },
+        {
+          "type": "p",
+          "text": "NUA rules are complex and apply only in particular circumstances, but employer stock is one reason to evaluate your options before requesting the transfer."
+        },
+        {
+          "type": "h3",
+          "text": "Roth and After-Tax Contributions"
+        },
+        {
+          "type": "p",
+          "text": "A 401(k) may contain several different sources of money, including pre-tax contributions, Roth 401(k) assets, and, in some plans, after-tax contributions."
+        },
+        {
+          "type": "p",
+          "text": "Those assets don't necessarily need to be handled identically during a rollover. Understanding the source of the money before initiating the transaction can help avoid unintended tax consequences and may create additional planning opportunities."
+        },
+        {
+          "type": "h3",
+          "text": "Outstanding 401(k) Loans"
+        },
+        {
+          "type": "p",
+          "text": "Leaving an employer with an outstanding plan loan can create additional considerations. Depending on the plan and your circumstances, repayment provisions and potential tax consequences may apply."
+        },
+        {
+          "type": "p",
+          "text": "Review the loan before moving the rest of the account."
+        },
+        {
+          "type": "h3",
+          "text": "Required Minimum Distributions"
+        },
+        {
+          "type": "p",
+          "text": "If you're subject to required minimum distributions, an RMD generally cannot be rolled over. The required distribution for the year may need to be addressed before completing a rollover.",
+          "segs": [
+            [
+              "If you're subject to required minimum distributions, ",
+              null
+            ],
+            [
+              "an RMD generally cannot be rolled over",
+              "https://www.irs.gov/retirement-plans/plan-participant-employee/rollovers-of-retirement-plan-and-ira-distributions"
+            ],
+            [
+              ". The required distribution for the year may need to be addressed before completing a rollover.",
+              null
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "RMD rules can also differ between employer plans and IRAs in ways that may affect your decision."
+        },
+        {
+          "type": "h3",
+          "text": "Small Account Balances"
+        },
+        {
+          "type": "p",
+          "text": "Some plans may automatically distribute smaller balances after employment ends. Depending on the plan's provisions, balances of $7,000 or less may be subject to a mandatory distribution. Amounts over $1,000 may generally be automatically rolled into an IRA if you don't make an election, while smaller balances may be distributed directly to you and potentially create tax consequences.",
+          "segs": [
+            [
+              "Some plans may automatically distribute smaller balances after employment ends. Depending on the plan's provisions, ",
+              null
+            ],
+            [
+              "balances of $7,000 or less",
+              "https://www.irs.gov/irb/2026-06_IRB"
+            ],
+            [
+              " may be subject to a mandatory distribution. Amounts over $1,000 may generally be automatically rolled into an IRA if you don't make an election, while smaller balances may be distributed directly to you and potentially create tax consequences.",
+              null
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Even with a small account, making an affirmative decision can help you maintain control over where your retirement savings are held."
+        }
+      ]
+    },
+    {
+      "id": "questions-to-ask-before-rolling-over-your-401-k",
+      "title": "Questions to Ask Before Rolling Over Your 401(k)",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Before initiating a rollover, consider asking:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "What am I currently paying? Look beyond fund expense ratios to understand the overall cost of the plan and the services included.",
+            "What investments would I be giving up or gaining? Some employer plans have attractive institutional investments, while an IRA may provide substantially greater flexibility.",
+            "Do I need investment management or broader financial planning? The value of an advisory relationship should be evaluated alongside its cost.",
+            "Will I need income from this account soon? Retirement-income needs can affect both portfolio construction and account strategy.",
+            "Are there tax-planning opportunities I should evaluate first? Roth conversions, employer stock, after-tax contributions, and distribution timing can warrant additional analysis.",
+            "Would consolidation make my finances easier to manage? Fewer accounts can simplify oversight, but convenience alone shouldn't determine the decision.",
+            "What protections or plan features would I lose? Consider creditor protection and other features of the employer plan before transferring assets."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Most importantly, don't assume that a rollover is necessary simply because you've retired or changed jobs."
+        }
+      ]
+    },
+    {
+      "id": "a-rollover-is-a-financial-planning-decision-not-just-a-transfer",
+      "title": "A Rollover Is a Financial Planning Decision, Not Just a Transfer",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Moving a 401(k) can look deceptively simple."
+        },
+        {
+          "type": "p",
+          "text": "Choose an institution. Open an IRA. Request the transfer."
+        },
+        {
+          "type": "p",
+          "text": "But when the account represents years—or decades—of retirement savings, the more important decisions happen before the paperwork begins."
+        },
+        {
+          "type": "p",
+          "text": "PointOak Retirement Advisors is an independent, fee-only fiduciary advisory firm providing private wealth management and retirement plan consulting to clients throughout the DC Metro area and nationwide. We offer personalized financial planning and investment management for individuals and families as well as comprehensive retirement plan consulting for businesses."
+        },
+        {
+          "type": "p",
+          "text": "Because we work with both individuals and employer-sponsored retirement plans, we can evaluate a 401(k) decision from both perspectives—considering the features of the employer plan, the alternatives available to you, and how those assets fit within your broader financial plan."
+        }
+      ]
+    },
+    {
+      "id": "have-a-401-k-decision-to-make",
+      "title": "Have a 401(k) Decision to Make?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Before moving your retirement assets, understand your available options and how they fit within your broader financial picture."
+        },
+        {
+          "type": "p",
+          "text": "If a client chooses to engage PointOak to manage rollover assets, that relationship may result in advisory fees, creating a financial incentive that should be considered as part of the rollover decision."
+        },
+        {
+          "type": "button",
+          "label": "Schedule a Complimentary Consultation",
+          "action": "schedule"
+        }
+      ],
+      "layout": "cta"
+    }
+  ],
+  "sources": [
+    {
+      "label": "IRS: Rollovers of retirement plan and IRA distributions",
+      "href": "https://www.irs.gov/retirement-plans/plan-participant-employee/rollovers-of-retirement-plan-and-ira-distributions"
+    },
+    {
+      "label": "IRS: Internal Revenue Bulletin 2026-06 / Notice 2026-13",
+      "href": "https://www.irs.gov/irb/2026-06_IRB"
+    },
+    {
+      "label": "IRS: Publication 590-B",
+      "href": "https://www.irs.gov/publications/p590b"
+    }
+  ]
+}

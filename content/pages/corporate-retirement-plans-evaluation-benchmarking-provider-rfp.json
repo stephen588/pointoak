@@ -1,0 +1,471 @@
+{
+  "id": "R13",
+  "route": "/corporate-retirement-plans/evaluation-benchmarking/provider-rfp/",
+  "name": "Provider Evaluation & RFP",
+  "kind": "page",
+  "parentRoute": "/corporate-retirement-plans/evaluation-benchmarking/",
+  "meta": {
+    "title": "401(k) Provider RFP & Evaluation | PointOak",
+    "description": "Evaluate retirement plan providers through structured benchmarking and RFP analysis, whether retaining the incumbent or considering a change.",
+    "schema": "Service + BreadcrumbList; shared Organization reference"
+  },
+  "hero": {
+    "title": "Provider Evaluation & RFP",
+    "subtitle": "Independent provider evaluations that help retirement plan committees make confident, well-documented decisions.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Choosing or replacing a retirement plan recordkeeper is one of the most significant fiduciary decisions a committee makes. While fees matter, they represent only one part of the evaluation. Technology, participant experience, cybersecurity, compliance support, service quality, investment flexibility, and administrative capabilities all affect the long-term success of your retirement plan."
+      },
+      {
+        "type": "p",
+        "text": "PointOak Retirement Advisors provides independent 401(k) recordkeeper evaluation and retirement plan RFP consulting that helps committees compare providers using consistent evaluation criteria—not sales presentations. Our structured process documents every step, creating the fiduciary record your committee needs to support its decisions."
+      },
+      {
+        "type": "chips",
+        "items": [
+          "450+ data points in a full provider search and comprehensive benchmark report",
+          "Independent, fee-only fiduciary advisor",
+          "3(21) investment fiduciary and 3(38) investment manager services available",
+          "No provider affiliations or proprietary products"
+        ]
+      },
+      {
+        "type": "button",
+        "label": "Schedule a Complimentary Consultation",
+        "action": "schedule"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "benefits-of-recordkeeper-evaluation",
+      "title": "Benefits of Recordkeeper Evaluation",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Objective Provider Comparisons",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Every provider is evaluated using identical criteria, allowing your committee to compare capabilities, pricing, participant services, and technology on equal terms."
+                }
+              ]
+            },
+            {
+              "title": "Stronger Fiduciary Documentation",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "A documented evaluation process demonstrates that provider selection followed a prudent, repeatable methodology rather than subjective preference."
+                }
+              ]
+            },
+            {
+              "title": "Better Participant Experience",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Modern retirement plans depend on intuitive participant websites, mobile access, education tools, payroll integration, and responsive customer service. We evaluate every aspect of the participant experience."
+                }
+              ]
+            },
+            {
+              "title": "Greater Negotiating Leverage",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Even when you retain your current provider, a structured evaluation often improves pricing, service commitments, and contract terms."
+                }
+              ]
+            },
+            {
+              "title": "Reduced Operational Risk",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Technology, cybersecurity, compliance support, payroll integration, and operational processes all affect participant outcomes. Independent evaluation helps identify risks before they become problems."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-recordkeeper-evaluation-works",
+      "title": "How Recordkeeper Evaluation Works",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PointOak develops standardized evaluation criteria before reviewing any provider."
+        },
+        {
+          "type": "p",
+          "text": "Every recordkeeper receives identical plan specifications and is scored using objective measures covering pricing, participant services, investment flexibility, compliance support, technology, cybersecurity, implementation resources, and ongoing service capabilities."
+        },
+        {
+          "type": "p",
+          "text": "When appropriate, we manage the complete Request for Proposal (RFP) process, organize finalist presentations, score responses, and prepare committee-ready documentation that supports your final decision."
+        },
+        {
+          "type": "button",
+          "label": "Schedule a Complimentary Consultation",
+          "action": "schedule"
+        }
+      ]
+    },
+    {
+      "id": "what-we-evaluate",
+      "title": "What We Evaluate",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A comprehensive provider evaluation looks well beyond cost."
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Recordkeeping Services",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Administrative capabilities, payroll integration, transaction processing, compliance support, and operational accuracy."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Administration",
+                    "Payroll Integration",
+                    "Compliance Support"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Participant Experience",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Website usability, mobile tools, education resources, financial wellness programs, call center quality, and enrollment experience.",
+                  "segs": [
+                    [
+                      "Website usability, mobile tools, education resources, ",
+                      null
+                    ],
+                    [
+                      "financial wellness programs",
+                      "/corporate-retirement-plans/participant-education-communication/financial-wellness/"
+                    ],
+                    [
+                      ", call center quality, and enrollment experience.",
+                      null
+                    ]
+                  ]
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Participant Education",
+                    "Digital Experience",
+                    "Customer Service"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Technology & Cybersecurity",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Platform architecture, cybersecurity controls, SOC reports, incident response procedures, encryption standards, and business continuity planning."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Cybersecurity",
+                    "Technology Infrastructure",
+                    "Data Protection"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Investment Platform",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Investment flexibility, open architecture, fund availability, managed account capabilities, brokerage windows, and plan design flexibility.",
+                  "segs": [
+                    [
+                      "Investment flexibility, open architecture, fund availability, managed account capabilities, brokerage windows, and ",
+                      null
+                    ],
+                    [
+                      "plan design",
+                      "/corporate-retirement-plans/plan-design/"
+                    ],
+                    [
+                      " flexibility.",
+                      null
+                    ]
+                  ]
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Investment Flexibility",
+                    "Open Architecture",
+                    "Plan Design Support"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "who-benefits-from-recordkeeper-evaluation",
+      "title": "Who Benefits from Recordkeeper Evaluation?",
+      "blocks": [
+        {
+          "type": "list",
+          "lead": "Independent provider evaluation is especially valuable when:",
+          "items": [
+            "Your provider contract is approaching renewal.",
+            "Your committee has never completed a formal RFP.",
+            "Participant complaints continue to increase.",
+            "Your organization has grown significantly.",
+            "You recently completed a merger or acquisition.",
+            "Your provider's technology no longer meets participant expectations.",
+            "You cannot document why your current provider was selected.",
+            "Your committee wants objective market comparisons before renewing an agreement.",
+            "Organizations satisfied with their current provider can still benefit from independent benchmarking before extending a long-term contract."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "what-to-expect",
+      "title": "What To Expect",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The depth and sequence of the review depend on the plan. Steps may be combined or streamlined when the committee already has the information it needs. A documented decision to retain the incumbent can be an appropriate result of the evaluation."
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Analyze",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We review your current provider, contract, fees, participant demographics, and committee objectives."
+                }
+              ]
+            },
+            {
+              "title": "Evaluate",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We compare providers using standardized criteria and, when appropriate, manage a competitive Request for Proposal process."
+                }
+              ]
+            },
+            {
+              "title": "Implement",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We assist with provider selection, contract negotiations, transition planning, committee documentation, and implementation support."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "steps"
+    },
+    {
+      "id": "why-choose-pointoak-for-recordkeeper-evaluation",
+      "title": "Why Choose PointOak for Recordkeeper Evaluation",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Many provider searches are led by firms that receive compensation from the providers being evaluated."
+        },
+        {
+          "type": "p",
+          "text": "PointOak does not."
+        },
+        {
+          "type": "p",
+          "text": "PointOak evaluates providers based on the plan's needs, fees, services, participant experience, and governance objectives. We do not receive investment-product commissions. The committee receives findings and a documented rationale for its decision."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Independent Provider Evaluations",
+            "Fee-Only Advice",
+            "3(21) investment fiduciary and 3(38) investment manager services available",
+            "Structured RFP Management",
+            "Committee Documentation",
+            "450+ data points in a full provider benchmark",
+            "Founder’s retirement-plan experience since 2005"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "about-pointoak-retirement-advisors",
+      "title": "About PointOak Retirement Advisors",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PointOak Retirement Advisors is an independent, fee-only fiduciary advisory firm providing private wealth management and retirement plan consulting to clients throughout the DC Metro area and nationwide. We offer personalized financial planning and investment management for individuals and families as well as comprehensive retirement plan consulting for businesses.",
+          "segs": [
+            [
+              "PointOak Retirement Advisors is an independent, fee-only fiduciary advisory firm providing private ",
+              null
+            ],
+            [
+              "wealth management",
+              "/services/wealth-management/"
+            ],
+            [
+              " and ",
+              null
+            ],
+            [
+              "retirement plan consulting",
+              "/corporate-retirement-plans/"
+            ],
+            [
+              " to clients throughout the DC Metro area and nationwide. We offer personalized financial planning and ",
+              null
+            ],
+            [
+              "investment management",
+              "/services/investment-management/"
+            ],
+            [
+              " for individuals and families as well as comprehensive retirement plan consulting for businesses.",
+              null
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "annual-fee-review-and-periodic-full-benchmarking",
+      "title": "Annual Fee Review and Periodic Full Benchmarking",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PointOak generally conducts a full plan and provider benchmark every three to five years, or sooner when circumstances warrant. In years when we are not conducting a full benchmark, we perform a fee benchmark and work with the provider to reprice the plan annually. The three-to-five-year interval is PointOak's practice, not a DOL or ERISA requirement."
+        }
+      ]
+    },
+    {
+      "id": "frequently-asked-questions",
+      "title": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "When should a retirement plan conduct an RFP?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "A competitive provider search may be appropriate when fee benchmarking, service concerns, organizational changes, or the broader market review warrant a more detailed comparison. A full benchmark does not automatically require changing providers."
+                }
+              ]
+            },
+            {
+              "q": "What is the difference between benchmarking and an RFP?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Benchmarking compares your current provider against the marketplace. An RFP invites providers to submit competitive proposals. Benchmarking often determines whether a formal RFP is necessary."
+                }
+              ]
+            },
+            {
+              "q": "What should be included in a recordkeeper evaluation?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "A complete evaluation reviews fees, participant experience, technology, cybersecurity, compliance support, payroll integration, investment flexibility, implementation resources, service quality, and contractual terms."
+                }
+              ]
+            },
+            {
+              "q": "How long does a typical 401(k) provider search take?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Timing depends on plan complexity, available information, provider responses, committee availability, and the scope of the review. The process can be adapted when information is already known or particular steps are not needed."
+                }
+              ]
+            },
+            {
+              "q": "Can PointOak manage the entire RFP process?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Yes."
+                },
+                {
+                  "type": "p",
+                  "text": "PointOak can develop evaluation criteria, prepare RFP documents, coordinate provider communications, score responses, facilitate finalist presentations, assist with negotiations, and prepare committee documentation throughout the process."
+                }
+              ]
+            },
+            {
+              "q": "Why use an independent consultant instead of letting providers manage the process?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "An independent evaluation can help the committee compare providers using consistent information and criteria rather than relying on a single provider's presentation."
+                },
+                {
+                  "type": "p",
+                  "text": "PointOak documents the findings, tradeoffs, and rationale supporting the committee's decision."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "label": "View More FAQs",
+          "href": "/faq/"
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "is-your-current-provider-still-the-right-fit",
+      "title": "Is Your Current Provider Still the Right Fit?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Evaluate your recordkeeper objectively—or run a competitive search—with a process your committee can clearly document."
+        },
+        {
+          "type": "button",
+          "label": "Schedule a Complimentary Consultation",
+          "action": "schedule"
+        }
+      ],
+      "layout": "cta"
+    }
+  ]
+}

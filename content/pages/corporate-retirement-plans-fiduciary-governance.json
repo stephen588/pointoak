@@ -1,15 +1,17 @@
 {
+  "id": "R06",
   "route": "/corporate-retirement-plans/fiduciary-governance/",
   "name": "Fiduciary Governance & Committee Support",
-  "parent": "Retirement Plan Consulting",
+  "kind": "page",
+  "parentRoute": "/corporate-retirement-plans/",
   "meta": {
     "title": "Retirement Plan Fiduciary Consulting | PointOak",
     "description": "Fiduciary governance and committee support for employer retirement plans, including 3(21), 3(38), governance, and documentation services.",
-    "schema": "Service + FAQPage + BreadcrumbList"
+    "schema": "Service + BreadcrumbList; shared Organization reference"
   },
   "hero": {
-    "title": "ERISA Fiduciary Governance & Committee Support for Retirement Plan Sponsors",
-    "subtitle": "Independent guidance that strengthens your fiduciary process and helps protect your organization.",
+    "title": "Fiduciary Governance & Committee Support",
+    "subtitle": "Independent guidance for a prudent, well-documented fiduciary process.",
     "blocks": [
       {
         "type": "p",
@@ -17,16 +19,22 @@
       },
       {
         "type": "p",
-        "text": "PointOak Retirement Advisors provides independent ERISA fiduciary support that helps retirement plan committees build a documented, repeatable fiduciary process. As a fee-only, SEC-registered investment advisor, we serve as either a 3(21) co-fiduciary or 3(38) investment manager, while also supporting governance, compliance, investment oversight, and committee documentation."
+        "text": "PointOak Retirement Advisors provides independent fiduciary support that helps retirement plan committees build a documented, repeatable fiduciary process. As a fee-only, SEC-registered investment adviser, we serve as either a 3(21) investment fiduciary or 3(38) investment manager, while also supporting governance, investment oversight, provider and fee review, and committee documentation."
       },
       {
         "type": "chips",
         "items": [
-          "Named 3(21) and 3(38) ERISA fiduciary",
-          "Fee-only, SEC-registered investment advisor",
-          "Retirement plan specialists since 2005",
-          "Quarterly investment monitoring and governance support"
+          "3(21) investment fiduciary and 3(38) investment manager services available",
+          "Fee-only, SEC-registered investment adviser"
         ]
+      },
+      {
+        "type": "p",
+        "text": "Founder Darsh Makim has advised clients since 2005."
+      },
+      {
+        "type": "p",
+        "text": "Quarterly investment monitoring and governance support"
       }
     ]
   },
@@ -52,7 +60,7 @@
               "body": [
                 {
                   "type": "p",
-                  "text": "Our recommendations are never influenced by commissions, proprietary investment products, or recordkeeper relationships."
+                  "text": "PointOak is fee-only and independent of proprietary investment requirements. Recommendations are evaluated within the fiduciary responsibilities defined by the engagement."
                 }
               ]
             },
@@ -97,7 +105,7 @@
         },
         {
           "type": "p",
-          "text": "PointOak helps plan sponsors determine the appropriate fiduciary structure while integrating investment monitoring, provider benchmarking, committee governance, and ERISA compliance into one documented process."
+          "text": "PointOak helps plan sponsors determine the appropriate fiduciary structure while integrating investment monitoring, provider benchmarking, committee governance, and fiduciary documentation into one structured process."
         },
         {
           "type": "p",
@@ -105,7 +113,7 @@
         },
         {
           "type": "button",
-          "label": "Schedule Your Consultation",
+          "label": "Schedule a Complimentary Consultation",
           "action": "schedule"
         }
       ]
@@ -126,11 +134,15 @@
               "body": [
                 {
                   "type": "p",
-                  "text": "Maintain control over investment decisions while working alongside an experienced ERISA co-fiduciary. We provide investment recommendations, fiduciary guidance, committee support, and ongoing monitoring while your committee retains final decision-making authority."
+                  "text": "Maintain control over investment decisions while working alongside an experienced 3(21) investment fiduciary. We provide investment recommendations, fiduciary guidance, committee support, and ongoing monitoring while your committee retains final decision-making authority."
                 },
                 {
-                  "type": "p",
-                  "text": "Shared Fiduciary Responsibility • Investment Recommendations • Quarterly Reviews"
+                  "type": "chips",
+                  "items": [
+                    "Shared Fiduciary Responsibility",
+                    "Investment Recommendations",
+                    "Quarterly Reviews"
+                  ]
                 }
               ],
               "link": {
@@ -139,20 +151,24 @@
               }
             },
             {
-              "title": "3(38) Fiduciary Services",
+              "title": "3(38) Investment Manager Services",
               "body": [
                 {
                   "type": "p",
                   "text": "Transfer day-to-day investment responsibility to PointOak. As your 3(38) investment manager, we assume discretionary authority for selecting, monitoring, and replacing plan investments while providing documented oversight throughout the year."
                 },
                 {
-                  "type": "p",
-                  "text": "Discretionary Investment Management • Investment Selection • Continuous Monitoring"
+                  "type": "chips",
+                  "items": [
+                    "Discretionary Investment Management",
+                    "Investment Selection",
+                    "Continuous Monitoring"
+                  ]
                 }
               ],
               "link": {
                 "label": "Learn More",
-                "href": "/corporate-retirement-plans/fiduciary-governance/3-38-investment-manager/"
+                "href": "/corporate-retirement-plans/fiduciary-governance/3-21-fiduciary/"
               }
             },
             {
@@ -163,8 +179,12 @@
                   "text": "Strong governance requires more than good investments. We help committees establish fiduciary processes, maintain documentation, support committee meetings, and create governance procedures designed to satisfy ERISA requirements."
                 },
                 {
-                  "type": "p",
-                  "text": "Committee Governance • ERISA Compliance • Fiduciary Documentation"
+                  "type": "chips",
+                  "items": [
+                    "Committee Governance",
+                    "Investment Oversight",
+                    "Fiduciary Documentation"
+                  ]
                 }
               ],
               "link": {
@@ -177,13 +197,35 @@
               "body": [
                 {
                   "type": "p",
-                  "text": "Keep every benchmark, committee meeting, investment review, provider evaluation, governance record, and fiduciary document organized in one secure location. Your Virtual Fiduciary File creates an audit-ready record of your committee's ongoing fiduciary process while making it easy to retrieve documentation whenever it's needed."
+                  "text": "Keep every benchmark, committee meeting, investment review, provider evaluation, governance record, and fiduciary document organized in one secure location. Your Virtual Fiduciary File creates an well-organized record of your committee's ongoing fiduciary process while making it easy to retrieve documentation whenever it's needed.",
+                  "segs": [
+                    [
+                      "Keep every benchmark, committee meeting, investment review, provider evaluation, governance record, and fiduciary document organized in one secure location. Your ",
+                      null
+                    ],
+                    [
+                      "Virtual Fiduciary File",
+                      "/corporate-retirement-plans/fiduciary-governance/virtual-fiduciary-file/"
+                    ],
+                    [
+                      " creates an well-organized record of your committee's ongoing fiduciary process while making it easy to retrieve documentation whenever it's needed.",
+                      null
+                    ]
+                  ]
                 },
                 {
-                  "type": "p",
-                  "text": "Audit-Ready Documentation • Committee Records • Centralized Fiduciary File"
+                  "type": "chips",
+                  "items": [
+                    "Organized Fiduciary Documentation",
+                    "Committee Records",
+                    "Centralized Fiduciary File"
+                  ]
                 }
-              ]
+              ],
+              "link": {
+                "label": "Learn More",
+                "href": "/corporate-retirement-plans/fiduciary-governance/virtual-fiduciary-file/"
+              }
             }
           ]
         }
@@ -228,11 +270,11 @@
               ]
             },
             {
-              "title": "Optimize",
+              "title": "Structure",
               "body": [
                 {
                   "type": "p",
-                  "text": "We recommend the appropriate fiduciary model while strengthening governance, investment oversight, compliance, and committee processes."
+                  "text": "We recommend an appropriate fiduciary model while strengthening governance, investment oversight, fiduciary documentation, and committee processes."
                 }
               ]
             },
@@ -256,26 +298,23 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Most financial advisors provide retirement plans as one of many services. At PointOak, retirement plan consulting is our primary focus."
+          "text": "Retirement plan consulting is a core area of PointOak's practice, supported by deep experience across fiduciary governance, investments, benchmarking, plan design, and participant education."
         },
         {
           "type": "p",
-          "text": "More than 90% of our work involves helping retirement plan sponsors strengthen fiduciary governance, improve investment oversight, benchmark providers, and document prudent decision-making."
+          "text": "PointOak brings deep retirement-plan experience to plan sponsors, with founder Darsh Makim, CRPC®, advising retirement plan sponsors since 2005."
         },
         {
           "type": "p",
-          "text": "Our fee-only model means every recommendation is made solely in the best interests of your organization and your participants."
+          "text": "PointOak is compensated by clients for its advisory and consulting services and does not receive investment-product commissions. Recommendations are made within the fiduciary scope of the engagement."
         },
         {
-          "type": "p",
-          "text": "3(21) Investment Fiduciary & 3(38) Investment Manager Services"
-        },
-        {
-          "type": "chips",
+          "type": "list",
           "items": [
+            "3(21) Investment Fiduciary & 3(38) Investment Manager Services",
             "Fee-Only Independent Advisor",
             "SEC-Registered Investment Adviser",
-            "Retirement Plan Specialists Since 2005",
+            "Founder’s retirement-plan experience since 2005",
             "Quarterly Investment Reviews",
             "Virtual Fiduciary Documentation",
             "Ongoing Governance Support"
@@ -289,11 +328,21 @@
       "blocks": [
         {
           "type": "p",
-          "text": "PointOak Retirement Advisors is an independent, fee-only wealth advisory firm founded in 2017 and headquartered in McLean, Virginia. As an SEC-registered investment advisor, we serve retirement plan sponsors and high-net-worth individuals nationwide."
-        },
-        {
-          "type": "p",
-          "text": "Our team manages more than $1.08 billion in assets under management and brings over 50 years of collective experience. Founder Darsh Makim, CRPC, has advised retirement plan sponsors since 2005. PointOak serves as a named 3(21) and 3(38) ERISA fiduciary, helping organizations strengthen governance, investment oversight, and participant outcomes."
+          "text": "PointOak Retirement Advisors is an independent, fee-only fiduciary advisory firm providing private wealth management and retirement plan consulting to clients throughout the DC Metro area and nationwide. We offer personalized financial planning and investment management for individuals and families as well as comprehensive retirement plan consulting for businesses.",
+          "segs": [
+            [
+              "PointOak Retirement Advisors is an independent, fee-only fiduciary advisory firm providing private ",
+              null
+            ],
+            [
+              "wealth management",
+              "/services/wealth-management/"
+            ],
+            [
+              " and retirement plan consulting to clients throughout the DC Metro area and nationwide. We offer personalized financial planning and investment management for individuals and families as well as comprehensive retirement plan consulting for businesses.",
+              null
+            ]
+          ]
         }
       ]
     },
@@ -313,16 +362,16 @@
                 },
                 {
                   "type": "p",
-                  "text": "Depending on your needs, fiduciary support may include acting as a 3(21) co-fiduciary, serving as a 3(38) investment manager, assisting with committee governance, conducting fee benchmarking, maintaining fiduciary documentation, and helping monitor investments throughout the year."
+                  "text": "Depending on your needs, fiduciary support may include serving as a 3(21) investment fiduciary or 3(38) investment manager, assisting with committee governance, conducting fee benchmarking, maintaining fiduciary documentation, and helping monitor investments throughout the year."
                 }
               ]
             },
             {
-              "q": "What is the difference between a 3(21) and a 3(38) fiduciary?",
+              "q": "What is the difference between a 3(21) investment fiduciary and a 3(38) investment manager?",
               "a": [
                 {
                   "type": "p",
-                  "text": "A 3(21) fiduciary provides investment advice while the plan sponsor retains final decision-making authority. A 3(38) fiduciary assumes discretionary authority to select, monitor, and replace plan investments."
+                  "text": "A 3(21) investment fiduciary provides investment advice and recommendations while the plan sponsor or committee retains final decision-making authority. A 3(38) investment manager has discretionary authority within the delegated scope to select, monitor, and replace plan investments."
                 },
                 {
                   "type": "p",
@@ -338,7 +387,7 @@
                   "lead": "A comprehensive fiduciary support program may include:",
                   "items": [
                     "Investment monitoring",
-                    "ERISA compliance guidance",
+                    "ERISA-related governance guidance",
                     "Committee governance",
                     "Fee and provider benchmarking",
                     "Fiduciary documentation",
@@ -355,11 +404,25 @@
               "a": [
                 {
                   "type": "p",
-                  "text": "A Virtual Fiduciary File is a centralized repository that stores committee minutes, investment reports, benchmarking studies, governance documents, fiduciary decisions, and supporting documentation."
+                  "text": "A Virtual Fiduciary File is a centralized repository that stores committee minutes, investment reports, benchmarking studies, governance documents, fiduciary decisions, and supporting documentation.",
+                  "segs": [
+                    [
+                      "A ",
+                      null
+                    ],
+                    [
+                      "Virtual Fiduciary File",
+                      "/corporate-retirement-plans/fiduciary-governance/virtual-fiduciary-file/"
+                    ],
+                    [
+                      " is a centralized repository that stores committee minutes, investment reports, benchmarking studies, governance documents, fiduciary decisions, and supporting documentation.",
+                      null
+                    ]
+                  ]
                 },
                 {
                   "type": "p",
-                  "text": "Maintaining organized records helps demonstrate a prudent fiduciary process and provides an audit-ready history of your retirement plan's oversight."
+                  "text": "Maintaining organized records helps demonstrate a prudent fiduciary process and provides an well-organized history of your retirement plan's oversight."
                 }
               ]
             },
@@ -412,8 +475,7 @@
         {
           "type": "button",
           "label": "View More FAQs",
-          "href": "/faq/",
-          "secondary": false
+          "href": "/faq/"
         }
       ],
       "layout": "faq"
@@ -428,7 +490,7 @@
         },
         {
           "type": "button",
-          "label": "Schedule Your Complimentary Consultation",
+          "label": "Schedule a Complimentary Consultation",
           "action": "schedule"
         }
       ],

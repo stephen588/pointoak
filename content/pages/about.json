@@ -1,11 +1,13 @@
 {
+  "id": "C02",
   "route": "/about/",
   "name": "About PointOak Retirement Advisors",
-  "parent": "Home",
+  "kind": "page",
+  "parentRoute": "/",
   "meta": {
     "title": "About PointOak | Fee-Only Fiduciary Advisors | McLean, VA",
     "description": "Learn about PointOak, an independent, fee-only fiduciary wealth advisory firm providing private wealth management and retirement plan consulting from McLean, VA.",
-    "schema": "Organization + Person + FinancialService + BreadcrumbList"
+    "schema": "AboutPage + Person + BreadcrumbList; shared Organization reference"
   },
   "hero": {
     "title": "About PointOak Retirement Advisors",
@@ -13,15 +15,41 @@
     "blocks": [
       {
         "type": "p",
-        "text": "PointOak Retirement Advisors is an independent, fee-only fiduciary wealth advisory firm headquartered in McLean, Virginia."
+        "text": "PointOak Retirement Advisors is an independent, fee-only fiduciary advisory firm providing private wealth management and retirement plan consulting to clients throughout the DC Metro area and nationwide. We offer personalized financial planning and investment management for individuals and families as well as comprehensive retirement plan consulting for businesses.",
+        "segs": [
+          [
+            "PointOak Retirement Advisors is an independent, fee-only fiduciary advisory firm providing private ",
+            null
+          ],
+          [
+            "wealth management",
+            "/services/wealth-management/"
+          ],
+          [
+            " and ",
+            null
+          ],
+          [
+            "retirement plan consulting",
+            "/corporate-retirement-plans/"
+          ],
+          [
+            " to clients throughout the DC Metro area and nationwide. We offer personalized financial planning and ",
+            null
+          ],
+          [
+            "investment management",
+            "/services/investment-management/"
+          ],
+          [
+            " for individuals and families as well as comprehensive retirement plan consulting for businesses.",
+            null
+          ]
+        ]
       },
       {
         "type": "p",
-        "text": "We provide private wealth management and retirement plan consulting to individuals, families, and businesses throughout the DC Metro area and nationwide."
-      },
-      {
-        "type": "p",
-        "text": "As an SEC-registered investment adviser, PointOak serves its advisory clients as a fiduciary. Our approach combines personalized advice, independent investment management, and deep retirement expertise with direct access to experienced advisers who take the time to understand each client’s circumstances."
+        "text": "As an SEC-registered investment adviser, PointOak serves its advisory clients as a fiduciary. Our approach combines personalized advice, independent investment management, and deep retirement expertise with direct access to experienced advisors who take the time to understand each client’s circumstances."
       },
       {
         "type": "button",
@@ -99,7 +127,29 @@
               "body": [
                 {
                   "type": "p",
-                  "text": "For businesses, PointOak provides 3(21) investment fiduciary and 3(38) investment manager services, along with governance, investment oversight, benchmarking, plan design consulting, and participant education."
+                  "text": "For businesses, PointOak provides 3(21) investment fiduciary and 3(38) investment manager services, along with governance, investment oversight, benchmarking, plan design consulting, and participant education.",
+                  "segs": [
+                    [
+                      "For businesses, PointOak provides 3(21) investment fiduciary and ",
+                      null
+                    ],
+                    [
+                      "3(38) investment manager services",
+                      "/corporate-retirement-plans/fiduciary-governance/3-38-investment-manager/"
+                    ],
+                    [
+                      ", along with governance, investment oversight, benchmarking, ",
+                      null
+                    ],
+                    [
+                      "plan design",
+                      "/corporate-retirement-plans/plan-design/"
+                    ],
+                    [
+                      " consulting, and participant education.",
+                      null
+                    ]
+                  ]
                 }
               ]
             }
@@ -147,7 +197,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Our structure is designed to give clients direct access to experienced advisers while maintaining the capabilities needed to address sophisticated investment, planning, and retirement decisions."
+          "text": "Our structure is designed to give clients direct access to experienced advisors while maintaining the capabilities needed to address sophisticated investment, planning, and retirement decisions."
         }
       ]
     },
@@ -163,7 +213,7 @@
               "body": [
                 {
                   "type": "p",
-                  "text": "Darsh Makim has advised retirement plan sponsors and individual clients since 2005. His experience spans employer-sponsored retirement plans, investment management, retirement planning, and private wealth management. Darsh founded PointOak Retirement Advisors to create an independent advisory firm where clients could receive personalized advice, direct access to experienced advisers, and guidance that brings different areas of their financial lives together. Today, he leads PointOak’s private wealth and retirement-plan practices, working with individuals, families, business owners, executives, and retirement-plan sponsors."
+                  "text": "Darsh Makim has advised retirement plan sponsors and individual clients since 2005. His experience spans employer-sponsored retirement plans, investment management, retirement planning, and private wealth management. Darsh founded PointOak Retirement Advisors to create an independent advisory firm where clients could receive personalized advice, direct access to experienced advisors, and guidance that brings different areas of their financial lives together. Today, he leads PointOak’s private wealth and retirement-plan practices, working with individuals, families, business owners, executives, and retirement-plan sponsors."
                 }
               ]
             }

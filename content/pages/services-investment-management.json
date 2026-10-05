@@ -1,15 +1,17 @@
 {
+  "id": "W02",
   "route": "/services/investment-management/",
   "name": "Investment Management",
-  "parent": "Wealth Management",
+  "kind": "page",
+  "parentRoute": "/services/wealth-management/",
   "meta": {
     "title": "Investment Management | PointOak Retirement Advisors",
     "description": "Personalized, open-architecture investment management coordinated with retirement, tax, income, and financial-planning goals.",
-    "schema": "Service + FAQPage + BreadcrumbList"
+    "schema": "Service + BreadcrumbList; shared Organization reference"
   },
   "hero": {
     "title": "Investment Management",
-    "subtitle": "Personalized Investment Management Built Around Your Financial Life",
+    "subtitle": "Your portfolio should be built around your financial life—not the other way around.",
     "blocks": [
       {
         "type": "p",
@@ -17,7 +19,7 @@
       },
       {
         "type": "p",
-        "text": "At PointOak, investment management is never viewed in isolation. Every portfolio we build considers your retirement goals, tax strategy, estate plan, risk tolerance, and income needs. As an independent, fee-only fiduciary, we create personalized investment strategies designed around what's best for you—not products or commissions."
+        "text": "At PointOak, investment management is never viewed in isolation. Every portfolio we build considers your retirement goals, tax considerations, estate-planning considerations, risk tolerance, and income needs. As an independent, fee-only fiduciary, we create personalized investment strategies designed around your goals and broader financial plan—not a proprietary product lineup."
       },
       {
         "type": "chips",
@@ -49,8 +51,8 @@
       ]
     },
     {
-      "id": "how-pointoak-helps",
-      "title": "How PointOak Helps",
+      "id": "how-pointoak-manages-portfolios",
+      "title": "How PointOak Manages Portfolios",
       "blocks": [
         {
           "type": "cards",
@@ -60,25 +62,79 @@
               "body": [
                 {
                   "type": "p",
-                  "text": "No two investors are alike. We build portfolios around your financial goals, timeline, risk tolerance, tax situation, and income needs—not generic allocation models."
+                  "text": "We begin with your financial circumstances rather than a predetermined investment product."
+                },
+                {
+                  "type": "list",
+                  "lead": "Your portfolio is structured around factors such as your:",
+                  "items": [
+                    "Goals | Time Horizon | Risk Tolerance | Income Needs | Tax Considerations | Liquidity Needs | Other Assets",
+                    "The objective is to give each investment account an appropriate role within your broader financial strategy."
+                  ]
                 }
               ]
             },
             {
-              "title": "Tax-Aware Investing",
+              "title": "Strategic Asset Allocation",
               "body": [
                 {
                   "type": "p",
-                  "text": "Keeping more of what you earn can be just as important as generating returns. We incorporate tax-efficient investment strategies, asset location, and withdrawal planning to help improve long-term after-tax outcomes."
+                  "text": "We build diversified portfolios across appropriate asset classes based on the risk and return characteristics needed to support your financial plan."
+                },
+                {
+                  "type": "p",
+                  "text": "Rather than reacting to short-term market headlines, we focus on maintaining an investment strategy aligned with your longer-term objectives while making adjustments when circumstances warrant."
                 }
               ]
             },
             {
-              "title": "Open-Architecture Investment Selection",
+              "title": "Independent, Open-Architecture Investing",
               "body": [
                 {
                   "type": "p",
-                  "text": "Because we are independent, we're free to select investments from across the marketplace rather than being limited to proprietary products or preferred fund families."
+                  "text": "As an independent investment adviser, PointOak isn't limited to a proprietary family of investment products."
+                },
+                {
+                  "type": "p",
+                  "text": "Our investment universe can include ETFs, mutual funds, individual securities, separately managed strategies, and alternative investments, depending on what is appropriate for the client and portfolio."
+                },
+                {
+                  "type": "p",
+                  "text": "For eligible and appropriate investors, we can also evaluate private-market and alternative strategies through specialized investment platforms and asset managers."
+                }
+              ]
+            },
+            {
+              "title": "Cost-Conscious Investment Selection",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Investment costs matter over time."
+                },
+                {
+                  "type": "p",
+                  "text": "We consider expenses alongside investment strategy, diversification, implementation, tax considerations, and other relevant factors when selecting investments for client portfolios."
+                },
+                {
+                  "type": "p",
+                  "text": "Where appropriate, PointOak frequently uses low-cost ETFs and index-based investments as building blocks within diversified portfolios."
+                }
+              ]
+            },
+            {
+              "title": "Tax-Aware Portfolio Management",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Investment decisions can create tax consequences."
+                },
+                {
+                  "type": "p",
+                  "text": "For taxable accounts, we consider factors such as asset location, capital gains and losses, investment turnover, and withdrawal needs when managing the portfolio."
+                },
+                {
+                  "type": "p",
+                  "text": "When broader tax questions arise, we can coordinate with your CPA or tax professional."
                 }
               ]
             },
@@ -87,25 +143,83 @@
               "body": [
                 {
                   "type": "p",
-                  "text": "Markets change. So do your goals. We continually monitor your portfolio and make adjustments as market conditions, tax laws, and life circumstances evolve."
+                  "text": "Portfolios naturally move away from their intended allocations as markets change."
+                },
+                {
+                  "type": "p",
+                  "text": "PointOak monitors client portfolios and rebalances when appropriate to help keep investment exposures aligned with the strategy established for the account."
+                },
+                {
+                  "type": "p",
+                  "text": "We also evaluate whether changes in your financial circumstances, goals, income needs, or other planning considerations warrant changes to the portfolio itself."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "investing-beyond-traditional-markets",
+      "title": "Investing Beyond Traditional Markets",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Broader access can create more ways to build a portfolio.",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Traditional stocks, bonds, ETFs, and mutual funds remain important building blocks in many portfolios. But for appropriate clients, PointOak can also evaluate investment opportunities beyond the traditional public markets."
+                },
+                {
+                  "type": "p",
+                  "text": "Depending on a client's objectives, qualifications, liquidity needs, risk tolerance, time horizon, and broader financial circumstances, that may include:"
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Private Credit",
+                    "Private Equity",
+                    "Real Assets",
+                    "Real Estate",
+                    "Hedge Fund Strategies",
+                    "Structured Investments"
+                  ]
+                },
+                {
+                  "type": "p",
+                  "text": "PointOak evaluates these strategies in the context of the complete portfolio rather than treating alternative investments as standalone products."
+                },
+                {
+                  "type": "p",
+                  "text": "The objective isn't to use alternatives simply because they're available. It's to determine whether a particular strategy has an appropriate role in helping diversify sources of return, generate income, manage particular portfolio exposures, or address other specific investment objectives."
+                },
+                {
+                  "type": "band",
+                  "text": "PUBLIC MARKETS + PRIVATE MARKETS + ALTERNATIVE STRATEGIES"
+                },
+                {
+                  "type": "p",
+                  "text": "One coordinated portfolio."
                 }
               ]
             },
             {
-              "title": "Integrated Wealth Management",
+              "title": "Alternatives Require Additional Consideration",
               "body": [
                 {
                   "type": "p",
-                  "text": "Your investments shouldn't exist in a vacuum. We coordinate investment decisions with retirement planning, estate planning, tax strategies, executive compensation, and other aspects of your financial life."
-                }
-              ]
-            },
-            {
-              "title": "Direct Access to Experienced Advisors",
-              "body": [
+                  "text": "Alternative investments can involve risks and characteristics that differ materially from traditional investments, including limited liquidity, longer investment periods, valuation complexity, higher fees, use of leverage, and different eligibility requirements."
+                },
                 {
                   "type": "p",
-                  "text": "When you have questions, you'll speak with the advisor who understands your financial picture—not a call center or rotating service team. We believe great advice begins with long-term relationships."
+                  "text": "For that reason, alternative investments aren't appropriate for every investor or every portfolio."
+                },
+                {
+                  "type": "p",
+                  "text": "PointOak evaluates their potential role alongside the client's overall allocation, liquidity needs, risk tolerance, investment horizon, and financial plan."
                 }
               ]
             }
@@ -192,7 +306,7 @@
           "text": "As a boutique advisory firm, we intentionally maintain a high-touch service model. You'll work directly with experienced advisors who know your goals, communicate proactively, and remain available whenever questions arise."
         },
         {
-          "type": "chips",
+          "type": "list",
           "items": [
             "Experience at a Glance",
             "Fee-Only Fiduciary",
@@ -222,7 +336,7 @@
               "a": [
                 {
                   "type": "p",
-                  "text": "PointOak integrates investment management with retirement planning, tax strategies, estate planning, and other financial decisions rather than treating your portfolio as a standalone service. As an independent, fee-only fiduciary, our recommendations are based solely on your goals."
+                  "text": "PointOak integrates investment management with retirement planning, tax strategies, estate planning, and other financial decisions rather than treating your portfolio as a standalone service. As an independent, fee-only fiduciary, our recommendations are developed around your goals, circumstances, and the scope of our engagement."
                 }
               ]
             },
@@ -231,7 +345,7 @@
               "a": [
                 {
                   "type": "p",
-                  "text": "Fee-only advisors are compensated directly by their clients rather than through commissions or product sales. This structure helps reduce conflicts of interest and keeps recommendations focused on what's best for you."
+                  "text": "Fee-only advisors are compensated directly by their clients rather than through commissions or product sales. This structure can reduce certain conflicts associated with product sales while keeping the advisory relationship centered on the client's goals."
                 }
               ]
             },
@@ -258,7 +372,21 @@
               "a": [
                 {
                   "type": "p",
-                  "text": "Yes. We help clients manage traditional IRAs, Roth IRAs, taxable investment accounts, inherited accounts, and 401(k) rollovers as part of a coordinated wealth management strategy."
+                  "text": "Yes. We help clients manage traditional IRAs, Roth IRAs, taxable investment accounts, inherited accounts, and 401(k) rollovers as part of a coordinated wealth management strategy.",
+                  "segs": [
+                    [
+                      "Yes. We help clients manage traditional IRAs, Roth IRAs, taxable investment accounts, inherited accounts, and 401(k) rollovers as part of a coordinated ",
+                      null
+                    ],
+                    [
+                      "wealth management",
+                      "/services/wealth-management/"
+                    ],
+                    [
+                      " strategy.",
+                      null
+                    ]
+                  ]
                 }
               ]
             }
@@ -267,8 +395,7 @@
         {
           "type": "button",
           "label": "View More FAQs",
-          "href": "/faq/",
-          "secondary": false
+          "href": "/faq/"
         }
       ],
       "layout": "faq"
@@ -282,37 +409,14 @@
           "text": "Your investment strategy is closely connected to other areas of financial planning."
         },
         {
-          "type": "p",
-          "text": "Continue exploring:"
-        },
-        {
-          "type": "links",
+          "type": "list",
+          "lead": "Continue exploring:",
           "items": [
-            {
-              "label": "Retirement Income Planning",
-              "href": "/services/retirement-income-planning/",
-              "secondary": false
-            },
-            {
-              "label": "Tax-Aware Wealth Strategies",
-              "href": "/services/tax-aware-wealth-strategies/",
-              "secondary": false
-            },
-            {
-              "label": "Comprehensive Financial Planning",
-              "href": "/services/comprehensive-financial-planning/",
-              "secondary": false
-            },
-            {
-              "label": "401(k) Rollovers & Roth Conversions",
-              "href": "/services/401k-rollovers-roth-conversions/",
-              "secondary": false
-            },
-            {
-              "label": "Estate Planning Coordination",
-              "href": "/services/estate-planning-coordination/",
-              "secondary": false
-            }
+            "Retirement Income Planning →",
+            "Tax-Aware Wealth Strategies →",
+            "Comprehensive Financial Planning →",
+            "401(k) Rollovers & Roth Conversions →",
+            "Estate Planning Coordination →"
           ]
         }
       ]
@@ -327,7 +431,7 @@
         },
         {
           "type": "button",
-          "label": "Schedule Your Complimentary Consultation",
+          "label": "Schedule a Complimentary Consultation",
           "action": "schedule"
         }
       ],

@@ -1,18 +1,34 @@
 {
+  "id": "C06",
   "route": "/contact/",
   "name": "Contact / Schedule",
-  "parent": "Home",
+  "kind": "page",
+  "parentRoute": "/",
   "meta": {
     "title": "Contact PointOak | Schedule a Complimentary Consultation",
     "description": "Schedule a complimentary consultation with PointOak Retirement Advisors for wealth management, financial planning, or retirement plan consulting.",
-    "schema": "ContactPage + Organization + BreadcrumbList"
+    "schema": "ContactPage + BreadcrumbList; shared Organization reference"
   },
   "hero": {
     "title": "Start the Conversation",
     "blocks": [
       {
         "type": "p",
-        "text": "Whether you are looking for private wealth management and financial planning or guidance for an employer-sponsored retirement plan, we would be glad to learn more about what you are trying to accomplish."
+        "text": "Whether you are looking for private wealth management and financial planning or guidance for an employer-sponsored retirement plan, we would be glad to learn more about what you are trying to accomplish.",
+        "segs": [
+          [
+            "Whether you are looking for private ",
+            null
+          ],
+          [
+            "wealth management",
+            "/services/wealth-management/"
+          ],
+          [
+            " and financial planning or guidance for an employer-sponsored retirement plan, we would be glad to learn more about what you are trying to accomplish.",
+            null
+          ]
+        ]
       },
       {
         "type": "button",

@@ -1,0 +1,625 @@
+{
+  "id": "IN02",
+  "route": "/insights/retirement-income-planning-withdrawal-rate/",
+  "name": "Retirement Income Planning: Why a Withdrawal Rate Is Not a Plan",
+  "kind": "article",
+  "parentRoute": "/resources/",
+  "meta": {
+    "title": "Retirement Income Planning: Beyond Withdrawal Rates | PointOak",
+    "description": "A retirement withdrawal rate is only one part of the plan. Learn how investments, taxes, Social Security, pensions, and withdrawal sequencing work together.",
+    "schema": "BlogPosting + BreadcrumbList; shared Organization reference"
+  },
+  "hero": {
+    "title": "Retirement Income Planning: Why a Withdrawal Rate Is Not a Plan",
+    "subtitle": "Turning a portfolio into retirement income requires more than choosing a percentage.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "For years, retirement planning is largely about accumulation: how much to save, where to invest, and whether your portfolio is growing toward your goals."
+      },
+      {
+        "type": "p",
+        "text": "Retirement changes the question."
+      },
+      {
+        "type": "p",
+        "text": "Once you begin relying on your investments for income, the focus shifts from simply growing assets to determining how those assets can support your lifestyle over time."
+      },
+      {
+        "type": "p",
+        "text": "That is why choosing a withdrawal rate—even a carefully researched one—is only one part of retirement income planning.",
+        "segs": [
+          [
+            "That is why choosing a withdrawal rate—even a carefully researched one—is only one part of ",
+            null
+          ],
+          [
+            "retirement income plan",
+            "/services/retirement-income-planning/"
+          ],
+          [
+            "ning.",
+            null
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "A useful retirement income strategy should also consider where your cash flow will come from, which accounts to use first, how taxes may affect withdrawals, how Social Security and pensions fit into the picture, what happens during difficult markets, and how your spending may change throughout retirement.",
+        "segs": [
+          [
+            "A useful retirement income strategy should also consider where your cash flow will come from, which accounts to use first, how taxes may affect withdrawals, how ",
+            null
+          ],
+          [
+            "Social Security",
+            "/services/social-security-pension-planning/"
+          ],
+          [
+            " and pensions fit into the picture, what happens during difficult markets, and how your spending may change throughout retirement.",
+            null
+          ]
+        ]
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "the-withdrawal-rate-is-a-starting-point",
+      "title": "The Withdrawal Rate Is a Starting Point",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "One of the most familiar retirement-planning concepts is the idea of withdrawing a certain percentage of a portfolio each year."
+        },
+        {
+          "type": "p",
+          "text": "Rules of thumb can be helpful because they give retirees a framework for estimating whether their savings may support their anticipated spending."
+        },
+        {
+          "type": "p",
+          "text": "But a percentage alone does not answer some of the most important questions:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Which accounts should provide the income?",
+            "Should withdrawals come from taxable investments, IRAs, Roth accounts, or some combination?",
+            "When should Social Security begin?",
+            "How should pension income be incorporated?",
+            "What happens if markets decline early in retirement?",
+            "Should spending remain constant regardless of portfolio performance?",
+            "How should taxes and required distributions affect the strategy?",
+            "How much cash or short-term reserves should be maintained?"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Two households with the same portfolio value and the same initial withdrawal rate can have very different retirement outcomes depending on how these other decisions are handled."
+        },
+        {
+          "type": "p",
+          "text": "That is why we view a withdrawal rate as one input in a broader retirement income plan, rather than the plan itself."
+        }
+      ]
+    },
+    {
+      "id": "start-with-the-income-you-actually-need",
+      "title": "Start With the Income You Actually Need",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Before deciding how much to withdraw from an investment portfolio, it helps to understand how much of your lifestyle actually needs to be funded by investments."
+        },
+        {
+          "type": "p",
+          "text": "Some expenses may be covered by relatively predictable income sources, including:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Social Security",
+            "Pension benefits",
+            "Annuity income, when applicable",
+            "Employment or consulting income",
+            "Rental or other recurring income"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The remaining spending need may then need to come from investment accounts."
+        },
+        {
+          "type": "p",
+          "text": "For example, a household spending $150,000 per year may not need $150,000 from its portfolio if Social Security and pension benefits cover a meaningful portion of that amount."
+        },
+        {
+          "type": "p",
+          "text": "This distinction becomes increasingly important as different sources of income begin at different points in retirement."
+        },
+        {
+          "type": "p",
+          "text": "A retiree may rely more heavily on portfolio withdrawals in the first several years, then require less from investments after Social Security or pension income begins."
+        }
+      ]
+    },
+    {
+      "id": "not-every-retirement-dollar-is-the-same",
+      "title": "Not Every Retirement Dollar Is the Same",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "For many retirees, wealth is spread across several types of accounts:"
+        },
+        {
+          "type": "chips",
+          "items": [
+            "Taxable brokerage accounts",
+            "Traditional IRAs",
+            "401(k)s",
+            "Roth IRAs",
+            "Cash reserves",
+            "Employer stock"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Each has different tax characteristics and withdrawal rules."
+        },
+        {
+          "type": "p",
+          "text": "That means the question isn't simply how much to withdraw. It is also where the money should come from."
+        },
+        {
+          "type": "h3",
+          "text": "Taxable Accounts"
+        },
+        {
+          "type": "p",
+          "text": "Taxable investments may provide flexibility because withdrawing cash itself is not necessarily taxable in the same way as an IRA distribution. Taxes generally depend on interest, dividends, and realized capital gains."
+        },
+        {
+          "type": "p",
+          "text": "This can make taxable assets useful in the early years of retirement, depending on the household's circumstances."
+        },
+        {
+          "type": "h3",
+          "text": "Traditional IRAs and 401(k)s"
+        },
+        {
+          "type": "p",
+          "text": "Distributions from pre-tax retirement accounts are generally taxable as ordinary income."
+        },
+        {
+          "type": "p",
+          "text": "Large balances can eventually create significant required distributions, which makes the timing of withdrawals an important planning consideration even before those requirements begin."
+        },
+        {
+          "type": "h3",
+          "text": "Roth Accounts"
+        },
+        {
+          "type": "p",
+          "text": "Qualified Roth distributions generally do not add to taxable income, making Roth assets potentially valuable for managing taxes and providing flexibility later in retirement.",
+          "segs": [
+            [
+              "Qualified Roth distributions",
+              "https://www.irs.gov/publications/p590b"
+            ],
+            [
+              " generally do not add to taxable income, making Roth assets potentially valuable for managing taxes and providing flexibility later in retirement.",
+              null
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "But that does not necessarily mean Roth accounts should always be spent first—or always preserved until the end."
+        },
+        {
+          "type": "p",
+          "text": "The appropriate sequence depends on the retiree's income, tax situation, estate goals, and other available assets.",
+          "segs": [
+            [
+              "The appropriate sequence depends on the retiree's income, ",
+              null
+            ],
+            [
+              "tax situation",
+              "/services/tax-aware-wealth-strategies/"
+            ],
+            [
+              ", estate goals, and other available assets.",
+              null
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "withdrawal-order-shouldn-t-be-automatic",
+      "title": "Withdrawal Order Shouldn't Be Automatic",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A common rule of thumb is to spend taxable assets first, then tax-deferred retirement accounts, and Roth assets last."
+        },
+        {
+          "type": "p",
+          "text": "That may be appropriate in some situations."
+        },
+        {
+          "type": "p",
+          "text": "But it should not be treated as a universal rule."
+        },
+        {
+          "type": "p",
+          "text": "Imagine a newly retired couple whose income falls significantly after their final paycheck but before Social Security and required distributions begin."
+        },
+        {
+          "type": "p",
+          "text": "Instead of automatically preserving every dollar in their traditional IRA, it may make sense to evaluate whether some IRA withdrawals—or partial Roth conversions—could be taken during those lower-income years."
+        },
+        {
+          "type": "p",
+          "text": "In another situation, drawing from taxable assets may be more appropriate."
+        },
+        {
+          "type": "p",
+          "text": "The point is not that one sequence is better. It is that withdrawal decisions can influence future taxes, and the sequence should be coordinated with the broader retirement plan rather than determined by a preset formula.",
+          "segs": [
+            [
+              "The point is not that one sequence is better. It is that withdrawal decisions can influence future taxes, and the sequence should be coordinated with the ",
+              null
+            ],
+            [
+              "broader retirement plan",
+              "/services/comprehensive-financial-planning/"
+            ],
+            [
+              " rather than determined by a preset formula.",
+              null
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "market-timing-matters-once-you-begin-taking-withdrawals",
+      "title": "Market Timing Matters Once You Begin Taking Withdrawals",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Market volatility affects every investor, but it can have a different impact once a portfolio is also funding retirement spending."
+        },
+        {
+          "type": "p",
+          "text": "This is commonly referred to as sequence-of-returns risk."
+        },
+        {
+          "type": "p",
+          "text": "Consider two retirees who begin with identical portfolios and experience the same average investment return over a long period."
+        },
+        {
+          "type": "p",
+          "text": "If one experiences strong markets early in retirement and the other experiences significant losses early, their outcomes can differ substantially because the second retiree may be forced to sell investments after they have declined to fund living expenses."
+        },
+        {
+          "type": "p",
+          "text": "Those withdrawals permanently remove assets that otherwise might have participated in a later market recovery."
+        },
+        {
+          "type": "p",
+          "text": "The issue isn't simply whether markets eventually recover. It is whether the portfolio has enough flexibility to avoid continually selling depressed assets while waiting for that recovery."
+        }
+      ]
+    },
+    {
+      "id": "a-retirement-portfolio-needs-to-support-withdrawals",
+      "title": "A Retirement Portfolio Needs to Support Withdrawals",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Accumulation portfolios and retirement-income portfolios may share many of the same investments, but they do not necessarily serve the same purpose."
+        },
+        {
+          "type": "p",
+          "text": "Someone who is still working may be able to tolerate significant volatility because employment income is covering current expenses and portfolio withdrawals are years away."
+        },
+        {
+          "type": "p",
+          "text": "A retiree drawing money from the portfolio has another consideration: where does next year's spending come from if stocks fall sharply?"
+        },
+        {
+          "type": "p",
+          "text": "Depending on the circumstances, a retirement portfolio may include a combination of:",
+          "segs": [
+            [
+              "Depending on the circumstances, a ",
+              null
+            ],
+            [
+              "retirement portfolio",
+              "/services/investment-management/"
+            ],
+            [
+              " may include a combination of:",
+              null
+            ]
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Growth-oriented investments for longer-term needs",
+            "High-quality fixed income",
+            "Cash or short-term reserves",
+            "Income-producing investments",
+            "Diversifying strategies",
+            "Other investments appropriate to the investor's objectives and risk tolerance"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The goal is not to eliminate volatility. That is generally neither realistic nor desirable for a long retirement."
+        },
+        {
+          "type": "p",
+          "text": "The objective is to structure the portfolio so near-term spending needs and longer-term growth objectives can be considered together."
+        }
+      ]
+    },
+    {
+      "id": "spending-can-be-flexible-too",
+      "title": "Spending Can Be Flexible Too",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Many retirement projections assume spending increases steadily each year."
+        },
+        {
+          "type": "p",
+          "text": "Actual retirement rarely works that neatly."
+        },
+        {
+          "type": "p",
+          "text": "Some years involve more travel. Others involve a major home project, helping family members, replacing a vehicle, or unexpected healthcare costs. Spending may also decline or change later in retirement."
+        },
+        {
+          "type": "p",
+          "text": "That creates an opportunity for dynamic spending."
+        },
+        {
+          "type": "p",
+          "text": "Rather than assuming the same inflation-adjusted withdrawal regardless of what happens, retirees can establish guidelines for when spending may increase, remain stable, or temporarily slow."
+        },
+        {
+          "type": "p",
+          "text": "For example, after a significant market decline, a retiree with flexibility may decide to postpone a major discretionary purchase or take a smaller inflation adjustment for a year."
+        },
+        {
+          "type": "p",
+          "text": "Conversely, stronger-than-expected portfolio performance may create room for additional spending, gifting, or other financial goals."
+        },
+        {
+          "type": "p",
+          "text": "This does not mean retirement spending needs to change every time the market moves."
+        },
+        {
+          "type": "p",
+          "text": "It means the plan can recognize that some expenses are essential and others are flexible, giving the retirement strategy another lever beyond buying and selling investments."
+        }
+      ]
+    },
+    {
+      "id": "social-security-and-pension-decisions-affect-portfolio-withdrawals",
+      "title": "Social Security and Pension Decisions Affect Portfolio Withdrawals",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The timing of Social Security can materially change how much a retiree needs from investments."
+        },
+        {
+          "type": "p",
+          "text": "Beginning benefits earlier may reduce portfolio withdrawals in the near term, while delaying Social Security can increase the eventual monthly benefit but may require greater portfolio withdrawals during the waiting period."
+        },
+        {
+          "type": "p",
+          "text": "Neither approach is automatically better."
+        },
+        {
+          "type": "p",
+          "text": "The analysis should consider longevity expectations, marital status, survivor benefits, other income, portfolio resources, taxes, and the retiree's broader objectives."
+        },
+        {
+          "type": "p",
+          "text": "Pension elections can raise similar questions."
+        },
+        {
+          "type": "p",
+          "text": "A lump sum may provide flexibility and control, while a monthly pension can provide a predictable stream of lifetime income. When survivor options are available, those choices can also affect a spouse's long-term financial security."
+        },
+        {
+          "type": "p",
+          "text": "These decisions should not be made independently from the investment portfolio. They are part of the same retirement income equation."
+        }
+      ]
+    },
+    {
+      "id": "taxes-can-change-the-amount-you-actually-get-to-spend",
+      "title": "Taxes Can Change the Amount You Actually Get to Spend",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A $100,000 portfolio withdrawal does not necessarily create $100,000 of spendable income."
+        },
+        {
+          "type": "p",
+          "text": "The tax impact can depend on which account provides the money."
+        },
+        {
+          "type": "p",
+          "text": "Withdrawals can also affect other areas of the retirement plan, including:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Taxable income",
+            "Capital gains",
+            "The taxation of Social Security benefits",
+            "Medicare income-related premiums",
+            "Required distributions",
+            "Charitable-giving strategies",
+            "Roth conversion opportunities"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "This is another reason a retirement income plan should look several years ahead rather than making withdrawal decisions one year at a time."
+        },
+        {
+          "type": "p",
+          "text": "A decision that lowers taxes this year may create a larger tax burden later. Conversely, intentionally recognizing more income during certain years may sometimes improve the longer-term picture."
+        },
+        {
+          "type": "p",
+          "text": "Retirement income planning is therefore not simply an investment exercise. It is also a cash-flow and tax-aware planning exercise."
+        }
+      ]
+    },
+    {
+      "id": "required-distributions-eventually-change-the-equation",
+      "title": "Required Distributions Eventually Change the Equation",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "As retirees get older, required minimum distributions from certain tax-deferred retirement accounts can begin driving taxable income whether or not the full amount is needed for spending."
+        },
+        {
+          "type": "p",
+          "text": "For someone with substantial pre-tax retirement savings, that possibility may affect decisions years before required distributions begin."
+        },
+        {
+          "type": "p",
+          "text": "Earlier withdrawals, partial Roth conversions, charitable strategies, and the timing of Social Security can all interact with future required distributions."
+        },
+        {
+          "type": "p",
+          "text": "The appropriate strategy depends on the household's circumstances, but waiting until required distributions begin can mean losing some of the planning flexibility that existed earlier in retirement."
+        }
+      ]
+    },
+    {
+      "id": "a-strong-retirement-income-plan-coordinates-the-moving-pieces",
+      "title": "A Strong Retirement Income Plan Coordinates the Moving Pieces",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A retirement income strategy should help answer several questions together:"
+        },
+        {
+          "type": "p",
+          "text": "How much do we need? Understand expected spending and separate essential expenses from discretionary goals."
+        },
+        {
+          "type": "p",
+          "text": "Where will the income come from? Coordinate Social Security, pensions, taxable investments, retirement accounts, and other income sources."
+        },
+        {
+          "type": "p",
+          "text": "How should the portfolio be invested? Balance near-term withdrawals with the need for long-term growth."
+        },
+        {
+          "type": "p",
+          "text": "Which accounts should we use? Evaluate the tax impact and long-term consequences of the withdrawal sequence."
+        },
+        {
+          "type": "p",
+          "text": "What happens during a difficult market? Establish flexibility before volatility occurs rather than reacting after the fact."
+        },
+        {
+          "type": "p",
+          "text": "How will the plan change over time? Adjust as markets, spending, taxes, family circumstances, and retirement goals evolve."
+        },
+        {
+          "type": "p",
+          "text": "A withdrawal percentage can inform those decisions."
+        },
+        {
+          "type": "p",
+          "text": "It cannot replace them."
+        },
+        {
+          "type": "p",
+          "text": "Planning for retirement income? PointOak helps coordinate investments, withdrawals, taxes, Social Security, pensions, and other financial decisions into one retirement strategy.",
+          "segs": [
+            [
+              "Planning for retirement income? ",
+              null
+            ],
+            [
+              "PointOak",
+              "/services/retirement-income-planning/"
+            ],
+            [
+              " helps coordinate investments, withdrawals, taxes, Social Security, pensions, and other financial decisions into one retirement strategy.",
+              null
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "retirement-income-is-an-ongoing-process",
+      "title": "Retirement Income Is an Ongoing Process",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Retirement may last decades."
+        },
+        {
+          "type": "p",
+          "text": "During that time, markets will change. Tax rules may change. Spending will change. Family circumstances may change. Your goals may change."
+        },
+        {
+          "type": "p",
+          "text": "A retirement income plan should be designed to adapt with them."
+        },
+        {
+          "type": "p",
+          "text": "PointOak Retirement Advisors is an independent, fee-only fiduciary advisory firm providing private wealth management and retirement plan consulting to clients throughout the DC Metro area and nationwide. We offer personalized financial planning and investment management for individuals and families as well as comprehensive retirement plan consulting for businesses."
+        },
+        {
+          "type": "p",
+          "text": "For individuals and families approaching or living in retirement, we coordinate portfolio management with income needs, taxes, Social Security, pensions, retirement accounts, and other elements of the financial plan."
+        }
+      ]
+    },
+    {
+      "id": "turning-your-savings-into-retirement-income",
+      "title": "Turning Your Savings Into Retirement Income?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A withdrawal rate can be a useful starting point. A retirement income plan considers what happens around it."
+        },
+        {
+          "type": "button",
+          "label": "Schedule a Complimentary Consultation",
+          "action": "schedule"
+        }
+      ],
+      "layout": "cta"
+    }
+  ],
+  "sources": [
+    {
+      "label": "IRS: Publication 590-B",
+      "href": "https://www.irs.gov/publications/p590b"
+    },
+    {
+      "label": "SSA: Medicare premiums",
+      "href": "https://www.ssa.gov/benefits/medicare/medicare-premiums.html"
+    }
+  ]
+}

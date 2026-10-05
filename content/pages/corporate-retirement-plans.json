@@ -1,0 +1,302 @@
+{
+  "id": "R01",
+  "route": "/corporate-retirement-plans/",
+  "name": "Retirement Plan Consulting",
+  "kind": "page",
+  "parentRoute": "/",
+  "meta": {
+    "title": "401(k) Plan Consulting | PointOak Retirement Advisors",
+    "description": "Independent retirement plan consulting for fiduciary governance, investments, benchmarking, plan design, target date funds, and participant education.",
+    "schema": "Service + BreadcrumbList; shared Organization reference"
+  },
+  "hero": {
+    "title": "Retirement Plan Consulting",
+    "subtitle": "Independent retirement plan consulting for your organization and its employees.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Managing a retirement plan involves important fiduciary, investment, provider, plan-design, and participant decisions. PointOak partners with business owners, executives, HR leaders, and retirement-plan committees to provide independent retirement plan consulting and ongoing fiduciary support."
+      },
+      {
+        "type": "button",
+        "label": "Schedule a Complimentary Consultation",
+        "action": "schedule"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "why-businesses-choose-pointoak",
+      "title": "Why Businesses Choose PointOak",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Retirement Plan Specialists",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "PointOak brings deep retirement-plan experience to plan sponsors, with founder Darsh Makim, CRPC®, advising retirement plan sponsors since 2005."
+                }
+              ]
+            },
+            {
+              "title": "Independent Fiduciary Advice",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "As an independent, fee-only registered investment adviser, we aren't affiliated with recordkeepers or investment providers. We provide advice within our fiduciary role, with the interests of the plan and its participants at the center of our analysis."
+                }
+              ]
+            },
+            {
+              "title": "Ongoing Partnership",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Your retirement plan isn't something you review once a year. We become an extension of your team, providing ongoing guidance, proactive recommendations, and responsive support whenever questions arise."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "retirement-plan-consulting-services",
+      "title": "Retirement Plan Consulting Services",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Managing a retirement plan involves much more than selecting investments. Every decision—from fiduciary oversight and provider selection to participant education and plan design—affects your employees, your compliance obligations, and your company's long-term success.",
+          "segs": [
+            [
+              "Managing a retirement plan involves much more than selecting investments. Every decision—from fiduciary oversight and provider selection to participant education and ",
+              null
+            ],
+            [
+              "plan design",
+              "/corporate-retirement-plans/plan-design/"
+            ],
+            [
+              "—affects your employees, your compliance obligations, and your company's long-term success.",
+              null
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "PointOak works alongside plan sponsors to coordinate governance, investments, provider reviews, plan design, and participant support."
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Participant Education & Communication",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Help employees understand their retirement benefits and give them direct access to experienced financial guidance. PointOak provides group education, customized communications, financial wellness programs, and complimentary 30-minute individual consultations that employees can schedule directly with a PointOak advisor."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Group Education",
+                    "One-on-One Consultations",
+                    "Financial Wellness",
+                    "Participant Communications"
+                  ]
+                }
+              ],
+              "link": {
+                "label": "Learn More",
+                "href": "/corporate-retirement-plans/participant-education-communication/"
+              }
+            },
+            {
+              "title": "Fiduciary Governance & Committee Support",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We help plan sponsors support their fiduciary responsibilities through investment advice, committee governance, ongoing investment oversight, and documentation. The scope of PointOak's fiduciary role is defined by the engagement."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "3(21) Investment Fiduciary Services",
+                    "3(38) Investment Manager Services",
+                    "Governance",
+                    "Documentation"
+                  ]
+                }
+              ],
+              "link": {
+                "label": "Learn More",
+                "href": "/corporate-retirement-plans/fiduciary-governance/"
+              }
+            },
+            {
+              "title": "401(k) Evaluation & Benchmarking",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Your retirement plan should remain competitive as providers, fees, and regulations evolve. We benchmark your plan using your actual plan data—not industry averages—to evaluate fees, services, investments, and provider performance, giving you the information you need to make confident decisions."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Provider Benchmarking",
+                    "Fee Analysis",
+                    "RFP & Vendor Evaluation"
+                  ]
+                }
+              ],
+              "link": {
+                "label": "Learn More",
+                "href": "/corporate-retirement-plans/evaluation-benchmarking/"
+              }
+            },
+            {
+              "title": "Investment Analysis & Monitoring",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "PointOak combines investment analysis, ongoing monitoring, and recommendations documented within the plan's investment-review process. The menu, managers, costs, and default investment are considered together."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Investment Monitoring",
+                    "Investment Policy Statements",
+                    "Quarterly Fund Reviews"
+                  ]
+                }
+              ],
+              "link": {
+                "label": "Learn More",
+                "href": "/corporate-retirement-plans/investment-analysis-monitoring/"
+              }
+            },
+            {
+              "title": "Target Date Fund Consulting",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Evaluate target date funds through selection and suitability analysis, glide path review, fees, structure, participant demographics, and ongoing monitoring."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "TDF Selection & Suitability",
+                    "Glide Path Analysis",
+                    "Ongoing Monitoring"
+                  ]
+                }
+              ],
+              "link": {
+                "label": "Learn More",
+                "href": "/corporate-retirement-plans/tdf-consulting/"
+              }
+            },
+            {
+              "title": "Plan Design",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "PointOak helps evaluate plan features and industry benchmarks in the context of the organization's objectives and workforce, coordinating implementation with the recordkeeper, TPA, and legal counsel when appropriate."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Automatic Enrollment",
+                    "Safe Harbor Design",
+                    "Employer Contribution Strategies"
+                  ]
+                }
+              ],
+              "link": {
+                "label": "Learn More",
+                "href": "/corporate-retirement-plans/plan-design/"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "why-choose-pointoak",
+      "title": "Why Choose PointOak",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Specialized Expertise. Independent Advice. Ongoing Fiduciary Support.",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "PointOak provides dedicated retirement plan consulting alongside private wealth management. Founder Darsh Makim, CRPC®, has advised retirement plan sponsors and individual clients since 2005."
+                },
+                {
+                  "type": "p",
+                  "text": "Our advisors work with leadership teams and committees on governance, investment oversight, provider benchmarking, and participant support. The Virtual Fiduciary File organizes the documentation created through that work.",
+                  "segs": [
+                    [
+                      "Our advisors work with leadership teams and committees on governance, investment oversight, provider benchmarking, and participant support. The ",
+                      null
+                    ],
+                    [
+                      "Virtual Fiduciary File",
+                      "/corporate-retirement-plans/fiduciary-governance/virtual-fiduciary-file/"
+                    ],
+                    [
+                      " organizes the documentation created through that work.",
+                      null
+                    ]
+                  ]
+                },
+                {
+                  "type": "p",
+                  "text": "PointOak brings deep retirement-plan experience to plan sponsors, with founder Darsh Makim, CRPC®, advising retirement plan sponsors since 2005."
+                },
+                {
+                  "type": "p",
+                  "text": "3(21) investment fiduciary and 3(38) investment manager services"
+                },
+                {
+                  "type": "p",
+                  "text": "Full provider searches and comprehensive benchmark reports review 450+ data points."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Virtual Fiduciary File",
+                    "Committee Records",
+                    "Documented Oversight"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ready-to-build-a-better-retirement-plan",
+      "title": "Ready to Build a Better Retirement Plan?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "From fiduciary oversight to investments, plan design, and employee engagement, we'll help you identify where your plan can be stronger."
+        },
+        {
+          "type": "button",
+          "label": "Schedule a Complimentary Consultation",
+          "action": "schedule"
+        }
+      ],
+      "layout": "cta"
+    }
+  ]
+}

@@ -1,11 +1,13 @@
 {
+  "id": "W06",
   "route": "/services/tax-aware-wealth-strategies/",
   "name": "Tax-Aware Wealth Strategies",
-  "parent": "Wealth Management",
+  "kind": "page",
+  "parentRoute": "/services/wealth-management/",
   "meta": {
     "title": "Tax-Aware Wealth Strategies | PointOak",
     "description": "Coordinate asset location, gain and loss realization, withdrawal sequencing, and Roth conversion planning within a broader wealth strategy.",
-    "schema": "Service + FAQPage + BreadcrumbList"
+    "schema": "Service + BreadcrumbList; shared Organization reference"
   },
   "hero": {
     "title": "Tax-Aware Wealth Strategies",
@@ -191,14 +193,36 @@
         },
         {
           "type": "p",
-          "text": "PointOak combines investment management, retirement planning, and tax-aware financial planning within one coordinated wealth management relationship. That allows us to see how decisions in one area may affect another."
+          "text": "PointOak combines investment management, retirement planning, and tax-aware financial planning within one coordinated wealth management relationship. That allows us to see how decisions in one area may affect another.",
+          "segs": [
+            [
+              "PointOak combines ",
+              null
+            ],
+            [
+              "investment management",
+              "/services/investment-management/"
+            ],
+            [
+              ", retirement planning, and tax-aware financial planning within one coordinated ",
+              null
+            ],
+            [
+              "wealth management",
+              "/services/wealth-management/"
+            ],
+            [
+              " relationship. That allows us to see how decisions in one area may affect another.",
+              null
+            ]
+          ]
         },
         {
           "type": "p",
           "text": "As an independent, fee-only fiduciary firm, our recommendations aren't influenced by commissions or proprietary products. And because tax matters often involve professionals outside our firm, we work directly with your CPA or tax advisor to help keep your financial strategy aligned."
         },
         {
-          "type": "chips",
+          "type": "list",
           "items": [
             "Experience at a Glance",
             "Fee-Only Fiduciary",
@@ -315,8 +339,7 @@
         {
           "type": "button",
           "label": "View More FAQs",
-          "href": "/faq/",
-          "secondary": false
+          "href": "/faq/"
         }
       ],
       "layout": "faq"
@@ -330,37 +353,14 @@
           "text": "Tax-efficient planning often works alongside other areas of your financial strategy."
         },
         {
-          "type": "p",
-          "text": "Continue exploring:"
-        },
-        {
-          "type": "links",
+          "type": "list",
+          "lead": "Continue exploring:",
           "items": [
-            {
-              "label": "Investment Management",
-              "href": "/services/investment-management/",
-              "secondary": false
-            },
-            {
-              "label": "Retirement Income Planning",
-              "href": "/services/retirement-income-planning/",
-              "secondary": false
-            },
-            {
-              "label": "401(k) Rollovers & Roth Conversions",
-              "href": "/services/401k-rollovers-roth-conversions/",
-              "secondary": false
-            },
-            {
-              "label": "Executive Benefits Planning",
-              "href": "/services/executive-benefits-planning/",
-              "secondary": false
-            },
-            {
-              "label": "Comprehensive Financial Planning",
-              "href": "/services/comprehensive-financial-planning/",
-              "secondary": false
-            }
+            "Investment Management →",
+            "Retirement Income Planning →",
+            "401(k) Rollovers & Roth Conversions →",
+            "Executive Benefits Planning →",
+            "Comprehensive Financial Planning →"
           ]
         }
       ]
@@ -375,7 +375,7 @@
         },
         {
           "type": "button",
-          "label": "Schedule Your Complimentary Consultation",
+          "label": "Schedule a Complimentary Consultation",
           "action": "schedule"
         }
       ],

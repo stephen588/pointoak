@@ -1,23 +1,39 @@
 {
+  "id": "C03",
   "route": "/why-point-oak/",
   "name": "Why PointOak",
-  "parent": "Home",
+  "kind": "page",
+  "parentRoute": "/",
   "meta": {
     "title": "Why PointOak | Independent Fee-Only Fiduciary Advisors",
     "description": "Learn how PointOak combines independent, fee-only fiduciary advice with investment management, financial planning, and retirement-plan expertise.",
-    "schema": "Organization + FinancialService + FAQPage + BreadcrumbList"
+    "schema": "WebPage + BreadcrumbList; shared Organization reference"
   },
   "hero": {
-    "title": "Why PointOak?",
+    "title": "Why PointOak",
     "subtitle": "Sophisticated Advice. Straightforward Guidance. A Team That Knows You.",
     "blocks": [
       {
         "type": "p",
-        "text": "Choosing an adviser involves more than investment performance. You should understand who is advising you, how they are compensated, the standard that applies to the relationship, how they approach investments and planning, and whether you can reach the people responsible for your advice."
+        "text": "Choosing an advisor involves more than investment performance. You should understand who is advising you, how they are compensated, the standard that applies to the relationship, how they approach investments and planning, and whether you can reach the people responsible for your advice."
       },
       {
         "type": "p",
-        "text": "PointOak combines the independence and personal attention of a boutique advisory firm with deep experience across private wealth management and employer-sponsored retirement plans."
+        "text": "PointOak combines the independence and personal attention of a boutique advisory firm with deep experience across private wealth management and employer-sponsored retirement plans.",
+        "segs": [
+          [
+            "PointOak combines the independence and personal attention of a boutique advisory firm with deep experience across private ",
+            null
+          ],
+          [
+            "wealth management",
+            "/services/wealth-management/"
+          ],
+          [
+            " and employer-sponsored retirement plans.",
+            null
+          ]
+        ]
       },
       {
         "type": "button",
@@ -28,12 +44,26 @@
   },
   "sections": [
     {
-      "id": "1-your-adviser-should-work-for-you",
-      "title": "1. Your Adviser Should Work for You",
+      "id": "1-your-advisor-should-work-for-you",
+      "title": "1. Your Advisor Should Work for You",
       "blocks": [
         {
           "type": "p",
-          "text": "PointOak is an independent, fee-only fiduciary wealth advisory firm. As an SEC-registered investment adviser, PointOak is required to act in its advisory clients’ best interests and put their interests ahead of its own. We do not receive investment-product commissions or operate a proprietary investment lineup. For retirement plans, PointOak can provide 3(21) investment fiduciary services, where the sponsor or committee retains final decision-making authority, or 3(38) investment manager services, where PointOak exercises delegated investment discretion within the agreed scope."
+          "text": "PointOak is an independent, fee-only fiduciary advisory firm. As an SEC-registered investment adviser, PointOak is required to act in its advisory clients’ best interests and put their interests ahead of its own. We do not receive investment-product commissions or operate a proprietary investment lineup. For retirement plans, PointOak can provide 3(21) investment fiduciary services, where the sponsor or committee retains final decision-making authority, or 3(38) investment manager services, where PointOak exercises delegated investment discretion within the agreed scope.",
+          "segs": [
+            [
+              "PointOak is an independent, fee-only fiduciary advisory firm. As an SEC-registered investment adviser, PointOak is required to act in its advisory clients’ best interests and put their interests ahead of its own. We do not receive investment-product commissions or operate a proprietary investment lineup. For retirement plans, PointOak can provide 3(21) investment fiduciary services, where the sponsor or committee retains final decision-making authority, or ",
+              null
+            ],
+            [
+              "3(38) investment manager services",
+              "/corporate-retirement-plans/fiduciary-governance/3-38-investment-manager/"
+            ],
+            [
+              ", where PointOak exercises delegated investment discretion within the agreed scope.",
+              null
+            ]
+          ]
         }
       ]
     },
@@ -53,7 +83,21 @@
       "blocks": [
         {
           "type": "p",
-          "text": "We coordinate retirement goals, cash flow and income needs, tax considerations, 401(k)s and workplace benefits, Social Security and pensions, executive compensation, estate considerations, and family and legacy goals alongside investment management."
+          "text": "We coordinate retirement goals, cash flow and income needs, tax considerations, 401(k)s and workplace benefits, Social Security and pensions, executive compensation, estate considerations, and family and legacy goals alongside investment management.",
+          "segs": [
+            [
+              "We coordinate retirement goals, cash flow and income needs, tax considerations, 401(k)s and workplace benefits, Social Security and pensions, executive compensation, estate considerations, and family and legacy goals alongside ",
+              null
+            ],
+            [
+              "investment management",
+              "/services/investment-management/"
+            ],
+            [
+              ".",
+              null
+            ]
+          ]
         }
       ]
     },
@@ -78,12 +122,12 @@
       ]
     },
     {
-      "id": "6-you-should-be-able-to-reach-your-adviser",
-      "title": "6. You Should Be Able to Reach Your Adviser",
+      "id": "6-you-should-be-able-to-reach-your-advisor",
+      "title": "6. You Should Be Able to Reach Your Advisor",
       "blocks": [
         {
           "type": "p",
-          "text": "PointOak clients work directly with experienced advisers who know their circumstances. When appropriate, we also coordinate with CPAs, estate attorneys, and other professionals."
+          "text": "PointOak clients work directly with experienced advisors who know their circumstances. When appropriate, we also coordinate with CPAs, estate attorneys, and other professionals."
         }
       ]
     },
@@ -103,8 +147,8 @@
             [
               "Standard of Conduct",
               "Fiduciary: As an SEC-registered investment adviser, PointOak is required to act in advisory clients’ best interests and put their interests ahead of its own.",
-              "May vary by capacity: professionals associated with a broker/dealer may be subject to different standards depending on services and capacity.",
-              "May vary by capacity: professionals may provide brokerage, advisory, or other services, with applicable standards depending on the relationship."
+              "Brokerage recommendations to retail customers: Regulation Best Interest. Advisory services: fiduciary duty. Capacity and engagement matter.",
+              "Brokerage recommendations to retail customers: Regulation Best Interest. Advisory services: fiduciary duty. Capacity and engagement matter."
             ],
             [
               "Investment Selection",
@@ -120,15 +164,15 @@
             ],
             [
               "Service Model",
-              "Personal & direct: clients work directly with experienced PointOak advisers familiar with their circumstances.",
+              "Personal & direct: clients work directly with experienced PointOak advisors familiar with their circumstances.",
               "Varies by practice.",
               "Varies by team."
             ],
             [
               "Ownership & Independence",
               "Independent: independently owned; not part of a broker/dealer or wirehouse.",
-              "Independent practice within a broker/dealer structure: advisers may own or operate practices while using the broker/dealer platform and oversight.",
-              "Part of a larger financial institution: advisers operate within broader platform, policies, and infrastructure."
+              "Independent practice within a broker/dealer structure: advisors may own or operate practices while using the broker/dealer platform and oversight.",
+              "Part of a larger financial institution: advisors operate within broader platform, policies, and infrastructure."
             ]
           ]
         },
@@ -140,7 +184,7 @@
               "body": [
                 {
                   "type": "p",
-                  "text": "Different advisory models can provide valuable services, and the right relationship depends on what a client is looking for. PointOak's structure is designed to provide fiduciary advice, fee-only compensation, open-architecture investment management, and direct access to experienced advisers within an independently owned firm. That's the distinction we want prospects to understand."
+                  "text": "Different advisory models can provide valuable services, and the right relationship depends on what a client is looking for. PointOak's structure is designed to provide fiduciary advice, fee-only compensation, open-architecture investment management, and direct access to experienced advisors within an independently owned firm. That's the distinction we want prospects to understand."
                 }
               ]
             }
@@ -163,11 +207,65 @@
             "401(k) Rollovers & Roth Conversions",
             "Estate Planning Coordination",
             "Employer Retirement Plan Consulting"
+          ],
+          "segs": [
+            [
+              [
+                "Investment Management",
+                "/services/investment-management/"
+              ]
+            ],
+            [
+              [
+                "Comprehensive Financial Planning",
+                "/services/comprehensive-financial-planning/"
+              ]
+            ],
+            [
+              [
+                "Retirement Income Planning",
+                "/services/retirement-income-planning/"
+              ]
+            ],
+            [
+              [
+                "Tax-Aware Wealth Strategies",
+                "/services/tax-aware-wealth-strategies/"
+              ]
+            ],
+            [
+              [
+                "Executive Benefits",
+                null
+              ]
+            ],
+            [
+              [
+                "401(k) Rollovers & Roth Conversions",
+                "/services/401k-rollovers-roth-conversions/"
+              ]
+            ],
+            [
+              [
+                "Estate Planning Coordination",
+                "/services/estate-planning-coordination/"
+              ]
+            ],
+            [
+              [
+                "Employer ",
+                null
+              ],
+              [
+                "Retirement Plan Consulting",
+                "/corporate-retirement-plans/"
+              ]
+            ]
           ]
         },
         {
           "type": "p",
-          "text": "The goal isn't to be the largest advisory firm. It's to provide clients with experienced advice, broad capabilities, and a relationship where their adviser actually knows them."
+          "text": "The goal isn't to be the largest advisory firm. It's to provide clients with experienced advice, broad capabilities, and a relationship where their advisor actually knows them."
         }
       ]
     },

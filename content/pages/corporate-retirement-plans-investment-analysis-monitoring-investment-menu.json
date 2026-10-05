@@ -1,0 +1,170 @@
+{
+  "id": "R17",
+  "route": "/corporate-retirement-plans/investment-analysis-monitoring/investment-menu/",
+  "name": "Investment Menu Design & Structure",
+  "kind": "page",
+  "parentRoute": "/corporate-retirement-plans/investment-analysis-monitoring/",
+  "meta": {
+    "title": "401(k) Investment Menu Design | PointOak",
+    "description": "Evaluate retirement plan investment-menu structure, diversification, manager options, share classes, and participant usability.",
+    "schema": "Service + BreadcrumbList; shared Organization reference"
+  },
+  "hero": {
+    "title": "Investment Menu Design & Structure",
+    "subtitle": "Build an investment lineup that is diversified, understandable, and appropriate for the plan.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "A retirement plan investment menu should give participants meaningful choice without creating unnecessary complexity. PointOak helps committees evaluate the structure of the lineup, the role of each investment option, potential overlap, fees, share classes, manager fit, and the relationship between the core menu and the plan's qualified default investment alternative."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "what-we-evaluate",
+      "title": "What We Evaluate",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Asset-Class Coverage",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We review whether the lineup provides appropriate diversification opportunities across the major asset classes and whether each option has a clear role."
+                }
+              ]
+            },
+            {
+              "title": "Overlap & Redundancy",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Too many similar funds can make participant decisions harder and complicate fiduciary monitoring. We identify unnecessary overlap and evaluate whether a more streamlined structure may be appropriate."
+                }
+              ]
+            },
+            {
+              "title": "Active, Passive & Specialty Options",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We evaluate the purpose, cost, and fit of active and passive strategies and consider specialty options in the context of the plan's objectives and participant needs."
+                }
+              ]
+            },
+            {
+              "title": "Share Classes & Investment Costs",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Where multiple share classes or comparable vehicles are available, we evaluate expenses, revenue arrangements, eligibility, and overall plan economics as part of the selection process."
+                }
+              ]
+            },
+            {
+              "title": "Target Date Funds & QDIA Structure",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "The target date fund series or other qualified default investment alternative (QDIA) is evaluated separately because of its role for participants who rely on the plan's default approach. A target date fund may serve as a QDIA, but the terms are not interchangeable."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "our-process",
+      "title": "Our Process",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Assess",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Review the existing menu, participant usage, investment roles, expenses, and areas of overlap or potential gaps."
+                }
+              ]
+            },
+            {
+              "title": "Design",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Develop a proposed structure that balances diversification, participant usability, investment quality, cost, and fiduciary oversight."
+                }
+              ]
+            },
+            {
+              "title": "Implement & Monitor",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Coordinate approved changes with the recordkeeper and other providers, support participant communications, and continue monitoring the lineup over time."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "steps"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "title": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "How many investment options should a 401(k) plan offer?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "There is no single number that is appropriate for every plan. The menu should provide meaningful diversification while remaining understandable and manageable for participants and the committee."
+                }
+              ]
+            },
+            {
+              "q": "Should a plan offer both active and passive funds?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "That depends on the plan's objectives, investment philosophy, fees, available options, and participant needs. PointOak evaluates the role of each strategy rather than assuming one structure is appropriate for every plan."
+                }
+              ]
+            },
+            {
+              "q": "Why do share classes matter?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Different share classes can have different expense structures and eligibility requirements. Evaluating the available share class is part of reviewing the overall reasonableness and structure of the investment menu."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "create-a-more-intentional-investment-menu",
+      "title": "Create a More Intentional Investment Menu",
+      "blocks": [
+        {
+          "type": "button",
+          "label": "Schedule a Complimentary Consultation",
+          "action": "schedule"
+        }
+      ],
+      "layout": "cta"
+    }
+  ]
+}

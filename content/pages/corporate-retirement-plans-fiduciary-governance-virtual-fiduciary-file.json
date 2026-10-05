@@ -1,0 +1,536 @@
+{
+  "id": "R10",
+  "route": "/corporate-retirement-plans/fiduciary-governance/virtual-fiduciary-file/",
+  "name": "Virtual Fiduciary File",
+  "kind": "page",
+  "parentRoute": "/corporate-retirement-plans/fiduciary-governance/",
+  "meta": {
+    "title": "Retirement Plan Fiduciary Documentation | PointOak",
+    "description": "Organize retirement plan governance records and documentation created through the fiduciary oversight process with PointOak.",
+    "schema": "Service + BreadcrumbList; shared Organization reference"
+  },
+  "hero": {
+    "title": "Virtual Fiduciary File",
+    "subtitle": "Organize every fiduciary decision, benchmark, and committee record in one secure, well-organized location.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Good fiduciary decisions deserve good documentation."
+      },
+      {
+        "type": "p",
+        "text": "ERISA requires retirement plan fiduciaries to demonstrate a prudent process—not simply make prudent decisions. If your committee cannot show when providers were benchmarked, investments were reviewed, or decisions were documented, it becomes difficult to demonstrate that your fiduciary responsibilities have been fulfilled."
+      },
+      {
+        "type": "p",
+        "text": "PointOak's Virtual Fiduciary File keeps every important retirement plan document organized in one secure location. Committee minutes, investment reviews, fee benchmarking reports, governance records, provider evaluations, and fiduciary documentation are maintained throughout the year, giving your organization a complete record of its fiduciary process."
+      },
+      {
+        "type": "chips",
+        "items": [
+          "Secure, centralized fiduciary documentation",
+          "Committee-ready governance records",
+          "Well-organized retirement plan documentation",
+          "Ongoing document maintenance and organization"
+        ]
+      },
+      {
+        "type": "button",
+        "label": "Schedule a Complimentary Consultation",
+        "action": "schedule"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "benefits-of-the-virtual-fiduciary-file",
+      "title": "Benefits of the Virtual Fiduciary File",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Stronger Fiduciary Documentation",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "A documented fiduciary process demonstrates that your committee consistently reviews investments, providers, fees, and governance responsibilities rather than relying on memory or scattered records."
+                }
+              ]
+            },
+            {
+              "title": "Organized Documentation for Reviews & Audits",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Whether responding to a Department of Labor inquiry, onboarding a new committee member, or preparing for an internal review, every important document is organized and easily accessible."
+                }
+              ]
+            },
+            {
+              "title": "Better Committee Continuity",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Committee membership changes over time. Maintaining a complete fiduciary record allows new members to understand prior decisions, benchmark history, and ongoing responsibilities without recreating past work."
+                }
+              ]
+            },
+            {
+              "title": "Improved Governance",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Keeping meeting minutes, investment reports, provider evaluations, and committee decisions together creates a repeatable governance process that supports consistent fiduciary oversight."
+                }
+              ]
+            },
+            {
+              "title": "Less Administrative Burden",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Instead of searching through emails, shared drives, and multiple vendors, your retirement plan documentation remains organized in one centralized location maintained as part of your ongoing consulting relationship."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-the-virtual-fiduciary-file-works",
+      "title": "How the Virtual Fiduciary File Works",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Every retirement plan produces documentation throughout the year. Investment reviews, provider benchmarking, committee meetings, fee analyses, governance updates, and compliance activities all contribute to your fiduciary record."
+        },
+        {
+          "type": "p",
+          "text": "PointOak organizes those materials into a structured Virtual Fiduciary File that grows alongside your retirement plan. Rather than treating documentation as an annual project, we maintain it continuously as part of your ongoing fiduciary process."
+        },
+        {
+          "type": "p",
+          "text": "The result is a complete, well-organized record that supports committee decision-making, regulatory readiness, and long-term governance."
+        },
+        {
+          "type": "button",
+          "label": "Schedule a Complimentary Consultation",
+          "action": "schedule"
+        }
+      ]
+    },
+    {
+      "id": "what-s-included-in-your-virtual-fiduciary-file",
+      "title": "What's Included in Your Virtual Fiduciary File",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Your Virtual Fiduciary File serves as the central repository for the documentation created throughout our consulting relationship."
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Committee Meeting Documentation",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Maintain complete records of committee meetings, agendas, attendance, meeting minutes, recommendations, and decisions to demonstrate ongoing fiduciary oversight."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Meeting Minutes",
+                    "Committee Agendas",
+                    "Decision Documentation"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Investment Reviews",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Quarterly investment reports, watch lists, Investment Policy Statement reviews, fund recommendations, and investment monitoring are organized for easy reference."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Quarterly Monitoring",
+                    "IPS Support",
+                    "Investment Documentation"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Benchmarking & Provider Evaluations",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Store fee benchmarking reports, provider comparisons, RFP documentation, vendor evaluations, and recommendation summaries that support prudent provider selection."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Benchmark Reports",
+                    "Provider Evaluations",
+                    "RFP Documentation"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Fiduciary Governance Records",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Maintain governance documents, committee charters, fiduciary policies, compliance records, and other materials that demonstrate a structured fiduciary process."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Governance Policies",
+                    "Compliance Records",
+                    "Fiduciary Documentation"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "documentation-that-supports-every-other-service",
+      "title": "Documentation That Supports Every Other Service",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The Virtual Fiduciary File connects every aspect of PointOak's retirement plan consulting into one organized fiduciary record.",
+          "segs": [
+            [
+              "The Virtual Fiduciary File connects every aspect of PointOak's ",
+              null
+            ],
+            [
+              "retirement plan consulting",
+              "/corporate-retirement-plans/"
+            ],
+            [
+              " into one organized fiduciary record.",
+              null
+            ]
+          ]
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "ERISA Fiduciary Support",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Every governance recommendation, committee meeting, and fiduciary decision becomes part of your documented fiduciary process."
+                }
+              ],
+              "link": {
+                "label": "Learn More",
+                "href": "/corporate-retirement-plans/fiduciary-governance/"
+              }
+            },
+            {
+              "title": "Investment Analysis",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Quarterly investment reviews, watch lists, fund evaluations, and Investment Policy Statement updates are maintained within your fiduciary file."
+                }
+              ],
+              "link": {
+                "label": "Learn More",
+                "href": "/corporate-retirement-plans/investment-analysis-monitoring/"
+              }
+            },
+            {
+              "title": "Evaluation & Benchmarking",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Fee benchmarking reports, provider evaluations, cybersecurity reviews, and RFP documentation are securely organized alongside the committee's decisions."
+                }
+              ],
+              "link": {
+                "label": "Learn More",
+                "href": "/corporate-retirement-plans/evaluation-benchmarking/"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "who-benefits-from-a-virtual-fiduciary-file",
+      "title": "Who Benefits from a Virtual Fiduciary File?",
+      "blocks": [
+        {
+          "type": "list",
+          "lead": "Retirement plan documentation becomes increasingly valuable when:",
+          "items": [
+            "Your committee wants a consistent fiduciary record.",
+            "Multiple people share fiduciary responsibilities.",
+            "Committee membership changes periodically.",
+            "Your plan undergoes provider reviews or benchmarking.",
+            "You're preparing for a Department of Labor audit or regulatory review.",
+            "Your organization wants a more structured governance process."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Smaller organizations may manage documentation internally, but growing retirement plans often benefit from a centralized, professionally maintained fiduciary record."
+        }
+      ]
+    },
+    {
+      "id": "what-to-expect",
+      "title": "What To Expect",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Organize",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We gather your existing retirement plan documentation, governance records, investment reports, committee materials, and benchmarking history."
+                }
+              ]
+            },
+            {
+              "title": "Structure",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Documents are categorized into a logical fiduciary framework that supports governance, committee oversight, benchmarking, and investment monitoring."
+                }
+              ]
+            },
+            {
+              "title": "Maintain",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "As PointOak performs ongoing benchmarking, investment analysis, fiduciary consulting, and governance support, new documentation is continuously added so your fiduciary file remains current and well-organized."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "steps"
+    },
+    {
+      "id": "why-choose-pointoak-for-retirement-plan-documentation",
+      "title": "Why Choose PointOak for Retirement Plan Documentation",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Documentation is one of the most overlooked parts of fiduciary governance."
+        },
+        {
+          "type": "p",
+          "text": "Many retirement plan committees conduct investment reviews, benchmark providers, and discuss important decisions—but the documentation remains scattered across email folders, shared drives, and multiple vendors. When documentation is difficult to locate, demonstrating a prudent fiduciary process becomes much more challenging."
+        },
+        {
+          "type": "p",
+          "text": "PointOak integrates documentation into every engagement. Rather than creating reports that disappear after a meeting, we organize each benchmark, recommendation, committee decision, and governance record into a continuously maintained Virtual Fiduciary File that supports your long-term fiduciary responsibilities."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Secure Virtual Fiduciary File",
+            "Committee-Ready Documentation",
+            "Organized Fiduciary Records",
+            "Ongoing Governance Support",
+            "Investment & Benchmarking Records",
+            "Founder’s retirement-plan experience since 2005",
+            "Fee-Only Independent Fiduciary"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "about-pointoak-retirement-advisors",
+      "title": "About PointOak Retirement Advisors",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PointOak Retirement Advisors is an independent, fee-only fiduciary advisory firm providing private wealth management and retirement plan consulting to clients throughout the DC Metro area and nationwide. We offer personalized financial planning and investment management for individuals and families as well as comprehensive retirement plan consulting for businesses.",
+          "segs": [
+            [
+              "PointOak Retirement Advisors is an independent, fee-only fiduciary advisory firm providing private ",
+              null
+            ],
+            [
+              "wealth management",
+              "/services/wealth-management/"
+            ],
+            [
+              " and retirement plan consulting to clients throughout the DC Metro area and nationwide. We offer personalized financial planning and ",
+              null
+            ],
+            [
+              "investment management",
+              "/services/investment-management/"
+            ],
+            [
+              " for individuals and families as well as comprehensive retirement plan consulting for businesses.",
+              null
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frequently-asked-questions",
+      "title": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "What is a Virtual Fiduciary File?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "A Virtual Fiduciary File is a secure, organized repository that stores the documents supporting your retirement plan's fiduciary process."
+                },
+                {
+                  "type": "p",
+                  "text": "Rather than keeping committee minutes, investment reports, fee benchmarks, provider evaluations, and governance documents in multiple locations, everything is maintained in one centralized location. The result is a complete fiduciary record that supports committee continuity, regulatory readiness, and ongoing governance."
+                }
+              ]
+            },
+            {
+              "q": "What documents should be included in a retirement plan fiduciary file?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "A comprehensive fiduciary file should include committee meeting minutes, investment reviews, fee benchmarking reports, provider evaluations, governance documents, Investment Policy Statements, fiduciary policies, and documentation supporting major committee decisions."
+                },
+                {
+                  "type": "p",
+                  "text": "The goal is to demonstrate a consistent, well-documented fiduciary process over time rather than isolated decisions."
+                }
+              ]
+            },
+            {
+              "q": "Does ERISA require a fiduciary file?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "ERISA requires fiduciaries to act prudently and document their decision-making process, but it does not prescribe one specific filing system."
+                },
+                {
+                  "type": "p",
+                  "text": "Maintaining an organized fiduciary file is considered a best practice because it allows committees to demonstrate ongoing oversight, provider monitoring, investment review, and governance activities if questions arise."
+                }
+              ]
+            },
+            {
+              "q": "How often should fiduciary documentation be updated?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Documentation should be updated whenever significant fiduciary activities occur."
+                },
+                {
+                  "type": "p",
+                  "text": "Committee meetings, quarterly investment reviews, benchmarking studies, provider evaluations, governance updates, and major plan decisions should all be incorporated into the fiduciary record as they happen rather than collected at year-end."
+                }
+              ]
+            },
+            {
+              "q": "What happens if the Department of Labor audits our retirement plan?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "A well-organized fiduciary file allows your organization to quickly locate documentation supporting provider selection, fee benchmarking, investment monitoring, committee decisions, and governance practices."
+                },
+                {
+                  "type": "p",
+                  "text": "Having organized documentation can significantly simplify the audit process and demonstrate a prudent fiduciary approach."
+                }
+              ]
+            },
+            {
+              "q": "Who should have access to the Virtual Fiduciary File?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Access is typically limited to individuals with fiduciary responsibilities, such as retirement plan committee members, HR leadership, finance executives, legal counsel, and authorized advisors."
+                },
+                {
+                  "type": "p",
+                  "text": "Maintaining controlled access helps protect sensitive plan information while ensuring the committee can retrieve documentation when needed."
+                }
+              ]
+            },
+            {
+              "q": "Can PointOak maintain our fiduciary documentation for us?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Yes."
+                },
+                {
+                  "type": "p",
+                  "text": "Maintaining your Virtual Fiduciary File is part of PointOak's broader fiduciary consulting approach. As we perform investment reviews, benchmarking, governance support, and committee consulting, the related documentation is organized and maintained throughout the engagement."
+                }
+              ]
+            },
+            {
+              "q": "Does the Virtual Fiduciary File replace our recordkeeper's documents?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "No."
+                },
+                {
+                  "type": "p",
+                  "text": "Your recordkeeper maintains participant records and plan administration documents. The Virtual Fiduciary File complements those records by organizing the committee's governance documentation, fiduciary analyses, benchmarking reports, investment reviews, and decision-making records that typically are not maintained by the recordkeeper."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "label": "View More FAQs",
+          "href": "/faq/"
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "strengthen-your-fiduciary-documentation",
+      "title": "Strengthen Your Fiduciary Documentation",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Bring your committee decisions, reviews, benchmarks, and governance documentation together in one organized fiduciary record."
+        },
+        {
+          "type": "button",
+          "label": "Schedule a Complimentary Consultation",
+          "action": "schedule"
+        }
+      ],
+      "layout": "cta"
+    }
+  ]
+}

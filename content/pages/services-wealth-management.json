@@ -1,19 +1,43 @@
 {
+  "id": "W01",
   "route": "/services/wealth-management/",
   "name": "Wealth Management",
-  "parent": "Home",
+  "kind": "page",
+  "parentRoute": "/",
   "meta": {
     "title": "Wealth Management | Fee-Only Advisors in McLean, VA | PointOak",
     "description": "Independent, fiduciary wealth management integrating investments, financial planning, retirement, taxes, and major financial decisions for individuals and families.",
-    "schema": "Service + FAQPage + BreadcrumbList"
+    "schema": "Service + BreadcrumbList; shared Organization reference"
   },
   "hero": {
-    "title": "Wealth Management for Individuals & Families",
+    "title": "Wealth Management",
     "subtitle": "Independent, fiduciary advice built around your entire financial life.",
     "blocks": [
       {
         "type": "p",
-        "text": "PointOak provides personalized wealth management, investment management, and comprehensive financial planning designed to bring decisions together into one coordinated strategy."
+        "text": "PointOak provides personalized wealth management, investment management, and comprehensive financial planning designed to bring decisions together into one coordinated strategy.",
+        "segs": [
+          [
+            "PointOak provides personalized wealth management, ",
+            null
+          ],
+          [
+            "investment management",
+            "/services/investment-management/"
+          ],
+          [
+            ", and ",
+            null
+          ],
+          [
+            "comprehensive financial planning",
+            "/services/comprehensive-financial-planning/"
+          ],
+          [
+            " designed to bring decisions together into one coordinated strategy.",
+            null
+          ]
+        ]
       },
       {
         "type": "list",
@@ -22,6 +46,32 @@
           "Investment Management",
           "Comprehensive Financial Planning",
           "Retirement & Tax-Aware Planning"
+        ],
+        "segs": [
+          [
+            [
+              "Fiduciary Advice",
+              null
+            ]
+          ],
+          [
+            [
+              "Investment Management",
+              "/services/investment-management/"
+            ]
+          ],
+          [
+            [
+              "Comprehensive Financial Planning",
+              "/services/comprehensive-financial-planning/"
+            ]
+          ],
+          [
+            [
+              "Retirement & Tax-Aware Planning",
+              null
+            ]
+          ]
         ]
       },
       {
@@ -71,7 +121,7 @@
               "body": [
                 {
                   "type": "p",
-                  "text": "Direct access to experienced advisers."
+                  "text": "Direct access to experienced advisors."
                 }
               ]
             }
@@ -98,39 +148,175 @@
       "title": "Private Wealth Services",
       "blocks": [
         {
-          "type": "links",
+          "type": "cards",
           "items": [
             {
-              "label": "Investment Management",
-              "href": "/services/investment-management/"
+              "title": "Investment Management",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Your investment strategy should reflect your complete financial picture. PointOak builds and manages portfolios using an open-architecture approach that can incorporate traditional and alternative investments when appropriate for the client's objectives and circumstances."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Portfolio Construction",
+                    "Public & Alternative Investments",
+                    "Asset Allocation",
+                    "Ongoing Monitoring"
+                  ]
+                }
+              ]
             },
             {
-              "label": "Comprehensive Financial Planning",
-              "href": "/services/comprehensive-financial-planning/"
+              "title": "Comprehensive Financial Planning",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We help coordinate investments, retirement, cash flow, workplace benefits, estate considerations, and other major financial decisions within a comprehensive financial plan."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Goal-Based Planning",
+                    "Cash Flow",
+                    "Life Transitions",
+                    "Major Financial Decisions"
+                  ]
+                }
+              ]
             },
             {
-              "label": "401(k) Rollovers & Roth Conversions",
-              "href": "/services/401k-rollovers-roth-conversions/"
+              "title": "401(k) Rollovers & Roth Conversions",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Changing jobs or retiring can create important decisions around employer retirement accounts."
+                },
+                {
+                  "type": "p",
+                  "text": "We help evaluate available options for existing retirement assets and consider rollover and Roth conversion decisions within the context of your investments, taxes, retirement income, and broader financial plan."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "401(k) Options",
+                    "IRA Rollovers",
+                    "Account Consolidation",
+                    "Roth Conversion Planning"
+                  ]
+                }
+              ]
             },
             {
-              "label": "Retirement Income Planning",
-              "href": "/services/retirement-income-planning/"
+              "title": "Retirement Income Planning",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "The transition from accumulating wealth to drawing income creates an entirely different set of decisions."
+                },
+                {
+                  "type": "p",
+                  "text": "We help coordinate portfolio withdrawals, Social Security, pensions, required distributions, taxes, and spending needs within your broader retirement strategy."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Retirement Income",
+                    "Withdrawal Strategies",
+                    "RMD Planning",
+                    "Income Coordination"
+                  ]
+                }
+              ]
             },
             {
-              "label": "Tax-Aware Wealth Strategies",
-              "href": "/services/tax-aware-wealth-strategies/"
+              "title": "Tax-Aware Wealth Strategies",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Taxes can influence investment decisions, retirement distributions, Roth conversions, asset location, and other aspects of your financial plan."
+                },
+                {
+                  "type": "p",
+                  "text": "PointOak incorporates tax-aware planning into the financial and investment decisions we manage while coordinating with your tax professional when appropriate."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Asset Location",
+                    "Tax-Loss Harvesting",
+                    "Roth Conversion Planning",
+                    "Withdrawal Sequencing"
+                  ]
+                }
+              ]
             },
             {
-              "label": "Executive Benefits Planning",
-              "href": "/services/executive-benefits-planning/"
+              "title": "Executive Benefits Planning",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Executive compensation can create opportunities—and complexity—that extend well beyond a paycheck."
+                },
+                {
+                  "type": "p",
+                  "text": "We help executives evaluate equity compensation, deferred compensation, retirement benefits, and other workplace benefits as part of their broader investment and financial plan."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Equity Compensation",
+                    "Deferred Compensation",
+                    "Executive Retirement Benefits",
+                    "Workplace Benefits"
+                  ]
+                }
+              ]
             },
             {
-              "label": "Social Security & Pension Planning",
-              "href": "/services/social-security-pension-planning/"
+              "title": "Social Security & Pension Planning",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Social Security and pension elections can affect retirement income for years to come."
+                },
+                {
+                  "type": "p",
+                  "text": "We model different claiming and pension scenarios and evaluate them alongside portfolio withdrawals, taxes, longevity considerations, and other retirement-income resources."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Social Security Timing",
+                    "Pension Elections",
+                    "Survivor Considerations",
+                    "Retirement Income"
+                  ]
+                }
+              ]
             },
             {
-              "label": "Estate Planning Coordination",
-              "href": "/services/estate-planning-coordination/"
+              "title": "Estate Planning Coordination",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Your financial plan and estate plan shouldn't operate independently."
+                },
+                {
+                  "type": "p",
+                  "text": "PointOak helps review beneficiaries, account ownership, retirement assets, and other financial considerations while coordinating with your estate attorney and tax professionals."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Beneficiary Reviews",
+                    "Wealth Transfer",
+                    "Trust Coordination",
+                    "Professional Coordination"
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -147,8 +333,7 @@
         {
           "type": "button",
           "label": "Explore Your 401(k) Rollover Options",
-          "href": "/services/401k-rollovers-roth-conversions/",
-          "secondary": false
+          "href": "/services/401k-rollovers-roth-conversions/"
         }
       ]
     },
@@ -204,7 +389,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "PointOak combines direct access to experienced advisers with broad investment and planning capabilities. When appropriate, we also coordinate with a client’s CPA, estate attorney, and other professionals so important decisions are considered together."
+          "text": "PointOak combines direct access to experienced advisors with broad investment and planning capabilities. When appropriate, we also coordinate with a client’s CPA, estate attorney, and other professionals so important decisions are considered together."
         }
       ]
     },
@@ -255,6 +440,90 @@
         }
       ],
       "layout": "steps"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "title": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "What is wealth management?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Wealth management combines investment management with broader financial planning. At PointOak, that may include retirement planning, tax-aware strategies, workplace benefits, Social Security and pensions, estate planning coordination, executive benefits, and other financial decisions depending on your circumstances."
+                }
+              ]
+            },
+            {
+              "q": "Do you provide both investment management and financial planning?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Yes. PointOak integrates investment management and financial planning so your portfolio can be considered within the context of your broader goals and financial circumstances."
+                }
+              ]
+            },
+            {
+              "q": "Is PointOak a fiduciary?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Yes. PointOak is an SEC-registered investment adviser and serves its advisory clients as a fiduciary."
+                }
+              ]
+            },
+            {
+              "q": "How is PointOak compensated?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "PointOak is fee-only and is compensated directly by its clients rather than through commissions for selling investment products."
+                }
+              ]
+            },
+            {
+              "q": "Who typically works with PointOak?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "We work with individuals and families seeking ongoing investment management and financial planning, including professionals, executives, business owners, individuals approaching retirement, and retirees."
+                }
+              ]
+            },
+            {
+              "q": "Is there a minimum investment amount?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "PointOak's wealth-management relationships vary based on the services needed, portfolio size, complexity, and overall circumstances. The complimentary initial consultation is an opportunity to discuss your goals and determine whether our services are a good fit."
+                }
+              ]
+            },
+            {
+              "q": "Can PointOak work with my CPA or estate attorney?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Yes. When appropriate, we coordinate with clients' tax, legal, insurance, and other professionals so their work can be considered alongside the financial plan."
+                }
+              ]
+            },
+            {
+              "q": "What happens during the initial consultation?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "The initial conversation is an opportunity for us to learn about your financial situation, what prompted you to reach out, and the areas where you're looking for help. We'll also explain how PointOak works and answer questions about our services. The initial consultation is complimentary."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "faq"
     },
     {
       "id": "ready-to-bring-the-pieces-together",

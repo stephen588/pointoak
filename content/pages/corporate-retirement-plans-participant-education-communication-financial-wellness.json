@@ -1,226 +1,312 @@
 {
+  "id": "R04",
   "route": "/corporate-retirement-plans/participant-education-communication/financial-wellness/",
   "name": "Financial Wellness Programs",
-  "parent": "Participant Education & Communication",
+  "kind": "page",
+  "parentRoute": "/corporate-retirement-plans/participant-education-communication/",
   "meta": {
     "title": "Employee Financial Wellness Programs | PointOak",
     "description": "Financial wellness programs designed around workforce needs, including saving, budgeting, debt, investing, and retirement readiness.",
-    "schema": "Service + FAQPage + BreadcrumbList"
+    "schema": "Service + BreadcrumbList; shared Organization reference"
   },
   "hero": {
-    "title": "Financial Wellness Programs for Employees",
-    "subtitle": "Helping employees build stronger financial habits today so they can prepare more confidently for retirement.",
+    "title": "Financial Wellness Programs",
+    "subtitle": "Financial guidance that goes beyond the retirement plan.",
     "blocks": [
       {
         "type": "p",
-        "text": "Financial stress doesn't stay outside the workplace. When employees are struggling with debt, emergency savings, or day-to-day cash flow, long-term retirement planning often takes a back seat. PointOak develops financial wellness programs that address those immediate challenges while connecting better financial habits to stronger retirement outcomes."
+        "text": "Employees don't make retirement decisions in isolation. Cash flow, debt, emergency savings, taxes, family responsibilities, investments, and other financial priorities can all influence how they approach long-term planning."
+      },
+      {
+        "type": "p",
+        "text": "PointOak's financial wellness programs connect everyday financial decisions with retirement and longer-term financial planning, giving employees access to education as well as individualized guidance when they need it."
       },
       {
         "type": "chips",
         "items": [
-          "Fee-only fiduciary since inception",
-          "Advising plan sponsors since 2005",
-          "Programs designed around your workforce and retirement plan"
+          "Financial Education",
+          "Holistic Financial Planning",
+          "Complimentary 30-Minute Consultations",
+          "Retirement & Investment Guidance"
         ]
+      },
+      {
+        "type": "button",
+        "label": "Schedule a Complimentary Consultation",
+        "action": "schedule"
       }
     ]
   },
   "sections": [
     {
-      "id": "the-benefits-of-financial-wellness-programs",
-      "title": "The Benefits of Financial Wellness Programs",
-      "blocks": [
-        {
-          "type": "cards",
-          "items": [
-            {
-              "title": "Reduced Financial Stress",
-              "body": [
-                {
-                  "type": "p",
-                  "text": "Money worries can affect focus, productivity, and overall employee wellbeing. Financial wellness programs give employees practical guidance for managing the issues creating that stress, from budgeting and debt to savings and long-term planning."
-                }
-              ]
-            },
-            {
-              "title": "Stronger Retirement Readiness",
-              "body": [
-                {
-                  "type": "p",
-                  "text": "Employees who are struggling to meet today's financial obligations are less likely to increase retirement contributions tomorrow. By helping participants establish emergency savings, manage debt, and improve cash flow, we create a stronger foundation for long-term retirement planning."
-                }
-              ]
-            },
-            {
-              "title": "Greater Financial Confidence",
-              "body": [
-                {
-                  "type": "p",
-                  "text": "Information alone doesn't always change behavior. We help employees understand their options and put that knowledge into practice, giving them greater confidence in the decisions they make about saving, investing, and preparing for the future."
-                }
-              ]
-            },
-            {
-              "title": "A More Valuable Employee Benefit",
-              "body": [
-                {
-                  "type": "p",
-                  "text": "Financial wellness extends the value of your retirement plan beyond an account balance. Providing employees with practical financial support demonstrates an investment in their overall financial health and can strengthen the value of your broader benefits package."
-                }
-              ]
-            },
-            {
-              "title": "Measurable Engagement",
-              "body": [
-                {
-                  "type": "p",
-                  "text": "A successful financial wellness program should do more than generate webinar attendance. We help plan sponsors look at engagement, savings behavior, participation, and other plan-level indicators to understand whether the program is helping employees take action."
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "what-our-financial-wellness-programs-cover",
-      "title": "What Our Financial Wellness Programs Cover",
-      "blocks": [
-        {
-          "type": "cards",
-          "items": [
-            {
-              "title": "Everyday Financial Foundations",
-              "body": [
-                {
-                  "type": "p",
-                  "text": "Employees can't focus on retirement if they're struggling with today's expenses. We help participants strengthen the fundamentals that support long-term financial health."
-                },
-                {
-                  "type": "p",
-                  "text": "Budgeting | Cash Flow | Emergency Savings"
-                }
-              ]
-            },
-            {
-              "title": "Debt & Financial Priorities",
-              "body": [
-                {
-                  "type": "p",
-                  "text": "Debt can compete directly with retirement contributions. Education and guidance help employees understand how to balance debt repayment with savings and other financial priorities."
-                },
-                {
-                  "type": "p",
-                  "text": "Debt Management | Student Loans | Savings Priorities"
-                }
-              ]
-            },
-            {
-              "title": "Saving & Retirement Readiness",
-              "body": [
-                {
-                  "type": "p",
-                  "text": "Financial wellness should ultimately support the retirement benefit you're already providing. We connect everyday financial decisions to contribution strategies, long-term savings, and retirement preparedness."
-                },
-                {
-                  "type": "p",
-                  "text": "401(k) Contributions | Employer Match | Retirement Savings"
-                }
-              ]
-            },
-            {
-              "title": "Personalized Financial Guidance",
-              "body": [
-                {
-                  "type": "p",
-                  "text": "Different employees have different financial pressures. Programs can combine group education with more individualized support so participants can apply what they've learned to their own circumstances."
-                },
-                {
-                  "type": "p",
-                  "text": "Group Education | One-on-One Guidance | Financial Coaching"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "who-benefits-most-from-financial-wellness-programs",
-      "title": "Who Benefits Most from Financial Wellness Programs?",
-      "blocks": [
-        {
-          "type": "cards",
-          "items": [
-            {
-              "title": "Participation Has Plateaued",
-              "body": [
-                {
-                  "type": "p",
-                  "text": "If employees are enrolled but contribution rates aren't increasing, broader financial pressures may be keeping them from saving more. Financial wellness can help address the issues preventing stronger retirement participation."
-                }
-              ]
-            },
-            {
-              "title": "Employees Aren't Engaging With Existing Resources",
-              "body": [
-                {
-                  "type": "p",
-                  "text": "Your recordkeeper may already offer calculators, articles, and webinars. If employees aren't using them, the issue may be relevance rather than availability. Customized programs connect financial education to the real questions your workforce is asking."
-                }
-              ]
-            },
-            {
-              "title": "Financial Stress Is Affecting Your Workforce",
-              "body": [
-                {
-                  "type": "p",
-                  "text": "Employees dealing with debt, insufficient emergency savings, or cash-flow challenges may need support before they can focus meaningfully on retirement."
-                }
-              ]
-            },
-            {
-              "title": "You Have a Multi-Generational Workforce",
-              "body": [
-                {
-                  "type": "p",
-                  "text": "Early-career employees, mid-career professionals, and those approaching retirement have very different financial concerns. A customized financial wellness strategy allows you to address each stage appropriately."
-                }
-              ]
-            },
-            {
-              "title": "You Want Financial Wellness to Support Your Retirement Plan",
-              "body": [
-                {
-                  "type": "p",
-                  "text": "Financial wellness works best when it isn't treated as an unrelated perk. We connect the program to your plan design, employee education, and broader retirement readiness goals."
-                }
-              ]
-            },
-            {
-              "title": "When a Broader Financial Wellness Program May Not Be Necessary",
-              "body": [
-                {
-                  "type": "p",
-                  "text": "If participation is strong, employees actively use existing educational resources, and your workforce has relatively straightforward financial needs, a more focused retirement education program may be enough."
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "financial-wellness-vs-retirement-education-alone",
-      "title": "Financial Wellness vs. Retirement Education Alone",
+      "id": "financial-wellness-is-more-than-budgeting",
+      "title": "Financial Wellness Is More Than Budgeting",
       "blocks": [
         {
           "type": "p",
-          "text": "Both have a role. Retirement education focuses specifically on helping employees understand and use their retirement benefits. Financial wellness looks at the broader financial issues that can affect their ability to do so."
+          "text": "Financial wellness can start with budgeting and debt management—but it shouldn't end there."
         },
         {
           "type": "p",
-          "text": "For many employers, the strongest approach combines both: helping employees manage their financial lives while also giving them the knowledge they need to make the most of their retirement plan."
+          "text": "Employees at different stages of their careers may need help with very different financial decisions. A new employee may be balancing student loans with retirement contributions. A mid-career employee may be managing competing savings goals. Someone approaching retirement may be thinking about Social Security, Medicare, investments, and retirement income."
+        },
+        {
+          "type": "p",
+          "text": "PointOak connects these conversations rather than treating each financial topic in isolation."
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Everyday Finances",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Cash flow, budgeting, emergency savings, and debt."
+                }
+              ]
+            },
+            {
+              "title": "Saving & Investing",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Retirement contributions, investment allocation, savings priorities, and Roth versus pre-tax contributions."
+                }
+              ]
+            },
+            {
+              "title": "Life & Financial Decisions",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Changing jobs, family changes, beneficiaries, and account consolidation."
+                }
+              ]
+            },
+            {
+              "title": "Retirement Planning",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Retirement readiness, Social Security, Medicare, and retirement income."
+                }
+              ]
+            },
+            {
+              "title": "Holistic Financial Planning",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Bringing the different pieces together around the employee's goals and circumstances."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group-education-individual-guidance",
+      "title": "Group Education + Individual Guidance",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Financial education can be delivered through group sessions focused on topics relevant to the workforce."
+        },
+        {
+          "type": "p",
+          "text": "But personal finances are personal. Employees may have questions that aren't appropriate—or practical—to address in front of their coworkers."
+        },
+        {
+          "type": "p",
+          "text": "PointOak therefore gives participants access to a complimentary 30-minute individual consultation with a PointOak advisor, scheduled directly through our online calendar."
+        },
+        {
+          "type": "p",
+          "text": "Employees can use that meeting to discuss financial and retirement-planning questions specific to their circumstances."
+        },
+        {
+          "type": "p",
+          "text": "Learn together: Group financial education around topics relevant to the workforce."
+        },
+        {
+          "type": "p",
+          "text": "Ask individual questions: Meet privately with a PointOak advisor."
+        },
+        {
+          "type": "p",
+          "text": "Connect the pieces: Consider retirement-plan decisions within the employee's broader financial picture."
+        }
+      ]
+    },
+    {
+      "id": "financial-wellness-across-the-employee-lifecycle",
+      "title": "Financial Wellness Across the Employee Lifecycle",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Onboarding",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Starting a new job often creates several financial decisions at once."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "401(k) Enrollment",
+                    "Contribution Decisions",
+                    "Roth vs. Pre-Tax",
+                    "Previous Employer Accounts",
+                    "Beneficiaries"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Building & Balancing",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "As employees progress through their careers, financial priorities often compete with one another."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Emergency Savings",
+                    "Debt",
+                    "Retirement Contributions",
+                    "Investing",
+                    "Family & Savings Goals"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Preparing for Retirement",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "The financial picture becomes increasingly interconnected as retirement approaches."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Retirement Readiness",
+                    "Social Security",
+                    "Medicare",
+                    "Investment Allocation",
+                    "Retirement Income"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Offboarding & Transitions",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Changing employers or retiring can create important decisions involving workplace benefits and retirement assets."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Distribution Options",
+                    "Rollover Considerations",
+                    "Account Consolidation",
+                    "Retirement Planning"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "customized-around-your-workforce",
+      "title": "Customized Around Your Workforce",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A financial wellness program shouldn't simply provide employees with a large library of generic financial content."
+        },
+        {
+          "type": "p",
+          "text": "PointOak works with the plan sponsor to identify topics that are relevant to the workforce and coordinate education with the organization's retirement plan, benefits, and available recordkeeper resources."
+        },
+        {
+          "type": "p",
+          "text": "Programs may combine group education, one-on-one consultations, financial wellness topics, retirement education, customized communications, and recordkeeper resources."
+        }
+      ]
+    },
+    {
+      "id": "when-financial-wellness-becomes-financial-planning",
+      "title": "When Financial Wellness Becomes Financial Planning",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A financial wellness program can help employees understand financial concepts and address specific questions. Some employees, however, may want a more comprehensive financial plan or ongoing investment management.",
+          "segs": [
+            [
+              "A financial wellness program can help employees understand financial concepts and address specific questions. Some employees, however, may want a more comprehensive financial plan or ongoing ",
+              null
+            ],
+            [
+              "investment management",
+              "/services/investment-management/"
+            ],
+            [
+              ".",
+              null
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "PointOak can provide those services through a separate individual advisory relationship when requested by the participant."
+        },
+        {
+          "type": "p",
+          "text": "That may include comprehensive financial planning, investment management, IRA and Roth IRA management, retirement income planning, and broader wealth management.",
+          "segs": [
+            [
+              "That may include ",
+              null
+            ],
+            [
+              "comprehensive financial planning",
+              "/services/comprehensive-financial-planning/"
+            ],
+            [
+              ", investment management, IRA and Roth IRA management, ",
+              null
+            ],
+            [
+              "retirement income planning",
+              "/services/retirement-income-planning/"
+            ],
+            [
+              ", and broader ",
+              null
+            ],
+            [
+              "wealth management",
+              "/services/wealth-management/"
+            ],
+            [
+              ".",
+              null
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Participation in PointOak's private wealth or financial planning services is optional and separate from the employer's retirement-plan engagement. Separate advisory agreements and fees may apply."
         }
       ]
     },
@@ -229,89 +315,48 @@
       "title": "Our Financial Wellness Process",
       "blocks": [
         {
-          "type": "cards",
-          "items": [
-            {
-              "title": "Assess Your Workforce",
-              "body": [
-                {
-                  "type": "p",
-                  "text": "We review your existing benefits, retirement plan engagement, and areas where employees may need additional financial support."
-                }
-              ]
-            },
-            {
-              "title": "Identify Financial Priorities",
-              "body": [
-                {
-                  "type": "p",
-                  "text": "We determine which topics and workforce segments would benefit most from targeted education and guidance."
-                }
-              ]
-            },
-            {
-              "title": "Build the Program",
-              "body": [
-                {
-                  "type": "p",
-                  "text": "Your financial wellness strategy is customized around your workforce, plan design, and organizational goals rather than pulled from a generic content library."
-                }
-              ]
-            },
-            {
-              "title": "Deliver Ongoing Support",
-              "body": [
-                {
-                  "type": "p",
-                  "text": "Programs may include group education, webinars, communication campaigns, and individualized guidance depending on your needs."
-                }
-              ]
-            },
-            {
-              "title": "Measure and Refine",
-              "body": [
-                {
-                  "type": "p",
-                  "text": "We evaluate engagement and retirement-plan indicators over time, then adjust the program based on what your employees are actually using and responding to."
-                }
-              ]
-            }
-          ]
+          "type": "p",
+          "text": "Assess: Understand the workforce, retirement plan, available benefits, and existing educational resources."
+        },
+        {
+          "type": "p",
+          "text": "Prioritize: Identify financial topics and employee groups where additional education or guidance may be useful."
+        },
+        {
+          "type": "p",
+          "text": "Educate: Provide group education around relevant financial and retirement-planning topics."
+        },
+        {
+          "type": "p",
+          "text": "Connect: Give employees direct access to complimentary individual consultations."
+        },
+        {
+          "type": "p",
+          "text": "Support: Coordinate available plan resources and provide additional guidance when appropriate."
         }
-      ],
-      "layout": "steps"
+      ]
     },
     {
-      "id": "why-choose-pointoak",
-      "title": "Why Choose PointOak",
+      "id": "why-pointoak",
+      "title": "Why PointOak",
       "blocks": [
         {
           "type": "cards",
           "items": [
             {
-              "title": "Financial Wellness Connected to Retirement Outcomes",
+              "title": "Financial Wellness Connected to Retirement and Financial Planning",
               "body": [
                 {
                   "type": "p",
-                  "text": "PointOak isn't a standalone financial wellness vendor. We're retirement plan specialists."
+                  "text": "PointOak isn't a standalone financial wellness content provider. We're an independent investment adviser with experience advising both employer-sponsored retirement plans and individual clients."
                 },
                 {
                   "type": "p",
-                  "text": "We've worked with plan sponsors and participants since 2005, giving us a clear understanding of how day-to-day financial decisions ultimately affect retirement readiness. That allows us to connect financial wellness directly to your existing retirement plan rather than treating it as a separate employee perk."
+                  "text": "That combination allows us to connect workplace retirement benefits with the broader financial decisions employees are making outside the plan."
                 },
                 {
                   "type": "p",
-                  "text": "As an independent, fee-only fiduciary, our guidance isn't influenced by product sales or recordkeeper relationships. We focus on providing useful, understandable financial education designed around your employees and your organization's goals."
-                },
-                {
-                  "type": "chips",
-                  "items": [
-                    "Fee-Only Fiduciary",
-                    "SEC-Registered Investment Adviser",
-                    "Retirement Plan Experience Since 2005",
-                    "Customized Workforce Programs",
-                    "Nationwide Plan Sponsor Support"
-                  ]
+                  "text": "Employees have access to group education as well as individual conversations with an advisor—and participants who want more comprehensive assistance can separately engage PointOak for financial planning or private wealth management."
                 }
               ]
             }
@@ -327,105 +372,79 @@
           "type": "faq",
           "items": [
             {
-              "q": "What is a financial wellness program?",
+              "q": "What is an employee financial wellness program?",
               "a": [
                 {
                   "type": "p",
-                  "text": "A financial wellness program helps employees strengthen their overall financial health through education, tools, and guidance."
-                },
-                {
-                  "type": "p",
-                  "text": "Programs may address budgeting, debt, emergency savings, retirement planning, and other everyday financial decisions. The goal is to help employees feel more confident managing their finances while removing some of the barriers that can prevent long-term saving."
+                  "text": "A financial wellness program provides employees with education and guidance around financial decisions that can affect both their current finances and long-term planning. Topics may include cash flow, debt, emergency savings, investing, retirement contributions, Social Security, Medicare, and retirement planning."
                 }
               ]
             },
             {
-              "q": "What's the difference between financial education and financial coaching?",
+              "q": "How is financial wellness different from retirement-plan education?",
               "a": [
                 {
                   "type": "p",
-                  "text": "Financial education teaches concepts, while coaching helps employees apply those concepts to their individual circumstances."
-                },
-                {
-                  "type": "p",
-                  "text": "Education may include workshops, webinars, or group sessions covering topics such as budgeting and saving. More personalized guidance helps participants translate what they've learned into practical financial decisions."
+                  "text": "Retirement-plan education focuses primarily on the employer-sponsored retirement plan and the decisions participants make within it. Financial wellness considers the employee's broader financial picture and how other financial priorities may interact with retirement planning."
                 }
               ]
             },
             {
-              "q": "How do financial wellness programs support retirement planning?",
+              "q": "Does financial wellness include one-on-one meetings?",
               "a": [
                 {
                   "type": "p",
-                  "text": "They address many of the financial pressures that compete with retirement saving."
-                },
-                {
-                  "type": "p",
-                  "text": "Employees dealing with debt, cash-flow shortages, or insufficient emergency savings may be reluctant to increase retirement contributions. Helping them strengthen those areas can make it easier to engage with their employer-sponsored retirement plan."
+                  "text": "Yes. PointOak participants have access to complimentary 30-minute individual consultations where they can discuss financial and retirement-planning questions specific to their circumstances."
                 }
               ]
             },
             {
-              "q": "Do employees actually use financial wellness programs?",
+              "q": "Is financial wellness the same as comprehensive financial planning?",
               "a": [
                 {
                   "type": "p",
-                  "text": "Engagement depends heavily on how relevant and accessible the program is."
+                  "text": "Not necessarily. Financial wellness may involve education and guidance around specific financial topics. Comprehensive financial planning generally involves a more detailed evaluation of an individual's overall financial circumstances, goals, assets, income, taxes, retirement strategy, and other planning considerations."
                 },
                 {
                   "type": "p",
-                  "text": "Generic resources can be easy to ignore. Programs built around real employee concerns and delivered at meaningful moments—such as enrollment, major plan changes, or financial milestones—give employees a clearer reason to participate."
+                  "text": "PointOak can provide comprehensive financial planning through a separate individual advisory relationship when requested."
                 }
               ]
             },
             {
-              "q": "What should a financial wellness program include?",
+              "q": "Can the program be customized for our employees?",
               "a": [
                 {
                   "type": "p",
-                  "text": "The right mix depends on your workforce."
-                },
-                {
-                  "type": "p",
-                  "text": "Common areas include budgeting, debt management, emergency savings, retirement contributions, and personalized financial guidance. The program should be built around the actual needs of employees rather than offering every possible financial topic."
+                  "text": "Yes. Topics and delivery can be tailored around the organization's workforce, retirement plan, benefits, and education priorities rather than relying solely on standardized financial content."
                 }
               ]
             },
             {
-              "q": "How is financial wellness different from employee retirement education?",
+              "q": "Can PointOak work with the resources our recordkeeper already provides?",
               "a": [
                 {
                   "type": "p",
-                  "text": "Retirement education focuses specifically on the retirement plan. Financial wellness addresses the broader financial picture that affects an employee's ability to save for retirement."
-                },
-                {
-                  "type": "p",
-                  "text": "The two services work particularly well together: financial wellness strengthens the foundation, while retirement education helps participants make better use of the benefits your organization provides."
+                  "text": "Yes. PointOak can coordinate with recordkeeper resources rather than duplicating tools and education that are already available."
                 }
               ]
             }
           ]
-        },
-        {
-          "type": "button",
-          "label": "View More FAQs",
-          "href": "/faq/",
-          "secondary": false
         }
       ],
       "layout": "faq"
     },
     {
-      "id": "support-the-financial-health-behind-retirement-readiness",
-      "title": "Support the Financial Health Behind Retirement Readiness",
+      "id": "connect-financial-wellness-with-the-bigger-picture",
+      "title": "Connect Financial Wellness With the Bigger Picture",
       "blocks": [
         {
           "type": "p",
-          "text": "We'll help you build a financial wellness program that addresses the everyday financial challenges that can keep employees from saving for the future."
+          "text": "Give employees access to practical financial education, individual guidance, and retirement expertise—while providing a path to more comprehensive financial planning when they want it."
         },
         {
           "type": "button",
-          "label": "Schedule Your Complimentary Consultation",
+          "label": "Schedule a Complimentary Consultation",
           "action": "schedule"
         }
       ],

@@ -20,6 +20,7 @@ import {
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ScheduleButton from "@/components/page/ScheduleButton";
+import { Rich } from "@/components/page/Blocks";
 import type { Block, Card, Section } from "@/lib/content";
 import { SITE_URL, getPage } from "@/lib/content";
 
@@ -58,7 +59,7 @@ const jsonLd = {
 const section = (id: string) => home.sections.find((s) => s.id === id) as Section;
 const first = <T extends Block["type"]>(s: Section, type: T) =>
   s.blocks.find((b) => b.type === type) as Extract<Block, { type: T }> | undefined;
-const paras = (s: Section) => s.blocks.filter((b) => b.type === "p").map((b) => (b as { text: string }).text);
+const paras = (s: Section) => s.blocks.filter((b) => b.type === "p") as Extract<Block, { type: "p" }>[];
 const linkOf = (s: Section) => {
   const b = first(s, "button");
   return b && b.href ? { label: b.label, href: b.href } : undefined;
@@ -102,7 +103,7 @@ export default function Home() {
   const moments = ["retiring-or-changing-jobs", "approaching-or-entering-retirement", "managing-complex-executive-benefits"].map(section);
   const bothSides = section("experience-on-both-sides-of-retirement");
   const cta = home.sections.find((s) => s.layout === "cta")!;
-  const heroParas = home.hero.blocks.filter((b) => b.type === "p") as { text: string }[];
+  const heroParas = home.hero.blocks.filter((b) => b.type === "p") as Extract<Block, { type: "p" }>[];
   const heroSecondary = home.hero.blocks.find((b) => b.type === "button" && b.secondary) as { label: string } | undefined;
   const services = (first(oneAccount, "links")?.items ?? []).map((l) => ({
     ...l,
@@ -145,7 +146,7 @@ export default function Home() {
             <div className="lg:col-span-5 flex flex-col gap-4 lg:border-l lg:border-white/25 lg:pl-10">
               {heroParas.map((p, i) => (
                 <p key={i} className="text-white/85 text-[15px] lg:text-[17px] leading-[1.7]">
-                  {p.text}
+                  <Rich text={p.text} segs={p.segs} tone="dark" />
                 </p>
               ))}
             </div>
@@ -217,7 +218,7 @@ export default function Home() {
             <div className="lg:col-span-7 flex flex-col gap-4 lg:pt-2">
               {paras(oneAccount).map((t, i) => (
                 <p key={i} className="text-text-gray text-base md:text-lg leading-[30px]">
-                  {t}
+                  <Rich text={t.text} segs={t.segs} tone="light" />
                 </p>
               ))}
             </div>
@@ -257,7 +258,7 @@ export default function Home() {
           <h2 className="text-white text-3xl md:text-4xl lg:text-[48px] font-light leading-tight max-w-3xl">{broader.title}</h2>
           {paras(broader).map((t, i) => (
             <p key={i} className="text-white/85 text-base md:text-lg leading-[30px] max-w-3xl">
-              {t}
+              <Rich text={t.text} segs={t.segs} tone="dark" />
             </p>
           ))}
           {band && (
@@ -283,7 +284,7 @@ export default function Home() {
               <div className={`${panel} flex items-center px-6 py-14 md:px-16 lg:px-24`}>
                 <div className="flex flex-col gap-5 max-w-[460px]">
                   <h2 className={`text-2xl md:text-3xl lg:text-[36px] font-light leading-tight ${dark ? "text-white" : "text-navy"}`}>{s.title}</h2>
-                  <p className={`text-base md:text-lg leading-[28px] ${dark ? "text-white/80" : "text-text-gray"}`}>{paras(s)[0]}</p>
+                  <p className={`text-base md:text-lg leading-[28px] ${dark ? "text-white/80" : "text-text-gray"}`}>{paras(s)[0] && <Rich text={paras(s)[0].text} segs={paras(s)[0].segs} tone={dark ? "dark" : "light"} />}</p>
                   {linkOf(s) && <ArrowLink {...linkOf(s)!} light={dark} />}
                 </div>
               </div>
@@ -307,7 +308,7 @@ export default function Home() {
             <h2 className="text-navy text-3xl md:text-4xl lg:text-[48px] font-light leading-tight">{bothSides.title}</h2>
             {paras(bothSides).map((t, i) => (
               <p key={i} className="text-text-gray text-base md:text-lg leading-[30px]">
-                {t}
+                <Rich text={t.text} segs={t.segs} tone="light" />
               </p>
             ))}
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3 border-t border-[#E3E8EE] pt-6">

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ArrowRight, Check, ChevronDown } from "lucide-react";
-import type { Block, Card } from "@/lib/content";
+import type { Block, Card, Seg } from "@/lib/content";
 import { routeExists } from "@/lib/content";
 import ScheduleButton from "./ScheduleButton";
 
@@ -13,6 +13,54 @@ function TextLink({ href, label, tone }: { href: string; label: string; tone: To
       {label}
       <ArrowRight className="w-4 h-4" strokeWidth={1.75} />
     </Link>
+  );
+}
+
+/** Text with the doc's inline hyperlinks: site pages via <Link>, external sources in a new tab. */
+export function Rich({ text, segs, tone }: { text: string; segs?: Seg[] | null; tone: Tone }) {
+  if (!segs) return <>{text}</>;
+  const link = tone === "dark" ? "text-white underline underline-offset-2 hover:text-white/80" : "text-medium-blue underline underline-offset-2 decoration-medium-blue/40 hover:text-navy";
+  return (
+    <>
+      {segs.map(([t, href], k) =>
+        !href ? (
+          <span key={k}>{t}</span>
+        ) : href.startsWith("/") ? (
+          routeExists(href) ? (
+            <Link key={k} href={href} className={link}>
+              {t}
+            </Link>
+          ) : (
+            <span key={k}>{t}</span>
+          )
+        ) : (
+          <a key={k} href={href} target="_blank" rel="noopener noreferrer" className={link}>
+            {t}
+          </a>
+        ),
+      )}
+    </>
+  );
+}
+
+function ArticleCards({ items }: { items: { label: string; href: string; text?: string }[] }) {
+  return (
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+      {items.map((a) => (
+        <Link
+          key={a.href}
+          href={a.href}
+          className="group bg-white rounded-[10px] border border-[#E3E8EE] p-7 flex flex-col gap-3 hover:border-navy hover:-translate-y-1 hover:shadow-xl hover:shadow-navy/10 transition-all"
+        >
+          <span className="text-medium-blue text-xs font-semibold uppercase tracking-wider">Insight</span>
+          <h3 className="text-navy text-xl font-semibold leading-snug">{a.label}</h3>
+          {a.text && <p className="text-text-gray text-[15px] leading-[24px] flex-1">{a.text}</p>}
+          <span className="inline-flex items-center gap-2 text-navy text-sm font-medium mt-1">
+            Read the article <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5" strokeWidth={1.75} />
+          </span>
+        </Link>
+      ))}
+    </div>
   );
 }
 
@@ -128,7 +176,7 @@ export default function Blocks({
           case "p":
             return (
               <p key={i} className={`${text} ${pSize} max-w-3xl`}>
-                {b.text}
+                <Rich text={b.text} segs={b.segs} tone={tone} />
               </p>
             );
           case "list":
@@ -142,7 +190,9 @@ export default function Blocks({
                   {b.items.map((item, k) => (
                     <li key={k} className={`flex gap-3 ${text} text-base leading-[26px]`}>
                       <Check className={`w-5 h-5 mt-[3px] flex-shrink-0 ${tone === "dark" ? "text-light-blue" : "text-medium-blue"}`} strokeWidth={2} />
-                      <span>{item}</span>
+                      <span>
+                        <Rich text={item} segs={b.segs?.[k]} tone={tone} />
+                      </span>
                     </li>
                   ))}
                 </ul>
@@ -174,6 +224,14 @@ export default function Blocks({
             return <CardGrid key={i} items={b.items} tone={tone} numbered={steps} />;
           case "faq":
             return <Faq key={i} items={b.items} />;
+          case "articles":
+            return <ArticleCards key={i} items={b.items} />;
+          case "h3":
+            return (
+              <h3 key={i} className={`${strong} text-xl md:text-2xl font-semibold leading-snug mt-4`}>
+                {b.text}
+              </h3>
+            );
           case "links":
             return (
               <ul key={i} className="flex flex-wrap gap-3">
@@ -206,14 +264,16 @@ export default function Blocks({
                 <TextLink href={b.href} label={b.label} tone={tone} />
               </div>
             );
-          case "table":
+          case "table": {
+            // highlight PointOak's column in comparison tables; neutral tables get no highlight
+            const hi = b.rows[0].findIndex((h) => /pointoak/i.test(h));
             return (
               <div key={i} className="overflow-x-auto -mx-6 px-6 xl:mx-0 xl:px-0">
-                <table className="w-full min-w-[720px] border-collapse text-left text-[15px] leading-[24px] bg-white rounded-[7px] overflow-hidden">
+                <table className={`w-full ${b.rows[0].length > 2 ? "min-w-[720px]" : ""} border-collapse text-left text-[15px] leading-[24px] bg-white rounded-[7px] overflow-hidden`}>
                   <thead>
                     <tr>
                       {b.rows[0].map((h, k) => (
-                        <th key={k} className={`p-4 font-semibold align-bottom ${k === 1 ? "bg-navy text-white" : "bg-[#E9F0F8] text-navy"}`}>
+                        <th key={k} className={`p-4 font-semibold align-bottom ${k === hi ? "bg-navy text-white" : "bg-[#E9F0F8] text-navy"}`}>
                           {h}
                         </th>
                       ))}
@@ -223,7 +283,7 @@ export default function Blocks({
                     {b.rows.slice(1).map((row, r) => (
                       <tr key={r} className="border-t border-[#E5EAF0]">
                         {row.map((cell, k) => (
-                          <td key={k} className={`p-4 align-top ${k === 0 ? "font-medium text-navy" : k === 1 ? "text-navy bg-cloud-blue/60" : "text-text-gray"}`}>
+                          <td key={k} className={`p-4 align-top ${k === 0 ? "font-medium text-navy" : k === hi ? "text-navy bg-cloud-blue/60" : "text-text-gray"}`}>
                             {cell}
                           </td>
                         ))}
@@ -233,6 +293,7 @@ export default function Blocks({
                 </table>
               </div>
             );
+          }
           case "band":
             return (
               <div

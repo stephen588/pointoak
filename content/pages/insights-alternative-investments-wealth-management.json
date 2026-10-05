@@ -1,0 +1,913 @@
+{
+  "id": "IN05",
+  "route": "/insights/alternative-investments-wealth-management/",
+  "name": "Alternative Investments in Wealth Management: What Role Can They Play?",
+  "kind": "article",
+  "parentRoute": "/resources/",
+  "meta": {
+    "title": "Alternative Investments in Wealth Management | PointOak",
+    "description": "Learn how private credit, private equity, real estate, and other alternative investments may fit within a diversified wealth-management portfolio.",
+    "schema": "BlogPosting + BreadcrumbList; shared Organization reference"
+  },
+  "hero": {
+    "title": "Alternative Investments in Wealth Management: What Role Can They Play?",
+    "subtitle": "A broader investment universe can create additional portfolio options—but complexity alone does not make an investment better.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Traditional portfolios are often built primarily with publicly traded stocks and bonds."
+      },
+      {
+        "type": "p",
+        "text": "For many investors, that may be entirely appropriate."
+      },
+      {
+        "type": "p",
+        "text": "But as wealth grows and financial circumstances become more complex, some investors begin asking whether their portfolios should include opportunities beyond traditional public markets.",
+        "segs": [
+          [
+            "But as wealth grows and ",
+            null
+          ],
+          [
+            "financial circumstances",
+            "/services/comprehensive-financial-planning/"
+          ],
+          [
+            " become more complex, some investors begin asking whether their portfolios should include opportunities beyond traditional public markets.",
+            null
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "These may include private credit, private equity, private real estate, real assets, hedge fund strategies, structured investments, and other alternative strategies, depending on the investor and the opportunities available.",
+        "segs": [
+          [
+            "These may include private credit, private equity, private real estate, real assets, hedge fund strategies, structured investments, and other ",
+            null
+          ],
+          [
+            "alternative strategies",
+            "/services/investment-management/"
+          ],
+          [
+            ", depending on the investor and the opportunities available.",
+            null
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Alternative investments can potentially provide additional sources of return, income, or diversification. They can also introduce meaningful tradeoffs, including limited liquidity, higher fees, greater complexity, leverage, valuation uncertainty, and longer investment periods."
+      },
+      {
+        "type": "p",
+        "text": "The question therefore shouldn't be:"
+      },
+      {
+        "type": "p",
+        "text": "\"Should wealthy investors own alternatives?\""
+      },
+      {
+        "type": "p",
+        "text": "A better question is:"
+      },
+      {
+        "type": "p",
+        "text": "\"Would a particular alternative investment improve this portfolio enough to justify its additional risks and complexity?\""
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "what-is-an-alternative-investment",
+      "title": "What Is an Alternative Investment?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "There is no single definition that captures every alternative investment."
+        },
+        {
+          "type": "p",
+          "text": "In wealth management, the term generally refers to investments or strategies outside traditional publicly traded stocks, bonds, and cash."
+        },
+        {
+          "type": "p",
+          "text": "Depending on the portfolio, alternatives may include:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Private credit",
+            "Private equity",
+            "Private real estate",
+            "Infrastructure and other real assets",
+            "Hedge fund or absolute-return strategies",
+            "Structured investments",
+            "Other specialized private-market or alternative strategies"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Some alternatives invest in assets that do not trade on public exchanges. Others use different investment techniques or return structures than a traditional long-only stock or bond portfolio."
+        },
+        {
+          "type": "p",
+          "text": "What they have in common is that they often behave differently from conventional investments—and usually require more due diligence before being added to a portfolio."
+        }
+      ]
+    },
+    {
+      "id": "why-consider-investments-beyond-public-markets",
+      "title": "Why Consider Investments Beyond Public Markets?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Public markets offer tremendous breadth and liquidity."
+        },
+        {
+          "type": "p",
+          "text": "For many clients, diversified portfolios of stocks, bonds, ETFs, and other traditional investments can provide an effective foundation."
+        },
+        {
+          "type": "p",
+          "text": "Alternative investments become relevant when there is a specific portfolio objective they may help address."
+        },
+        {
+          "type": "h3",
+          "text": "Additional Diversification"
+        },
+        {
+          "type": "p",
+          "text": "A traditional stock-and-bond portfolio is diversified across many securities, but those securities are still primarily exposed to public-market conditions."
+        },
+        {
+          "type": "p",
+          "text": "Certain alternative strategies may provide exposure to different return drivers."
+        },
+        {
+          "type": "p",
+          "text": "That does not mean alternatives will rise whenever stocks fall. Correlations can change, and some private assets may simply report values less frequently than public investments."
+        },
+        {
+          "type": "p",
+          "text": "But a carefully selected alternative strategy may broaden the sources of risk and return within an overall portfolio."
+        },
+        {
+          "type": "h3",
+          "text": "Income"
+        },
+        {
+          "type": "p",
+          "text": "Some private credit, real estate, and other strategies are designed to generate income."
+        },
+        {
+          "type": "p",
+          "text": "For investors seeking portfolio cash flow, these investments may complement traditional fixed income."
+        },
+        {
+          "type": "p",
+          "text": "However, higher advertised yields often come with additional credit, liquidity, leverage, or structural risk. Yield should never be evaluated in isolation."
+        },
+        {
+          "type": "h3",
+          "text": "Access to Different Opportunities"
+        },
+        {
+          "type": "p",
+          "text": "Publicly traded markets represent only part of the investment universe."
+        },
+        {
+          "type": "p",
+          "text": "Private markets may provide exposure to companies, loans, real estate projects, infrastructure, or other assets not readily available through traditional public securities."
+        },
+        {
+          "type": "p",
+          "text": "That broader opportunity set can be valuable."
+        },
+        {
+          "type": "p",
+          "text": "But access itself is not an investment thesis. An opportunity should still earn its place in the portfolio."
+        },
+        {
+          "type": "h3",
+          "text": "Different Sources of Return"
+        },
+        {
+          "type": "p",
+          "text": "Some alternative strategies seek returns from factors other than general stock-market appreciation or traditional bond income."
+        },
+        {
+          "type": "p",
+          "text": "For example, a strategy may derive returns from private lending, company-specific transactions, real estate cash flows, or specialized trading approaches."
+        },
+        {
+          "type": "p",
+          "text": "The potential benefit is not simply owning something different. It is adding an exposure that may improve the overall portfolio when evaluated alongside everything else the investor owns."
+        }
+      ]
+    },
+    {
+      "id": "alternatives-should-start-with-the-portfolio-not-the-product",
+      "title": "Alternatives Should Start With the Portfolio—not the Product",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "One of the easiest mistakes in alternative investing is to begin with an interesting investment and then search for a reason to own it."
+        },
+        {
+          "type": "p",
+          "text": "We prefer to reverse that process."
+        },
+        {
+          "type": "p",
+          "text": "Start with the portfolio."
+        },
+        {
+          "type": "p",
+          "text": "What is the investor trying to accomplish?"
+        },
+        {
+          "type": "p",
+          "text": "Is there too much exposure to public equity markets?"
+        },
+        {
+          "type": "p",
+          "text": "Does the portfolio need additional income?"
+        },
+        {
+          "type": "p",
+          "text": "Can the investor tolerate having part of the portfolio unavailable for several years?"
+        },
+        {
+          "type": "p",
+          "text": "Is there already significant illiquidity through a business, real estate, concentrated stock position, or other assets?"
+        },
+        {
+          "type": "p",
+          "text": "What role would the proposed investment actually play?"
+        },
+        {
+          "type": "p",
+          "text": "Only after answering those questions does it make sense to evaluate whether an alternative strategy belongs in the portfolio."
+        },
+        {
+          "type": "p",
+          "text": "That keeps the conversation focused on portfolio construction rather than product collection."
+        }
+      ]
+    },
+    {
+      "id": "private-credit",
+      "title": "Private Credit",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Private credit has become increasingly visible to individual investors."
+        },
+        {
+          "type": "p",
+          "text": "At a high level, private credit generally involves lending outside traditional public bond markets or bank lending channels."
+        },
+        {
+          "type": "p",
+          "text": "Depending on the strategy, private credit may invest in loans to middle-market companies, asset-backed lending, real estate-related credit, specialty finance, or other areas."
+        },
+        {
+          "type": "p",
+          "text": "Potential attractions can include income and access to credit opportunities that differ from publicly traded bonds."
+        },
+        {
+          "type": "p",
+          "text": "But investors also need to consider:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Borrower credit quality",
+            "Default risk",
+            "Leverage",
+            "Manager underwriting skill",
+            "Fund structure",
+            "Liquidity",
+            "Fees",
+            "Economic sensitivity"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "A yield that appears attractive relative to public bonds should be evaluated in the context of the additional risks required to earn it."
+        }
+      ]
+    },
+    {
+      "id": "private-equity",
+      "title": "Private Equity",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Private equity generally involves investing in companies outside the public stock market."
+        },
+        {
+          "type": "p",
+          "text": "Strategies may include buyouts, growth equity, venture capital, and other forms of private ownership."
+        },
+        {
+          "type": "p",
+          "text": "For appropriate investors, private equity can provide exposure to companies and value-creation strategies that may not be available in public markets."
+        },
+        {
+          "type": "p",
+          "text": "The tradeoffs can be substantial."
+        },
+        {
+          "type": "p",
+          "text": "Private equity investments commonly involve:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Long holding periods",
+            "Limited liquidity",
+            "Capital commitments",
+            "Manager selection risk",
+            "Higher fees and expenses",
+            "Valuation uncertainty",
+            "Significant variation in performance among managers"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "This is one area where selecting the right manager and understanding the investment structure can matter considerably."
+        },
+        {
+          "type": "p",
+          "text": "Investors also need to be comfortable committing capital that may not be readily accessible for years."
+        }
+      ]
+    },
+    {
+      "id": "private-real-estate-and-real-assets",
+      "title": "Private Real Estate and Real Assets",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Real estate and other real assets can serve several potential purposes within a portfolio, including income, diversification, or exposure to assets with different economic sensitivities from traditional securities."
+        },
+        {
+          "type": "p",
+          "text": "Opportunities can range from private real estate funds to infrastructure and other tangible-asset strategies."
+        },
+        {
+          "type": "p",
+          "text": "But private ownership does not eliminate risk."
+        },
+        {
+          "type": "p",
+          "text": "Real estate values can decline. Properties can lose tenants. Financing costs can rise. Development projects can encounter delays. Leverage can magnify both gains and losses."
+        },
+        {
+          "type": "p",
+          "text": "Investors should also distinguish between economic stability and reported price stability."
+        },
+        {
+          "type": "p",
+          "text": "An investment that is valued quarterly may appear less volatile than a security priced every second of the trading day. That does not necessarily mean the underlying asset has less economic risk."
+        }
+      ]
+    },
+    {
+      "id": "hedge-fund-and-alternative-strategies",
+      "title": "Hedge Fund and Alternative Strategies",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Some alternative strategies seek to generate returns through techniques such as long/short investing, event-driven strategies, relative-value trades, managed futures, or other approaches."
+        },
+        {
+          "type": "p",
+          "text": "These strategies can have very different objectives."
+        },
+        {
+          "type": "p",
+          "text": "Some seek diversification."
+        },
+        {
+          "type": "p",
+          "text": "Some focus on downside management."
+        },
+        {
+          "type": "p",
+          "text": "Others pursue returns that are less dependent on broad equity-market direction."
+        },
+        {
+          "type": "p",
+          "text": "The label \"hedge fund\" therefore tells you relatively little by itself."
+        },
+        {
+          "type": "p",
+          "text": "The important questions are:"
+        },
+        {
+          "type": "p",
+          "text": "What does the strategy actually do? What risks does it take? How does it behave under stress? And what role is it supposed to play in the portfolio?"
+        }
+      ]
+    },
+    {
+      "id": "structured-investments",
+      "title": "Structured Investments",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Structured investments can offer customized exposure or defined payoff characteristics tied to an underlying asset or market index."
+        },
+        {
+          "type": "p",
+          "text": "Depending on their design, they may provide enhanced income, partial downside protection, conditional returns, or other outcomes."
+        },
+        {
+          "type": "p",
+          "text": "But their payoff structures can also be complex."
+        },
+        {
+          "type": "p",
+          "text": "Investors should understand:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "How returns are calculated",
+            "What happens if the underlying investment declines",
+            "Whether upside is capped",
+            "The creditworthiness of the issuer",
+            "Liquidity before maturity",
+            "Fees and embedded costs",
+            "The circumstances under which principal may be at risk"
+          ],
+          "segs": [
+            [
+              [
+                "How returns are calculated",
+                null
+              ]
+            ],
+            [
+              [
+                "What happens if the underlying investment declines",
+                null
+              ]
+            ],
+            [
+              [
+                "Whether upside is capped",
+                null
+              ]
+            ],
+            [
+              [
+                "The ",
+                null
+              ],
+              [
+                "creditworthiness of the issuer",
+                "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-76"
+              ]
+            ],
+            [
+              [
+                "Liquidity before maturity",
+                null
+              ]
+            ],
+            [
+              [
+                "Fees and embedded costs",
+                null
+              ]
+            ],
+            [
+              [
+                "The circumstances under which principal may be at risk",
+                null
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "A product with an attractive stated coupon may still contain substantial market or issuer risk."
+        },
+        {
+          "type": "p",
+          "text": "These investments require an understanding of the entire payoff—not simply the headline rate."
+        }
+      ]
+    },
+    {
+      "id": "liquidity-is-one-of-the-biggest-differences",
+      "title": "Liquidity Is One of the Biggest Differences",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Liquidity is one of the most important distinctions between many traditional and alternative investments."
+        },
+        {
+          "type": "p",
+          "text": "A publicly traded ETF can generally be sold during market hours."
+        },
+        {
+          "type": "p",
+          "text": "A private-market investment may require you to commit capital for years. Redemptions, if available at all, may occur only periodically and can be subject to limits, delays, or suspension."
+        },
+        {
+          "type": "p",
+          "text": "That means investors should ask a basic question before making an illiquid investment:"
+        },
+        {
+          "type": "p",
+          "text": "Could I comfortably leave this money invested if I could not access it when I wanted to?"
+        },
+        {
+          "type": "p",
+          "text": "For someone with substantial liquid assets, committing a portion of the portfolio to longer-term opportunities may be reasonable."
+        },
+        {
+          "type": "p",
+          "text": "For someone whose retirement spending, upcoming purchases, taxes, or other needs depend on those funds, the same investment may be inappropriate.",
+          "segs": [
+            [
+              "For someone whose ",
+              null
+            ],
+            [
+              "retirement spending",
+              "/services/retirement-income-planning/"
+            ],
+            [
+              ", upcoming purchases, taxes, or other needs depend on those funds, the same investment may be inappropriate.",
+              null
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Liquidity should therefore be evaluated at the household level, not just within the investment itself."
+        }
+      ]
+    },
+    {
+      "id": "higher-fees-require-a-higher-hurdle",
+      "title": "Higher Fees Require a Higher Hurdle",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Alternative investments frequently carry higher costs than traditional ETFs and mutual funds."
+        },
+        {
+          "type": "p",
+          "text": "Those costs may include:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Management fees",
+            "Performance-based compensation",
+            "Fund expenses",
+            "Administrative expenses",
+            "Underlying investment costs",
+            "Placement or structural expenses, depending on the investment"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Higher fees do not automatically make an investment inappropriate."
+        },
+        {
+          "type": "p",
+          "text": "But they do increase the hurdle the strategy must overcome to improve the portfolio after costs."
+        },
+        {
+          "type": "p",
+          "text": "A more complex investment should have a clear reason for being there."
+        },
+        {
+          "type": "p",
+          "text": "If a lower-cost, liquid public-market investment can reasonably accomplish the same objective, complexity may not add enough value to justify itself."
+        }
+      ]
+    },
+    {
+      "id": "manager-selection-can-matter-more-in-private-markets",
+      "title": "Manager Selection Can Matter More in Private Markets",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "In highly liquid public markets, investors have access to extensive information, frequent pricing, and broad index exposure."
+        },
+        {
+          "type": "p",
+          "text": "Private markets can be different."
+        },
+        {
+          "type": "p",
+          "text": "Managers may vary significantly in sourcing opportunities, underwriting, financing, operational expertise, exit strategy, and risk management."
+        },
+        {
+          "type": "p",
+          "text": "That can make manager due diligence especially important."
+        },
+        {
+          "type": "p",
+          "text": "Among the questions worth considering:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "What is the manager's experience in this particular strategy?",
+            "How has the strategy performed across different market environments?",
+            "How are investments valued?",
+            "How much leverage is used?",
+            "How are potential conflicts handled?",
+            "What are the fees and expenses?",
+            "How is liquidity managed?",
+            "How much of the manager's own capital is invested alongside clients?",
+            "What happens when an investment underperforms?"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Access to a private investment is not the same as access to an attractive private investment."
+        }
+      ]
+    },
+    {
+      "id": "alternative-investments-are-not-automatically-more-sophisticated",
+      "title": "Alternative Investments Are Not Automatically More Sophisticated",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "There can be a temptation to equate complexity with sophistication."
+        },
+        {
+          "type": "p",
+          "text": "They are not the same thing."
+        },
+        {
+          "type": "p",
+          "text": "A portfolio made entirely of transparent, low-cost public-market investments can be extremely sophisticated if it is well designed for the investor's goals."
+        },
+        {
+          "type": "p",
+          "text": "Likewise, a portfolio filled with private funds and complicated strategies can be poorly constructed."
+        },
+        {
+          "type": "p",
+          "text": "The objective isn't to maximize the number of asset classes or investment structures."
+        },
+        {
+          "type": "p",
+          "text": "It is to build a portfolio in which each holding has a purpose."
+        },
+        {
+          "type": "p",
+          "text": "For some investors, alternatives may play an important role."
+        },
+        {
+          "type": "p",
+          "text": "For others, traditional investments may provide everything the portfolio needs."
+        }
+      ]
+    },
+    {
+      "id": "how-much-of-a-portfolio-should-be-in-alternatives",
+      "title": "How Much of a Portfolio Should Be in Alternatives?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "There is no universal allocation."
+        },
+        {
+          "type": "p",
+          "text": "The appropriate amount—if any—depends on factors such as:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Portfolio size",
+            "Liquidity needs",
+            "Retirement spending",
+            "Investment horizon",
+            "Risk tolerance",
+            "Existing real estate or business interests",
+            "Tax considerations",
+            "Eligibility requirements",
+            "Comfort with complexity",
+            "The specific strategies being considered"
+          ],
+          "segs": [
+            [
+              [
+                "Portfolio size",
+                null
+              ]
+            ],
+            [
+              [
+                "Liquidity needs",
+                null
+              ]
+            ],
+            [
+              [
+                "Retirement spending",
+                null
+              ]
+            ],
+            [
+              [
+                "Investment horizon",
+                null
+              ]
+            ],
+            [
+              [
+                "Risk tolerance",
+                null
+              ]
+            ],
+            [
+              [
+                "Existing real estate or business interests",
+                null
+              ]
+            ],
+            [
+              [
+                "Tax considerations",
+                "/services/tax-aware-wealth-strategies/"
+              ]
+            ],
+            [
+              [
+                "Eligibility requirements",
+                null
+              ]
+            ],
+            [
+              [
+                "Comfort with complexity",
+                null
+              ]
+            ],
+            [
+              [
+                "The specific strategies being considered",
+                null
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "A client with a large liquid portfolio and relatively modest spending needs may have considerably more capacity for illiquid investments than someone with the same net worth concentrated in a business or personal real estate."
+        },
+        {
+          "type": "p",
+          "text": "That is why an \"alternative allocation\" should not be determined by wealth alone."
+        },
+        {
+          "type": "p",
+          "text": "The entire balance sheet matters."
+        }
+      ]
+    },
+    {
+      "id": "questions-to-ask-before-investing",
+      "title": "Questions to Ask Before Investing",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Before adding an alternative investment, consider:"
+        },
+        {
+          "type": "p",
+          "text": "What is this investment supposed to do? Income, diversification, growth, downside management, or something else?"
+        },
+        {
+          "type": "p",
+          "text": "What risks am I accepting to pursue that objective? Look beyond expected return."
+        },
+        {
+          "type": "p",
+          "text": "How liquid is the investment? Understand when and how capital can be accessed."
+        },
+        {
+          "type": "p",
+          "text": "What does it cost? Consider management fees, performance fees, underlying expenses, and other costs."
+        },
+        {
+          "type": "p",
+          "text": "How is it valued? Less-frequent pricing does not necessarily mean less risk."
+        },
+        {
+          "type": "p",
+          "text": "Who is managing the strategy? Manager selection and due diligence can be particularly important in private markets."
+        },
+        {
+          "type": "p",
+          "text": "How does it interact with the rest of my portfolio? The investment should be evaluated at the household level rather than in isolation."
+        },
+        {
+          "type": "p",
+          "text": "Could a simpler investment accomplish the same thing? Complexity should have a purpose."
+        }
+      ]
+    },
+    {
+      "id": "broader-access-can-be-valuable-when-used-selectively",
+      "title": "Broader Access Can Be Valuable—When Used Selectively",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "One benefit of an independent, open-architecture investment approach is the ability to evaluate opportunities beyond a proprietary investment lineup."
+        },
+        {
+          "type": "p",
+          "text": "That can include both traditional public-market investments and, for appropriate clients, alternative or private-market strategies."
+        },
+        {
+          "type": "p",
+          "text": "But having access to more investments should not mean owning more investments."
+        },
+        {
+          "type": "p",
+          "text": "At PointOak, we believe the broader opportunity set is valuable because it gives us more tools to consider, not because every client needs to use every tool."
+        },
+        {
+          "type": "p",
+          "text": "Interested in investments beyond traditional stocks and bonds? PointOak evaluates traditional and alternative strategies within the context of your overall portfolio, liquidity needs, financial plan, and tolerance for risk and complexity.",
+          "segs": [
+            [
+              "Interested in investments beyond traditional stocks and bonds? ",
+              null
+            ],
+            [
+              "PointOak",
+              "/services/investment-management/"
+            ],
+            [
+              " evaluates traditional and alternative strategies within the context of your overall portfolio, liquidity needs, financial plan, and tolerance for risk and complexity.",
+              null
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "one-coordinated-portfolio",
+      "title": "One Coordinated Portfolio",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Alternative investments should not sit in a separate bucket disconnected from the rest of your wealth."
+        },
+        {
+          "type": "p",
+          "text": "Public markets, private markets, cash, retirement accounts, real estate, business interests, and other assets should ultimately be viewed as parts of one financial picture."
+        },
+        {
+          "type": "p",
+          "text": "PointOak Retirement Advisors is an independent, fee-only fiduciary advisory firm providing private wealth management and retirement plan consulting to clients throughout the DC Metro area and nationwide. We offer personalized financial planning and investment management for individuals and families as well as comprehensive retirement plan consulting for businesses."
+        },
+        {
+          "type": "p",
+          "text": "Our open-architecture approach allows us to evaluate both traditional and alternative investment opportunities when appropriate, with the objective of building a portfolio around the client's financial circumstances rather than a predetermined product lineup."
+        }
+      ]
+    },
+    {
+      "id": "looking-beyond-traditional-investments",
+      "title": "Looking Beyond Traditional Investments?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "We can help you evaluate whether alternative or private-market investments have a role within your broader portfolio."
+        },
+        {
+          "type": "button",
+          "label": "Schedule a Complimentary Consultation",
+          "action": "schedule"
+        }
+      ],
+      "layout": "cta"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Investor.gov: Structured notes investor bulletin",
+      "href": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-76"
+    }
+  ]
+}

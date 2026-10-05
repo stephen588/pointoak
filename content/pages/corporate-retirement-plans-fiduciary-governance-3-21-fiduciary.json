@@ -1,14 +1,16 @@
 {
+  "id": "R07",
   "route": "/corporate-retirement-plans/fiduciary-governance/3-21-fiduciary/",
   "name": "3(21) Fiduciary Services",
-  "parent": "Fiduciary Governance & Committee Support",
+  "kind": "page",
+  "parentRoute": "/corporate-retirement-plans/fiduciary-governance/",
   "meta": {
     "title": "3(21) Investment Fiduciary Services | PointOak",
     "description": "PointOak provides 3(21) investment fiduciary advice and recommendations while the plan sponsor or committee retains final decision-making authority.",
-    "schema": "Service + FAQPage + BreadcrumbList"
+    "schema": "Service + BreadcrumbList; shared Organization reference"
   },
   "hero": {
-    "title": "3(21) Fiduciary Services for Retirement Plan Sponsors",
+    "title": "3(21) Fiduciary Services",
     "subtitle": "Independent investment guidance while you retain decision-making authority.",
     "blocks": [
       {
@@ -17,12 +19,12 @@
       },
       {
         "type": "p",
-        "text": "PointOak Retirement Advisors provides 3(21) fiduciary services for employers seeking independent investment recommendations, committee support, and documented fiduciary guidance. As your ERISA 3(21) co-fiduciary, we help your organization make informed decisions while strengthening the governance process behind every recommendation."
+        "text": "PointOak Retirement Advisors provides 3(21) fiduciary services for employers seeking independent investment recommendations, committee support, and documented fiduciary guidance. As your 3(21) investment fiduciary, we help your organization make informed decisions while strengthening the governance process behind each recommendation."
       },
       {
         "type": "chips",
         "items": [
-          "Named ERISA 3(21) fiduciary",
+          "3(21) investment fiduciary services",
           "Independent, fee-only fiduciary advisor",
           "Quarterly investment monitoring",
           "Committee and governance support"
@@ -48,11 +50,11 @@
               ]
             },
             {
-              "title": "Reduce Fiduciary Risk",
+              "title": "Strengthen the Fiduciary Process",
               "body": [
                 {
                   "type": "p",
-                  "text": "ERISA requires plan fiduciaries to act prudently and document their decisions. A structured review process supported by an experienced co-fiduciary helps strengthen that process and demonstrate prudent oversight."
+                  "text": "ERISA requires plan fiduciaries to act prudently and maintain an appropriate record of their process. A structured review process supported by an experienced 3(21) investment fiduciary can strengthen that process and help document prudent oversight."
                 }
               ]
             },
@@ -61,7 +63,7 @@
               "body": [
                 {
                   "type": "p",
-                  "text": "PointOak operates as a fee-only advisor with no commissions, proprietary investment products, or recordkeeper affiliations. Every recommendation is made solely in the best interests of your plan participants."
+                  "text": "PointOak operates as a fee-only advisor with no investment-product commissions or proprietary investment lineup. Our recommendations are made within our fiduciary role, with the interests of plan participants and beneficiaries at the center of the analysis."
                 }
               ]
             },
@@ -93,7 +95,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "A 3(21) fiduciary serves as an investment co-fiduciary under ERISA. We provide documented recommendations regarding investment selection, monitoring, replacement decisions, and fiduciary best practices, while your committee retains final approval authority."
+          "text": "A 3(21) investment fiduciary provides investment advice and recommendations under ERISA. We provide documented recommendations regarding investment selection, monitoring, and replacement decisions, while your committee retains final approval authority."
         },
         {
           "type": "p",
@@ -101,11 +103,11 @@
         },
         {
           "type": "p",
-          "text": "PointOak integrates investment monitoring, provider benchmarking, committee governance, and fiduciary documentation into a repeatable process that supports both regulatory compliance and better participant outcomes."
+          "text": "PointOak integrates investment monitoring, provider benchmarking, committee governance, and fiduciary documentation into a repeatable process that supports both regulatory coordination and better participant outcomes."
         },
         {
           "type": "button",
-          "label": "Schedule Your Consultation",
+          "label": "Schedule a Complimentary Consultation",
           "action": "schedule"
         }
       ]
@@ -162,11 +164,25 @@
               "body": [
                 {
                   "type": "p",
-                  "text": "If investment performance, fees, or plan design haven't been reviewed against current market standards, a 3(21) engagement provides a structured process for evaluation and improvement."
+                  "text": "If investment performance, fees, or plan design haven't been reviewed against current market standards, a 3(21) engagement provides a structured process for evaluation and improvement.",
+                  "segs": [
+                    [
+                      "If investment performance, fees, or ",
+                      null
+                    ],
+                    [
+                      "plan design",
+                      "/corporate-retirement-plans/plan-design/"
+                    ],
+                    [
+                      " haven't been reviewed against current market standards, a 3(21) engagement provides a structured process for evaluation and improvement.",
+                      null
+                    ]
+                  ]
                 },
                 {
                   "type": "p",
-                  "text": "When a 3(21) fiduciary may not be the best fit: Organizations that want to transfer day-to-day investment responsibility entirely may benefit more from a 3(38) fiduciary arrangement, where the investment manager assumes discretionary authority."
+                  "text": "When a 3(21) investment fiduciary may not be the best fit: Organizations that want to delegate day-to-day investment discretion may benefit more from a 3(38) investment manager arrangement, where the investment manager assumes discretionary authority within the delegated scope."
                 }
               ]
             }
@@ -175,8 +191,8 @@
       ]
     },
     {
-      "id": "3-21-vs-3-38-fiduciary-services",
-      "title": "3(21) vs. 3(38) Fiduciary Services",
+      "id": "3-21-fiduciary-vs-3-38-investment-manager-services",
+      "title": "3(21) Fiduciary vs. 3(38) Investment Manager Services",
       "blocks": [
         {
           "type": "p",
@@ -233,15 +249,15 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Effective co-fiduciary support requires more than selecting investments. It requires an ongoing partnership built around prudent governance, documented recommendations, and independent advice."
+          "text": "Effective 3(21) fiduciary support requires more than selecting investments. It requires an ongoing partnership built around prudent governance, documented recommendations, and independent advice."
         },
         {
           "type": "p",
-          "text": "PointOak has advised retirement plan sponsors since 2005 and serves as a named fiduciary for organizations nationwide. More than 90% of our business focuses on retirement plan consulting, giving our team deep experience in investment oversight, fiduciary governance, benchmarking, and participant outcomes."
+          "text": "PointOak brings deep retirement-plan experience to plan sponsors, with founder Darsh Makim, CRPC®, advising retirement plan sponsors since 2005."
         },
         {
           "type": "p",
-          "text": "Unlike advisors affiliated with investment companies or recordkeepers, we remain completely independent. Our fee-only structure means every recommendation is based on what's best for your plan—not on product sales or platform incentives."
+          "text": "Unlike advisors affiliated with investment companies or recordkeepers, we remain independent. Our fee-only structure means our recommendations are not tied to product sales or platform incentives."
         }
       ]
     },
@@ -251,11 +267,37 @@
       "blocks": [
         {
           "type": "p",
-          "text": "PointOak Retirement Advisors is an independent, fee-only wealth advisory firm founded in 2017 and headquartered in McLean, Virginia. We are an SEC-registered investment advisor serving retirement plan sponsors and high-net-worth individuals nationwide."
-        },
-        {
-          "type": "p",
-          "text": "Our team manages more than $1.08 billion in assets under management and brings over 50 years of collective experience. Founder Darsh Makim, CRPC, has advised retirement plan sponsors since 2005 and serves as a named 3(21) and 3(38) ERISA fiduciary."
+          "text": "PointOak Retirement Advisors is an independent, fee-only fiduciary advisory firm providing private wealth management and retirement plan consulting to clients throughout the DC Metro area and nationwide. We offer personalized financial planning and investment management for individuals and families as well as comprehensive retirement plan consulting for businesses.",
+          "segs": [
+            [
+              "PointOak Retirement Advisors is an independent, fee-only fiduciary advisory firm providing private ",
+              null
+            ],
+            [
+              "wealth management",
+              "/services/wealth-management/"
+            ],
+            [
+              " and ",
+              null
+            ],
+            [
+              "retirement plan consulting",
+              "/corporate-retirement-plans/"
+            ],
+            [
+              " to clients throughout the DC Metro area and nationwide. We offer personalized financial planning and ",
+              null
+            ],
+            [
+              "investment management",
+              "/services/investment-management/"
+            ],
+            [
+              " for individuals and families as well as comprehensive retirement plan consulting for businesses.",
+              null
+            ]
+          ]
         }
       ]
     },
@@ -271,16 +313,16 @@
               "a": [
                 {
                   "type": "p",
-                  "text": "A 3(21) fiduciary is an ERISA investment co-fiduciary who provides investment recommendations while the plan sponsor retains final decision-making authority."
+                  "text": "A 3(21) investment fiduciary provides investment advice and recommendations under ERISA while the plan sponsor or committee retains final decision-making authority."
                 }
               ]
             },
             {
-              "q": "What's the difference between a 3(21) and a 3(38) fiduciary?",
+              "q": "What's the difference between a 3(21) investment fiduciary and a 3(38) investment manager?",
               "a": [
                 {
                   "type": "p",
-                  "text": "A 3(21) fiduciary recommends investments, but the committee makes the final decisions. A 3(38) fiduciary has discretionary authority to select, monitor, and replace investments on the plan's behalf."
+                  "text": "A 3(21) investment fiduciary recommends investments, while the committee makes the final decisions. A 3(38) investment manager has discretionary authority within the delegated scope to select, monitor, and replace plan investments."
                 }
               ]
             },
@@ -316,7 +358,7 @@
               "a": [
                 {
                   "type": "p",
-                  "text": "Yes. PointOak is a fee-only, SEC-registered investment advisor with no proprietary investment products, commissions, or recordkeeper affiliations."
+                  "text": "Yes. PointOak is a fee-only, SEC-registered investment adviser with no proprietary investment products, commissions, or recordkeeper affiliations."
                 }
               ]
             }
@@ -325,8 +367,7 @@
         {
           "type": "button",
           "label": "View More FAQs",
-          "href": "/faq/",
-          "secondary": false
+          "href": "/faq/"
         }
       ],
       "layout": "faq"
@@ -337,11 +378,11 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Work alongside an experienced co-fiduciary while your committee retains final authority over investment decisions."
+          "text": "Work alongside an experienced 3(21) investment fiduciary while your committee retains final authority over investment decisions."
         },
         {
           "type": "button",
-          "label": "Schedule Your Complimentary Consultation",
+          "label": "Schedule a Complimentary Consultation",
           "action": "schedule"
         }
       ],

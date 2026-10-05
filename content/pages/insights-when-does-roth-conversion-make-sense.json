@@ -1,0 +1,732 @@
+{
+  "id": "IN04",
+  "route": "/insights/when-does-roth-conversion-make-sense/",
+  "name": "When Does a Roth Conversion Make Sense?",
+  "kind": "article",
+  "parentRoute": "/resources/",
+  "meta": {
+    "title": "When Does a Roth Conversion Make Sense? | PointOak",
+    "description": "Learn when a Roth conversion may make sense and how taxes, RMDs, Social Security, Medicare IRMAA, and retirement income can affect the decision.",
+    "schema": "BlogPosting + BreadcrumbList; shared Organization reference"
+  },
+  "hero": {
+    "title": "When Does a Roth Conversion Make Sense?",
+    "subtitle": "Paying taxes sooner can sometimes create greater flexibility later—but the timing matters.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "A Roth conversion can sound appealing: move money from a pre-tax retirement account into a Roth IRA, pay the tax today, and potentially receive qualified distributions tax-free in the future.",
+        "segs": [
+          [
+            "A ",
+            null
+          ],
+          [
+            "Roth conversion",
+            "/services/401k-rollovers-roth-conversions/"
+          ],
+          [
+            " can sound appealing: move money from a pre-tax retirement account into a Roth IRA, pay the tax today, and potentially receive qualified distributions tax-free in the future.",
+            null
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "But that description leaves out the most important question:"
+      },
+      {
+        "type": "p",
+        "text": "Is paying the tax today actually better than paying it later?"
+      },
+      {
+        "type": "p",
+        "text": "For investors with substantial balances in traditional IRAs and 401(k)s, the answer can have meaningful long-term consequences."
+      },
+      {
+        "type": "p",
+        "text": "A Roth conversion may help manage future taxable income, required minimum distributions, retirement withdrawals, and the mix of taxable and tax-free assets available later in life. But converting too much—or converting in the wrong year—can also create an unnecessarily large tax bill and affect other areas of your financial plan."
+      },
+      {
+        "type": "p",
+        "text": "That is why Roth conversion planning is generally less about deciding whether Roth is good and more about deciding how much to convert, when to convert it, and at what tax cost."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "what-is-a-roth-conversion",
+      "title": "What Is a Roth Conversion?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A Roth conversion moves assets from a pre-tax retirement account, such as a traditional IRA, into a Roth IRA."
+        },
+        {
+          "type": "p",
+          "text": "The untaxed amount converted is generally included in taxable income for the year of the conversion.",
+          "segs": [
+            [
+              "The untaxed amount converted",
+              "https://www.irs.gov/publications/p590b"
+            ],
+            [
+              " is generally included in taxable income for the year of the conversion.",
+              null
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "In exchange, Roth IRA assets can potentially grow tax-free, and qualified withdrawals can generally be received without federal income tax. Roth IRAs also do not require distributions during the original owner's lifetime under current law."
+        },
+        {
+          "type": "p",
+          "text": "That creates a basic tradeoff:"
+        },
+        {
+          "type": "p",
+          "text": "Pay tax now → potentially reduce taxes and mandatory taxable distributions later."
+        },
+        {
+          "type": "p",
+          "text": "Whether that tradeoff is attractive depends on your individual circumstances."
+        }
+      ]
+    },
+    {
+      "id": "the-years-between-retirement-and-rmds-can-be-important",
+      "title": "The Years Between Retirement and RMDs Can Be Important",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "One of the most common Roth conversion opportunities occurs after someone retires but before other sources of taxable income increase."
+        },
+        {
+          "type": "p",
+          "text": "Consider someone who retires at 64."
+        },
+        {
+          "type": "p",
+          "text": "Their salary stops, but they may not yet be taking Social Security. Required minimum distributions may still be years away. If they have sufficient taxable assets or cash to fund their lifestyle, their taxable income could temporarily be lower than it was during their working years."
+        },
+        {
+          "type": "p",
+          "text": "That period can create what is sometimes referred to as a tax-planning window."
+        },
+        {
+          "type": "p",
+          "text": "Instead of allowing a large traditional IRA to continue growing entirely tax-deferred, the retiree might consider converting a portion of the account to Roth during those lower-income years."
+        },
+        {
+          "type": "p",
+          "text": "The objective isn't necessarily to convert the entire IRA."
+        },
+        {
+          "type": "p",
+          "text": "It may be to use a series of partial Roth conversions over several years."
+        },
+        {
+          "type": "p",
+          "text": "For many affluent retirees, that is the more useful question:"
+        },
+        {
+          "type": "p",
+          "text": "How much can we intentionally recognize as taxable income this year while remaining comfortable with the overall tax cost?"
+        }
+      ]
+    },
+    {
+      "id": "why-large-pre-tax-balances-can-create-future-planning-issues",
+      "title": "Why Large Pre-Tax Balances Can Create Future Planning Issues",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Traditional IRAs and other pre-tax retirement accounts provide valuable tax deferral during the accumulation years."
+        },
+        {
+          "type": "p",
+          "text": "Eventually, however, those assets generally become taxable when withdrawn."
+        },
+        {
+          "type": "p",
+          "text": "The starting age for required minimum distributions depends on your birth year. For people born in 1960 or later, it is 75 under current law; earlier birth cohorts follow different starting ages. Roth IRA owners are not required to take RMDs during their lifetimes.",
+          "segs": [
+            [
+              "The starting age for required minimum distributions depends on your birth year. ",
+              null
+            ],
+            [
+              "For people born in 1960 or later",
+              "https://www.irs.gov/irb/2024-33_IRB"
+            ],
+            [
+              ", it is 75 under current law; earlier birth cohorts follow different starting ages. Roth IRA owners are not required to take RMDs during their lifetimes.",
+              null
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "For someone with a substantial traditional IRA balance, future RMDs may create taxable income whether or not the money is actually needed for living expenses."
+        },
+        {
+          "type": "p",
+          "text": "That can affect:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Federal and state income taxes",
+            "Medicare premiums",
+            "The taxation of Social Security",
+            "Investment and withdrawal decisions",
+            "Charitable planning",
+            "The amount and type of assets ultimately transferred to heirs"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "A Roth conversion made earlier does not eliminate those issues entirely, but it can reduce the amount remaining in pre-tax accounts and provide another pool of assets with different tax characteristics."
+        }
+      ]
+    },
+    {
+      "id": "roth-conversions-can-create-tax-diversification",
+      "title": "Roth Conversions Can Create Tax Diversification",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Investment diversification gets a great deal of attention."
+        },
+        {
+          "type": "p",
+          "text": "Tax diversification can be important too.",
+          "segs": [
+            [
+              "Tax diversification",
+              "/services/tax-aware-wealth-strategies/"
+            ],
+            [
+              " can be important too.",
+              null
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "A retiree might enter retirement with assets spread among:"
+        },
+        {
+          "type": "chips",
+          "items": [
+            "Taxable accounts",
+            "Traditional IRAs and 401(k)s",
+            "Roth accounts"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Each gives the retiree a different way to generate cash."
+        },
+        {
+          "type": "p",
+          "text": "Traditional IRA withdrawals generally increase taxable income."
+        },
+        {
+          "type": "p",
+          "text": "Qualified Roth withdrawals generally do not."
+        },
+        {
+          "type": "p",
+          "text": "Taxable investment accounts introduce their own mix of interest, dividends, capital gains, and cost basis."
+        },
+        {
+          "type": "p",
+          "text": "Having several account types can provide flexibility when deciding how to fund a large expense, manage taxable income, or respond to future tax-law changes."
+        },
+        {
+          "type": "p",
+          "text": "For example, a retiree needing an additional $75,000 for a major purchase may have very different tax consequences depending on whether that money comes from a traditional IRA, Roth IRA, taxable account, or some combination."
+        },
+        {
+          "type": "p",
+          "text": "A Roth conversion can therefore be part of building future withdrawal flexibility, not simply an attempt to predict future tax rates."
+        }
+      ]
+    },
+    {
+      "id": "should-you-convert-because-tax-rates-might-be-higher-later",
+      "title": "Should You Convert Because Tax Rates Might Be Higher Later?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Future tax rates matter—but trying to predict tax law decades in advance is difficult."
+        },
+        {
+          "type": "p",
+          "text": "Instead of making the decision solely around where tax rates might go, we generally think it is more useful to compare:"
+        },
+        {
+          "type": "p",
+          "text": "Your estimated tax cost today"
+        },
+        {
+          "type": "p",
+          "text": "versus"
+        },
+        {
+          "type": "p",
+          "text": "The potential tax cost and financial flexibility later"
+        },
+        {
+          "type": "p",
+          "text": "Someone in a particularly high-income year may have little reason to accelerate additional taxable income."
+        },
+        {
+          "type": "p",
+          "text": "Someone who has recently retired and experienced a substantial reduction in income may have a more attractive opportunity."
+        },
+        {
+          "type": "p",
+          "text": "Your own tax situation can therefore matter more than a broad prediction about whether Congress will raise or lower rates in the future."
+        }
+      ]
+    },
+    {
+      "id": "roth-conversions-can-affect-medicare-premiums",
+      "title": "Roth Conversions Can Affect Medicare Premiums",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "This is an important part of the analysis for people approaching or already enrolled in Medicare."
+        },
+        {
+          "type": "p",
+          "text": "A Roth conversion increases adjusted gross income in the year of conversion, which can also increase modified adjusted gross income used to determine Medicare's income-related monthly adjustment amount, or IRMAA."
+        },
+        {
+          "type": "p",
+          "text": "IRMAA can increase Medicare Part B and Part D costs for higher-income beneficiaries."
+        },
+        {
+          "type": "p",
+          "text": "The Social Security Administration generally uses tax-return information from two years earlier when determining whether IRMAA applies. For example, 2026 premiums generally use 2024 tax information.",
+          "segs": [
+            [
+              "The Social Security Administration generally uses tax-return information from ",
+              null
+            ],
+            [
+              "two years earlier",
+              "https://www.ssa.gov/benefits/medicare/medicare-premiums.html"
+            ],
+            [
+              " when determining whether IRMAA applies. For example, 2026 premiums generally use 2024 tax information.",
+              null
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "That means a large conversion today may affect Medicare premiums later."
+        },
+        {
+          "type": "p",
+          "text": "This does not necessarily mean a conversion should be avoided simply because it triggers IRMAA."
+        },
+        {
+          "type": "p",
+          "text": "The additional Medicare cost should instead be included in the overall analysis."
+        },
+        {
+          "type": "p",
+          "text": "Sometimes paying a higher Medicare premium for a period may still be reasonable if the conversion creates sufficient longer-term value. In other situations, the additional cost can make a proposed conversion less attractive."
+        },
+        {
+          "type": "p",
+          "text": "The key is to know about the interaction before completing the conversion."
+        }
+      ]
+    },
+    {
+      "id": "social-security-can-affect-the-conversion-window-too",
+      "title": "Social Security Can Affect the Conversion Window Too",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The timing of Social Security can also influence Roth conversion planning.",
+          "segs": [
+            [
+              "The ",
+              null
+            ],
+            [
+              "timing of Social Security",
+              "/services/social-security-pension-planning/"
+            ],
+            [
+              " can also influence Roth conversion planning.",
+              null
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "A retiree who delays Social Security may have several years with relatively little recurring taxable income."
+        },
+        {
+          "type": "p",
+          "text": "Once Social Security begins, taxable income can change, and IRA distributions can potentially affect how much of the Social Security benefit becomes taxable."
+        },
+        {
+          "type": "p",
+          "text": "That is one reason Social Security, Roth conversions, and retirement withdrawals should not be analyzed independently."
+        },
+        {
+          "type": "p",
+          "text": "A decision about when to claim benefits can affect the amount of room available for conversions—and vice versa."
+        }
+      ]
+    },
+    {
+      "id": "partial-conversions-are-often-more-useful-than-an-all-or-nothing-decision",
+      "title": "Partial Conversions Are Often More Useful Than an All-or-Nothing Decision",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A Roth conversion does not have to involve the entire account."
+        },
+        {
+          "type": "p",
+          "text": "Suppose someone has a $1.5 million traditional IRA."
+        },
+        {
+          "type": "p",
+          "text": "The relevant decision may not be:"
+        },
+        {
+          "type": "p",
+          "text": "\"Should I convert my $1.5 million IRA to Roth?\""
+        },
+        {
+          "type": "p",
+          "text": "It may be:"
+        },
+        {
+          "type": "p",
+          "text": "\"How much of this account should I convert this year?\""
+        },
+        {
+          "type": "p",
+          "text": "A series of partial conversions can allow the strategy to respond to:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Annual taxable income",
+            "Changes in tax brackets",
+            "Portfolio values",
+            "Medicare considerations",
+            "Charitable giving",
+            "Social Security timing",
+            "Changes in spending",
+            "Future tax-law developments"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "This also allows the plan to be reevaluated each year rather than committing to a large taxable event at one point in time."
+        },
+        {
+          "type": "p",
+          "text": "Considering a Roth conversion? The amount you convert can be just as important as whether you convert at all. PointOak can evaluate conversions alongside your investments, retirement income, Social Security, Medicare, and broader tax picture.",
+          "segs": [
+            [
+              "Considering a Roth conversion? The amount you convert can be just as important as whether you convert at all. ",
+              null
+            ],
+            [
+              "PointOak",
+              "/services/401k-rollovers-roth-conversions/"
+            ],
+            [
+              " can evaluate conversions alongside your investments, ",
+              null
+            ],
+            [
+              "retirement income",
+              "/services/retirement-income-planning/"
+            ],
+            [
+              ", Social Security, Medicare, and broader tax picture.",
+              null
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "market-declines-can-create-an-opportunity-to-revisit-conversions",
+      "title": "Market Declines Can Create an Opportunity to Revisit Conversions",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Market downturns can sometimes make Roth conversion planning worth revisiting."
+        },
+        {
+          "type": "p",
+          "text": "If an investment has declined in value, converting the position at the lower value may result in less taxable income than converting the same investment at a higher value."
+        },
+        {
+          "type": "p",
+          "text": "If the investment subsequently recovers inside the Roth IRA, that future appreciation may occur within the Roth account."
+        },
+        {
+          "type": "p",
+          "text": "Of course, markets can continue declining, and a conversion should not be based on an assumption that a recovery is imminent."
+        },
+        {
+          "type": "p",
+          "text": "Market conditions are simply one more factor that can influence the timing and amount of a conversion."
+        }
+      ]
+    },
+    {
+      "id": "how-will-you-pay-the-tax",
+      "title": "How Will You Pay the Tax?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A conversion creates a tax liability, so the source of the tax payment matters."
+        },
+        {
+          "type": "p",
+          "text": "Someone with cash or taxable assets available outside the retirement account may be able to pay the conversion tax without reducing the amount transferred into the Roth IRA."
+        },
+        {
+          "type": "p",
+          "text": "Using retirement assets themselves to cover the tax means less money remains invested in the Roth and can create additional considerations, particularly for someone below age 59½."
+        },
+        {
+          "type": "p",
+          "text": "This does not mean taxes must always be paid from outside funds. It means the source of the tax payment should be part of the conversion analysis rather than an afterthought."
+        }
+      ]
+    },
+    {
+      "id": "what-if-you-re-already-taking-required-minimum-distributions",
+      "title": "What If You're Already Taking Required Minimum Distributions?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Roth conversion planning does not necessarily end once RMDs begin."
+        },
+        {
+          "type": "p",
+          "text": "However, an RMD itself cannot be converted to Roth. If an IRA owner is required to take an RMD for the year, the required amount generally must be distributed before additional IRA assets are converted.",
+          "segs": [
+            [
+              "However, ",
+              null
+            ],
+            [
+              "an RMD itself cannot be converted to Roth",
+              "https://www.irs.gov/retirement-plans/plan-participant-employee/rollovers-of-retirement-plan-and-ira-distributions"
+            ],
+            [
+              ". If an IRA owner is required to take an RMD for the year, the required amount generally must be distributed before additional IRA assets are converted.",
+              null
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "After satisfying the RMD, additional eligible assets may still be considered for conversion."
+        },
+        {
+          "type": "p",
+          "text": "At that point, however, the combination of the RMD and conversion may create considerably more taxable income, making careful planning especially important."
+        }
+      ]
+    },
+    {
+      "id": "a-roth-conversion-generally-can-t-simply-be-undone",
+      "title": "A Roth Conversion Generally Can't Simply Be Undone",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Another reason to decide carefully: Roth conversions made under current law generally cannot be recharacterized back to a traditional IRA.",
+          "segs": [
+            [
+              "Another reason to decide carefully: Roth conversions made under current law generally ",
+              null
+            ],
+            [
+              "cannot be recharacterized back to a traditional IRA",
+              "https://www.irs.gov/publications/p590b"
+            ],
+            [
+              ".",
+              null
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "That makes it important to estimate the tax consequences before completing the transaction rather than assuming the decision can be reversed later."
+        }
+      ]
+    },
+    {
+      "id": "when-might-a-roth-conversion-be-less-attractive",
+      "title": "When Might a Roth Conversion Be Less Attractive?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Roth conversions are not appropriate for everyone."
+        },
+        {
+          "type": "p",
+          "text": "A conversion may deserve additional scrutiny if:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "You are currently in an unusually high-income tax year.",
+            "You expect your tax rate to be substantially lower later.",
+            "The conversion would require selling assets or using retirement funds to pay a significant tax bill.",
+            "Additional income would create substantial Medicare or other income-related costs.",
+            "You expect to use much of the traditional IRA for qualified charitable distributions later in retirement.",
+            "You are likely to need the converted assets in the near term.",
+            "The conversion does not meaningfully improve your broader retirement or estate strategy."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The goal should not be to maximize the size of the Roth account."
+        },
+        {
+          "type": "p",
+          "text": "The goal is to determine whether voluntarily paying tax today improves the financial plan."
+        }
+      ]
+    },
+    {
+      "id": "questions-to-ask-before-completing-a-roth-conversion",
+      "title": "Questions to Ask Before Completing a Roth Conversion",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Before converting retirement assets, consider:"
+        },
+        {
+          "type": "p",
+          "text": "What is my taxable income this year? A conversion is layered on top of your other taxable income."
+        },
+        {
+          "type": "p",
+          "text": "What might my income look like over the next several years? A lower-income year in the future could provide a better opportunity."
+        },
+        {
+          "type": "p",
+          "text": "When will Social Security and RMDs begin? Those income sources may change the available planning window."
+        },
+        {
+          "type": "p",
+          "text": "Could the conversion affect Medicare premiums? IRMAA should be incorporated into the cost analysis when applicable."
+        },
+        {
+          "type": "p",
+          "text": "How will I pay the resulting tax? The funding source can materially affect the economics of the conversion."
+        },
+        {
+          "type": "p",
+          "text": "How much should I convert? Partial conversions may provide more control than an all-at-once strategy."
+        },
+        {
+          "type": "p",
+          "text": "How does this affect my overall portfolio and estate plan? Roth assets should be considered alongside the rest of the household balance sheet."
+        }
+      ]
+    },
+    {
+      "id": "roth-conversion-planning-is-about-timing",
+      "title": "Roth Conversion Planning Is About Timing",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The appeal of a Roth conversion is easy to understand."
+        },
+        {
+          "type": "p",
+          "text": "Pay tax today. Potentially receive tax-free income later."
+        },
+        {
+          "type": "p",
+          "text": "The difficult part is determining whether today's tax cost is worth paying—and how much tax you should intentionally create in a particular year."
+        },
+        {
+          "type": "p",
+          "text": "For people with substantial retirement assets, that decision can involve much more than comparing two tax brackets. Retirement income, Social Security, Medicare premiums, RMDs, portfolio withdrawals, charitable goals, and estate considerations can all affect the outcome."
+        },
+        {
+          "type": "p",
+          "text": "PointOak Retirement Advisors is an independent, fee-only fiduciary advisory firm providing private wealth management and retirement plan consulting to clients throughout the DC Metro area and nationwide. We offer personalized financial planning and investment management for individuals and families as well as comprehensive retirement plan consulting for businesses."
+        },
+        {
+          "type": "p",
+          "text": "For individuals and families approaching or living in retirement, we evaluate Roth conversions as part of the broader financial plan rather than as a stand-alone tax decision.",
+          "segs": [
+            [
+              "For individuals and families approaching or living in retirement, we evaluate Roth conversions as part of the ",
+              null
+            ],
+            [
+              "broader financial plan",
+              "/services/comprehensive-financial-planning/"
+            ],
+            [
+              " rather than as a stand-alone tax decision.",
+              null
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wondering-whether-a-roth-conversion-makes-sense",
+      "title": "Wondering Whether a Roth Conversion Makes Sense?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "We can help you evaluate the timing, amount, tax impact, and role a Roth conversion may play within your broader retirement strategy."
+        },
+        {
+          "type": "button",
+          "label": "Schedule a Complimentary Consultation",
+          "action": "schedule"
+        }
+      ],
+      "layout": "cta"
+    }
+  ],
+  "sources": [
+    {
+      "label": "IRS: Rollovers of retirement plan and IRA distributions",
+      "href": "https://www.irs.gov/retirement-plans/plan-participant-employee/rollovers-of-retirement-plan-and-ira-distributions"
+    },
+    {
+      "label": "IRS: Internal Revenue Bulletin 2024-33",
+      "href": "https://www.irs.gov/irb/2024-33_IRB"
+    },
+    {
+      "label": "IRS: Publication 590-B",
+      "href": "https://www.irs.gov/publications/p590b"
+    },
+    {
+      "label": "SSA: Medicare premiums",
+      "href": "https://www.ssa.gov/benefits/medicare/medicare-premiums.html"
+    }
+  ]
+}

@@ -1,62 +1,140 @@
 {
+  "id": "R03",
   "route": "/corporate-retirement-plans/participant-education-communication/retirement-education/",
   "name": "Retirement Education & One-on-One Participant Guidance",
-  "parent": "Participant Education & Communication",
+  "kind": "page",
+  "parentRoute": "/corporate-retirement-plans/participant-education-communication/",
   "meta": {
     "title": "Retirement Education for Employees | PointOak",
     "description": "Advisor-led retirement education and one-on-one participant guidance covering plan decisions, retirement readiness, and workplace benefits.",
-    "schema": "Service + FAQPage + BreadcrumbList"
+    "schema": "Service + BreadcrumbList; shared Organization reference"
   },
   "hero": {
     "title": "Retirement Education & One-on-One Participant Guidance",
-    "subtitle": "Helping participants build confidence, improve retirement readiness, and make informed financial decisions.",
+    "subtitle": "Group education for your workforce. Individual guidance for employees who want to go deeper.",
     "blocks": [
       {
         "type": "p",
-        "text": "Offering a retirement plan is important, but helping employees understand how to use it is what drives better outcomes. PointOak delivers advisor-led retirement education tailored to every stage of an employee's career, giving participants the knowledge and confidence to make smarter retirement decisions throughout their working lives."
+        "text": "Employees need more than information about how their retirement plan works. They often have questions about how the plan applies to their own financial circumstances."
       },
       {
-        "type": "chips",
-        "items": [
-          "Advisor-led education programs",
-          "Customized by career stage",
-          "Retirement plan specialists since 2005"
-        ]
+        "type": "p",
+        "text": "PointOak combines customized group education with complimentary 30-minute individual consultations that participants can schedule directly with a PointOak advisor."
+      },
+      {
+        "type": "p",
+        "text": "This gives employees an opportunity to learn together—and direct access to personalized guidance when they have questions specific to them."
+      },
+      {
+        "type": "button",
+        "label": "Schedule a Complimentary Consultation",
+        "action": "schedule"
       }
     ]
   },
   "sections": [
     {
-      "id": "why-retirement-education-matters",
-      "title": "Why Retirement Education Matters",
+      "id": "from-group-education-to-individual-guidance",
+      "title": "From Group Education to Individual Guidance",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PointOak conducts group education meetings designed around your retirement plan, workforce, and current education priorities."
+        },
+        {
+          "type": "p",
+          "text": "Sessions may cover plan features, enrollment, employer contributions, contribution strategies, Roth and pre-tax contributions, investment fundamentals, beneficiaries, and retirement readiness."
+        },
+        {
+          "type": "p",
+          "text": "But some questions are difficult to address appropriately in a group setting. That's why PointOak also gives participants an opportunity to schedule a complimentary 30-minute individual meeting directly with one of our advisors.",
+          "segs": [
+            [
+              "But some questions are difficult to address appropriately in a group setting. That's ",
+              null
+            ],
+            [
+              "why PointOak",
+              "/why-point-oak/"
+            ],
+            [
+              " also gives participants an opportunity to schedule a complimentary 30-minute individual meeting directly with one of our advisors.",
+              null
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Group education: Understand the plan, available benefits, and important retirement-planning concepts."
+        },
+        {
+          "type": "p",
+          "text": "Individual consultation: Discuss questions based on the participant's own financial circumstances."
+        },
+        {
+          "type": "p",
+          "text": "Ongoing support: Participants can return to the plan's available resources and, when appropriate, seek additional individual guidance."
+        }
+      ]
+    },
+    {
+      "id": "what-can-participants-discuss-one-on-one",
+      "title": "What Can Participants Discuss One-on-One?",
       "blocks": [
         {
           "type": "cards",
           "items": [
             {
-              "title": "Higher Participant Engagement",
+              "title": "Asset Allocation & Investments",
               "body": [
                 {
                   "type": "p",
-                  "text": "Employees who understand their retirement benefits are more likely to participate, increase contributions, and stay engaged throughout their careers. We transform retirement planning from a once-a-year enrollment decision into an ongoing financial conversation."
+                  "text": "Discuss the participant's investment allocation within the retirement plan and how the available investment options may fit their circumstances, time horizon, and risk considerations."
                 }
               ]
             },
             {
-              "title": "Better Retirement Readiness",
+              "title": "Contribution Rates",
               "body": [
                 {
                   "type": "p",
-                  "text": "Different employees have different questions. Early-career workers need help understanding the value of starting early, while employees approaching retirement need guidance on income planning, Social Security, and withdrawal strategies. We tailor education to each stage of the journey."
+                  "text": "Review current retirement contributions, employer contributions, savings objectives, and other considerations that may affect how much the participant chooses to contribute."
                 }
               ]
             },
             {
-              "title": "Supports Your Fiduciary Responsibilities",
+              "title": "Pre-Tax vs. Roth",
               "body": [
                 {
                   "type": "p",
-                  "text": "Providing meaningful participant education demonstrates your commitment to helping employees make informed decisions while creating documentation that supports your overall fiduciary governance process."
+                  "text": "Help participants understand the differences between pre-tax and Roth contributions and considerations that may affect how they allocate contributions between the two."
+                }
+              ]
+            },
+            {
+              "title": "Beneficiary Designations",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Review the importance of beneficiary elections and whether existing designations should be revisited following marriage, divorce, children, or other significant life events."
+                }
+              ]
+            },
+            {
+              "title": "Rollovers & Consolidation",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Help participants understand their options for eligible retirement assets from previous employers, including whether consolidation into the current employer's plan may be available and appropriate."
+                }
+              ]
+            },
+            {
+              "title": "Retirement Planning",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Discuss retirement goals, timing, savings progress, and other considerations that may affect the participant's retirement strategy."
                 }
               ]
             }
@@ -65,52 +143,218 @@
       ]
     },
     {
-      "id": "retirement-education-services",
-      "title": "Retirement Education Services",
+      "id": "complimentary-30-minute-participant-consultations",
+      "title": "Complimentary 30-Minute Participant Consultations",
       "blocks": [
         {
           "type": "cards",
           "items": [
             {
-              "title": "New Hire & Enrollment Education",
+              "title": "Give Employees Direct Access to an Advisor",
               "body": [
                 {
                   "type": "p",
-                  "text": "Help employees understand plan features, employer matching, contribution options, and the value of beginning early."
+                  "text": "Every participant can schedule a complimentary 30-minute individual meeting with a PointOak advisor through our online calendar."
                 },
                 {
                   "type": "p",
-                  "text": "Plan Basics | Employer Match | Enrollment Support"
-                }
-              ]
-            },
-            {
-              "title": "Mid-Career Retirement Planning",
-              "body": [
-                {
-                  "type": "p",
-                  "text": "Guide employees through contribution increases, investment decisions, life changes, and long-term retirement planning as their careers progress."
-                },
-                {
-                  "type": "p",
-                  "text": "Contribution Strategies | Investment Education | Financial Milestones"
-                }
-              ]
-            },
-            {
-              "title": "Pre-Retirement Planning",
-              "body": [
-                {
-                  "type": "p",
-                  "text": "Prepare employees for retirement with education focused on income planning, catch-up contributions, withdrawal strategies, and Social Security considerations."
-                },
-                {
-                  "type": "p",
-                  "text": "Income Planning | Catch-Up Contributions | Retirement Readiness"
+                  "text": "There is no need to wait for the next group education meeting. Employees who have questions can select an available time and speak directly with an advisor about their retirement-plan decisions and other retirement-planning considerations."
                 }
               ]
             }
           ]
+        },
+        {
+          "type": "button",
+          "label": "Schedule Your 30-Minute Participant Consultation",
+          "action": "schedule"
+        }
+      ]
+    },
+    {
+      "id": "retirement-education-throughout-the-employee-lifecycle",
+      "title": "Retirement Education Throughout the Employee Lifecycle",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "New Hire & Onboarding Education",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Help new employees understand their retirement benefit and the decisions they need to make as they join the plan."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Plan Basics",
+                    "Enrollment",
+                    "Contribution Rates",
+                    "Pre-Tax vs. Roth",
+                    "Employer Contributions",
+                    "Beneficiaries",
+                    "Investment Options"
+                  ]
+                },
+                {
+                  "type": "p",
+                  "text": "This is also a natural opportunity to discuss eligible retirement accounts from a previous employer and whether consolidating those assets into the new employer's plan may be appropriate."
+                }
+              ]
+            },
+            {
+              "title": "Ongoing Participant Education",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Provide education as employees build retirement savings and their circumstances change."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Contribution Strategy",
+                    "Investment Allocation",
+                    "Roth vs. Pre-Tax",
+                    "Employer Match",
+                    "Beneficiaries",
+                    "Financial Wellness"
+                  ]
+                },
+                {
+                  "type": "p",
+                  "text": "Employees can also schedule a complimentary 30-minute consultation when they have questions specific to their circumstances."
+                }
+              ]
+            },
+            {
+              "title": "Pre-Retirement Education",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Help employees understand the decisions that become increasingly important as retirement approaches."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Retirement Readiness",
+                    "Catch-Up Contributions",
+                    "Investment Allocation",
+                    "Social Security",
+                    "Medicare",
+                    "Distribution & Retirement Income Considerations"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Offboarding & Transition Support",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Help departing employees understand the decisions surrounding their retirement-plan account when they leave the organization."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Distribution Options",
+                    "Rollover Considerations",
+                    "Account Consolidation",
+                    "Investment Considerations",
+                    "Beneficiaries",
+                    "Retirement Planning"
+                  ]
+                },
+                {
+                  "type": "p",
+                  "text": "PointOak can meet individually with departing participants to help them understand their available options and determine which approach may be appropriate for their circumstances."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "education-delivered-around-your-workforce",
+      "title": "Education Delivered Around Your Workforce",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Education can be delivered in the format that makes sense for the organization and workforce:"
+        },
+        {
+          "type": "chips",
+          "items": [
+            "In-Person Group Meetings",
+            "Webinars",
+            "New-Hire Sessions",
+            "Retirement Workshops",
+            "Group + Individual Sessions",
+            "One-on-One Consultations"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "PointOak can also coordinate with recordkeeper education specialists and use provider resources such as participant websites and plan tools when appropriate."
+        }
+      ]
+    },
+    {
+      "id": "guidance-beyond-the-workplace-retirement-plan",
+      "title": "Guidance Beyond the Workplace Retirement Plan",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "For many participants, the complimentary consultation provides the help they need."
+        },
+        {
+          "type": "p",
+          "text": "Others may have more complex financial circumstances or want ongoing assistance with investments and financial planning beyond their employer-sponsored retirement plan."
+        },
+        {
+          "type": "p",
+          "text": "Participants who want broader assistance may separately choose to engage PointOak for private wealth management, financial planning, IRA and Roth IRA management, retirement income planning, or other individual advisory services.",
+          "segs": [
+            [
+              "Participants who want broader assistance may separately choose to engage PointOak for private ",
+              null
+            ],
+            [
+              "wealth management",
+              "/services/wealth-management/"
+            ],
+            [
+              ", financial planning, IRA and Roth IRA management, ",
+              null
+            ],
+            [
+              "retirement income planning",
+              "/services/retirement-income-planning/"
+            ],
+            [
+              ", or other individual advisory services.",
+              null
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "These services are separate from the employer's retirement-plan engagement and may require a separate advisory agreement and additional fees."
+        }
+      ]
+    },
+    {
+      "id": "rollover-guidance",
+      "title": "Rollover Guidance",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PointOak can help participants understand the options available for eligible retirement assets, which may include leaving assets in a former employer's plan, consolidating eligible assets into the current employer's plan when permitted, or considering an IRA rollover based on the participant's individual circumstances."
+        },
+        {
+          "type": "p",
+          "text": "If a participant subsequently chooses a separately managed IRA or Roth IRA through PointOak, that becomes part of the separate individual advisory relationship."
         }
       ]
     },
@@ -119,76 +363,48 @@
       "title": "Our Education Process",
       "blocks": [
         {
-          "type": "cards",
-          "items": [
-            {
-              "title": "Evaluate Your Workforce",
-              "body": [
-                {
-                  "type": "p",
-                  "text": "We review participation rates, communication efforts, and participant demographics to identify education opportunities."
-                }
-              ]
-            },
-            {
-              "title": "Build a Customized Curriculum",
-              "body": [
-                {
-                  "type": "p",
-                  "text": "Every education program is tailored to your workforce, retirement plan design, and organizational goals."
-                }
-              ]
-            },
-            {
-              "title": "Deliver Year-Round Education",
-              "body": [
-                {
-                  "type": "p",
-                  "text": "Through workshops, webinars, group presentations, and individual meetings, we provide education when employees are most likely to act."
-                }
-              ]
-            },
-            {
-              "title": "Measure Results",
-              "body": [
-                {
-                  "type": "p",
-                  "text": "We monitor engagement, participation, and contribution trends to continually improve program effectiveness."
-                }
-              ]
-            }
-          ]
+          "type": "p",
+          "text": "Understand: Review the plan, workforce, available resources, and education priorities."
+        },
+        {
+          "type": "p",
+          "text": "Educate: Provide customized group education around relevant retirement-plan topics."
+        },
+        {
+          "type": "p",
+          "text": "Connect: Make individual consultations easily accessible through PointOak's online scheduling calendar."
+        },
+        {
+          "type": "p",
+          "text": "Guide: Help participants address questions based on their individual retirement-plan circumstances."
+        },
+        {
+          "type": "p",
+          "text": "Support: Coordinate with available plan resources and provide additional guidance when appropriate."
         }
-      ],
-      "layout": "steps"
+      ]
     },
     {
-      "id": "why-choose-pointoak",
-      "title": "Why Choose PointOak",
+      "id": "why-pointoak",
+      "title": "Why PointOak",
       "blocks": [
         {
           "type": "cards",
           "items": [
             {
-              "title": "Retirement Education Built Around Your Participants",
+              "title": "Retirement Education With Direct Advisor Access",
               "body": [
                 {
                   "type": "p",
-                  "text": "Unlike standardized recordkeeper campaigns, our education programs are designed specifically for your workforce and delivered by experienced retirement plan advisors."
+                  "text": "PointOak combines group retirement education with something employees often value even more: the ability to speak directly with an advisor about their own questions."
                 },
                 {
                   "type": "p",
-                  "text": "As an independent, fee-only fiduciary, we focus on helping participants understand their retirement benefits and make informed decisions that support their long-term financial security."
+                  "text": "Because we also advise the employer's retirement plan, our participant education can be coordinated with the plan's design, investments, employer contributions, recordkeeper resources, and other plan features."
                 },
                 {
-                  "type": "chips",
-                  "items": [
-                    "Fee-Only Fiduciary",
-                    "SEC-Registered Investment Adviser",
-                    "20+ Years of Retirement Plan Experience",
-                    "Advisor-Led Education",
-                    "Nationwide Service"
-                  ]
+                  "type": "p",
+                  "text": "And when an employee wants financial guidance beyond the workplace plan, PointOak has the capabilities to provide separate private wealth management and financial planning services."
                 }
               ]
             }
@@ -204,105 +420,75 @@
           "type": "faq",
           "items": [
             {
-              "q": "Why is retirement education important for employees?",
-              "a": [
-                {
-                  "type": "p",
-                  "text": "Retirement education helps employees understand their workplace benefits, make informed financial decisions, and build confidence about their future."
-                },
-                {
-                  "type": "p",
-                  "text": "When employees understand concepts like employer matching, contribution rates, investment options, and long-term saving, they're more likely to participate in the plan and stay engaged throughout their careers."
-                }
-              ]
-            },
-            {
-              "q": "When should employees begin learning about retirement planning?",
-              "a": [
-                {
-                  "type": "p",
-                  "text": "As early as possible."
-                },
-                {
-                  "type": "p",
-                  "text": "Employees who begin saving early generally have more opportunities to benefit from long-term compounding. Education is valuable at every career stage, from a new employee enrolling in the plan to someone preparing for retirement within the next few years."
-                }
-              ]
-            },
-            {
-              "q": "Are your retirement education programs customized?",
-              "a": [
-                {
-                  "type": "p",
-                  "text": "Yes."
-                },
-                {
-                  "type": "p",
-                  "text": "Every organization has different plan features, workforce demographics, and communication goals. PointOak develops customized education programs based on your retirement plan, employee population, and organizational objectives rather than delivering generic presentations."
-                }
-              ]
-            },
-            {
               "q": "Do you provide both group education and individual meetings?",
               "a": [
                 {
                   "type": "p",
-                  "text": "Yes."
-                },
-                {
-                  "type": "p",
-                  "text": "We offer workshops, webinars, enrollment meetings, retirement planning seminars, and one-on-one participant consultations. This combination allows employees to learn foundational concepts while also getting answers to questions that relate to their own financial situations."
+                  "text": "Yes. PointOak provides customized group education and complimentary 30-minute individual participant consultations. Employees can schedule individual meetings directly through our online calendar."
                 }
               ]
             },
             {
-              "q": "What topics are covered during retirement education sessions?",
+              "q": "What can employees discuss during an individual consultation?",
               "a": [
                 {
                   "type": "p",
-                  "text": "Programs can include retirement plan basics, employer matching, investment fundamentals, contribution strategies, catch-up contributions, retirement income planning, Social Security, rollovers, and retirement readiness."
-                },
-                {
-                  "type": "p",
-                  "text": "Content is tailored to the audience so employees receive education that's appropriate for their career stage and financial needs."
+                  "text": "Topics may include asset allocation, retirement-plan investments, contribution rates, pre-tax versus Roth contributions, employer contributions, beneficiaries, eligible rollover considerations, and retirement-planning questions."
                 }
               ]
             },
             {
-              "q": "How do you measure whether an education program is successful?",
+              "q": "Can you help participants with their investment allocation?",
               "a": [
                 {
                   "type": "p",
-                  "text": "We look at both participation and engagement."
-                },
+                  "text": "Yes. Within the scope of our retirement-plan engagement, PointOak can provide guidance regarding the participant's allocation among the investment options available through the plan."
+                }
+              ]
+            },
+            {
+              "q": "Can PointOak help with an old 401(k)?",
+              "a": [
                 {
                   "type": "p",
-                  "text": "Depending on your goals, we may review metrics such as enrollment rates, contribution increases, participation in educational events, employee feedback, and overall retirement readiness. These insights help refine future education efforts and ensure the program continues to meet your workforce's needs."
+                  "text": "Yes. PointOak can help participants understand the alternatives available for eligible retirement assets, including retaining assets in a former employer plan, consolidating them into the current plan when permitted, or considering an IRA rollover based on the participant's circumstances."
+                }
+              ]
+            },
+            {
+              "q": "What happens if an employee wants more comprehensive financial planning?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Participants may separately engage PointOak for private wealth management or financial planning. These services are separate from the employer's retirement-plan engagement and may involve a separate advisory agreement and additional fees."
+                }
+              ]
+            },
+            {
+              "q": "Do you coordinate with the recordkeeper?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Yes. PointOak can coordinate with recordkeeper education specialists and incorporate available participant websites, tools, and educational resources into the overall education program."
                 }
               ]
             }
           ]
-        },
-        {
-          "type": "button",
-          "label": "View More FAQs",
-          "href": "/faq/",
-          "secondary": false
         }
       ],
       "layout": "faq"
     },
     {
-      "id": "help-employees-feel-more-prepared-for-retirement",
-      "title": "Help Employees Feel More Prepared for Retirement",
+      "id": "give-employees-someone-they-can-actually-talk-to",
+      "title": "Give Employees Someone They Can Actually Talk To",
       "blocks": [
         {
           "type": "p",
-          "text": "Give participants practical, stage-appropriate education that helps them understand their benefits and make better retirement decisions."
+          "text": "Combine customized group education with direct access to a PointOak advisor for the individual retirement questions that don't fit neatly into a group presentation."
         },
         {
           "type": "button",
-          "label": "Schedule Your Complimentary Consultation",
+          "label": "Schedule a Complimentary Consultation",
           "action": "schedule"
         }
       ],

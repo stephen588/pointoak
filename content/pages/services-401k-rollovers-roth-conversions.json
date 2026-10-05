@@ -1,11 +1,13 @@
 {
+  "id": "W04",
   "route": "/services/401k-rollovers-roth-conversions/",
   "name": "401(k) Rollovers & Roth Conversions",
-  "parent": "Wealth Management",
+  "kind": "page",
+  "parentRoute": "/services/wealth-management/",
   "meta": {
     "title": "401(k) Rollovers & Roth Conversions | PointOak",
     "description": "Evaluate 401(k) rollover options and Roth conversion strategies within your broader retirement, investment, and tax-aware financial plan.",
-    "schema": "Service + FAQPage + BreadcrumbList"
+    "schema": "Service + BreadcrumbList; shared Organization reference"
   },
   "hero": {
     "title": "401(k) Rollovers & Roth Conversions",
@@ -20,9 +22,12 @@
         "text": "At PointOak, we help you evaluate each option in the context of your complete financial picture. We consider taxes, investment choices, future income needs, Social Security, Medicare, and your long-term retirement goals before recommending a strategy."
       },
       {
+        "type": "p",
+        "text": "Founder Darsh Makim has advised clients since 2005."
+      },
+      {
         "type": "chips",
         "items": [
-          "Retirement Plan Experience Since 2005",
           "Fee-Only Fiduciary Advisors",
           "Complimentary Consultation"
         ]
@@ -55,10 +60,59 @@
     {
       "id": "how-pointoak-helps",
       "title": "How PointOak Helps",
+      "blocks": []
+    },
+    {
+      "id": "company-stock-deserves-special-attention",
+      "title": "Company Stock Deserves Special Attention",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "If your employer retirement plan holds company stock, don't automatically sell or roll the position without first understanding the potential consequences."
+        },
+        {
+          "type": "p",
+          "text": "Certain distributions of employer securities from a qualified retirement plan can involve specialized tax considerations, including potential net unrealized appreciation (NUA) treatment."
+        },
+        {
+          "type": "p",
+          "text": "Whether that strategy is available or appropriate depends on the specific circumstances."
+        },
+        {
+          "type": "p",
+          "text": "PointOak can help identify when employer stock warrants additional analysis and coordinate with your tax professional before implementing a rollover or distribution."
+        }
+      ]
+    },
+    {
+      "id": "rollover-mechanics-matter-too",
+      "title": "Rollover Mechanics Matter Too",
       "blocks": [
         {
           "type": "cards",
           "items": [
+            {
+              "title": "Direct Rollover",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Retirement assets generally move directly from the employer plan to the receiving retirement account."
+                }
+              ]
+            },
+            {
+              "title": "Indirect / 60-Day Rollover",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Assets are distributed to the participant first, which can introduce withholding requirements, deadlines, and other tax considerations."
+                },
+                {
+                  "type": "p",
+                  "text": "Whenever possible, we help clients understand the mechanics before initiating the transaction, so the movement of assets is coordinated with the intended financial strategy."
+                }
+              ]
+            },
             {
               "title": "Evaluate All of Your Rollover Options",
               "body": [
@@ -222,7 +276,7 @@
           "text": "As an independent, fee-only fiduciary firm, we don't earn commissions from rollover transactions or proprietary investment products. Our goal is to help you understand your options and choose the strategy that best fits your financial plan."
         },
         {
-          "type": "chips",
+          "type": "list",
           "items": [
             "Experience at a Glance",
             "Fee-Only Fiduciary",
@@ -353,8 +407,7 @@
         {
           "type": "button",
           "label": "View More FAQs",
-          "href": "/faq/",
-          "secondary": false
+          "href": "/faq/"
         }
       ],
       "layout": "faq"
@@ -368,37 +421,14 @@
           "text": "Rollover and Roth conversion decisions are closely connected to other areas of retirement planning."
         },
         {
-          "type": "p",
-          "text": "Continue exploring:"
-        },
-        {
-          "type": "links",
+          "type": "list",
+          "lead": "Continue exploring:",
           "items": [
-            {
-              "label": "Retirement Income Planning",
-              "href": "/services/retirement-income-planning/",
-              "secondary": false
-            },
-            {
-              "label": "Social Security & Pension Planning",
-              "href": "/services/social-security-pension-planning/",
-              "secondary": false
-            },
-            {
-              "label": "Tax-Aware Wealth Strategies",
-              "href": "/services/tax-aware-wealth-strategies/",
-              "secondary": false
-            },
-            {
-              "label": "Investment Management",
-              "href": "/services/investment-management/",
-              "secondary": false
-            },
-            {
-              "label": "Comprehensive Financial Planning",
-              "href": "/services/comprehensive-financial-planning/",
-              "secondary": false
-            }
+            "Retirement Income Planning →",
+            "Social Security & Pension Planning →",
+            "Tax-Aware Wealth Strategies →",
+            "Investment Management →",
+            "Comprehensive Financial Planning →"
           ]
         }
       ]
@@ -412,8 +442,12 @@
           "text": "Before you roll over, convert, or consolidate retirement assets, let's look at how each decision fits into your broader financial plan."
         },
         {
+          "type": "p",
+          "text": "If a client chooses to engage PointOak to manage rollover assets, that relationship may result in advisory fees, creating a financial incentive that should be considered as part of the rollover decision."
+        },
+        {
           "type": "button",
-          "label": "Schedule Your Complimentary Consultation",
+          "label": "Schedule a Complimentary Consultation",
           "action": "schedule"
         }
       ],

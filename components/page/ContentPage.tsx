@@ -60,6 +60,45 @@ function NumberedGrid({ sections, index }: { sections: Section[]; index: number 
   );
 }
 
+function ArticleBody({ page }: { page: PageContent }) {
+  const body = page.sections.filter((s) => s.layout !== "cta");
+  const cta = page.sections.find((s) => s.layout === "cta");
+  return (
+    <>
+      <article className="bg-white py-14 md:py-20">
+        <div className="max-w-[780px] mx-auto px-6 flex flex-col gap-12">
+          {page.hero.blocks.length > 0 && (
+            <div className="flex flex-col gap-5">
+              <Blocks blocks={page.hero.blocks} />
+            </div>
+          )}
+          {body.map((s) => (
+            <section key={s.id} id={s.id} className="flex flex-col gap-5 scroll-mt-24">
+              <h2 className="text-navy text-2xl md:text-[32px] font-normal leading-tight">{s.title}</h2>
+              <Blocks blocks={s.blocks} />
+            </section>
+          ))}
+          {page.sources?.length ? (
+            <section className="border-t border-[#E3E8EE] pt-8 flex flex-col gap-3">
+              <h2 className="text-navy text-sm font-semibold uppercase tracking-wider">Sources</h2>
+              <ul className="flex flex-col gap-2">
+                {page.sources.map((src) => (
+                  <li key={src.href} className="text-text-gray text-sm leading-relaxed">
+                    <a href={src.href} target="_blank" rel="noopener noreferrer" className="text-medium-blue underline underline-offset-2 hover:text-navy">
+                      {src.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          ) : null}
+        </div>
+      </article>
+      {cta && <SectionView section={cta} index={0} />}
+    </>
+  );
+}
+
 export default function ContentPage({ page }: { page: PageContent }) {
   const trail = breadcrumbs(page.route);
   const faqs = allFaqs(page);
@@ -98,11 +137,18 @@ export default function ContentPage({ page }: { page: PageContent }) {
       areaServed: ["Washington, DC metro area", "United States"],
     });
   }
-  if (faqs.length) {
+  // FAQs stay visible but carry no FAQPage markup (handoff PC07: no FAQ rich-result expectations).
+  void faqs;
+  if (page.kind === "article") {
+    // No author or dates: PC07 asks for real author/reviewer/date fields only, and none are supplied yet.
     jsonLd.push({
       "@context": "https://schema.org",
-      "@type": "FAQPage",
-      mainEntity: faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
+      "@type": "BlogPosting",
+      headline: page.hero.title,
+      description: page.meta.description ?? undefined,
+      url: SITE_URL + page.route,
+      mainEntityOfPage: SITE_URL + page.route,
+      publisher: { "@type": "Organization", name: "PointOak Retirement Advisors", url: SITE_URL },
     });
   }
 
@@ -139,12 +185,14 @@ export default function ContentPage({ page }: { page: PageContent }) {
             {page.hero.subtitle && (
               <p className="text-white/95 text-xl md:text-2xl font-light leading-snug">{page.hero.subtitle}</p>
             )}
-            <Blocks blocks={page.hero.blocks} tone="dark" />
+            {page.kind !== "article" && <Blocks blocks={page.hero.blocks} tone="dark" />}
           </div>
         </div>
       </section>
 
-      {groupSections(page.sections).map((g, i) =>
+      {page.kind === "article" ? (
+        <ArticleBody page={page} />
+      ) : groupSections(page.sections).map((g, i) =>
         Array.isArray(g) ? (
           <NumberedGrid key={i} sections={g} index={i} />
         ) : (

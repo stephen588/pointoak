@@ -1,11 +1,13 @@
 {
+  "id": "C05",
   "route": "/resources/",
   "name": "Insights & Resources",
-  "parent": "Home",
+  "kind": "page",
+  "parentRoute": "/",
   "meta": {
     "title": "Financial Insights & Retirement Resources | PointOak",
     "description": "Explore PointOak insights on investing, retirement, 401(k) rollovers, taxes, Social Security, executive benefits, and employer retirement plans.",
-    "schema": "CollectionPage + BreadcrumbList + Organization"
+    "schema": "CollectionPage + BreadcrumbList; shared Organization reference"
   },
   "hero": {
     "title": "Insights & Resources",
@@ -30,7 +32,17 @@
               "body": [
                 {
                   "type": "p",
-                  "text": "Investment management, portfolio construction, alternatives, and tax-aware investing."
+                  "text": "Investment management, portfolio construction, alternatives, and tax-aware investing.",
+                  "segs": [
+                    [
+                      "Investment management",
+                      "/services/investment-management/"
+                    ],
+                    [
+                      ", portfolio construction, alternatives, and tax-aware investing.",
+                      null
+                    ]
+                  ]
                 }
               ]
             },
@@ -149,22 +161,42 @@
       ]
     },
     {
-      "id": "priority-launch-articles",
-      "title": "Priority Launch Articles",
+      "id": "featured-insights",
+      "title": "Featured Insights",
       "blocks": [
         {
-          "type": "list",
+          "type": "articles",
           "items": [
-            "401(k) Rollover Guide: Your Options When Leaving an Employer",
-            "Should I Roll My 401(k) Into an IRA?",
-            "When Does a Roth Conversion Make Sense?",
-            "Retirement Income Planning: Why a Withdrawal Rate Is Not a Plan",
-            "When Should I Claim Social Security?",
-            "Pension Lump Sum vs. Monthly Benefit",
-            "Alternative Investments in Wealth Management: What Role Can They Play?",
-            "Managing Concentrated Company Stock",
-            "What Should You Do With RSUs When They Vest?",
-            "What Is Asset Location?"
+            {
+              "label": "401(k) Rollover Guide: Your Options When Leaving an Employer",
+              "href": "/insights/401k-rollover-guide/",
+              "text": "Your 401(k) may be one of your largest financial assets. Before you move it, understand your options."
+            },
+            {
+              "label": "Retirement Income Planning: Why a Withdrawal Rate Is Not a Plan",
+              "href": "/insights/retirement-income-planning-withdrawal-rate/",
+              "text": "Turning a portfolio into retirement income requires more than choosing a percentage."
+            },
+            {
+              "label": "When Should I Claim Social Security?",
+              "href": "/insights/when-to-claim-social-security/",
+              "text": "The right claiming age depends on more than maximizing a monthly benefit."
+            },
+            {
+              "label": "When Does a Roth Conversion Make Sense?",
+              "href": "/insights/when-does-roth-conversion-make-sense/",
+              "text": "Paying taxes sooner can sometimes create greater flexibility later—but the timing matters."
+            },
+            {
+              "label": "Alternative Investments in Wealth Management: What Role Can They Play?",
+              "href": "/insights/alternative-investments-wealth-management/",
+              "text": "A broader investment universe can create additional portfolio options—but complexity alone does not make an investment better."
+            },
+            {
+              "label": "Independent RIA vs. Wirehouse: Why the Structure Matters",
+              "href": "/insights/independent-ria-vs-wirehouse/",
+              "text": "Understanding how an advisory firm is structured can help you evaluate the advice, investment choices, compensation, and service model behind the relationship."
+            }
           ]
         }
       ]

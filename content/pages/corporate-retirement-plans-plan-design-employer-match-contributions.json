@@ -1,0 +1,505 @@
+{
+  "id": "R23",
+  "route": "/corporate-retirement-plans/plan-design/employer-match-contributions/",
+  "name": "Employer Match & Contribution Design",
+  "kind": "page",
+  "parentRoute": "/corporate-retirement-plans/plan-design/",
+  "meta": {
+    "title": "401(k) Employer Match & Contribution Design | PointOak",
+    "description": "Evaluate employer match and contribution structures as part of a broader retirement plan design strategy.",
+    "schema": "Service + BreadcrumbList; shared Organization reference"
+  },
+  "hero": {
+    "title": "Employer Match & Contribution Design",
+    "subtitle": "Build a match strategy that works for your employees, your budget, and your broader plan design.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Your employer match is one of the most visible parts of your retirement plan. The right formula can encourage employees to save more, strengthen your benefits package, and support recruiting and retention. PointOak helps plan sponsors evaluate match formulas, contribution thresholds, vesting, and overall cost so every employer dollar supports a clear objective."
+      },
+      {
+        "type": "p",
+        "text": "3(21) investment fiduciary and 3(38) investment manager services available",
+        "segs": [
+          [
+            "3(21) investment fiduciary and ",
+            null
+          ],
+          [
+            "3(38) investment manager services",
+            "/corporate-retirement-plans/fiduciary-governance/3-38-investment-manager/"
+          ],
+          [
+            " available",
+            null
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Founder Darsh Makim has advised clients since 2005."
+      },
+      {
+        "type": "p",
+        "text": "Fee-only with no proprietary products"
+      },
+      {
+        "type": "button",
+        "label": "Schedule a Complimentary Consultation",
+        "action": "schedule"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "the-benefits-of-strategic-employer-match-design",
+      "title": "The Benefits of Strategic Employer Match Design",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Higher Employee Participation",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "A clear, meaningful employer match gives employees a strong reason to participate. We help structure the match so employees understand what they need to contribute to receive the full benefit, reducing the risk that an overly complicated formula goes unused."
+                }
+              ]
+            },
+            {
+              "title": "Stronger Savings Behavior",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Match design can influence how much participants contribute. Coordinating the full-match threshold with enrollment defaults and automatic escalation helps employees move toward stronger savings rates rather than remaining at a low default indefinitely."
+                }
+              ]
+            },
+            {
+              "title": "Better Control Over Employer Costs",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "A more generous match is not automatically a better match. We model contribution formulas against participation, workforce demographics, compensation, and your budget so you understand the likely cost before changing the plan."
+                }
+              ]
+            },
+            {
+              "title": "Greater Recruiting and Retention Value",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Employer contributions are part of your total compensation package. A competitive match can make your retirement plan more valuable to current employees and more attractive to prospective hires."
+                }
+              ]
+            },
+            {
+              "title": "Better Alignment With the Rest of Your Plan",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Employer match design affects safe harbor status, nondiscrimination testing, automatic enrollment, vesting, and overall plan economics. We evaluate those relationships together instead of treating the match as an isolated decision."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "who-benefits-most-from-employer-match-design-consulting",
+      "title": "Who Benefits Most from Employer Match Design Consulting?",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Your Match Hasn't Been Reviewed in Years",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "A formula that was competitive when your plan launched may no longer fit your workforce, budget, or benefits strategy. Benchmarking can show whether your current structure still makes sense."
+                }
+              ]
+            },
+            {
+              "title": "Employees Aren't Contributing Enough to Receive the Full Match",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "If employees routinely leave employer dollars on the table, the issue may be communication, but it may also be the formula itself. A complicated or unusually high contribution threshold can make the benefit harder to understand and use."
+                }
+              ]
+            },
+            {
+              "title": "You're Adding Automatic Enrollment or Escalation",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Enrollment defaults and employer match thresholds should work together. If employees are automatically enrolled below the percentage required to earn the full match, your plan may unintentionally leave participants short of the benefit you're trying to provide."
+                }
+              ]
+            },
+            {
+              "title": "You're Experiencing Nondiscrimination Testing Issues",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Employer contribution design can play an important role in addressing repeated testing constraints. We evaluate whether a safe harbor or QACA structure would better align with your workforce and plan objectives."
+                }
+              ]
+            },
+            {
+              "title": "Your Benefits Package Needs to Be More Competitive",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "If recruiting or retention has become more difficult, your employer contribution strategy may be one area where a targeted improvement adds meaningful employee value."
+                }
+              ]
+            },
+            {
+              "title": "When Employer Match Design Consulting May Not Be Necessary",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "If your match is already competitive, employees consistently receive the full benefit, testing results are strong, and employer costs align with your objectives, a full redesign may not be necessary. Periodic benchmarking may be enough."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "common-employer-match-structures",
+      "title": "Common Employer Match Structures",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The best formula depends on your workforce, budget, and broader 401(k) plan design.",
+          "segs": [
+            [
+              "The best formula depends on your workforce, budget, and broader 401(k) ",
+              null
+            ],
+            [
+              "plan design",
+              "/corporate-retirement-plans/plan-design/"
+            ],
+            [
+              ".",
+              null
+            ]
+          ]
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Dollar-for-Dollar Match",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "The employer contributes one dollar for every dollar the employee contributes, up to a specified percentage of compensation."
+                },
+                {
+                  "type": "p",
+                  "text": "Best for: Employers that want a simple, highly visible benefit employees can easily understand."
+                }
+              ]
+            },
+            {
+              "title": "Partial Match",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "The employer contributes a percentage of each employee dollar up to a specified deferral threshold."
+                },
+                {
+                  "type": "p",
+                  "text": "For example, a 50% match on the first 6% of compensation produces a maximum employer contribution of 3%."
+                },
+                {
+                  "type": "p",
+                  "text": "Best for: Employers that want to encourage employees to contribute more while controlling overall employer cost."
+                }
+              ]
+            },
+            {
+              "title": "Safe Harbor Match",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "A safe harbor match follows an IRS-compliant contribution structure designed to provide relief from certain ADP/ACP nondiscrimination testing requirements when all applicable conditions are met."
+                },
+                {
+                  "type": "p",
+                  "text": "Best for: Employers dealing with repeated testing issues or seeking greater certainty around highly compensated employee deferrals."
+                }
+              ]
+            },
+            {
+              "title": "QACA Match",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "A Qualified Automatic Contribution Arrangement combines automatic enrollment and escalation with a qualifying employer contribution formula."
+                },
+                {
+                  "type": "p",
+                  "text": "Best for: Employers that want to pair higher participation defaults with safe harbor testing relief."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "employer-match-design-and-automatic-enrollment",
+      "title": "Employer Match Design and Automatic Enrollment",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Employer matching and automatic enrollment are most effective when designed together."
+        },
+        {
+          "type": "p",
+          "text": "If your plan automatically enrolls employees at 3%, but employees must contribute 6% to receive the full company match, many participants may remain below the full-match threshold unless your plan also includes automatic escalation or targeted education."
+        },
+        {
+          "type": "list",
+          "lead": "We evaluate:",
+          "items": [
+            "Default contribution rates",
+            "Full-match thresholds",
+            "Escalation schedules",
+            "Employee opt-out behavior",
+            "Employer contribution costs",
+            "Safe harbor requirements",
+            "Workforce participation patterns",
+            "The goal is a retirement plan in which each feature reinforces the others rather than working against them."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "our-employer-match-design-process",
+      "title": "Our Employer Match Design Process",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Analyze",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We review your current match formula, participation rates, average deferrals, workforce demographics, testing history, and employer contribution costs."
+                }
+              ]
+            },
+            {
+              "title": "Benchmark",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We compare your existing structure with relevant market and plan-design benchmarks to understand how competitive the benefit is and where opportunities may exist."
+                }
+              ]
+            },
+            {
+              "title": "Design",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We model alternative formulas and evaluate how each affects employees, employer costs, participation, testing, and your broader compensation strategy."
+                }
+              ]
+            },
+            {
+              "title": "Implement",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Once a design is approved, we coordinate with your recordkeeper and other providers to support plan amendments and employee communications."
+                }
+              ]
+            },
+            {
+              "title": "Monitor",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We review participation and contribution behavior over time to determine whether the new structure is producing the intended results."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "steps"
+    },
+    {
+      "id": "why-choose-pointoak",
+      "title": "Why Choose PointOak",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Employer Contributions Designed as Part of the Whole Plan",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Founder Darsh Makim has worked with plan sponsors since 2005, giving us direct experience with the relationship between employer contributions, participant behavior, testing, plan design, and overall retirement readiness."
+                },
+                {
+                  "type": "p",
+                  "text": "We don't recommend a more expensive match simply because it looks competitive on paper. We evaluate what employees need to contribute, how the match interacts with automatic enrollment and safe harbor provisions, and what the structure will actually cost your organization."
+                },
+                {
+                  "type": "p",
+                  "text": "As a fee-only fiduciary, we don't receive commissions from recordkeepers or proprietary products. Our recommendations are based on your plan, your workforce, and your goals."
+                },
+                {
+                  "type": "p",
+                  "text": "3(21) investment fiduciary and 3(38) investment manager services available"
+                },
+                {
+                  "type": "p",
+                  "text": "Founder Darsh Makim has advised clients since 2005."
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Fee-Only, Independent Advice",
+                    "Plan Design & Benchmarking Expertise",
+                    "Nationwide Plan Sponsor Support"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frequently-asked-questions",
+      "title": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "What is a 401(k) employer match?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "A 401(k) employer match is a contribution your organization makes based on how much an employee contributes to the retirement plan."
+                },
+                {
+                  "type": "p",
+                  "text": "The exact amount depends on your plan's formula. Some employers match employee contributions dollar for dollar up to a set percentage of compensation, while others use a partial matching formula."
+                }
+              ]
+            },
+            {
+              "q": "What is a good 401(k) employer match?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "There is no single match formula that's right for every organization."
+                },
+                {
+                  "type": "p",
+                  "text": "A strong employer match balances employee value, participation goals, employer cost, workforce demographics, and your broader compensation strategy. Benchmarking can provide useful context, but the best design is one that works for your specific organization."
+                }
+              ]
+            },
+            {
+              "q": "What's the difference between a 50% match on 6% and a 6% match?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "They are not the same."
+                },
+                {
+                  "type": "p",
+                  "text": "A 50% match on the first 6% an employee contributes produces a maximum employer contribution of 3% of compensation. A dollar-for-dollar match on the first 6% produces a maximum employer contribution of 6%."
+                },
+                {
+                  "type": "p",
+                  "text": "Clear communication is important because employees can easily misunderstand the difference."
+                }
+              ]
+            },
+            {
+              "q": "Can we change our employer match?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Usually, but the timing and requirements depend on your plan structure."
+                },
+                {
+                  "type": "p",
+                  "text": "Safe harbor plans and other arrangements may have specific amendment and notice requirements. Before changing the formula, we review your plan document and coordinate with your providers to determine what is permitted and when the change can take effect."
+                }
+              ]
+            },
+            {
+              "q": "Should employer matching contributions vest immediately?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "That depends on the contribution type and your plan design."
+                },
+                {
+                  "type": "p",
+                  "text": "Certain safe harbor contributions have specific vesting requirements, while other employer contributions may allow a vesting schedule. The right structure depends on employee retention goals, turnover, and applicable plan rules."
+                }
+              ]
+            },
+            {
+              "q": "How often should we benchmark our employer match?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "It's worth reviewing your employer contribution strategy periodically and whenever there is a significant workforce, compensation, recruiting, or plan-design change."
+                },
+                {
+                  "type": "p",
+                  "text": "Benchmarking is especially useful when participation has changed, the plan hasn't been reviewed in several years, or you're considering a broader benefits redesign."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "label": "View More FAQs",
+          "href": "/faq/"
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "make-your-employer-match-work-smarter",
+      "title": "Make Your Employer Match Work Smarter",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Build a match strategy that balances your budget, employee participation, and the recruiting value of your retirement benefit."
+        },
+        {
+          "type": "button",
+          "label": "Schedule a Complimentary Consultation",
+          "action": "schedule"
+        }
+      ],
+      "layout": "cta"
+    }
+  ]
+}

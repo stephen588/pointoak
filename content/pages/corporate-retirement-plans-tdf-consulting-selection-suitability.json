@@ -1,0 +1,504 @@
+{
+  "id": "R19",
+  "route": "/corporate-retirement-plans/tdf-consulting/selection-suitability/",
+  "name": "TDF Selection & Suitability",
+  "kind": "page",
+  "parentRoute": "/corporate-retirement-plans/tdf-consulting/",
+  "meta": {
+    "title": "Target Date Fund Selection & Suitability | PointOak",
+    "description": "Evaluate target date fund series based on glide path, investment structure, fees, participant considerations, and plan objectives.",
+    "schema": "Service + BreadcrumbList; shared Organization reference"
+  },
+  "hero": {
+    "title": "TDF Selection & Suitability",
+    "subtitle": "Choose a target date fund based on participant fit—not simply the year on the label.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Target date funds are designed to simplify investing for participants, but selecting the right series requires a much deeper review. PointOak helps plan sponsors evaluate glide paths, fees, underlying investments, and participant demographics through an independent process designed to document why a TDF is appropriate for your plan."
+      },
+      {
+        "type": "chips",
+        "items": [
+          "3(21) investment fiduciary and 3(38) investment manager services available",
+          "Fee-only with no proprietary products",
+          "Independent TDF evaluation and documentation"
+        ]
+      },
+      {
+        "type": "button",
+        "label": "Schedule a Complimentary Consultation",
+        "action": "schedule"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "the-benefits-of-a-structured-tdf-selection-process",
+      "title": "The Benefits of a Structured TDF Selection Process",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Better Alignment With Your Participants",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "A target date fund's asset allocation determines how much investment risk participants take throughout their careers and into retirement. We evaluate participant ages, contribution behavior, turnover, retirement patterns, and other plan characteristics to determine whether a TDF's assumptions reasonably fit your workforce."
+                }
+              ]
+            },
+            {
+              "title": "Stronger Fiduciary Documentation",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Selecting a TDF because it's offered by your recordkeeper isn't the same as demonstrating a prudent selection process. We document the criteria considered, alternatives reviewed, and rationale behind your committee's decision so the fiduciary file clearly shows how the fund was selected."
+                }
+              ]
+            },
+            {
+              "title": "Independent Fee Analysis",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Target date fund costs can include both the fund's stated expenses and the costs associated with underlying investments. PointOak reviews the complete cost structure alongside investment strategy and participant fit rather than evaluating fees in isolation."
+                }
+              ]
+            },
+            {
+              "title": "More Informed Glide Path Decisions",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Two funds with the same target retirement year can carry very different levels of investment risk. We evaluate how each series shifts from equities to more conservative assets and whether that approach makes sense for how your participants are expected to save and retire."
+                }
+              ]
+            },
+            {
+              "title": "Ongoing Suitability",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "A TDF that fit your workforce several years ago may not be the best fit today. Participant demographics, fund strategies, fees, management teams, and investment vehicles can all change. We help establish an ongoing review process so suitability is reassessed over time."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "steps"
+    },
+    {
+      "id": "what-we-evaluate-when-selecting-target-date-funds",
+      "title": "What We Evaluate When Selecting Target Date Funds",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Participant Demographics",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We look at the workforce behind the investment menu rather than assuming every plan has an \"average\" participant."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Age Distribution",
+                    "Salary Levels",
+                    "Contribution Patterns"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Glide Path",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We evaluate how risk changes before, at, and after the target retirement date."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Equity Exposure",
+                    "Fixed Income Allocation",
+                    "\"To\" vs. \"Through\" Retirement"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Fees & Investment Structure",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We review the cost and construction of the complete TDF series."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Expense Ratios",
+                    "Underlying Investments",
+                    "Vehicle Structure"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Investment Approach",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Active, passive, and blended target date funds can produce very different portfolios even when they share the same target year."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Active vs. Passive",
+                    "Asset Classes",
+                    "Diversification"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Fiduciary Fit",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Every recommendation is evaluated in the context of your plan's objectives and your committee's fiduciary responsibilities."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Selection Criteria",
+                    "Committee Documentation",
+                    "Ongoing Monitoring"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "who-benefits-most-from-independent-tdf-selection",
+      "title": "Who Benefits Most from Independent TDF Selection?",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Your Current TDF Was the Recordkeeper Default",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "If your plan simply adopted the fund series offered by your provider, it may be worth confirming whether the selection was independently evaluated and documented."
+                }
+              ]
+            },
+            {
+              "title": "Your TDF Hasn't Been Formally Reviewed Recently",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Fund strategies, management teams, costs, and participant demographics can change over time. A periodic suitability review helps determine whether the current lineup continues to fit."
+                }
+              ]
+            },
+            {
+              "title": "You're Changing Recordkeepers",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "A provider transition creates an opportunity to compare target date fund options rather than automatically moving into the new recordkeeper's preferred series."
+                }
+              ]
+            },
+            {
+              "title": "Your Workforce Has Changed",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Growth, turnover, acquisitions, or changing employee demographics can alter the participant profile that originally informed your investment decisions."
+                }
+              ]
+            },
+            {
+              "title": "Your Committee Can't Explain Why the Current TDF Was Selected",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "If your fiduciary file doesn't contain a clear rationale connecting the selected TDF to participant characteristics and plan objectives, an independent evaluation can help close that documentation gap."
+                }
+              ]
+            },
+            {
+              "title": "When a Separate TDF Selection Review May Not Be Necessary",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "If your current target date fund was recently evaluated through an independent process, remains competitively priced, fits your participant population, and has a documented monitoring schedule, your existing review process may already be sufficient."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "structured-tdf-evaluation-vs-default-selection",
+      "title": "Structured TDF Evaluation vs. Default Selection",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Both approaches can result in a target date fund being added to the plan. The difference is the process behind the decision."
+        },
+        {
+          "type": "p",
+          "text": "A structured evaluation doesn't guarantee that your current TDF needs to change. It gives your committee the information and documentation needed to demonstrate why keeping or replacing it makes sense."
+        }
+      ]
+    },
+    {
+      "id": "our-target-date-fund-selection-process",
+      "title": "Our Target Date Fund Selection Process",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Analyze",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We review your existing target date fund series, participant demographics, glide path, fees, underlying investments, and current fiduciary documentation."
+                }
+              ]
+            },
+            {
+              "title": "Compare",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We evaluate competing TDF options using consistent criteria rather than limiting the review to a single provider's recommended fund family."
+                }
+              ]
+            },
+            {
+              "title": "Assess Suitability",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We examine how each strategy's assumptions align with your workforce, retirement behavior, plan objectives, and governance needs."
+                }
+              ]
+            },
+            {
+              "title": "Present Findings",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Your committee receives clear recommendations and documentation showing the factors considered and the reasoning behind the recommendation."
+                }
+              ]
+            },
+            {
+              "title": "Implement & Monitor",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "If a change is appropriate, we coordinate implementation with your provider and establish an ongoing review process to monitor suitability over time."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "steps"
+    },
+    {
+      "id": "why-choose-pointoak",
+      "title": "Why Choose PointOak",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Independent TDF Selection With Fiduciary Accountability",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Target date fund recommendations often come from the same recordkeeper or provider making the investments available. PointOak approaches the decision differently."
+                },
+                {
+                  "type": "p",
+                  "text": "As an independent, fee-only advisor, we aren't tied to a fund manufacturer or recordkeeper's preferred lineup. We evaluate available options based on your participant population, plan objectives, investment structure, costs, and fiduciary responsibilities."
+                },
+                {
+                  "type": "p",
+                  "text": "And because PointOak can serve as a 3(21) investment fiduciary or 3(38) investment manager, our role goes beyond producing a comparison. We help establish and document the process your committee uses to make and monitor the decision."
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "3(21) investment fiduciary and 3(38) investment manager services available",
+                    "Independent, Fee-Only Advice",
+                    "No Proprietary Fund Requirements"
+                  ]
+                },
+                {
+                  "type": "p",
+                  "text": "Founder Darsh Makim has advised clients since 2005."
+                },
+                {
+                  "type": "p",
+                  "text": "Documented TDF Evaluation Process"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frequently-asked-questions",
+      "title": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "What is target date fund selection?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Target date fund selection is the process of comparing TDF series to determine which investment approach is an appropriate fit for a retirement plan and its participants."
+                },
+                {
+                  "type": "p",
+                  "text": "A fiduciary-level review goes beyond matching participants with a fund year. It considers glide path, underlying investments, costs, participant demographics, and the assumptions built into each series."
+                }
+              ]
+            },
+            {
+              "q": "How do you choose the right target date fund for a 401(k)?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Start with your plan's participants, then evaluate the glide path, fees, underlying investments, risk, and overall investment structure."
+                },
+                {
+                  "type": "p",
+                  "text": "The right fund is one your committee can reasonably determine fits the characteristics and needs of your participant population through a documented evaluation process."
+                }
+              ]
+            },
+            {
+              "q": "Are all 2050 target date funds basically the same?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "No."
+                },
+                {
+                  "type": "p",
+                  "text": "Target date funds with the same year can have very different equity exposure, fixed-income allocations, underlying investments, fees, and glide path philosophies. The target year alone doesn't tell you how much risk participants are taking."
+                }
+              ]
+            },
+            {
+              "q": "How important are target date fund fees?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Fees matter, but they shouldn't be evaluated alone."
+                },
+                {
+                  "type": "p",
+                  "text": "A lower-cost fund isn't automatically the best choice if its glide path or investment approach is poorly matched to your participants. We evaluate cost alongside suitability, diversification, risk, and governance."
+                }
+              ]
+            },
+            {
+              "q": "Should we automatically use the target date fund offered by our recordkeeper?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Not necessarily."
+                },
+                {
+                  "type": "p",
+                  "text": "The recordkeeper's option may ultimately be appropriate, but your committee should be able to demonstrate why. An independent review compares the available solution against relevant alternatives and documents the decision."
+                }
+              ]
+            },
+            {
+              "q": "What should plan fiduciaries document when selecting a TDF?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Document the criteria used, alternatives considered, participant characteristics reviewed, costs evaluated, investment and glide path analysis, final decision, and rationale.",
+                  "segs": [
+                    [
+                      "Document the criteria used, alternatives considered, participant characteristics reviewed, costs evaluated, investment and ",
+                      null
+                    ],
+                    [
+                      "glide path analysis",
+                      "/corporate-retirement-plans/tdf-consulting/glide-path-analysis/"
+                    ],
+                    [
+                      ", final decision, and rationale.",
+                      null
+                    ]
+                  ]
+                },
+                {
+                  "type": "p",
+                  "text": "The file should also establish how and when the TDF will be reviewed going forward."
+                }
+              ]
+            },
+            {
+              "q": "What's the difference between TDF selection and TDF consulting?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Selection focuses specifically on determining which target date fund series is appropriate for your plan. TDF consulting is broader and can include glide path analysis, custom-versus-off-the-shelf evaluation, implementation, fiduciary documentation, and ongoing monitoring."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "label": "View More FAQs",
+          "href": "/faq/"
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "choose-target-date-funds-with-confidence",
+      "title": "Choose Target Date Funds With Confidence",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Move beyond the target year with an independent evaluation of glide path, fees, underlying investments, and participant fit."
+        },
+        {
+          "type": "button",
+          "label": "Schedule a Complimentary Consultation",
+          "action": "schedule"
+        }
+      ],
+      "layout": "cta"
+    }
+  ]
+}

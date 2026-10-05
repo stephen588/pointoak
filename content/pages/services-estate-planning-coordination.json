@@ -1,11 +1,13 @@
 {
+  "id": "W09",
   "route": "/services/estate-planning-coordination/",
   "name": "Estate Planning Coordination",
-  "parent": "Wealth Management",
+  "kind": "page",
+  "parentRoute": "/services/wealth-management/",
   "meta": {
     "title": "Estate Planning Coordination | PointOak",
     "description": "Coordinate beneficiary designations, account ownership, wealth-transfer considerations, and financial planning with your attorney and tax professional.",
-    "schema": "Service + FAQPage + BreadcrumbList"
+    "schema": "Service + BreadcrumbList; shared Organization reference"
   },
   "hero": {
     "title": "Estate Planning Coordination",
@@ -223,7 +225,7 @@
           "text": "As an independent, fee-only fiduciary firm, our role is to help keep your financial planning aligned with your goals—not sell products or legal services."
         },
         {
-          "type": "chips",
+          "type": "list",
           "items": [
             "Experience at a Glance",
             "Fee-Only Fiduciary",
@@ -381,7 +383,21 @@
               "a": [
                 {
                   "type": "p",
-                  "text": "Estate planning coordination is included as part of PointOak's broader wealth management relationship rather than offered as a standalone legal service."
+                  "text": "Estate planning coordination is included as part of PointOak's broader wealth management relationship rather than offered as a standalone legal service.",
+                  "segs": [
+                    [
+                      "Estate planning coordination is included as part of PointOak's broader ",
+                      null
+                    ],
+                    [
+                      "wealth management",
+                      "/services/wealth-management/"
+                    ],
+                    [
+                      " relationship rather than offered as a standalone legal service.",
+                      null
+                    ]
+                  ]
                 },
                 {
                   "type": "p",
@@ -394,8 +410,7 @@
         {
           "type": "button",
           "label": "View More FAQs",
-          "href": "/faq/",
-          "secondary": false
+          "href": "/faq/"
         }
       ],
       "layout": "faq"
@@ -409,37 +424,14 @@
           "text": "Estate planning is closely connected to other areas of your financial life."
         },
         {
-          "type": "p",
-          "text": "Continue exploring:"
-        },
-        {
-          "type": "links",
+          "type": "list",
+          "lead": "Continue exploring:",
           "items": [
-            {
-              "label": "Comprehensive Financial Planning",
-              "href": "/services/comprehensive-financial-planning/",
-              "secondary": false
-            },
-            {
-              "label": "Investment Management",
-              "href": "/services/investment-management/",
-              "secondary": false
-            },
-            {
-              "label": "Retirement Income Planning",
-              "href": "/services/retirement-income-planning/",
-              "secondary": false
-            },
-            {
-              "label": "Tax-Aware Wealth Strategies",
-              "href": "/services/tax-aware-wealth-strategies/",
-              "secondary": false
-            },
-            {
-              "label": "Executive Benefits Planning",
-              "href": "/services/executive-benefits-planning/",
-              "secondary": false
-            }
+            "Comprehensive Financial Planning →",
+            "Investment Management →",
+            "Retirement Income Planning →",
+            "Tax-Aware Wealth Strategies →",
+            "Executive Benefits Planning →"
           ]
         }
       ]
@@ -454,7 +446,7 @@
         },
         {
           "type": "button",
-          "label": "Schedule Your Complimentary Consultation",
+          "label": "Schedule a Complimentary Consultation",
           "action": "schedule"
         }
       ],

@@ -1,0 +1,517 @@
+{
+  "id": "R12",
+  "route": "/corporate-retirement-plans/evaluation-benchmarking/provider-fee-benchmarking/",
+  "name": "Provider & Fee Benchmarking",
+  "kind": "page",
+  "parentRoute": "/corporate-retirement-plans/evaluation-benchmarking/",
+  "meta": {
+    "title": "401(k) Fee Benchmarking | PointOak",
+    "description": "Benchmark retirement plan recordkeeping fees, services, and provider pricing to support informed fiduciary review.",
+    "schema": "Service + BreadcrumbList; shared Organization reference"
+  },
+  "hero": {
+    "title": "Provider & Fee Benchmarking",
+    "subtitle": "Independent fee benchmarking that helps demonstrate fee reasonableness and strengthen your fiduciary process.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "One of the most important responsibilities under ERISA is ensuring your retirement plan fees remain reasonable for the services your participants receive. That responsibility doesn't end once your plan is established. Providers change, pricing evolves, and growing plans often qualify for better fee structures than they received years ago."
+      },
+      {
+        "type": "p",
+        "text": "PointOak Retirement Advisors provides independent 401(k) fee benchmarking that evaluates every layer of plan expenses—not just recordkeeping fees. Our process compares your actual retirement plan against current market data to help your committee understand total plan costs, identify opportunities for improvement, and document a prudent fiduciary review process."
+      },
+      {
+        "type": "chips",
+        "items": [
+          "Independent, fee-only benchmarking",
+          "3(21) investment fiduciary and 3(38) investment manager services available",
+          "450+ data points in a full provider search and comprehensive benchmark report",
+          "No provider affiliations or proprietary products"
+        ]
+      },
+      {
+        "type": "button",
+        "label": "Schedule a Complimentary Consultation",
+        "action": "schedule"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "benefits-of-401-k-fee-benchmarking",
+      "title": "Benefits of 401(k) Fee Benchmarking",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Demonstrate Fee Reasonableness",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "ERISA requires fiduciaries to determine whether plan fees remain reasonable relative to the services provided. Independent benchmarking creates the documentation your committee needs to support that determination."
+                }
+              ]
+            },
+            {
+              "title": "Understand Your Total Plan Costs",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Retirement plan expenses often extend well beyond a single recordkeeping fee. We evaluate investment expenses, administrative fees, revenue sharing, advisory compensation, and indirect costs to provide a complete picture of your plan."
+                }
+              ]
+            },
+            {
+              "title": "Improve Negotiating Position",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Knowing current market pricing gives your committee leverage during provider renewal discussions. Benchmarking often creates opportunities to negotiate improved pricing or enhanced services without changing providers."
+                }
+              ]
+            },
+            {
+              "title": "Understand Costs Paid by Participants",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Every dollar spent unnecessarily on plan expenses is a dollar that no longer compounds for participants. Identifying excessive costs helps improve long-term retirement outcomes without changing participant behavior."
+                }
+              ]
+            },
+            {
+              "title": "Build a Stronger Fiduciary Record",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Fee benchmarking isn't simply about reducing costs—it's about documenting a prudent, repeatable process that demonstrates ongoing fiduciary oversight."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-401-k-fee-benchmarking-works",
+      "title": "How 401(k) Fee Benchmarking Works",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Effective fee benchmarking evaluates far more than a single invoice or expense ratio."
+        },
+        {
+          "type": "p",
+          "text": "PointOak reviews recordkeeping fees, investment management expenses, revenue-sharing arrangements, participant-paid charges, advisory compensation, administrative costs, and indirect compensation using your actual retirement plan data. Those findings are then compared against similarly sized retirement plans and current marketplace pricing.",
+          "segs": [
+            [
+              "PointOak reviews recordkeeping fees, ",
+              null
+            ],
+            [
+              "investment management",
+              "/services/investment-management/"
+            ],
+            [
+              " expenses, revenue-sharing arrangements, participant-paid charges, advisory compensation, administrative costs, and indirect compensation using your actual retirement plan data. Those findings are then compared against similarly sized retirement plans and current marketplace pricing.",
+              null
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Our analysis helps determine whether your plan remains competitively priced while providing committee-ready documentation that supports fiduciary decision-making."
+        },
+        {
+          "type": "button",
+          "label": "Schedule a Complimentary Consultation",
+          "action": "schedule"
+        }
+      ]
+    },
+    {
+      "id": "what-we-evaluate",
+      "title": "What We Evaluate",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Our benchmarking process examines every major cost category affecting your retirement plan."
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Recordkeeping Fees",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We compare recordkeeping costs against current market pricing while evaluating whether service levels justify the fees being charged."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Administrative Fees",
+                    "Per-Participant Costs",
+                    "Platform Pricing"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Investment Expenses",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Investment costs include far more than published expense ratios. We evaluate share classes, investment management fees, and underlying fund expenses across your entire investment lineup."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Expense Ratios",
+                    "Share Classes",
+                    "Fund Costs"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Revenue Sharing & Indirect Compensation",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Many retirement plans include indirect compensation arrangements that are difficult to identify without detailed analysis. We review revenue sharing and other indirect payments to provide complete fee transparency."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Revenue Sharing",
+                    "Indirect Compensation",
+                    "Fee Transparency"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Advisory & Administrative Costs",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Advisory fees, consulting expenses, compliance support, and administrative services all contribute to total plan costs. We evaluate these services alongside pricing to determine overall value."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Advisory Fees",
+                    "Administrative Services",
+                    "Value Assessment"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fee-benchmarking-within-your-overall-retirement-plan",
+      "title": "Fee Benchmarking Within Your Overall Retirement Plan",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Fee benchmarking is one part of a broader fiduciary review. PointOak integrates cost analysis with provider evaluation, investment oversight, and governance support."
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Recordkeeper Evaluation & RFP Consulting",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Benchmarking often identifies whether pricing can be improved through negotiation or whether a competitive provider search is warranted."
+                }
+              ],
+              "link": {
+                "label": "Learn More",
+                "href": "/corporate-retirement-plans/evaluation-benchmarking/provider-rfp/"
+              }
+            },
+            {
+              "title": "Investment Analysis",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Investment expenses should always be evaluated alongside investment quality, performance, and fiduciary oversight—not independently."
+                }
+              ],
+              "link": {
+                "label": "Learn More",
+                "href": "/corporate-retirement-plans/investment-analysis-monitoring/"
+              }
+            },
+            {
+              "title": "ERISA Fiduciary Support",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Fee benchmarking strengthens your committee's fiduciary documentation and supports ongoing governance responsibilities."
+                }
+              ],
+              "link": {
+                "label": "Learn More",
+                "href": "/corporate-retirement-plans/fiduciary-governance/"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "who-benefits-from-401-k-fee-benchmarking",
+      "title": "Who Benefits from 401(k) Fee Benchmarking?",
+      "blocks": [
+        {
+          "type": "list",
+          "lead": "Independent fee benchmarking is especially valuable when:",
+          "items": [
+            "Your plan has not been benchmarked in the past two to three years.",
+            "Your provider contract is approaching renewal.",
+            "Committee members are questioning whether current fees remain reasonable.",
+            "Your organization has experienced significant growth.",
+            "Your retirement plan has increased substantially in assets or participants.",
+            "You're preparing for a Department of Labor review or fiduciary audit.",
+            "You cannot clearly identify every fee participants are paying."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Recently benchmarked plans with stable pricing may only require periodic monitoring, but most growing retirement plans benefit from regular independent fee reviews."
+        }
+      ]
+    },
+    {
+      "id": "what-to-expect",
+      "title": "What To Expect",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Analyze",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We collect your current fee disclosures, provider agreements, investment information, participant counts, and plan asset data."
+                }
+              ]
+            },
+            {
+              "title": "Benchmark",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Using current market comparisons and PointOak's evaluation methodology, we analyze every layer of plan expenses and identify opportunities for improvement."
+                }
+              ]
+            },
+            {
+              "title": "Implement",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We help your committee negotiate with existing providers, evaluate alternatives when appropriate, and document every recommendation as part of your ongoing fiduciary process."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "steps"
+    },
+    {
+      "id": "why-choose-pointoak-for-401-k-fee-benchmarking",
+      "title": "Why Choose PointOak for 401(k) Fee Benchmarking",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Many fee benchmarking reports simply compare expense ratios."
+        },
+        {
+          "type": "p",
+          "text": "PointOak evaluates the entire cost structure of your retirement plan."
+        },
+        {
+          "type": "p",
+          "text": "Our independent, fee-only approach reviews every source of direct and indirect compensation while considering service quality, participant experience, governance support, and provider capabilities. That means your committee receives recommendations based on total value—not simply the lowest price."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Independent Fee-Only Advice",
+            "3(21) investment fiduciary and 3(38) investment manager services available",
+            "Complete Fee Transparency",
+            "450+ data points in a full provider benchmark",
+            "Founder’s retirement-plan experience since 2005",
+            "Committee-Ready Documentation",
+            "Ongoing Benchmarking Support"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "about-pointoak-retirement-advisors",
+      "title": "About PointOak Retirement Advisors",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PointOak Retirement Advisors is an independent, fee-only fiduciary advisory firm providing private wealth management and retirement plan consulting to clients throughout the DC Metro area and nationwide. We offer personalized financial planning and investment management for individuals and families as well as comprehensive retirement plan consulting for businesses.",
+          "segs": [
+            [
+              "PointOak Retirement Advisors is an independent, fee-only fiduciary advisory firm providing private ",
+              null
+            ],
+            [
+              "wealth management",
+              "/services/wealth-management/"
+            ],
+            [
+              " and ",
+              null
+            ],
+            [
+              "retirement plan consulting",
+              "/corporate-retirement-plans/"
+            ],
+            [
+              " to clients throughout the DC Metro area and nationwide. We offer personalized financial planning and investment management for individuals and families as well as comprehensive retirement plan consulting for businesses.",
+              null
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "annual-fee-review-and-periodic-full-benchmarking",
+      "title": "Annual Fee Review and Periodic Full Benchmarking",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PointOak generally conducts a full plan and provider benchmark every three to five years, or sooner when circumstances warrant. In years when we are not conducting a full benchmark, we perform a fee benchmark and work with the provider to reprice the plan annually. The three-to-five-year interval is PointOak's practice, not a DOL or ERISA requirement."
+        }
+      ]
+    },
+    {
+      "id": "frequently-asked-questions",
+      "title": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "What fees should be included in a 401(k) fee benchmark?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "A complete fee benchmark evaluates every layer of plan expenses."
+                },
+                {
+                  "type": "p",
+                  "text": "This includes recordkeeping fees, investment management fees, expense ratios, advisory compensation, administrative costs, participant-paid charges, revenue-sharing arrangements, and other indirect compensation. Looking at only one fee category rarely provides an accurate picture of total plan costs."
+                }
+              ]
+            },
+            {
+              "q": "What is fee reasonableness under ERISA?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "ERISA requires fiduciaries to evaluate whether retirement plan fees are reasonable for the services being provided."
+                },
+                {
+                  "type": "p",
+                  "text": "Reasonable does not necessarily mean lowest. Committees should consider pricing alongside service quality, participant support, compliance resources, technology, investment flexibility, and overall value when evaluating providers."
+                }
+              ]
+            },
+            {
+              "q": "Does benchmarking mean we should change providers?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Not necessarily."
+                },
+                {
+                  "type": "p",
+                  "text": "Many benchmarking engagements confirm that an existing provider continues to offer competitive pricing and appropriate service. Others identify opportunities to renegotiate fees without changing providers. Only when significant differences exist does a competitive provider search typically become the recommended next step."
+                }
+              ]
+            },
+            {
+              "q": "How do you identify hidden retirement plan fees?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Hidden costs often appear as indirect compensation rather than clearly disclosed invoices."
+                },
+                {
+                  "type": "p",
+                  "text": "PointOak reviews revenue-sharing arrangements, asset-based charges, fund expenses, administrative costs, transaction fees, and other indirect compensation to provide a complete picture of your retirement plan's cost structure."
+                }
+              ]
+            },
+            {
+              "q": "Can fee benchmarking lower participant costs?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Often, yes."
+                },
+                {
+                  "type": "p",
+                  "text": "Independent benchmarking frequently identifies opportunities to reduce recordkeeping fees, improve investment share classes, eliminate unnecessary expenses, or renegotiate provider contracts. Even relatively small cost reductions can produce meaningful long-term savings for participants through compound growth."
+                }
+              ]
+            },
+            {
+              "q": "What's the difference between fee benchmarking and a retirement plan RFP?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Fee benchmarking evaluates your current provider's pricing against the marketplace."
+                },
+                {
+                  "type": "p",
+                  "text": "A retirement plan RFP is a competitive bidding process used when benchmarking suggests your committee should formally evaluate alternative providers. Benchmarking helps determine whether an RFP is necessary."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "label": "View More FAQs",
+          "href": "/faq/"
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "know-what-your-retirement-plan-is-really-costing",
+      "title": "Know What Your Retirement Plan Is Really Costing",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "We'll help you evaluate every layer of plan expenses and determine whether the fees you're paying are reasonable for the services you're receiving."
+        },
+        {
+          "type": "button",
+          "label": "Schedule a Complimentary Consultation",
+          "action": "schedule"
+        }
+      ],
+      "layout": "cta"
+    }
+  ]
+}

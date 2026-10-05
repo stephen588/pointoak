@@ -1,11 +1,13 @@
 {
+  "id": "W07",
   "route": "/services/executive-benefits-planning/",
   "name": "Executive Benefits Planning",
-  "parent": "Wealth Management",
+  "kind": "page",
+  "parentRoute": "/services/wealth-management/",
   "meta": {
     "title": "Executive Benefits Planning | PointOak",
     "description": "Financial planning for executives with RSUs, stock options, deferred compensation, concentrated stock, workplace benefits, and career transitions.",
-    "schema": "Service + FAQPage + BreadcrumbList"
+    "schema": "Service + BreadcrumbList; shared Organization reference"
   },
   "hero": {
     "title": "Executive Benefits Planning",
@@ -23,13 +25,31 @@
         "type": "chips",
         "items": [
           "Fee-Only Fiduciary Advisors",
-          "Retirement Specialists Since 2005",
+          "Founder’s retirement experience since 2005",
           "Complimentary Consultation"
         ]
       }
     ]
   },
   "sections": [
+    {
+      "id": "your-employer-may-be-your-largest-financial-asset-and-your-largest-financial-exposure",
+      "title": "Your Employer May Be Your Largest Financial Asset—and Your Largest Financial Exposure",
+      "blocks": [
+        {
+          "type": "list",
+          "lead": "For many executives, their employer can simultaneously provide:",
+          "items": [
+            "Salary | Annual Bonus | RSUs or Stock Options | Deferred Compensation | 401(k) Benefits | Employer Stock | Insurance & Other Benefits",
+            "That can create significant wealth-building opportunities—but it can also cause more of your financial life to depend on a single company.",
+            "Your income, future compensation, retirement benefits, and investment portfolio may all be connected to the same employer.",
+            "COMPENSATION + BENEFITS + INVESTMENTS + RETIREMENT",
+            "One coordinated financial strategy.",
+            "PointOak helps bring those decisions together."
+          ]
+        }
+      ]
+    },
     {
       "id": "why-executive-benefits-planning-matters",
       "title": "Why Executive Benefits Planning Matters",
@@ -172,14 +192,14 @@
         },
         {
           "type": "p",
-          "text": "PointOak combines deep retirement planning experience with independent, fee-only advice and a concierge-level service model. You'll work directly with experienced advisors who understand your complete financial picture and can help coordinate decisions across every part of it."
+          "text": "PointOak combines deep retirement planning experience with independent, fee-only advice and a personal, high-touch service model. You'll work directly with experienced advisors who understand your complete financial picture and can help coordinate decisions across every part of it."
         },
         {
           "type": "p",
-          "text": "Because we don't receive commissions or sell proprietary products, our recommendations are based solely on what makes sense for you."
+          "text": "Because we don't receive commissions or sell proprietary products, our recommendations are not driven by product-sales incentives and are developed around your financial circumstances and goals."
         },
         {
-          "type": "chips",
+          "type": "list",
           "items": [
             "Experience at a Glance",
             "Fee-Only Fiduciary",
@@ -213,7 +233,7 @@
               "a": [
                 {
                   "type": "p",
-                  "text": "At least annually, and whenever you experience a significant vesting event, new grant, promotion, job change, or change in retirement plans."
+                  "text": "Executive compensation should be revisited as circumstances warrant, particularly around new grants, vesting events, option expiration dates, deferred-compensation elections, promotions, job changes, retirement, or other significant financial changes."
                 },
                 {
                   "type": "p",
@@ -343,8 +363,7 @@
         {
           "type": "button",
           "label": "View More FAQs",
-          "href": "/faq/",
-          "secondary": false
+          "href": "/faq/"
         }
       ],
       "layout": "faq"
@@ -358,33 +377,13 @@
           "text": "Executive benefits planning often works hand in hand with other areas of your financial plan."
         },
         {
-          "type": "links",
+          "type": "list",
           "items": [
-            {
-              "label": "Investment Management",
-              "href": "/services/investment-management/",
-              "secondary": false
-            },
-            {
-              "label": "Tax-Aware Wealth Strategies",
-              "href": "/services/tax-aware-wealth-strategies/",
-              "secondary": false
-            },
-            {
-              "label": "Retirement Income Planning",
-              "href": "/services/retirement-income-planning/",
-              "secondary": false
-            },
-            {
-              "label": "401(k) Rollovers & Roth Conversions",
-              "href": "/services/401k-rollovers-roth-conversions/",
-              "secondary": false
-            },
-            {
-              "label": "Comprehensive Financial Planning",
-              "href": "/services/comprehensive-financial-planning/",
-              "secondary": false
-            }
+            "Investment Management →",
+            "Tax-Aware Wealth Strategies →",
+            "Retirement Income Planning →",
+            "401(k) Rollovers & Roth Conversions →",
+            "Comprehensive Financial Planning →"
           ]
         }
       ]
@@ -399,7 +398,7 @@
         },
         {
           "type": "button",
-          "label": "Schedule Your Complimentary Consultation",
+          "label": "Schedule a Complimentary Consultation",
           "action": "schedule"
         }
       ],

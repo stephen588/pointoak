@@ -7,8 +7,7 @@ import { useConsultationModal } from "./ConsultationModalProvider";
 
 type NavItem = { label: string; href: string; children?: { label: string; href: string }[] };
 
-// Darsh's "Final Navigation" (master copy, Oct 2026). Pages that have no copy yet are left out
-// until it arrives: 401(k) Evaluation & Benchmarking, Investment Analysis & Monitoring, Plan Design.
+// Darsh's final navigation (developer handoff 2026-10-04).
 const NAV: NavItem[] = [
   {
     label: "About",
@@ -40,7 +39,10 @@ const NAV: NavItem[] = [
       { label: "Retirement Plan Consulting Overview", href: "/corporate-retirement-plans/" },
       { label: "Participant Education & Communication", href: "/corporate-retirement-plans/participant-education-communication/" },
       { label: "Fiduciary Governance & Committee Support", href: "/corporate-retirement-plans/fiduciary-governance/" },
+      { label: "401(k) Evaluation & Benchmarking", href: "/corporate-retirement-plans/evaluation-benchmarking/" },
+      { label: "Investment Analysis & Monitoring", href: "/corporate-retirement-plans/investment-analysis-monitoring/" },
       { label: "Target Date Fund Consulting", href: "/corporate-retirement-plans/tdf-consulting/" },
+      { label: "Plan Design", href: "/corporate-retirement-plans/plan-design/" },
     ],
   },
   {

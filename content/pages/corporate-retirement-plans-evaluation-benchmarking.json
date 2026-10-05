@@ -1,0 +1,557 @@
+{
+  "id": "R11",
+  "route": "/corporate-retirement-plans/evaluation-benchmarking/",
+  "name": "401(k) Evaluation & Benchmarking",
+  "kind": "page",
+  "parentRoute": "/corporate-retirement-plans/",
+  "meta": {
+    "title": "401(k) Evaluation & Benchmarking | PointOak",
+    "description": "Evaluate retirement plan fees, services, providers, and competitiveness through structured benchmarking and provider review.",
+    "schema": "Service + BreadcrumbList; shared Organization reference"
+  },
+  "hero": {
+    "title": "401(k) Evaluation & Benchmarking",
+    "subtitle": "Independent retirement plan evaluations that support informed decisions and documented fiduciary oversight.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Your retirement plan should evolve as your organization, workforce, and regulations change. Regular evaluation helps keep your providers, investments, fees, and participant experience aligned with your fiduciary responsibilities under ERISA."
+      },
+      {
+        "type": "p",
+        "text": "PointOak Retirement Advisors provides independent 401(k) evaluation and benchmarking that examines every major component of your retirement plan—not just pricing. As a fee-only, SEC-registered investment adviser, we help plan sponsors compare providers, evaluate investments, benchmark fees, and document a prudent fiduciary process within a fee-only fiduciary relationship."
+      },
+      {
+        "type": "chips",
+        "items": [
+          "450+ data points in a full provider search and comprehensive benchmark report",
+          "3(21) investment fiduciary and 3(38) investment manager services available",
+          "Fee-only, independent retirement plan advisor",
+          "No recordkeeper affiliations or proprietary products"
+        ]
+      },
+      {
+        "type": "button",
+        "label": "Schedule a Complimentary Consultation",
+        "action": "schedule"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "benefits-of-401-k-evaluation-benchmarking",
+      "title": "Benefits of 401(k) Evaluation & Benchmarking",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Documented Fiduciary Documentation",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Create a documented process for evaluating providers, investments, fees, and retirement plan services that supports prudent fiduciary decision-making."
+                }
+              ]
+            },
+            {
+              "title": "Lower Total Plan Costs",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Independent benchmarking identifies hidden costs, revenue sharing, administrative expenses, and investment fees that may be reducing participant outcomes."
+                }
+              ]
+            },
+            {
+              "title": "Better Provider Decisions",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Whether negotiating with your current provider or evaluating alternatives, benchmarking gives your committee objective market data to support better decisions."
+                }
+              ]
+            },
+            {
+              "title": "Stronger Participant Experience",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Retirement plans should deliver more than investment options. We evaluate participant education, technology, service quality, cybersecurity, and overall plan experience."
+                }
+              ]
+            },
+            {
+              "title": "Independent Recommendations",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Our fee-only model means our recommendations are developed without commissions or provider incentives influencing the recommendation."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-401-k-evaluation-benchmarking-works",
+      "title": "How 401(k) Evaluation & Benchmarking Works",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Effective benchmarking evaluates much more than fees. A prudent review considers provider capabilities, investment oversight, participant services, cybersecurity, governance, and overall retirement plan performance."
+        },
+        {
+          "type": "p",
+          "text": "PointOak combines fee benchmarking, provider evaluation, investment analysis, and fiduciary documentation into one structured process. Every recommendation is supported by documented scoring and committee-ready reporting, helping your organization make informed decisions while strengthening your fiduciary record."
+        },
+        {
+          "type": "button",
+          "label": "Schedule a Complimentary Consultation",
+          "action": "schedule"
+        }
+      ]
+    },
+    {
+      "id": "our-evaluation-benchmarking-services",
+      "title": "Our Evaluation & Benchmarking Services",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PointOak provides several levels of retirement plan evaluation depending on your organization's needs."
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "401(k) Fee Benchmarking",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Understand every layer of plan expenses—from recordkeeping and investment costs to revenue sharing and administrative fees. We compare your actual plan against current market data to determine whether fees remain reasonable."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Total Cost Analysis",
+                    "Revenue Sharing Review",
+                    "Market Benchmarking"
+                  ]
+                }
+              ],
+              "link": {
+                "label": "Learn About 401(k) Fee Benchmarking",
+                "href": "/corporate-retirement-plans/evaluation-benchmarking/provider-fee-benchmarking/"
+              }
+            },
+            {
+              "title": "Recordkeeper Evaluation & RFP Consulting",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Selecting a provider involves much more than comparing costs. We evaluate service quality, technology, participant experience, cybersecurity, compliance support, and overall plan fit. When appropriate, we also manage the complete retirement plan RFP process."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Provider Evaluation",
+                    "Competitive RFPs",
+                    "Vendor Selection"
+                  ]
+                }
+              ],
+              "link": {
+                "label": "Learn About Recordkeeper Evaluation & RFP Consulting",
+                "href": "/corporate-retirement-plans/evaluation-benchmarking/provider-rfp/"
+              }
+            },
+            {
+              "title": "401(k) Investment Analysis",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Investment oversight requires ongoing monitoring—not occasional reviews. We evaluate your investment lineup, support your Investment Policy Statement, monitor funds quarterly, and document recommendations that strengthen fiduciary oversight."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Quarterly Investment Reviews",
+                    "IPS Support",
+                    "Investment Monitoring"
+                  ]
+                }
+              ],
+              "link": {
+                "label": "Learn About Investment Analysis",
+                "href": "/corporate-retirement-plans/investment-analysis-monitoring/"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "evaluation-beyond-benchmarking",
+      "title": "Evaluation Beyond Benchmarking",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A complete retirement plan review extends beyond providers and fees. PointOak integrates these services into your overall retirement plan strategy."
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Fiduciary Support",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Our benchmarking process feeds directly into ongoing fiduciary governance, committee oversight, and ERISA-related governance support."
+                }
+              ],
+              "link": {
+                "label": "Learn More",
+                "href": "/corporate-retirement-plans/fiduciary-governance/"
+              }
+            },
+            {
+              "title": "Retirement Plan Design",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Benchmarking often identifies opportunities to improve plan participation, employer match formulas, automatic enrollment, and participant outcomes through stronger plan design.",
+                  "segs": [
+                    [
+                      "Benchmarking often identifies opportunities to improve plan participation, employer match formulas, automatic enrollment, and participant outcomes through stronger ",
+                      null
+                    ],
+                    [
+                      "plan design",
+                      "/corporate-retirement-plans/plan-design/"
+                    ],
+                    [
+                      ".",
+                      null
+                    ]
+                  ]
+                }
+              ],
+              "link": {
+                "label": "Learn More",
+                "href": "/corporate-retirement-plans/plan-design/"
+              }
+            },
+            {
+              "title": "Virtual Fiduciary File",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Every benchmark, provider evaluation, committee recommendation, investment review, and governance document is securely organized into one well-organized fiduciary record."
+                }
+              ],
+              "link": {
+                "label": "Learn More",
+                "href": "/corporate-retirement-plans/fiduciary-governance/virtual-fiduciary-file/"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "who-benefits-from-401-k-evaluation-benchmarking",
+      "title": "Who Benefits from 401(k) Evaluation & Benchmarking?",
+      "blocks": [
+        {
+          "type": "list",
+          "lead": "Professional benchmarking is especially valuable when:",
+          "items": [
+            "Your provider has not been competitively evaluated in several years.",
+            "Your committee cannot document its benchmarking process.",
+            "Your retirement plan fees have not been independently reviewed.",
+            "Your provider contract is approaching renewal.",
+            "Your organization has experienced significant growth, acquisitions, or workforce changes.",
+            "You're preparing for a Department of Labor audit or fiduciary review."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Organizations with recently benchmarked plans and stable provider relationships may only require ongoing monitoring, but most growing retirement plans benefit from periodic independent evaluation."
+        }
+      ]
+    },
+    {
+      "id": "what-to-expect",
+      "title": "What To Expect",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Analyze",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We review your current providers, investments, fees, contracts, governance process, participant services, and committee documentation."
+                }
+              ]
+            },
+            {
+              "title": "Benchmark",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We benchmark your retirement plan against current market data and identify opportunities to improve costs, services, investments, governance, and participant outcomes."
+                }
+              ]
+            },
+            {
+              "title": "Implement",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We support negotiations, provider transitions, investment changes, committee documentation, and ongoing benchmarking to strengthen your retirement plan over time."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "steps"
+    },
+    {
+      "id": "why-choose-pointoak-for-401-k-evaluation-benchmarking",
+      "title": "Why Choose PointOak for 401(k) Evaluation & Benchmarking",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Many benchmarking firms compare costs."
+        },
+        {
+          "type": "p",
+          "text": "Many providers benchmark only against themselves."
+        },
+        {
+          "type": "p",
+          "text": "PointOak evaluates the entire retirement plan."
+        },
+        {
+          "type": "p",
+          "text": "Our independent, fee-only approach reviews providers, investments, participant experience, governance, cybersecurity, and costs using one documented evaluation framework. Our recommendations are developed within the fiduciary scope of our engagement and with the interests of the plan and its participants in mind."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Independent Fee-Only Advisor",
+            "3(21) investment fiduciary and 3(38) investment manager services available",
+            "450+ data points in a full provider benchmark",
+            "Founder’s retirement-plan experience since 2005",
+            "Documented Committee Reporting",
+            "Ongoing Benchmarking & Monitoring",
+            "Virtual Fiduciary Documentation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "about-pointoak-retirement-advisors",
+      "title": "About PointOak Retirement Advisors",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PointOak Retirement Advisors is an independent, fee-only fiduciary advisory firm providing private wealth management and retirement plan consulting to clients throughout the DC Metro area and nationwide. We offer personalized financial planning and investment management for individuals and families as well as comprehensive retirement plan consulting for businesses.",
+          "segs": [
+            [
+              "PointOak Retirement Advisors is an independent, fee-only fiduciary advisory firm providing private ",
+              null
+            ],
+            [
+              "wealth management",
+              "/services/wealth-management/"
+            ],
+            [
+              " and ",
+              null
+            ],
+            [
+              "retirement plan consulting",
+              "/corporate-retirement-plans/"
+            ],
+            [
+              " to clients throughout the DC Metro area and nationwide. We offer personalized financial planning and ",
+              null
+            ],
+            [
+              "investment management",
+              "/services/investment-management/"
+            ],
+            [
+              " for individuals and families as well as comprehensive retirement plan consulting for businesses.",
+              null
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "annual-fee-review-and-periodic-full-benchmarking",
+      "title": "Annual Fee Review and Periodic Full Benchmarking",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PointOak generally conducts a full plan and provider benchmark every three to five years, or sooner when circumstances warrant. In years when we are not conducting a full benchmark, we perform a fee benchmark and work with the provider to reprice the plan annually. The three-to-five-year interval is PointOak's practice, not a DOL or ERISA requirement."
+        }
+      ]
+    },
+    {
+      "id": "frequently-asked-questions",
+      "title": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "How much does 401(k) evaluation and benchmarking cost?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "The cost depends on your plan size, participant count, assets, and whether the engagement includes benchmarking alone or full RFP support."
+                },
+                {
+                  "type": "p",
+                  "text": "PointOak operates on a fee-only consulting model, so we never receive commissions, revenue sharing, or referral compensation from recordkeepers or investment providers. Fees are based on the scope of work, including provider benchmarking, fee analysis, investment evaluation, fiduciary consulting, or RFP management."
+                },
+                {
+                  "type": "p",
+                  "text": "Whether you need a standalone benchmarking engagement or ongoing consulting that includes 3(21) investment fiduciary or 3(38) investment manager services, we'll provide a transparent proposal before work begins. Your initial consultation is complimentary and carries no obligation."
+                }
+              ]
+            },
+            {
+              "q": "Should we always choose the lowest-cost 401(k) provider?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "No. ERISA requires fiduciaries to select a provider that is appropriate for the plan—not simply the lowest-priced option."
+                },
+                {
+                  "type": "p",
+                  "text": "A prudent evaluation considers service quality, investment flexibility, participant experience, cybersecurity, compliance support, technology, and overall value alongside fees. A provider that charges slightly more may ultimately deliver better outcomes and stronger fiduciary documentation."
+                },
+                {
+                  "type": "p",
+                  "text": "PointOak helps committees compare providers objectively using documented scoring criteria rather than focusing on price alone."
+                }
+              ]
+            },
+            {
+              "q": "What is an Investment Policy Statement (IPS), and does our plan need one?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "An Investment Policy Statement establishes the framework for selecting, monitoring, watch-listing, and replacing plan investments."
+                },
+                {
+                  "type": "p",
+                  "text": "While ERISA does not specifically require an IPS, it has become an industry best practice because it provides consistent standards for investment oversight. Without one, committees often make investment decisions without documented criteria, making fiduciary oversight more difficult to demonstrate."
+                },
+                {
+                  "type": "p",
+                  "text": "PointOak helps retirement plan committees develop and maintain Investment Policy Statements that support long-term governance."
+                }
+              ]
+            },
+            {
+              "q": "Does participant-directed investing eliminate the sponsor's fiduciary responsibility?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "No."
+                },
+                {
+                  "type": "p",
+                  "text": "Even when participants choose their own investments, plan sponsors remain responsible for prudently selecting and monitoring the investment options offered under the plan."
+                },
+                {
+                  "type": "p",
+                  "text": "ERISA Section 404(c) provides certain liability protections regarding participant investment decisions, but fiduciaries must still demonstrate a prudent process for selecting, monitoring, and documenting the investment lineup."
+                },
+                {
+                  "type": "p",
+                  "text": "PointOak helps committees maintain that documentation through ongoing investment analysis and governance support."
+                }
+              ]
+            },
+            {
+              "q": "How do you evaluate a 401(k) provider?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Our evaluation examines far more than fees."
+                },
+                {
+                  "type": "list",
+                  "lead": "We compare providers across numerous categories, including:",
+                  "items": [
+                    "Recordkeeping capabilities",
+                    "Investment platform",
+                    "Participant experience",
+                    "Service model",
+                    "Cybersecurity",
+                    "Compliance support",
+                    "Technology",
+                    "Reporting",
+                    "Contract terms",
+                    "Pricing",
+                    "Governance support",
+                    "Each provider is evaluated using the same methodology, allowing your committee to make objective, well-documented comparisons."
+                  ]
+                }
+              ]
+            },
+            {
+              "q": "How important is cybersecurity when evaluating a retirement plan provider?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Cybersecurity has become an essential fiduciary consideration."
+                },
+                {
+                  "type": "p",
+                  "text": "The Department of Labor encourages plan sponsors to evaluate provider security practices as part of the provider selection and monitoring process. We review areas such as SOC reports, encryption standards, incident response procedures, breach notification requirements, insurance coverage, and contractual liability protections."
+                },
+                {
+                  "type": "p",
+                  "text": "Cybersecurity is treated as a core evaluation category—not an afterthought."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "label": "View More FAQs",
+          "href": "/faq/"
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "see-how-your-retirement-plan-measures-up",
+      "title": "See How Your Retirement Plan Measures Up",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Get an independent view of your plan's costs, providers, services, and overall competitiveness."
+        },
+        {
+          "type": "button",
+          "label": "Schedule a Complimentary Consultation",
+          "action": "schedule"
+        }
+      ],
+      "layout": "cta"
+    }
+  ]
+}

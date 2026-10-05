@@ -1,75 +1,29 @@
 #!/usr/bin/env python3
-"""Convert Darsh's master copy (.docx) + SEO sitemap (.xlsx) into content/pages/*.json.
+"""Convert Darsh's developer handoff (.docx) + SEO implementation map (.xlsx) into content/pages/*.json.
 
-Usage: python3 scripts/import-copy.py <master-copy.docx> <sitemap.xlsx>
+Usage: python3 scripts/import-copy.py <Developer_Handoff.docx> <SEO_Implementation_Map.xlsx>
 
-Every word on the page comes from the master copy. This script only decides
-structure (hero, sections, cards, lists, FAQs, links); it never writes copy.
-Anything it can't place is printed as a WARN line so a human can check it.
+Format (handoff 2026-10-04): every page starts with a "Page ID" paragraph ("W02  /  Investment
+Management"); the workbook's Final SEO Sitemap gives each Content ID its URL, parent and meta.
+Parts I (core pages) and II (Insights) are copy; Parts III/IV, "Implementation" and "Small"
+paragraphs are instructions and are never published. Word hyperlinks to p_<ID> bookmarks become
+links to that page's URL.
+
+Every word on the site comes from the doc. This script only decides structure (hero, sections,
+cards, lists, FAQs, links). Anything it can't place is printed as a WARN line.
 """
 import json, re, sys, pathlib
 import docx, openpyxl
+from docx.oxml.ns import qn
 from docx.table import Table
 from docx.text.paragraph import Paragraph
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "content" / "pages"
-
-# doc page title -> (route, sitemap row name)
-PAGES = {
-    "HOME": ("/", "Home"),
-    "WEALTH MANAGEMENT": ("/services/wealth-management/", "Wealth Management"),
-    "ABOUT": ("/about/", "About PointOak Retirement Advisors"),
-    "WHY POINTOAK": ("/why-point-oak/", "Why PointOak"),
-    "Investment Management": ("/services/investment-management/", "Investment Management"),
-    "Comprehensive Financial Planning": ("/services/comprehensive-financial-planning/", "Comprehensive Financial Planning"),
-    "401(k) Rollovers & Roth Conversions": ("/services/401k-rollovers-roth-conversions/", "401(k) Rollovers & Roth Conversions"),
-    "Retirement Income Planning": ("/services/retirement-income-planning/", "Retirement Income Planning"),
-    "Tax-Aware Wealth Strategies": ("/services/tax-aware-wealth-strategies/", "Tax-Aware Wealth Strategies"),
-    "Executive Benefits Planning": ("/services/executive-benefits-planning/", "Executive Benefits Planning"),
-    "Social Security & Pension Planning": ("/services/social-security-pension-planning/", "Social Security & Pension Planning"),
-    "Estate Planning Coordination": ("/services/estate-planning-coordination/", "Estate Planning Coordination"),
-    "Retirement Education & One-on-One Participant Guidance": ("/corporate-retirement-plans/participant-education-communication/retirement-education/", "Retirement Education & One-on-One Participant Guidance"),
-    "Financial Wellness Programs": ("/corporate-retirement-plans/participant-education-communication/financial-wellness/", "Financial Wellness Programs"),
-    "Retirement Plan Communications": ("/corporate-retirement-plans/participant-education-communication/communications/", "Retirement Plan Communications"),
-    "Fiduciary Governance & Committee Support": ("/corporate-retirement-plans/fiduciary-governance/", "Fiduciary Governance & Committee Support"),
-    "3(21) Fiduciary Services": ("/corporate-retirement-plans/fiduciary-governance/3-21-fiduciary/", "3(21) Fiduciary Services"),
-    "3(38) Investment Manager Services": ("/corporate-retirement-plans/fiduciary-governance/3-38-investment-manager/", "3(38) Investment Manager Services"),
-    "Plan Governance & Committee Support": ("/corporate-retirement-plans/fiduciary-governance/plan-governance/", "Plan Governance & Committee Support"),
-    "Target Date Fund Consulting": ("/corporate-retirement-plans/tdf-consulting/", "Target Date Fund Consulting"),
-    "FREQUENTLY ASKED QUESTIONS": ("/faq/", "Frequently Asked Questions"),
-    "INSIGHTS & RESOURCES": ("/resources/", "Insights & Resources"),
-    "CONTACT": ("/contact/", "Contact / Schedule"),
-}
-
-# "Learn More" under a service card -> route of that card's page (None = page not written yet)
-CARD_LINKS = {
-    "3(21) fiduciary services": "/corporate-retirement-plans/fiduciary-governance/3-21-fiduciary/",
-    "3(38) fiduciary services": "/corporate-retirement-plans/fiduciary-governance/3-38-investment-manager/",
-    "plan governance & committee support": "/corporate-retirement-plans/fiduciary-governance/plan-governance/",
-}
-
-# link text (after stripping "Explore", arrows, etc.) -> route
-LINKS = {
-    "wealth management": "/services/wealth-management/",
-    "investment management": "/services/investment-management/",
-    "our investment approach": "/services/investment-management/",
-    "comprehensive financial planning": "/services/comprehensive-financial-planning/",
-    "401(k) rollovers & roth conversions": "/services/401k-rollovers-roth-conversions/",
-    "your 401(k) rollover options": "/services/401k-rollovers-roth-conversions/",
-    "retirement income planning": "/services/retirement-income-planning/",
-    "tax-aware wealth strategies": "/services/tax-aware-wealth-strategies/",
-    "executive benefits planning": "/services/executive-benefits-planning/",
-    "social security & pension planning": "/services/social-security-pension-planning/",
-    "estate planning coordination": "/services/estate-planning-coordination/",
-    "retirement plan consulting": "/corporate-retirement-plans/",
-    "why pointoak": "/why-point-oak/",
-    "view more faqs": "/faq/",
-    "our services": "/#services",
-    "learn about custom vs. off-the-shelf tdfs": "#off-the-shelf-vs-custom-target-date-funds",
-}
-
-SKIP_BANDS = ("Implementation note", "Primary implementation", "Primary sitewide")
+SKIP_STYLES = {"Implementation", "Small", "Title"}
+STEP_TITLES = re.compile(r"process|how .* works?|what to expect|how we work", re.I)
+PILLAR = re.compile(r"^([A-Z][\w &()'-]+?) — (.+)$")
+BAND = re.compile(r"^[A-Z0-9 +&]{12,} — .+$")
 
 
 def warn(page, msg):
@@ -80,7 +34,61 @@ def slug(s):
     return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
 
 
-def read_doc(path):
+# ---------------------------------------------------------------- workbook
+
+def read_sitemap(path):
+    wb = openpyxl.load_workbook(path)
+    ws = wb["Final SEO Sitemap"]
+    head = [c.value for c in ws[1]]
+    rows = {}
+    for r in ws.iter_rows(min_row=2, values_only=True):
+        row = dict(zip(head, r))
+        if row.get("Content ID"):
+            rows[row["Content ID"]] = row
+    by_name = {r["Final Page Name"]: r for r in rows.values()}
+    sources = {}
+    if "Source Register" in wb.sheetnames:
+        sh = wb["Source Register"]
+        sh_head = [c.value for c in sh[1]]
+        for r in sh.iter_rows(min_row=2, values_only=True):
+            s = dict(zip(sh_head, r))
+            if s.get("URL"):
+                for cid in re.findall(r"[A-Z]{1,2}\d{2}", s.get("Related Content") or ""):
+                    sources.setdefault(cid, []).append({"label": s["Authority / Title"], "href": s["URL"]})
+    return rows, by_name, sources
+
+
+# ---------------------------------------------------------------- docx
+
+def para_segments(p, doc, routes):
+    """[(text, href|None), ...] with Word hyperlinks resolved to site routes or external URLs."""
+    segs = []
+    for child in p._p.iterchildren():
+        tag = child.tag.split("}")[1]
+        if tag == "r":
+            t = "".join(x.text or "" for x in child.iter(qn("w:t")))
+            if t:
+                segs.append([t, None])
+        elif tag == "hyperlink":
+            t = "".join(x.text or "" for x in child.iter(qn("w:t")))
+            anchor, rid = child.get(qn("w:anchor")), child.get(qn("r:id"))
+            href = None
+            if anchor and anchor.startswith("p_"):
+                href = routes.get(anchor[2:])
+            elif rid:
+                href = doc.part.rels[rid].target_ref
+            if t:
+                segs.append([t, href])
+    merged = []
+    for t, h in segs:
+        if merged and merged[-1][1] == h:
+            merged[-1][0] += t
+        else:
+            merged.append([t, h])
+    return merged
+
+
+def read_doc(path, routes):
     d = docx.Document(path)
     pages, cur = [], None
     for el in d.element.body.iterchildren():
@@ -90,115 +98,95 @@ def read_doc(path):
             t, s = p.text.strip(), p.style.name
             if not t:
                 continue
-            if s == "Title":
-                if t.startswith("PART 1"):
-                    continue
-                if t.startswith("SITEWIDE") or t.startswith("PART 2"):
-                    break
-                cur = {"label": t, "blocks": []}
-                pages.append(cur)
+            if s == "Heading 1" and t.startswith("PART III"):
+                break
+            if s == "Page ID":
+                m = re.match(r"^([A-Z]{1,2}\d{2})\s+/", t)
+                cur = {"id": m.group(1), "blocks": []} if m else None
+                if cur:
+                    pages.append(cur)
                 continue
-            if cur is None:
+            if cur is None or s in SKIP_STYLES:
+                continue
+            if s == "Heading 1" and t.startswith("PART "):
+                cur = None
                 continue
             typ = {"Heading 1": "h1", "Heading 2": "h2", "Heading 3": "h3", "List Bullet": "li",
-                   "Subtitle": "subtitle", "Page Label": "band"}.get(s, "p")
-            cur["blocks"].append({"t": typ, "x": t})
+                   "Subtitle": "h2", "CTA": "cta"}.get(s, "p")
+            cur["blocks"].append({"t": typ, "x": t, "segs": para_segments(p, d, routes)})
         elif tag == "tbl" and cur is not None:
             rows = [[c.text.strip() for c in r.cells] for r in Table(el, d).rows]
             cur["blocks"].append({"t": "table", "rows": rows})
     return pages
 
 
-def read_sitemap(path):
-    ws = openpyxl.load_workbook(path)["Final SEO Sitemap"]
-    head = [c.value for c in ws[1]]
-    out = {}
-    for r in ws.iter_rows(min_row=2, values_only=True):
-        row = dict(zip(head, r))
-        if row.get("Final Page Name"):
-            out[row["Final Page Name"]] = row
+# ---------------------------------------------------------------- structure
+
+def linked(b):
+    """The block is one whole link (e.g. a service name in a list)."""
+    segs = [s for s in b.get("segs", []) if s[0].strip()]
+    return len(segs) == 1 and bool(segs[0][1]) and segs[0][0].strip() == b["x"].strip()
+
+
+def para(b):
+    out = {"type": "p", "text": b["x"]}
+    if any(h for _, h in b.get("segs", [])):
+        out["segs"] = b["segs"]
     return out
 
 
-def link_for(text):
-    """'CTA: Explore Wealth Management →' -> (label, href or None, kind)"""
-    t = re.sub(r"^(Secondary )?CTA:\s*", "", text).strip()
-    is_secondary = text.startswith("Secondary CTA")
-    label = t.rstrip("→").strip()
-    key = re.sub(r"^(explore|learn about)\s+", "", label.lower()) if label.lower() not in LINKS else label.lower()
+def button(b, page):
+    label = b["x"].strip()
     if re.match(r"schedule", label, re.I):
-        return {"label": label, "action": "schedule"}
-    href = LINKS.get(label.lower()) or LINKS.get(key)
-    return {"label": label, "href": href, "secondary": is_secondary}
+        return {"type": "button", "label": label, "action": "schedule"}
+    href = next((h for _, h in b.get("segs", []) if h), None)
+    return {"type": "button", "label": label, "href": href}
 
 
-def is_short(t, n=60):
-    return len(t) <= n and not t.endswith(".") and not t.endswith(":") and not t.endswith("→")
-
-
-def build_blocks(raw, page, faq_section=False):
-    """raw: list of {'t','x'} inside one section (after its h2). Returns typed blocks."""
+def build_blocks(raw, page, article=False, titles=None, hero=False):
     out, i = [], 0
     while i < len(raw):
         b = raw[i]
         t, x = b["t"], b.get("x", "")
-        # CTA / buttons
-        if x.startswith("CTA:") or x.startswith("Secondary CTA:"):
-            lk = link_for(x)
-            if lk.get("action") != "schedule" and not lk.get("href") and lk["label"].lower() != "learn more":
-                warn(page, f"no route for CTA '{x}'")
-            out.append({"type": "button", **lk})
+        if t == "cta":
+            out.append(button(b, page))
             i += 1
-            continue
-        # arrow links (grouped)
-        if t in ("p", "li") and x.endswith("→"):
-            items = []
-            while i < len(raw) and raw[i]["t"] in ("p", "li") and raw[i].get("x", "").endswith("→"):
-                lk = link_for(raw[i]["x"])
-                if not lk.get("href"):
-                    warn(page, f"no route for link '{raw[i]['x']}'")
-                items.append(lk)
-                i += 1
-            out.append({"type": "links", "items": items})
             continue
         if t == "table":
-            if raw[i]["rows"] and raw[i]["rows"][0][0] == "Meta Title":
-                i += 1
-                continue
-            out.append({"type": "table", "rows": raw[i]["rows"]})
-            i += 1
-            continue
-        if t == "band":
-            if not x.startswith(SKIP_BANDS):
-                out.append({"type": "band", "text": x})
+            if b["rows"] and b["rows"][0][0] != "Meta Title":
+                out.append({"type": "table", "rows": b["rows"]})
             i += 1
             continue
         if t == "li":
-            items = []
-            while i < len(raw) and raw[i]["t"] == "li" and not raw[i]["x"].endswith("→"):
-                items.append(raw[i]["x"])
+            run = []
+            while i < len(raw) and raw[i]["t"] == "li":
+                run.append(raw[i])
                 i += 1
-            pill = [re.match(r"^([A-Z][\w &()'-]+?) — (.+)$", it) for it in items]
-            if all(pill):
-                # "FIDUCIARY — Your interests come first." / "Understand — Learn what matters..."
+            items = [r["x"] for r in run]
+            pills = [PILLAR.match(it) for it in items]
+            if all(pills) and len(items) > 1 and not article:
                 out.append({"type": "pillars", "items": [
                     {"title": m.group(1).title() if m.group(1).isupper() else m.group(1),
-                     "body": [{"type": "p", "text": m.group(2)}]} for m in pill]})
-            elif all(it.lower() in LINKS for it in items):
-                # a list of service names -> links to those pages
-                out.append({"type": "links", "items": [{"label": it, "href": LINKS[it.lower()]} for it in items]})
+                     "body": [{"type": "p", "text": m.group(2)}]} for m in pills]})
+            elif all(linked(r) for r in run):
+                out.append({"type": "links", "items": [{"label": r["x"], "href": r["segs"][0][1]} for r in run]})
             else:
-                out.append({"type": "list", "items": items})
+                lst = {"type": "list", "items": items}
+                if any(any(h for _, h in r.get("segs", [])) for r in run):
+                    lst["segs"] = [r["segs"] for r in run]
+                out.append(lst)
+            continue
+        if t == "h3" and article:
+            out.append({"type": "h3", "text": x})
+            i += 1
             continue
         if t == "h3":
-            # group of h3 + following paragraphs/lists
             items = []
-            while i < len(raw) and raw[i]["t"] == "h3" and not raw[i]["x"].startswith("CTA:"):
+            while i < len(raw) and raw[i]["t"] == "h3":
                 title = raw[i]["x"]
                 i += 1
                 body_raw = []
-                while i < len(raw) and raw[i]["t"] not in ("h3",) and not raw[i].get("x", "").startswith("CTA:") \
-                        and not raw[i].get("x", "").endswith("→") and raw[i]["t"] != "table":
+                while i < len(raw) and raw[i]["t"] not in ("h3", "cta", "table"):
                     body_raw.append(raw[i])
                     i += 1
                 body = build_blocks(body_raw, page) if body_raw else []
@@ -209,90 +197,118 @@ def build_blocks(raw, page, faq_section=False):
                     items.append({"q": title, "a": body})
                 else:
                     items.append({"title": title, "body": body})
-            if items and "q" in items[0] and not all("q" in it for it in items):
-                warn(page, "mixed FAQ/card group: " + ", ".join(it.get("q", it.get("title", "")) for it in items))
-            if items and "q" in items[0]:
-                out.append({"type": "faq", "items": items})
-            elif items:
-                out.append({"type": "cards", "items": items})
+            for it in items:  # keep order; split into faq / card runs
+                kind = "faq" if "q" in it else "cards"
+                if out and out[-1]["type"] == kind and kind == "faq":
+                    out[-1]["items"].append(it)
+                elif out and out[-1]["type"] == kind and kind == "cards" and "link" not in out[-1]["items"][-1]:
+                    out[-1]["items"].append(it)
+                else:
+                    out.append({"type": kind, "items": [it]})
             continue
-        if t in ("p", "subtitle"):
-            # lead line ending with ':' followed by short items -> list
-            if x.endswith(":") and i + 1 < len(raw) and raw[i + 1]["t"] == "p" and len(raw[i + 1]["x"]) <= 140:
+        if t == "p":
+            # Featured Insights: a run of lines that are each one link to an article
+            if linked(b) and titles is not None:
+                items, j = [], i
+                while j < len(raw) and raw[j]["t"] == "p" and linked(raw[j]):
+                    href = raw[j]["segs"][0][1]
+                    items.append({"label": raw[j]["x"], "href": href, "text": titles.get(href, "")})
+                    j += 1
+                if len(items) >= 2 and all(it["href"].startswith("/insights/") for it in items):
+                    out.append({"type": "articles", "items": items})
+                    i = j
+                    continue
+            if BAND.match(x) or (x.upper() == x and (x.count("→") >= 2 or x.count(" + ") >= 2)):
+                out.append({"type": "band", "text": x})
+                i += 1
+                continue
+            # a run of short label lines ("Independent Fee-Only Advisor", "450+ data points ...") -> checklist
+            short = lambda r: r["t"] == "p" and len(r["x"]) <= 90 and not r["x"].endswith((".", "?", ":")) \
+                and " | " not in r["x"] and " • " not in r["x"] and not linked(r) and not BAND.match(r["x"]) \
+            and not (r["x"].upper() == r["x"] and " + " in r["x"])
+            if not article and short(b):
+                j = i
+                while j < len(raw) and short(raw[j]):
+                    j += 1
+                if j - i >= 2 and (hero or j - i == 2):
+                    out.append({"type": "chips", "items": [r["x"] for r in raw[i:j]]})
+                    i = j
+                    continue
+                if j - i >= 3:
+                    out.append({"type": "list", "items": [r["x"] for r in raw[i:j]]})
+                    i = j
+                    continue
+            if False:
+                out.append({"type": "band", "text": x})
+                i += 1
+                continue
+            sep = " | " if " | " in x else " • " if " • " in x else None
+            if sep and all(0 < len(s) <= 60 for s in x.split(sep)):
+                out.append({"type": "chips", "items": [s.strip() for s in x.split(sep)]})
+                i += 1
+                continue
+            if not article and x.endswith(":") and i + 1 < len(raw) and raw[i + 1]["t"] == "p" and len(raw[i + 1]["x"]) <= 140:
                 items, j = [], i + 1
                 while j < len(raw) and raw[j]["t"] == "p" and len(raw[j]["x"]) <= 140 \
-                        and not raw[j]["x"].endswith(":") and not raw[j]["x"].endswith("→") \
-                        and not raw[j]["x"].startswith("CTA:"):
+                        and not raw[j]["x"].endswith(":") and not linked(raw[j]):
                     items.append(raw[j]["x"])
                     j += 1
                 if len(items) >= 2:
                     out.append({"type": "list", "lead": x, "items": items})
                     i = j
                     continue
-            # run of short label-like lines -> chips
-            if is_short(x):
+            m = PILLAR.match(x)
+            if m and m.group(1).isupper() and not article:
                 items, j = [], i
-                while j < len(raw) and raw[j]["t"] == "p" and is_short(raw[j]["x"]):
-                    items.append(raw[j]["x"])
-                    j += 1
-                if len(items) >= 2:
-                    out.append({"type": "chips", "items": items})
-                    i = j
-                    continue
-            # "LABEL — text" pillars
-            m = re.match(r"^([A-Z][A-Z \-&()0-9]+) — (.+)$", x)
-            if m:
-                items, j = [], i
-                while j < len(raw) and raw[j]["t"] == "p":
-                    mm = re.match(r"^([A-Z][A-Z \-&()0-9]+) — (.+)$", raw[j]["x"])
-                    if not mm:
-                        break
+                while j < len(raw) and raw[j]["t"] == "p" and PILLAR.match(raw[j]["x"]) \
+                        and PILLAR.match(raw[j]["x"]).group(1).isupper():
+                    mm = PILLAR.match(raw[j]["x"])
                     items.append({"title": mm.group(1).title(), "body": [{"type": "p", "text": mm.group(2)}]})
                     j += 1
                 out.append({"type": "pillars", "items": items})
                 i = j
                 continue
-            out.append({"type": "p", "text": x})
+            out.append(para(b))
             i += 1
             continue
         warn(page, f"unplaced block {t}: {x[:60]}")
         i += 1
-    return merge_card_links(out, page)
+    return merge_card_links(out)
 
 
-def merge_card_links(blocks, page):
-    """[cards(1), button] [cards(1), button] ... -> one cards block whose items carry a link."""
+# A few related-service cards (R10-R12) have an unlinked "Learn More" button in the doc; the card
+# title names the page, so link by title. Content IDs, resolved to URLs through the workbook.
+CARD_TITLE_LINKS = {
+    "erisa fiduciary support": "R06", "fiduciary support": "R06",
+    "investment analysis": "R15", "401(k) investment analysis": "R15",
+    "evaluation & benchmarking": "R11", "401(k) fee benchmarking": "R12",
+    "recordkeeper evaluation & rfp consulting": "R13", "retirement plan design": "R21",
+    "virtual fiduciary file": "R10",
+}
+ROUTES = {}
+
+
+def merge_card_links(blocks):
+    """[cards, button] -> the button becomes the last card's link; consecutive linked cards merge."""
     out = []
     for b in blocks:
         prev = out[-1] if out else None
         if b["type"] == "button" and b.get("action") != "schedule" and prev and prev["type"] == "cards" \
                 and "link" not in prev["items"][-1]:
-            card = prev["items"][-1]
-            href = b.get("href")
-            if b["label"].lower() == "learn more":
-                href = CARD_LINKS.get(card["title"].lower())
-                if not href:
-                    warn(page, f"'Learn More' under '{card['title']}' has no page yet; link left off")
+            href = b.get("href") or ROUTES.get(CARD_TITLE_LINKS.get(prev["items"][-1]["title"].lower(), ""))
             if href:
-                card["link"] = {"label": b["label"], "href": href}
-            continue
-        if b["type"] == "cards" and prev and prev["type"] == "cards" and len(b["items"]) == 1 \
-                and "link" in prev["items"][-1]:
+                prev["items"][-1]["link"] = {"label": b["label"], "href": href}
+                continue
+        if b["type"] == "cards" and prev and prev["type"] == "cards" and "link" in prev["items"][-1]:
             prev["items"].extend(b["items"])
             continue
         out.append(b)
     return out
 
 
-STEP_TITLES = re.compile(r"process|how .* works?|what to expect|how we work", re.I)
-
-
-def convert(page):
-    label, blocks = page["label"], page["blocks"]
-    blocks = [b for b in blocks if b["t"] != "subtitle"]
-    # hero = h1, optional h2 straight after it, then everything until the next h2
+def convert(page, article, titles):
+    pid, blocks = page["id"], page["blocks"]
     i = next(k for k, b in enumerate(blocks) if b["t"] == "h1")
-    pre = [b for b in blocks[:i] if b["t"] == "table"]
     hero = {"title": blocks[i]["x"]}
     i += 1
     if i < len(blocks) and blocks[i]["t"] == "h2":
@@ -301,58 +317,82 @@ def convert(page):
     j = i
     while j < len(blocks) and blocks[j]["t"] != "h2":
         j += 1
-    hero["blocks"] = build_blocks(blocks[i:j], label)
+    hero["blocks"] = build_blocks(blocks[i:j], pid, article, hero=True)
+    for b in hero["blocks"]:  # a hero's non-schedule CTA is the secondary action
+        if b["type"] == "button" and b.get("action") != "schedule":
+            b["secondary"] = True
     sections = []
     while j < len(blocks):
         title = blocks[j]["x"]
         k = j + 1
         while k < len(blocks) and blocks[k]["t"] != "h2":
             k += 1
-        is_faq = bool(re.search(r"frequently asked", title, re.I)) or label == "FREQUENTLY ASKED QUESTIONS"
-        sec = {"id": slug(title), "title": title, "blocks": build_blocks(blocks[j + 1:k], label, faq_section=is_faq)}
-        if STEP_TITLES.search(title) and any(b["type"] in ("cards", "pillars") for b in sec["blocks"]):
-            sec["layout"] = "steps"
-        if is_faq:
+        sec = {"id": slug(title), "title": title,
+               "blocks": build_blocks(blocks[j + 1:k], pid, article, titles)}
+        if sec["blocks"] and all(b["type"] in ("faq", "button") for b in sec["blocks"]) \
+                and any(b["type"] == "faq" for b in sec["blocks"]):
             sec["layout"] = "faq"
+        elif not article and STEP_TITLES.search(title) and any(b["type"] in ("cards", "pillars") for b in sec["blocks"]):
+            sec["layout"] = "steps"
         sections.append(sec)
         j = k
     if sections and any(b["type"] == "button" and b.get("action") == "schedule" for b in sections[-1]["blocks"]):
         sections[-1]["layout"] = "cta"
-    return hero, sections, pre
+    return hero, sections
 
 
 def main(doc_path, xlsx_path):
-    sitemap = read_sitemap(xlsx_path)
+    rows, by_name, sources = read_sitemap(xlsx_path)
+    routes = {cid: r["Recommended URL"] for cid, r in rows.items()}
+    ROUTES.update(routes)
+    pages = read_doc(doc_path, routes)
+    missing = set(rows) - {p["id"] for p in pages}
+    if missing:
+        warn("workbook", f"no copy in the doc for {sorted(missing)}")
+
+    titles = {}  # article subtitles, for the Insights hub cards
+    for p in pages:
+        if p["id"].startswith("IN"):
+            bl = p["blocks"]
+            k = next(n for n, b in enumerate(bl) if b["t"] == "h1")
+            if k + 1 < len(bl) and bl[k + 1]["t"] == "h2":
+                titles[routes[p["id"]]] = bl[k + 1]["x"]
+
     OUT.mkdir(parents=True, exist_ok=True)
-    registry = []
-    for page in read_doc(doc_path):
-        if page["label"] not in PAGES:
-            warn(page["label"], "page not mapped to a route; skipped")
+    for f in OUT.glob("*.json"):
+        f.unlink()
+    for page in pages:
+        row = rows.get(page["id"])
+        if not row:
+            warn(page["id"], "not in the workbook; skipped")
             continue
-        route, sm_name = PAGES[page["label"]]
-        sm = sitemap.get(sm_name, {})
-        hero, sections, _ = convert(page)
+        article = page["id"].startswith("IN")
+        hero, sections = convert(page, article, titles)
+        parent = by_name.get(row.get("Parent Page") or "")
         data = {
-            "route": route,
-            "name": sm_name,
-            "parent": sm.get("Parent Page"),
-            "meta": {
-                "title": sm.get("Meta Title"),
-                "description": sm.get("Meta Description"),
-                "schema": sm.get("Schema"),
-            },
+            "id": page["id"],
+            "route": row["Recommended URL"],
+            "name": row["Final Page Name"],
+            "kind": "article" if article else "page",
+            "parentRoute": parent["Recommended URL"] if parent else None,
+            "meta": {"title": row.get("Meta Title"), "description": row.get("Meta Description"), "schema": row.get("Schema")},
             "hero": hero,
             "sections": sections,
         }
-        fname = slug(route) or "home"
+        for sec in [hero] + sections:
+            for b in sec["blocks"]:
+                if b["type"] == "button" and b.get("action") != "schedule" and not b.get("href"):
+                    warn(page["id"], f"button without a link: '{b['label']}'")
+        if article and sources.get(page["id"]):
+            data["sources"] = sources[page["id"]]
+        fname = slug(row["Recommended URL"]) or "home"
         (OUT / f"{fname}.json").write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
-        registry.append((route, fname))
-        print(f"ok {route} ({len(sections)} sections)")
-    # index lists every page file, including hand-built hub pages (content/pages/hub-*.json)
+        print(f"ok {page['id']} {row['Recommended URL']} ({len(sections)} sections)")
+
     files = sorted(f.stem for f in OUT.glob("*.json"))
-    lines = ["// Generated by scripts/import-copy.py — do not edit by hand.", "import type { PageContent } from \"@/lib/content\";"]
+    lines = ["// Generated by scripts/import-copy.py — do not edit by hand.", 'import type { PageContent } from "@/lib/content";']
     for f in files:
-        lines.append(f"import p_{f.replace('-', '_')} from \"./pages/{f}.json\";")
+        lines.append(f'import p_{f.replace("-", "_")} from "./pages/{f}.json";')
     lines.append("\nexport const pages: PageContent[] = [")
     for f in files:
         lines.append(f"  p_{f.replace('-', '_')} as PageContent,")

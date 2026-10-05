@@ -1,15 +1,17 @@
 {
+  "id": "R09",
   "route": "/corporate-retirement-plans/fiduciary-governance/plan-governance/",
   "name": "Plan Governance & Committee Support",
-  "parent": "Fiduciary Governance & Committee Support",
+  "kind": "page",
+  "parentRoute": "/corporate-retirement-plans/fiduciary-governance/",
   "meta": {
     "title": "Retirement Plan Governance & Committee Support | PointOak",
     "description": "Support retirement plan committees with governance structure, meeting processes, decision-making, and documentation.",
-    "schema": "Service + FAQPage + BreadcrumbList"
+    "schema": "Service + BreadcrumbList; shared Organization reference"
   },
   "hero": {
-    "title": "Plan Governance & Committee Support for Retirement Plan Sponsors",
-    "subtitle": "Build a stronger fiduciary process with documented governance and ongoing compliance support.",
+    "title": "Plan Governance & Committee Support",
+    "subtitle": "Build a stronger fiduciary process with documented governance and ongoing governance support.",
     "blocks": [
       {
         "type": "p",
@@ -17,7 +19,7 @@
       },
       {
         "type": "p",
-        "text": "PointOak Retirement Advisors helps retirement plan sponsors strengthen ERISA compliance and governance through committee support, fiduciary documentation, investment oversight, and ongoing guidance. Rather than reacting to regulatory changes or preparing for an audit after the fact, we help organizations establish a governance framework that supports prudent decision-making year after year."
+        "text": "PointOak Retirement Advisors supports ERISA fiduciary governance through committee support, fiduciary documentation, investment oversight, and ongoing guidance. We help organizations establish and maintain a governance framework that supports prudent decision-making and an organized record of the process over time."
       },
       {
         "type": "chips",
@@ -70,7 +72,7 @@
               "body": [
                 {
                   "type": "p",
-                  "text": "Retirement plan regulations continue to evolve. Regular governance reviews help ensure your plan remains aligned with ERISA requirements, Department of Labor guidance, and fiduciary best practices."
+                  "text": "Regular governance reviews can identify changes in plan responsibilities, procedures, provider roles, or legal requirements that warrant attention from the appropriate professionals."
                 }
               ]
             },
@@ -105,7 +107,7 @@
         },
         {
           "type": "button",
-          "label": "Schedule Your Consultation",
+          "label": "Schedule a Complimentary Consultation",
           "action": "schedule"
         }
       ]
@@ -144,7 +146,7 @@
               "body": [
                 {
                   "type": "p",
-                  "text": "Retirement plans evolve over time. Governance reviews help ensure committee procedures, investment oversight, and compliance processes remain current."
+                  "text": "Governance reviews consider whether committee procedures, investment oversight, and provider responsibilities remain appropriate as the plan changes."
                 }
               ]
             },
@@ -241,11 +243,11 @@
         },
         {
           "type": "p",
-          "text": "As a fee-only, SEC-registered investment advisor serving as a named 3(21) or 3(38) fiduciary, we provide objective recommendations without proprietary products, commissions, or provider incentives."
+          "text": "As a fee-only, SEC-registered investment adviser serving as a 3(21) investment fiduciary or 3(38) investment manager, we provide objective recommendations without proprietary products, commissions, or provider incentives."
         },
         {
           "type": "p",
-          "text": "Our governance process integrates with our broader retirement plan services, including investment analysis, provider benchmarking, fiduciary support, and retirement plan optimization, giving plan sponsors one experienced partner across every aspect of fiduciary oversight."
+          "text": "Our governance process integrates with our broader retirement plan services, including investment analysis, provider benchmarking, fiduciary support, and plan design consulting, giving plan sponsors coordinated support across key areas of fiduciary oversight."
         }
       ]
     },
@@ -255,11 +257,37 @@
       "blocks": [
         {
           "type": "p",
-          "text": "PointOak Retirement Advisors is an independent, fee-only wealth advisory firm founded in 2017 and headquartered in McLean, Virginia. We are an SEC-registered investment advisor serving retirement plan sponsors and high-net-worth individuals nationwide."
-        },
-        {
-          "type": "p",
-          "text": "Our team manages more than $1.08 billion in assets under management and brings over 50 years of collective experience. Founder Darsh Makim, CRPC, has advised retirement plan sponsors since 2005, with retirement plan consulting representing more than 90% of PointOak's business."
+          "text": "PointOak Retirement Advisors is an independent, fee-only fiduciary advisory firm providing private wealth management and retirement plan consulting to clients throughout the DC Metro area and nationwide. We offer personalized financial planning and investment management for individuals and families as well as comprehensive retirement plan consulting for businesses.",
+          "segs": [
+            [
+              "PointOak Retirement Advisors is an independent, fee-only fiduciary advisory firm providing private ",
+              null
+            ],
+            [
+              "wealth management",
+              "/services/wealth-management/"
+            ],
+            [
+              " and ",
+              null
+            ],
+            [
+              "retirement plan consulting",
+              "/corporate-retirement-plans/"
+            ],
+            [
+              " to clients throughout the DC Metro area and nationwide. We offer personalized financial planning and ",
+              null
+            ],
+            [
+              "investment management",
+              "/services/investment-management/"
+            ],
+            [
+              " for individuals and families as well as comprehensive retirement plan consulting for businesses.",
+              null
+            ]
+          ]
         }
       ]
     },
@@ -329,8 +357,7 @@
         {
           "type": "button",
           "label": "View More FAQs",
-          "href": "/faq/",
-          "secondary": false
+          "href": "/faq/"
         }
       ],
       "layout": "faq"
@@ -345,7 +372,7 @@
         },
         {
           "type": "button",
-          "label": "Schedule Your Complimentary Consultation",
+          "label": "Schedule a Complimentary Consultation",
           "action": "schedule"
         }
       ],

@@ -1,0 +1,193 @@
+{
+  "id": "R14",
+  "route": "/corporate-retirement-plans/evaluation-benchmarking/cybersecurity-due-diligence/",
+  "name": "Cybersecurity Due Diligence",
+  "kind": "page",
+  "parentRoute": "/corporate-retirement-plans/evaluation-benchmarking/",
+  "meta": {
+    "title": "401(k) Cybersecurity Due Diligence | PointOak",
+    "description": "Evaluate retirement plan provider cybersecurity practices, participant account protections, and related due-diligence considerations.",
+    "schema": "Service + BreadcrumbList; shared Organization reference"
+  },
+  "hero": {
+    "title": "Cybersecurity Due Diligence",
+    "subtitle": "Evaluate recordkeeper security practices as part of a prudent provider oversight process.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Retirement plans hold sensitive participant information and substantial assets, making cybersecurity an important part of provider selection and ongoing monitoring. PointOak helps plan sponsors incorporate cybersecurity due diligence into a broader fiduciary review of recordkeepers and other plan service providers."
+      },
+      {
+        "type": "p",
+        "text": "Our role is to help committees ask the right questions, organize provider responses, compare practices, and document the review. PointOak does not perform technical cybersecurity audits or certify a provider's systems."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "what-we-review",
+      "title": "What We Review",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Security Governance & Independent Reporting",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We review available information about a provider's security program, including independent reports and assessments, governance practices, and the way cybersecurity responsibilities are managed."
+                }
+              ]
+            },
+            {
+              "title": "Access Controls & Participant Account Protection",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We evaluate available information about authentication, account-access controls, fraud-prevention practices, participant protections, and any reimbursement policies and conditions that may apply after unauthorized account activity."
+                }
+              ]
+            },
+            {
+              "title": "Account-Reimbursement Policies and Conditions",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We review how a recordkeeper describes its response to unauthorized participant-account activity, including reimbursement commitments, exclusions, reporting requirements, and any participant obligations such as account-activity requirements. The terms differ among providers. Our role is to help the committee understand and communicate the actual policy, not to guarantee reimbursement."
+                }
+              ]
+            },
+            {
+              "title": "Incident Response & Business Continuity",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We review how providers describe incident response, breach notification, recovery planning, business continuity, and responsibilities following a cybersecurity event."
+                }
+              ]
+            },
+            {
+              "title": "Contractual & Insurance Considerations",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Where relevant, we help committees identify contractual provisions, insurance information, allocation of responsibilities, and other terms that may warrant further review with legal counsel or other specialists."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-cybersecurity-due-diligence-fits-into-provider-oversight",
+      "title": "How Cybersecurity Due Diligence Fits Into Provider Oversight",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Cybersecurity is one component of a broader provider evaluation. PointOak considers it alongside fees, service quality, technology, participant experience, administration, investment flexibility, and contractual terms so the committee can evaluate overall provider fit rather than a single factor in isolation."
+        }
+      ]
+    },
+    {
+      "id": "our-process",
+      "title": "Our Process",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Gather",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Collect relevant provider materials, responses, policies, reports, and available participant-protection information."
+                }
+              ]
+            },
+            {
+              "title": "Evaluate",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Review the information within a consistent due-diligence framework and identify areas requiring clarification or follow-up."
+                }
+              ]
+            },
+            {
+              "title": "Document",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Prepare committee-ready findings that record the information reviewed, questions raised, responses received, and the rationale for any follow-up actions."
+                }
+              ]
+            },
+            {
+              "title": "Monitor",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Revisit cybersecurity as part of ongoing provider oversight and when material changes, incidents, or contract decisions warrant additional review."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "steps"
+    },
+    {
+      "id": "frequently-asked-questions",
+      "title": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "Does PointOak perform cybersecurity audits?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "No. PointOak provides fiduciary due-diligence support and helps plan sponsors evaluate information supplied by service providers. We do not conduct penetration testing, technical security audits, or cybersecurity certifications."
+                }
+              ]
+            },
+            {
+              "q": "Is cybersecurity part of recordkeeper selection?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "It should be considered as one part of the overall provider evaluation. The appropriate weight depends on the plan, provider relationship, available information, and the committee's broader due-diligence process."
+                }
+              ]
+            },
+            {
+              "q": "Should cybersecurity be reviewed after a provider is hired?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Yes. Provider oversight is ongoing. Cybersecurity practices, incidents, participant protections, and contractual terms can change and may warrant periodic review."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "strengthen-your-provider-due-diligence-process",
+      "title": "Strengthen Your Provider Due-Diligence Process",
+      "blocks": [
+        {
+          "type": "button",
+          "label": "Schedule a Complimentary Consultation",
+          "action": "schedule"
+        }
+      ],
+      "layout": "cta"
+    }
+  ]
+}

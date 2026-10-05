@@ -1,11 +1,13 @@
 {
+  "id": "C01",
   "route": "/",
   "name": "Home",
-  "parent": "—",
+  "kind": "page",
+  "parentRoute": null,
   "meta": {
     "title": "PointOak | Wealth Management & Retirement Plan Consulting",
     "description": "Independent, fee-only wealth management, financial planning, investment management, and retirement plan consulting from PointOak in McLean, VA.",
-    "schema": "Organization + FinancialService + BreadcrumbList"
+    "schema": "WebSite + FinancialService / Organization entity"
   },
   "hero": {
     "title": "Independent Wealth Management & Retirement Plan Consulting",
@@ -13,11 +15,37 @@
     "blocks": [
       {
         "type": "p",
-        "text": "PointOak Retirement Advisors is an independent, fee-only fiduciary wealth advisory firm providing private wealth management and retirement plan consulting to clients throughout the DC Metro area and nationwide."
-      },
-      {
-        "type": "p",
-        "text": "We combine personalized financial planning and investment management for individuals and families with deep experience advising employer-sponsored retirement plans."
+        "text": "PointOak Retirement Advisors is an independent, fee-only fiduciary advisory firm providing private wealth management and retirement plan consulting to clients throughout the DC Metro area and nationwide. We offer personalized financial planning and investment management for individuals and families as well as comprehensive retirement plan consulting for businesses.",
+        "segs": [
+          [
+            "PointOak Retirement Advisors is an independent, fee-only fiduciary advisory firm providing private ",
+            null
+          ],
+          [
+            "wealth management",
+            "/services/wealth-management/"
+          ],
+          [
+            " and ",
+            null
+          ],
+          [
+            "retirement plan consulting",
+            "/corporate-retirement-plans/"
+          ],
+          [
+            " to clients throughout the DC Metro area and nationwide. We offer personalized financial planning and ",
+            null
+          ],
+          [
+            "investment management",
+            "/services/investment-management/"
+          ],
+          [
+            " for individuals and families as well as comprehensive retirement plan consulting for businesses.",
+            null
+          ]
+        ]
       },
       {
         "type": "button",
@@ -27,7 +55,7 @@
       {
         "type": "button",
         "label": "Explore Our Services",
-        "href": "/#services",
+        "href": "/services/wealth-management/",
         "secondary": true
       }
     ]
@@ -72,7 +100,7 @@
               "body": [
                 {
                   "type": "p",
-                  "text": "Retirement and investment experience dating to 2005."
+                  "text": "Founder Darsh Makim has advised clients since 2005."
                 }
               ]
             }
@@ -105,7 +133,21 @@
               "body": [
                 {
                   "type": "p",
-                  "text": "Independent fiduciary guidance for plan governance, investments, benchmarking, plan design, and participant education."
+                  "text": "Independent fiduciary guidance for plan governance, investments, benchmarking, plan design, and participant education.",
+                  "segs": [
+                    [
+                      "Independent fiduciary guidance for plan governance, investments, benchmarking, ",
+                      null
+                    ],
+                    [
+                      "plan design",
+                      "/corporate-retirement-plans/plan-design/"
+                    ],
+                    [
+                      ", and participant education.",
+                      null
+                    ]
+                  ]
                 }
               ],
               "link": {
@@ -123,7 +165,21 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Your investments are only one part of the picture. Retirement accounts, taxes, Social Security, pensions, workplace benefits, estate considerations, family priorities, and major life transitions can all affect the decisions you make with your wealth. PointOak brings those pieces together through investment management and comprehensive financial planning built around your circumstances."
+          "text": "Your investments are only one part of the picture. Retirement accounts, taxes, Social Security, pensions, workplace benefits, estate considerations, family priorities, and major life transitions can all affect the decisions you make with your wealth. PointOak brings those pieces together through investment management and comprehensive financial planning built around your circumstances.",
+          "segs": [
+            [
+              "Your investments are only one part of the picture. Retirement accounts, taxes, Social Security, pensions, workplace benefits, estate considerations, family priorities, and major life transitions can all affect the decisions you make with your wealth. PointOak brings those pieces together through investment management and ",
+              null
+            ],
+            [
+              "comprehensive financial planning",
+              "/services/comprehensive-financial-planning/"
+            ],
+            [
+              " built around your circumstances.",
+              null
+            ]
+          ]
         },
         {
           "type": "links",
@@ -154,7 +210,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Traditional investments remain the foundation of many portfolios, but they are not necessarily the entire opportunity set. As an independent adviser, PointOak can evaluate a broader range of investments and strategies — including public markets, separately managed strategies, and, where appropriate, alternative and private-market investments."
+          "text": "Traditional investments remain the foundation of many portfolios, but they are not necessarily the entire opportunity set. As an independent advisor, PointOak can evaluate a broader range of investments and strategies — including public markets, separately managed strategies, and, where appropriate, alternative and private-market investments."
         },
         {
           "type": "band",
@@ -163,8 +219,7 @@
         {
           "type": "button",
           "label": "Explore Our Investment Approach",
-          "href": "/services/investment-management/",
-          "secondary": false
+          "href": "/services/investment-management/"
         }
       ]
     },
@@ -179,8 +234,7 @@
         {
           "type": "button",
           "label": "Explore 401(k) Rollovers & Roth Conversions",
-          "href": "/services/401k-rollovers-roth-conversions/",
-          "secondary": false
+          "href": "/services/401k-rollovers-roth-conversions/"
         }
       ]
     },
@@ -195,8 +249,7 @@
         {
           "type": "button",
           "label": "Explore Retirement Income Planning",
-          "href": "/services/retirement-income-planning/",
-          "secondary": false
+          "href": "/services/retirement-income-planning/"
         }
       ]
     },
@@ -211,8 +264,7 @@
         {
           "type": "button",
           "label": "Explore Executive Benefits Planning",
-          "href": "/services/executive-benefits-planning/",
-          "secondary": false
+          "href": "/services/executive-benefits-planning/"
         }
       ]
     },
@@ -237,8 +289,7 @@
         {
           "type": "button",
           "label": "Why PointOak",
-          "href": "/why-point-oak/",
-          "secondary": false
+          "href": "/why-point-oak/"
         }
       ]
     },

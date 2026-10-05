@@ -17,17 +17,19 @@ const nextConfig = {
     return [
       // Old WordPress-era service URLs -> new pages
       r('/fiduciary-support', '/corporate-retirement-plans/fiduciary-governance/'),
-      r('/investment-analysis', '/corporate-retirement-plans/'),
+      r('/investment-analysis', '/corporate-retirement-plans/investment-analysis-monitoring/'),
       r('/education-and-communications-program', '/corporate-retirement-plans/participant-education-communication/'),
       r('/education-and-communication', '/corporate-retirement-plans/participant-education-communication/'),
-      r('/plan-design', '/corporate-retirement-plans/'),
-      r('/provider-and-fee-benchmarking', '/corporate-retirement-plans/'),
+      r('/plan-design', '/corporate-retirement-plans/plan-design/'),
+      r('/provider-and-fee-benchmarking', '/corporate-retirement-plans/evaluation-benchmarking/provider-fee-benchmarking/'),
       r('/target-date-fund-tdf-consulting', '/corporate-retirement-plans/tdf-consulting/'),
 
       // Pre-2026 Next.js routes
       r('/our-services', '/corporate-retirement-plans/'),
       r('/services', '/services/wealth-management/'),
       r('/our-consulting-team', '/about/', false),
+      // Articles live under /insights/<slug>/; the collection page stays at /resources/ (handoff PC06)
+      r('/insights', '/resources/', false),
       r('/privacy', '/disclosures/privacy-statement.pdf', false),
 
       // Old login page -> external login

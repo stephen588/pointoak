@@ -1,0 +1,442 @@
+{
+  "id": "R22",
+  "route": "/corporate-retirement-plans/plan-design/automatic-enrollment-escalation/",
+  "name": "Automatic Enrollment & Escalation",
+  "kind": "page",
+  "parentRoute": "/corporate-retirement-plans/plan-design/",
+  "meta": {
+    "title": "401(k) Automatic Enrollment & Escalation | PointOak",
+    "description": "Evaluate automatic enrollment and escalation features within the context of plan design, workforce needs, and applicable requirements.",
+    "schema": "Service + BreadcrumbList; shared Organization reference"
+  },
+  "hero": {
+    "title": "Automatic Enrollment & Escalation",
+    "subtitle": "Increase participation with an enrollment strategy designed around your workforce and your plan.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Automatic enrollment is more than a payroll setting. Default contribution rates, escalation schedules, participant notices, employer contributions, and default investments all need to work together. PointOak helps plan sponsors design and implement automatic enrollment strategies that support participation while meeting applicable plan requirements."
+      },
+      {
+        "type": "p",
+        "text": "3(21) investment fiduciary and 3(38) investment manager services available",
+        "segs": [
+          [
+            "3(21) investment fiduciary and ",
+            null
+          ],
+          [
+            "3(38) investment manager services",
+            "/corporate-retirement-plans/fiduciary-governance/3-38-investment-manager/"
+          ],
+          [
+            " available",
+            null
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Founder Darsh Makim has advised clients since 2005."
+      },
+      {
+        "type": "p",
+        "text": "Fee-only with no proprietary products"
+      },
+      {
+        "type": "button",
+        "label": "Schedule a Complimentary Consultation",
+        "action": "schedule"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "the-benefits-of-automatic-enrollment",
+      "title": "The Benefits of Automatic Enrollment",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Higher Employee Participation",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Automatic enrollment changes the default from opting in to opting out. Employees begin participating unless they actively choose otherwise, helping plans reach employees who might otherwise delay enrollment indefinitely."
+                }
+              ]
+            },
+            {
+              "title": "Stronger Savings Over Time",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Automatic escalation builds on enrollment by gradually increasing participant deferral rates. Instead of leaving employees at the same starting percentage for years, an escalation schedule can help move savings rates upward over time."
+                }
+              ]
+            },
+            {
+              "title": "Simpler New-Hire Enrollment",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Automatic enrollment can streamline onboarding by reducing the number of steps new employees need to take before they begin contributing. Education can then focus less on how to enroll and more on how to use the plan effectively."
+                }
+              ]
+            },
+            {
+              "title": "Better Coordination Across Plan Features",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Default contribution rates do not exist in isolation. Employer matching, escalation, QDIA selection, and participant communications all affect how automatic enrollment works. We coordinate those elements as part of your broader 401(k) plan design.",
+                  "segs": [
+                    [
+                      "Default contribution rates do not exist in isolation. Employer matching, escalation, QDIA selection, and participant communications all affect how automatic enrollment works. We coordinate those elements as part of your broader 401(k) ",
+                      null
+                    ],
+                    [
+                      "plan design",
+                      "/corporate-retirement-plans/plan-design/"
+                    ],
+                    [
+                      ".",
+                      null
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Stronger Documentation",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Automatic enrollment requires clear plan provisions, notices, and implementation procedures. We help establish and document the process so your committee has a clear record of how the design was selected and administered."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "who-benefits-most-from-automatic-enrollment-consulting",
+      "title": "Who Benefits Most from Automatic Enrollment Consulting?",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "You're Establishing a New 401(k)",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Covered new 401(k) and 403(b) plans are subject to SECURE 2.0 automatic enrollment requirements for plan years beginning after December 31, 2024. Getting the structure right from launch can help prevent compliance and administrative problems later."
+                }
+              ]
+            },
+            {
+              "title": "Your Current Plan Still Uses Voluntary Enrollment",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "If eligible employees are not joining the plan, the enrollment structure itself may be creating friction. Automatic enrollment can remove that first barrier without requiring HR to repeatedly encourage individual employees to sign up."
+                }
+              ]
+            },
+            {
+              "title": "Your Default Contribution Rate Hasn't Been Reviewed Recently",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "A default that made sense years ago may no longer reflect your workforce, plan goals, or current market practices. We help evaluate both the starting rate and how contributions increase over time."
+                }
+              ]
+            },
+            {
+              "title": "You're Going Through a Merger or Acquisition",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Plan mergers can introduce new employee populations, different enrollment rules, and conflicting plan features. Automatic enrollment provisions should be reviewed as part of the transition rather than simply carried forward."
+                }
+              ]
+            },
+            {
+              "title": "You Want to Benchmark Your Current Design",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "If you already use automatic enrollment, benchmarking can help determine whether your default percentage, escalation schedule, and other features remain competitive and effective."
+                }
+              ]
+            },
+            {
+              "title": "When Automatic Enrollment Consulting May Not Be Necessary",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "If your plan already has a well-documented automatic enrollment structure, appropriate escalation, current notices, and strong participation, a focused plan review may be more appropriate than a full redesign."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "automatic-enrollment-vs-voluntary-enrollment",
+      "title": "Automatic Enrollment vs. Voluntary Enrollment",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Both approaches allow employees to participate in the retirement plan. The difference is what happens when an employee takes no action."
+        },
+        {
+          "type": "p",
+          "text": "The right approach depends on your plan's age, workforce, participation levels, and applicable regulatory requirements."
+        }
+      ]
+    },
+    {
+      "id": "our-automatic-enrollment-process",
+      "title": "Our Automatic Enrollment Process",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Analyze",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We review your current plan provisions, participation levels, default contribution rate, escalation schedule, participant notices, and default investment structure."
+                }
+              ]
+            },
+            {
+              "title": "Design",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We evaluate how automatic enrollment should work alongside your employer match, workforce demographics, plan goals, and broader retirement plan design."
+                }
+              ]
+            },
+            {
+              "title": "Implement",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We coordinate approved changes with your recordkeeper, payroll provider, and other plan partners while supporting required participant communications and documentation."
+                }
+              ]
+            },
+            {
+              "title": "Monitor",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Participation and savings behavior can change over time. We continue evaluating whether default rates, escalation, and related plan features remain appropriate as your workforce evolves."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "steps"
+    },
+    {
+      "id": "why-choose-pointoak",
+      "title": "Why Choose PointOak",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Automatic Enrollment Designed as Part of the Whole Plan",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Automatic enrollment works best when it is coordinated with the rest of your retirement plan."
+                },
+                {
+                  "type": "p",
+                  "text": "Founder Darsh Makim has advised plan sponsors since 2005. PointOak evaluates automatic enrollment alongside employer contributions, investments, participant communications, and fiduciary oversight rather than as an isolated feature."
+                },
+                {
+                  "type": "p",
+                  "text": "As an independent, fee-only fiduciary, we do not receive commissions from recordkeepers or proprietary products. Our recommendations are based on your workforce, your goals, and the structure that makes sense for your organization."
+                },
+                {
+                  "type": "p",
+                  "text": "3(21) investment fiduciary and 3(38) investment manager services available"
+                },
+                {
+                  "type": "p",
+                  "text": "Founder Darsh Makim has advised clients since 2005."
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Fee-Only, Independent Advice",
+                    "Plan Design & Benchmarking Expertise",
+                    "Nationwide Plan Sponsor Support"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frequently-asked-questions",
+      "title": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "What is 401(k) automatic enrollment?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Automatic enrollment enrolls eligible employees in the retirement plan at a predetermined contribution rate unless they choose to opt out or select a different rate."
+                },
+                {
+                  "type": "p",
+                  "text": "The plan document establishes how enrollment works, including the default contribution percentage and any automatic escalation provisions."
+                }
+              ]
+            },
+            {
+              "q": "What is automatic escalation?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Automatic escalation gradually increases a participant's contribution rate according to a schedule established by the plan."
+                },
+                {
+                  "type": "p",
+                  "text": "For example, a plan may increase contributions annually until participants reach a specified percentage. Employees generally retain the ability to change their contribution or opt out according to the plan's terms."
+                }
+              ]
+            },
+            {
+              "q": "Which employers are required to use automatic enrollment under SECURE 2.0?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Certain new 401(k) and 403(b) plans established after December 29, 2022, are subject to automatic enrollment requirements for plan years beginning after December 31, 2024."
+                },
+                {
+                  "type": "p",
+                  "text": "There are exceptions, including certain small and newly established employers, governmental plans, church plans, and SIMPLE plans. Your specific plan should be reviewed to determine whether the requirement applies."
+                }
+              ]
+            },
+            {
+              "q": "Can employees opt out of automatic enrollment?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Yes. Automatically enrolled participants can generally elect a different contribution percentage or opt out of contributing altogether."
+                },
+                {
+                  "type": "p",
+                  "text": "Certain automatic contribution arrangements may also allow participants to withdraw automatically contributed amounts within a specified period, depending on the plan structure."
+                }
+              ]
+            },
+            {
+              "q": "What contribution rate should we use?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "There is no single default rate that works for every plan."
+                },
+                {
+                  "type": "p",
+                  "text": "The appropriate rate depends on your workforce, employer match, participation goals, escalation strategy, and overall plan design. We evaluate those factors together rather than selecting a default percentage in isolation."
+                }
+              ]
+            },
+            {
+              "q": "How often should automatic enrollment settings be reviewed?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "We recommend reviewing them at least annually and whenever there is a significant regulatory, workforce, provider, or plan-design change."
+                },
+                {
+                  "type": "p",
+                  "text": "Participation data and savings behavior can also indicate when default rates or escalation settings deserve another look."
+                }
+              ]
+            },
+            {
+              "q": "How does automatic enrollment affect our default investment?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Employees who are automatically enrolled but do not make an investment election need an appropriate default investment under the plan."
+                },
+                {
+                  "type": "p",
+                  "text": "Default investment selection should be reviewed alongside the automatic enrollment structure, which is why PointOak coordinates plan design with investment analysis and Target Date Fund consulting.",
+                  "segs": [
+                    [
+                      "Default investment selection should be reviewed alongside the automatic enrollment structure, which is ",
+                      null
+                    ],
+                    [
+                      "why PointOak",
+                      "/why-point-oak/"
+                    ],
+                    [
+                      " coordinates plan design with investment analysis and ",
+                      null
+                    ],
+                    [
+                      "Target Date Fund consulting",
+                      "/corporate-retirement-plans/tdf-consulting/"
+                    ],
+                    [
+                      ".",
+                      null
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "label": "View More FAQs",
+          "href": "/faq/"
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "make-saving-easier-for-your-employees",
+      "title": "Make Saving Easier for Your Employees",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "We'll help you design automatic enrollment and escalation features that support participation while meeting your plan's compliance requirements."
+        },
+        {
+          "type": "button",
+          "label": "Schedule a Complimentary Consultation",
+          "action": "schedule"
+        }
+      ],
+      "layout": "cta"
+    }
+  ]
+}

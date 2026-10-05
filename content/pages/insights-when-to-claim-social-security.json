@@ -1,0 +1,722 @@
+{
+  "id": "IN03",
+  "route": "/insights/when-to-claim-social-security/",
+  "name": "When Should I Claim Social Security?",
+  "kind": "article",
+  "parentRoute": "/resources/",
+  "meta": {
+    "title": "When Should I Claim Social Security? | PointOak",
+    "description": "Should you claim Social Security at 62, full retirement age, or 70? Learn how income, longevity, taxes, spouses, and investments affect the decision.",
+    "schema": "BlogPosting + BreadcrumbList; shared Organization reference"
+  },
+  "hero": {
+    "title": "When Should I Claim Social Security?",
+    "subtitle": "The right claiming age depends on more than maximizing a monthly benefit.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Social Security may be one of the most important sources of lifetime income in retirement, yet deciding when to claim can be surprisingly complicated."
+      },
+      {
+        "type": "p",
+        "text": "You can begin retirement benefits as early as age 62. Waiting longer increases the monthly amount, with additional increases available through age 70. For people born in 1960 or later, full retirement age is 67; claiming at 62 can reduce the worker's monthly benefit to 70% of the full-retirement-age amount, while waiting until 70 can increase it to approximately 124%. There is no additional increase for delaying beyond age 70.",
+        "segs": [
+          [
+            "You can begin retirement benefits as early as age 62. Waiting longer increases the monthly amount, with additional increases available through age 70. For people born in 1960 or later, ",
+            null
+          ],
+          [
+            "full retirement age is 67",
+            "https://www.ssa.gov/planners/retire/1960.html"
+          ],
+          [
+            "; claiming at 62 can reduce the worker's monthly benefit to 70% of the full-retirement-age amount, while waiting until 70 can increase it to approximately 124%. There is no additional increase for delaying beyond age 70.",
+            null
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "That naturally leads to the question:"
+      },
+      {
+        "type": "p",
+        "text": "Should I claim early, wait until full retirement age, or delay until 70?"
+      },
+      {
+        "type": "p",
+        "text": "There isn't one answer that works for everyone."
+      },
+      {
+        "type": "p",
+        "text": "The appropriate claiming strategy depends on your health, longevity expectations, marital status, employment, other income, investment assets, taxes, survivor needs, and how Social Security fits within your overall retirement plan.",
+        "segs": [
+          [
+            "The appropriate claiming strategy depends on your health, longevity expectations, marital status, employment, other income, investment assets, taxes, survivor needs, and how Social Security fits within your overall ",
+            null
+          ],
+          [
+            "retirement plan",
+            "/services/retirement-income-planning/"
+          ],
+          [
+            ".",
+            null
+          ]
+        ]
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "claiming-earlier-means-more-payments-but-a-smaller-monthly-benefit",
+      "title": "Claiming Earlier Means More Payments—but a Smaller Monthly Benefit",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The appeal of claiming Social Security at 62 is straightforward: you begin receiving income sooner."
+        },
+        {
+          "type": "p",
+          "text": "That may make sense for someone who needs the income, has health concerns, has limited other resources, or simply places greater value on receiving benefits earlier."
+        },
+        {
+          "type": "p",
+          "text": "The tradeoff is that claiming before full retirement age generally results in a permanently reduced monthly retirement benefit. For someone born in 1960 or later, claiming at 62 results in a benefit about 30% below the full-retirement-age amount."
+        },
+        {
+          "type": "p",
+          "text": "Consider a simplified example."
+        },
+        {
+          "type": "p",
+          "text": "If your estimated benefit at full retirement age were $4,000 per month, claiming at 62 could reduce the starting benefit to approximately $2,800 per month for someone born in 1960 or later."
+        },
+        {
+          "type": "p",
+          "text": "That doesn't automatically mean claiming early is a mistake. You would also receive benefits for approximately five additional years."
+        },
+        {
+          "type": "p",
+          "text": "The question is whether receiving more payments earlier is preferable to receiving a larger monthly benefit later."
+        }
+      ]
+    },
+    {
+      "id": "delaying-social-security-increases-future-income",
+      "title": "Delaying Social Security Increases Future Income",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Waiting beyond full retirement age increases your retirement benefit through delayed retirement credits until age 70. For someone born in 1960 or later, a $4,000 full-retirement-age benefit would be approximately $4,960 at age 70 before considering future cost-of-living adjustments.",
+          "segs": [
+            [
+              "Waiting beyond full retirement age increases your retirement benefit through ",
+              null
+            ],
+            [
+              "delayed retirement credits until age 70",
+              "https://www.ssa.gov/benefits/retirement/planner/1960-delay.html"
+            ],
+            [
+              ". For someone born in 1960 or later, a $4,000 full-retirement-age benefit would be approximately $4,960 at age 70 before considering future cost-of-living adjustments.",
+              null
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "That larger monthly benefit continues for life."
+        },
+        {
+          "type": "p",
+          "text": "For someone expecting a long retirement, delaying can therefore provide a larger source of ongoing income later in life."
+        },
+        {
+          "type": "p",
+          "text": "But there is a cost."
+        },
+        {
+          "type": "p",
+          "text": "If you delay Social Security, your spending still needs to come from somewhere during the years you aren't receiving benefits."
+        },
+        {
+          "type": "p",
+          "text": "That may mean:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Continuing to work",
+            "Drawing more from taxable investments",
+            "Taking retirement-account withdrawals",
+            "Using cash reserves",
+            "Drawing from a pension or other income source"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "This is why the Social Security decision shouldn't be evaluated independently from the investment portfolio.",
+          "segs": [
+            [
+              "This is why the Social Security decision shouldn't be evaluated independently from the ",
+              null
+            ],
+            [
+              "investment portfolio",
+              "/services/investment-management/"
+            ],
+            [
+              ".",
+              null
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "don-t-make-the-decision-based-only-on-a-break-even-age",
+      "title": "Don't Make the Decision Based Only on a \"Break-Even Age\"",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "One common way to analyze Social Security is to calculate a break-even age: the point when the cumulative benefits from delaying exceed the cumulative benefits from claiming earlier."
+        },
+        {
+          "type": "p",
+          "text": "That calculation can be useful."
+        },
+        {
+          "type": "p",
+          "text": "But it does not capture the entire decision."
+        },
+        {
+          "type": "p",
+          "text": "Retirement planning is not simply about determining which claiming age produces the largest lifetime dollar total if you live to a specific age."
+        },
+        {
+          "type": "p",
+          "text": "Social Security can also function as a source of lifetime income that isn't directly dependent on investment-market performance."
+        },
+        {
+          "type": "p",
+          "text": "For retirees with substantial investment portfolios, the question may therefore become:"
+        },
+        {
+          "type": "p",
+          "text": "Would I rather collect Social Security earlier and preserve more of my portfolio, or intentionally spend more from my portfolio initially in exchange for a larger Social Security benefit later?"
+        },
+        {
+          "type": "p",
+          "text": "That is a different decision from simply calculating a break-even point."
+        }
+      ]
+    },
+    {
+      "id": "longevity-matters",
+      "title": "Longevity Matters",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Nobody knows exactly how long they will live, but longevity assumptions have a significant impact on a Social Security strategy."
+        },
+        {
+          "type": "p",
+          "text": "Someone with serious health concerns or a shorter expected lifespan may place more value on receiving benefits earlier."
+        },
+        {
+          "type": "p",
+          "text": "Someone in good health with a family history of longevity may place greater value on a larger benefit later in retirement."
+        },
+        {
+          "type": "p",
+          "text": "The analysis becomes even more important for married couples because there may be two lifetimes to plan for rather than one."
+        },
+        {
+          "type": "p",
+          "text": "This is one reason we prefer to think in terms of an appropriate claiming strategy rather than trying to identify a universally \"best\" age."
+        }
+      ]
+    },
+    {
+      "id": "married-couples-should-evaluate-social-security-together",
+      "title": "Married Couples Should Evaluate Social Security Together",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "For married couples, Social Security should generally be evaluated as a household decision.",
+          "segs": [
+            [
+              "For married couples, Social Security should generally be evaluated as a ",
+              null
+            ],
+            [
+              "household decision",
+              "/services/social-security-pension-planning/"
+            ],
+            [
+              ".",
+              null
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Each spouse may have a retirement benefit based on his or her own earnings record, and one spouse may also be eligible for a spousal benefit."
+        },
+        {
+          "type": "p",
+          "text": "At full retirement age, a spousal benefit can be as much as 50% of the worker's full-retirement-age benefit. Importantly, delayed retirement credits earned by the higher-earning spouse do not increase the maximum spousal benefit while both spouses are living."
+        },
+        {
+          "type": "p",
+          "text": "But delaying can still be important for another reason:"
+        },
+        {
+          "type": "h3",
+          "text": "Survivor Benefits"
+        },
+        {
+          "type": "p",
+          "text": "When one spouse dies, the surviving spouse may be eligible for a survivor benefit based on the deceased spouse's earnings record. A deceased worker's delayed retirement credits can increase the amount available to the surviving spouse.",
+          "segs": [
+            [
+              "When one spouse dies, the surviving spouse may be eligible for a ",
+              null
+            ],
+            [
+              "survivor benefit based on the deceased spouse",
+              "https://www.ssa.gov/survivor/amount"
+            ],
+            [
+              "'s earnings record. A deceased worker's delayed retirement credits can increase the amount available to the surviving spouse.",
+              null
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "This can make delaying the higher earner's benefit particularly relevant for couples concerned about providing income for the surviving spouse."
+        },
+        {
+          "type": "p",
+          "text": "The question may therefore be less about maximizing the couple's income today and more about balancing:"
+        },
+        {
+          "type": "chips",
+          "items": [
+            "Current income",
+            "Lifetime income",
+            "Survivor income"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "working-can-affect-the-decision",
+      "title": "Working Can Affect the Decision",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Claiming Social Security does not necessarily mean you must stop working."
+        },
+        {
+          "type": "p",
+          "text": "However, if you claim benefits before reaching full retirement age and continue earning employment income above Social Security's annual earnings limit, some benefits may be temporarily withheld.",
+          "segs": [
+            [
+              "However, if you claim benefits before reaching full retirement age and continue earning employment income above Social Security's annual earnings limit, some ",
+              null
+            ],
+            [
+              "benefits may be temporarily withheld",
+              "https://www.ssa.gov/benefits/retirement/planner/whileworking.html"
+            ],
+            [
+              ".",
+              null
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Once you reach full retirement age, the earnings test no longer applies, and Social Security recalculates benefits to account for months in which benefits were withheld because of excess earnings."
+        },
+        {
+          "type": "p",
+          "text": "This can be particularly relevant for executives and professionals who are considering Social Security while still earning substantial compensation.",
+          "segs": [
+            [
+              "This can be particularly relevant for ",
+              null
+            ],
+            [
+              "executives and professionals",
+              "/services/executive-benefits-planning/"
+            ],
+            [
+              " who are considering Social Security while still earning substantial compensation.",
+              null
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Continuing to work may also affect your eventual benefit because Social Security generally calculates retirement benefits using your highest 35 years of earnings. Additional higher-earning years may replace earlier lower-earning years in the calculation."
+        }
+      ]
+    },
+    {
+      "id": "social-security-and-your-investment-portfolio-should-work-together",
+      "title": "Social Security and Your Investment Portfolio Should Work Together",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "For retirees with meaningful investment assets, the claiming decision is often connected directly to portfolio withdrawals."
+        },
+        {
+          "type": "p",
+          "text": "Suppose you retire at age 65 but decide to wait until 70 for Social Security."
+        },
+        {
+          "type": "p",
+          "text": "Those five years may require larger withdrawals from your portfolio."
+        },
+        {
+          "type": "p",
+          "text": "At first glance, spending investments while delaying Social Security may feel counterintuitive. But depending on the circumstances, the larger future Social Security benefit can reduce the amount your portfolio needs to provide later in retirement."
+        },
+        {
+          "type": "p",
+          "text": "The reverse can also be true."
+        },
+        {
+          "type": "p",
+          "text": "Someone who claims earlier may reduce near-term portfolio withdrawals and preserve more investment assets."
+        },
+        {
+          "type": "p",
+          "text": "Neither approach is automatically superior."
+        },
+        {
+          "type": "p",
+          "text": "The decision should consider:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Portfolio size",
+            "Asset allocation",
+            "Spending needs",
+            "Market conditions",
+            "Other guaranteed or recurring income",
+            "Longevity assumptions",
+            "Tax considerations",
+            "Estate and legacy objectives"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "taxes-are-part-of-the-social-security-decision",
+      "title": "Taxes Are Part of the Social Security Decision",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Social Security benefits can become taxable depending on your other income."
+        },
+        {
+          "type": "p",
+          "text": "That means the timing of Social Security may interact with:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "IRA and 401(k) withdrawals",
+            "Roth conversions",
+            "Investment income and capital gains",
+            "Pension income",
+            "Required minimum distributions",
+            "Medicare income-related premiums"
+          ],
+          "segs": [
+            [
+              [
+                "IRA and 401(k) withdrawals",
+                null
+              ]
+            ],
+            [
+              [
+                "Roth conversions",
+                "/services/tax-aware-wealth-strategies/"
+              ]
+            ],
+            [
+              [
+                "Investment income and capital gains",
+                null
+              ]
+            ],
+            [
+              [
+                "Pension income",
+                null
+              ]
+            ],
+            [
+              [
+                "Required minimum distributions",
+                null
+              ]
+            ],
+            [
+              [
+                "Medicare income-related premiums",
+                null
+              ]
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "For example, someone who retires before beginning Social Security and required minimum distributions may have a period of relatively lower taxable income."
+        },
+        {
+          "type": "p",
+          "text": "Those years can sometimes create opportunities to evaluate withdrawals from pre-tax retirement accounts or partial Roth conversions."
+        },
+        {
+          "type": "p",
+          "text": "Beginning Social Security may change that calculation."
+        },
+        {
+          "type": "p",
+          "text": "This does not mean Social Security should be delayed simply to facilitate Roth conversions. Rather, both decisions should be considered together."
+        }
+      ]
+    },
+    {
+      "id": "what-about-medicare",
+      "title": "What About Medicare?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Social Security and Medicare are related, but they do not have to begin at the same time."
+        },
+        {
+          "type": "p",
+          "text": "Someone delaying Social Security until age 70 should not assume that Medicare enrollment should also be delayed. Social Security specifically advises people delaying retirement benefits to pay attention to Medicare enrollment around age 65 because late enrollment can have consequences in some circumstances.",
+          "segs": [
+            [
+              "Someone delaying Social Security until age 70 should not assume that Medicare enrollment should also be delayed. Social Security specifically advises people delaying retirement benefits to pay attention to ",
+              null
+            ],
+            [
+              "Medicare enrollment around age 65",
+              "https://www.ssa.gov/benefits/retirement/planner/1960-delay.html"
+            ],
+            [
+              " because late enrollment can have consequences in some circumstances.",
+              null
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "If you're still working and covered by an employer health plan, the applicable Medicare rules can depend on the type of coverage and employer."
+        },
+        {
+          "type": "p",
+          "text": "The important point is simple:"
+        },
+        {
+          "type": "p",
+          "text": "Delaying Social Security does not necessarily mean delaying Medicare."
+        }
+      ]
+    },
+    {
+      "id": "what-about-divorced-or-widowed-individuals",
+      "title": "What About Divorced or Widowed Individuals?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Social Security can become more complex after divorce or the death of a spouse."
+        },
+        {
+          "type": "p",
+          "text": "A divorced individual may qualify for benefits based on a former spouse's earnings record when certain requirements are met, including rules related to the length of the marriage."
+        },
+        {
+          "type": "p",
+          "text": "Survivor benefits operate under different rules from ordinary spousal retirement benefits. In some situations, a surviving spouse who is eligible for both survivor benefits and his or her own retirement benefit may have flexibility regarding which benefit to begin first and whether to switch later."
+        },
+        {
+          "type": "p",
+          "text": "These situations deserve individualized analysis rather than relying on general claiming rules."
+        }
+      ]
+    },
+    {
+      "id": "six-questions-to-ask-before-claiming-social-security",
+      "title": "Six Questions to Ask Before Claiming Social Security",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Before deciding when to begin benefits, consider:"
+        },
+        {
+          "type": "p",
+          "text": "1. Do I need the income now? Your current cash-flow needs matter. Delaying benefits is only practical if other resources can support your spending."
+        },
+        {
+          "type": "p",
+          "text": "2. What is my health and longevity outlook? A longer retirement generally increases the value of a larger lifetime monthly benefit."
+        },
+        {
+          "type": "p",
+          "text": "3. Am I married? Evaluate both spouses' benefits together, including the potential survivor benefit."
+        },
+        {
+          "type": "p",
+          "text": "4. Am I still working? Consider the earnings test before full retirement age as well as the impact of additional earnings on your benefit record."
+        },
+        {
+          "type": "p",
+          "text": "5. What other assets and income do I have? Social Security should be coordinated with retirement accounts, taxable investments, pensions, cash reserves, and other income."
+        },
+        {
+          "type": "p",
+          "text": "6. What other planning opportunities exist before I claim? Taxable income, Roth conversions, portfolio withdrawals, Medicare, and future required distributions may all influence the timing decision."
+        }
+      ]
+    },
+    {
+      "id": "there-is-no-universal-best-age-to-claim-social-security",
+      "title": "There Is No Universal \"Best Age\" to Claim Social Security",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "You will often hear that everyone should wait until 70."
+        },
+        {
+          "type": "p",
+          "text": "You may also hear that you should claim as soon as possible because you don't know how long you will live."
+        },
+        {
+          "type": "p",
+          "text": "Both positions oversimplify the decision."
+        },
+        {
+          "type": "p",
+          "text": "For some retirees, delaying can provide valuable additional lifetime and survivor income."
+        },
+        {
+          "type": "p",
+          "text": "For others, claiming earlier may better fit their health, cash-flow needs, family circumstances, or broader financial strategy."
+        },
+        {
+          "type": "p",
+          "text": "The more useful question is:"
+        },
+        {
+          "type": "p",
+          "text": "Which claiming strategy works best with the rest of your retirement plan?"
+        },
+        {
+          "type": "p",
+          "text": "Evaluating when to claim Social Security? PointOak can help you compare claiming strategies alongside your portfolio, retirement income, taxes, pension benefits, and other financial resources.",
+          "segs": [
+            [
+              "Evaluating when to claim Social Security? ",
+              null
+            ],
+            [
+              "PointOak",
+              "/services/social-security-pension-planning/"
+            ],
+            [
+              " can help you compare claiming strategies alongside your portfolio, retirement income, taxes, pension benefits, and other financial resources.",
+              null
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "social-security-is-one-piece-of-the-retirement-plan",
+      "title": "Social Security Is One Piece of the Retirement Plan",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Social Security should not be planned in isolation."
+        },
+        {
+          "type": "p",
+          "text": "Your claiming decision can affect portfolio withdrawals, taxes, retirement income, survivor planning, and the amount of financial flexibility available later in life."
+        },
+        {
+          "type": "p",
+          "text": "PointOak Retirement Advisors is an independent, fee-only fiduciary advisory firm providing private wealth management and retirement plan consulting to clients throughout the DC Metro area and nationwide. We offer personalized financial planning and investment management for individuals and families as well as comprehensive retirement plan consulting for businesses."
+        },
+        {
+          "type": "p",
+          "text": "For individuals and families approaching retirement, we evaluate Social Security as part of the broader financial picture rather than as a stand-alone decision.",
+          "segs": [
+            [
+              "For individuals and families approaching retirement, we evaluate Social Security as part of the ",
+              null
+            ],
+            [
+              "broader financial picture",
+              "/services/comprehensive-financial-planning/"
+            ],
+            [
+              " rather than as a stand-alone decision.",
+              null
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deciding-when-to-claim-social-security",
+      "title": "Deciding When to Claim Social Security?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Understand how your benefits fit with your investments, retirement income, taxes, and long-term financial plan."
+        },
+        {
+          "type": "button",
+          "label": "Schedule a Complimentary Consultation",
+          "action": "schedule"
+        }
+      ],
+      "layout": "cta"
+    }
+  ],
+  "sources": [
+    {
+      "label": "SSA: Retirement for people born in 1960 or later",
+      "href": "https://www.ssa.gov/planners/retire/1960.html"
+    },
+    {
+      "label": "SSA: Delaying retirement benefits (1960 or later)",
+      "href": "https://www.ssa.gov/benefits/retirement/planner/1960-delay.html"
+    },
+    {
+      "label": "SSA: Survivor benefit amounts",
+      "href": "https://www.ssa.gov/survivor/amount"
+    },
+    {
+      "label": "SSA: Working while receiving retirement benefits",
+      "href": "https://www.ssa.gov/benefits/retirement/planner/whileworking.html"
+    },
+    {
+      "label": "SSA: Medicare premiums",
+      "href": "https://www.ssa.gov/benefits/medicare/medicare-premiums.html"
+    }
+  ]
+}

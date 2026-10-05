@@ -1,0 +1,526 @@
+{
+  "id": "R21",
+  "route": "/corporate-retirement-plans/plan-design/",
+  "name": "Plan Design",
+  "kind": "page",
+  "parentRoute": "/corporate-retirement-plans/",
+  "meta": {
+    "title": "401(k) Plan Design Consulting | PointOak",
+    "description": "Retirement plan design consulting for automatic enrollment, escalation, employer contributions, safe harbor, eligibility, vesting, and participant outcomes.",
+    "schema": "Service + BreadcrumbList; shared Organization reference"
+  },
+  "hero": {
+    "title": "Plan Design",
+    "subtitle": "Build a retirement plan that works for your workforce, your budget, and your business.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "The right 401(k) plan design can improve participation, increase employee savings, reduce testing issues, and strengthen the value of your benefits package. PointOak helps plan sponsors coordinate employer match design, automatic enrollment, escalation, safe harbor provisions, and other plan features into one strategy built around your workforce and goals."
+      },
+      {
+        "type": "p",
+        "text": "3(21) investment fiduciary and 3(38) investment manager services available",
+        "segs": [
+          [
+            "3(21) investment fiduciary and ",
+            null
+          ],
+          [
+            "3(38) investment manager services",
+            "/corporate-retirement-plans/fiduciary-governance/3-38-investment-manager/"
+          ],
+          [
+            " available",
+            null
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Founder Darsh Makim has advised clients since 2005."
+      },
+      {
+        "type": "p",
+        "text": "Fee-only with no proprietary products"
+      },
+      {
+        "type": "button",
+        "label": "Schedule a Complimentary Consultation",
+        "action": "schedule"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "the-benefits-of-thoughtful-plan-design",
+      "title": "The Benefits of Thoughtful Plan Design",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Higher Employee Participation",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Automatic enrollment can remove one of the biggest barriers to participation: doing nothing. When enrollment defaults, escalation schedules, and contribution thresholds work together, employees are more likely to participate and build retirement savings over time."
+                }
+              ]
+            },
+            {
+              "title": "A Match Strategy That Fits Your Goals",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Your employer match should support both employee behavior and your compensation strategy. We help you evaluate matching formulas, contribution thresholds, and budget impact so your plan encourages saving without creating unnecessary cost."
+                }
+              ]
+            },
+            {
+              "title": "Reduced Testing Complexity",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Safe harbor and QACA structures can eliminate certain nondiscrimination testing requirements when the plan meets applicable conditions. We help you evaluate whether those structures make sense based on workforce demographics, participation patterns, and employer contribution goals."
+                }
+              ]
+            },
+            {
+              "title": "Stronger Recruiting and Retention Value",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "A well-designed 401(k) can do more than satisfy a benefits requirement. Features like employer matching, automatic enrollment, and thoughtful contribution design can make your retirement plan a more meaningful part of your total compensation package."
+                }
+              ]
+            },
+            {
+              "title": "Ongoing Plan Review",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "A plan that worked five years ago may not fit your workforce today. We help you revisit participation, contribution rates, plan costs, and employee behavior over time so the design continues to support your goals."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "plan-design-services",
+      "title": "Plan Design Services",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Automatic Enrollment & Escalation",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Automatic enrollment can significantly improve participation, but the details matter. We help plan sponsors evaluate default contribution rates, escalation schedules, opt-out structures, and how automatic enrollment fits with other plan features."
+                }
+              ],
+              "link": {
+                "label": "Learn More",
+                "href": "/corporate-retirement-plans/plan-design/automatic-enrollment-escalation/"
+              }
+            },
+            {
+              "title": "Employer Match Design",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Your match formula affects participation, employee perception, and employer cost. We help you evaluate basic, enhanced, and other contribution structures to find an approach that fits your workforce and compensation strategy."
+                }
+              ],
+              "link": {
+                "label": "Learn More",
+                "href": "/corporate-retirement-plans/plan-design/automatic-enrollment-escalation/"
+              }
+            },
+            {
+              "title": "Plan Design Benchmarking",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Clients often want to know how their retirement benefits compare with those offered by other employers in their industry. PointOak uses available industry and peer-plan information to provide context around employer contributions, matching formulas, eligibility, vesting, and automatic features. Those comparisons inform the discussion; the recommended design should still reflect the organization's workforce, budget, and objectives."
+                },
+                {
+                  "type": "p",
+                  "text": "How does your plan compare to similar employers? We evaluate participation, employer contributions, plan features, and other design elements against relevant benchmarks to identify areas where your plan may be falling behind—or overspending."
+                }
+              ],
+              "link": {
+                "label": "Learn More",
+                "href": "/corporate-retirement-plans/plan-design/automatic-enrollment-escalation/"
+              }
+            },
+            {
+              "title": "Targeted Plan Design Improvements",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Sometimes a full redesign isn't necessary. We review your current structure to identify targeted changes that can improve participation, reduce testing pressure, strengthen employee value, or better align the plan with your business."
+                }
+              ],
+              "link": {
+                "label": "Learn More",
+                "href": "/corporate-retirement-plans/plan-design/automatic-enrollment-escalation/"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "who-benefits-most-from-plan-design-consulting",
+      "title": "Who Benefits Most from Plan Design Consulting?",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Participation Is Lower Than You Want",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "If eligible employees aren't joining the plan or remain stuck at low default contribution rates, plan design may be part of the problem."
+                }
+              ]
+            },
+            {
+              "title": "Nondiscrimination Testing Creates Ongoing Issues",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "If highly compensated employees are repeatedly limited by testing results, it may be worth evaluating whether a safe harbor or QACA structure better fits your organization."
+                }
+              ]
+            },
+            {
+              "title": "You're Starting a New 401(k)",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "New plans require decisions about eligibility, employer contributions, automatic enrollment, vesting, and other foundational features. Getting those choices right from the beginning can prevent years of unnecessary complexity."
+                }
+              ]
+            },
+            {
+              "title": "Your Plan Hasn't Been Reviewed in Years",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Workforces change. Compensation changes. Regulations change. A plan built around yesterday's organization may no longer serve today's employees or business objectives."
+                }
+              ]
+            },
+            {
+              "title": "You're Evaluating an Alternative to Virginia RetirePath",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "For Virginia employers subject to RetirePath requirements, adopting a qualified retirement plan can provide more flexibility around employer contributions, plan design, and employee benefits."
+                }
+              ]
+            },
+            {
+              "title": "When Plan Design Consulting May Not Be Necessary",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Very small employers with simple retirement needs may be well served by another retirement arrangement. A full 401(k) design engagement delivers the most value when workforce size, employer contributions, testing, or recruitment goals make customization meaningful."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "common-plan-design-approaches",
+      "title": "Common Plan Design Approaches",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Traditional 401(k)",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "A traditional plan provides greater flexibility around employer contributions but remains subject to applicable nondiscrimination testing."
+                },
+                {
+                  "type": "p",
+                  "text": "Best for: Employers with balanced participation and testing results who want contribution flexibility."
+                }
+              ]
+            },
+            {
+              "title": "Safe Harbor 401(k)",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "A safe harbor plan uses required employer contributions in exchange for relief from certain ADP/ACP testing requirements when all conditions are met."
+                },
+                {
+                  "type": "p",
+                  "text": "Best for: Employers that regularly encounter testing constraints or want greater certainty around highly compensated employee deferrals."
+                }
+              ]
+            },
+            {
+              "title": "QACA Safe Harbor 401(k)",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "A Qualified Automatic Contribution Arrangement combines automatic enrollment with safe harbor features and an escalating default contribution structure."
+                },
+                {
+                  "type": "p",
+                  "text": "Best for: Employers looking to pair higher participation with testing relief."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "custom-401-k-vs-virginia-retirepath",
+      "title": "Custom 401(k) vs. Virginia RetirePath",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Virginia employers may have a choice between participating in the state-facilitated RetirePath program and offering a qualified employer-sponsored retirement plan."
+        },
+        {
+          "type": "p",
+          "text": "A custom 401(k) generally provides greater flexibility around employer contributions, plan features, and benefits strategy. RetirePath may be sufficient for employers whose primary goal is simply providing access to a retirement savings option."
+        }
+      ]
+    },
+    {
+      "id": "our-plan-design-process",
+      "title": "Our Plan Design Process",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Analyze",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We review your current plan document, contribution structure, participation data, testing history, workforce demographics, and business goals."
+                }
+              ]
+            },
+            {
+              "title": "Design",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We evaluate the relationship between match design, automatic enrollment, escalation, safe harbor provisions, and other plan features to identify the strongest fit."
+                }
+              ]
+            },
+            {
+              "title": "Implement",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We coordinate approved changes with your provider, support participant communications, and work with the plan's service providers so required plan-document updates can be addressed."
+                }
+              ]
+            },
+            {
+              "title": "Monitor",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Plan design should evolve with your workforce. We review participation, contribution behavior, regulatory changes, and other indicators to identify future opportunities for improvement."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "steps"
+    },
+    {
+      "id": "plan-design-built-around-your-actual-workforce",
+      "title": "Plan Design Built Around Your Actual Workforce",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PointOak doesn't start with a template and try to fit your organization into it."
+        },
+        {
+          "type": "p",
+          "text": "Founder Darsh Makim has advised plan sponsors since 2005, giving us direct experience with the ways participation, testing, employee demographics, contribution budgets, and plan features interact. We use that experience to recommend structures that make sense for your specific organization."
+        },
+        {
+          "type": "p",
+          "text": "As a fee-only fiduciary, we don't earn commissions from recordkeepers or proprietary products. Our job is to help you build a retirement plan that works for the people funding it and the business supporting it."
+        },
+        {
+          "type": "p",
+          "text": "3(21) investment fiduciary and 3(38) investment manager services available"
+        },
+        {
+          "type": "p",
+          "text": "Founder Darsh Makim has advised clients since 2005."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Fee-Only, Independent Advice",
+            "No Proprietary Products",
+            "Nationwide Plan Sponsor Support"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frequently-asked-questions",
+      "title": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "What is 401(k) plan design?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "401(k) plan design is the process of determining how your retirement plan works, including eligibility, employer contributions, automatic enrollment, vesting, safe harbor provisions, and other plan features."
+                },
+                {
+                  "type": "p",
+                  "text": "The right design depends on your workforce, budget, participation goals, testing history, and broader compensation strategy."
+                }
+              ]
+            },
+            {
+              "q": "How often should a 401(k) plan design be reviewed?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "At least annually is a good starting point, with additional reviews when there are major regulatory, workforce, or business changes."
+                },
+                {
+                  "type": "p",
+                  "text": "Participation trends, testing results, employer contribution costs, new legislation, and workforce demographics can all signal that the current design needs to be revisited."
+                }
+              ]
+            },
+            {
+              "q": "Should we use automatic enrollment?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Automatic enrollment can be an effective way to increase participation, especially when paired with an appropriate default contribution rate and escalation schedule."
+                },
+                {
+                  "type": "p",
+                  "text": "Whether it makes sense for your plan depends on workforce demographics, payroll capabilities, plan goals, and applicable regulatory requirements."
+                }
+              ]
+            },
+            {
+              "q": "What employer match formula is best?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "There is no single best formula."
+                },
+                {
+                  "type": "p",
+                  "text": "The right match depends on your budget, recruiting strategy, desired participant behavior, and how much employees need to contribute to receive the full employer benefit. We model those tradeoffs before recommending a structure."
+                }
+              ]
+            },
+            {
+              "q": "Does a safe harbor plan eliminate all testing?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "No."
+                },
+                {
+                  "type": "p",
+                  "text": "Safe harbor structures can provide relief from certain ADP/ACP nondiscrimination testing requirements when applicable conditions are met, but other testing and compliance obligations may still apply depending on plan features."
+                }
+              ]
+            },
+            {
+              "q": "Can we change our plan design without replacing our recordkeeper?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Often, yes."
+                },
+                {
+                  "type": "p",
+                  "text": "Many design changes can be made within an existing provider relationship, depending on your current plan document and recordkeeper capabilities. We help determine whether the existing platform can support the changes or whether a broader provider evaluation makes sense."
+                }
+              ]
+            },
+            {
+              "q": "How does Virginia RetirePath compare with a 401(k)?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "RetirePath provides employees access to a state-facilitated retirement savings program, while a custom 401(k) gives employers greater control over contributions, plan features, and benefits strategy."
+                },
+                {
+                  "type": "p",
+                  "text": "For organizations that want to offer matching contributions or use the retirement plan as a recruiting and retention tool, a custom 401(k) may provide greater flexibility."
+                }
+              ]
+            },
+            {
+              "q": "Are there tax credits for starting a 401(k)?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Certain eligible small employers may qualify for federal tax credits related to starting a retirement plan and adding automatic enrollment."
+                },
+                {
+                  "type": "p",
+                  "text": "Eligibility and credit amounts depend on the employer and current tax rules. PointOak can help incorporate those considerations into the planning process, while your tax professional can advise on your specific eligibility."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "label": "View More FAQs",
+          "href": "/faq/"
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "build-a-retirement-plan-that-works-harder",
+      "title": "Build a Retirement Plan That Works Harder",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Thoughtful plan design can improve participation, strengthen retirement readiness, and make your benefits more valuable to employees."
+        },
+        {
+          "type": "button",
+          "label": "Schedule a Complimentary Consultation",
+          "action": "schedule"
+        }
+      ],
+      "layout": "cta"
+    }
+  ]
+}

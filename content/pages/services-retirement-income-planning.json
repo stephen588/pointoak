@@ -1,11 +1,13 @@
 {
+  "id": "W05",
   "route": "/services/retirement-income-planning/",
   "name": "Retirement Income Planning",
-  "parent": "Wealth Management",
+  "kind": "page",
+  "parentRoute": "/services/wealth-management/",
   "meta": {
     "title": "Retirement Income Planning | PointOak",
     "description": "Coordinate portfolio withdrawals, Social Security, pensions, taxes, and spending decisions through a personalized retirement income strategy.",
-    "schema": "Service + FAQPage + BreadcrumbList"
+    "schema": "Service + BreadcrumbList; shared Organization reference"
   },
   "hero": {
     "title": "Retirement Income Planning",
@@ -17,12 +19,12 @@
       },
       {
         "type": "p",
-        "text": "At PointOak, we help individuals and families create coordinated retirement income strategies that transform accumulated wealth into reliable, sustainable income. As an independent, fee-only fiduciary, every recommendation is made with one objective in mind: helping you enjoy retirement with confidence."
+        "text": "At PointOak, we help individuals and families create coordinated retirement income strategies that connect accumulated wealth with spending needs and other income sources over time. As an independent, fee-only fiduciary, our recommendations are developed around each client's circumstances and retirement goals."
       },
       {
         "type": "chips",
         "items": [
-          "Retirement Specialists Since 2005",
+          "Founder’s retirement experience since 2005",
           "Fee-Only Fiduciary Advisors",
           "Complimentary Consultation"
         ]
@@ -56,11 +58,11 @@
           "type": "cards",
           "items": [
             {
-              "title": "Create Reliable Retirement Income",
+              "title": "Build a Retirement Income Strategy",
               "body": [
                 {
                   "type": "p",
-                  "text": "Your retirement should be supported by a dependable income strategy—not guesswork. We help determine how much you can comfortably spend while preserving your long-term financial security."
+                  "text": "We begin by understanding the lifestyle you want your assets to support. That includes expected spending, recurring income, major purchases, healthcare considerations, family goals, charitable objectives, and the assets available to fund retirement."
                 }
               ]
             },
@@ -74,7 +76,7 @@
               ]
             },
             {
-              "title": "Optimize Social Security Decisions",
+              "title": "Coordinate Social Security Decisions",
               "body": [
                 {
                   "type": "p",
@@ -97,6 +99,78 @@
                 {
                   "type": "p",
                   "text": "Retirement planning isn't a one-time event. We review your strategy regularly and make adjustments as markets, tax laws, spending needs, and life circumstances evolve."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "manage-sequence-of-returns-risk",
+      "title": "Manage Sequence-of-Returns Risk",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Poor investment returns early in retirement can be particularly challenging when they occur at the same time you're withdrawing money from the portfolio."
+        },
+        {
+          "type": "p",
+          "text": "We consider portfolio allocation, liquidity needs, withdrawal levels, and available income sources when evaluating how much near-term spending should depend on investment assets."
+        },
+        {
+          "type": "p",
+          "text": "The objective isn't to eliminate market risk. It's to build a retirement-income strategy that recognizes the impact that market volatility can have when withdrawals are occurring."
+        }
+      ]
+    },
+    {
+      "id": "spending-doesn-t-have-to-be-static",
+      "title": "Spending Doesn't Have to Be Static",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Many retirement projections assume spending follows a fixed path for decades."
+        },
+        {
+          "type": "p",
+          "text": "Real life rarely works that way."
+        },
+        {
+          "type": "p",
+          "text": "Travel, healthcare, housing, family support, major purchases, and other expenses can cause spending to change substantially from year to year."
+        },
+        {
+          "type": "p",
+          "text": "PointOak can evaluate dynamic spending strategies that allow retirement withdrawals to adjust as circumstances change rather than assuming one rigid spending rule throughout retirement."
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "When Conditions Are Strong",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "There may be greater flexibility for discretionary spending or other financial goals."
+                }
+              ]
+            },
+            {
+              "title": "When Conditions Change",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Spending, withdrawals, portfolio risk, or other elements of the plan may need to be revisited."
+                }
+              ]
+            },
+            {
+              "title": "Throughout Retirement",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We continue monitoring whether the retirement-income strategy remains aligned with your resources and priorities."
                 }
               ]
             }
@@ -172,14 +246,14 @@
         },
         {
           "type": "p",
-          "text": "PointOak combines decades of retirement planning experience with a concierge-level service model that emphasizes clear communication, objective advice, and long-term relationships."
+          "text": "PointOak combines decades of retirement planning experience with a personal, high-touch service model that emphasizes clear communication, thoughtful advice, and long-term relationships."
         },
         {
           "type": "p",
           "text": "Whether you're approaching retirement or already drawing income, you'll work directly with experienced advisors who know your financial picture and are committed to helping you make informed decisions."
         },
         {
-          "type": "chips",
+          "type": "list",
           "items": [
             "Experience at a Glance",
             "Fee-Only Fiduciary",
@@ -200,7 +274,7 @@
               "a": [
                 {
                   "type": "p",
-                  "text": "Retirement income planning focuses on converting your accumulated savings into sustainable income. It coordinates investment withdrawals, Social Security, taxes, healthcare costs, and other income sources to support your lifestyle throughout retirement."
+                  "text": "Retirement income planning coordinates accumulated savings, investment withdrawals, Social Security, taxes, healthcare costs, and other income sources to support spending needs throughout retirement."
                 }
               ]
             },
@@ -214,11 +288,11 @@
               ]
             },
             {
-              "q": "How often should a retirement income plan be reviewed?",
+              "q": "How often should my retirement income plan be reviewed?",
               "a": [
                 {
                   "type": "p",
-                  "text": "We recommend reviewing your retirement income strategy at least twice each year, with additional reviews whenever significant life events, tax law changes, or market conditions warrant adjustments."
+                  "text": "We review the strategy as circumstances warrant, including changes in spending, markets, income sources, tax laws, healthcare needs, family circumstances, and other financial priorities."
                 }
               ]
             },
@@ -254,8 +328,7 @@
         {
           "type": "button",
           "label": "View More FAQs",
-          "href": "/faq/",
-          "secondary": false
+          "href": "/faq/"
         }
       ],
       "layout": "faq"
@@ -269,33 +342,13 @@
           "text": "Your retirement income strategy often works hand in hand with other planning services."
         },
         {
-          "type": "links",
+          "type": "list",
           "items": [
-            {
-              "label": "Investment Management",
-              "href": "/services/investment-management/",
-              "secondary": false
-            },
-            {
-              "label": "Tax-Aware Wealth Strategies",
-              "href": "/services/tax-aware-wealth-strategies/",
-              "secondary": false
-            },
-            {
-              "label": "401(k) Rollovers & Roth Conversions",
-              "href": "/services/401k-rollovers-roth-conversions/",
-              "secondary": false
-            },
-            {
-              "label": "Social Security & Pension Planning",
-              "href": "/services/social-security-pension-planning/",
-              "secondary": false
-            },
-            {
-              "label": "Comprehensive Financial Planning",
-              "href": "/services/comprehensive-financial-planning/",
-              "secondary": false
-            }
+            "Investment Management →",
+            "Tax-Aware Wealth Strategies →",
+            "401(k) Rollovers & Roth Conversions →",
+            "Social Security & Pension Planning →",
+            "Comprehensive Financial Planning →"
           ]
         }
       ]
@@ -310,7 +363,7 @@
         },
         {
           "type": "button",
-          "label": "Schedule Your Complimentary Consultation",
+          "label": "Schedule a Complimentary Consultation",
           "action": "schedule"
         }
       ],

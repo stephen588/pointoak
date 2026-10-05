@@ -1,14 +1,16 @@
 {
+  "id": "C04",
   "route": "/faq/",
   "name": "Frequently Asked Questions",
-  "parent": "Insights & Resources",
+  "kind": "page",
+  "parentRoute": "/resources/",
   "meta": {
     "title": "Wealth Management & 401(k) FAQs | PointOak",
     "description": "Answers to common questions about wealth management, financial planning, investments, retirement, 401(k) consulting, fiduciary services, fees, and working with PointOak.",
-    "schema": "FAQPage + Organization + FinancialService + BreadcrumbList"
+    "schema": "WebPage + BreadcrumbList; shared Organization reference"
   },
   "hero": {
-    "title": "Questions About Wealth Management & Retirement Plans",
+    "title": "Frequently Asked Questions",
     "blocks": [
       {
         "type": "p",
@@ -34,7 +36,21 @@
               "a": [
                 {
                   "type": "p",
-                  "text": "PointOak serves two primary groups: individuals and families seeking private wealth management and financial planning, and businesses responsible for employer-sponsored retirement plans."
+                  "text": "PointOak serves two primary groups: individuals and families seeking private wealth management and financial planning, and businesses responsible for employer-sponsored retirement plans.",
+                  "segs": [
+                    [
+                      "PointOak serves two primary groups: individuals and families seeking private ",
+                      null
+                    ],
+                    [
+                      "wealth management",
+                      "/services/wealth-management/"
+                    ],
+                    [
+                      " and financial planning, and businesses responsible for employer-sponsored retirement plans.",
+                      null
+                    ]
+                  ]
                 }
               ]
             },
@@ -87,7 +103,7 @@
               ]
             },
             {
-              "q": "Is every financial adviser always a fiduciary?",
+              "q": "Is every financial advisor always a fiduciary?",
               "a": [
                 {
                   "type": "p",
@@ -112,7 +128,21 @@
               "a": [
                 {
                   "type": "p",
-                  "text": "Wealth management brings investment management and financial planning together across investments, retirement, income needs, taxes, workplace benefits, Social Security and pensions, estate considerations, and other major financial decisions."
+                  "text": "Wealth management brings investment management and financial planning together across investments, retirement, income needs, taxes, workplace benefits, Social Security and pensions, estate considerations, and other major financial decisions.",
+                  "segs": [
+                    [
+                      "Wealth management brings ",
+                      null
+                    ],
+                    [
+                      "investment management",
+                      "/services/investment-management/"
+                    ],
+                    [
+                      " and financial planning together across investments, retirement, income needs, taxes, workplace benefits, Social Security and pensions, estate considerations, and other major financial decisions.",
+                      null
+                    ]
+                  ]
                 }
               ]
             },
@@ -130,7 +160,21 @@
               "a": [
                 {
                   "type": "p",
-                  "text": "PointOak is fee-only. Ongoing investment management is generally charged as an asset-based advisory fee that varies by account size and scope. Comprehensive financial planning may be included or provided through a separate engagement. Specific fees are discussed before engagement."
+                  "text": "PointOak is fee-only. Ongoing investment management is generally charged as an asset-based advisory fee that varies by account size and scope. Comprehensive financial planning may be included or provided through a separate engagement. Specific fees are discussed before engagement.",
+                  "segs": [
+                    [
+                      "PointOak is fee-only. Ongoing investment management is generally charged as an asset-based advisory fee that varies by account size and scope. ",
+                      null
+                    ],
+                    [
+                      "Comprehensive financial planning",
+                      "/services/comprehensive-financial-planning/"
+                    ],
+                    [
+                      " may be included or provided through a separate engagement. Specific fees are discussed before engagement.",
+                      null
+                    ]
+                  ]
                 }
               ]
             }
@@ -248,8 +292,8 @@
       "layout": "faq"
     },
     {
-      "id": "3-21-3-38-fiduciary-services",
-      "title": "3(21) & 3(38) Fiduciary Services",
+      "id": "3-21-fiduciary-3-38-investment-manager-services",
+      "title": "3(21) Fiduciary & 3(38) Investment Manager Services",
       "blocks": [
         {
           "type": "faq",
@@ -298,7 +342,7 @@
               "a": [
                 {
                   "type": "p",
-                  "text": "Plan fees and services should be monitored regularly as part of ongoing fiduciary oversight. PointOak generally performs annual fee benchmarking or repricing analysis, with a more comprehensive plan and provider benchmark typically conducted every three to five years, or sooner when circumstances warrant. Three to five years is PointOak’s general practice, not an ERISA-mandated schedule."
+                  "text": "PointOak generally conducts a full plan and provider benchmark every three to five years, or sooner when circumstances warrant. In years when we are not conducting a full benchmark, we perform a fee benchmark and work with the provider to reprice the plan annually. The three-to-five-year interval is PointOak's practice, not a DOL or ERISA requirement."
                 }
               ]
             },
@@ -329,6 +373,364 @@
                 {
                   "type": "p",
                   "text": "Yes. PointOak can offer participants complimentary 30-minute individual consultations to discuss questions related to their retirement plan and broader retirement decisions. Depending on the engagement, topics may include contribution rates, investment allocation, pre-tax versus Roth contributions, beneficiaries, retirement readiness, and available options for eligible retirement assets. Any separate private-wealth or financial-planning relationship with PointOak is optional and subject to a separate engagement and applicable fees."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "retirement-income-planning",
+      "title": "Retirement Income Planning",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "When should I start retirement income planning?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Planning before retirement provides time to evaluate income sources, investments, Social Security, healthcare, taxes, and withdrawal decisions. The appropriate timing depends on your circumstances; it is also useful to revisit the strategy after retirement begins."
+                }
+              ]
+            },
+            {
+              "q": "Is retirement planning just about how much I've saved?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "No. Accumulating assets is only part of retirement planning. As retirement approaches, you also need to determine how your savings, Social Security, pensions, and other resources will work together to support your spending needs."
+                }
+              ]
+            },
+            {
+              "q": "Is the 4% rule a retirement income plan?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "No. A withdrawal-rate rule can be a general reference point, but it does not replace an individualized analysis of taxes, account types, income sources, spending, investment risk, and the ability to adjust over time."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "social-security-pension-planning",
+      "title": "Social Security & Pension Planning",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "When should I claim Social Security?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "An appropriate claiming strategy depends on your income needs, health and longevity expectations, other retirement assets, household circumstances, and survivor-benefit considerations. There is no single claiming age that's right for everyone."
+                }
+              ]
+            },
+            {
+              "q": "Should I take a pension lump sum or monthly benefit?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "It depends on the terms of your pension and your broader financial circumstances. We consider income needs, survivor benefits, investment risk, liquidity, longevity, and estate objectives before evaluating the available options."
+                }
+              ]
+            },
+            {
+              "q": "Should Social Security and pension decisions be evaluated separately?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "They should be considered together with the broader financial plan. Both can affect household cash flow, taxes, survivor income, and the amount needed from investments."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "tax-aware-wealth-strategies",
+      "title": "Tax-Aware Wealth Strategies",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "What is tax-efficient investing?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Tax-aware investing considers potential tax consequences alongside investment risk, diversification, liquidity, and other portfolio objectives. It does not mean minimizing current-year taxes at any cost."
+                }
+              ]
+            },
+            {
+              "q": "Does PointOak prepare tax returns?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "No. PointOak incorporates tax considerations into financial planning and investment management but does not prepare tax returns or replace your CPA or tax professional."
+                }
+              ]
+            },
+            {
+              "q": "Why does asset location matter?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Different investments and account types can have different tax characteristics. Coordinating which investments are held in taxable, tax-deferred, and Roth accounts may improve after-tax efficiency, depending on the client's circumstances."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "estate-planning-executive-benefits",
+      "title": "Estate Planning & Executive Benefits",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "Does PointOak draft wills or trusts?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "No. Estate attorneys prepare legal documents. PointOak coordinates financial accounts, beneficiary information, investments, and wealth-transfer considerations with your attorney and tax professionals."
+                }
+              ]
+            },
+            {
+              "q": "Why should beneficiary designations be reviewed separately from my will?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Certain assets with valid beneficiary designations may pass according to those designations rather than under the terms of a will. Your attorney can advise how the applicable rules affect your situation."
+                }
+              ]
+            },
+            {
+              "q": "Can PointOak help with RSUs, stock options, and deferred compensation?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Yes. We help executives evaluate equity compensation and deferred-compensation decisions within the context of taxes, diversification, investment strategy, and retirement timing."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "investment-oversight-investment-policy-statements",
+      "title": "Investment Oversight & Investment Policy Statements",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "What is an Investment Policy Statement?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "An Investment Policy Statement, or IPS, provides a framework for selecting, monitoring, placing on watch, and replacing investments. It helps committees apply consistent criteria and document their process."
+                }
+              ]
+            },
+            {
+              "q": "Is an IPS required by ERISA?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "ERISA does not specifically require every plan to maintain an Investment Policy Statement. Many committees adopt one to guide investment oversight. The document should remain consistent with the plan's governing documents and applicable law, and its procedures should be followed and reviewed as appropriate."
+                }
+              ]
+            },
+            {
+              "q": "Does poor short-term performance mean a fund should immediately be removed?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "No. A prudent review considers the investment's role, risk, relevant benchmarks, fees, manager stability, philosophy, and style consistency rather than relying on recent returns alone."
+                }
+              ]
+            },
+            {
+              "q": "What is an investment watchlist?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "A watchlist identifies investments that warrant closer review under the plan's monitoring framework. Placement on watch is not an automatic instruction to replace the fund."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "plan-design",
+      "title": "Plan Design",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "What is 401(k) plan design?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Plan design includes eligibility, employer matching and other contributions, automatic enrollment, automatic escalation, vesting, and other provisions that determine how a plan operates."
+                }
+              ]
+            },
+            {
+              "q": "How often should plan design be reviewed?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "PointOak generally recommends reviewing plan design annually and whenever significant organizational, workforce, regulatory, or plan changes occur. This is a recommended practice, not a universal legal deadline."
+                }
+              ]
+            },
+            {
+              "q": "Do you consider what other employers in our industry offer?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Yes. Available industry and peer-plan information can provide context around matching formulas, employer contributions, eligibility, vesting, and automatic features. Those comparisons inform recommendations rather than determining the design by themselves."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "target-date-funds",
+      "title": "Target Date Funds",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "Are all target date funds with the same year essentially the same?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "No. Funds with the same target year can have different equity exposure, glide paths, fees, investment structures, and risk profiles."
+                }
+              ]
+            },
+            {
+              "q": "What is a target date fund glide path?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "The glide path describes how the fund's asset allocation changes as it approaches and moves beyond the target date."
+                }
+              ]
+            },
+            {
+              "q": "What is the difference between a to and through glide path?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "A to-retirement glide path generally reaches its most conservative allocation around the target date. A through-retirement approach continues changing allocation afterward. Neither is universally better. Analysis should consider underlying assumptions, participant demographics and behavior, plan objectives, fees, structure, and the expected role of the series."
+                }
+              ]
+            },
+            {
+              "q": "Is a QDIA the same as a target date fund?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "No. A target date fund may serve as a qualified default investment alternative, but the terms are not interchangeable. The plan's default strategy should be evaluated within the broader investment-menu and monitoring process."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "fiduciary-documentation",
+      "title": "Fiduciary Documentation",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "What is PointOak's Virtual Fiduciary File?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "The Virtual Fiduciary File is a centralized way to organize documentation created through the retirement-plan governance process, including investment reviews, committee records, fee benchmarks, and provider evaluations.",
+                  "segs": [
+                    [
+                      "The ",
+                      null
+                    ],
+                    [
+                      "Virtual Fiduciary File",
+                      "/corporate-retirement-plans/fiduciary-governance/virtual-fiduciary-file/"
+                    ],
+                    [
+                      " is a centralized way to organize documentation created through the retirement-plan governance process, including investment reviews, committee records, fee benchmarks, and provider evaluations.",
+                      null
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "q": "Does a Virtual Fiduciary File replace the recordkeeper?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "No. The recordkeeper maintains participant and administrative records. The Virtual Fiduciary File focuses on the committee's governance and oversight documentation.",
+                  "segs": [
+                    [
+                      "No. The recordkeeper maintains participant and administrative records. The ",
+                      null
+                    ],
+                    [
+                      "Virtual Fiduciary File",
+                      "/corporate-retirement-plans/fiduciary-governance/virtual-fiduciary-file/"
+                    ],
+                    [
+                      " focuses on the committee's governance and oversight documentation.",
+                      null
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "q": "What should fiduciary documentation explain?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "The record should show the information considered, alternatives evaluated, decisions made, rationale, and any follow-up responsibilities. Organized records support the process; they do not guarantee a particular regulatory or legal outcome."
                 }
               ]
             }

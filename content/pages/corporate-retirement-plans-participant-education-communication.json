@@ -1,0 +1,747 @@
+{
+  "id": "R02",
+  "route": "/corporate-retirement-plans/participant-education-communication/",
+  "name": "Participant Education & Communication",
+  "kind": "page",
+  "parentRoute": "/corporate-retirement-plans/",
+  "meta": {
+    "title": "401(k) Participant Education | PointOak Retirement Advisors",
+    "description": "Advisor-led participant education, one-on-one guidance, financial wellness, and customized retirement plan communications for employees.",
+    "schema": "Service + BreadcrumbList; shared Organization reference"
+  },
+  "hero": {
+    "title": "Participant Education & Communication",
+    "subtitle": "Help employees understand their retirement benefits—and give them access to personalized guidance when they need it.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Offering a retirement plan is only the beginning. Employees also need clear information, practical education, and access to guidance that can help them make informed decisions about their retirement benefits."
+      },
+      {
+        "type": "p",
+        "text": "PointOak provides group education, one-on-one participant consultations, financial wellness programs, and customized retirement plan communications designed around your plan and workforce.",
+        "segs": [
+          [
+            "PointOak provides group education, one-on-one participant consultations, ",
+            null
+          ],
+          [
+            "financial wellness programs",
+            "/corporate-retirement-plans/participant-education-communication/financial-wellness/"
+          ],
+          [
+            ", and customized ",
+            null
+          ],
+          [
+            "retirement plan communications",
+            "/corporate-retirement-plans/participant-education-communication/communications/"
+          ],
+          [
+            " designed around your plan and workforce.",
+            null
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "We also coordinate with your recordkeeper and other plan resources so employees can make better use of the tools and support already available to them."
+      },
+      {
+        "type": "chips",
+        "items": [
+          "Group Education",
+          "Complimentary 30-Minute Participant Consultations",
+          "Financial Wellness & Holistic Planning",
+          "Customized Participant Communications"
+        ]
+      },
+      {
+        "type": "button",
+        "label": "Schedule a Complimentary Consultation",
+        "action": "schedule"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "education-that-doesn-t-end-with-the-group-meeting",
+      "title": "Education That Doesn't End With the Group Meeting",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Group meetings and webinars are effective ways to explain retirement-plan concepts to a broader employee population. But employees often have questions that are specific to their own financial circumstances."
+        },
+        {
+          "type": "p",
+          "text": "PointOak gives plan participants access to a complimentary 30-minute individual consultation with a PointOak advisor, which employees can schedule directly through our online calendar."
+        },
+        {
+          "type": "p",
+          "text": "Individual meetings may address:"
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Investment Allocation",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Help participants evaluate the allocation of investments available within their retirement plan based on their individual circumstances and objectives."
+                }
+              ]
+            },
+            {
+              "title": "Contribution Strategy",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Discuss contribution rates, employer contributions, retirement objectives, and other factors that may affect how much an employee chooses to save."
+                }
+              ]
+            },
+            {
+              "title": "Pre-Tax vs. Roth Contributions",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Help participants understand the differences between pre-tax and Roth contributions and consider the tax treatment of their retirement savings in the context of their individual circumstances."
+                }
+              ]
+            },
+            {
+              "title": "Beneficiary Designations",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Help participants understand the importance of reviewing beneficiary elections, particularly following significant life changes."
+                }
+              ]
+            },
+            {
+              "title": "Rollovers & Account Consolidation",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Help participants evaluate available options for eligible retirement assets, including whether assets may be consolidated into the current employer's plan or whether other alternatives should be considered."
+                }
+              ]
+            },
+            {
+              "title": "Retirement Planning Questions",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Provide an opportunity to discuss retirement goals and other financial considerations that may extend beyond the employee's workplace retirement plan."
+                },
+                {
+                  "type": "p",
+                  "text": "Schedule a 30-Minute Participant Consultation"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a-flexible-participant-education-model",
+      "title": "A Flexible Participant Education Model",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Group Education",
+              "body": [
+                {
+                  "type": "chips",
+                  "items": [
+                    "Workshops",
+                    "Enrollment Meetings",
+                    "Retirement Education",
+                    "Group + Individual Sessions"
+                  ]
+                },
+                {
+                  "type": "p",
+                  "text": "Educational sessions can be customized around your retirement plan, workforce, and the topics most relevant to employees. Group education may be delivered in person or virtually."
+                }
+              ]
+            },
+            {
+              "title": "One-on-One Guidance",
+              "body": [
+                {
+                  "type": "chips",
+                  "items": [
+                    "Individual Participant Meetings",
+                    "Investment Allocation",
+                    "Contribution Decisions",
+                    "Retirement Questions"
+                  ]
+                },
+                {
+                  "type": "p",
+                  "text": "Employees who want more personalized assistance can meet individually with a PointOak advisor."
+                }
+              ]
+            },
+            {
+              "title": "Financial Wellness",
+              "body": [
+                {
+                  "type": "chips",
+                  "items": [
+                    "Financial Foundations",
+                    "Holistic Planning",
+                    "Retirement Readiness",
+                    "Personalized Guidance"
+                  ]
+                },
+                {
+                  "type": "p",
+                  "text": "Financial wellness can broaden the conversation beyond the 401(k) to financial considerations that may affect an employee's ability to prepare for retirement."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "participant-education-communication-services",
+      "title": "Participant Education & Communication Services",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Retirement Education & One-on-One Participant Guidance",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Help employees understand how their retirement plan works and give them access to individualized guidance when questions become personal."
+                },
+                {
+                  "type": "p",
+                  "text": "Programs may include new-hire education, group meetings, webinars, retirement-focused workshops, plan website demonstrations, and complimentary individual participant consultations."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Enrollment",
+                    "Contributions",
+                    "Employer Match",
+                    "Investments",
+                    "Roth vs. Pre-Tax",
+                    "Beneficiaries",
+                    "Retirement Planning"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Financial Wellness Programs",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Financial decisions outside the retirement plan can affect an employee's ability to save for retirement."
+                },
+                {
+                  "type": "p",
+                  "text": "PointOak's financial wellness programs can address everyday financial foundations while connecting those decisions with longer-term retirement and financial-planning considerations."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Financial Foundations",
+                    "Debt & Financial Priorities",
+                    "Emergency Savings",
+                    "Retirement Readiness",
+                    "Holistic Financial Planning"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Retirement Plan Communications",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Clear communications help employees understand plan features, changes, educational opportunities, and the resources available to them."
+                },
+                {
+                  "type": "p",
+                  "text": "PointOak can help develop and coordinate communications tailored to the organization's retirement plan, workforce, and education priorities."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Enrollment",
+                    "Plan Features",
+                    "Employer Contributions",
+                    "Plan Changes",
+                    "Educational Events",
+                    "Participant Resources"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connect-employees-with-the-resources-already-available",
+      "title": "Connect Employees With the Resources Already Available",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Recordkeepers often provide participant websites, calculators, educational tools, enrollment resources, communications, and education specialists."
+        },
+        {
+          "type": "p",
+          "text": "PointOak can help coordinate these resources with the broader participant-education strategy rather than unnecessarily recreating them."
+        },
+        {
+          "type": "p",
+          "text": "That may include:"
+        },
+        {
+          "type": "chips",
+          "items": [
+            "Recordkeeper Education Specialists",
+            "Participant Website Demonstrations",
+            "Enrollment Resources",
+            "Educational Tools",
+            "Participant Communications"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The objective isn't to recreate resources that already exist. It's to help employees understand and make better use of the resources available to them."
+        }
+      ]
+    },
+    {
+      "id": "from-retirement-education-to-broader-financial-guidance",
+      "title": "From Retirement Education to Broader Financial Guidance",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Some participants only need help understanding their workplace retirement plan. Others have financial questions or planning needs that extend beyond it."
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Retirement Plan Education",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Group education about the employer-sponsored retirement plan."
+                }
+              ]
+            },
+            {
+              "title": "Individual Participant Guidance",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Complimentary 30-minute consultations addressing the participant's retirement-plan questions and individual circumstances."
+                }
+              ]
+            },
+            {
+              "title": "Financial Wellness & Holistic Planning",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Broader conversations about financial priorities and retirement readiness."
+                }
+              ]
+            },
+            {
+              "title": "Private Wealth & Financial Planning",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Participants who want ongoing investment management or more comprehensive financial planning may separately choose to engage PointOak for individual advisory services.",
+                  "segs": [
+                    [
+                      "Participants who want ongoing ",
+                      null
+                    ],
+                    [
+                      "investment management",
+                      "/services/investment-management/"
+                    ],
+                    [
+                      " or more ",
+                      null
+                    ],
+                    [
+                      "comprehensive financial planning",
+                      "/services/comprehensive-financial-planning/"
+                    ],
+                    [
+                      " may separately choose to engage PointOak for individual advisory services.",
+                      null
+                    ]
+                  ]
+                },
+                {
+                  "type": "p",
+                  "text": "Private wealth management and financial planning services are separate from the employer's retirement-plan engagement and may require a separate advisory agreement and additional fees.",
+                  "segs": [
+                    [
+                      "Private ",
+                      null
+                    ],
+                    [
+                      "wealth management",
+                      "/services/wealth-management/"
+                    ],
+                    [
+                      " and financial planning services are separate from the employer's retirement-plan engagement and may require a separate advisory agreement and additional fees.",
+                      null
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "support-at-different-stages",
+      "title": "Support at Different Stages",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "New to the Plan",
+              "body": [
+                {
+                  "type": "chips",
+                  "items": [
+                    "Enrollment",
+                    "Plan Basics",
+                    "Employer Match",
+                    "Beneficiaries",
+                    "Website & Tools"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Building Retirement Savings",
+              "body": [
+                {
+                  "type": "chips",
+                  "items": [
+                    "Contribution Rates",
+                    "Roth vs. Pre-Tax",
+                    "Investment Allocation",
+                    "Employer Contributions"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Mid-Career",
+              "body": [
+                {
+                  "type": "chips",
+                  "items": [
+                    "Savings Progress",
+                    "Investment Allocation",
+                    "Financial Priorities",
+                    "Retirement Planning"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Approaching Retirement",
+              "body": [
+                {
+                  "type": "chips",
+                  "items": [
+                    "Retirement Readiness",
+                    "Distribution Considerations",
+                    "Social Security",
+                    "Medicare",
+                    "Retirement Income Questions"
+                  ]
+                },
+                {
+                  "type": "p",
+                  "text": "For employees whose needs become more comprehensive, PointOak can explain the availability of separate financial-planning or wealth-management services."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group-education-individual-access",
+      "title": "Group Education + Individual Access",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "LEARN: Attend a group meeting or webinar."
+        },
+        {
+          "type": "p",
+          "text": "UNDERSTAND: Learn how the retirement plan works and which decisions may require attention."
+        },
+        {
+          "type": "p",
+          "text": "ASK: Schedule a complimentary 30-minute individual consultation."
+        },
+        {
+          "type": "p",
+          "text": "ACT: Make informed decisions based on the participant's circumstances."
+        },
+        {
+          "type": "p",
+          "text": "PLAN: Explore separate financial planning or wealth management if the participant wants broader ongoing advice."
+        }
+      ]
+    },
+    {
+      "id": "our-participant-education-process",
+      "title": "Our Participant Education Process",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Assess",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Review the retirement plan, workforce, available education resources, and participant needs."
+                }
+              ]
+            },
+            {
+              "title": "Prioritize",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Identify relevant topics and opportunities for group or individualized education."
+                }
+              ]
+            },
+            {
+              "title": "Coordinate",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Determine how PointOak's education can work alongside recordkeeper and other plan resources."
+                }
+              ]
+            },
+            {
+              "title": "Educate",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Provide group meetings, webinars, communications, and other appropriate educational support."
+                }
+              ]
+            },
+            {
+              "title": "Connect",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Give participants direct access to complimentary individual consultations when they want personalized guidance."
+                }
+              ]
+            },
+            {
+              "title": "Review",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Consider engagement and available plan-level information when developing future education priorities."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "steps"
+    },
+    {
+      "id": "why-pointoak",
+      "title": "Why PointOak",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Participant Education With Direct Access to an Advisor",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "PointOak's participant education is connected to the retirement plan we help advise."
+                },
+                {
+                  "type": "p",
+                  "text": "Employees aren't limited to group presentations or generic educational materials. Participants can also schedule individual time with a PointOak advisor to discuss questions about their retirement plan and personal circumstances."
+                },
+                {
+                  "type": "p",
+                  "text": "Because PointOak also provides private wealth management and financial planning, participants who want assistance beyond their workplace retirement plan have access to additional services through a separate individual advisory relationship."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frequently-asked-questions",
+      "title": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "What is 401(k) participant education?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "401(k) participant education helps employees understand their retirement plan and the decisions available to them, including enrollment, contributions, employer contributions, investments, beneficiaries, and preparing for retirement."
+                },
+                {
+                  "type": "p",
+                  "text": "PointOak's program can include group meetings, webinars, communications, plan demonstrations, and individual participant consultations."
+                }
+              ]
+            },
+            {
+              "q": "Do employees have access to individual meetings?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Yes. Plan participants can schedule a complimentary 30-minute consultation directly with a PointOak advisor through our online calendar."
+                },
+                {
+                  "type": "p",
+                  "text": "These meetings can address retirement-plan investments, asset allocation, contribution rates, pre-tax versus Roth contributions, beneficiaries, eligible rollover considerations, and other retirement-planning questions."
+                }
+              ]
+            },
+            {
+              "q": "Do you provide investment guidance to individual participants?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Yes, within the scope of our engagement. PointOak can help participants understand the investment options available through their retirement plan and provide individualized guidance regarding asset allocation and other retirement-plan investment considerations."
+                }
+              ]
+            },
+            {
+              "q": "Can you help participants decide between pre-tax and Roth contributions?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Yes. PointOak can help participants understand how pre-tax and Roth contributions differ and discuss considerations relevant to their individual financial and tax circumstances."
+                }
+              ]
+            },
+            {
+              "q": "Can PointOak help with rollovers?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Yes. PointOak can help participants understand available options for eligible retirement assets. Depending on the circumstances and applicable plan provisions, alternatives may include leaving assets in an existing employer plan, consolidating eligible assets into the current employer's plan, or considering an IRA rollover."
+                },
+                {
+                  "type": "p",
+                  "text": "Any recommendation should be based on the participant's individual circumstances."
+                }
+              ]
+            },
+            {
+              "q": "What if an employee needs financial planning beyond the 401(k)?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Participants who want more comprehensive assistance may separately engage PointOak for private wealth management or financial planning."
+                },
+                {
+                  "type": "p",
+                  "text": "Those services are separate from the employer's retirement-plan engagement and may involve a separate advisory agreement and additional fees."
+                }
+              ]
+            },
+            {
+              "q": "Do you coordinate with our recordkeeper?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Yes. PointOak can coordinate with recordkeeper education specialists and incorporate available participant tools, websites, enrollment resources, and other educational materials into the broader education program."
+                }
+              ]
+            },
+            {
+              "q": "Can participant education improve participation?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Participant education can help employees better understand their retirement plan and the decisions available to them."
+                },
+                {
+                  "type": "p",
+                  "text": "Participation and savings behavior are influenced by many factors, including plan design, automatic enrollment, employer contributions, personal financial circumstances, communications, and education. PointOak considers education as one part of the broader participant-engagement strategy.",
+                  "segs": [
+                    [
+                      "Participation and savings behavior are influenced by many factors, including ",
+                      null
+                    ],
+                    [
+                      "plan design",
+                      "/corporate-retirement-plans/plan-design/"
+                    ],
+                    [
+                      ", automatic enrollment, employer contributions, personal financial circumstances, communications, and education. PointOak considers education as one part of the broader participant-engagement strategy.",
+                      null
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "give-employees-direct-access-to-retirement-guidance",
+      "title": "Give Employees Direct Access to Retirement Guidance",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Combine group education, individual participant consultations, financial wellness, and clear communications to help employees better understand their retirement plan and the financial decisions surrounding it."
+        },
+        {
+          "type": "button",
+          "label": "Schedule a Complimentary Consultation",
+          "action": "schedule"
+        }
+      ],
+      "layout": "cta"
+    }
+  ]
+}

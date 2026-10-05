@@ -2,18 +2,37 @@
 import type { PageContent } from "@/lib/content";
 import p_about from "./pages/about.json";
 import p_contact from "./pages/contact.json";
+import p_corporate_retirement_plans from "./pages/corporate-retirement-plans.json";
+import p_corporate_retirement_plans_evaluation_benchmarking from "./pages/corporate-retirement-plans-evaluation-benchmarking.json";
+import p_corporate_retirement_plans_evaluation_benchmarking_cybersecurity_due_diligence from "./pages/corporate-retirement-plans-evaluation-benchmarking-cybersecurity-due-diligence.json";
+import p_corporate_retirement_plans_evaluation_benchmarking_provider_fee_benchmarking from "./pages/corporate-retirement-plans-evaluation-benchmarking-provider-fee-benchmarking.json";
+import p_corporate_retirement_plans_evaluation_benchmarking_provider_rfp from "./pages/corporate-retirement-plans-evaluation-benchmarking-provider-rfp.json";
 import p_corporate_retirement_plans_fiduciary_governance from "./pages/corporate-retirement-plans-fiduciary-governance.json";
 import p_corporate_retirement_plans_fiduciary_governance_3_21_fiduciary from "./pages/corporate-retirement-plans-fiduciary-governance-3-21-fiduciary.json";
 import p_corporate_retirement_plans_fiduciary_governance_3_38_investment_manager from "./pages/corporate-retirement-plans-fiduciary-governance-3-38-investment-manager.json";
 import p_corporate_retirement_plans_fiduciary_governance_plan_governance from "./pages/corporate-retirement-plans-fiduciary-governance-plan-governance.json";
+import p_corporate_retirement_plans_fiduciary_governance_virtual_fiduciary_file from "./pages/corporate-retirement-plans-fiduciary-governance-virtual-fiduciary-file.json";
+import p_corporate_retirement_plans_investment_analysis_monitoring from "./pages/corporate-retirement-plans-investment-analysis-monitoring.json";
+import p_corporate_retirement_plans_investment_analysis_monitoring_investment_menu from "./pages/corporate-retirement-plans-investment-analysis-monitoring-investment-menu.json";
+import p_corporate_retirement_plans_investment_analysis_monitoring_methodology from "./pages/corporate-retirement-plans-investment-analysis-monitoring-methodology.json";
+import p_corporate_retirement_plans_participant_education_communication from "./pages/corporate-retirement-plans-participant-education-communication.json";
 import p_corporate_retirement_plans_participant_education_communication_communications from "./pages/corporate-retirement-plans-participant-education-communication-communications.json";
 import p_corporate_retirement_plans_participant_education_communication_financial_wellness from "./pages/corporate-retirement-plans-participant-education-communication-financial-wellness.json";
 import p_corporate_retirement_plans_participant_education_communication_retirement_education from "./pages/corporate-retirement-plans-participant-education-communication-retirement-education.json";
+import p_corporate_retirement_plans_plan_design from "./pages/corporate-retirement-plans-plan-design.json";
+import p_corporate_retirement_plans_plan_design_automatic_enrollment_escalation from "./pages/corporate-retirement-plans-plan-design-automatic-enrollment-escalation.json";
+import p_corporate_retirement_plans_plan_design_employer_match_contributions from "./pages/corporate-retirement-plans-plan-design-employer-match-contributions.json";
 import p_corporate_retirement_plans_tdf_consulting from "./pages/corporate-retirement-plans-tdf-consulting.json";
+import p_corporate_retirement_plans_tdf_consulting_glide_path_analysis from "./pages/corporate-retirement-plans-tdf-consulting-glide-path-analysis.json";
+import p_corporate_retirement_plans_tdf_consulting_selection_suitability from "./pages/corporate-retirement-plans-tdf-consulting-selection-suitability.json";
 import p_faq from "./pages/faq.json";
 import p_home from "./pages/home.json";
-import p_hub_corporate_retirement_plans from "./pages/hub-corporate-retirement-plans.json";
-import p_hub_participant_education_communication from "./pages/hub-participant-education-communication.json";
+import p_insights_401k_rollover_guide from "./pages/insights-401k-rollover-guide.json";
+import p_insights_alternative_investments_wealth_management from "./pages/insights-alternative-investments-wealth-management.json";
+import p_insights_independent_ria_vs_wirehouse from "./pages/insights-independent-ria-vs-wirehouse.json";
+import p_insights_retirement_income_planning_withdrawal_rate from "./pages/insights-retirement-income-planning-withdrawal-rate.json";
+import p_insights_when_does_roth_conversion_make_sense from "./pages/insights-when-does-roth-conversion-make-sense.json";
+import p_insights_when_to_claim_social_security from "./pages/insights-when-to-claim-social-security.json";
 import p_resources from "./pages/resources.json";
 import p_services_401k_rollovers_roth_conversions from "./pages/services-401k-rollovers-roth-conversions.json";
 import p_services_comprehensive_financial_planning from "./pages/services-comprehensive-financial-planning.json";
@@ -29,18 +48,37 @@ import p_why_point_oak from "./pages/why-point-oak.json";
 export const pages: PageContent[] = [
   p_about as PageContent,
   p_contact as PageContent,
+  p_corporate_retirement_plans as PageContent,
+  p_corporate_retirement_plans_evaluation_benchmarking as PageContent,
+  p_corporate_retirement_plans_evaluation_benchmarking_cybersecurity_due_diligence as PageContent,
+  p_corporate_retirement_plans_evaluation_benchmarking_provider_fee_benchmarking as PageContent,
+  p_corporate_retirement_plans_evaluation_benchmarking_provider_rfp as PageContent,
   p_corporate_retirement_plans_fiduciary_governance as PageContent,
   p_corporate_retirement_plans_fiduciary_governance_3_21_fiduciary as PageContent,
   p_corporate_retirement_plans_fiduciary_governance_3_38_investment_manager as PageContent,
   p_corporate_retirement_plans_fiduciary_governance_plan_governance as PageContent,
+  p_corporate_retirement_plans_fiduciary_governance_virtual_fiduciary_file as PageContent,
+  p_corporate_retirement_plans_investment_analysis_monitoring as PageContent,
+  p_corporate_retirement_plans_investment_analysis_monitoring_investment_menu as PageContent,
+  p_corporate_retirement_plans_investment_analysis_monitoring_methodology as PageContent,
+  p_corporate_retirement_plans_participant_education_communication as PageContent,
   p_corporate_retirement_plans_participant_education_communication_communications as PageContent,
   p_corporate_retirement_plans_participant_education_communication_financial_wellness as PageContent,
   p_corporate_retirement_plans_participant_education_communication_retirement_education as PageContent,
+  p_corporate_retirement_plans_plan_design as PageContent,
+  p_corporate_retirement_plans_plan_design_automatic_enrollment_escalation as PageContent,
+  p_corporate_retirement_plans_plan_design_employer_match_contributions as PageContent,
   p_corporate_retirement_plans_tdf_consulting as PageContent,
+  p_corporate_retirement_plans_tdf_consulting_glide_path_analysis as PageContent,
+  p_corporate_retirement_plans_tdf_consulting_selection_suitability as PageContent,
   p_faq as PageContent,
   p_home as PageContent,
-  p_hub_corporate_retirement_plans as PageContent,
-  p_hub_participant_education_communication as PageContent,
+  p_insights_401k_rollover_guide as PageContent,
+  p_insights_alternative_investments_wealth_management as PageContent,
+  p_insights_independent_ria_vs_wirehouse as PageContent,
+  p_insights_retirement_income_planning_withdrawal_rate as PageContent,
+  p_insights_when_does_roth_conversion_make_sense as PageContent,
+  p_insights_when_to_claim_social_security as PageContent,
   p_resources as PageContent,
   p_services_401k_rollovers_roth_conversions as PageContent,
   p_services_comprehensive_financial_planning as PageContent,

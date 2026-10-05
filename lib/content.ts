@@ -1,10 +1,13 @@
 import { pages } from "@/content";
 
+export type Seg = [string, string | null];
 export type Link = { label: string; href?: string | null; action?: "schedule"; secondary?: boolean };
 export type Card = { title: string; body: Block[]; link?: { label: string; href: string } };
 export type Block =
-  | { type: "p"; text: string }
-  | { type: "list"; lead?: string; items: string[] }
+  | { type: "p"; text: string; segs?: Seg[] }
+  | { type: "h3"; text: string }
+  | { type: "list"; lead?: string; items: string[]; segs?: (Seg[] | null)[] }
+  | { type: "articles"; items: { label: string; href: string; text?: string }[] }
   | { type: "chips"; items: string[] }
   | { type: "pillars"; items: Card[] }
   | { type: "cards"; items: Card[] }
@@ -17,9 +20,12 @@ export type Block =
 export type Section = { id: string; title: string; layout?: "steps" | "faq" | "cta"; blocks: Block[] };
 
 export type PageContent = {
+  id?: string;
   route: string;
   name: string;
-  parent?: string | null;
+  kind?: "page" | "article";
+  parentRoute?: string | null;
+  sources?: { label: string; href: string }[];
   meta: { title?: string | null; description?: string | null; schema?: string | null };
   hero: { title: string; subtitle?: string; blocks: Block[] };
   sections: Section[];
@@ -42,15 +48,17 @@ export function routeExists(href: string): boolean {
   return path === "/" || path === "/contact/" || pages.some((p) => p.route === path);
 }
 
-/** Breadcrumb trail from the URL path, naming each level after its page (levels with no page are skipped). */
+/** Breadcrumb trail following each page's parent in the SEO sitemap. */
 export function breadcrumbs(route: string): { name: string; href: string }[] {
-  const parts = route.split("/").filter(Boolean);
-  const trail = [{ name: "Home", href: "/" }];
-  for (let i = 1; i <= parts.length; i++) {
-    const href = "/" + parts.slice(0, i).join("/") + "/";
-    const page = getPage(href);
-    if (page) trail.push({ name: page.name, href });
+  const trail: { name: string; href: string }[] = [];
+  let page = getPage(route);
+  const seen = new Set<string>();
+  while (page && !seen.has(page.route)) {
+    seen.add(page.route);
+    trail.unshift({ name: page.route === "/" ? "Home" : page.name, href: page.route });
+    page = page.parentRoute ? getPage(page.parentRoute) : undefined;
   }
+  if (trail[0]?.href !== "/") trail.unshift({ name: "Home", href: "/" });
   return trail;
 }
 

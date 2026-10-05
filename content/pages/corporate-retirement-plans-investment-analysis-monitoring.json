@@ -1,0 +1,454 @@
+{
+  "id": "R15",
+  "route": "/corporate-retirement-plans/investment-analysis-monitoring/",
+  "name": "Investment Analysis & Monitoring",
+  "kind": "page",
+  "parentRoute": "/corporate-retirement-plans/",
+  "meta": {
+    "title": "401(k) Investment Analysis & Monitoring | PointOak",
+    "description": "Structured investment analysis, monitoring, and menu oversight for employer-sponsored retirement plans.",
+    "schema": "Service + BreadcrumbList; shared Organization reference"
+  },
+  "hero": {
+    "title": "Investment Analysis & Monitoring",
+    "subtitle": "Independent investment oversight that strengthens fiduciary decision-making and participant outcomes.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Selecting investments is only the beginning of your fiduciary responsibility. ERISA requires retirement plan fiduciaries to continually monitor investment options, evaluate performance, review fees, and determine when funds should remain, be placed on watch, or be replaced."
+      },
+      {
+        "type": "p",
+        "text": "PointOak Retirement Advisors provides independent 401(k) investment analysis designed to help retirement plan committees build a disciplined, repeatable investment oversight process. Our reviews evaluate performance, risk, fees, diversification, and Investment Policy Statement (IPS) compliance while documenting every recommendation for your fiduciary file."
+      },
+      {
+        "type": "chips",
+        "items": [
+          "Quarterly investment reviews",
+          "Investment Policy Statement (IPS) support",
+          "3(21) investment fiduciary and 3(38) investment manager services available",
+          "Fee-only, independent investment advice"
+        ]
+      },
+      {
+        "type": "button",
+        "label": "Schedule a Complimentary Consultation",
+        "action": "schedule"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "benefits-of-investment-analysis",
+      "title": "Benefits of Investment Analysis",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Stronger Fiduciary Oversight",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Investment monitoring is an ongoing fiduciary responsibility. Regular reviews help demonstrate that your committee follows a prudent process rather than reacting only when problems arise."
+                }
+              ]
+            },
+            {
+              "title": "Better Investment Lineups",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Every fund should serve a purpose within the overall investment menu. Investment analysis helps eliminate overlap, identify gaps, and improve participant diversification."
+                }
+              ]
+            },
+            {
+              "title": "Earlier Identification of Problem Funds",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Quarterly monitoring identifies performance concerns, manager changes, style drift, excessive fees, and other warning signs before they become long-term issues."
+                }
+              ]
+            },
+            {
+              "title": "IPS-Driven Decision Making",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Recommendations are based on documented Investment Policy Statement criteria rather than subjective opinions or recent performance alone."
+                }
+              ]
+            },
+            {
+              "title": "Improved Participant Outcomes",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "A well-constructed investment lineup gives participants greater confidence while supporting long-term retirement readiness across your workforce."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-investment-analysis-works",
+      "title": "How Investment Analysis Works",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PointOak evaluates every investment within your retirement plan using consistent fiduciary criteria."
+        },
+        {
+          "type": "p",
+          "text": "Our analysis includes historical performance, risk-adjusted returns, expense ratios, manager tenure, style consistency, peer-group comparisons, diversification, and alignment with your Investment Policy Statement."
+        },
+        {
+          "type": "p",
+          "text": "Funds that no longer meet established standards may be placed on a watch list, monitored more closely, or recommended for replacement. Every recommendation is documented for your committee and incorporated into your broader fiduciary governance process."
+        },
+        {
+          "type": "button",
+          "label": "Schedule a Complimentary Consultation",
+          "action": "schedule"
+        }
+      ]
+    },
+    {
+      "id": "what-we-evaluate",
+      "title": "What We Evaluate",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Investment oversight extends well beyond performance rankings."
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Investment Performance",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We evaluate long-term performance relative to peer groups, benchmarks, and your Investment Policy Statement—not simply recent returns."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Performance Review",
+                    "Peer Comparisons",
+                    "Risk-Adjusted Returns"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Investment Fees",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Expense ratios, share classes, and overall investment costs are reviewed to determine whether participants receive appropriate value."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Expense Ratios",
+                    "Share Class Review",
+                    "Fee Monitoring"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Investment Menu Construction",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "A retirement plan should offer diversified investment options without unnecessary overlap or excessive complexity."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Diversification",
+                    "Asset Allocation",
+                    "Menu Structure"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Investment Policy Statement Compliance",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Each investment is evaluated against the standards established within your Investment Policy Statement to support consistent fiduciary decision-making."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "IPS Monitoring",
+                    "Watch Lists",
+                    "Replacement Criteria"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "qdia-review",
+      "title": "QDIA Review",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A qualified default investment alternative, or QDIA, is not synonymous with a target date fund. PointOak evaluates the plan's default investment approach alongside the core investment menu, participant demographics, plan objectives, investment structure, fees, and the role the default is expected to play. Selection and ongoing monitoring remain part of the broader investment process."
+        }
+      ]
+    },
+    {
+      "id": "investment-monitoring-manager-oversight",
+      "title": "Investment Monitoring & Manager Oversight",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Ongoing monitoring combines investment results with a review of the people, process, philosophy, and organization behind a strategy. Manager changes, strategy developments, style consistency, costs, and the investment's role in the lineup can all warrant additional review. PointOak documents the analysis and follow-up within the plan's investment-monitoring framework."
+        }
+      ]
+    },
+    {
+      "id": "who-benefits-from-investment-analysis",
+      "title": "Who Benefits from Investment Analysis?",
+      "blocks": [
+        {
+          "type": "list",
+          "lead": "Professional investment oversight is especially valuable when:",
+          "items": [
+            "Your committee lacks a formal quarterly review process.",
+            "Your Investment Policy Statement has not been updated recently.",
+            "Funds have remained unchanged for several years.",
+            "Your recordkeeper selected the investment lineup.",
+            "Your committee cannot explain why current funds remain in the plan.",
+            "You're changing recordkeepers or investment advisors.",
+            "Target date funds have never received an independent review."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Organizations with larger retirement plans and active investment committees typically benefit most from ongoing independent investment analysis."
+        }
+      ]
+    },
+    {
+      "id": "what-to-expect",
+      "title": "What To Expect",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Analyze",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We review your current investment lineup, Investment Policy Statement, participant demographics, fees, performance history, and committee procedures."
+                }
+              ]
+            },
+            {
+              "title": "Recommend",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We identify investment opportunities, recommend watch-list actions where appropriate, evaluate diversification, and assess alignment with the Investment Policy Statement."
+                }
+              ]
+            },
+            {
+              "title": "Implement",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We provide ongoing quarterly monitoring, committee reporting, investment recommendations, and fiduciary documentation throughout the year."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "steps"
+    },
+    {
+      "id": "why-choose-pointoak-for-investment-analysis",
+      "title": "Why Choose PointOak for Investment Analysis",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Many investment reviews focus almost entirely on recent returns."
+        },
+        {
+          "type": "p",
+          "text": "Our process is broader."
+        },
+        {
+          "type": "p",
+          "text": "PointOak evaluates investments through the lens of fiduciary governance, participant outcomes, risk management, diversification, and documented Investment Policy Statement compliance. Every recommendation supports both better investment decisions and stronger fiduciary documentation."
+        },
+        {
+          "type": "p",
+          "text": "As a fee-only advisor with no proprietary investment products or revenue-sharing arrangements, our recommendations are developed without product-commission or revenue-sharing incentives, with participant interests considered within the fiduciary scope of our engagement."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Quarterly Investment Reviews",
+            "IPS-Based Monitoring",
+            "Independent Investment Recommendations",
+            "3(21) investment fiduciary and 3(38) investment manager services",
+            "Fee-Only Advice",
+            "Founder’s retirement-plan experience since 2005"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "about-pointoak-retirement-advisors",
+      "title": "About PointOak Retirement Advisors",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PointOak Retirement Advisors is an independent, fee-only fiduciary advisory firm providing private wealth management and retirement plan consulting to clients throughout the DC Metro area and nationwide. We offer personalized financial planning and investment management for individuals and families as well as comprehensive retirement plan consulting for businesses.",
+          "segs": [
+            [
+              "PointOak Retirement Advisors is an independent, fee-only fiduciary advisory firm providing private ",
+              null
+            ],
+            [
+              "wealth management",
+              "/services/wealth-management/"
+            ],
+            [
+              " and ",
+              null
+            ],
+            [
+              "retirement plan consulting",
+              "/corporate-retirement-plans/"
+            ],
+            [
+              " to clients throughout the DC Metro area and nationwide. We offer personalized financial planning and ",
+              null
+            ],
+            [
+              "investment management",
+              "/services/investment-management/"
+            ],
+            [
+              " for individuals and families as well as comprehensive retirement plan consulting for businesses.",
+              null
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frequently-asked-questions",
+      "title": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "How often should a retirement plan investment lineup be reviewed?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Most retirement plan committees should formally review investments at least quarterly. Regular monitoring helps identify performance concerns, manager changes, fee increases, and other issues before they become long-term fiduciary risks."
+                }
+              ]
+            },
+            {
+              "q": "What is included in a 401(k) investment analysis?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "A comprehensive review includes investment performance, risk-adjusted returns, expense ratios, share classes, diversification, benchmark comparisons, manager changes, style consistency, and Investment Policy Statement compliance."
+                }
+              ]
+            },
+            {
+              "q": "What is an Investment Policy Statement (IPS)?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "An Investment Policy Statement establishes the standards your committee uses to select, monitor, place on watch, and replace investment options. It provides consistency and strengthens fiduciary governance."
+                }
+              ]
+            },
+            {
+              "q": "How do you decide whether a fund belongs on a watch list?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Watch-list decisions typically consider multiple factors including sustained underperformance, manager turnover, excessive fees, style drift, organizational changes, or failure to meet IPS standards."
+                }
+              ]
+            },
+            {
+              "q": "How many investment options should a retirement plan offer?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "The goal is to provide sufficient diversification without overwhelming participants. A well-designed investment menu balances participant choice with effective fiduciary oversight."
+                }
+              ]
+            },
+            {
+              "q": "Can PointOak serve as our investment fiduciary?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Yes."
+                },
+                {
+                  "type": "p",
+                  "text": "PointOak provides both 3(21) investment fiduciary services and 3(38) investment manager services, allowing plan sponsors to choose the level of delegated investment responsibility that best fits their governance structure."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "label": "View More FAQs",
+          "href": "/faq/"
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "keep-your-investment-lineup-working-for-your-participants",
+      "title": "Keep Your Investment Lineup Working for Your Participants",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Investment oversight isn't a one-time exercise. Markets change, managers change, fees change, and your participants' needs evolve over time."
+        },
+        {
+          "type": "p",
+          "text": "We'll help you build a disciplined investment monitoring process backed by independent analysis, documented fiduciary oversight, and recommendations designed to strengthen your retirement plan year after year."
+        },
+        {
+          "type": "button",
+          "label": "Schedule a Complimentary Consultation",
+          "action": "schedule"
+        }
+      ],
+      "layout": "cta"
+    }
+  ]
+}

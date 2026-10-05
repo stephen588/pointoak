@@ -1,11 +1,13 @@
 {
+  "id": "W03",
   "route": "/services/comprehensive-financial-planning/",
   "name": "Comprehensive Financial Planning",
-  "parent": "Wealth Management",
+  "kind": "page",
+  "parentRoute": "/services/wealth-management/",
   "meta": {
     "title": "Comprehensive Financial Planning | PointOak Retirement Advisors",
     "description": "Coordinate investments, retirement, tax-aware strategies, estate considerations, workplace benefits, and major financial decisions with PointOak.",
-    "schema": "Service + FAQPage + BreadcrumbList"
+    "schema": "Service + BreadcrumbList; shared Organization reference"
   },
   "hero": {
     "title": "Comprehensive Financial Planning",
@@ -93,7 +95,21 @@
                 },
                 {
                   "type": "p",
-                  "text": "We incorporate tax-aware considerations into investment management, retirement withdrawals, Roth conversions, charitable strategies, and other planning decisions while working with your CPA or tax professional as appropriate."
+                  "text": "We incorporate tax-aware considerations into investment management, retirement withdrawals, Roth conversions, charitable strategies, and other planning decisions while working with your CPA or tax professional as appropriate.",
+                  "segs": [
+                    [
+                      "We incorporate tax-aware considerations into ",
+                      null
+                    ],
+                    [
+                      "investment management",
+                      "/services/investment-management/"
+                    ],
+                    [
+                      ", retirement withdrawals, Roth conversions, charitable strategies, and other planning decisions while working with your CPA or tax professional as appropriate.",
+                      null
+                    ]
+                  ]
                 }
               ]
             },
@@ -226,14 +242,28 @@
         },
         {
           "type": "p",
-          "text": "Our background in both private wealth management and corporate retirement plans gives us a broad perspective on the decisions that affect individuals and families throughout their financial lives."
+          "text": "Our background in both private wealth management and corporate retirement plans gives us a broad perspective on the decisions that affect individuals and families throughout their financial lives.",
+          "segs": [
+            [
+              "Our background in both private ",
+              null
+            ],
+            [
+              "wealth management",
+              "/services/wealth-management/"
+            ],
+            [
+              " and corporate retirement plans gives us a broad perspective on the decisions that affect individuals and families throughout their financial lives.",
+              null
+            ]
+          ]
         },
         {
           "type": "p",
           "text": "As an independent, fee-only fiduciary firm, we don't earn commissions from products or receive compensation for recommending one investment over another. Our role is to provide thoughtful guidance designed around your goals."
         },
         {
-          "type": "chips",
+          "type": "list",
           "items": [
             "Experience at a Glance",
             "Fee-Only Fiduciary",
@@ -258,7 +288,21 @@
                 },
                 {
                   "type": "p",
-                  "text": "It can include investment management, retirement income planning, tax-aware strategies, estate coordination, workplace benefits, insurance considerations, major life events, and other financial decisions that affect your long-term goals."
+                  "text": "It can include investment management, retirement income planning, tax-aware strategies, estate coordination, workplace benefits, insurance considerations, major life events, and other financial decisions that affect your long-term goals.",
+                  "segs": [
+                    [
+                      "It can include investment management, ",
+                      null
+                    ],
+                    [
+                      "retirement income planning",
+                      "/services/retirement-income-planning/"
+                    ],
+                    [
+                      ", tax-aware strategies, estate coordination, workplace benefits, insurance considerations, major life events, and other financial decisions that affect your long-term goals.",
+                      null
+                    ]
+                  ]
                 }
               ]
             },
@@ -339,7 +383,7 @@
               "a": [
                 {
                   "type": "p",
-                  "text": "We typically review plans with clients on a semi-annual basis, with additional conversations as needed."
+                  "text": "We review financial plans regularly and revisit them when circumstances warrant. Major life changes, retirement decisions, market conditions, tax-law changes, significant purchases, changes in income, or other events may create a reason to update the analysis between scheduled reviews."
                 },
                 {
                   "type": "p",
@@ -386,11 +430,7 @@
               "a": [
                 {
                   "type": "p",
-                  "text": "PointOak provides comprehensive financial planning as part of our broader wealth management relationship."
-                },
-                {
-                  "type": "p",
-                  "text": "Your initial consultation is complimentary and carries no obligation."
+                  "text": "PointOak offers comprehensive financial planning as part of certain ongoing wealth-management relationships and may also provide financial planning through a separate planning engagement. Fees depend on the scope and complexity of the services provided and are discussed before an engagement begins. The initial consultation is complimentary."
                 }
               ]
             }
@@ -399,8 +439,7 @@
         {
           "type": "button",
           "label": "View More FAQs",
-          "href": "/faq/",
-          "secondary": false
+          "href": "/faq/"
         }
       ],
       "layout": "faq"
@@ -414,42 +453,15 @@
           "text": "Comprehensive financial planning connects many areas of your financial life."
         },
         {
-          "type": "p",
-          "text": "Continue exploring:"
-        },
-        {
-          "type": "links",
+          "type": "list",
+          "lead": "Continue exploring:",
           "items": [
-            {
-              "label": "Retirement Income Planning",
-              "href": "/services/retirement-income-planning/",
-              "secondary": false
-            },
-            {
-              "label": "Investment Management",
-              "href": "/services/investment-management/",
-              "secondary": false
-            },
-            {
-              "label": "Tax-Aware Wealth Strategies",
-              "href": "/services/tax-aware-wealth-strategies/",
-              "secondary": false
-            },
-            {
-              "label": "401(k) Rollovers & Roth Conversions",
-              "href": "/services/401k-rollovers-roth-conversions/",
-              "secondary": false
-            },
-            {
-              "label": "Social Security & Pension Planning",
-              "href": "/services/social-security-pension-planning/",
-              "secondary": false
-            },
-            {
-              "label": "Estate Planning Coordination",
-              "href": "/services/estate-planning-coordination/",
-              "secondary": false
-            }
+            "Retirement Income Planning →",
+            "Investment Management →",
+            "Tax-Aware Wealth Strategies →",
+            "401(k) Rollovers & Roth Conversions →",
+            "Social Security & Pension Planning →",
+            "Estate Planning Coordination →"
           ]
         }
       ]
@@ -461,10 +473,95 @@
         {
           "type": "p",
           "text": "We'll help coordinate your investments, retirement, taxes, estate planning, and major financial decisions into one clear strategy."
+        }
+      ]
+    },
+    {
+      "id": "planning-for-the-decisions-you-haven-t-made-yet",
+      "title": "Planning for the Decisions You Haven't Made Yet",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A comprehensive financial plan isn't valuable simply because it produces projections."
+        },
+        {
+          "type": "p",
+          "text": "It's valuable when it helps you evaluate real decisions."
+        },
+        {
+          "type": "list",
+          "lead": "That might mean:",
+          "items": [
+            "Should I retire this year or work another two years?",
+            "Should I pay off my mortgage or keep more assets invested?",
+            "Should I make a Roth conversion this year?",
+            "Can I afford to buy a second home?",
+            "How should I invest an inheritance or other significant cash event?",
+            "Should I exercise or hold company stock?",
+            "How much can I give to my children without compromising my own retirement?",
+            "Should I claim Social Security now or wait?",
+            "How would a major market decline affect my retirement plan?",
+            "The answer isn't always obvious from looking at one account.",
+            "PointOak helps evaluate these decisions in the context of your complete financial picture."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "see-the-impact-before-making-the-decision",
+      "title": "See the Impact Before Making the Decision",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Financial planning becomes more useful when you can compare alternatives rather than simply receive a static projection."
+        },
+        {
+          "type": "p",
+          "text": "PointOak uses interactive financial-planning technology to help model different scenarios and evaluate how changes could affect your broader financial plan."
+        },
+        {
+          "type": "p",
+          "text": "Depending on your circumstances, we can evaluate questions such as:"
+        },
+        {
+          "type": "chips",
+          "items": [
+            "Retire at 62 vs. 65",
+            "Claim Social Security now vs. later",
+            "Convert $50,000 vs. $100,000 to Roth",
+            "Increase retirement spending",
+            "Purchase a second home",
+            "Experience a significant market decline",
+            "Change portfolio risk",
+            "Leave a larger legacy",
+            "Fund education or family goals"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "This allows us to discuss the tradeoffs between different decisions before putting a strategy into action."
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Your Personal Financial Planning Portal",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Clients also have access to a secure planning portal where they can view their financial information, connect accounts, review planning results, and securely exchange documents with PointOak."
+                },
+                {
+                  "type": "p",
+                  "text": "Powered by RightCapital"
+                }
+              ]
+            }
+          ]
         },
         {
           "type": "button",
-          "label": "Schedule Your Complimentary Consultation",
+          "label": "Schedule a Complimentary Consultation",
           "action": "schedule"
         }
       ],

@@ -1,11 +1,13 @@
 {
+  "id": "R18",
   "route": "/corporate-retirement-plans/tdf-consulting/",
   "name": "Target Date Fund Consulting",
-  "parent": "Retirement Plan Consulting",
+  "kind": "page",
+  "parentRoute": "/corporate-retirement-plans/",
   "meta": {
     "title": "Target Date Fund Consulting | PointOak",
     "description": "Independent target date fund evaluation covering selection, suitability, glide paths, fees, structure, and ongoing monitoring.",
-    "schema": "Service + FAQPage + BreadcrumbList"
+    "schema": "Service + BreadcrumbList; shared Organization reference"
   },
   "hero": {
     "title": "Target Date Fund Consulting",
@@ -18,7 +20,7 @@
       {
         "type": "chips",
         "items": [
-          "Named 3(21) and 3(38) ERISA fiduciary",
+          "3(21) investment fiduciary and 3(38) investment manager services available",
           "Fee-only with no recordkeeper or product affiliations",
           "Independent TDF evaluation and ongoing monitoring"
         ]
@@ -96,13 +98,12 @@
                   "type": "p",
                   "text": "Selecting a target date fund requires more than comparing performance. We evaluate participant demographics, costs, underlying investments, asset allocation, and overall fund structure to help determine which TDF series best fits your plan."
                 }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "cards",
-          "items": [
+              ],
+              "link": {
+                "label": "Learn More",
+                "href": "/corporate-retirement-plans/tdf-consulting/selection-suitability/"
+              }
+            },
             {
               "title": "Glide Path Analysis",
               "body": [
@@ -110,13 +111,12 @@
                   "type": "p",
                   "text": "Funds with the same target year can take very different levels of risk. We evaluate how each TDF shifts from equities to more conservative investments over time and whether that glide path reflects how your participants are likely to save, retire, and withdraw assets."
                 }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "cards",
-          "items": [
+              ],
+              "link": {
+                "label": "Learn More",
+                "href": "/corporate-retirement-plans/tdf-consulting/glide-path-analysis/"
+              }
+            },
             {
               "title": "Custom vs. Off-the-Shelf TDFs",
               "body": [
@@ -127,7 +127,7 @@
               ],
               "link": {
                 "label": "Learn About Custom vs. Off-the-Shelf TDFs",
-                "href": "#off-the-shelf-vs-custom-target-date-funds"
+                "href": "/corporate-retirement-plans/tdf-consulting/glide-path-analysis/"
               }
             },
             {
@@ -137,7 +137,11 @@
                   "type": "p",
                   "text": "A strong TDF process should be easy to demonstrate. We help document the criteria reviewed, alternatives considered, decisions made, and ongoing monitoring so your committee maintains a clear fiduciary record."
                 }
-              ]
+              ],
+              "link": {
+                "label": "Learn More",
+                "href": "/corporate-retirement-plans/tdf-consulting/glide-path-analysis/"
+              }
             }
           ]
         }
@@ -302,14 +306,19 @@
                   "text": "Because we're fee-only and independent, we're not tied to a recordkeeper's fund family or proprietary investment lineup. Our recommendations are based on the needs of your plan and participants."
                 },
                 {
+                  "type": "chips",
+                  "items": [
+                    "3(21) Investment Fiduciary & 3(38) Investment Manager Services",
+                    "Fee-Only, Independent Advice"
+                  ]
+                },
+                {
                   "type": "p",
-                  "text": "3(21) Investment Fiduciary & 3(38) Investment Manager Services"
+                  "text": "Founder Darsh Makim has advised clients since 2005."
                 },
                 {
                   "type": "chips",
                   "items": [
-                    "Fee-Only, Independent Advice",
-                    "Retirement Plan Experience Since 2005",
                     "No Recordkeeper or Product Affiliations",
                     "Nationwide Plan Sponsor Support"
                   ]
@@ -362,7 +371,21 @@
                 },
                 {
                   "type": "p",
-                  "text": "Funds with the same target year can have significantly different equity exposure and risk levels. Glide path analysis helps determine whether that risk pattern makes sense for your participants."
+                  "text": "Funds with the same target year can have significantly different equity exposure and risk levels. Glide path analysis helps determine whether that risk pattern makes sense for your participants.",
+                  "segs": [
+                    [
+                      "Funds with the same target year can have significantly different equity exposure and risk levels. ",
+                      null
+                    ],
+                    [
+                      "Glide path analysis",
+                      "/corporate-retirement-plans/tdf-consulting/glide-path-analysis/"
+                    ],
+                    [
+                      " helps determine whether that risk pattern makes sense for your participants.",
+                      null
+                    ]
+                  ]
                 }
               ]
             },
@@ -449,8 +472,7 @@
         {
           "type": "button",
           "label": "View More FAQs",
-          "href": "/faq/",
-          "secondary": false
+          "href": "/faq/"
         }
       ],
       "layout": "faq"
@@ -465,7 +487,7 @@
         },
         {
           "type": "button",
-          "label": "Schedule Your Complimentary Consultation",
+          "label": "Schedule a Complimentary Consultation",
           "action": "schedule"
         }
       ],

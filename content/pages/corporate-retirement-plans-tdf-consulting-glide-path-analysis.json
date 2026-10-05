@@ -1,0 +1,493 @@
+{
+  "id": "R20",
+  "route": "/corporate-retirement-plans/tdf-consulting/glide-path-analysis/",
+  "name": "Glide Path Analysis",
+  "kind": "page",
+  "parentRoute": "/corporate-retirement-plans/tdf-consulting/",
+  "meta": {
+    "title": "Target Date Fund Glide Path Analysis | PointOak",
+    "description": "Compare target date fund glide paths and underlying assumptions as part of a broader suitability and fiduciary review.",
+    "schema": "Service + BreadcrumbList; shared Organization reference"
+  },
+  "hero": {
+    "title": "Glide Path Analysis",
+    "subtitle": "Evaluate how your TDF manages risk before, at, and after retirement.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Two target date funds with the same retirement year can take very different approaches to investment risk. PointOak helps plan sponsors evaluate glide path structure, equity exposure, asset allocation, and participant fit so your committee can determine whether the current TDF strategy makes sense for the people actually using it."
+      },
+      {
+        "type": "chips",
+        "items": [
+          "3(21) investment fiduciary and 3(38) investment manager services available",
+          "Fee-only and independent of fund manufacturers",
+          "Documented TDF evaluation process"
+        ]
+      },
+      {
+        "type": "button",
+        "label": "Schedule a Complimentary Consultation",
+        "action": "schedule"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "the-benefits-of-glide-path-analysis",
+      "title": "The Benefits of Glide Path Analysis",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Better Alignment With Your Participants",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "A glide path is built around assumptions about how participants save, retire, and use their assets. We compare those assumptions with your actual workforce demographics to determine whether the strategy reasonably fits your plan."
+                }
+              ]
+            },
+            {
+              "title": "Stronger Fiduciary Documentation",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Your committee should be able to explain why the selected TDF’s glide path is appropriate. We document the factors reviewed, alternatives considered, and rationale behind the decision so your fiduciary file reflects a clear, prudent process."
+                }
+              ]
+            },
+            {
+              "title": "Clearer Risk Evaluation",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Same-vintage funds can hold materially different levels of equity exposure. Glide path analysis helps your committee understand how much risk participants are taking at different stages and whether that risk profile aligns with retirement behavior."
+                }
+              ]
+            },
+            {
+              "title": "More Objective Decision-Making",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Fund manufacturers naturally explain why their approach is the right one. As an independent, fee-only advisor, PointOak evaluates glide paths without a product incentive, giving your committee a more neutral basis for comparison."
+                }
+              ]
+            },
+            {
+              "title": "Better Long-Term Participant Fit",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "A glide path that is too aggressive or too conservative for your workforce can affect retirement outcomes. We evaluate both growth potential and downside exposure in the context of your participants’ time horizons and expected withdrawal patterns."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "what-we-evaluate-in-a-tdf-glide-path",
+      "title": "What We Evaluate in a TDF Glide Path",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Equity Exposure",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We review how much of the portfolio remains invested in equities throughout the glide path, particularly as participants approach and move into retirement."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Early-Career Allocation",
+                    "At-Retirement Equity",
+                    "Post-Retirement Exposure"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Fixed Income & Diversification",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We look beyond the stock percentage to understand how the fund uses bonds, cash, and other asset classes as risk declines."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Fixed Income Allocation",
+                    "Diversification",
+                    "Underlying Asset Classes"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "“To” vs. “Through” Retirement",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We evaluate when the fund reaches its most conservative allocation and whether that philosophy fits participant withdrawal behavior."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Retirement-Date Risk",
+                    "Post-Retirement De-Risking",
+                    "Participant Behavior"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Participant Demographics",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "The glide path should make sense for the workforce using it."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Age Distribution",
+                    "Turnover Patterns",
+                    "Contribution & Withdrawal Behavior"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Ongoing Suitability",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Glide paths can change over time as providers update assumptions and investment strategies. We evaluate whether the current structure still fits your plan."
+                },
+                {
+                  "type": "chips",
+                  "items": [
+                    "Strategy Changes",
+                    "Provider Updates",
+                    "Periodic Review"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "who-benefits-most-from-glide-path-analysis",
+      "title": "Who Benefits Most from Glide Path Analysis?",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Your Current TDF Was Inherited",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "If the plan simply adopted a recordkeeper's standard target date series, the glide path may never have been independently evaluated against your participant population."
+                }
+              ]
+            },
+            {
+              "title": "Your Workforce Has Changed",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Changes in employee age, turnover, compensation, or retirement behavior can alter whether the assumptions behind your existing TDF remain appropriate."
+                }
+              ]
+            },
+            {
+              "title": "You're Changing Recordkeepers",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "A provider transition often means evaluating a different TDF lineup. It's an ideal time to compare glide paths independently before selecting the new default."
+                }
+              ]
+            },
+            {
+              "title": "Your Committee Can't Explain the Current Strategy",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "If committee members know which target date fund is used but can't explain why its glide path fits participants, a documented analysis can strengthen the decision-making process."
+                }
+              ]
+            },
+            {
+              "title": "You're Comparing Multiple TDF Series",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "When competing funds have similar fees and performance, glide path differences often become one of the most important distinctions between them."
+                }
+              ]
+            },
+            {
+              "title": "When Another Glide Path Review May Not Be Necessary",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "If your plan completed a documented, independent TDF review recently and there have been no meaningful changes to the fund strategy, workforce demographics, or plan objectives, your existing monitoring process may be sufficient."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "to-vs-through-retirement-glide-paths",
+      "title": "“To” vs. “Through” Retirement Glide Paths",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "One of the most important glide path differences is when the fund reaches its most conservative allocation."
+        },
+        {
+          "type": "p",
+          "text": "Neither approach is automatically better. The question is which philosophy more reasonably reflects the behavior and needs of your plan's participants."
+        }
+      ]
+    },
+    {
+      "id": "our-glide-path-evaluation-process",
+      "title": "Our Glide Path Evaluation Process",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Analyze",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We review your current target date fund, glide path, underlying allocations, participant demographics, and existing fiduciary documentation."
+                }
+              ]
+            },
+            {
+              "title": "Compare",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We compare the current strategy with relevant alternatives to identify meaningful differences in equity exposure, diversification, and post-retirement positioning."
+                }
+              ]
+            },
+            {
+              "title": "Assess Participant Fit",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We evaluate whether the assumptions built into the glide path align with your workforce's age, contribution patterns, turnover, and expected retirement behavior."
+                }
+              ]
+            },
+            {
+              "title": "Document",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "Your committee receives a clear record of the analysis, alternatives considered, and reasoning behind the recommendation."
+                }
+              ]
+            },
+            {
+              "title": "Monitor",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "We establish a periodic review process so strategy changes, participant shifts, or provider updates can trigger another evaluation when appropriate."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "steps"
+    },
+    {
+      "id": "why-choose-pointoak",
+      "title": "Why Choose PointOak",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Independent Glide Path Analysis With Fiduciary Accountability",
+              "body": [
+                {
+                  "type": "p",
+                  "text": "A TDF provider can explain its glide path. PointOak helps your committee determine whether that glide path is right for your plan."
+                },
+                {
+                  "type": "p",
+                  "text": "Founder Darsh Makim has advised plan sponsors since 2005. PointOak evaluates target date funds within the broader context of participant demographics, investment oversight, and fiduciary governance, without a proprietary investment requirement."
+                },
+                {
+                  "type": "p",
+                  "text": "PointOak can also serve as a 3(21) investment fiduciary or 3(38) investment manager, giving your committee both investment expertise and a documented process behind the recommendation."
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "3(21) investment fiduciary and 3(38) investment manager services available",
+                    "Independent, Fee-Only Advice",
+                    "No Fund Manufacturer Affiliations"
+                  ]
+                },
+                {
+                  "type": "p",
+                  "text": "Founder Darsh Makim has advised clients since 2005."
+                },
+                {
+                  "type": "p",
+                  "text": "Documented TDF Review Process"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frequently-asked-questions",
+      "title": "Frequently Asked Questions",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            {
+              "q": "What is a target date fund glide path?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "A glide path is the schedule a target date fund follows as it gradually shifts from growth-oriented investments toward a more conservative asset allocation."
+                },
+                {
+                  "type": "p",
+                  "text": "It determines how much equity, fixed income, and other asset classes the fund holds at different points before and after the target retirement date."
+                }
+              ]
+            },
+            {
+              "q": "What's the difference between a “to” and “through” glide path?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "A “to” glide path generally reaches its most conservative allocation around retirement, while a “through” glide path continues reducing risk after retirement."
+                },
+                {
+                  "type": "p",
+                  "text": "The right choice depends on how participants are expected to use their assets once they retire."
+                }
+              ]
+            },
+            {
+              "q": "Are all target date funds with the same retirement year similar?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "No."
+                },
+                {
+                  "type": "p",
+                  "text": "Two funds labeled 2040 can have materially different equity exposure, fixed-income allocations, diversification, fees, and post-retirement strategies."
+                }
+              ]
+            },
+            {
+              "q": "How much equity should a TDF hold at retirement?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "There is no single appropriate percentage for every plan."
+                },
+                {
+                  "type": "p",
+                  "text": "The right level depends on participant behavior, expected retirement timing, withdrawal patterns, longevity considerations, and the overall philosophy of the target date strategy."
+                }
+              ]
+            },
+            {
+              "q": "How often should a glide path be reviewed?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "Glide path suitability should be reviewed periodically as part of the plan's ongoing TDF monitoring process."
+                },
+                {
+                  "type": "p",
+                  "text": "A new review may also be warranted when participant demographics change, the provider modifies its strategy, or the plan changes recordkeepers."
+                }
+              ]
+            },
+            {
+              "q": "Can a target date fund be too conservative?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "It can be too conservative for a particular participant population, just as another fund may be too aggressive."
+                },
+                {
+                  "type": "p",
+                  "text": "The issue isn't whether the glide path is inherently conservative or aggressive. It's whether the risk profile reasonably aligns with the needs and behavior of the plan's participants."
+                }
+              ]
+            },
+            {
+              "q": "Why does participant behavior matter when evaluating a glide path?",
+              "a": [
+                {
+                  "type": "p",
+                  "text": "A participant who withdraws assets immediately at retirement has different risk considerations than someone who leaves the account invested for another 20 years."
+                },
+                {
+                  "type": "p",
+                  "text": "Understanding how participants typically use the plan helps your committee evaluate whether a “to” or “through” strategy—and the level of equity exposure around retirement—makes sense."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "label": "View More FAQs",
+          "href": "/faq/"
+        }
+      ],
+      "layout": "faq"
+    },
+    {
+      "id": "does-your-glide-path-fit-your-participants",
+      "title": "Does Your Glide Path Fit Your Participants?",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "We'll help you determine whether your TDF's risk and asset allocation strategy actually reflects the workforce relying on it."
+        },
+        {
+          "type": "button",
+          "label": "Schedule a Complimentary Consultation",
+          "action": "schedule"
+        }
+      ],
+      "layout": "cta"
+    }
+  ]
+}
