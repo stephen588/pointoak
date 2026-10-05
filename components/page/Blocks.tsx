@@ -1,4 +1,6 @@
+import Image from "next/image";
 import Link from "next/link";
+import people from "@/content/people.json";
 import { ArrowRight, Check, ChevronDown } from "lucide-react";
 import type { Block, Card, Seg } from "@/lib/content";
 import { routeExists } from "@/lib/content";
@@ -84,6 +86,22 @@ function CardGrid({ items, tone, numbered }: { items: Card[]; tone: Tone; number
   }
   if (numbered && items.length === 3 && tone === "light") return <HexProcess items={items} />;
   if (!numbered && tone === "light" && fitsHexTrio(items)) return <HexTrio items={items} />;
+  // A card about a person we have a photo of (content/people.json) shows the portrait
+  const person = items.length === 1 ? Object.entries(people).find(([name]) => items[0].title.startsWith(name))?.[1] : undefined;
+  if (!numbered && tone === "light" && person) {
+    return (
+      <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 items-center bg-white border border-[#E5EAF0] rounded-[12px] p-6 md:p-10 shadow-[0_1px_2px_rgba(0,55,84,0.04)]">
+        <div className="md:col-span-4 relative max-w-[300px] mx-auto w-full">
+          <div aria-hidden className="absolute -right-4 -bottom-4 w-24 aspect-[0.866] bg-navy" style={{ clipPath: "polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%)" }} />
+          <Image src={person.src} alt={person.alt} width={person.width} height={person.height} sizes="300px" className="relative w-full h-auto rounded-[10px] shadow-xl shadow-navy/15" />
+        </div>
+        <div className="md:col-span-8 flex flex-col gap-4">
+          <h3 className="text-navy font-semibold text-2xl md:text-[28px] leading-snug">{items[0].title}</h3>
+          <Blocks blocks={items[0].body} />
+        </div>
+      </div>
+    );
+  }
   if (!numbered && tone === "light" && items.length === 1 && items[0].body.length > 0) {
     // a single card gets a hexagon icon beside it
     const Icon = cardIcons([items[0].title])[0];
