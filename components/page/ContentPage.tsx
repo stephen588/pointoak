@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import Blocks from "./Blocks";
 import type { PageContent, Section } from "@/lib/content";
 import { SITE_URL, allFaqs, breadcrumbs } from "@/lib/content";
-import { pageImage } from "@/lib/pageImage";
+import HeroGraphic from "./HeroGraphic";
 import { HexBadge, Milestones, milestonesFrom } from "./Diagrams";
 import { cardIcons } from "./cardIcon";
 
@@ -162,9 +162,20 @@ function ArticleBody({ page }: { page: PageContent }) {
   );
 }
 
+/** Icons for the header graphic, picked from the page's own card titles and hero tags. */
+function heroIcons(page: PageContent) {
+  const titles: string[] = [];
+  for (const b of page.hero.blocks) if (b.type === "chips") titles.push(...b.items);
+  for (const sec of page.sections) {
+    if (sec.layout === "faq" || sec.layout === "cta") continue;
+    for (const b of sec.blocks) if (b.type === "cards" || b.type === "pillars") titles.push(...b.items.map((c) => c.title));
+  }
+  titles.push(page.name, "planning", "investment", "retirement", "family", "business", "documentation");
+  return cardIcons(titles).filter((icon, i, all) => all.indexOf(icon) === i).slice(0, 6);
+}
+
 export default function ContentPage({ page }: { page: PageContent }) {
   const trail = breadcrumbs(page.route);
-  const img = pageImage(page.route);
   const faqs = allFaqs(page);
   const jsonLd: object[] = [
     {
@@ -244,28 +255,17 @@ export default function ContentPage({ page }: { page: PageContent }) {
               ))}
             </ol>
           </nav>
-          <div className={`grid grid-cols-1 gap-12 items-center ${img ? "lg:grid-cols-12" : ""}`}>
-            <div className={`flex flex-col gap-6 ${img ? "lg:col-span-7" : "max-w-4xl"}`}>
+          <div className="grid grid-cols-1 gap-12 items-center lg:grid-cols-12">
+            <div className="flex flex-col gap-6 lg:col-span-7">
               <h1 className="text-white text-4xl md:text-5xl lg:text-[52px] font-bold leading-[1.15]">{page.hero.title}</h1>
               {page.hero.subtitle && (
                 <p className="text-white/95 text-xl md:text-2xl font-light leading-snug">{page.hero.subtitle}</p>
               )}
               {page.kind !== "article" && <Blocks blocks={page.hero.blocks} tone="dark" />}
             </div>
-            {img && (
-              <div className="lg:col-span-5 relative">
-                <div aria-hidden className="hidden lg:block absolute -inset-3 translate-x-4 translate-y-4 rounded-[14px] border border-white/25" />
-                <Image
-                  src={img.src}
-                  alt={img.alt}
-                  width={1600}
-                  height={1200}
-                  priority
-                  sizes="(min-width: 1024px) 460px, 100vw"
-                  className="relative w-full aspect-[4/3] object-cover rounded-[12px] shadow-2xl shadow-black/30"
-                />
-              </div>
-            )}
+            <div className="lg:col-span-5 hidden sm:block">
+              <HeroGraphic icons={heroIcons(page)} />
+            </div>
           </div>
         </div>
       </section>

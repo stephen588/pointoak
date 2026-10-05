@@ -5,8 +5,8 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ConsultationForm from "@/components/ConsultationForm";
 import ScheduleButton from "@/components/page/ScheduleButton";
-import Image from "next/image";
-import alts from "@/content/page-images.json";
+import HeroGraphic from "@/components/page/HeroGraphic";
+import { Calendar, Handshake, Mail, MapPin, MessageSquare, Phone } from "lucide-react";
 import { getPage } from "@/lib/content";
 
 const contact = getPage("/contact/")!;
@@ -42,17 +42,8 @@ export default function ContactPage() {
               <ScheduleButton />
             </div>
           </div>
-          <div className="lg:col-span-5 relative">
-            <div aria-hidden className="hidden lg:block absolute -inset-3 translate-x-4 translate-y-4 rounded-[14px] border border-white/25" />
-            <Image
-              src="/images/pages/contact.webp"
-              alt={(alts as Record<string, string>).contact}
-              width={1600}
-              height={1200}
-              priority
-              sizes="(min-width: 1024px) 460px, 100vw"
-              className="relative w-full aspect-[4/3] object-cover rounded-[12px] shadow-2xl shadow-black/30"
-            />
+          <div className="lg:col-span-5 hidden sm:block">
+            <HeroGraphic icons={[Phone, Mail, MapPin, Calendar, MessageSquare, Handshake]} />
           </div>
           </div>
         </div>

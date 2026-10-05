@@ -16,12 +16,24 @@ import {
   Receipt,
   ShieldCheck,
   Wallet,
+  UserCheck,
+  PiggyBank,
+  TreePine,
+  Building2,
+  Users,
+  BarChart3,
+  Hourglass,
+  PenTool,
+  Route,
+  Briefcase,
+  type LucideIcon,
 } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ScheduleButton from "@/components/page/ScheduleButton";
 import { Rich } from "@/components/page/Blocks";
 import { BothSidesBridge, ConvergeHexes, FinancialLifeHub } from "@/components/home/Graphics";
+import HeroGraphic from "@/components/page/HeroGraphic";
 import type { Block, Card, Section } from "@/lib/content";
 import { SITE_URL, getPage } from "@/lib/content";
 
@@ -74,15 +86,31 @@ const SERVICE_ICONS: Record<string, typeof LineChart> = {
   "Retirement Income Planning": Wallet,
   "Tax-Aware Wealth Strategies": Receipt,
 };
-const AREA_IMAGES = [
-  { src: "/images/home/individuals-families.jpg", alt: "Grandparent and child walking together along a park path at sunset" },
-  { src: "/images/home/businesses-office.jpg", alt: "Colleagues working in a bright, modern office overlooking the city" },
+// Practice-area and life-moment graphics (icons only; these replaced stock photos 10-05)
+const AREA_ICONS: LucideIcon[][] = [
+  [UserCheck, PiggyBank, Receipt, TreePine, LineChart, Compass],
+  [Building2, ShieldCheck, Users, BarChart3, Hourglass, PenTool],
 ];
-const MOMENT_IMAGES = [
-  { src: "/images/home/moment-changing-jobs.jpg", alt: "Man looking out over city lights at dusk" },
-  { src: "/images/home/moment-retirement.jpg", alt: "Retired couple reviewing their plans together at home" },
-  { src: "/images/home/moment-executive.jpg", alt: "Executive standing at an office window" },
-];
+const MOMENT_ICONS: LucideIcon[] = [Route, Wallet, Briefcase];
+
+function MomentGraphic({ Icon, i }: { Icon: LucideIcon; i: number }) {
+  const HEXP = "polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%)";
+  const bg = ["bg-[#E9F1FA]", "bg-[#F2F4F7]", "bg-[#DCEAF8]"][i];
+  return (
+    <div className={`absolute inset-0 ${bg} overflow-hidden`} aria-hidden>
+      <svg viewBox="0 0 200 140" preserveAspectRatio="xMidYMid slice" className="absolute inset-0 w-full h-full">
+        <polygon points="100,12 152,42 152,98 100,128 48,98 48,42" fill="none" stroke="#003754" strokeOpacity="0.14" strokeWidth="0.8" strokeDasharray="3 3" />
+        <polygon points="100,26 140,49 140,91 100,114 60,91 60,49" fill="none" stroke="#016ba4" strokeOpacity="0.18" strokeWidth="0.6" />
+      </svg>
+      <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[30%] max-w-[170px] aspect-[0.866] bg-navy flex items-center justify-center" style={{ clipPath: HEXP }}>
+        <Icon className="w-[42%] h-[42%] text-white" strokeWidth={1.5} />
+      </div>
+      <div className="absolute left-[24%] top-[22%] w-[9%] max-w-[54px] aspect-[0.866] bg-[#4A5A70]" style={{ clipPath: HEXP }} />
+      <div className="absolute right-[22%] bottom-[20%] w-[11%] max-w-[64px] aspect-[0.866] bg-bright-blue/70" style={{ clipPath: HEXP }} />
+      <div className="absolute right-[28%] top-[18%] w-[6%] max-w-[36px] aspect-[0.866] bg-white" style={{ clipPath: HEXP }} />
+    </div>
+  );
+}
 
 function ArrowLink({ href, label, light }: { href: string; label: string; light?: boolean }) {
   return (
@@ -195,14 +223,13 @@ export default function Home() {
               return (
                 <div key={i} className="flex flex-col">
                   <div className="relative">
-                    <Image
-                      src={AREA_IMAGES[i].src}
-                      alt={AREA_IMAGES[i].alt}
-                      width={1600}
-                      height={900}
-                      sizes="(min-width: 1024px) 560px, 100vw"
-                      className="w-full h-[300px] md:h-[360px] object-cover rounded-[10px]"
-                    />
+                    <div
+                      className={`w-full h-[300px] md:h-[360px] rounded-[10px] flex items-center justify-center pb-12 ${i === 0 ? "bg-gradient-to-br from-navy to-[#0a5c8a]" : "bg-gradient-to-br from-[#2f4560] to-[#4A5A70]"}`}
+                    >
+                      <div className="w-[230px] md:w-[280px]">
+                        <HeroGraphic icons={AREA_ICONS[i]} />
+                      </div>
+                    </div>
                     <div className="absolute -bottom-6 left-6 right-6 sm:right-auto bg-navy text-white rounded-[7px] px-6 py-4 shadow-xl shadow-navy/20">
                       <p className="text-lg font-semibold leading-tight">{audience}</p>
                       {service && <p className="text-white/75 text-sm italic mt-1">{service}</p>}
@@ -295,7 +322,7 @@ export default function Home() {
           return (
             <div key={s.id} className="grid grid-cols-1 md:grid-cols-2">
               <div className={`relative min-h-[280px] md:min-h-[420px] ${i % 2 === 1 ? "md:order-2" : ""}`}>
-                <Image src={MOMENT_IMAGES[i].src} alt={MOMENT_IMAGES[i].alt} fill sizes="(min-width: 768px) 50vw, 100vw" className="object-cover" />
+                <MomentGraphic Icon={MOMENT_ICONS[i]} i={i} />
               </div>
               <div className={`${panel} flex items-center px-6 py-14 md:px-16 lg:px-24`}>
                 <div className="flex flex-col gap-5 max-w-[460px]">

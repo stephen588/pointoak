@@ -145,23 +145,45 @@ export function HubDiagram({ center, spokes }: { center: string; spokes: string[
   );
 }
 
-/** Credentials as hexagon seals (names as text: logo use is unconfirmed, handoff PC04). */
+/** Credentials: text badges plus the association logos the site already used (NAPFA has no logo file). */
+const LOGOS: Record<string, { src: string; w: number; h: number }> = {
+  NAPA: { src: "/images/assoc-logo-napa.png", w: 300, h: 120 },
+  ASPPA: { src: "/images/assoc-logo-asppa.png", w: 300, h: 120 },
+  RPAG: { src: "/images/assoc-logo-rpag.png", w: 120, h: 120 },
+  SHRM: { src: "/images/assoc-logo-shrm.png", w: 300, h: 120 },
+};
 export function HexSeals({ items }: { items: string[] }) {
-  const all = items.flatMap((it) => (it.includes(" | ") ? it.split(" | ") : [it]));
+  const badges = items.filter((it) => !it.includes(" | "));
+  const orgs = items.filter((it) => it.includes(" | ")).flatMap((it) => it.split(" | "));
   return (
-    <ul className="flex flex-wrap justify-center lg:justify-start gap-x-6 gap-y-8">
-      {all.map((it, i) => {
-        const Icon = /FIDUCIARY|ADVISER|ADVISOR/i.test(it) ? ShieldCheck : Award;
-        return (
-          <li key={i} className="flex flex-col items-center gap-2 w-[120px] text-center">
-            <div className={`w-[86px] aspect-[0.866] flex flex-col items-center justify-center gap-1 ${i % 2 ? "bg-[#4A5A70]" : "bg-navy"}`} style={{ clipPath: HEX }}>
-              <Icon className="w-6 h-6 text-light-blue" strokeWidth={1.6} />
-            </div>
-            <span className="text-navy text-[12px] font-semibold tracking-wide leading-tight">{it}</span>
+    <div className="flex flex-col gap-8">
+      <ul className="flex flex-wrap gap-3">
+        {badges.map((b) => (
+          <li key={b} className="inline-flex items-center gap-2 rounded-full border border-[#D6E4F5] bg-white px-4 py-2 text-navy text-[13px] font-semibold tracking-wide">
+            <ShieldCheck className="w-4 h-4 text-medium-blue" strokeWidth={2} />
+            {b}
           </li>
-        );
-      })}
-    </ul>
+        ))}
+      </ul>
+      {orgs.length > 0 && (
+        <ul className="flex flex-wrap items-center gap-x-10 gap-y-6 border-t border-[#E3E8EE] pt-8">
+          {orgs.map((o) => {
+            const logo = LOGOS[o.trim()];
+            return (
+              <li key={o} className="flex items-center h-12">
+                {logo ? (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img src={logo.src} alt={o} className="h-full w-auto max-w-[150px] object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition" />
+                ) : (
+                  <span className="text-navy/80 text-xl font-semibold tracking-[0.15em]">{o}</span>
+                )}
+              </li>
+            );
+          })}
+        </ul>
+      )}
+      <span className="sr-only">{items.join(" ")}</span>
+    </div>
   );
 }
 
