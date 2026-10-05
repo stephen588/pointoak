@@ -115,6 +115,20 @@ export default function RootLayout({
         <ConsultationModalProvider>
           {children}
         </ConsultationModalProvider>
+        {/* TKX review tool: loads only with ?review-tool in the URL. Session = "PointOak — Oct 2026 site rebuild".
+            Changing this id hides existing comments (they stay under the old id in Supabase). */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+  if(new URLSearchParams(window.location.search).has("review-tool")){
+    window.__TKX_REVIEW_SESSION_ID="d9b4d709-ae6c-47e2-83d0-74acdff82d5f";
+    var s=document.createElement("script");
+    s.src="https://site-review-tool-five.vercel.app/review-widget.js?v="+Date.now();
+    document.head.appendChild(s);
+  }
+`,
+          }}
+        />
       </body>
     </html>
   );
