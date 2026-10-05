@@ -4,6 +4,7 @@ import type { Block, Card, Seg } from "@/lib/content";
 import { routeExists } from "@/lib/content";
 import ScheduleButton from "./ScheduleButton";
 import { cardIcons } from "./cardIcon";
+import { HexBadge, HexProcess, HexTrio, fitsHexTrio } from "./HexGraphics";
 
 type Tone = "light" | "dark";
 
@@ -80,12 +81,14 @@ function CardGrid({ items, tone, numbered }: { items: Card[]; tone: Tone; number
       </>
     );
   }
+  if (numbered && items.length === 3 && tone === "light") return <HexProcess items={items} />;
+  if (!numbered && tone === "light" && fitsHexTrio(items)) return <HexTrio items={items} />;
   if (numbered) {
     // process steps: numbered circles joined by a line (horizontal on desktop, vertical on mobile)
     return (
       <div className="relative">
         {items.length >= 3 && (
-          <div aria-hidden className="hidden lg:block absolute top-6 left-[6%] right-[6%] h-[2px] bg-gradient-to-r from-navy/10 via-medium-blue/40 to-navy/10" />
+          <div aria-hidden className="hidden lg:block absolute top-[26px] left-[6%] right-[6%] border-t-2 border-dashed border-navy/25" />
         )}
       <ol className={`relative grid gap-8 ${STEP_COLS[Math.min(items.length, 5)] ?? "md:grid-cols-2"}`}>
         {items.map((card, i) => {
@@ -93,8 +96,8 @@ function CardGrid({ items, tone, numbered }: { items: Card[]; tone: Tone; number
           const title = stepMatch ? stepMatch[2] : card.title;
           return (
             <li key={i} className="relative flex lg:flex-col gap-5 lg:gap-4">
-              <div className="relative z-10 w-12 h-12 flex-shrink-0 rounded-full bg-navy text-white flex items-center justify-center font-semibold text-lg ring-8 ring-white">
-                {stepMatch ? stepMatch[1] : i + 1}
+              <div className="relative z-10 ring-8 ring-transparent">
+                <HexBadge n={stepMatch ? stepMatch[1] : i + 1} tone={["navy", "slate", "light"][i % 3] as "navy" | "slate" | "light"} />
               </div>
               <div className="flex flex-col gap-2">
                 <h3 className={`font-semibold text-xl leading-snug ${tone === "dark" ? "text-white" : "text-navy"}`}>{title}</h3>
