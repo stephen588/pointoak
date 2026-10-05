@@ -6,6 +6,8 @@ import Blocks from "./Blocks";
 import type { PageContent, Section } from "@/lib/content";
 import { SITE_URL, allFaqs, breadcrumbs } from "@/lib/content";
 import { pageImage } from "@/lib/pageImage";
+import { HexBadge, Milestones, milestonesFrom } from "./Diagrams";
+import { cardIcons } from "./cardIcon";
 
 function SectionView({ section, index }: { section: Section; index: number }) {
   if (section.layout === "cta") {
@@ -21,6 +23,17 @@ function SectionView({ section, index }: { section: Section; index: number }) {
     );
   }
   const bg = index % 2 === 0 ? "bg-white" : "bg-cloud-blue";
+  const milestones = milestonesFrom(section.blocks);
+  if (milestones) {
+    return (
+      <section id={section.id} className={`${bg} py-14 md:py-20 scroll-mt-24`}>
+        <div className="max-w-[1170px] mx-auto px-6 xl:px-0 flex flex-col gap-10">
+          <h2 className="text-navy text-3xl md:text-4xl lg:text-[44px] font-light leading-tight max-w-4xl">{section.title}</h2>
+          <Milestones items={milestones} />
+        </div>
+      </section>
+    );
+  }
   // Text-only sections: heading on the left with an accent rule, paragraphs on the right
   if (section.blocks.length > 0 && section.blocks.every((b) => b.type === "p")) {
     return (
@@ -69,7 +82,7 @@ function NumberedGrid({ sections, index }: { sections: Section[]; index: number 
           const m = s.title.match(/^(\d+)\.\s+(.+)$/)!;
           return (
             <div key={s.id} id={s.id} className="bg-white border border-[#E5EAF0] rounded-[7px] p-8 flex flex-col gap-4">
-              <div className="w-11 h-11 rounded-full bg-navy text-white flex items-center justify-center font-semibold text-lg">{m[1]}</div>
+              <HexBadge n={m[1]} tone={["navy", "slate", "light"][(+m[1] - 1) % 3] as "navy" | "slate" | "light"} />
               <h2 className="text-navy text-xl md:text-2xl font-semibold leading-snug">{m[2]}</h2>
               <Blocks blocks={s.blocks} compact />
             </div>
@@ -77,6 +90,36 @@ function NumberedGrid({ sections, index }: { sections: Section[]; index: number 
         })}
       </div>
     </section>
+  );
+}
+
+/** FAQ hub: one icon tile per category, jumping to that section. */
+function FaqTiles({ sections }: { sections: Section[] }) {
+  const icons = cardIcons(sections.map((s) => s.title));
+  return (
+    <nav aria-label="FAQ categories" className="bg-cloud-blue py-12 md:py-16">
+      <ul className="max-w-[1170px] mx-auto px-6 xl:px-0 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        {sections.map((s, i) => {
+          const Icon = icons[i];
+          return (
+            <li key={s.id}>
+              <a
+                href={`#${s.id}`}
+                className="h-full flex items-center gap-3 bg-white border border-[#E3E8EE] rounded-[10px] p-4 hover:border-navy hover:shadow-lg hover:shadow-navy/5 transition-all"
+              >
+                <span
+                  className={`w-10 aspect-[0.866] flex-shrink-0 flex items-center justify-center ${i % 2 ? "bg-[#4A5A70]" : "bg-navy"}`}
+                  style={{ clipPath: "polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%)" }}
+                >
+                  <Icon className="w-5 h-5 text-white" strokeWidth={1.7} />
+                </span>
+                <span className="text-navy text-sm md:text-[15px] font-medium leading-snug">{s.title}</span>
+              </a>
+            </li>
+          );
+        })}
+      </ul>
+    </nav>
   );
 }
 
@@ -226,6 +269,8 @@ export default function ContentPage({ page }: { page: PageContent }) {
           </div>
         </div>
       </section>
+
+      {page.sections.filter((s) => s.layout === "faq").length >= 6 && <FaqTiles sections={page.sections.filter((s) => s.layout === "faq")} />}
 
       {page.kind === "article" ? (
         <ArticleBody page={page} />

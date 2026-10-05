@@ -5,6 +5,7 @@ import { routeExists } from "@/lib/content";
 import ScheduleButton from "./ScheduleButton";
 import { cardIcons } from "./cardIcon";
 import { HexBadge, HexProcess, HexTrio, fitsHexTrio } from "./HexGraphics";
+import { HexSeals, HexValues, HubDiagram, IconTiles, StagePath, TwoHex, wordCount } from "./Diagrams";
 
 type Tone = "light" | "dark";
 
@@ -83,6 +84,29 @@ function CardGrid({ items, tone, numbered }: { items: Card[]; tone: Tone; number
   }
   if (numbered && items.length === 3 && tone === "light") return <HexProcess items={items} />;
   if (!numbered && tone === "light" && fitsHexTrio(items)) return <HexTrio items={items} />;
+  if (!numbered && tone === "light" && items.length === 1 && items[0].body.length > 0) {
+    // a single card gets a hexagon icon beside it
+    const Icon = cardIcons([items[0].title])[0];
+    return (
+      <div className="flex flex-col sm:flex-row gap-6 sm:gap-8 bg-white border border-[#E5EAF0] rounded-[12px] p-7 md:p-10 shadow-[0_1px_2px_rgba(0,55,84,0.04)]">
+        <div
+          className="w-[84px] aspect-[0.866] flex-shrink-0 flex items-center justify-center bg-navy"
+          style={{ clipPath: "polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%)" }}
+        >
+          <Icon className="w-9 h-9 text-white" strokeWidth={1.6} />
+        </div>
+        <div className="flex flex-col gap-3">
+          <h3 className="text-navy font-semibold text-xl md:text-2xl leading-snug">{items[0].title}</h3>
+          <Blocks blocks={items[0].body} compact />
+          {items[0].link && routeExists(items[0].link.href) && <TextLink href={items[0].link.href} label={items[0].link.label} tone={tone} />}
+        </div>
+      </div>
+    );
+  }
+  const unlinked = items.every((c) => !c.link) && items.every((c) => c.body.every((b) => b.type === "p"));
+  if (!numbered && tone === "light" && unlinked && items.length === 2) return <TwoHex items={items} />;
+  if (!numbered && tone === "light" && unlinked && items.length === 4 && items.every((c) => wordCount(c.body) <= 30))
+    return <HexValues items={items} tone={tone} />;
   if (numbered) {
     // process steps: numbered circles joined by a line (horizontal on desktop, vertical on mobile)
     return (
@@ -221,10 +245,15 @@ export default function Blocks({
                 <Rich text={b.text} segs={b.segs} tone={tone} />
               </p>
             );
-          case "list":
+          case "list": {
             if (!b.lead && b.items.every((it) => it === it.toUpperCase())) {
-              return <Badges key={i} items={b.items} tone={tone} />;
+              return tone === "light" && !compact ? <HexSeals key={i} items={b.items} /> : <Badges key={i} items={b.items} tone={tone} />;
             }
+            const maxWords = Math.max(...b.items.map((it) => it.split(/\s+/).length));
+            if (!compact && tone === "light" && !b.lead && b.items.length >= 6 && b.items.length <= 10 && maxWords <= 5)
+              return <HubDiagram key={i} center="PointOak" spokes={b.items} />;
+            if (!compact && tone === "light" && b.items.length >= 4 && maxWords <= 12)
+              return <IconTiles key={i} lead={b.lead} items={b.items} segs={b.segs} />;
             return (
               <div
                 key={i}
@@ -243,6 +272,7 @@ export default function Blocks({
                 </ul>
               </div>
             );
+          }
           case "chips": {
             const label = /at a glance$/i.test(b.items[0]) ? b.items[0] : null;
             const chips = label ? b.items.slice(1) : b.items;
@@ -265,6 +295,8 @@ export default function Blocks({
             );
           }
           case "pillars":
+            if (!steps && tone === "light") return <HexValues key={i} items={b.items} tone={tone} />;
+            return <CardGrid key={i} items={b.items} tone={tone} numbered={steps} />;
           case "cards":
             return <CardGrid key={i} items={b.items} tone={tone} numbered={steps} />;
           case "faq":
@@ -340,6 +372,7 @@ export default function Blocks({
             );
           }
           case "band":
+            if (b.text.includes("→")) return <StagePath key={i} text={b.text} />;
             return (
               <div
                 key={i}

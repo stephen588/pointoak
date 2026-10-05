@@ -21,6 +21,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ScheduleButton from "@/components/page/ScheduleButton";
 import { Rich } from "@/components/page/Blocks";
+import { BothSidesBridge, ConvergeHexes, FinancialLifeHub } from "@/components/home/Graphics";
 import type { Block, Card, Section } from "@/lib/content";
 import { SITE_URL, getPage } from "@/lib/content";
 
@@ -110,8 +111,16 @@ export default function Home() {
     // each card uses that service page's own subtitle from the master copy
     text: getPage(l.href!)?.hero.subtitle ?? "",
   }));
+  // Diagram labels come straight from the copy: the list in "Retirement accounts, taxes, … can all affect"
+  const oneText = paras(oneAccount).map((p) => p.text).join(" ");
+  const listMatch = oneText.match(/(Retirement accounts,.+?) can all affect/);
+  const spokes = listMatch
+    ? listMatch[1].split(/,\s*(?:and\s+)?/).map((t) => t.charAt(0).toUpperCase() + t.slice(1))
+    : [];
+  const hubCenter = /Your investments/.test(oneText) ? "Your investments" : "";
   const band = first(broader, "band")?.text ?? "";
   const [bandLead, bandTail] = band.split(" — ");
+  const bandInputs = (bandLead ?? "").split(" + ").map((t) => t.toLowerCase().replace(/\b\w/g, (c) => c.toUpperCase()));
 
   return (
     <main className="min-h-screen">
@@ -213,15 +222,20 @@ export default function Home() {
       {/* Your Financial Life — intro + service cards (Figma "Why Clients Choose" cards) */}
       <section id="individuals" className="bg-cloud-blue py-16 md:py-28">
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-12 mb-12">
-            <h2 className="lg:col-span-5 text-navy text-3xl md:text-4xl lg:text-[48px] font-light leading-tight">{oneAccount.title}</h2>
-            <div className="lg:col-span-7 flex flex-col gap-4 lg:pt-2">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center mb-14">
+            <div className="lg:col-span-6 flex flex-col gap-6">
+              <h2 className="text-navy text-3xl md:text-4xl lg:text-[48px] font-light leading-tight">{oneAccount.title}</h2>
               {paras(oneAccount).map((t, i) => (
                 <p key={i} className="text-text-gray text-base md:text-lg leading-[30px]">
                   <Rich text={t.text} segs={t.segs} tone="light" />
                 </p>
               ))}
             </div>
+            {spokes.length > 0 && (
+              <div className="lg:col-span-6">
+                <FinancialLifeHub center={hubCenter} spokes={spokes} />
+              </div>
+            )}
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {services.map((s) => {
@@ -254,20 +268,22 @@ export default function Home() {
           className="absolute inset-0"
           style={{ background: "linear-gradient(90deg, rgba(0,35,55,0.97) 0%, rgba(0,35,55,0.85) 50%, rgba(0,35,55,0.55) 100%)" }}
         />
-        <div className="relative max-w-[1170px] mx-auto px-6 xl:px-0 py-20 md:py-32 flex flex-col gap-8">
-          <h2 className="text-white text-3xl md:text-4xl lg:text-[48px] font-light leading-tight max-w-3xl">{broader.title}</h2>
-          {paras(broader).map((t, i) => (
-            <p key={i} className="text-white/85 text-base md:text-lg leading-[30px] max-w-3xl">
-              <Rich text={t.text} segs={t.segs} tone="dark" />
-            </p>
-          ))}
-          {band && (
-            <div className="flex flex-col gap-2 border-y border-white/25 py-6 max-w-4xl">
-              <p className="text-white text-lg md:text-2xl font-semibold tracking-wide">{bandLead}</p>
-              {bandTail && <p className="text-bright-blue text-base md:text-lg">{bandTail}</p>}
+        <div className="relative max-w-[1170px] mx-auto px-6 xl:px-0 py-20 md:py-32 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          <div className="lg:col-span-6 flex flex-col gap-8">
+            <h2 className="text-white text-3xl md:text-4xl lg:text-[48px] font-light leading-tight">{broader.title}</h2>
+            {paras(broader).map((t, i) => (
+              <p key={i} className="text-white/85 text-base md:text-lg leading-[30px]">
+                <Rich text={t.text} segs={t.segs} tone="dark" />
+              </p>
+            ))}
+            {band && <p className="sr-only">{band}</p>}
+            {linkOf(broader) && <ArrowLink {...linkOf(broader)!} light />}
+          </div>
+          {bandInputs.length > 1 && (
+            <div className="lg:col-span-6">
+              <ConvergeHexes inputs={bandInputs} result={(bandTail ?? "").replace(/\.$/, "")} />
             </div>
           )}
-          {linkOf(broader) && <ArrowLink {...linkOf(broader)!} light />}
         </div>
       </section>
 
@@ -293,33 +309,21 @@ export default function Home() {
         })}
       </section>
 
-      {/* Experience on Both Sides of Retirement — the oak table */}
+      {/* Experience on Both Sides of Retirement — employer plans and private wealth, bridged */}
       <section id="businesses" className="bg-white py-16 md:py-28">
-        <div className="max-w-[1170px] mx-auto px-6 xl:px-0 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-          <Image
-            src="/images/home/oak-table-book.jpg"
-            alt="Open book on an oak table in soft window light"
-            width={1600}
-            height={900}
-            sizes="(min-width: 1024px) 560px, 100vw"
-            className="w-full h-[320px] md:h-[440px] object-cover rounded-[10px]"
-          />
-          <div className="flex flex-col gap-6">
+        <div className="max-w-[1170px] mx-auto px-6 xl:px-0 grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+          <div className="lg:col-span-5 flex flex-col gap-6">
             <h2 className="text-navy text-3xl md:text-4xl lg:text-[48px] font-light leading-tight">{bothSides.title}</h2>
             {paras(bothSides).map((t, i) => (
               <p key={i} className="text-text-gray text-base md:text-lg leading-[30px]">
                 <Rich text={t.text} segs={t.segs} tone="light" />
               </p>
             ))}
-            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3 border-t border-[#E3E8EE] pt-6">
-              {(first(bothSides, "list")?.items ?? []).map((item) => (
-                <li key={item} className="flex items-center gap-3 text-navy font-medium">
-                  <Check className="w-5 h-5 text-medium-blue flex-shrink-0" strokeWidth={2.25} />
-                  {item}
-                </li>
-              ))}
-            </ul>
             {linkOf(bothSides) && <ArrowLink {...linkOf(bothSides)!} />}
+          </div>
+          <div className="lg:col-span-7 rounded-[14px] bg-cloud-blue p-6 sm:p-10">
+            {/* hexagon labels are phrases from the paragraph: "employer-sponsored retirement plans" / "private-wealth team" */}
+            <BothSidesBridge left="Employer-Sponsored Retirement Plans" right="Private Wealth" bridge={first(bothSides, "list")?.items ?? []} />
           </div>
         </div>
       </section>
