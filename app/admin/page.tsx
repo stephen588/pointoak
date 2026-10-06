@@ -10,6 +10,7 @@ type Submission = {
   email: string;
   subject: string;
   message: string;
+  metadata?: Record<string, unknown> | null;
   status: "new" | "contacted" | "closed";
 };
 
@@ -291,9 +292,21 @@ export default function AdminDashboardPage() {
                     {filteredSubmissions
                       .filter((s) => s.id === expandedId)
                       .map((submission) => (
-                        <div key={submission.id}>
-                          <h3 className="font-semibold text-gray-900 mb-2">Message:</h3>
-                          <p className="text-gray-700 whitespace-pre-wrap">{submission.message}</p>
+                        <div key={submission.id} className="space-y-4">
+                          {submission.metadata && Object.keys(submission.metadata).length > 0 && (
+                            <dl className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-2 text-sm">
+                              {Object.entries(submission.metadata).map(([k, v]) => (
+                                <div key={k} className="flex gap-2">
+                                  <dt className="text-gray-500 capitalize min-w-[140px]">{k.replace(/_/g, " ")}</dt>
+                                  <dd className="text-gray-900 font-medium">{Array.isArray(v) ? v.join(", ") : String(v ?? "")}</dd>
+                                </div>
+                              ))}
+                            </dl>
+                          )}
+                          <div>
+                            <h3 className="font-semibold text-gray-900 mb-2">Message:</h3>
+                            <p className="text-gray-700 whitespace-pre-wrap">{submission.message || "—"}</p>
+                          </div>
                         </div>
                       ))}
                   </div>

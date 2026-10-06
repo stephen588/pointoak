@@ -3,6 +3,7 @@
 import { useEffect, useState, useCallback } from "react";
 import { X } from "lucide-react";
 import ConsultationForm from "./ConsultationForm";
+import type { Route } from "@/lib/leadRouting";
 
 interface ConsultationModalProps {
   isOpen: boolean;
@@ -10,12 +11,12 @@ interface ConsultationModalProps {
 }
 
 export default function ConsultationModal({ isOpen, onClose }: ConsultationModalProps) {
-  const [submitted, setSubmitted] = useState(false);
+  const [submitted, setSubmitted] = useState<Route | null>(null);
 
   const handleClose = useCallback(() => {
     onClose();
     // Reset after modal animation completes
-    setTimeout(() => setSubmitted(false), 300);
+    setTimeout(() => setSubmitted(null), 300);
   }, [onClose]);
 
   useEffect(() => {
@@ -32,9 +33,9 @@ export default function ConsultationModal({ isOpen, onClose }: ConsultationModal
     };
   }, [isOpen, handleClose]);
 
-  // Auto-close modal 4 seconds after successful submission
+  // Auto-close 4 seconds after an inbox submission; calendar routes stay open so they can book
   useEffect(() => {
-    if (submitted && isOpen) {
+    if (submitted === "inbox" && isOpen) {
       const timer = setTimeout(() => handleClose(), 4000);
       return () => clearTimeout(timer);
     }
@@ -48,7 +49,7 @@ export default function ConsultationModal({ isOpen, onClose }: ConsultationModal
       onClick={handleClose}
     >
       <div
-        className="bg-white rounded-[12px] max-w-lg w-full max-h-[90vh] overflow-y-auto shadow-2xl transform transition-all duration-300 animate-slideUp"
+        className={`bg-white rounded-[12px] ${submitted && submitted !== "inbox" ? "max-w-3xl" : "max-w-lg"} w-full max-h-[90vh] overflow-y-auto shadow-2xl transform transition-all duration-300 animate-slideUp`}
         onClick={(e) => e.stopPropagation()}
       >
         <div className="px-6 py-5 md:px-7 md:py-6">
@@ -58,11 +59,8 @@ export default function ConsultationModal({ isOpen, onClose }: ConsultationModal
               {!submitted && (
                 <>
                   <h2 className="font-outfit text-xl md:text-2xl font-semibold text-navy mb-1">
-                    Book a Consultation
+                    Schedule a Complimentary Consultation
                   </h2>
-                  <p className="font-outfit text-sm text-text-gray">
-                    Free, confidential, no obligation.
-                  </p>
                 </>
               )}
             </div>
@@ -71,7 +69,7 @@ export default function ConsultationModal({ isOpen, onClose }: ConsultationModal
             </button>
           </div>
 
-          <ConsultationForm compact onSuccess={() => setSubmitted(true)} />
+          <ConsultationForm compact onSuccess={(route) => setSubmitted(route)} />
         </div>
       </div>
 

@@ -41,7 +41,19 @@ export function buildConsultationNotificationEmail(submission: {
   assets?: string;
   helpWith?: string[];
   timeline?: string;
+  details?: [string, string | undefined][];
 }) {
+  const esc = (t: string) => t.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]!);
+  const detailRows = (submission.details ?? [])
+    .filter(([, v]) => v)
+    .map(
+      ([k, v]) => `
+          <tr>
+            <td style="padding: 8px 0; color: #707070; font-size: 14px; width: 140px; vertical-align: top;">${esc(k)}</td>
+            <td style="padding: 8px 0; color: #003754; font-size: 14px; font-weight: 600;">${esc(v!)}</td>
+          </tr>`,
+    )
+    .join("");
   const date = new Date(submission.created_at).toLocaleString("en-US", {
     timeZone: "America/New_York",
     dateStyle: "full",
@@ -75,17 +87,18 @@ export function buildConsultationNotificationEmail(submission: {
               <a href="mailto:${submission.email}" style="color: #016BA4; text-decoration: none;">${submission.email}</a>
             </td>
           </tr>
-          ${submission.assets ? `
+          ${detailRows}
+          ${submission.assets && !submission.details ? `
           <tr>
             <td style="padding: 8px 0; color: #707070; font-size: 14px; vertical-align: top;">Investable Assets</td>
             <td style="padding: 8px 0; color: #003754; font-size: 14px; font-weight: 600;">${submission.assets}</td>
           </tr>
           ` : ""}
-          <tr>
+          ${submission.details ? "" : `<tr>
             <td style="padding: 8px 0; color: #707070; font-size: 14px; vertical-align: top;">Looking for Help With</td>
             <td style="padding: 8px 0; color: #003754; font-size: 14px;">${helpWithHtml}</td>
-          </tr>
-          ${submission.timeline ? `
+          </tr>`}
+          ${submission.timeline && !submission.details ? `
           <tr>
             <td style="padding: 8px 0; color: #707070; font-size: 14px; vertical-align: top;">Timeline</td>
             <td style="padding: 8px 0; color: #003754; font-size: 14px;">${submission.timeline}</td>
@@ -93,7 +106,7 @@ export function buildConsultationNotificationEmail(submission: {
           ` : ""}
           <tr>
             <td style="padding: 8px 0; color: #707070; font-size: 14px; vertical-align: top;">Message</td>
-            <td style="padding: 8px 0; color: #003754; font-size: 14px;">${submission.message || "<em style='color: #999'>No message provided</em>"}</td>
+            <td style="padding: 8px 0; color: #003754; font-size: 14px;">${submission.message ? esc(submission.message) : "<em style='color: #999'>No message provided</em>"}</td>
           </tr>
           <tr>
             <td style="padding: 8px 0; color: #707070; font-size: 14px; vertical-align: top;">Date</td>

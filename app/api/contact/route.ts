@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { sendEmail, buildConsultationNotificationEmail } from "@/lib/mailer";
+import { ASSET_OPTIONS, NEED_OPTIONS, ROUTE_LABEL, calendarUrl, labelFor, routeLead, type LeadAnswers } from "@/lib/leadRouting";
 
 const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL!;
 const SUPABASE_SERVICE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY!;
@@ -9,29 +10,41 @@ const NOTIFY_EMAIL = process.env.NOTIFY_EMAIL || "info@pointoak.com";
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const { name, email, subject, message, assets, helpWith, timeline } = body;
+    const answers = body as LeadAnswers & { website?: string; subject?: string; helpWith?: string[]; timeline?: string; assets?: string };
+    const { name, email, message } = answers;
 
-    // Validate required fields
+    // Honeypot: real visitors never see the "website" field. Pretend success, save nothing.
+    if (answers.website) return NextResponse.json({ success: true, route: "inbox", calendar: null });
+
     if (!name || !email) {
-      return NextResponse.json(
-        { success: false, error: "Name and email are required." },
-        { status: 400 }
-      );
+      return NextResponse.json({ success: false, error: "Name and email are required." }, { status: 400 });
     }
-
-    // Basic email validation
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(email)) {
-      return NextResponse.json(
-        { success: false, error: "Please provide a valid email address." },
-        { status: 400 }
-      );
+      return NextResponse.json({ success: false, error: "Please provide a valid email address." }, { status: 400 });
     }
 
-    // Build subject line from helpWith if available
-    const subjectLine = helpWith && helpWith.length > 0
-      ? helpWith.join(", ")
-      : subject || "General Inquiry";
+    // Qualifying form (lib/leadRouting.ts): the server decides the route.
+    const { route, reason } = routeLead(answers);
+    const needLabel = labelFor(NEED_OPTIONS, answers.need);
+    const assetsLabel = labelFor(ASSET_OPTIONS, answers.assets);
+    const details: [string, string | undefined][] = [
+      ["Routed to", `${ROUTE_LABEL[route]} (${reason})`],
+      ["Looking for", needLabel],
+      ["Investable assets", answers.need === "personal" ? assetsLabel : undefined],
+      ["What prompted them", answers.prompt],
+      ["Timing", answers.timing],
+      ["Company", answers.company],
+      ["Role", answers.role],
+      ["Employees", answers.employees],
+      ["Current provider", answers.provider],
+      ["Employer", answers.employer],
+      ["Phone", answers.phone],
+    ];
+    const subjectLine = needLabel || answers.subject || "General Inquiry";
+    const assets = answers.need === "personal" ? assetsLabel : answers.assets;
+    const helpWith = answers.helpWith;
+    const timeline = answers.timing || answers.timeline;
 
     // Save to Supabase
     const supabaseResponse = await fetch(
@@ -54,9 +67,19 @@ export async function POST(request: NextRequest) {
           status: "new",
           notify_email: NOTIFY_EMAIL,
           metadata: {
+            route,
+            route_reason: reason,
+            need: answers.need ?? null,
             ...(assets && { investable_assets: assets }),
-            ...(helpWith && helpWith.length > 0 && { help_with: helpWith }),
+            ...(answers.prompt && { prompted_by: answers.prompt }),
             ...(timeline && { timeline }),
+            ...(answers.company && { company: answers.company }),
+            ...(answers.role && { role: answers.role }),
+            ...(answers.employees && { employees: answers.employees }),
+            ...(answers.provider && { current_provider: answers.provider }),
+            ...(answers.employer && { employer: answers.employer }),
+            ...(answers.phone && { phone: answers.phone }),
+            ...(helpWith && helpWith.length > 0 && { help_with: helpWith }),
           },
         }),
       }
@@ -86,11 +109,12 @@ export async function POST(request: NextRequest) {
         assets,
         helpWith,
         timeline,
+        details,
       });
 
       await sendEmail({
         to: NOTIFY_EMAIL,
-        subject: `New Consultation Request: ${name} — ${subjectLine}`,
+        subject: `${route === "inbox" ? "Inbox" : "Calendar"} lead: ${name} — ${subjectLine}`,
         htmlBody,
         replyTo: email,
       });
@@ -100,7 +124,7 @@ export async function POST(request: NextRequest) {
       console.error("⚠️ Email notification failed (submission still saved):", emailError);
     }
 
-    return NextResponse.json({ success: true, id: submission.id });
+    return NextResponse.json({ success: true, id: submission.id, route, calendar: route === "inbox" ? null : calendarUrl(route) });
   } catch (error) {
     console.error("Error processing contact form:", error);
     return NextResponse.json(

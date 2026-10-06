@@ -35,3 +35,9 @@ Token: sourced from `/opt/report-dashboard/.env.keys` (VERCEL_TOKEN). Git push a
 - All 44 units built: 38 core pages + 6 Insights at /insights/<slug>/ (collection stays /resources/). Copy check: 4072/4072 doc lines on the pages.
 - Regenerate: `python3 scripts/import-copy.py <handoff.docx> <map.xlsx>` (old build-hubs.py removed; no hand-built pages now).
 - Open release items from the workbook's Publication Checks: PC01 RMD age (IN04) + PC02 Reg BI (C03, IN06) sign-off; PC04 affiliations/BBB; PC05 Calendly URL (CTAs still open the form modal); PC07 real article author/date; PC08 professional review; PC09 utility pages (privacy, terms, ADV/CRS, logins).
+
+## 2026-10-06 — Qualifying consultation form (as sent to Darsh 10-05)
+- Rules + options: `lib/leadRouting.ts` (one place). Form: `components/ConsultationForm.tsx` (Contact page + every "Schedule" pop-up). API: `app/api/contact/route.ts` decides the route server-side, saves answers + route to Supabase `form_submissions.metadata`, emails NOTIFY_EMAIL with a "Calendar lead"/"Inbox lead" subject. Admin inbox shows the answers.
+- Routing: personal $500K+ -> advisor calendar; $250–500K -> team calendar; under $250K, not-offered services, "something else", business owners (until Darsh says where), throwaway/test emails -> inbox; participants -> participant calendar. Honeypot submissions are dropped.
+- Calendly links: set Vercel env NEXT_PUBLIC_CALENDLY_ADVISOR / _TEAM / _PARTICIPANT, then restage (they are build-time). Until set, a "Calendar goes here" box shows. Tested end to end locally with a dummy link (prefills name/email).
+- Still open with Darsh: thresholds, services-not-offered list, the 3 links, business routing, inbox recipient, email-list consent text.
