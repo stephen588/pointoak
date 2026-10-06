@@ -171,7 +171,8 @@ function heroIcons(page: PageContent) {
     for (const b of sec.blocks) if (b.type === "cards" || b.type === "pillars") titles.push(...b.items.map((c) => c.title));
   }
   titles.push(page.name, "planning", "investment", "retirement", "family", "business", "documentation");
-  return cardIcons(titles).filter((icon, i, all) => all.indexOf(icon) === i).slice(0, 6);
+  // always six icons so the graphic's shape is identical on every page
+  return cardIcons([...titles, "strategy", "monitoring", "people", "growth", "consultation", "value"]).filter((icon, i, all) => all.indexOf(icon) === i).slice(0, 6);
 }
 
 export default function ContentPage({ page }: { page: PageContent }) {
@@ -255,7 +256,8 @@ export default function ContentPage({ page }: { page: PageContent }) {
               ))}
             </ol>
           </nav>
-          <div className="grid grid-cols-1 gap-12 items-center lg:grid-cols-12">
+          {/* graphic is pinned top-right at a fixed size so it sits in the same place on every page */}
+          <div className="grid grid-cols-1 gap-12 items-start lg:grid-cols-12">
             <div className="flex flex-col gap-6 lg:col-span-7">
               <h1 className="text-white text-4xl md:text-5xl lg:text-[52px] font-bold leading-[1.15]">{page.hero.title}</h1>
               {page.hero.subtitle && (
@@ -263,8 +265,10 @@ export default function ContentPage({ page }: { page: PageContent }) {
               )}
               {page.kind !== "article" && <Blocks blocks={page.hero.blocks} tone="dark" />}
             </div>
-            <div className="lg:col-span-5 hidden sm:block">
-              <HeroGraphic icons={heroIcons(page)} />
+            <div className="lg:col-span-5 hidden lg:flex justify-end">
+              <div className="w-[380px] -mt-6">
+                <HeroGraphic icons={heroIcons(page)} />
+              </div>
             </div>
           </div>
         </div>
