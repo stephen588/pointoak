@@ -22,10 +22,10 @@
   }
 }
 
-/* Homepage hero: slow zoom on the aerial photo */
+/* Homepage hero: zoom + slight drift on the aerial photo (off when the visitor prefers reduced motion) */
 @keyframes hero-zoom {
-  from { transform: scale(1); }
-  to { transform: scale(1.12); }
+  from { transform: scale(1.02) translate(0, 0); }
+  to { transform: scale(1.22) translate(-2.5%, 1.5%); }
 }
-.hero-zoom { animation: hero-zoom 28s ease-in-out infinite alternate; transform-origin: 50% 45%; }
+.hero-zoom { animation: hero-zoom 20s ease-in-out infinite alternate; transform-origin: 50% 40%; will-change: transform; }
 @media (prefers-reduced-motion: reduce) { .hero-zoom { animation: none; } }
