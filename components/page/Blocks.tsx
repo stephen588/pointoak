@@ -92,7 +92,6 @@ function CardGrid({ items, tone, numbered }: { items: Card[]; tone: Tone; number
     return (
       <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 items-center bg-white border border-[#E5EAF0] rounded-[12px] p-6 md:p-10 shadow-[0_1px_2px_rgba(0,55,84,0.04)]">
         <div className="md:col-span-4 relative max-w-[300px] mx-auto w-full">
-          <div aria-hidden className="absolute -right-4 -bottom-4 w-24 aspect-[0.866] bg-navy" style={{ clipPath: "polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%)" }} />
           <Image src={person.src} alt={person.alt} width={person.width} height={person.height} sizes="300px" className="relative w-full h-auto rounded-[10px] shadow-xl shadow-navy/15" />
         </div>
         <div className="md:col-span-8 flex flex-col gap-4">

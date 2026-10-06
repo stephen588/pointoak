@@ -9,7 +9,7 @@ import HeroGraphic from "./HeroGraphic";
 import { HexBadge, Milestones, milestonesFrom } from "./Diagrams";
 import { cardIcons } from "./cardIcon";
 
-function SectionView({ section, index }: { section: Section; index: number }) {
+export function SectionView({ section, index }: { section: Section; index: number }) {
   if (section.layout === "cta") {
     return (
       <section id={section.id} className="relative overflow-hidden bg-navy py-16 md:py-28">

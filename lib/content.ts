@@ -37,9 +37,12 @@ export function getPage(route: string): PageContent | undefined {
   return pages.find((p) => p.route === route);
 }
 
+/** Pages with their own app/<route>/page.tsx instead of the generic template. */
+export const CUSTOM_ROUTES = ["/", "/contact/", "/about/"];
+
 /** Routes rendered by the generic page template (home and contact have their own). */
 export function genericRoutes(): string[] {
-  return pages.map((p) => p.route).filter((r) => r !== "/" && r !== "/contact/");
+  return pages.map((p) => p.route).filter((r) => !CUSTOM_ROUTES.includes(r));
 }
 
 export function routeExists(href: string): boolean {
