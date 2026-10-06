@@ -38,7 +38,7 @@ export function getPage(route: string): PageContent | undefined {
 }
 
 /** Pages with their own app/<route>/page.tsx instead of the generic template. */
-export const CUSTOM_ROUTES = ["/", "/contact/", "/about/", "/services/wealth-management/", "/corporate-retirement-plans/"];
+export const CUSTOM_ROUTES = ["/", "/contact/", "/about/", "/services/wealth-management/", "/corporate-retirement-plans/", "/resources/"];
 
 /** Routes rendered by the generic page template (home and contact have their own). */
 export function genericRoutes(): string[] {
