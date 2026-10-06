@@ -49,17 +49,34 @@ export function OrbitHero({ items }: { items: string[] }) {
   );
 }
 
-/** "Fiduciary · Fee-Only · Independent · Personal" as a bold typographic band. */
+const PROMISE_ICONS: [RegExp, LucideIcon][] = [
+  [/fiduciar/i, ShieldCheck],
+  [/fee/i, FileText],
+  [/independ/i, Scale],
+  [/personal/i, Users],
+];
+
+/** The four relationship points as a compact, light row with icons. */
 export function PromiseBand({ items }: { items: { title: string; text: string }[] }) {
   return (
-    <div className="grid grid-cols-2 lg:grid-cols-4 divide-x divide-white/15 border-y border-white/15">
-      {items.map((it, i) => (
-        <div key={it.title} className={`px-4 sm:px-6 py-8 md:py-10 flex flex-col gap-3 ${i >= 2 ? "border-t border-white/15 lg:border-t-0" : ""}`}>
-          <span className="text-bright-blue text-sm font-semibold tabular-nums">0{i + 1}</span>
-          <span className="text-white text-2xl sm:text-3xl md:text-[38px] font-semibold uppercase tracking-tight leading-none">{it.title}</span>
-          <span className="text-white/70 text-sm md:text-base leading-snug">{it.text}</span>
-        </div>
-      ))}
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 rounded-[14px] border border-[#E3E8EE] bg-white shadow-[0_1px_2px_rgba(0,55,84,0.04)] divide-y sm:divide-y-0 lg:divide-x divide-[#E3E8EE]">
+      {items.map((it, i) => {
+        const Icon = PROMISE_ICONS.find(([re]) => re.test(it.title))?.[1] ?? ShieldCheck;
+        return (
+          <div key={it.title} className={`flex items-start gap-4 p-5 md:p-6 ${i % 2 === 1 ? "sm:border-l lg:border-l-0 border-[#E3E8EE]" : ""} ${i >= 2 ? "sm:border-t lg:border-t-0 border-[#E3E8EE]" : ""}`}>
+            <span
+              className={`w-11 aspect-[0.866] flex-shrink-0 flex items-center justify-center ${["bg-navy", "bg-[#4A5A70]", "bg-[#0a5c8a]", "bg-bright-blue"][i % 4]}`}
+              style={{ clipPath: HEX }}
+            >
+              <Icon className="w-5 h-5 text-white" strokeWidth={1.7} />
+            </span>
+            <span className="flex flex-col gap-1">
+              <span className="text-navy text-lg font-semibold leading-tight">{it.title}</span>
+              <span className="text-text-gray text-sm leading-snug">{it.text}</span>
+            </span>
+          </div>
+        );
+      })}
     </div>
   );
 }

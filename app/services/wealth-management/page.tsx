@@ -131,16 +131,16 @@ export default function WealthManagementPage() {
         </div>
       </section>
 
-      {/* A Relationship Built Around Your Interests: typographic promise band */}
+      {/* A Relationship Built Around Your Interests: compact light row with icons */}
       {relationship && (
-        <section id={relationship.id} className="bg-navy py-16 md:py-24">
-          <div className="max-w-[1170px] mx-auto px-6 xl:px-0 flex flex-col gap-10">
-            <H2 light>{relationship.title}</H2>
+        <section id={relationship.id} className="bg-white py-14 md:py-20">
+          <div className="max-w-[1170px] mx-auto px-6 xl:px-0 flex flex-col gap-8">
+            <H2>{relationship.title}</H2>
             <PromiseBand items={(of(relationship, "pillars")?.items ?? []).map((c) => ({ title: c.title, text: cardText(c) }))} />
             {paras(relationship.blocks).map((p, i) => (
               <div key={i} className="flex gap-4 max-w-3xl">
                 <span aria-hidden className="w-1 rounded-full bg-bright-blue flex-shrink-0" />
-                <Para p={p} light />
+                <Para p={p} />
               </div>
             ))}
           </div>

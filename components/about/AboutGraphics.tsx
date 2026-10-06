@@ -152,8 +152,9 @@ export function UniverseGraphic({ core, conditional, conditionalNote }: { core: 
 
 /**
  * "What We Believe" on the PointOak "P" track from the current site's "How Working With Us Works"
- * graphic: four stops on the track (the original three plus its top waypoint), each with its own
- * icon and label, and the beliefs as numbered cards joined by a line.
+ * graphic: four stops on the track (the original three plus its top waypoint), numbered clockwise
+ * from the upper-left stop, each with its own icon, number badge and label, matching the numbered
+ * cards beside it.
  */
 export function BeliefsTrack({
   title,
@@ -171,17 +172,17 @@ export function BeliefsTrack({
   const rest = items.map((i) => i.title.split(" ").slice(n).join(" ") || i.title);
   // stops on hex-process.png (748x814): top waypoint, right, bottom, upper-left
   const stops = [
+    { x: 8.7, y: 27.3 },
     { x: 50.1, y: 5.5 },
     { x: 91.2, y: 48.8 },
     { x: 49.9, y: 91.9 },
-    { x: 8.7, y: 27.3 },
   ];
   const stopStyle = ["bg-navy text-white", "bg-[#4A5A70] text-white", "bg-[#D9DEE5] text-navy", "bg-bright-blue text-white"];
   const labelPos = [
+    "right-[calc(100%-1%)] top-[27.3%] -translate-y-1/2 pr-[14%] text-right",
     "left-1/2 -translate-x-1/2 bottom-[calc(100%+14px)]",
     "left-[calc(100%+14px)] top-[48.8%] -translate-y-1/2",
     "left-1/2 -translate-x-1/2 top-[calc(100%+14px)]",
-    "right-[calc(100%-1%)] top-[27.3%] -translate-y-1/2 pr-[14%] text-right",
   ];
   return (
     <div className="grid grid-cols-1 lg:grid-cols-12 gap-14 lg:gap-12 items-center">
@@ -199,6 +200,9 @@ export function BeliefsTrack({
                   style={{ left: `${stops[i].x}%`, top: `${stops[i].y}%` }}
                 >
                   <Icon className="w-1/2 h-1/2" strokeWidth={1.7} />
+                  <span className="absolute -top-1 -right-1 w-[42%] aspect-square rounded-full bg-white text-navy text-[10px] sm:text-xs font-bold flex items-center justify-center shadow ring-1 ring-navy/10">
+                    {i + 1}
+                  </span>
                 </div>
               );
             })}
@@ -213,7 +217,7 @@ export function BeliefsTrack({
       <ol className="lg:col-span-6 relative flex flex-col gap-5">
         <div aria-hidden className="absolute left-[23px] top-8 bottom-8 border-l-2 border-dashed border-navy/20" />
         {items.slice(0, 4).map((it, i) => (
-          <li key={it.title} className="relative flex gap-5">
+          <li key={it.title} className="relative flex items-center gap-5">
             <span className={`relative z-10 w-12 h-12 flex-shrink-0 rounded-full flex items-center justify-center font-semibold text-lg ring-8 ${ring} ${stopStyle[i]}`}>
               {i + 1}
             </span>
