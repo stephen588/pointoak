@@ -22,8 +22,8 @@ const PILLAR_ICONS: LucideIcon[] = [ShieldCheck, Receipt, Scale, Award];
 
 /**
  * The four "advisory relationship" pillars in the overlapping-hexagon style of the original
- * pointoak.com "Your Personal Financial Advocate" graphic: title + tagline inside each hexagon,
- * number badge and icon bubble alongside.
+ * pointoak.com "Your Personal Financial Advocate" graphic: icon, title and tagline inside each
+ * hexagon, number badge on its corner.
  */
 export function HexQuad({ items }: { items: { title: string; text: string }[] }) {
   // honeycomb: two hexagons on top, two below shifted half a width
@@ -35,12 +35,6 @@ export function HexQuad({ items }: { items: { title: string; text: string }[] })
   ];
   const fills = ["bg-navy text-white", "bg-[#F1F3F6] text-navy", "bg-[#4A5A70] text-white", "bg-[#0a5c8a] text-white"];
   const badge = ["bg-[#D9DEE5] text-navy", "bg-navy text-white", "bg-[#D9DEE5] text-navy", "bg-white text-navy"];
-  const icon = [
-    { left: "8%", top: "16%" },
-    { left: "86%", top: "16%" },
-    { left: "24%", top: "80%" },
-    { left: "63.5%", top: "90%" },
-  ];
   return (
     <div className="relative w-full max-w-[600px] mx-auto aspect-[1/0.86]" role="img" aria-label={items.map((i) => `${i.title}: ${i.text}`).join(" ")}>
       {items.slice(0, 4).map((it, i) => (
@@ -49,7 +43,10 @@ export function HexQuad({ items }: { items: { title: string; text: string }[] })
           className={`absolute flex flex-col items-center justify-center text-center gap-[4%] px-[5%] ${fills[i]}`}
           style={{ ...pos[i], width: "32.5%", height: "43.6%", clipPath: HEX }}
         >
-          <span className={`block w-[26%] h-[3px] ${i === 1 ? "bg-navy" : "bg-white/80"}`} />
+          {(() => {
+            const Icon = PILLAR_ICONS[i];
+            return <Icon className={`w-[22%] h-auto ${i === 1 ? "text-medium-blue" : "text-light-blue"}`} strokeWidth={1.6} />;
+          })()}
           <span className="font-semibold leading-tight text-[12px] sm:text-base md:text-lg">{it.title}</span>
           <span className="italic leading-snug opacity-85 text-[8.5px] sm:text-[11px] md:text-[12px] max-w-[88%]">{it.text}</span>
         </div>
@@ -63,18 +60,6 @@ export function HexQuad({ items }: { items: { title: string; text: string }[] })
           {i + 1}
         </div>
       ))}
-      {items.slice(0, 4).map((_, i) => {
-        const Icon = PILLAR_ICONS[i];
-        return (
-          <div
-            key={`i${i}`}
-            className="absolute w-[9.5%] aspect-square -translate-x-1/2 -translate-y-1/2 rounded-full bg-white shadow-lg shadow-medium-blue/20 ring-[3px] ring-white flex items-center justify-center"
-            style={icon[i]}
-          >
-            <Icon className="w-1/2 h-1/2 text-medium-blue" strokeWidth={1.75} />
-          </div>
-        );
-      })}
     </div>
   );
 }
