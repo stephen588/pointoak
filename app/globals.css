@@ -29,3 +29,12 @@
 }
 .hero-zoom { animation: hero-zoom 20s ease-in-out infinite alternate; transform-origin: 50% 40%; will-change: transform; }
 @media (prefers-reduced-motion: reduce) { .hero-zoom { animation: none; } }
+
+/* Wealth Management: orbit + growth curve motion (off for reduced motion) */
+@keyframes orbit-spin { to { transform: rotate(360deg); } }
+@keyframes orbit-dash { to { stroke-dashoffset: -32; } }
+@keyframes curve-draw { from { stroke-dashoffset: 1400; } to { stroke-dashoffset: 0; } }
+.orbit-spin { animation: orbit-spin 24s linear infinite; }
+.orbit-dash { animation: orbit-dash 6s linear infinite; }
+.curve-draw { stroke-dasharray: 1400; animation: curve-draw 2.4s ease-out both; }
+@media (prefers-reduced-motion: reduce) { .orbit-spin, .orbit-dash, .curve-draw { animation: none; } }

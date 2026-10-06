@@ -15,6 +15,7 @@ import {
 import Image from "next/image";
 import PointOakSymbol from "@/components/brand/PointOakSymbol";
 import { Rich } from "@/components/page/Blocks";
+import { cardIcon } from "@/components/page/cardIcon";
 import type { Seg } from "@/lib/content";
 
 // About-page graphics. Every label is a phrase from about.json.
@@ -154,7 +155,15 @@ export function UniverseGraphic({ core, conditional, conditionalNote }: { core: 
  * graphic: four stops on the track (the original three plus its top waypoint), each with its own
  * icon and label, and the beliefs as numbered cards joined by a line.
  */
-export function BeliefsTrack({ title, items }: { title: string; items: { title: string; text: string; segs?: Seg[] }[] }) {
+export function BeliefsTrack({
+  title,
+  items,
+  ring = "ring-cloud-blue",
+}: {
+  title: string;
+  items: { title: string; text: string; segs?: Seg[] }[];
+  ring?: string;
+}) {
   const words = items.map((i) => i.title.split(" "));
   let n = 0;
   while (words.every((w) => w[n] && w[n] === words[0][n])) n++;
@@ -182,7 +191,7 @@ export function BeliefsTrack({ title, items }: { title: string; items: { title: 
           <div className="relative w-full max-w-[190px] sm:max-w-[330px] mt-10 mb-12 mx-[26%] sm:mx-[24%]">
             <Image src="/images/brand/hex-process.png" alt="" width={748} height={814} className="w-full h-auto" />
             {items.slice(0, 4).map((it, i) => {
-              const Icon = BELIEF_ICONS.find(([re]) => re.test(it.title))?.[1] ?? UserCheck;
+              const Icon = BELIEF_ICONS.find(([re]) => re.test(it.title))?.[1] ?? cardIcon(it.title);
               return (
                 <div
                   key={it.title}
@@ -205,12 +214,12 @@ export function BeliefsTrack({ title, items }: { title: string; items: { title: 
         <div aria-hidden className="absolute left-[23px] top-8 bottom-8 border-l-2 border-dashed border-navy/20" />
         {items.slice(0, 4).map((it, i) => (
           <li key={it.title} className="relative flex gap-5">
-            <span className={`relative z-10 w-12 h-12 flex-shrink-0 rounded-full flex items-center justify-center font-semibold text-lg ring-8 ring-cloud-blue ${stopStyle[i]}`}>
+            <span className={`relative z-10 w-12 h-12 flex-shrink-0 rounded-full flex items-center justify-center font-semibold text-lg ring-8 ${ring} ${stopStyle[i]}`}>
               {i + 1}
             </span>
             <div className="flex-1 bg-white border border-[#E3E8EE] rounded-[12px] p-6 shadow-[0_1px_2px_rgba(0,55,84,0.04)]">
               <h3 className="text-navy text-xl font-semibold leading-snug">
-                <span className="text-text-gray font-normal">{stem} </span>
+                {stem && <span className="text-text-gray font-normal">{stem} </span>}
                 {rest[i]}
               </h3>
               <p className="text-text-gray text-[15px] leading-[24px] mt-2">
