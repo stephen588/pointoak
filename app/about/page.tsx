@@ -6,7 +6,7 @@ import ScheduleButton from "@/components/page/ScheduleButton";
 import { Rich } from "@/components/page/Blocks";
 import { SectionView } from "@/components/page/ContentPage";
 import { ConvergeIntoOne, GuidancePillars } from "@/components/home/AreaGraphics";
-import { BeliefsDiagram, CommitmentsGraphic, UniverseGraphic } from "@/components/about/AboutGraphics";
+import { BeliefsTrack, CommitmentsGraphic, UniverseGraphic } from "@/components/about/AboutGraphics";
 import PointOakSymbol from "@/components/brand/PointOakSymbol";
 import type { Block, Card, Section } from "@/lib/content";
 import { SITE_URL, breadcrumbs, getPage } from "@/lib/content";
@@ -111,9 +111,11 @@ export default function AboutPage() {
       {/* What We Believe */}
       {beliefs && (
         <section id={beliefs.id} className="bg-cloud-blue py-16 md:py-24">
-          <div className="max-w-[1170px] mx-auto px-6 xl:px-0 flex flex-col gap-10">
-            <h2 className="text-navy text-3xl md:text-4xl lg:text-[44px] font-light leading-tight">{beliefs.title}</h2>
-            <BeliefsDiagram items={cardsOf(beliefs).map((c) => ({ title: c.title, text: firstP(c.body)?.text ?? "", segs: firstP(c.body)?.segs }))} />
+          <div className="max-w-[1170px] mx-auto px-6 xl:px-0">
+            <BeliefsTrack
+              title={beliefs.title}
+              items={cardsOf(beliefs).map((c) => ({ title: c.title, text: firstP(c.body)?.text ?? "", segs: firstP(c.body)?.segs }))}
+            />
           </div>
         </section>
       )}

@@ -12,6 +12,7 @@ import {
   UserCheck,
   type LucideIcon,
 } from "lucide-react";
+import Image from "next/image";
 import PointOakSymbol from "@/components/brand/PointOakSymbol";
 import { Rich } from "@/components/page/Blocks";
 import type { Seg } from "@/lib/content";
@@ -144,6 +145,81 @@ export function UniverseGraphic({ core, conditional, conditionalNote }: { core: 
           </span>
         </div>
       )}
+    </div>
+  );
+}
+
+/**
+ * "What We Believe" on the PointOak "P" track from the current site's "How Working With Us Works"
+ * graphic: four stops on the track (the original three plus its top waypoint), each with its own
+ * icon and label, and the beliefs as numbered cards joined by a line.
+ */
+export function BeliefsTrack({ title, items }: { title: string; items: { title: string; text: string; segs?: Seg[] }[] }) {
+  const words = items.map((i) => i.title.split(" "));
+  let n = 0;
+  while (words.every((w) => w[n] && w[n] === words[0][n])) n++;
+  const stem = words[0].slice(0, n).join(" ");
+  const rest = items.map((i) => i.title.split(" ").slice(n).join(" ") || i.title);
+  // stops on hex-process.png (748x814): top waypoint, right, bottom, upper-left
+  const stops = [
+    { x: 50.1, y: 5.5 },
+    { x: 91.2, y: 48.8 },
+    { x: 49.9, y: 91.9 },
+    { x: 8.7, y: 27.3 },
+  ];
+  const stopStyle = ["bg-navy text-white", "bg-[#4A5A70] text-white", "bg-[#D9DEE5] text-navy", "bg-bright-blue text-white"];
+  const labelPos = [
+    "left-1/2 -translate-x-1/2 bottom-[calc(100%+14px)]",
+    "left-[calc(100%+14px)] top-[48.8%] -translate-y-1/2",
+    "left-1/2 -translate-x-1/2 top-[calc(100%+14px)]",
+    "right-[calc(100%-1%)] top-[27.3%] -translate-y-1/2 pr-[14%] text-right",
+  ];
+  return (
+    <div className="grid grid-cols-1 lg:grid-cols-12 gap-14 lg:gap-12 items-center">
+      <div className="lg:col-span-6 flex flex-col gap-10">
+        <h2 className="text-navy text-3xl md:text-4xl lg:text-[44px] font-light leading-tight">{title}</h2>
+        <div className="flex justify-center">
+          <div className="relative w-full max-w-[190px] sm:max-w-[330px] mt-10 mb-12 mx-[26%] sm:mx-[24%]">
+            <Image src="/images/brand/hex-process.png" alt="" width={748} height={814} className="w-full h-auto" />
+            {items.slice(0, 4).map((it, i) => {
+              const Icon = BELIEF_ICONS.find(([re]) => re.test(it.title))?.[1] ?? UserCheck;
+              return (
+                <div
+                  key={it.title}
+                  className={`absolute w-[19%] aspect-square -translate-x-1/2 -translate-y-1/2 rounded-full flex items-center justify-center ring-4 ring-white shadow-lg ${stopStyle[i]}`}
+                  style={{ left: `${stops[i].x}%`, top: `${stops[i].y}%` }}
+                >
+                  <Icon className="w-1/2 h-1/2" strokeWidth={1.7} />
+                </div>
+              );
+            })}
+            {rest.slice(0, 4).map((r, i) => (
+              <span key={r} className={`absolute whitespace-nowrap text-navy text-[12px] sm:text-xl font-normal ${labelPos[i]}`}>
+                {r}
+              </span>
+            ))}
+          </div>
+        </div>
+      </div>
+      <ol className="lg:col-span-6 relative flex flex-col gap-5">
+        <div aria-hidden className="absolute left-[23px] top-8 bottom-8 border-l-2 border-dashed border-navy/20" />
+        {items.slice(0, 4).map((it, i) => (
+          <li key={it.title} className="relative flex gap-5">
+            <span className={`relative z-10 w-12 h-12 flex-shrink-0 rounded-full flex items-center justify-center font-semibold text-lg ring-8 ring-cloud-blue ${stopStyle[i]}`}>
+              {i + 1}
+            </span>
+            <div className="flex-1 bg-white border border-[#E3E8EE] rounded-[12px] p-6 shadow-[0_1px_2px_rgba(0,55,84,0.04)]">
+              <h3 className="text-navy text-xl font-semibold leading-snug">
+                <span className="text-text-gray font-normal">{stem} </span>
+                {rest[i]}
+              </h3>
+              <p className="text-text-gray text-[15px] leading-[24px] mt-2">
+                <Rich text={it.text} segs={it.segs} tone="light" />
+              </p>
+            </div>
+          </li>
+        ))}
+      </ol>
     </div>
   );
 }
