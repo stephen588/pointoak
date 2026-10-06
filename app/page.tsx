@@ -33,7 +33,7 @@ import Footer from "@/components/Footer";
 import ScheduleButton from "@/components/page/ScheduleButton";
 import { Rich } from "@/components/page/Blocks";
 import { BothSidesBridge, ConvergeHexes, FinancialLifeHub } from "@/components/home/Graphics";
-import HeroGraphic from "@/components/page/HeroGraphic";
+import { ConvergeIntoOne, GuidancePillars, HexQuad } from "@/components/home/AreaGraphics";
 import type { Block, Card, Section } from "@/lib/content";
 import { SITE_URL, getPage } from "@/lib/content";
 
@@ -79,19 +79,27 @@ const linkOf = (s: Section) => {
 };
 const cardText = (c: Card) => (c.body.find((b) => b.type === "p") as { text: string } | undefined)?.text ?? "";
 
-const PILLAR_ICONS = [ShieldCheck, Receipt, Landmark, Award];
 const SERVICE_ICONS: Record<string, typeof LineChart> = {
   "Investment Management": LineChart,
   "Comprehensive Financial Planning": Compass,
   "Retirement Income Planning": Wallet,
   "Tax-Aware Wealth Strategies": Receipt,
 };
-// Practice-area and life-moment graphics (icons only; these replaced stock photos 10-05)
-const AREA_ICONS: LucideIcon[][] = [
-  [UserCheck, PiggyBank, Receipt, TreePine, LineChart, Compass],
-  [Building2, ShieldCheck, Users, BarChart3, Hourglass, PenTool],
-];
+// Life-moment graphics (icons only; these replaced stock photos 10-05)
 const MOMENT_ICONS: LucideIcon[] = [Route, Wallet, Briefcase];
+
+const cap = (t: string) => t.charAt(0).toUpperCase() + t.slice(1);
+const splitList = (t: string) => t.split(/,\s*(?:and\s+)?/).map((x) => cap(x.trim())).filter(Boolean);
+/** "…bring investments, retirement, … together into one coordinated strategy." */
+function areaParts(text: string) {
+  const m = text.match(/bring (.+?) together into (one coordinated strategy)/i);
+  return m ? { pieces: splitList(m[1]), result: cap(m[2]) } : { pieces: [], result: "" };
+}
+/** "Independent fiduciary guidance for plan governance, investments, …." */
+function bizParts(text: string) {
+  const m = text.match(/^(.+?guidance) for (.+?)\.?$/i);
+  return m ? { beam: m[1], pillars: splitList(m[2]) } : { beam: text, pillars: [] };
+}
 
 function MomentGraphic({ Icon, i }: { Icon: LucideIcon; i: number }) {
   const HEXP = "polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%)";
@@ -157,14 +165,14 @@ export default function Home() {
 
       {/* Hero — aerial interchange, as in the Figma concept */}
       <section className="relative min-h-[92vh] flex items-end overflow-hidden bg-navy">
-        <Image src="/images/home/hero-hexagon-aerial.jpg" alt="" fill priority sizes="100vw" className="object-cover object-center" />
+        <Image src="/images/home/hero-hexagon-aerial.jpg" alt="" fill priority sizes="100vw" className="object-cover object-center hero-zoom" />
         <div
           className="absolute inset-0"
           style={{ background: "linear-gradient(180deg, rgba(0,35,55,0.6) 0%, rgba(0,35,55,0.55) 30%, rgba(0,35,55,0.93) 68%, #002337 100%)" }}
         />
         <div className="relative z-10 w-full max-w-[1170px] mx-auto px-6 xl:px-0 pt-40 pb-16 md:pb-20">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-end">
-            <div className="lg:col-span-7 flex flex-col gap-5">
+            <div className="lg:col-span-9 flex flex-col gap-5">
               <p className="text-bright-blue text-base md:text-lg font-medium">{home.hero.subtitle}</p>
               <h1 className="text-white text-4xl md:text-5xl lg:text-[60px] font-semibold leading-[1.08] tracking-[-0.01em]">{home.hero.title}</h1>
               <div className="flex flex-wrap items-center gap-4 mt-4">
@@ -180,36 +188,24 @@ export default function Home() {
                 )}
               </div>
             </div>
-            <div className="lg:col-span-5 flex flex-col gap-4 lg:border-l lg:border-white/25 lg:pl-10">
-              {heroParas.map((p, i) => (
-                <p key={i} className="text-white/85 text-[15px] lg:text-[17px] leading-[1.7]">
-                  <Rich text={p.text} segs={p.segs} tone="dark" />
-                </p>
-              ))}
-            </div>
           </div>
         </div>
       </section>
 
-      {/* Credentials strip (Figma stats bar), with Darsh's four pillars */}
-      <section aria-label={pillars.title} className="bg-[#F2F4F7] border-b border-[#E3E8EE]">
-        <h2 className="max-w-[1170px] mx-auto px-6 pt-7 text-navy text-xl md:text-2xl font-light">{pillars.title}</h2>
-        <div className="max-w-[1170px] mx-auto grid grid-cols-2 lg:grid-cols-4">
-          {(first(pillars, "pillars")?.items ?? []).map((card, i) => {
-            const Icon = PILLAR_ICONS[i % PILLAR_ICONS.length];
-            return (
-              <div
-                key={i}
-                className={`flex items-start gap-4 px-6 py-7 border-[#E3E8EE] ${i % 2 === 1 ? "border-l" : ""} ${i === 2 ? "lg:border-l" : ""} ${i > 1 ? "border-t lg:border-t-0" : ""}`}
-              >
-                <Icon className="w-9 h-9 text-medium-blue flex-shrink-0" strokeWidth={1.4} />
-                <div>
-                  <p className="text-navy font-semibold text-lg leading-tight">{card.title}</p>
-                  <p className="text-text-gray text-sm leading-snug mt-1">{cardText(card)}</p>
-                </div>
-              </div>
-            );
-          })}
+      {/* A Different Kind of Advisory Relationship: Darsh's intro + the four pillars as the hexagon cluster */}
+      <section className="bg-white py-16 md:py-24">
+        <div className="max-w-[1170px] mx-auto px-6 xl:px-0 grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-14 items-center">
+          <div className="lg:col-span-5 flex flex-col gap-6">
+            <h2 className="text-navy text-3xl md:text-4xl lg:text-[44px] font-light leading-tight">{pillars.title}</h2>
+            {heroParas.map((p, i) => (
+              <p key={i} className="text-text-gray text-base md:text-lg leading-[30px]">
+                <Rich text={p.text} segs={p.segs} tone="light" />
+              </p>
+            ))}
+          </div>
+          <div className="lg:col-span-7">
+            <HexQuad items={(first(pillars, "pillars")?.items ?? []).map((c) => ({ title: c.title, text: cardText(c) }))} />
+          </div>
         </div>
       </section>
 
@@ -224,11 +220,13 @@ export default function Home() {
                 <div key={i} className="flex flex-col">
                   <div className="relative">
                     <div
-                      className={`w-full h-[300px] md:h-[360px] rounded-[10px] flex items-center justify-center pb-12 ${i === 0 ? "bg-gradient-to-br from-navy to-[#0a5c8a]" : "bg-gradient-to-br from-[#2f4560] to-[#4A5A70]"}`}
+                      className={`w-full h-[340px] md:h-[380px] rounded-[10px] overflow-hidden pb-8 ${i === 0 ? "bg-gradient-to-br from-navy to-[#0a5c8a]" : "bg-gradient-to-br from-[#2f4560] to-[#4A5A70]"}`}
                     >
-                      <div className="w-[230px] md:w-[280px]">
-                        <HeroGraphic icons={AREA_ICONS[i]} />
-                      </div>
+                      {i === 0 ? (
+                        <ConvergeIntoOne pieces={areaParts(cardText(card)).pieces} result={areaParts(cardText(card)).result} />
+                      ) : (
+                        <GuidancePillars beam={bizParts(cardText(card)).beam} pillars={bizParts(cardText(card)).pillars} />
+                      )}
                     </div>
                     <div className="absolute -bottom-6 left-6 right-6 sm:right-auto bg-navy text-white rounded-[7px] px-6 py-4 shadow-xl shadow-navy/20">
                       <p className="text-lg font-semibold leading-tight">{audience}</p>

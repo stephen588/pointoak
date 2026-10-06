@@ -21,3 +21,11 @@
     @apply py-20 md:py-28;
   }
 }
+
+/* Homepage hero: slow zoom on the aerial photo */
+@keyframes hero-zoom {
+  from { transform: scale(1); }
+  to { transform: scale(1.12); }
+}
+.hero-zoom { animation: hero-zoom 28s ease-in-out infinite alternate; transform-origin: 50% 45%; }
+@media (prefers-reduced-motion: reduce) { .hero-zoom { animation: none; } }
