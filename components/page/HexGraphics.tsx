@@ -55,7 +55,7 @@ export function HexProcess({ items }: { items: Card[] }) {
   );
 }
 
-/** Three short value cards as the overlapping hexagon trio (pointoak.com "advocate" graphic). */
+/** Three short value cards as the overlapping hexagon trio (pointoak.com "advocate" graphic), icons inside the hexagons. */
 export function HexTrio({ items }: { items: Card[] }) {
   const icons = cardIcons(items.map((c) => c.title));
   const hexes = [
@@ -73,7 +73,10 @@ export function HexTrio({ items }: { items: Card[] }) {
               className={`absolute flex flex-col items-center justify-center gap-[6%] px-[4%] text-center ${h.cls}`}
               style={{ left: h.left, top: h.top, width: "33.3%", height: "50.7%", clipPath: HEX }}
             >
-              <span className={`block w-[30%] h-[3px] ${h.bar}`} />
+              {(() => {
+                const Icon = icons[i];
+                return <Icon className={`w-[20%] h-auto ${i === 1 ? "text-medium-blue" : "text-light-blue"}`} strokeWidth={1.6} />;
+              })()}
               <span className="font-semibold leading-tight text-[11px] sm:text-sm md:text-base lg:text-[17px]">{items[i].title}</span>
             </div>
           ))}
@@ -85,22 +88,11 @@ export function HexTrio({ items }: { items: Card[] }) {
               {i + 1}
             </div>
           ))}
-          {hexes.map((h, i) => {
-            const Icon = icons[i];
-            return (
-              <div
-                key={`i${i}`}
-                className={`absolute w-[10.5%] aspect-square -translate-x-1/2 -translate-y-1/2 rounded-full bg-white shadow-lg shadow-medium-blue/20 ring-[3px] ring-white flex items-center justify-center ${h.icon}`}
-              >
-                <Icon className="w-1/2 h-1/2 text-medium-blue" strokeWidth={1.75} />
-              </div>
-            );
-          })}
         </div>
       </div>
       <ol className="lg:col-span-6 flex flex-col gap-6">
         {items.map((card, i) => (
-          <li key={i} className="flex gap-5">
+          <li key={i} className="flex items-center gap-5">
             <HexBadge n={i + 1} tone={i === 0 ? "navy" : i === 1 ? "light" : "slate"} />
             <div className="flex flex-col gap-2">
               <h3 className="text-navy font-semibold text-xl leading-snug">{card.title}</h3>
