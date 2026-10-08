@@ -41,3 +41,9 @@ Token: sourced from `/opt/report-dashboard/.env.keys` (VERCEL_TOKEN). Git push a
 - Routing: personal $500K+ -> advisor calendar; $250–500K -> team calendar; under $250K, not-offered services, "something else", business owners (until Darsh says where), throwaway/test emails -> inbox; participants -> participant calendar. Honeypot submissions are dropped.
 - Calendly links: set Vercel env NEXT_PUBLIC_CALENDLY_ADVISOR / _TEAM / _PARTICIPANT, then restage (they are build-time). Until set, a "Calendar goes here" box shows. Tested end to end locally with a dummy link (prefills name/email).
 - Still open with Darsh: thresholds, services-not-offered list, the 3 links, business routing, inbox recipient, email-list consent text.
+
+## 2026-10-08 — Form revised per Darsh's 10-07 reply
+- 4 need options (tax/insurance/budgeting removed). Personal: new asset question + 6 ranges; $500K+ -> Darsh, $250K–$499,999 -> Taylor (TEAM link), under $250K -> inbox. Timing adds 6–12 months.
+- Business: adds required "Approximate plan assets" (PLAN_ASSET_OPTIONS — TKX-proposed ranges, pending Darsh's OK) and now routes to Darsh's calendar.
+- Participants: no details step and no phone/message — name + email, then straight to the participant Calendly (it asks employer, reason, phone, and sends reminders).
+- Calendly prefill: name/email always. To prefill an event's custom questions, fill `CALENDLY_ANSWER_MAP` in lib/leadRouting.ts (a1, a2… = question order on that event) once Darsh sends each event's questions. Calendly's SMS-reminder phone can't be prefilled.

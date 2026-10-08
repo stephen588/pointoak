@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { sendEmail, buildConsultationNotificationEmail } from "@/lib/mailer";
-import { ASSET_OPTIONS, NEED_OPTIONS, ROUTE_LABEL, calendarUrl, labelFor, routeLead, type LeadAnswers } from "@/lib/leadRouting";
+import { ASSET_OPTIONS, NEED_OPTIONS, PLAN_ASSET_OPTIONS, ROUTE_LABEL, calendarUrl, labelFor, routeLead, type LeadAnswers } from "@/lib/leadRouting";
 
 const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL!;
 const SUPABASE_SERVICE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY!;
@@ -38,6 +38,7 @@ export async function POST(request: NextRequest) {
       ["Role", answers.role],
       ["Employees", answers.employees],
       ["Current provider", answers.provider],
+      ["Approximate plan assets", answers.planAssets ? labelFor(PLAN_ASSET_OPTIONS, answers.planAssets) : undefined],
       ["Employer", answers.employer],
       ["Phone", answers.phone],
     ];
@@ -77,6 +78,7 @@ export async function POST(request: NextRequest) {
             ...(answers.role && { role: answers.role }),
             ...(answers.employees && { employees: answers.employees }),
             ...(answers.provider && { current_provider: answers.provider }),
+            ...(answers.planAssets && { plan_assets: labelFor(PLAN_ASSET_OPTIONS, answers.planAssets) }),
             ...(answers.employer && { employer: answers.employer }),
             ...(answers.phone && { phone: answers.phone }),
             ...(helpWith && helpWith.length > 0 && { help_with: helpWith }),
