@@ -153,7 +153,6 @@ export default function AboutPage() {
             <section key={s.id} id={s.id} className="bg-cloud-blue py-16 md:py-24">
               <div className="max-w-[1170px] mx-auto px-6 xl:px-0 grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
                 <div className="lg:col-span-6 flex flex-col gap-5">
-                  <span aria-hidden className="block w-14 h-[3px] rounded-full bg-gradient-to-r from-[#B5875A] to-[#D9B48A]" />
                   <h2 className="text-navy text-3xl md:text-4xl lg:text-[40px] font-light leading-tight">{s.title}</h2>
                   <p className="text-text-gray text-base md:text-lg leading-[30px]">
                     <Rich text={indP.text} segs={indP.segs} tone="light" />

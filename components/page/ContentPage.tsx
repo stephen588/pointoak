@@ -34,13 +34,12 @@ export function SectionView({ section, index }: { section: Section; index: numbe
       </section>
     );
   }
-  // Text-only sections: heading on the left with an accent rule, paragraphs on the right
+  // Text-only sections: heading on the left, paragraphs on the right (gold accent rule removed per Darsh 10-13)
   if (section.blocks.length > 0 && section.blocks.every((b) => b.type === "p")) {
     return (
       <section id={section.id} className={`${bg} py-14 md:py-20 scroll-mt-24`}>
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0 grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-16">
           <div className="lg:col-span-5 flex flex-col gap-5">
-            <span aria-hidden className="block w-14 h-[3px] rounded-full bg-gradient-to-r from-[#B5875A] to-[#D9B48A]" />
             <h2 className="text-navy text-3xl md:text-4xl lg:text-[40px] font-light leading-tight">{section.title}</h2>
           </div>
           <div className="lg:col-span-7 flex flex-col gap-5 lg:pt-6">

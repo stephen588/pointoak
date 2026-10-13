@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight, FileText } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ScheduleButton from "@/components/page/ScheduleButton";
@@ -208,10 +208,9 @@ export default function RetirementPlansPage() {
               {roleP && <HighlightStat big="3(21) · 3(38)" small={roleP.text} />}
             </div>
             {chooseChips.length > 0 && (
-              <ul className="flex flex-wrap gap-3">
+              <ul className="flex flex-wrap items-center gap-y-1 text-navy text-sm font-medium">
                 {chooseChips.map((c) => (
-                  <li key={c} className="inline-flex items-center gap-2 rounded-full bg-cloud-blue border border-[#D6E4F5] px-4 py-2 text-navy text-sm font-medium">
-                    <FileText className="w-4 h-4 text-medium-blue" strokeWidth={1.8} />
+                  <li key={c} className="after:content-['·'] after:mx-2.5 after:text-medium-blue last:after:content-none">
                     {c}
                   </li>
                 ))}

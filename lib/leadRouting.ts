@@ -21,15 +21,15 @@ export const ASSET_OPTIONS = [
   { value: "5m-plus", label: "$5 million+", min: 5_000_000 },
 ] as const;
 
-/** Business / plan sponsor: approximate plan assets. Ranges proposed by TKX 10-08, pending Darsh's OK. */
+/** Business / plan sponsor: approximate plan assets. Ranges + order approved by Darsh 10-13. */
 export const PLAN_ASSET_OPTIONS = [
+  { value: "no-plan", label: "We don't have a plan yet" },
   { value: "under-1m", label: "Under $1 million" },
   { value: "1m-4.99m", label: "$1 million–$4.99 million" },
   { value: "5m-9.99m", label: "$5 million–$9.99 million" },
   { value: "10m-24.99m", label: "$10 million–$24.99 million" },
   { value: "25m-49.99m", label: "$25 million–$49.99 million" },
   { value: "50m-plus", label: "$50 million+" },
-  { value: "no-plan", label: "We don't have a plan yet" },
 ] as const;
 
 export const PROMPT_OPTIONS = [

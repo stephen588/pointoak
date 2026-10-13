@@ -296,13 +296,12 @@ export default function Blocks({
             return (
               <div key={i} className="flex flex-col gap-3">
                 {label && <p className={`${strong} text-sm font-semibold uppercase tracking-wider`}>{label}</p>}
-              <ul className="flex flex-wrap gap-3">
+              {/* Plain line of highlights separated by dots (Darsh 10-13: not button-like tags) */}
+              <ul className={`flex flex-wrap items-center gap-y-1 text-sm font-medium ${tone === "dark" ? "text-white/85" : "text-navy"}`}>
                 {chips.map((item, k) => (
                   <li
                     key={k}
-                    className={`px-4 py-2 rounded-full text-sm font-medium ${
-                      tone === "dark" ? "bg-white/10 text-white border border-white/20" : "bg-cloud-blue text-navy border border-[#D6E4F5]"
-                    }`}
+                    className={`after:content-['·'] after:mx-2.5 last:after:content-none ${tone === "dark" ? "after:text-white/40" : "after:text-medium-blue"}`}
                   >
                     {item}
                   </li>
