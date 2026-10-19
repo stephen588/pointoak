@@ -100,7 +100,7 @@ export default function WealthManagementPage() {
       <Header />
 
       {/* Hero: diagonal navy-to-teal with the orbit graphic */}
-      <section className="relative overflow-hidden pt-[78px] pb-16 md:pb-24" style={{ background: "linear-gradient(135deg, #002337 0%, #003754 45%, #0a6496 100%)" }}>
+      <section className="relative overflow-hidden pt-[78px] xl:pt-[110px] pb-16 md:pb-24" style={{ background: "linear-gradient(135deg, #002337 0%, #003754 45%, #0a6496 100%)" }}>
         <div aria-hidden className="absolute right-[-120px] top-[-80px] w-[560px] h-[560px] rounded-full bg-bright-blue/10 blur-3xl" />
         <div className="relative max-w-[1170px] mx-auto px-6 xl:px-0 pt-14 md:pt-20">
           <nav aria-label="Breadcrumb" className="mb-8">

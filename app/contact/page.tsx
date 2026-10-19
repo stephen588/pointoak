@@ -29,7 +29,7 @@ export default function ContactPage() {
       <Header />
 
       {/* Hero: split, with the form card in the hero */}
-      <section className="relative overflow-hidden pt-[78px]" style={{ background: "linear-gradient(160deg, #002337 0%, #003754 55%, #0a5c8a 100%)" }}>
+      <section className="relative overflow-hidden pt-[78px] xl:pt-[110px]" style={{ background: "linear-gradient(160deg, #002337 0%, #003754 55%, #0a5c8a 100%)" }}>
         <div aria-hidden className="absolute -left-40 bottom-[-180px] w-[620px] opacity-[0.05]">
           <PointOakSymbol mono="#ffffff" className="w-full h-auto" />
         </div>

@@ -86,7 +86,7 @@ export default function RetirementPlansPage() {
 
       {/* Hero: slate blueprint */}
       <section
-        className="relative overflow-hidden pt-[78px] pb-16 md:pb-24"
+        className="relative overflow-hidden pt-[78px] xl:pt-[110px] pb-16 md:pb-24"
         style={{
           backgroundColor: "#1f3550",
           backgroundImage:

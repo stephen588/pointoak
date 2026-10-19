@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { Menu, X, ArrowRight, ChevronDown } from "lucide-react";
+import { Menu, X, ArrowRight, ChevronDown, Lock } from "lucide-react";
 import { useConsultationModal } from "./ConsultationModalProvider";
 
 type NavItem = { label: string; href: string; children?: { label: string; href: string }[] };
@@ -63,6 +63,16 @@ export default function Header() {
 
   return (
     <header className="absolute top-0 left-0 right-0 z-50">
+      {/* Utility bar (desktop): Client Center set apart from the main menu, top right, where clients look for a login (Hannah 10-13).
+          Adds 32px at xl, so page heroes use pt-[78px] xl:pt-[110px]. */}
+      <div className="hidden xl:block border-b border-white/10">
+        <div className="mx-auto max-w-[1170px] flex justify-end h-8">
+          <Link href="/client-center/" className="flex items-center gap-1.5 text-white/80 text-[13px] tracking-[0.02em] hover:text-white transition-colors">
+            <Lock className="w-3.5 h-3.5" strokeWidth={1.8} />
+            Client Center
+          </Link>
+        </div>
+      </div>
       <div className="mx-auto max-w-[1170px] px-6 xl:px-0 flex items-center justify-between h-[78px]">
         <Link href="/" className="flex-shrink-0">
           {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -153,6 +163,13 @@ export default function Header() {
                 </Link>
               ),
             )}
+            <Link
+              href="/client-center/"
+              className="flex items-center gap-2 text-white text-[16px] py-3 border-b border-white/10"
+              onClick={() => setMobileOpen(false)}
+            >
+              <Lock className="w-4 h-4" strokeWidth={1.8} /> Client Center
+            </Link>
             <button
               onClick={() => {
                 setMobileOpen(false);

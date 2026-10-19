@@ -121,7 +121,7 @@ export default function ResourcesPage() {
 
       {/* Hero: light editorial masthead with the lead article */}
       <section className="relative overflow-hidden bg-[#F4F7FB]">
-        <div className="bg-navy h-[78px]" aria-hidden />
+        <div className="bg-navy h-[78px] xl:h-[110px]" aria-hidden />
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0 pt-12 md:pt-16 pb-14 md:pb-20">
           <nav aria-label="Breadcrumb" className="mb-8">
             <ol className="flex flex-wrap items-center gap-2 text-text-gray text-sm">

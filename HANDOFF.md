@@ -47,3 +47,10 @@ Token: sourced from `/opt/report-dashboard/.env.keys` (VERCEL_TOKEN). Git push a
 - Business: adds required "Approximate plan assets" (PLAN_ASSET_OPTIONS — TKX-proposed ranges, pending Darsh's OK) and now routes to Darsh's calendar.
 - Participants: no details step and no phone/message — name + email, then straight to the participant Calendly (it asks employer, reason, phone, and sends reminders).
 - Calendly prefill: name/email always. To prefill an event's custom questions, fill `CALENDLY_ANSWER_MAP` in lib/leadRouting.ts (a1, a2… = question order on that event) once Darsh sends each event's questions. Calendly's SMS-reminder phone can't be prefilled.
+
+## 2026-10-19 — Client Center + Terms of Use (Darsh's 10-19 reply)
+- `/client-center/`: app/client-center/page.tsx + components/client-center/ClientCenterTiles.tsx. Schwab + RightCapital logins open Darsh's "You're leaving pointoak.com" notice (his text) with Continue/Cancel; the SharePoint upload link opens directly (PointOak's own). Plan Sponsor Portal tile shows "Coming soon": set PLAN_SPONSOR_PORTAL_URL to make it live, or SHOW_PLAN_SPONSOR_TILE=false to hide it.
+- Header: desktop utility bar (32px, top right) holds the Client Center link, so every hero's top padding is now `pt-[78px] xl:pt-[110px]` (resources: `h-[78px] xl:h-[110px]`). Mobile: in the hamburger menu. Footer: Client Center in the bottom bar.
+- `/terms-of-use/`: Darsh's docx word for word ("final pending one last review"). Footer link sits next to the Privacy Statement link (relabeled from "Privacy Policy" to match his document). Disclosure links are root-relative, so they point to www.pointoak.com at launch. Section 14's Website Privacy Policy has no link yet (his doc: page in progress).
+- Both pages added to app/sitemap.ts (they have no content JSON).
+- Still open: Mark/Taylor inbox-lead addresses (NOTIFY_EMAIL), BBB seal code (we recommended a format; BBB emails the code to Hannah), the blank period in the BBB rating disclaimer, Website Privacy Policy page, a Terms effective date, and which team contacts to list on the Client Center.

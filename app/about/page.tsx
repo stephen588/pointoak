@@ -72,7 +72,7 @@ export default function AboutPage() {
       <Header />
 
       {/* Hero: solid navy with the PointOak symbol and its three commitments */}
-      <section className="relative overflow-hidden bg-[#002a40] pt-[78px] pb-16 md:pb-24">
+      <section className="relative overflow-hidden bg-[#002a40] pt-[78px] xl:pt-[110px] pb-16 md:pb-24">
         <div aria-hidden className="absolute -left-24 -bottom-32 w-[520px] opacity-[0.05]">
           <PointOakSymbol mono="#ffffff" className="w-full h-auto" />
         </div>

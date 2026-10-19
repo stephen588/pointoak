@@ -235,7 +235,7 @@ export default function ContentPage({ page }: { page: PageContent }) {
       <Header />
 
       <section
-        className="relative pt-[78px] pb-16 md:pb-24"
+        className="relative pt-[78px] xl:pt-[110px] pb-16 md:pb-24"
         style={{ background: "linear-gradient(90deg, #003754 0%, #0078B8 100%)" }}
       >
         <div className="max-w-[1170px] mx-auto px-6 xl:px-0 pt-14 md:pt-20">
