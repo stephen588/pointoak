@@ -159,6 +159,10 @@ export default function Footer() {
                 <a href="/terms-of-use/" className="underline hover:text-white/80 transition-colors">
                   Terms of Use
                 </a>
+                <span aria-hidden="true">|</span>
+                <a href="/website-privacy-policy/" className="underline hover:text-white/80 transition-colors">
+                  Website Privacy Policy
+                </a>
               </p>
             </div>
           </div>

@@ -7,7 +7,7 @@ import { SITE_URL } from "@/lib/content";
 
 // Terms of Use: Darsh's PointOak_Terms_of_Use_1.docx (email 10-19, "final pending one last review"), word for word.
 // Disclosure links are root-relative so they resolve to www.pointoak.com at launch (his note).
-// Section 14's "Website Privacy Policy" has no link yet: his doc says "link to come — page in progress".
+// Section 14 links the Website Privacy Policy page (his docx 10-21).
 
 const TITLE = "Terms of Use | PointOak Retirement Advisors";
 const DESCRIPTION = "The terms that govern your use of www.pointoak.com, operated by PointOak Retirement Advisors, LLC.";
@@ -125,7 +125,8 @@ const SECTIONS: { title: string; body: ReactNode[] }[] = [
     body: [
       <>
         Our <Pdf href="/disclosures/privacy-statement.pdf">Privacy Statement</Pdf> explains how we collect, use and protect nonpublic personal
-        information about prospective, current and former clients. Our Website Privacy Policy explains what information the Website itself
+        information about prospective, current and former clients. Our{" "}
+        <Link href="/website-privacy-policy/" className={a}>Website Privacy Policy</Link> explains what information the Website itself
         collects, such as contact form and scheduling submissions, cookies and analytics data, and how we use&nbsp;it.
       </>,
     ],

@@ -4,8 +4,8 @@ import { SITE_URL } from "@/lib/content";
 
 // Every page comes from content/pages/*.json, plus the custom pages listed below.
 export default function sitemap(): MetadataRoute.Sitemap {
-  // Custom pages without a content JSON (Client Center, Terms of Use: Darsh 10-19)
-  const extra = ["/client-center/", "/terms-of-use/"].map((route) => ({
+  // Custom pages without a content JSON (Client Center, Terms of Use: Darsh 10-19; Website Privacy Policy: 10-21)
+  const extra = ["/client-center/", "/terms-of-use/", "/website-privacy-policy/"].map((route) => ({
     url: SITE_URL + route,
     lastModified: new Date(),
     changeFrequency: "yearly" as const,

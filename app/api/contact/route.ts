@@ -6,6 +6,8 @@ const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL!;
 const SUPABASE_SERVICE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY!;
 const SITE_ID = process.env.SITE_ID || "pointoak";
 const NOTIFY_EMAIL = process.env.NOTIFY_EMAIL || "info@pointoak.com";
+// Inbox leads (under $250K, "Something else") go to Mark and Taylor's shared address (Darsh 10-21).
+const INBOX_NOTIFY_EMAIL = process.env.INBOX_NOTIFY_EMAIL || "marketing@pointoak.com";
 
 export async function POST(request: NextRequest) {
   try {
@@ -26,6 +28,7 @@ export async function POST(request: NextRequest) {
 
     // Qualifying form (lib/leadRouting.ts): the server decides the route.
     const { route, reason } = routeLead(answers);
+    const notifyTo = route === "inbox" ? INBOX_NOTIFY_EMAIL : NOTIFY_EMAIL;
     const needLabel = labelFor(NEED_OPTIONS, answers.need);
     const assetsLabel = labelFor(ASSET_OPTIONS, answers.assets);
     const details: [string, string | undefined][] = [
@@ -66,7 +69,7 @@ export async function POST(request: NextRequest) {
           message: message || null,
           form_type: "consultation",
           status: "new",
-          notify_email: NOTIFY_EMAIL,
+          notify_email: notifyTo,
           metadata: {
             route,
             route_reason: reason,
@@ -115,13 +118,13 @@ export async function POST(request: NextRequest) {
       });
 
       await sendEmail({
-        to: NOTIFY_EMAIL,
+        to: notifyTo,
         subject: `${route === "inbox" ? "Inbox" : "Calendar"} lead: ${name} — ${subjectLine}`,
         htmlBody,
         replyTo: email,
       });
 
-      console.log(`📧 Notification email sent to ${NOTIFY_EMAIL}`);
+      console.log(`📧 Notification email sent to ${notifyTo}`);
     } catch (emailError) {
       console.error("⚠️ Email notification failed (submission still saved):", emailError);
     }
