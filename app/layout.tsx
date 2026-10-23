@@ -1,7 +1,13 @@
 import type { Metadata } from "next";
 import { Outfit, Poppins, DM_Sans, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
+import Script from "next/script";
 import ConsultationModalProvider from "@/components/ConsultationModalProvider";
+
+// Google Analytics 4 (Darsh approved 10-23; the Website Privacy Policy, Section 5, names it, so it must be live at launch).
+// Set NEXT_PUBLIC_GA_MEASUREMENT_ID on the Vercel production env only, so staging traffic stays out of the reports.
+// No ad or tracking tags without asking Darsh first.
+const GA_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -115,6 +121,14 @@ export default function RootLayout({
         <ConsultationModalProvider>
           {children}
         </ConsultationModalProvider>
+        {GA_ID && (
+          <>
+            <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} strategy="afterInteractive" />
+            <Script id="ga4" strategy="afterInteractive">
+              {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","${GA_ID}");`}
+            </Script>
+          </>
+        )}
         {/* TKX review tool: loads only with ?review-tool in the URL. Session = "PointOak — Oct 2026 site rebuild".
             Changing this id hides existing comments (they stay under the old id in Supabase). */}
         <script

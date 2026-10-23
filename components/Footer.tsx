@@ -1,4 +1,5 @@
 import Link from "next/link";
+import BbbSeal from "./BbbSeal";
 
 export default function Footer() {
   return (
@@ -21,6 +22,9 @@ export default function Footer() {
               nationwide. We offer personalized financial planning and investment management for individuals and
               families as well as comprehensive retirement plan consulting for businesses.
             </p>
+            <div className="mt-2">
+              <BbbSeal tone="dark" />
+            </div>
           </div>
 
           {/* Right — Contact info */}

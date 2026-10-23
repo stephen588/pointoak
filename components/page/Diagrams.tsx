@@ -3,6 +3,7 @@ import type { Block, Card, Seg } from "@/lib/content";
 import { cardIcons } from "./cardIcon";
 import { HexBadge } from "./HexGraphics";
 import { Rich } from "./Blocks";
+import BbbSeal from "@/components/BbbSeal";
 
 // Brand diagrams (hexagons + dashed connectors) that replace plain lists / card sets.
 // Every word shown comes from the block being rendered; nothing is added.
@@ -152,11 +153,6 @@ const LOGOS: Record<string, { src: string; w: number; h: number }> = {
   RPAG: { src: "/images/assoc-logo-rpag.png", w: 120, h: 120 },
   SHRM: { src: "/images/assoc-logo-shrm.png", w: 300, h: 120 },
 };
-/** BBB Dynamic Seal (code BBB emailed 10-21: Standard, blue, horizontal, with rating, 250x52) and Darsh's rating line, which sits directly under it. */
-const BBB_PROFILE = "https://www.bbb.org/us/va/mclean/profile/financial-services/pointoak-retirement-advisors-0241-236104016/#sealclick";
-const BBB_SEAL = "https://seal-dc-easternpa.bbb.org/seals/blue-seal-250-52-bbb-236104016.png";
-const BBB_DISCLAIMER =
-  "BBB rating as of the date shown, assigned by the Better Business Bureau based on information in BBB\u2019s files. PointOak pays an annual fee for BBB accreditation; no fee is paid for the rating itself. BBB ratings are not an indication of investment performance or of any client\u2019s\u00a0experience.";
 export function HexSeals({ items }: { items: string[] }) {
   const bbb = items.some((it) => it.startsWith("BBB "));
   const badges = items.filter((it) => !it.includes(" | ") && !it.startsWith("BBB "));
@@ -189,12 +185,8 @@ export function HexSeals({ items }: { items: string[] }) {
         </ul>
       )}
       {bbb && (
-        <div className="flex flex-col gap-3 border-t border-[#E3E8EE] pt-8">
-          <a href={BBB_PROFILE} target="_blank" rel="nofollow noopener" className="self-start">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={BBB_SEAL} width={250} height={52} style={{ border: 0 }} alt="PointOak Retirement Advisors BBB Business Review" />
-          </a>
-          <p className="text-text-gray text-xs leading-[19px] max-w-[560px]">{BBB_DISCLAIMER}</p>
+        <div className="border-t border-[#E3E8EE] pt-8">
+          <BbbSeal />
         </div>
       )}
       <span className="sr-only">{items.join(" ")}</span>

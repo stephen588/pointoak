@@ -5,8 +5,8 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { SITE_URL } from "@/lib/content";
 
-// Website Privacy Policy: Darsh's PointOak_Website_Privacy_Policy.docx (email 10-21), word for word.
-// Section 5 still carries his bracketed drafting notes: he finalizes it once we answer his setup questions.
+// Website Privacy Policy: Darsh's final PointOak_Website_Privacy_Policy.docx (email 10-23), word for word.
+// Section 5 names Google Analytics, so GA must be on the site at launch; no ad tags without asking him first.
 // No "Last updated" line (his call, 10-21). Linked from Terms of Use Section 14 and the footer.
 
 const TITLE = "Website Privacy Policy | PointOak Retirement Advisors";
@@ -42,8 +42,7 @@ const SECTIONS: { title: string; body: ReactNode[] }[] = [
         key="l"
         items={[
           <><strong className="text-navy">Contact us</strong> through a website form: typically your name, email address, phone number, and the message you send.</>,
-          <><strong className="text-navy">Schedule a meeting</strong> through our scheduling tool: your name, contact details, the meeting type, and any notes you add.</>,
-          <><strong className="text-navy">Sign up</strong> for emails, webinars or events: your name and email address, and sometimes your employer or retirement plan.</>,
+          <><strong className="text-navy">Schedule a meeting</strong> through our scheduling tool: your name, contact details, the meeting type, and any notes you add. Our scheduling provider also keeps your booking details.</>,
           <><strong className="text-navy">Upload documents</strong> through our secure upload link: the files you send and your name or email address.</>,
         ]}
       />,
@@ -95,17 +94,10 @@ const SECTIONS: { title: string; body: ReactNode[] }[] = [
   {
     title: "5. Cookies, analytics and advertising",
     body: [
-      "Cookies are small files stored by your browser. The Website uses:",
-      <List
-        key="l"
-        items={[
-          <><strong className="text-navy">Essential cookies</strong> that make the Website work, such as keeping forms secure.</>,
-          <><strong className="text-navy">Analytics cookies</strong> from [Google Analytics — to confirm] that tell us, in aggregate, how visitors find and use the Website.</>,
-          <><strong className="text-navy">Advertising measurement</strong> tags, if we run online ads, that tell us whether someone who clicked an ad later contacted us. [Remove if no ad tags are installed.]</>,
-        ]}
-      />,
+      "The Website itself does not set cookies for visitors. We use Google Analytics, which places cookies in your browser so we can see, in aggregate, how visitors find and use the Website. Embedded tools from other companies, such as our scheduling tool and the Google map on our Contact page, may also set their own cookies when they load; their privacy policies apply to that information.",
+      "We do not currently use advertising or tracking tags on the Website. If we add them, we will update this policy first.",
       <>
-        You can block or delete cookies through your browser settings; the Website will still work, though some features may not. You can opt
+        You can block or delete cookies through your browser settings; the Website will still work, though embedded tools may not. You can opt
         out of Google Analytics with <Ext href="https://tools.google.com/dlpage/gaoptout">Google&apos;s browser add-on</Ext>. Some browsers send
         &quot;Do Not Track&quot; signals; because there is no common standard for them, the Website does not currently respond to&nbsp;them.
       </>,
@@ -114,7 +106,7 @@ const SECTIONS: { title: string; body: ReactNode[] }[] = [
   {
     title: "6. Third-party sites and tools",
     body: [
-      "The Website links to and embeds services run by others, including our custodian Charles Schwab, our financial planning and client portal, our scheduling tool, and our secure file-upload service. When you use them, their own privacy policies apply. We are not responsible for their privacy practices.",
+      "The Website links to and embeds services run by others, including our custodian Charles Schwab, our financial planning and client portal, our scheduling tool, our secure file-upload service, Google Maps, and the Better Business Bureau seal. When you use them, their own privacy policies apply. We are not responsible for their privacy practices.",
     ],
   },
   {
@@ -132,7 +124,7 @@ const SECTIONS: { title: string; body: ReactNode[] }[] = [
   {
     title: "9. How long we keep information",
     body: [
-      "We keep information as long as needed for the purposes described above. As a registered investment adviser, we are required to keep certain business records and communications, including website inquiries, for at least five years.",
+      "We keep information as long as needed for the purposes described above. As a registered investment adviser, we are required to keep certain business records and communications, including inquiries sent through the Website, for at least five years.",
     ],
   },
   {

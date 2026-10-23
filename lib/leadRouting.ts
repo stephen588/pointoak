@@ -44,8 +44,7 @@ export const PROMPT_OPTIONS = [
 export const TIMING_OPTIONS = ["Within 3 months", "3–6 months", "6–12 months", "Just exploring"] as const;
 
 /** Asset thresholds (never shown on the site). */
-export const ADVISOR_MIN = 500_000; // straight to Darsh's calendar
-export const TEAM_MIN = 250_000; // Taylor's calendar
+export const ADVISOR_MIN = 500_000; // straight to Darsh's calendar; below this goes to the inbox (Darsh 10-23)
 
 export type Route = "advisor-calendar" | "team-calendar" | "participant-calendar" | "inbox";
 
@@ -104,8 +103,7 @@ export function routeLead(a: LeadAnswers): { route: Route; reason: string } {
   const min = assetMin(a.assets);
   if (min === null) return { route: "inbox", reason: "Assets not provided" };
   if (min >= ADVISOR_MIN) return { route: "advisor-calendar", reason: "Investable assets $500,000+" };
-  if (min >= TEAM_MIN) return { route: "team-calendar", reason: "Investable assets $250,000–$499,999" };
-  return { route: "inbox", reason: "Investable assets under $250,000" };
+  return { route: "inbox", reason: "Investable assets under $500,000" };
 }
 
 /** Calendly links per route (set in Vercel env when Darsh sends them; empty = not yet supplied). */

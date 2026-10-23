@@ -6,7 +6,7 @@ const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL!;
 const SUPABASE_SERVICE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY!;
 const SITE_ID = process.env.SITE_ID || "pointoak";
 const NOTIFY_EMAIL = process.env.NOTIFY_EMAIL || "info@pointoak.com";
-// Inbox leads (under $250K, "Something else") go to Mark and Taylor's shared address (Darsh 10-21).
+// Inbox leads (under $500K, "Something else") go to Mark and Taylor's shared address (Darsh 10-21, cutoff 10-23).
 const INBOX_NOTIFY_EMAIL = process.env.INBOX_NOTIFY_EMAIL || "marketing@pointoak.com";
 
 export async function POST(request: NextRequest) {

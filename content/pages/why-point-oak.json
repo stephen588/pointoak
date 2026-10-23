@@ -270,21 +270,6 @@
       ]
     },
     {
-      "id": "professional-standards-affiliations-accreditation",
-      "title": "Professional Standards, Affiliations & Accreditation",
-      "blocks": [
-        {
-          "type": "list",
-          "items": [
-            "SEC-REGISTERED INVESTMENT ADVISER",
-            "FEE-ONLY FIDUCIARY",
-            "NAPFA | NAPA | ASPPA | RPAG | SHRM",
-            "BBB ACCREDITED BUSINESS — A+ RATING"
-          ]
-        }
-      ]
-    },
-    {
       "id": "ready-to-work-with-pointoak",
       "title": "Ready to Work With PointOak?",
       "blocks": [
