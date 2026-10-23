@@ -12,9 +12,10 @@ const BBB_DISCLAIMER =
 export default function BbbSeal({ tone = "light" }: { tone?: "light" | "dark" }) {
   return (
     <div className="flex flex-col gap-3">
-      <a href={BBB_PROFILE} target="_blank" rel="nofollow noopener" className="self-start">
+      {/* The seal's rating half has a transparent background, so on dark backgrounds it sits on a white card. */}
+      <a href={BBB_PROFILE} target="_blank" rel="nofollow noopener" className={`self-start ${tone === "dark" ? "rounded-lg bg-white p-2" : ""}`}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={BBB_SEAL} width={250} height={52} style={{ border: 0 }} alt="PointOak Retirement Advisors BBB Business Review" />
+        <img src={BBB_SEAL} width={250} height={52} style={{ border: 0, display: "block" }} alt="PointOak Retirement Advisors BBB Business Review" />
       </a>
       <p className={`text-xs leading-[19px] max-w-[560px] ${tone === "dark" ? "font-outfit text-white/60" : "text-text-gray"}`}>{BBB_DISCLAIMER}</p>
     </div>
