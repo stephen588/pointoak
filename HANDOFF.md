@@ -64,7 +64,8 @@ git -c credential.helper= -c credential.helper='!f(){ echo username=stephen588; 
 Pushing still deploys nothing (webhook dead); deploys stay `./stage.sh` / `./golive.sh`.
 Rollback: production before 2026-10-26 launch = dpl_Dm4abnop6rXFkpz3Gc7FrpfzxWZw (2026-04-24 deploy)
 
-## 2026-10-26 — SEO/AIO + agent-readiness fixes (STAGED, not live)
+## 2026-10-26 — SEO/AIO + agent-readiness fixes (LIVE 10-26 late, approved by Stephen)
+- Prod = dpl_6Xwk4D7LQasABNxCMWPcXc1amJHt (commit afba618, also carries e4feac7 Gmail form notifications). Rollback = dpl_3V2ksac687paz9r5nTFZ9FKajd6a. isitagentready.com on www.pointoak.com: 43 → 86.
 - Audit: /root/handoffs/pointoak-seo-aio-audit-2026-10-26/REPORT.md. isitagentready.com (Content Site): live 43 → staging 86; only DNS-AID fails (DNS records, not applicable).
 - `lib/seo.ts`: one FinancialService entity (`/#organization`, sameAs LinkedIn/IAPD 314866/BBB), WebSite, Person for Darsh (IAPD 5043274), `social()` per-page OG/Twitter with the 1200x630 `/images/og-card.jpg` (the logo PNG is white-on-transparent). WebPage/ContactPage + breadcrumbs on the pages that had none.
 - Removed the unapproved "Over 50 years of collective experience" homepage OG text; layout defaults now use the homepage meta from Darsh's map.
