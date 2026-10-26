@@ -36,6 +36,7 @@ import { BothSidesBridge, ConvergeHexes, FinancialLifeHub } from "@/components/h
 import { ConvergeIntoOne, GuidancePillars, HexQuad } from "@/components/home/AreaGraphics";
 import type { Block, Card, Section } from "@/lib/content";
 import { SITE_URL, getPage } from "@/lib/content";
+import { organization, social, website } from "@/lib/seo";
 
 // Layout follows the Figma homepage concept v4 (file t2opt1zP1oNb40eWjVUlnE); every word comes from
 // content/pages/home.json (Darsh's master copy). Photos are from the same Figma file.
@@ -46,28 +47,10 @@ export const metadata: Metadata = {
   title: { absolute: home.meta.title ?? "PointOak Retirement Advisors" },
   description: home.meta.description ?? undefined,
   alternates: { canonical: SITE_URL },
+  ...social(home.meta.title ?? "PointOak Retirement Advisors", home.meta.description ?? undefined, SITE_URL + "/"),
 };
 
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "FinancialService",
-  name: "PointOak Retirement Advisors",
-  url: SITE_URL,
-  logo: `${SITE_URL}/images/pointoak-logo.png`,
-  description: home.meta.description,
-  telephone: "+1-703-595-4444",
-  email: "info@pointoak.com",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: "1751 Pinnacle Drive, Suite 600",
-    addressLocality: "McLean",
-    addressRegion: "VA",
-    postalCode: "22102",
-    addressCountry: "US",
-  },
-  areaServed: ["Washington, DC metro area", "United States"],
-  serviceType: ["Wealth Management", "Investment Management", "Financial Planning", "Retirement Plan Consulting"],
-};
+const jsonLd = [{ ...organization, description: home.meta.description ?? undefined }, website];
 
 const section = (id: string) => home.sections.find((s) => s.id === id) as Section;
 const first = <T extends Block["type"]>(s: Section, type: T) =>
@@ -160,7 +143,9 @@ export default function Home() {
 
   return (
     <main className="min-h-screen">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      {jsonLd.map((d, i) => (
+        <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(d) }} />
+      ))}
       <Header />
 
       {/* Hero — aerial interchange, as in the Figma concept */}

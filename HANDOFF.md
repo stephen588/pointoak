@@ -63,3 +63,11 @@ git -c credential.helper= -c credential.helper='!f(){ echo username=stephen588; 
 ```
 Pushing still deploys nothing (webhook dead); deploys stay `./stage.sh` / `./golive.sh`.
 Rollback: production before 2026-10-26 launch = dpl_Dm4abnop6rXFkpz3Gc7FrpfzxWZw (2026-04-24 deploy)
+
+## 2026-10-26 — SEO/AIO + agent-readiness fixes (STAGED, not live)
+- Audit: /root/handoffs/pointoak-seo-aio-audit-2026-10-26/REPORT.md. isitagentready.com (Content Site): live 43 → staging 86; only DNS-AID fails (DNS records, not applicable).
+- `lib/seo.ts`: one FinancialService entity (`/#organization`, sameAs LinkedIn/IAPD 314866/BBB), WebSite, Person for Darsh (IAPD 5043274), `social()` per-page OG/Twitter with the 1200x630 `/images/og-card.jpg` (the logo PNG is white-on-transparent). WebPage/ContactPage + breadcrumbs on the pages that had none.
+- Removed the unapproved "Over 50 years of collective experience" homepage OG text; layout defaults now use the homepage meta from Darsh's map.
+- Agents: `/llms.txt` (app/llms.txt/route.ts, built from page meta), `Accept: text/markdown` → middleware rewrite to `/md/...` (lib/markdown.ts, same words + footer disclosures; keep DISCLOSURES in step with Footer.tsx), Link header (llms.txt + sitemap), robots.txt Content-Signal `search=yes, ai-input=yes, ai-train=no` + named AI bots.
+- Sitemap has no lastmod (it was build time). /news, /newsletter → /resources/.
+- Held for Darsh: FAQPage markup and article author/dates (PC07 dropped them on purpose); ai-train=no is our default, his call.

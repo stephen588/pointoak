@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import ContentPage from "@/components/page/ContentPage";
 import { SITE_URL, genericRoutes, getPage } from "@/lib/content";
+import { social } from "@/lib/seo";
 
 export const dynamicParams = false;
 
@@ -22,7 +23,7 @@ export function generateMetadata({ params }: { params: { slug: string[] } }): Me
     title: { absolute: page.meta.title ?? page.name },
     description: page.meta.description ?? undefined,
     alternates: { canonical: url },
-    openGraph: { title: page.meta.title ?? page.name, description: page.meta.description ?? undefined, url },
+    ...social(page.meta.title ?? page.name, page.meta.description ?? undefined, url),
   };
 }
 

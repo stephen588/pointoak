@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import Blocks from "./Blocks";
 import type { PageContent, Section } from "@/lib/content";
 import { SITE_URL, allFaqs, breadcrumbs } from "@/lib/content";
+import { OG_IMAGE, breadcrumbList, orgRef } from "@/lib/seo";
 import HeroGraphic from "./HeroGraphic";
 import { HexBadge, Milestones, milestonesFrom } from "./Diagrams";
 import { cardIcons } from "./cardIcon";
@@ -177,18 +178,7 @@ function heroIcons(page: PageContent) {
 export default function ContentPage({ page }: { page: PageContent }) {
   const trail = breadcrumbs(page.route);
   const faqs = allFaqs(page);
-  const jsonLd: object[] = [
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      itemListElement: trail.map((t, i) => ({
-        "@type": "ListItem",
-        position: i + 1,
-        name: t.name,
-        item: SITE_URL + t.href,
-      })),
-    },
-  ];
+  const jsonLd: object[] = [breadcrumbList(trail)];
   if (page.route.startsWith("/services/") || page.route.startsWith("/corporate-retirement-plans/")) {
     jsonLd.push({
       "@context": "https://schema.org",
@@ -196,20 +186,18 @@ export default function ContentPage({ page }: { page: PageContent }) {
       name: page.name,
       url: SITE_URL + page.route,
       description: page.meta.description ?? undefined,
-      provider: {
-        "@type": "FinancialService",
-        name: "PointOak Retirement Advisors",
-        url: SITE_URL,
-        address: {
-          "@type": "PostalAddress",
-          streetAddress: "1751 Pinnacle Drive, Suite 600",
-          addressLocality: "McLean",
-          addressRegion: "VA",
-          postalCode: "22102",
-          addressCountry: "US",
-        },
-      },
+      provider: orgRef,
       areaServed: ["Washington, DC metro area", "United States"],
+    });
+  } else if (page.kind !== "article") {
+    // FAQ and Why PointOak: the SEO map lists "WebPage + BreadcrumbList; shared Organization reference"
+    jsonLd.push({
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      name: page.name,
+      url: SITE_URL + page.route,
+      description: page.meta.description ?? undefined,
+      about: orgRef,
     });
   }
   // FAQs stay visible but carry no FAQPage markup (handoff PC07: no FAQ rich-result expectations).
@@ -223,7 +211,8 @@ export default function ContentPage({ page }: { page: PageContent }) {
       description: page.meta.description ?? undefined,
       url: SITE_URL + page.route,
       mainEntityOfPage: SITE_URL + page.route,
-      publisher: { "@type": "Organization", name: "PointOak Retirement Advisors", url: SITE_URL },
+      image: SITE_URL + OG_IMAGE.url,
+      publisher: { ...orgRef, logo: `${SITE_URL}/images/pointoak-logo-square.png` },
     });
   }
 

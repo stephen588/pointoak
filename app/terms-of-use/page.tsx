@@ -4,6 +4,7 @@ import type { ReactNode } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { SITE_URL } from "@/lib/content";
+import { breadcrumbList, orgRef, social } from "@/lib/seo";
 
 // Terms of Use: Darsh's PointOak_Terms_of_Use_1.docx (email 10-19, "final pending one last review"), word for word.
 // Disclosure links are root-relative so they resolve to www.pointoak.com at launch (his note).
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
   title: { absolute: TITLE },
   description: DESCRIPTION,
   alternates: { canonical: `${SITE_URL}/terms-of-use/` },
-  openGraph: { title: TITLE, description: DESCRIPTION, url: `${SITE_URL}/terms-of-use/` },
+  ...social(TITLE, DESCRIPTION, `${SITE_URL}/terms-of-use/`),
 };
 
 const a = "text-medium-blue underline underline-offset-2 hover:text-navy";
@@ -154,9 +155,17 @@ const SECTIONS: { title: string; body: ReactNode[] }[] = [
 
 const slug = (t: string) => "section-" + t.split(".")[0];
 
+const jsonLd = [
+  { "@context": "https://schema.org", "@type": "WebPage", name: TITLE, url: `${SITE_URL}/terms-of-use/`, description: DESCRIPTION, publisher: orgRef },
+  breadcrumbList([{ name: "Home", href: "/" }, { name: "Terms of Use", href: "/terms-of-use/" }]),
+];
+
 export default function TermsOfUsePage() {
   return (
     <main className="min-h-screen">
+      {jsonLd.map((d, i) => (
+        <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(d) }} />
+      ))}
       <Header />
 
       <section className="relative overflow-hidden pt-[78px] xl:pt-[110px]" style={{ background: "linear-gradient(160deg, #002337 0%, #003754 55%, #0a5c8a 100%)" }}>

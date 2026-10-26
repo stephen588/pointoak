@@ -10,6 +10,7 @@ import { BeliefsTrack, CommitmentsGraphic, UniverseGraphic } from "@/components/
 import PointOakSymbol from "@/components/brand/PointOakSymbol";
 import type { Block, Card, Section } from "@/lib/content";
 import { SITE_URL, breadcrumbs, getPage } from "@/lib/content";
+import { breadcrumbList, darsh, orgRef, social } from "@/lib/seo";
 
 // About has its own layout (Hannah 10-06: header-nav pages get unique heroes and custom graphics).
 // All words come from content/pages/about.json; the graphics only rearrange them.
@@ -20,7 +21,7 @@ export const metadata: Metadata = {
   title: { absolute: page.meta.title ?? page.name },
   description: page.meta.description ?? undefined,
   alternates: { canonical: SITE_URL + page.route },
-  openGraph: { title: page.meta.title ?? page.name, description: page.meta.description ?? undefined, url: SITE_URL + page.route },
+  ...social(page.meta.title ?? page.name, page.meta.description ?? undefined, SITE_URL + page.route),
 };
 
 type P = Extract<Block, { type: "p" }>;
@@ -56,12 +57,11 @@ export default function AboutPage() {
       name: page.name,
       url: SITE_URL + page.route,
       description: page.meta.description ?? undefined,
+      about: orgRef,
+      mainEntity: { "@id": darsh["@id"] },
     },
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      itemListElement: trail.map((t, i) => ({ "@type": "ListItem", position: i + 1, name: t.name, item: SITE_URL + t.href })),
-    },
+    darsh,
+    breadcrumbList(trail),
   ];
 
   return (

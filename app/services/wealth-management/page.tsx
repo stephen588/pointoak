@@ -13,6 +13,7 @@ import ServiceExplorer from "@/components/wealth/ServiceExplorer";
 import { BeyondRings, CoordinationGraphic, OrbitHero, PromiseBand, StageCurve } from "@/components/wealth/WealthGraphics";
 import type { Block, Card, Section } from "@/lib/content";
 import { SITE_URL, breadcrumbs, getPage } from "@/lib/content";
+import { breadcrumbList, orgRef, social } from "@/lib/seo";
 import { pages } from "@/content";
 
 // Wealth Management has its own layout (Hannah 10-06: header-nav pages get unique heroes and
@@ -24,7 +25,7 @@ export const metadata: Metadata = {
   title: { absolute: page.meta.title ?? page.name },
   description: page.meta.description ?? undefined,
   alternates: { canonical: SITE_URL + page.route },
-  openGraph: { title: page.meta.title ?? page.name, description: page.meta.description ?? undefined, url: SITE_URL + page.route },
+  ...social(page.meta.title ?? page.name, page.meta.description ?? undefined, SITE_URL + page.route),
 };
 
 type P = Extract<Block, { type: "p" }>;
@@ -83,13 +84,10 @@ export default function WealthManagementPage() {
       name: page.name,
       url: SITE_URL + page.route,
       description: page.meta.description ?? undefined,
-      provider: { "@type": "FinancialService", name: "PointOak Retirement Advisors", url: SITE_URL },
+      provider: orgRef,
+      areaServed: ["Washington, DC metro area", "United States"],
     },
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      itemListElement: trail.map((t, i) => ({ "@type": "ListItem", position: i + 1, name: t.name, item: SITE_URL + t.href })),
-    },
+    breadcrumbList(trail),
   ];
 
   return (

@@ -4,6 +4,7 @@ import type { ReactNode } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { SITE_URL } from "@/lib/content";
+import { breadcrumbList, orgRef, social } from "@/lib/seo";
 
 // Website Privacy Policy: Darsh's final PointOak_Website_Privacy_Policy.docx (email 10-23), word for word.
 // Section 5 names Google Analytics, so GA must be on the site at launch; no ad tags without asking him first.
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
   title: { absolute: TITLE },
   description: DESCRIPTION,
   alternates: { canonical: `${SITE_URL}/website-privacy-policy/` },
-  openGraph: { title: TITLE, description: DESCRIPTION, url: `${SITE_URL}/website-privacy-policy/` },
+  ...social(TITLE, DESCRIPTION, `${SITE_URL}/website-privacy-policy/`),
 };
 
 const a = "text-medium-blue underline underline-offset-2 hover:text-navy";
@@ -156,9 +157,17 @@ const SECTIONS: { title: string; body: ReactNode[] }[] = [
 const slug = (t: string) => "section-" + t.split(".")[0];
 const nbsp = (t: string) => t.replace(/ (\S+)$/, " $1");
 
+const jsonLd = [
+  { "@context": "https://schema.org", "@type": "WebPage", name: TITLE, url: `${SITE_URL}/website-privacy-policy/`, description: DESCRIPTION, publisher: orgRef },
+  breadcrumbList([{ name: "Home", href: "/" }, { name: "Website Privacy Policy", href: "/website-privacy-policy/" }]),
+];
+
 export default function WebsitePrivacyPolicyPage() {
   return (
     <main className="min-h-screen">
+      {jsonLd.map((d, i) => (
+        <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(d) }} />
+      ))}
       <Header />
 
       <section className="relative overflow-hidden pt-[78px] xl:pt-[110px]" style={{ background: "linear-gradient(160deg, #002337 0%, #003754 55%, #0a5c8a 100%)" }}>

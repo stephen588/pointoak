@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import PointOakSymbol from "@/components/brand/PointOakSymbol";
 import ClientCenterTiles from "@/components/client-center/ClientCenterTiles";
 import { SITE_URL } from "@/lib/content";
+import { breadcrumbList, orgRef, social } from "@/lib/seo";
 
 // Client Center (Darsh 10-13, links 10-19): account logins, secure upload, team contacts.
 // Linked from the header (set apart from the main menu) and the footer.
@@ -17,7 +18,7 @@ export const metadata: Metadata = {
   title: { absolute: TITLE },
   description: DESCRIPTION,
   alternates: { canonical: `${SITE_URL}/client-center/` },
-  openGraph: { title: TITLE, description: DESCRIPTION, url: `${SITE_URL}/client-center/` },
+  ...social(TITLE, DESCRIPTION, `${SITE_URL}/client-center/`),
 };
 
 const HEX = "polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%)";
@@ -28,9 +29,17 @@ const CONTACTS = [
   { Icon: MapPin, label: "Office", value: "1751 Pinnacle Drive, Suite 600, McLean, VA 22102", href: MAPS },
 ];
 
+const jsonLd = [
+  { "@context": "https://schema.org", "@type": "WebPage", name: TITLE, url: `${SITE_URL}/client-center/`, description: DESCRIPTION, publisher: orgRef },
+  breadcrumbList([{ name: "Home", href: "/" }, { name: "Client Center", href: "/client-center/" }]),
+];
+
 export default function ClientCenterPage() {
   return (
     <main className="min-h-screen">
+      {jsonLd.map((d, i) => (
+        <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(d) }} />
+      ))}
       <Header />
 
       <section className="relative overflow-hidden pt-[78px] xl:pt-[110px]" style={{ background: "linear-gradient(160deg, #002337 0%, #003754 55%, #0a5c8a 100%)" }}>

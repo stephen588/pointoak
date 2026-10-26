@@ -3,6 +3,10 @@ import { Outfit, Poppins, DM_Sans, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
 import ConsultationModalProvider from "@/components/ConsultationModalProvider";
+import { SITE_URL, getPage } from "@/lib/content";
+import { social } from "@/lib/seo";
+
+const home = getPage("/")!;
 
 // Google Analytics 4 (Darsh approved 10-23; the Website Privacy Policy, Section 5, names it, so it must be live at launch).
 // Set NEXT_PUBLIC_GA_MEASUREMENT_ID on the Vercel production env only, so staging traffic stays out of the reports.
@@ -40,7 +44,8 @@ export const metadata: Metadata = {
     default: "PointOak Retirement Advisors | Independent Fiduciary Wealth Management",
     template: "%s | PointOak Retirement Advisors",
   },
-  description: "Independent, fee-only fiduciary wealth management for high-net-worth individuals and families in DC, Maryland, Virginia and nationwide. Retirement planning, investment management, tax-efficient strategies, and 401(k) rollover guidance from an SEC-registered investment advisor.",
+  // Defaults come from the homepage meta in Darsh's SEO map; every page sets its own.
+  description: home.meta.description ?? undefined,
   keywords: [
     "fiduciary wealth management",
     "fee-only financial advisor",
@@ -71,28 +76,7 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  openGraph: {
-    type: "website",
-    locale: "en_US",
-    url: "https://www.pointoak.com",
-    siteName: "PointOak Retirement Advisors",
-    title: "PointOak Retirement Advisors | Independent Fiduciary Wealth Management",
-    description: "Independent, fee-only fiduciary wealth management for high-net-worth individuals and families. Over 50 years of collective experience in retirement planning, investment management, and tax-efficient strategies.",
-    images: [
-      {
-        url: "/images/pointoak-logo.png",
-        width: 1200,
-        height: 630,
-        alt: "PointOak Retirement Advisors",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "PointOak Retirement Advisors | Independent Fiduciary Wealth Management",
-    description: "Independent, fee-only fiduciary wealth management for high-net-worth individuals and families. Retirement planning, investment management, and tax strategies.",
-    images: ["/images/pointoak-logo.png"],
-  },
+  ...social(home.meta.title ?? "PointOak Retirement Advisors", home.meta.description ?? undefined, SITE_URL + "/"),
   alternates: {
     canonical: "https://www.pointoak.com",
   },

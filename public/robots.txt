@@ -1,10 +1,31 @@
 # robots.txt for pointoak.com
 # https://www.pointoak.com/robots.txt
 
+# Content Signals (contentsignals.org): appear in search and in AI answers that cite and
+# link to the site; no use as AI model training data.
 User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=no
 Allow: /
 
 # Disallow admin and API routes
+Disallow: /admin
+Disallow: /admin/
+Disallow: /api/
+
+# AI crawlers: same access as everyone else (named so agents see explicit rules)
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: Bingbot
+Content-Signal: search=yes, ai-input=yes, ai-train=no
+Allow: /
 Disallow: /admin
 Disallow: /admin/
 Disallow: /api/
