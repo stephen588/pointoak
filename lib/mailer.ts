@@ -1,14 +1,26 @@
-import nodemailer from "nodemailer";
+import { google } from "googleapis";
+import fs from "fs";
 
-const transporter = nodemailer.createTransport({
-  host: process.env.SMTP_HOST || "smtp.mailgun.org",
-  port: parseInt(process.env.SMTP_PORT || "587"),
-  secure: false, // STARTTLS on 587
-  auth: {
-    user: process.env.SMTP_USER,
-    pass: process.env.SMTP_PASS,
-  },
-});
+// Notifications go out through the Gmail API as a Workspace mailbox (service account with domain-wide delegation).
+// Mailgun SMTP stopped working from Vercel on 10-09: the Mailgun account is locked to an IP allowlist after the
+// SMTP-login theft, and Vercel functions have no fixed IP (PointOak launch, 10-26).
+// GMAIL_SCOPE must be a scope the service account is authorized for in Google Workspace admin.
+const GMAIL_SCOPE = process.env.GMAIL_SCOPE || "https://www.googleapis.com/auth/gmail.modify";
+
+function getAuth(sendAs: string) {
+  const saContent = process.env.GOOGLE_SERVICE_ACCOUNT_JSON_CONTENT;
+  const saPath = process.env.GOOGLE_SERVICE_ACCOUNT_JSON;
+  const credentials = saContent
+    ? JSON.parse(saContent)
+    : saPath && fs.existsSync(saPath)
+      ? JSON.parse(fs.readFileSync(saPath, "utf-8"))
+      : null;
+  if (!credentials) throw new Error("Google service account credentials not found");
+  return new google.auth.JWT({ email: credentials.client_email, key: credentials.private_key, scopes: [GMAIL_SCOPE], subject: sendAs });
+}
+
+// RFC 2047 so names and subjects with non-ASCII characters (em dashes, accents) survive.
+const encodeHeader = (v: string) => (/^[\x20-\x7e]*$/.test(v) ? v : `=?UTF-8?B?${Buffer.from(v, "utf-8").toString("base64")}?=`);
 
 interface EmailParams {
   to: string;
@@ -18,17 +30,24 @@ interface EmailParams {
 }
 
 export async function sendEmail({ to, subject, htmlBody, replyTo }: EmailParams) {
-  const from = process.env.SMTP_FROM || process.env.SMTP_USER || "admin@webleadnotification.com";
+  const sendAs = process.env.GMAIL_SEND_AS;
+  if (!sendAs) throw new Error("GMAIL_SEND_AS is not set");
+  const gmail = google.gmail({ version: "v1", auth: getAuth(sendAs) });
 
-  const result = await transporter.sendMail({
-    from: `PointOak Retirement Advisors <${from}>`,
-    to,
-    subject,
-    html: htmlBody,
-    ...(replyTo ? { replyTo } : {}),
-  });
+  const headers = [
+    `From: ${encodeHeader("PointOak Retirement Advisors")} <${sendAs}>`,
+    `To: ${to}`,
+    `Subject: ${encodeHeader(subject)}`,
+    "MIME-Version: 1.0",
+    'Content-Type: text/html; charset="UTF-8"',
+    "Content-Transfer-Encoding: base64",
+    ...(replyTo ? [`Reply-To: ${replyTo}`] : []),
+  ];
+  const body = Buffer.from(htmlBody, "utf-8").toString("base64").replace(/.{76}/g, "$&\r\n");
+  const raw = Buffer.from(headers.join("\r\n") + "\r\n\r\n" + body).toString("base64url");
 
-  return result;
+  const result = await gmail.users.messages.send({ userId: "me", requestBody: { raw } });
+  return result.data;
 }
 
 export function buildConsultationNotificationEmail(submission: {
