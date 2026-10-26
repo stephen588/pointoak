@@ -62,3 +62,4 @@ Plain `git push` 403s because the credential store answers as TKXMediaTools, whi
 git -c credential.helper= -c credential.helper='!f(){ echo username=stephen588; echo "password=$(gh auth token -u stephen588)"; }; f' push origin preview
 ```
 Pushing still deploys nothing (webhook dead); deploys stay `./stage.sh` / `./golive.sh`.
+Rollback: production before 2026-10-26 launch = dpl_Dm4abnop6rXFkpz3Gc7FrpfzxWZw (2026-04-24 deploy)
