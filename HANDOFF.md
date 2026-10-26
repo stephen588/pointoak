@@ -55,3 +55,10 @@ Token: sourced from `/opt/report-dashboard/.env.keys` (VERCEL_TOKEN). Git push a
 - Both pages added to app/sitemap.ts (they have no content JSON).
 - Darsh 10-21 (staged): inbox leads -> marketing@pointoak.com (INBOX_NOTIFY_EMAIL, default in app/api/contact/route.ts; calendar leads still NOTIFY_EMAIL). BBB Dynamic Seal + his rating line under it in the credentials block (HexSeals in components/page/Diagrams.tsx; the BBB list item renders as the seal; the "covering the period" blank dropped because the seal shows the date). /website-privacy-policy/ = his docx verbatim, linked from Terms Section 14 + footer + sitemap. No "Last updated" line on either page (his call).
 - Still open: Section 5 of the Website Privacy Policy still shows his bracketed drafting notes until he sends final wording (must not go live like that); team contacts for the Client Center.
+
+## 2026-10-26 — Git push (the 403 fix)
+Plain `git push` 403s because the credential store answers as TKXMediaTools, which has no access to stephen588/pointoak. Push with the stephen588 account that `gh` is logged into:
+```
+git -c credential.helper= -c credential.helper='!f(){ echo username=stephen588; echo "password=$(gh auth token -u stephen588)"; }; f' push origin preview
+```
+Pushing still deploys nothing (webhook dead); deploys stay `./stage.sh` / `./golive.sh`.
