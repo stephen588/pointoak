@@ -72,3 +72,10 @@ Rollback: production before 2026-10-26 launch = dpl_Dm4abnop6rXFkpz3Gc7FrpfzxWZw
 - Agents: `/llms.txt` (app/llms.txt/route.ts, built from page meta), `Accept: text/markdown` → middleware rewrite to `/md/...` (lib/markdown.ts, same words + footer disclosures; keep DISCLOSURES in step with Footer.tsx), Link header (llms.txt + sitemap), robots.txt Content-Signal `search=yes, ai-input=yes, ai-train=no` + named AI bots.
 - Sitemap has no lastmod (it was build time). /news, /newsletter → /resources/.
 - Held for Darsh: FAQPage markup and article author/dates (PC07 dropped them on purpose); ai-train=no is our default, his call.
+
+## 2026-10-27 — Launched; form email fixed
+- www.pointoak.com went live 10-26 from `preview` (e9c6fc6). pointoak.com → www redirect set in Vercel (Sherry).
+- Form notifications were silently failing (Mailgun 535 on the old admin@webleadnotification.com login; every submission still saved to Supabase). Fixed 10-27: SMTP_USER / SMTP_FROM / SMTP_PASS in Vercel are now the `pointoak@webleadnotification.com` Mailgun SMTP credential. Both routes tested end to end to sherry@; test rows deleted.
+- Notify routing in prod: calendar leads → NOTIFY_EMAIL (info@pointoak.com); inbox leads → INBOX_NOTIFY_EMAIL (unset, code default marketing@pointoak.com).
+- Env changes need a redeploy (`./golive.sh`) to take effect. Runtime logs: `vercel logs https://www.pointoak.com --scope tkx-media --token "$(cat /root/.vercel-token)" --json --limit 1000`.
+- Still open: GA4 Realtime check (property 560555336 is under analytics2@, not analytics@); Search Console verification (Darsh or DNS TXT).
