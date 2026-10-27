@@ -78,4 +78,12 @@ Rollback: production before 2026-10-26 launch = dpl_Dm4abnop6rXFkpz3Gc7FrpfzxWZw
 - Form notifications were silently failing (Mailgun 535 on the old admin@webleadnotification.com login; every submission still saved to Supabase). Fixed 10-27: SMTP_USER / SMTP_FROM / SMTP_PASS in Vercel are now the `pointoak@webleadnotification.com` Mailgun SMTP credential. Both routes tested end to end to sherry@; test rows deleted.
 - Notify routing in prod: calendar leads → NOTIFY_EMAIL (info@pointoak.com); inbox leads → INBOX_NOTIFY_EMAIL (unset, code default marketing@pointoak.com).
 - Env changes need a redeploy (`./golive.sh`) to take effect. Runtime logs: `vercel logs https://www.pointoak.com --scope tkx-media --token "$(cat /root/.vercel-token)" --json --limit 1000`.
-- Still open: GA4 Realtime check (property 560555336 is under analytics2@, not analytics@); Search Console verification (Darsh or DNS TXT).
+- GA4 Realtime CONFIRMED 10-27 (Stephen, phone visit showed in property 560555336 under analytics2@). analytics@ still has no access (needs Darsh, Admin, to add it as Viewer).
+- Still open: Search Console verification (Darsh or DNS TXT at GoDaddy), then submit sitemap + Bing Webmaster Tools; official PageSpeed run; Google Business Profile link/NAP check.
+
+## 2026-10-27 — Dev follow-ups (sent to the devs on Slack by Stephen)
+1. Reconnect GitHub → Vercel: set production branch to `preview` first, then reconnect and confirm a push deploys. Until then deploys = `./golive.sh` only; never deploy/merge `main` (stale).
+2. Next.js 14.2.35 → 15.5.28 or 16.4.1 (14.x gets no fix for the Oct CC-4873 advisory; no Server Actions here, so not urgent). Build on `preview`, smoke-test pages, form, /admin.
+3. Homepage mobile LCP ~3.6s (hero image, `hero-zoom` animation): try no zoom on first paint or a smaller mobile crop.
+4. Waiting on Darsh: FAQPage + Insights author/dates (PC07); 307 → 308 for /our-consulting-team, /insights, /privacy; GSC DNS TXT.
+- Recheck rankings / AI citations / indexing ~2026-12-01 (cloud routine).
