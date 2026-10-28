@@ -2,7 +2,8 @@ import { getPage } from "@/lib/content";
 import { pageMarkdown } from "@/lib/markdown";
 
 // Target of the middleware rewrite for "Accept: text/markdown" requests; not linked anywhere.
-export function GET(_req: Request, { params }: { params: { slug?: string[] } }) {
+export async function GET(_req: Request, props: { params: Promise<{ slug?: string[] }> }) {
+  const params = await props.params;
   const route = params.slug?.length ? "/" + params.slug.join("/") + "/" : "/";
   const page = getPage(route);
   if (!page) return new Response("Not found\n", { status: 404, headers: { "Content-Type": "text/plain; charset=utf-8" } });
