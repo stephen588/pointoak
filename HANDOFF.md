@@ -83,7 +83,7 @@ Rollback: production before 2026-10-26 launch = dpl_Dm4abnop6rXFkpz3Gc7FrpfzxWZw
 
 ## 2026-10-27 — Dev follow-ups (sent to the devs on Slack by Stephen)
 1. ~~Reconnect GitHub → Vercel~~ DONE 10-28 (see entry below). Never deploy/merge `main` (stale).
-2. Next.js 14.2.35 → 15.5.28 or 16.4.1 (14.x gets no fix for the Oct CC-4873 advisory; no Server Actions here, so not urgent). Build on `preview`, smoke-test pages, form, /admin.
+2. ~~Next.js 14.2.35 → 15.5.28~~ LIVE 10-28 (ec33f88, dpl_EGRbkuLXkRo1ooR1mzACVFghEsdv) — see 10-28 entry.
 3. Homepage mobile LCP ~3.6s (hero image, `hero-zoom` animation): LIVE 10-28 (merge bc592ad, dpl_33Mbnfb16wDrai7yrtNqCa6kWaNA) — see 10-28 entry.
 4. Waiting on Darsh: FAQPage + Insights author/dates (PC07); 307 → 308 for /our-consulting-team, /insights, /privacy; GSC DNS TXT.
 - Recheck rankings / AI citations / indexing ~2026-12-01 (cloud routine).
@@ -95,3 +95,11 @@ Rollback: production before 2026-10-26 launch = dpl_Dm4abnop6rXFkpz3Gc7FrpfzxWZw
 - Rule from here: nothing lands on `preview` that isn't approved for prod. Build on a side branch, `./stage.sh`, get the OK, then merge/push.
 - Hero mobile LCP (dev follow-up #3): branch `hero-mobile-lcp` (8a416ce). Phones get a 3:4 portrait crop (`public/images/home/hero-hexagon-aerial-mobile.jpg`, art-directed via `getImageProps` + `<picture>` in app/page.tsx) and the `hero-zoom` animation is desktop-only (`@media (min-width: 768px)` in app/globals.css). No copy touched. Local Lighthouse mobile: live LCP 5.3s / perf 66 → staging LCP 2.9s / perf 94 (staging has no GA4 tag, so the TBT part is overstated; the LCP gain is real). Merged to `preview` and LIVE 10-28 (merge bc592ad → dpl_33Mbnfb16wDrai7yrtNqCa6kWaNA, git-triggered; Faisal's call, Hannah had asked for exactly this in her 10-27 list). Rollback = dpl_8nAy2bRPDxKqEuG5DVAT5ZM8nDke (85d5072, same code as before the fix). If Hannah wants the mobile zoom back, drop the `@media (min-width: 768px)` wrapper in app/globals.css.
 - Also added `.vercelignore` (`.claude`) on that branch so the stale Claude worktree stays out of CLI deploys.
+
+## 2026-10-28 — Next.js 15.5.28 upgrade (LIVE, Faisal)
+- next 14.2.35 → 15.5.28, react/react-dom 18 → 19, @types/react(-dom) 19, eslint-config-next 15.5.28, lucide-react 0.379 → 1.63 (needed for React 19 peer deps; icons unchanged, they now carry aria-hidden).
+- Code changes: `next-async-request-api` codemod made `params` a Promise in app/[...slug]/page.tsx and app/md/[[...slug]]/route.ts (admin [id] route + lib/admin-auth.ts `await cookies()` already were). components/Footer.tsx: the three internal `<a>` links (Terms, Website Privacy Policy, Client Center) are `<Link>` now — Next 15's `no-html-link-for-pages` lint rule fails the Vercel build otherwise (passes locally, fails on Vercel). No copy, content JSON, CSS, middleware, robots or next.config touched, so no isitagentready re-run needed.
+- Verified on staging then live: all 47 sitemap pages identical visible text / JSON-LD / meta to the Next 14 build; redirects, trailing slash, Accept: text/markdown rewrite, llms.txt, robots, sitemap, 404, X-Robots-Tag on *.vercel.app, Link header; /api/contact validation; admin login → submissions → settings → /admin → logout with the real password (env pulled to a scratch file, deleted after). Not exercised: a real form submission (would email the client). Phone/desktop screenshots clean, no hydration errors in the browser console.
+- Known: Next 15 logs `Error: Internal: NoFallbackError` on unknown-URL 404s under `next start` locally (dynamicParams=false in app/[...slug]/page.tsx); on Vercel the 404 is served without that error, so left as is.
+- Prod = dpl_EGRbkuLXkRo1ooR1mzACVFghEsdv (ec33f88). Rollback = dpl_GfVKFaxK8UaNBLV59nDpHsuBydpy (005ec66, last Next 14 build, hero fix included).
+- Local `node_modules` is on Next 15 now; `npm ci` after checking out anything older.
