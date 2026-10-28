@@ -160,13 +160,13 @@ export default function Footer() {
                   Privacy Statement
                 </a>
                 <span aria-hidden="true">|</span>
-                <a href="/terms-of-use/" className="underline hover:text-white/80 transition-colors">
+                <Link href="/terms-of-use/" className="underline hover:text-white/80 transition-colors">
                   Terms of Use
-                </a>
+                </Link>
                 <span aria-hidden="true">|</span>
-                <a href="/website-privacy-policy/" className="underline hover:text-white/80 transition-colors">
+                <Link href="/website-privacy-policy/" className="underline hover:text-white/80 transition-colors">
                   Website Privacy Policy
-                </a>
+                </Link>
               </p>
             </div>
           </div>
@@ -181,9 +181,9 @@ export default function Footer() {
             © 2026 PointOak Retirement Advisors, LLC. All Rights Reserved.
           </p>
           <div className="flex items-center gap-6">
-            <a href="/client-center/" className="font-outfit text-white text-xs md:text-sm hover:text-white/80 transition-colors">
+            <Link href="/client-center/" className="font-outfit text-white text-xs md:text-sm hover:text-white/80 transition-colors">
               Client Center
-            </a>
+            </Link>
             <a
               href="https://www.linkedin.com/company/pointoak"
               target="_blank"
