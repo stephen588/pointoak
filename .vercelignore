@@ -1,0 +1,2 @@
+# Not part of the site; the Claude Code worktree under .claude would otherwise be uploaded with every CLI deploy.
+.claude

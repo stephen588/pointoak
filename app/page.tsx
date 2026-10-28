@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Image from "next/image";
+import Image, { getImageProps } from "next/image";
 import Link from "next/link";
 import {
   ArrowRight,
@@ -103,6 +103,27 @@ function MomentGraphic({ Icon, i }: { Icon: LucideIcon; i: number }) {
   );
 }
 
+/**
+ * Hero photo. Phones get a portrait centre crop (hero-hexagon-aerial-mobile.jpg, same subject) instead of the
+ * 2400x1339 landscape file, which object-cover was upscaling ~3x and mostly cropping away. Mobile LCP was ~3.6s
+ * (Hannah 10-27). 50vw + quality 50 = every phone gets the 640w WebP (~90 KB), sharp enough under the dark
+ * gradient (the portrait crop has more visible pixels, so it costs more per width than the landscape file). getImageProps instead of <Image> so the
+ * two sources share one <picture> and only the matching one is fetched; fetchpriority=high stays on the <img>.
+ * decoding="sync": the LCP image paints in the frame it arrives in instead of a later one (Lighthouse: 4.7s render delay).
+ */
+function HeroPicture() {
+  const common = { alt: "", fill: true, priority: true, className: "object-cover object-center hero-zoom" } as const;
+  const { props: { srcSet: mobileSrcSet } } = getImageProps({ ...common, sizes: "50vw", quality: 50, src: "/images/home/hero-hexagon-aerial-mobile.jpg" });
+  const { props: desktop } = getImageProps({ ...common, sizes: "100vw", src: "/images/home/hero-hexagon-aerial.jpg" });
+  return (
+    <picture>
+      <source media="(max-width: 767px)" srcSet={mobileSrcSet} sizes="50vw" />
+      {/* eslint-disable-next-line jsx-a11y/alt-text */}
+      <img {...desktop} decoding="sync" />
+    </picture>
+  );
+}
+
 function ArrowLink({ href, label, light }: { href: string; label: string; light?: boolean }) {
   return (
     <Link
@@ -150,7 +171,7 @@ export default function Home() {
 
       {/* Hero — aerial interchange, as in the Figma concept */}
       <section className="relative min-h-[92vh] flex items-end overflow-hidden bg-navy">
-        <Image src="/images/home/hero-hexagon-aerial.jpg" alt="" fill priority sizes="100vw" className="object-cover object-center hero-zoom" />
+        <HeroPicture />
         <div
           className="absolute inset-0"
           style={{ background: "linear-gradient(180deg, rgba(0,35,55,0.6) 0%, rgba(0,35,55,0.55) 30%, rgba(0,35,55,0.93) 68%, #002337 100%)" }}

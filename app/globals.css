@@ -22,12 +22,16 @@
   }
 }
 
-/* Homepage hero: zoom + slight drift on the aerial photo (off when the visitor prefers reduced motion) */
+/* Homepage hero: zoom + slight drift on the aerial photo. Desktop only (md and up): on phones the animated,
+   will-change'd image was the LCP element at ~3.6s (Hannah 10-27), so phones paint it once with no transform.
+   Off everywhere when the visitor prefers reduced motion. */
 @keyframes hero-zoom {
   from { transform: scale(1.02) translate(0, 0); }
   to { transform: scale(1.22) translate(-2.5%, 1.5%); }
 }
-.hero-zoom { animation: hero-zoom 20s ease-in-out infinite alternate; transform-origin: 50% 40%; will-change: transform; }
+@media (min-width: 768px) {
+  .hero-zoom { animation: hero-zoom 20s ease-in-out infinite alternate; transform-origin: 50% 40%; will-change: transform; }
+}
 @media (prefers-reduced-motion: reduce) { .hero-zoom { animation: none; } }
 
 /* Wealth Management: orbit + growth curve motion (off for reduced motion) */
