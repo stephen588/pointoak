@@ -7,14 +7,14 @@ Staging: https://pointoak-staging.vercel.app (stable alias, publicly viewable, n
 1. Edit code in /opt/pointoak (branch `preview`).
 2. `./stage.sh` → builds on Vercel, re-points pointoak-staging.vercel.app. Send URL to client.
 3. Client approves → `./golive.sh` (PROD — Adam/client approval required first).
-4. Commit + push `preview` after each round (webhook is dead, pushes deploy nothing).
+4. Commit + push `preview` after each round. **Since 10-28 a push to `preview` IS a production deploy** (GitHub → Vercel reconnected, production branch = `preview`). So push `preview` only with prod-ready, approved code; stage work on a side branch + `./stage.sh` first.
 
 Token: sourced from `/opt/report-dashboard/.env.keys` (VERCEL_TOKEN). Git push auth: remote pinned to `stephen588@github.com` credential (store has a second x-access-token entry that 403s on this repo).
 
 ## Critical context (2026-07-27)
 - **git `main` ≠ live prod.** main (Mar 25) contains ~15 extra pages (faq, who-we-serve, our-process, disclosures, privacy-policy, etc.) that are NOT live — they 404 on prod. Live prod = a trimmed 145-file CLI deploy from 2026-04-24 (dpl_Dm4abnop6rXFkpz3Gc7FrpfzxWZw), same day project `pointoak-prod-restore` was created → looks like an emergency restore/rollback. Do NOT deploy main to prod without checking whether those pages were rolled back on purpose.
 - Branch `preview` = live prod source, downloaded from that deployment via Vercel API (v8 files endpoint) and committed at 0c6ba4d. This is the baseline for all client changes.
-- GitHub→Vercel auto-deploy is DEAD (last git-triggered deploy 04-24; pushes trigger nothing; no Vercel webhook/app on repo). All deploys are CLI. Fixing needs GitHub UI access to reinstall the Vercel app.
+- GitHub→Vercel auto-deploy was dead 04-24 → 10-28 (all deploys CLI). Reconnected 10-28, see that entry.
 - Stale branches on origin: `staging` (Michael, Mar 26 — superseded, force-push to it was blocked, hence branch name `preview`), `dev/footer-fix`.
 - Other Vercel projects: `pointoak-prod-restore` (empty), `pointoak-site` (ERROR build) — both unused leftovers.
 
@@ -61,7 +61,7 @@ Plain `git push` 403s because the credential store answers as TKXMediaTools, whi
 ```
 git -c credential.helper= -c credential.helper='!f(){ echo username=stephen588; echo "password=$(gh auth token -u stephen588)"; }; f' push origin preview
 ```
-Pushing still deploys nothing (webhook dead); deploys stay `./stage.sh` / `./golive.sh`.
+Until 10-28 pushing deployed nothing; since 10-28 a push to `preview` deploys production (see below).
 Rollback: production before 2026-10-26 launch = dpl_Dm4abnop6rXFkpz3Gc7FrpfzxWZw (2026-04-24 deploy)
 
 ## 2026-10-26 — SEO/AIO + agent-readiness fixes (LIVE 10-26 late, approved by Stephen)
@@ -82,8 +82,16 @@ Rollback: production before 2026-10-26 launch = dpl_Dm4abnop6rXFkpz3Gc7FrpfzxWZw
 - Still open: Search Console verification (Darsh or DNS TXT at GoDaddy), then submit sitemap + Bing Webmaster Tools; official PageSpeed run; Google Business Profile link/NAP check.
 
 ## 2026-10-27 — Dev follow-ups (sent to the devs on Slack by Stephen)
-1. Reconnect GitHub → Vercel: set production branch to `preview` first, then reconnect and confirm a push deploys. Until then deploys = `./golive.sh` only; never deploy/merge `main` (stale).
+1. ~~Reconnect GitHub → Vercel~~ DONE 10-28 (see entry below). Never deploy/merge `main` (stale).
 2. Next.js 14.2.35 → 15.5.28 or 16.4.1 (14.x gets no fix for the Oct CC-4873 advisory; no Server Actions here, so not urgent). Build on `preview`, smoke-test pages, form, /admin.
-3. Homepage mobile LCP ~3.6s (hero image, `hero-zoom` animation): try no zoom on first paint or a smaller mobile crop.
+3. Homepage mobile LCP ~3.6s (hero image, `hero-zoom` animation): fix built 10-28 on branch `hero-mobile-lcp` (8a416ce), on staging, awaiting Hannah/Adam OK before merge to `preview` — see 10-28 entry.
 4. Waiting on Darsh: FAQPage + Insights author/dates (PC07); 307 → 308 for /our-consulting-team, /insights, /privacy; GSC DNS TXT.
 - Recheck rankings / AI citations / indexing ~2026-12-01 (cloud routine).
+
+## 2026-10-28 — GitHub → Vercel reconnected (Faisal + Sherry)
+- Vercel project `pointoak` is linked to GitHub `stephen588/pointoak` again (Sherry installed the Vercel GitHub App on stephen588; Vercel UI only showed faisal2002012's namespace, so faisal2002012 was added as a write collaborator on the repo but the install still had to come from stephen588).
+- Production branch = `preview` (Settings → Environments → Production → Branch Tracking). NOTE: the reconnect reset it to `main` — it had to be set to `preview` a second time after the repo was linked. Check this after any future reconnect. The project API does not let you change it; UI only.
+- Verified: empty commit 5683080 pushed to `preview` → Vercel production deployment from git (source `git`, target production, READY) → www.pointoak.com 200. **A push to `preview` is now a prod deploy.** `./golive.sh` still works for CLI deploys; `./stage.sh` still re-points the staging alias from the working tree.
+- Rule from here: nothing lands on `preview` that isn't approved for prod. Build on a side branch, `./stage.sh`, get the OK, then merge/push.
+- Hero mobile LCP (dev follow-up #3): branch `hero-mobile-lcp` (8a416ce). Phones get a 3:4 portrait crop (`public/images/home/hero-hexagon-aerial-mobile.jpg`, art-directed via `getImageProps` + `<picture>` in app/page.tsx) and the `hero-zoom` animation is desktop-only (`@media (min-width: 768px)` in app/globals.css). No copy touched. Local Lighthouse mobile: live LCP 5.3s / perf 66 → staging LCP 2.9s / perf 94 (staging has no GA4 tag, so the TBT part is overstated; the LCP gain is real). Staged at pointoak-staging.vercel.app. Waiting on Hannah/Adam before merging to `preview` (= prod).
+- Also added `.vercelignore` (`.claude`) on that branch so the stale Claude worktree stays out of CLI deploys.
