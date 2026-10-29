@@ -179,6 +179,15 @@ export default function Footer() {
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="font-outfit text-white text-xs md:text-sm">
             © 2026 PointOak Retirement Advisors, LLC. All Rights Reserved.
+            <span aria-hidden="true" className="mx-2">|</span>
+            <a
+              href="https://tkxmedia.com/"
+              target="_blank"
+              rel="nofollow noopener"
+              className="hover:text-white/80 transition-colors"
+            >
+              Website design by TKX&nbsp;Media
+            </a>
           </p>
           <div className="flex items-center gap-6">
             <Link href="/client-center/" className="font-outfit text-white text-xs md:text-sm hover:text-white/80 transition-colors">
