@@ -52,8 +52,6 @@ function blocks(list: Block[], depth = 3): string[] {
 const DISCLOSURES = [
   "Investment advisory services offered through PointOak Retirement Advisors, LLC, an SEC-registered investment adviser. This site is published for residents of the United States only. Not all of the products and services referenced on this site are available in every state and through every representative or advisor listed.",
   "PointOak Retirement Advisors, LLC does not provide tax or legal advice. PointOak coordinates with your tax and legal professionals but does not provide tax preparation, tax advice, or legal services. We recommend you consult with qualified tax and legal advisors for specific guidance related to your situation.",
-  "For questions about our regulatory status or to report concerns, contact us at (703) 595-4444 or info@pointoak.com.",
-  "Check the background of this investment professional on FINRA's BrokerCheck: [brokercheck.finra.org](https://brokercheck.finra.org)",
   "PointOak Retirement Advisors LLC is a Registered Investment Adviser located in Northern Virginia. Advisory services are only offered to clients where properly licensed or exempt. Investing involves risk, including the loss of principal; past performance does not guarantee future results. Registration does not imply a certain level of skill or training. Additional information is available at [www.adviserinfo.sec.gov](https://www.adviserinfo.sec.gov) (CRD# 314866).",
 ];
 

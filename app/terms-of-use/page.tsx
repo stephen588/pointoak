@@ -147,7 +147,7 @@ const SECTIONS: { title: string; body: ReactNode[] }[] = [
         1751 Pinnacle Dr., Suite 600, McLean, VA 22102
         <br />
         <a href="tel:+17035954444" className={a}>(703) 595-4444</a> ·{" "}
-        <a href="mailto:info@pointoak.com" className={a}>info@pointoak.com</a>
+        <Link href="/contact/" className={a}>Contact form</Link>
       </>,
     ],
   },

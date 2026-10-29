@@ -102,21 +102,6 @@ export default function Footer() {
                 tax and legal advisors for specific guidance related to your situation.
               </p>
               <p>
-                For questions about our regulatory status or to report concerns, contact us at (703)
-                595-4444 or info@pointoak.com.
-              </p>
-              <p className="font-bold text-white">
-                Check the background of this investment professional on FINRA&apos;s BrokerCheck:{" "}
-                <a
-                  href="https://brokercheck.finra.org"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="underline hover:text-white/80 transition-colors"
-                >
-                  brokercheck.finra.org
-                </a>
-              </p>
-              <p>
                 PointOak Retirement Advisors LLC is a Registered Investment Adviser located in
                 Northern Virginia. Advisory services are only offered to clients where properly
                 licensed or exempt. Investing involves risk, including the loss of principal; past
