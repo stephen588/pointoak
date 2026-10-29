@@ -103,3 +103,12 @@ Rollback: production before 2026-10-26 launch = dpl_Dm4abnop6rXFkpz3Gc7FrpfzxWZw
 - Known: Next 15 logs `Error: Internal: NoFallbackError` on unknown-URL 404s under `next start` locally (dynamicParams=false in app/[...slug]/page.tsx); on Vercel the 404 is served without that error, so left as is.
 - Prod = dpl_EGRbkuLXkRo1ooR1mzACVFghEsdv (ec33f88). Rollback = dpl_GfVKFaxK8UaNBLV59nDpHsuBydpy (005ec66, last Next 14 build, hero fix included).
 - Local `node_modules` is on Next 15 now; `npm ci` after checking out anything older.
+
+## 2026-10-29 — Darsh's 10-29 answers (branch `darsh-1029`, STAGED, not live)
+- Worktree: /opt/pointoak-worktrees/darsh-1029 (node_modules hardlinked with `cp -al`; never npm install there). Merge to `preview` = prod deploy, only after Darsh OKs the preview.
+- Notifications (lib/notify.ts, server-only so the addresses stay out of client JS): advisor-calendar ($500K+ personal, business) → dmakim@pointoak.com (ADVISOR_NOTIFY_EMAIL), everything else → marketing@ (INBOX_NOTIFY_EMAIL). NOTIFY_EMAIL (= info@ in Vercel) is no longer read. Business → Darsh and participants → marketing@ are our defaults, asked him to confirm.
+- info@ replaced by "Use our contact form" (/contact/) on home CTA cards, CTASection, footer contact column, Client Center; removed from Contact methods, Organization schema, llms.txt, markdown footer. KEPT (his legal wording, asked him): footer disclosure line (+ lib/markdown.ts DISCLOSURES), Terms of Use, Website Privacy Policy.
+- FAQPage JSON-LD on all 32 pages with visible FAQs (lib/seo.ts faqPage). Insights: "By Darsh Makim, CRPC®" byline → /about/, BlogPosting author; NO dates (he wants dates only with a regular posting schedule).
+- /our-consulting-team, /insights, /privacy → 308.
+- Search Console: sc-domain:pointoak.com (Darsh, verified via GoDaddy), analytics2@ = siteFullUser. Sitemap submitted 10-29 via API (am-hub scripts/one-off/pointoak-gsc-sitemap-2026-10-29.mts). Bing import still to do (needs a Microsoft login).
+- GA4: analytics@ can't be added (Google per-user account limit); analytics2@ is already Editor, nothing needed from Darsh.
