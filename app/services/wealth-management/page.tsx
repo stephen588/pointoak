@@ -12,8 +12,8 @@ import { BeliefsTrack } from "@/components/about/AboutGraphics";
 import ServiceExplorer from "@/components/wealth/ServiceExplorer";
 import { BeyondRings, CoordinationGraphic, OrbitHero, PromiseBand, StageCurve } from "@/components/wealth/WealthGraphics";
 import type { Block, Card, Section } from "@/lib/content";
-import { SITE_URL, breadcrumbs, getPage } from "@/lib/content";
-import { breadcrumbList, orgRef, social } from "@/lib/seo";
+import { SITE_URL, allFaqs, breadcrumbs, getPage } from "@/lib/content";
+import { breadcrumbList, faqPage, orgRef, social } from "@/lib/seo";
 import { pages } from "@/content";
 
 // Wealth Management has its own layout (Hannah 10-06: header-nav pages get unique heroes and
@@ -88,7 +88,8 @@ export default function WealthManagementPage() {
       areaServed: ["Washington, DC metro area", "United States"],
     },
     breadcrumbList(trail),
-  ];
+    faqPage(allFaqs(page)),
+  ].filter(Boolean);
 
   return (
     <main className="min-h-screen">

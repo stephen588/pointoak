@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { MapPin, Phone } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ConsultationForm from "@/components/ConsultationForm";
@@ -18,7 +18,6 @@ const ADDRESS = ["PointOak Retirement Advisors, LLC", "1751 Pinnacle Drive, Suit
 const MAPS = "https://maps.google.com/?q=1751+Pinnacle+Drive+Suite+600+McLean+VA+22102";
 const METHODS = [
   { Icon: Phone, label: "Phone", value: "(703) 595-4444", href: "tel:+17035954444" },
-  { Icon: Mail, label: "Email", value: "info@pointoak.com", href: "mailto:info@pointoak.com" },
   { Icon: MapPin, label: "Office", value: "McLean, Virginia", href: MAPS },
 ];
 

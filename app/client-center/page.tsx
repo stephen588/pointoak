@@ -25,7 +25,7 @@ const HEX = "polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%)";
 const MAPS = "https://maps.google.com/?q=1751+Pinnacle+Drive+Suite+600+McLean+VA+22102";
 const CONTACTS = [
   { Icon: Phone, label: "Phone", value: "(703) 595-4444", href: "tel:+17035954444" },
-  { Icon: Mail, label: "Email", value: "info@pointoak.com", href: "mailto:info@pointoak.com" },
+  { Icon: Mail, label: "Message", value: "Use our contact form", href: "/contact/" },
   { Icon: MapPin, label: "Office", value: "1751 Pinnacle Drive, Suite 600, McLean, VA 22102", href: MAPS },
 ];
 

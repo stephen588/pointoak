@@ -16,7 +16,7 @@ export function GET() {
     // Darsh's locked short description (developer handoff 2026-10-04), as in the site footer
     "> PointOak Retirement Advisors is an independent, fee-only fiduciary advisory firm providing private wealth management and retirement plan consulting to clients throughout the DC Metro area and nationwide. We offer personalized financial planning and investment management for individuals and families as well as comprehensive retirement plan consulting for businesses.",
     "",
-    "Investment advisory services offered through PointOak Retirement Advisors, LLC, an SEC-registered investment adviser (CRD# 314866, https://adviserinfo.sec.gov/firm/summary/314866). 1751 Pinnacle Drive, Suite 600, McLean, VA 22102. (703) 595-4444. info@pointoak.com.",
+    "Investment advisory services offered through PointOak Retirement Advisors, LLC, an SEC-registered investment adviser (CRD# 314866, https://adviserinfo.sec.gov/firm/summary/314866). 1751 Pinnacle Drive, Suite 600, McLean, VA 22102. (703) 595-4444.",
     "",
     "## The firm",
     ...at("/", "/about/", "/why-point-oak/", "/faq/", "/contact/"),

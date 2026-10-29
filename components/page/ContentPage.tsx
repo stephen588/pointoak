@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import Blocks from "./Blocks";
 import type { PageContent, Section } from "@/lib/content";
 import { SITE_URL, allFaqs, breadcrumbs } from "@/lib/content";
-import { OG_IMAGE, breadcrumbList, orgRef } from "@/lib/seo";
+import { ARTICLE_AUTHOR, OG_IMAGE, authorRef, breadcrumbList, faqPage, orgRef } from "@/lib/seo";
 import HeroGraphic from "./HeroGraphic";
 import { HexBadge, Milestones, milestonesFrom } from "./Diagrams";
 import { cardIcons } from "./cardIcon";
@@ -200,10 +200,10 @@ export default function ContentPage({ page }: { page: PageContent }) {
       about: orgRef,
     });
   }
-  // FAQs stay visible but carry no FAQPage markup (handoff PC07: no FAQ rich-result expectations).
-  void faqs;
+  const faqLd = faqPage(faqs);
+  if (faqLd) jsonLd.push(faqLd);
   if (page.kind === "article") {
-    // No author or dates: PC07 asks for real author/reviewer/date fields only, and none are supplied yet.
+    // Author = Darsh (10-29). No dates until there's a regular posting schedule (his call).
     jsonLd.push({
       "@context": "https://schema.org",
       "@type": "BlogPosting",
@@ -211,6 +211,7 @@ export default function ContentPage({ page }: { page: PageContent }) {
       description: page.meta.description ?? undefined,
       url: SITE_URL + page.route,
       mainEntityOfPage: SITE_URL + page.route,
+      author: authorRef,
       image: SITE_URL + OG_IMAGE.url,
       publisher: { ...orgRef, logo: `${SITE_URL}/images/pointoak-logo-square.png` },
     });
@@ -250,6 +251,14 @@ export default function ContentPage({ page }: { page: PageContent }) {
               <h1 className="text-white text-4xl md:text-5xl lg:text-[52px] font-bold leading-[1.15]">{page.hero.title}</h1>
               {page.hero.subtitle && (
                 <p className="text-white/95 text-xl md:text-2xl font-light leading-snug">{page.hero.subtitle}</p>
+              )}
+              {page.kind === "article" && (
+                <p className="text-white/80 text-base">
+                  By{" "}
+                  <Link href={ARTICLE_AUTHOR.href} className="text-white underline underline-offset-2 hover:text-white/80">
+                    {ARTICLE_AUTHOR.name}
+                  </Link>
+                </p>
               )}
               {page.kind !== "article" && <Blocks blocks={page.hero.blocks} tone="dark" />}
             </div>

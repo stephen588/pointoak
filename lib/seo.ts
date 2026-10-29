@@ -24,7 +24,6 @@ export const organization = {
   logo: `${SITE_URL}/images/pointoak-logo-square.png`,
   image: `${SITE_URL}${OG_IMAGE.url}`,
   telephone: "+1-703-595-4444",
-  email: "info@pointoak.com",
   address: {
     "@type": "PostalAddress",
     streetAddress: "1751 Pinnacle Drive, Suite 600",
@@ -66,6 +65,20 @@ export const darsh = {
   worksFor: orgRef,
   sameAs: ["https://adviserinfo.sec.gov/individual/summary/5043274"],
 };
+
+/** FAQPage for the Q&As shown on a page (Darsh OK'd FAQ markup 10-29). Null when the page has none. */
+export function faqPage(faqs: { q: string; a: string }[]) {
+  if (!faqs.length) return null;
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
+  };
+}
+
+/** Insights byline (Darsh 10-29: show him as the author; no publish dates for now). */
+export const ARTICLE_AUTHOR = { name: "Darsh Makim, CRPC®", href: "/about/" };
+export const authorRef = { "@type": "Person", "@id": DARSH_ID, name: "Darsh Makim", url: `${SITE_URL}/about/` };
 
 export function breadcrumbList(trail: { name: string; href: string }[]) {
   return {

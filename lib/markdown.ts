@@ -1,5 +1,6 @@
 import type { Block, PageContent, Seg } from "@/lib/content";
 import { SITE_URL } from "@/lib/content";
+import { ARTICLE_AUTHOR } from "@/lib/seo";
 
 // Markdown for AI agents (Accept: text/markdown, isitagentready.com "Markdown negotiation").
 // Same approved words as the HTML page, from the same content JSON; nothing is rewritten.
@@ -60,11 +61,12 @@ export function pageMarkdown(page: PageContent): string {
   const parts = [
     `# ${page.hero.title}`,
     ...(page.hero.subtitle ? [page.hero.subtitle] : []),
+    ...(page.kind === "article" ? [`By ${ARTICLE_AUTHOR.name}`] : []),
     ...blocks(page.hero.blocks),
     ...page.sections.flatMap((s) => [`## ${s.title}`, ...blocks(s.blocks)]),
     ...(page.sources?.length ? ["## Sources", page.sources.map((s) => `- [${s.label}](${s.href})`).join("\n")] : []),
     "---",
-    "PointOak Retirement Advisors, LLC · 1751 Pinnacle Drive, Suite 600, McLean, VA 22102 · (703) 595-4444 · info@pointoak.com",
+    "PointOak Retirement Advisors, LLC · 1751 Pinnacle Drive, Suite 600, McLean, VA 22102 · (703) 595-4444",
     `Source page: ${SITE_URL}${page.route}`,
     "## Important Disclosures",
     ...DISCLOSURES,

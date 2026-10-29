@@ -367,7 +367,7 @@ export default function Home() {
           <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-4 mt-6 text-left">
             {[
               { Icon: Phone, label: "Call Us", value: "(703) 595-4444", href: "tel:+17035954444" },
-              { Icon: Mail, label: "Email Us", value: "info@pointoak.com", href: "mailto:info@pointoak.com" },
+              { Icon: Mail, label: "Send a Message", value: "Use our contact form", href: "/contact/" },
               {
                 Icon: MapPin,
                 label: "Visit",

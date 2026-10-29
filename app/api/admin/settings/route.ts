@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@supabase/supabase-js";
 import { isAuthenticated } from "@/lib/admin-auth";
+import { ADVISOR_NOTIFY_EMAIL, INBOX_NOTIFY_EMAIL } from "@/lib/notify";
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -27,13 +28,13 @@ export async function GET(request: NextRequest) {
     }
 
     return NextResponse.json({
-      notifyEmails: data?.notify_emails || [process.env.NOTIFY_EMAIL || "info@pointoak.com"]
+      notifyEmails: data?.notify_emails || [ADVISOR_NOTIFY_EMAIL, INBOX_NOTIFY_EMAIL]
     });
   } catch (error) {
     console.error("Error fetching settings:", error);
     // Return default if table doesn't exist
     return NextResponse.json({
-      notifyEmails: [process.env.NOTIFY_EMAIL || "info@pointoak.com"]
+      notifyEmails: [ADVISOR_NOTIFY_EMAIL, INBOX_NOTIFY_EMAIL]
     });
   }
 }

@@ -31,10 +31,10 @@ const nextConfig = {
       // Pre-2026 Next.js routes
       r('/our-services', '/corporate-retirement-plans/'),
       r('/services', '/services/wealth-management/'),
-      r('/our-consulting-team', '/about/', false),
+      r('/our-consulting-team', '/about/'),
       // Articles live under /insights/<slug>/; the collection page stays at /resources/ (handoff PC06)
-      r('/insights', '/resources/', false),
-      r('/privacy', '/disclosures/privacy-statement.pdf', false),
+      r('/insights', '/resources/'),
+      r('/privacy', '/disclosures/privacy-statement.pdf'),
       // Old news/newsletter pages (in the Wayback Machine) -> Insights
       r('/news', '/resources/'),
       r('/newsletter', '/resources/'),

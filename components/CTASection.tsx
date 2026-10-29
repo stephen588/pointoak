@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useConsultationModal } from "./ConsultationModalProvider";
 
 export default function CTASection() {
@@ -54,7 +55,7 @@ export default function CTASection() {
             </div>
           </div>
 
-          {/* Email Us */}
+          {/* Send a Message (info@ removed from the site, Darsh 10-29) */}
           <div className="bg-white/[0.07] border border-white/10 rounded-lg p-8 flex items-center gap-5">
             <div className="w-16 h-16 rounded-full bg-white/10 flex items-center justify-center flex-shrink-0">
               <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -62,10 +63,10 @@ export default function CTASection() {
               </svg>
             </div>
             <div>
-              <div className="font-outfit text-white font-bold text-lg mb-1">Email Us</div>
-              <a href="mailto:info@pointoak.com" className="font-outfit text-white/80 text-base hover:text-white transition-colors">
-                info@pointoak.com
-              </a>
+              <div className="font-outfit text-white font-bold text-lg mb-1">Send a Message</div>
+              <Link href="/contact/" className="font-outfit text-white/80 text-base hover:text-white transition-colors">
+                Use our contact form
+              </Link>
             </div>
           </div>
 
