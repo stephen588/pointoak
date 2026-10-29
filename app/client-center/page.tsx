@@ -76,7 +76,7 @@ export default function ClientCenterPage() {
           <div className="lg:col-span-5">
             <h2 className="text-navy text-3xl md:text-4xl lg:text-[40px] font-light leading-tight">Contact our team</h2>
             <p className="mt-5 text-[#3D4B5C] text-[17px] leading-[1.7]">
-              Questions about your account, a login or a document? Call or email&nbsp;us.
+              Questions about your account, a login or a document? Call us or send a&nbsp;message.
             </p>
           </div>
           <ul className="lg:col-span-7 flex flex-col gap-3">
