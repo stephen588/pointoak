@@ -122,3 +122,4 @@ Rollback: production before 2026-10-26 launch = dpl_Dm4abnop6rXFkpz3Gc7FrpfzxWZw
 - lib/notify.ts looksLikeSolicitation(): phrases + press domains → subject "[Possible sales pitch] …" + metadata.possible_solicitation. Never suppresses. Tested on the Newsweek text + 7 realistic prospect messages (no false positives).
 - CAPTCHA (Turnstile) not used: our Cloudflare token is zone-only, can't create widgets, and a human-typed pitch passes any CAPTCHA anyway.
 - Notification From = "PointOak Retirement Advisors <michaels@tkxmedia.com>" (GMAIL_SEND_AS), visible to Darsh.
+- LIVE 11-03 15:43Z: form-spam pushed to `preview` (c30c576) → dpl_3SVkxD64izP4T65uVoruqV8czSMG. Rollback = dpl_6iqWhEMKnsBz1fj7Hsq84PNd2wmr. Verified live: 47 pages 200, curl POST → 403, real Chrome (ads-browser) → normal 400 validation, vendor note shows on "Something else". No real submission sent.
