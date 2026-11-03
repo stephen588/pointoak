@@ -45,4 +45,7 @@ const nextConfig = {
   },
 };
 
-module.exports = nextConfig;
+// Vercel BotID (invisible bot check on the contact form, Darsh 11-03): adds its proxy rewrites.
+const { withBotId } = require('botid/next/config');
+
+module.exports = withBotId(nextConfig);

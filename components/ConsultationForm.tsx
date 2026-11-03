@@ -251,6 +251,12 @@ export default function ConsultationForm({
               </span>
             </label>
           ))}
+          {a.need === "other" && (
+            <p className="text-text-gray text-xs leading-relaxed pt-1">
+              This form is for people interested in working with PointOak. Sales and vendor
+              solicitations sent here won&apos;t receive a&nbsp;reply.
+            </p>
+          )}
         </fieldset>
       )}
 

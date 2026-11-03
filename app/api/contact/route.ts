@@ -1,7 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
+import { checkBotId } from "botid/server";
 import { sendEmail, buildConsultationNotificationEmail } from "@/lib/mailer";
 import { ASSET_OPTIONS, NEED_OPTIONS, PLAN_ASSET_OPTIONS, ROUTE_LABEL, calendarUrl, labelFor, routeLead, type LeadAnswers } from "@/lib/leadRouting";
-import { notifyEmailFor } from "@/lib/notify";
+import { looksLikeSolicitation, notifyEmailFor } from "@/lib/notify";
 
 const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL!;
 const SUPABASE_SERVICE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY!;
@@ -9,6 +10,22 @@ const SITE_ID = process.env.SITE_ID || "pointoak";
 
 export async function POST(request: NextRequest) {
   try {
+    // Vercel BotID: automated submissions are refused before anything is saved or emailed.
+    // Fails open: if the check itself errors (outside Vercel, or BotID unavailable), the lead still goes through.
+    let isBot = false;
+    try {
+      isBot = (await checkBotId()).isBot;
+    } catch (err) {
+      console.warn("Contact form: BotID check unavailable, allowing submission:", err instanceof Error ? err.message : err);
+    }
+    if (isBot) {
+      console.warn("Contact form: blocked by BotID");
+      return NextResponse.json(
+        { success: false, error: "We couldn't send your request. Please call us at (703) 595-4444." },
+        { status: 403 }
+      );
+    }
+
     const body = await request.json();
     const answers = body as LeadAnswers & { website?: string; subject?: string; helpWith?: string[]; timeline?: string; assets?: string };
     const { name, email, message } = answers;
@@ -27,6 +44,8 @@ export async function POST(request: NextRequest) {
     // Qualifying form (lib/leadRouting.ts): the server decides the route.
     const { route, reason } = routeLead(answers);
     const notifyTo = notifyEmailFor(route);
+    // Sales pitches still arrive (nothing real gets lost), tagged in the subject (Darsh 11-03).
+    const pitch = looksLikeSolicitation(answers);
     const needLabel = labelFor(NEED_OPTIONS, answers.need);
     const assetsLabel = labelFor(ASSET_OPTIONS, answers.assets);
     const details: [string, string | undefined][] = [
@@ -71,6 +90,7 @@ export async function POST(request: NextRequest) {
           metadata: {
             route,
             route_reason: reason,
+            ...(pitch && { possible_solicitation: true }),
             need: answers.need ?? null,
             ...(assets && { investable_assets: assets }),
             ...(answers.prompt && { prompted_by: answers.prompt }),
@@ -117,7 +137,7 @@ export async function POST(request: NextRequest) {
 
       await sendEmail({
         to: notifyTo,
-        subject: `${route === "inbox" ? "Inbox" : "Calendar"} lead: ${name} — ${subjectLine}`,
+        subject: `${pitch ? "[Possible sales pitch] " : ""}${route === "inbox" ? "Inbox" : "Calendar"} lead: ${name} — ${subjectLine}`,
         htmlBody,
         replyTo: email,
       });
